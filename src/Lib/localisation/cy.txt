@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	Nid yw MCEBuddy yn defnyddio'r defnyddiwr yn cofnodi ar hyn o bryd mewn i gysylltu â rhwydwaith cyfranddaliadau, mae'n defnyddio cyfrif gwasanaeth ei hun.  Gwnewch yn siŵr i nodi'r cysylltiad â'r defnyddiwr wybodaeth (MCEBuddy gydag eicon allweddol)
+Connection Reminder	Cysylltiad â'r nodyn atgoffa
+Description	Disgrifiad
+Path	Llwybr
+is invalid	Mae'n annilys
+Invalid Path	Llwybr annilys
+Please supply a task name	Rhowch enw tasg
+No name supplied	Does dim enw a roddwyd
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	Rhowch eich cod 3 digid yr iaith o'r trac sain neu dethol <Default>neu <Original>
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	Y digid 3 Cod ISO ar gyfer y language\r\nMake dan sylw sy'n siŵr bod hyn yn cyfateb i'r cod iaith ar gyfer y trac sain yn y recording.\r\nTo gwreiddiol yn cael y cod iaith ar gyfer y traciau sain yn y ffeil wedi'i chofnodi gwreiddiol, ychwanegu'r file\r\nto y ciw a hawl cliciwch arno. Bydd naid ffenestr yn agor sy'n dangos y sain details\r\nwhich gynnwys y codau iaith ar gyfer pob trac sain.
+Invalid Language Code	Cod iaith annilys
+No destination directory provided, converted file will be placed in original video directory	Darparu unrhyw cyfeiriadur derbyn, gosodir ffeil wedi eu trosi yn cyfeiriadur fideo gwreiddiol
+A task name or section	Enw'r dasg neu'r adran
+already exists\n\rPlease use another name	eisoes mae exists\n\rPlease yn defnyddio enw arall
+Duplicate Name	Enw dyblyg
+Engine	Injan
+Tasks	Tasgau
+Profile	Proffil
+disposing	cael gwared ar
+Task name	Enw'r dasg
+Give a unique name to this task	Rhowch enw unigryw i'r dasg hon
+Gives a short description for the selection conversion profile	Rhoi disgrifiad byr ar gyfer y proffil trosi dethol
+Click to select destination folder	Cliciwch i ddewis ffolder gyrchfan
+Destination	Cyrchfan
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	Dewiswch y cyfeiriadur lle y bydd y ffeil wedi eu trosi placed.\r\nLeave hwn wag i gadw'r ffeil wedi'u haddasu yn y cyfeiriadur un â'r gwreiddiol fideo.
+Max width	Lled Max
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	Bydd hyn yn cyfyngu uchafswm lled (mewn picseli) o'r fideo i'r file.\r\nTIP wedi eu trosi: Nid yw'n gymwys os yw'r ffeil wreiddiol wedi ei lled yn llai na hwn number.\r\nIf chi am gadw eich symudiad cydraniad fideo gwreiddiol y llithrydd holl ffordd i'r dde.
+Quality	Ansawdd
+Ad remover	Remover OC
+None	Dim
+Get series details from Internet	Gael manylion cyfres o'r rhyngrwyd
+Download additional details about the movie or series from the internet	Lawrlwytho manylion ychwanegol am y fideo neu gyfres o'r rhyngrwyd
+File name match	Cyfatebol enw ffeil
+Recording title match	Cofnodi teitl cyfatebol
+Cancel	Canslo
+OK	iawn
+Rename without converting	Ailenwi heb droi
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	Gwiriwch yr opsiwn hwn dim ond ailenwi a copïo'r ffeiliau gwreiddiol i'r folder.\r\nWhen cyrchfan gwirio, trosi, tocio, prosesu sain/fideo a masnachol ei symud na fydd available.\r\n\r\nNOTE: swyddogaethau eraill fel paru hidlyddion, wrthi'n echdynnu is-deitlau, arbed metadata a synhwyro masnachol (arbed y ffeil www.COE.INT/EDL) \r\nwill dal i fod ar gael gyda hwn checked.\r\nIf opsiwn chi am symud yn lle copi, gwirio'r sgip gopïo opsiwn gwreiddiol mewn lleoliadau arbenigol ar dudalen neu'r select\r\nDelete gwreiddiol y ffeil hon yn y dudalen lleoliadau prif.
+Rename and sort by video information	Ailenwi a didoli gan gwybodaeth fideo
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	Ailenwi'r ffeil wedi'u haddasu ac yn gosod mewn cyfeiriadur newydd seiliedig ar y wybodaeth yn dangos/gyfres pan available\r\n (e.e. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	Rhowch enw defnyddiwr a chyfrinair i ffolderi mynediad sydd ar yriant rhwydwaith neu gyfrifiadur gwahanol
+Organize by seasons	Threfnu gan tymhorau
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	Trefnu'r ffolderi gan Showname a'r tymor pan fydd ar gael (Media Center/XBMC/Plex gydnaws Confensiwn enwi) \r\n (e.e. Showname\\Season XX\\SXXEYY-episod enw)
+Audio language	Iaith sain
+Advanced Settings	Mwy o osodiadau
+General Settings	Gosodiadau cyffredinol
+Conversion Task	Trosi y dasg
+Password	Cyfrinair
+Confirm Password	Cadarnhau'r cyfrinair
+Domain / computer name	Parth / enw'r cyfrifiadur
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	Rhowch <Optional>Os yw defnyddio gyriant rhwydwaith neu'r cyfrifiadur pell yn rhan o barth i authentication.\r\nDo nid Rhowch eich grŵp gwaith yma. Hyn yn gadael yn wag os rydych chi'n defnyddio grŵp gwaith.
+User name	Enw defnyddiwr
+Enter the username to access the remote computer or network drive	Rhowch yr enw defnyddiwr i gael mynediad at y gyriant rhwydwaith neu'r cyfrifiadur pell
+Enter the password to access the remote computer or network drive	Rhowch y cyfrinair i gael gafael ar y gyriant rhwydwaith neu'r cyfrifiadur pell
+Network Connection User Credentials	Manylion defnyddiwr cysylltiad rhwydwaith
+Password Mismatch	Diffyg cyfatebiaeth cyfrinair
+Passwords do not match, please reenter the passwords	Nid yw cyfateb cyfrineiriau, nodwch os gwelwch yn dda'r cyfrineiriau
+Hour	Awr
+Minute	Munud
+Wake	Deffro
+Start	Dechrau
+Resume	Ailgydio
+Pause	Rhewi
+Stop	Stopio
+Language	Iaith
+Pause conversion tasks	Tasgau trosi rhewi
+Resume conversion tasks	Ailgydio yn y tasgau trosi
+Please enter a valid time	Nodwch amser ddilys
+Invalid Time	Amser annilys
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	Mae amser stopio ar ôl amser cychwyn. Gan dybio yw'r amser stopio yn ystod y diwrnod nesaf, mae hynny'n gywir?
+Time Check	Gwirio amser
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	Dewiswch y dewis hwn dim ond os yw wedi ei drosi MCEBuddy eich ffeiliau'n ddibynadwy ar gyfer cyfnod derbyniol o amser. Ydych chi am MCEBuddy i ddileu pob ffeil gwreiddiol unwaith y bydd wedi cael ei newid?
+Confirm delete originals?	Cadarnhau dileu copïau gwreiddiol?
+MCEBuddy will monitor these directories for video files to convert automatically	Bydd MCEBuddy yn monitro cyfeirlyfrau hyn ar gyfer ffeiliau fideo i drosi yn awtomatig
+Conversion tasks	Tasgau trosi
+Delete original file	Dileu'r ffeil gwreiddiol
+Deletes the original recording after a successful conversion	Dileu'r cofnodi gwreiddiol ar ôl troi'n llwyddiannus
+Min age before conversion (hours)	Min oed cyn troi'n organig (oriau)
+Minimum hours to wait before converting each file after the file is added to the queue	Isafswm oriau i aros cyn troi pob ffeil ar ôl i'r ffeil yn cael ei ychwanegu at y ciw
+Use this to change the language of the text on the screen	Ddefnyddio hwn i newid yr iaith o'r testun ar y sgrin
+Concurrent conversions	Trawsnewidiadau cydredol
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	Gall nifer o addasiadau ar y pryd MCEBuddy start\r\nNOTE: angen symiau mawr o amser gofod a prosesydd yn rhydd ar y ddisg ar gyfer mwy na 2 addasiadau ar y pryd
+Logging level	Lefel logio
+Error	Gwall
+Warning	Rhybudd
+Information	Gwybodaeth
+Debug	Difa chwilod
+Log conversion jobs	Fewngofnodi trosi swyddi
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	Cadw ffeil log ar gyfer pob troi yn y \'logs\' cyfeiriadur lle lle y MCEBuddy Mae installed\r\n (e.e. Files\\MCEBuddy2x\\logs C:\\Program)
+Allow sleep	Caniatáu i gysgu
+If unchecked, it prevents the system from entering sleep while converting	Os yw'n ddirwystr, yn atal y system rhag mynd i gysgu tra'n troi
+Stop at	Stopio yn
+No new conversions would be started after this time	Byddai unrhyw addasiadau newydd yn dechrau ar ôl y tro hwn
+minute	munud
+hour	awr
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	Os MCEBuddy bydd y system o'r sleep\r\nat yn deffro yr amser dechrau penodedig a dyddiau'r wythnos wedi galluogi eu gwirio.
+Start at	Yn dechrau ar
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy Bydd dechrau newydd trawsnewidiadau rhwng dechrau a stopio time.\r\n\r\nThe dechrau bydd amser yn cael ei ddefnyddio ar gyfer y diwrnod yr wythnos wedi'i alluogi, defnyddio whereas\r\nthe diwedd bydd amser naill ai ar gyfer yr un or\r\nfor dydd y diwrnod nesaf os yw'r amser diwedd ar ôl yr amser dechrau.
+Delete	Dileu
+Add	Ychwanegu
+Change	Newid
+Archive original file	Ffeil wreiddiol archif
+Domain name	Enw parth
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	Stopio'r tasgau monitro ac addasu ac agor Tudalen ffurfweddu MCEBuddy
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	Creu ffolder galw \'MCEBuddyArchive\' lle y ffeil wreiddiol y mae located\r\nand yn symud y ffeil orginal yn y cyfeiriadur hwn ar ôl i newid enw'r ffolder conversion.\r\n\r\nThis llwyddiannus a'r lleoliad yn y dudalen gosodiadau'r System.
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	Difa chwilod-boncyffion manwl, yn helpu hybrin trosi problems\r\nInformation-boncyffion gwybodaeth sylfaenol am conversion\r\nWarning-log materion posibl neu fethiannau tyngedfennol only\r\nError-log fethiannau tyngedfennol yn unig
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	Dewis y proffil trosi sy'n gysylltiedig â'r dasg hon. Mae'r proffil trosi yn cynrychioli y fformat allbwn a'r safon ar gyfer ansawdd file.\r\nHigher droswyd trawsnewidiadau yn cymryd mwy o amser i droi. Reccomended diofyn: MP4 o ansawdd uchel neu MP4 Normal.\r\n\r\nTIP: gyfeirio at y llyfryn MCEBuddy ar gyfer paramedrau datblygedig i addasu proffiliau troi'n organig neu i greu eich hun proffiliau trosi
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	Dewiswch y rhaglen MCEBuddy bydd defnyddio gael gwared ar unrhyw hysbysebion tra'n troi'r video.\r\nSet i 'Dim' gadael'r hysbysebion yn y video.\r\n\r\nTIP wedi eu trosi: I ddefnyddio ShowAnalyzer yn lle Comskip, croeso i chi lawrlwytho a gosod ShowAnalyzer.\r\nShow Analyzer Fersiwn 1.0 a mwy o cefnogi.
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	Ei ddefnyddio i newid ansawdd fideo o'r ffeil wedi'i addasu, sy'n arferol yw nifer uwch 1.\r\nA bydd yn gwella ansawdd ond bydd yn cymryd mwy o amser ar gyfer nifer llai conversion.\r\nA bydd lleihau ansawdd ond cyflymu'r gwaith trosi.
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Rhowch patrwm i baru hadalw am y dasg hon (e.e. troi holl ffeiliau sy'n diweddu gyda patrwm.wtv)\r\nPrefix â *.wtv ~ i anwybyddu'r gêm (e.e. *. *; ~*.wtv bydd prosesu holl ffeiliau heblaw'r rhai'n diweddu gyda.wtv)\r\nSeparate patrymau lluosog gyda; (e.e. *.wtv; ncis *; ~ ncis miami *) bydd prosesu holl ffeiliau o'r.wtv a'r holl ffeiliau sy'n dechrau gyda ncis ond nid y rhai'n dechrau gyda ncis miami\r\n\r\nYou gall defnyddio mynegiadau rheolaidd i gyfateb â'r patrwm gan ddechrau gyda regex:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Rhowch y patrwm i gyfateb â'r teitlau sioe/gyfres ar gyfer y dasg hon (e.e. Simpson * bydd trosi holl ffeiliau'n teitl sioe gan ddechrau gyda Simpson) patrwm \r\nPrefix â ~ anwybyddu'r gêm (e.e. *; ~ Simpson * bydd prosesu holl deitlau sioe heblaw'r rhai sy'n dechrau gyda Simpson) \r\nSeparate batrymau lluosog gyda; (e.e. Simpson *;House*) neu (e.e. Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nYou gallwch ddefnyddio mynegiadau rheolaidd i gyfateb â'r patrwm gan ddechrau gyda regex:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	Gellir defnyddio hyn i ddiystyru diofyn bydd iaith sain pan fo ieithoedd sain lluosog yn cael recording.\r\nTo y rhestr o ieithoedd sain recordiad, De-gliciwch y ffeil yn y ciw a dewiswch MediaInfo.\r\n\r\n <Default>yn ceisio cadw holl traciau sain os cefnogi neu gadewch y encoder ddewis y <Original>track\r\n sain diofyn, os yw ar gael, bydd defnyddio'r iaith cofnodi [nad ydynt yn rhai alwyd] gwreiddiol
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	Rhowch '[fideo]' neu gadewch yn wag i droi pob patrwm files\r\nEnter fideo i baru hadalw'r lleoliad hwn (e.e. troi holl ffeiliau sy'n diweddu gyda patrwm.wtv)\r\nPrefix â *.wtv ~ i anwybyddu'r gêm (e.e. *. *; ~*.wtv bydd prosesu holl ffeiliau heblaw'r rhai'n diweddu gyda.wtv)\r\nSeparate patrymau lluosog gyda; (e.e. *.wtv; ncis *; ~ ncis miami *) bydd prosesu holl ffeiliau o'r.wtv a'r holl ffeiliau sy'n dechrau gyda ncis ond nid y rhai gan ddechrau gyda ncis miami
+MCEBuddy Settings	Lleoliadau MCEBuddy
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	Nid yw MCEBuddy yn defnyddio'r defnyddiwr yn cofnodi ar hyn o bryd mewn i gysylltu â rhwydwaith cyfranddaliadau, mae'n defnyddio cyfrif gwasanaeth ei hun.  Gwnewch yn siŵr i nodi'r cysylltiad â'r defnyddiwr wybodaeth [MCEBuddy gydag eicon allweddol]
+Please supply a source name	Rhowch enw Ffynhonnell
+Please supply a search path name	Rhowch enw'r llwybr chwilio
+A source name or section	Enw ffynhonnell neu adran
+already exists. Please use another name	eisoes yn bodoli. Defnyddiwch enw arall
+Monitor name	Enw y monitor
+Give this a location a unique name	Hyn yn rhoi lleoliad enw unigryw
+Monitor path	Llwybr y monitor
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	Dewiswch y cyfeiriadur y bydd MCEBuddy yn ei fonitro yn y cefndir ar gyfer newydd ffeiliau fideo i drosi yn awtomatig
+Click to select the folder to monitor	Cliciwch i ddewis y ffolder i fonitro
+Search pattern	Patrwm chwilio
+SourceForm	SourceForm
+Monitor Location	Lleoliad y monitor
+Normal	Normal
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: cysylltiad â'r injan pipeProxy gwall
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: Does dim modd creu'r bibell i MCEBuddy gwasanaeth
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	Dydy'r gwasanaeth MCEBuddy. Ewch i ddechrau o'r panel rheoli Windows neu Gwiriwch cysylltiad â'r injan.
+Announcement	Cyhoeddiad
+New version 	Fersiwn newydd 
+available	ar gael
+New BETA version 	Fersiwn BETA newydd 
+Click here to download new version of MCEBuddy	Cliciwch yma i lawrlwytho'r fersiwn newydd o'r MCEBuddy
+Click here to open link	Cliciwch yma i agor dolen
+Idle	Segur
+Closing	Cau
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI: Does dim modd diweddaru tasgau
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: Does dim modd cychwyn gwasanaeth MCEBuddy
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: Does dim modd atal gwasanaeth MCEBuddy
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI: Does dim modd canslo'r swydd
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	Rhybudd: bydd ar gael ffeiliau rhwydweithiol sy'n defnyddio'r manylion mewngofnodi y gwasanaeth MCEBuddy, nid yw'r defnyddiwr mewngofnodi ar hyn o bryd. Eich hun gallwch nodi manylion y rhwydwaith o'r gosodiadau-> dudalen gosodiadau arbenigwr mewn MCEBuddy.
+Credential Warning	Rhybudd manylyn adnabod
+Status	Statws
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI: Does dim modd ychwanegu swydd
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: Wedi methu cael statws gweithredol bibell
+The conversions must be stopped to change settings. Stop the conversions?	Rhaid stopio'r trawsnewidiadau i newid y gosodiadau. Stopio'r trawsnewidiadau?
+Stop Engine	Stopio injan
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI: Does dim modd atal gwasanaeth MCEBuddy o cliciwch gosodiadau
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: Methu â rescan ffeiliau
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: Does dim modd agor dolen
+Close	Gau
+Close this window, MCEBuddy will keep running in the background	Cau'r ffenestr, yn dal i redeg MCEBuddy yn y cefndir
+If you like MCEBuddy, please click here to Donate - THANKS	Os ydych yn hoffi MCEBuddy, os gwelwch yn dda cliciwch yma i Donate-Diolch
+Click here to like MCEBuddy on facebook	Cliciwch yma i MCEBuddy yn hoffi ar facebook
+Click here to open MCEBuddy website	Cliciwch yma i agor gwefan MCEBuddy
+Rescan	Ailsganio
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	Lluoedd y MCEBuddy i recheck y lleoliadau monitro ar gyfer newydd ffeiliau fideo i drosi
+Monitor locations	Lleoliadau monitro
+Settings	Gosodiadau
+Select the file(s) in the queue to delete	Dewiswch y ffeil (iau) yn y ciw i ddileu
+Manually add video file(s) to the queue to convert	Ychwanegu ffeil fideo i'r ciw i droi eich hun
+Start the MCEBuddy monitor and conversion tasks	Dechrau'r tasgau monitro ac addasu MCEBuddy
+Stop the MCEBuddy monitor and conversion tasks	Stopio'r tasgau monitro ac addasu MCEBuddy
+There is a new version!	Mae'n fersiwn newydd!
+High	Uchel
+Low	Isel
+Priority	Blaenoriaeth
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	Blaenoriaeth uchel-drosi gynt ond efallai y bydd yn gwneud ceisiadau eraill rhedeg flaenoriaeth unresponsive\r\nLow-yn drosi yn y cefndir, ond llai o ymyrraeth â'r ceisiadau eraill rhedeg
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	Tasg Mae templed trosi sy'n cynnwys proffil trosi ac amrywiol parameters.\r\nEach trosi eraill bydd ychwanegu at y ciw ffeil gael ei brosesu a'i throsi gan bob un o'r hyn tasks.\r\nRefer i'r canllaw MCEBuddy am fwy o fanylion ar sut y mae'r tasgau yn gweithio.
+Getting started	Dechrau arni
+Click here for MCEBuddy guide	Cliciwch yma am ganllaw MCEBuddy
+Logs	Logiau
+Click to open log folder	Cliciwch i agor ffolder log
+MCEBuddy Status	Statws MCEBuddy
+add	ychwanegu
+delete	dileu
+paypal-donate	PayPal-rhoi organau
+stop	stopio
+OUTPUT: ConsoleOuput received NULL data	ALLBWN: Derbyniodd ConsoleOuput data nwl
+hours	o'r gloch
+minutes	munud
+second	ail
+seconds	eiliad
+Starting	Dechrau
+Comskip advertisement scan - Pass 1	Comskip hysbyseb sgan-1 basio
+Comskip advertisement scan - Pass 2	Comskip hysbyseb sgan-2 basio
+Cutting commercials from video	Hysbysebion trawsbynciol o fideo
+Cutting commercials from video - segment 	Hysbysebion trawsbynciol o fideo-rannu 
+Merging commercial free segments into new video	Uno segmentau rhydd masnachol i fideo newydd
+Moving converted file to destination	Symud ffeil wedi eu trosi i'r gyrchfan
+Checking for disk space	Chwilio am le ar y ddisg
+Getting show information and banner from Internet sources	Cael gwybodaeth sioe a baner o ffynonellau ar y rhyngrwyd
+Copying source file to working directory	Wrthi'n copïo ffeil ffynhonnell i'r cyfeiriadur gweithio
+Remuxing recording	Cofnodi Remuxing
+ShowAnalyzer advertisement scan	ShowAnalyzer hysbyseb sgan
+Comskip advertisement scan	Comskip hysbyseb sgan
+Analyzing video information	Wrthi'n dadansoddi gwybodaeth fideo
+Converting	Trosi
+Removing commercials	Cael gwared ar hysbysebion
+Writing show information	Ysgrifennu yn dangos gwybodaeth
+Renaming file using show information	Ailenwi ffeil sy'n defnyddio'r wybodaeth yn dangos
+Success - All done!	Llwyddiant-gyd wneud!
+Muxing streams	Muxing ffrydiau
+Fallback remux	Remux wrth gefn
+Correcting audio delay	Cywiro oedi sain
+Converting video file - Pass 1	Drosi'r ffeil fideo-1 basio
+Converting video file - Pass 2	Drosi'r ffeil fideo-2 basio
+Converting video file	Drosi'r ffeil fideo
+Audio Track	Trac Sain
+Impaired	Â nam ar eu
+Channels	Sianeli
+Codec	Codec
+Video	Fideo
+Duration	Para am
+Height	Uchder
+Width	Lled
+Audio	Sain
+Name	Enw
+Subtitle	Isdeitl
+Volume	Cyfrol
+Enable custom file renaming	Galluogi ailenwi ffeil personol
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	Galluogi i ymuno â'r patrwm personol i ailenwi wedi eu trosi ffeiliau a ffolderi. Rhowch y patrwm personol yn y blwch below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname%-S % tymor %##E % episod % # #-% episodename %-%airyear%_%airmonth%_%airday%\r\n\r\nWill cynnyrch: \r\nTVShows\CSI\Season 1\CSI-S01E02-gorau o amseroedd-2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname%-\r\n Recording\Movies\Star cynnyrch (ar gyfer fideo) S%season%##E%episode%##>-Converted\r\n\r\nWill trosi rhyfeloedd. <ext>\r\nOR (ar gyfer ffilmiau di) \r\n Recording\TVShows\CSI\Season 1\CSI-S01E02-trosi.\r\n\r\nRefer <ext>i'r MCEBuddy yn uwch dogfennaeth am restr o'r holl Orchmynion patrwm.
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	Heb ganfod ShowAnalyzer. \nPlease lawrlwytho a gosod ShowAnalyzer.
+ShowAnalyzer Missing	ShowAnalyzer sydd ar goll
+Invalid language code, reverting to <Default> language	Cod iaith annilys, troi yn ôl i'r iaith <Default>
+Cut start	Dechrau torri
+Cut end	Torri diwedd
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	Mae hwn yn nodi nifer yr eiliadau i dorri o'r dechrau o'r cofnodi (cyn tynnu'r hysbysebion)
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	Mae hwn yn nodi nifer yr eiliadau i dorri o'r diwedd o'r cofnodi (cyn tynnu'r hysbysebion)
+Send an eMail after each conversion.	Anfon e-bost ar ôl pob trosi.
+Send eMail	Anfon e-bost
+SMTP Server Name	Enw'r gweinydd SMTP
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	Rhowch y here\r\ne.g cyfeiriad gweinydd e-bost (SMTP) sy'n ymadael. SMTP.gmail.com
+Port	Port
+Enter the SMTP server port	Rhowch y Porth y gweinydd SMTP
+Use SSL	Defnyddio SSL
+Check this if you SMTP server uses SSL	Gwiriwch hyn os yw defnyddio gweinydd gennych yn SMTP SSL
+e-Mail Settings	Gosodiadau e-bost
+From <e-Mail>	Gan <e-Mail>
+Enter the senders (From) eMail address here	Nodwch yr anfonwyr (o) cyfeiriad e-bost yma
+To <e-Mails>	I <e-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	Rhowch y derbynwyr (i) e-bost cyfeiriad here.\r\nSeparate derbynwyr lluosog gyda hanner colon (;)
+Send eMail on successful conversion	Anfon e-bost ar dröedigaeth llwyddiannus
+Send eMail on failed conversion	Anfon e-bost ar dröedigaeth wedi methu
+Send eMail on cancelled conversion	Anfon e-bost ar dröedigaeth wedi'u canslo
+Send eMail on adding a conversion to the queue	Anfon e-bost ar ychwanegu tröedigaeth at y ciw
+Please enter a valid server address	Rhowch eich cyfeiriad gweinydd dilys
+Invalid SMTP Server	Gweinydd SMTP annilys
+Please enter a valid server port	Rhowch eich Porth gweinydd dilys
+Invalid SMTP Port	Porth SMTP annilys
+Please enter a valid From eMail address	Rhowch dilys o'r cyfeiriad e-bost
+Invalid eMail Address	E-bost annilys cyfeiriad
+Please enter valid To eMail addresses	Rhowch dilys i cyfeiriadau ebost
+Username	Enw defnyddiwr
+<Optional> Enter the username for the eMail server authentication	<Optional>Rhowch yr enw defnyddiwr ar gyfer y dilysiad gweinydd e-bost
+<Optional> Enter the password for the eMail server authentication	<Optional>Rhowch y cyfrinair ar gyfer y dilysu gweinydd e-bost
+MCEBuddy unable to download series information	Does dim modd llwytho gwybodaeth gyfres MCEBuddy
+MCEBuddy successfully converted a video	MCEBuddy llwyddiannus yn trosi fideo
+Source Video	Fideo Ffynhonnell
+Converted Video	Fideo wedi'u haddasu
+Converted At	Trosi yn
+MCEBuddy failed to converted a video	MCEBuddy wedi methu trosi fideo
+Failed At	Wedi methu ar
+MCEBuddy cancelled a video conversion	Canslo MCEBuddy tröedigaeth fideo
+Cancelled At	Canslo ar
+Working	Gweithio
+Test	gêm brawf
+Testing	Profion
+Click this button to test the eMail server settings	Cliciwch y botwm hwn i brofi gosodiadau'r gweinydd e-bost
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	Bydd MCEBuddy yn anfon e-bost i brofi'r settings.\r\nThis gweinydd gall gymryd hyd at 60 seconds.\r\nMCEBuddy gall fod yn anymatebol yn ystod y cyfnod hwn.
+Test eMail	E-bost prawf
+MCEBuddy Test eMail	Prawf MCEBuddy e-bost
+MCEBuddy - Have a great day!	MCEBuddy-diwrnod mawr!
+Send eMail test successful	Anfon e-bost prawf yn llwyddiannus
+Send eMail test failed! Please check your settings and internet connectivity	Anfon e-bost prawf wedi methu! Gwiriwch eich gosodiadau a'r cysylltedd rhyngrwyd
+Test eMail Success	E-bost prawf llwyddiant
+Test eMail Failed	E-bost prawf wedi methu
+Send eMail on start of conversion	Anfon e-bost ar ddechrau troi'n organig
+MCEBuddy started a video conversion	MCEBuddy wedi dechrau tröedigaeth fideo
+Conversion Started At	Ddechrau troi'n organig yn
+Yes (Comskip)	Ie (Comskip)
+Yes (ShowAnalyzer)	Ie (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	Atleast rhaid galluogi trosi un dasg
+Disable	Analluogi
+Enable	Galluogi
+Rename	Ailenwi
+Move	Symud
+Up	I fyny
+Down	I lawr
+Slow Remuxing	Remuxing araf
+Extracting closed captions	Wrthi'n echdynnu capsiynau caeëdig
+Validating closed captions	Dilysu capsiynau caeëdig
+Extracting subtitles	Wrthi'n echdynnu isdeitlau
+Trimming closed captions	Capsiynau tocio ar gau
+Extract subtitles and closed captions	Echdynnu isdeitlau a capsiynau caeëdig
+Field	Maes
+Channel	sianel
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	Galluogi hyn i echdynnu capsiynau ar gau, arbedir isdeitlau a Teletestun from\r\nWTV, DVR-MS, TS, MP4, MKV ac eraill files.\r\n\r\nIt chymorth fel ffeil Isdeitl (SRT).
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	Galluogi i osod mwy o ddewisiadau ar gyfer cau capsiynau extraction\r\nField-1 neu 2\r\nChannel-1 neu 2\r\n\r\nDefault hyn: 1 cae, sianel 1
+Subtitle offset	Wrthbwyso Isdeitl
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	Nodwch nifer yr eiliad (+ ve /-ve) i addasu'r cysoni isdeitlau gyda fideo
+Re-ReMuxing due to audio error	Addysg grefyddol-ReMuxing oherwydd gwall sain
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	Achub y poster a dangos gwybodaeth (metadata) mewn ffeil NFO gydnaws MC/XBMC (fformat XML)
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	Ticiwch y blwch hwn i arbed yr wybodaeth sioe (metadata) yn y file.\r\nThis wedi eu trosi yn unig gwaith ar gyfer ffeiliau sy'n cefnogi Tagiau metadata yn hoffi MP4, MKV, WTV etc.\r\n\r\nNOTE: dad-diciwch y blwch hwn os rydych chi yn wynebu problemau gyda rhai dyfeisiau megis TV hŷn sy'n darllen broblem metadata.
+Atleast one day of the week must be enabled	Un diwrnod yr wythnos Rhaid galluogi Atleast
+Invalid Days of Week	Diwrnod wythnos annilys
+Invalid day of week found in configuration file	Ddiwrnod yr wythnos mewn ffeil ffurfweddu annilys
+Scheduling	Amserlennu
+Remuxing to	Remuxing i
+Part	Rhan
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	Gweddill eich llygoden ar unrhyw botwm, blwch neu eitem i gael helpu gwib ar it.\n\nFor rhagor o wybodaeth ar sut i ddefnyddio, datrys problemau neu gael cymorth ar gyfer MCEBuddy cliciwch ar y ddolen < Dechrau Arni > ar y corner.\n\nDonations cywir uchaf Mae bob amser croeso:) Mwynhau! \n\n-Ramit, Derek & gwyddau
+Welcome to MCEBuddy	Croeso i MCEBuddy
+Multichannel audio	Sain amlsianel
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	Mae gwiriad i ganiatáu sain aml-sianel os Cefnoga'r fideo ffynhonnell it.\r\nBy diofyn y sain yn gyfyngedig i sianeli 2 (stereo).
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	\R\nWhen cywasgu (DRC) amrediad dynamig y ffynhonnell yw sain AC3, gan alluogi DRC will\r\nreduce y gwahaniaeth rhwng yr uchel a'r soft\r\nsounds a'r trac sain yn gwneud even.\r\nIf mwy gennych recordio sain aml-sianel a'r you\r\nfeel yw'r gyfrol yn rhy feddal, gwirio'r blwch hwn a allai helpu.
+FPS	FPS
+Logfile age (days)	Logfile oedran (dyddiau)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	Uchafswm nifer o ddyddiau i gadw'r logfiles cyn dileu them.\r\nSet i 0 i gadw'r boncyffion am byth.
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	Remuxing cyflym
+Byte stream remuxing	Remuxing Nant bychan
+Disable cropping	Analluogi cnydio
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	Gwirio Defnyddir hwn i analluogi cnydio y fideo yn awtomatig yn ystod conversion.\r\nCropping i ddileu "r"bariau ddu"yn y fideo (top, gwaelod, chwith neu right).\r\nUse yr opsiwn hwn os yw'r darlun fideo cael torri ar unrhyw ochr neu os yw chwilio y darlun terfynol o dan bwysau neu hystumio.
+Only detect Ads	Dim ond canfod hysbysebion
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	Gwiriwch hyn os ydych yn am MCEBuddy i ganfod yr hysbysebion (hysbysebion) ond nid eu torri o'r video.\r\nWhen yr opsiwn hwn wedi'i alluogi, MCEBuddy bydd creu ffeil www.COE.INT/EDL ynghyd â'r ffeil wedi'u haddasu sy'n pennu lleoliadau'r hysbysebion yn y video.\r\nAlso wedi'u haddasu, ar gyfer MP4, M4V a bydd creu MKV ffeiliau MCEBuddy penodau i nodi diwedd o hysbysebion.
+Download information	Llwytho gwybodaeth i lawr
+Correction	Cywiriad
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	Cliciwch yma i gywiro enw'r sioe a grym defnyddio id gyfres TVDB penodol neu IMDB fideo id\r\nto chwilio am metadata ychwanegol oddi ar y rhyngrwyd.
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	Gwiriwch hyn i'w lawrlwytho gwybodaeth ychwanegol o'r rhyngrwyd am y sioe fel ffeil faner, digwyddiad, tymor ac ati
+Profile Error	Gwall yn y proffil
+Cannot find selected profile in profiles.conf	Ni allaf ganfod proffil dan sylw yn profiles.conf
+Invalid Profile	Proffil annilys
+Please select a valid profile	Dewiswch broffil dilys
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	Mae rhuthrodd yr injan MCEBuddy. Anfonwch mcebuddy.log i'r datblygwyr
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	Dewiswch y ffeil Comskip INI personol i ddefnyddio hwn task\r\nLeave trosi hwn wag i defnyddio'r rhagosodiad map ffeil Comskip INI i'w thynnu hysbyseb
+Click to select custom Comskip INI file	Cliciwch i ddewis ffeil Comskip INI personol
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	Dewiswch y ffolder ar gyfer gweithio gyda ffeiliau dros-dro. Gwnewch yn siŵr bod yna ddigon gwag y gofod ar y drive.\r\nLeave hon wag i ddefnyddio'r ffolder wrthi diofyn yn y ffolder gosodiad.
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	Dewiswch y ffolder ar gyfer gweithio gyda ffeiliau dros-dro. Gwneud yn siŵr bod digon o le gwag ar y drive.\r\nThis yn diystyru'r ffolder wrthi a bennir yn y lleoliadau-> dudalen gosodiadau arbenigol.
+Click to select temp working folder	Cliciwch i ddewis ffolder weithio wrthi
+Temp folder	Ffolder wrthi
+Space check	Gwiriad gofod
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	Pan bydd gwirio MCEBuddy wedi'i alluogi ar gyfer digon o le rhydd ar gyfer trosi (cyrchfan a temp).\r\nUncheck hyn os ydych yn cael trafferth gyda gyriannau rhwydwaith neu ffeiliau fideo anghyffredin o fawr.
+MCEBuddy Windows Event Logs	Logiau digwyddiadau MCEBuddy Windows
+Events	Digwyddiadau
+Click here to open the MCEBuddy Windows Event Logs	Cliciwch yma i agor y logiau digwyddiadau Windows MCEBuddy
+Enable UPnP	Galluogi UPnP
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	Gwiriwch hyn i alluogi UPnP. Mae hyn yn caniatáu mynediad i injan MCEBuddy o'r tu allan i'r network.\r\nThis Mae angen gwirio os rydych chi'n defnyddio cleient MCEBuddy symudol/arunig i gael mynediad at MCEBuddy.
+Click here to connect to another MCEBuddy engine	Cliciwch yma i gysylltu â'r injan MCEBuddy arall
+MCEBuddy Remote Engine Connection	Cysylltiad â'r injan MCEBuddy o bell
+Engine Name	Enw'r injan
+Engine Port	Port injan
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	Nodwch enw neu gyfeiriad IP yr injan MCEBuddy chi am gysylltu ag ef
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	Nodwch y nifer Porth TCP yr injan MCEBuddy chi am gysylltu ag ef
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	Rhowch y Rhif Porth TCP yr injan MCEBuddy rydych chi am gysylltu i (1 i 63355)
+Invalid Name/Port	Port enw annilys
+Please enter a valid Engine Name and Engine Port Number	Rhowch enw injan a'r Rhif Porth injan dilys
+Error Stopping Engine	Gwall stopio injan
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	Does dim modd atal injan MCEBuddy, efallai y bydd dim modd cadw gosodiadau. Ydych chi am barhau?
+Unable to communicate with engine. Settings have NOT been saved.	Gallu i gyfathrebu â'r injan. HEB gadw gosodiadau.
+Communication Error	Gwall cyfathrebu
+Engine not stopped. Settings have NOT been saved.	Injan heb stopio. HEB gadw gosodiadau.
+Unable To Save Settings	Does dim modd cadw gosodiadau
+Unable to communicate with engine. UPnP settings have not been updated	Gallu i gyfathrebu â'r injan. Ni ddiweddarwyd gosodiadau UPnP
+Audio delay	Oedi sain
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	Rhowch werth mewn eiliad yma (cadarnhaol neu negyddol) i newid y sain o gymharu â'r video.\r\nUse hyn i resync y sain gyda'r fideo, os ydynt yn hôl hi ar ôl conversion.\r\nA cadarnhaol bydd gwerth yn oedi'r sain (h.y. fideo o flaen sain) a bydd yn werth negyddol uwch y sain (h.y. sain o flaen video).\r\nE.g. 1.5
+Media info	Gwybodaeth am gyfryngau
+Click here to get media properties for selected files	Cliciwch yma i gael eiddo cyfryngau ar gyfer ffeiliau a ddewiswyd
+Save information	Cadw gwybodaeth
+Add information	Ychwanegu gwybodaeth
+Shows a preview of the custom filename and path	Dangos rhagolwg o'r ffeil personol a'r llwybr
+Invalid Filename Pattern	Patrwm enw ffeil annilys
+TVDB Series ID	ID gyfres TVDB
+IMDB Series ID	ID gyfres IMDB
+Original title	Teitl gwreiddiol
+Corrected title	Teitl wedi'i gywiro
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Rhowch ID y gyfres TVDB chi am ei ddefnyddio i'w lawrlwytho yn dangos information.\r\nIf y bocs teitl gwreiddiol yn wag, bydd hyn yn gymwys i holl sioeau a ddewiswyd gan y dasg hon trosi.
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Rhowch ID y fideo IMDB chi am ei ddefnyddio i'w lawrlwytho fideo information.\r\nIf gwreiddiol teitl blwch yn wag, bydd hyn yn gymwys i holl sioeau a ddewiswyd gan y dasg hon trosi.
+Internet Lookup Title and Metadata Correction	Rhyngrwyd chwilio am deitl a Metadata cywiriad
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	Cliciwch yma i ychwanegu rhes arall cyfatebol a gywir cywiro id.\r\nIf teitlau ac yn gyfres chi am ddefnyddio'r un teitl neu gyfres id i bawb yn dangos wedi'u haddasu gan y dasg dröedigaeth hon, ni ddylai ychwanegu \r\nleave y teitl gwreiddiol sy'n wag ar y rhes gyntaf a chi ail res.
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	Rhowch y patrwm i gyfateb â'r sioe/gyfres teitlau i'w cywiro (e.e. Simpson * bydd yn disodli pob teitl y teitl sioe gan ddechrau gyda Simpson) patrwm \r\nPrefix â ~ anwybyddu'r gêm (e.e. *. *; ~ Simpson * a bydd yn cywiro holl yn dangos teitlau heblaw'r rhai sy'n dechrau gyda Simpson) \r\nSeparate batrymau lluosog gyda; (e.e. Simpson *;House*) neu (e.e. Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nNOTE: adael y blwch hwn yn wag os ydych am i'r teitl wedi'i gywiro neu'r gyfres id yn berthnasol i holl ffeiliau sy'n cael ei brosesu gan hwn task.\r\nIf trosi gadael yn wag, chi Ni allaf ychwanegu ail row.\r\n\r\nYou gallwch ddefnyddio yn fynegiant rheolaidd i gyfateb â'r teitl gan ddechrau gyda regex:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	Rhowch deitl newydd/cywiro chi am ei ddefnyddio i'w lawrlwytho gwybodaeth ychwanegol o'r internet.\r\nIf r gwreiddiol yw teitl blwch yn wag, bydd hyn yn gymwys i'r sioeau a ddewiswyd gan y dröedigaeth hon, task.\r\n\r\nYou gallwch ddefnyddio yn fynegiant rheolaidd i gywiro y teitl gan ddechrau gyda regex:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	Ar gyfer pob rhes, rhowch eich teitl gwreiddiol i gyfateb i enw'r sioe a naill ai Corrected teitl neu ID yn gyfres TVDB/IMDB
+Please enter either a Corrected title or a TVDB/IMDB Series ID	Rhowch naill ai teitl Corrected neu ID yn gyfres TVDB/IMDB
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	Hyn yn galluogi os ydych am MCEBuddy i roi'r cadwedig Dydy ffeil yn directory\r\nif'r ffynhonnell llwybr y gyrchfan. (e.e. rhwydwaith methiant neu fethiant mapio)
+Fallback to source path	Ddarpariaeth wrth gefn i llwybr tarddu
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	Defnyddio i gynyddu neu leihau maint y the\r\nrecording er ei converting.\r\n1 arferol, bydd unrhyw beth islaw yn lleihau, bydd anything\r\nhigher yn cynyddu.
+Archive folder	Ffolder archif
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	Newid lleoliad y folder.\r\nLeave archif gwag i ddefnyddio'r ffolder 'MCEBuddyArchive' diofyn yn y cyfeiriadur gwreiddiol.
+Monitor subdirectories	Subdirectories monitro
+Check this box to also monitor all directories within the Monitor path	Gwiriwch y blwch hwn i hefyd yn monitro pob cyfeiriaduron o fewn llwybr y Monitor
+Click here to show MCEBuddy status	Cliciwch yma i ddangos statws MCEBuddy
+MCEBuddy service not connected	Gwasanaeth MCEBuddy heb gysylltu
+MCEBuddy idle	MCEBuddy segur
+conversions in progress	addasiadau mewn cynnydd
+MCEBuddy stopped	Stopio MCEBuddy
+Sync converted files	Cysoni ffeiliau wedi'u haddasu
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	Gwiriwch yr opsiwn hwn os ydych am MCEBuddy i gadw'r ffeiliau wedi'u haddasu mewn cytgord â'r files.\r\ni.e gwreiddiol. Pan yn dileu'r ffeiliau gwreiddiol gan y defnyddiwr, yw'r ffeiliau wedi'u haddasu cyfatebol hefyd deleted.\r\n\r\nNOTE: MCEBuddy dim ond ffeiliau gwreiddiol yn y ffolderi lleoliadau monitro Mae monitro ac unig tra yw'r peiriant ni fydd running.\r\nMCEBuddy yn gallu olrhain ffeiliau defnyddiwr dileu tra bod yr injan i ben.
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	Ydych chi am MCEBuddy i ddileu pob ffeil wedi'i addasu pan fo'r ffeil wreiddiol wedi cael ei dileu?
+Confirm sync conversions?	Gadarnhau trawsnewidiadau cysoni?
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	Ydych chi'n siŵr eich bod am ddileu hysbysebion o'r fideo wedi'u haddasu a dim ond cadw'r ffeil www.COE.INT/EDL nid oes?
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	Mae'r ShowAnalyzer ddim yn ymateb. Os gwelwch yn dda y system ailgychwyn neu ailosod ShowAnalyzer.
+ShowAnalyzer Not Responding	ShowAnalyzer ddim yn ymateb
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	Gwnewch yn siwr eich pwyso 'Dechrau' ar ôl cau'r ffenestr, fel arall ni fydd yn gweithio cofrestru a sgil.
+Enabling Scheduling and Wake	Amserlennu galluogi a Wake
+Passwords do not match	Nid yw cyfateb cyfrineiriau
+Password error	Gwall cyfrinair
+Adding subtitles and chapters to file	Ychwanegu is-deitlau a phenodau'r ffeil
+Send eMail if unable to download series information	Anfon e-bost os does dim modd llwytho gwybodaeth gyfres
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	Ticiwch y blwch hwn os hoffech i'r dasg hon trosi i brosesu dim ond ffeiliau o fonitro penodol locations.\r\nIf ddirwystr bydd pob tasg trosi yn prosesu ffeiliau o'r holl leoliadau monitro (gan gynnwys rhai newydd a ychwanegwyd yn ddiweddarach).
+Select Monitor Locations	Dewiswch lleoliadau monitro
+Select atleast one Monitor Location name	Dewiswch enw lleoliad Monitor un atleast
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	Ydych chi wedi dethol pob r presennol Monitor Locations.\r\nDo ydych am dasg hon trosi i brosesu unrhyw leoliadau Monitor newydd a ychwanegwyd yn y dyfodol yn awtomatig?
+New monitor locations	Lleoliadau monitro newydd
+Invalid selection	Detholiad annilys
+Channel name match	Sianel enw cyfatebol
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Rhowch y patrwm i gyfateb â'r enw sianel ar gyfer y dasg hon (e.e. ABC * bydd trosi holl ffeiliau cofnodi hynny ar enw sianel gan ddechrau gyda ABC) patrwm \r\nPrefix â ~ anwybyddu'r gêm (e.e. *; ~ ABC * bydd prosesu holl sianelau ac eithrio rhai sy'n dechrau gyda ABC) \r\nSeparate lluosog patrymau gyda; (e.e. ABC *;TBS*) neu (e.e. ABC *;Fox*; ~ Fox4 *) \r\n\r\nYou gallwch ddefnyddio mynegiadau rheolaidd i gyfateb â'r patrwm gan ddechrau gyda regex:
+Clear history	Clirio'r hanes
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	Cliciwch yw y botwm hwn i egluro hanes holl files.\r\nThis wedi eu trosi beri MCEBuddy adfer ffeiliau i gyd yn cael eu monitro.
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	Ydych chi'n siŵr eich bod am i glirio hanes trawsnewidiadau holl? bydd \r\nThis beri MCEBuddy adfer ffeiliau i gyd yn cael eu monitro.
+Show history	Hanes yn dangos
+Click this button to show the history of all converted files.	Cliciwch y botwm hwn i ddangos hanes holl ffeiliau wedi'u haddasu.
+History of Converted Files	Hanes o'r ffeiliau wedi'u haddasu
+Unable to communicate with engine.	Gallu i gyfathrebu â'r injan.
+Extracting streams	Wrthi'n echdynnu ffrydiau
+Fallback muxing streams	Ffrydiau muxing wrth gefn
+Remuxing TiVO file	Ffeil Remuxing TiVO
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	Rhowch eich 10 digid TiVO MAK allweddol i drosi a TiVO recordiadau'r broses
+Invalid TiVO MAK Key	Allweddol MAK TiVO annilys
+The TiVO MAK key should be 10 digits	Dylai'r allwedd TiVO MAK fod 10 digid
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	Fersiwn camgymhariad. Gwnewch yn siŵr bod y cleient MCEBuddy a'r peiriant yn rhedeg yr un fersiwn.
+Error retrieving Event Logs	Gwall wrth adalw logiau digwyddiadau
+Unable to get Event Log Entries from the MCEBuddy engine.	Does dim modd cael cofnodion Log digwyddiadau o'r injan MCEBuddy.
+PAUSED: Check conversion schedule	PAUSED: Gwirio troi at Atodlen
+Logging	Fewngofnodi
+Folder Management	Rheoli ffolder
+Processor Management	Rheoli prosesydd
+Expert Settings	Lleoliadau arbenigol
+System Settings	Gosodiadau'r system
+Click here to change additional settings (for experts only)	Cliciwch yma i newid gosodiadau ychwanegol (ar gyfer arbenigwyr yn unig)
+Failed folder	Ffolder wedi methu
+Location of the folder that hold the original files for failed conversions.	Lleoliad y ffolder sy'n cadw'r ffeiliau gwreiddiol ar gyfer addasiadau wedi methu.
+Move original file on failure	Symud y ffeil gwreiddiol ar fethiant
+Check this to move the original file to a separate folder if the conversion fails.	Gwiriwch hyn i symud y ffeil wreiddiol i ffolder ar wahân os bydd yn methu trosi.
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	Gwiriwch hyn i gyfyngu ar nifer y proseswyr rhesymegol bod MCEBuddycan use.\r\nEach blwch ticio isod yn cyfateb i'r prosesydd rhesymegol sydd ar gael.
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Mae pob blwch yn cynrychioli proseswyr rhesymegol o 1 i 16 respectively.\r\nChecking blwch yn caniatáu MCEBuddy i ddefnyddio y prosesydd.
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Mae pob blwch yn cynrychioli proseswyr rhesymegol o 17 i 32 respectively.\r\nChecking blwch yn caniatáu MCEBuddy i ddefnyddio y prosesydd.
+Select atleast one processor to use	Dewiswch prosesydd un atleast i'w defnyddio
+Invalid Configuration	Ffurfweddiad annilys
+Comskip path	Llwybr Comskip
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	Os ydych am ddefnyddio fersiwn personol o Comkip (e.e. fersiwn rhoddwr) \r\nthen Rhowch y llwybr o'r here.\r\nLeave gosod comskip wag i ddefnyddio'r comskip diofyn a ddaw yn sgîl MCEBuddy.
+Miscellaneous	Amrywiol
+Ignore copy protection	Anwybyddu diogelwch copïo
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	Gwiriwch hyn i anwybyddu'r faner amddiffyn copi ar ffeil fideo tra'n converting.\r\nNOTE: MCEBuddy na ellir osgoi amgryptio, yn unig yn cynorthwyo os ffeil yw incorrectly\r\ntagged fel copi eu hamddiffyn pan nad yw wedi'i amgryptio.
+Use recycle bin	Defnyddio'r bin ailgylchu
+Check this to use the recycle bin when files are deleted by MCEBuddy	Gwiriwch hyn i ddefnyddio'r bin ailgylchu pan ddilëir ffeiliau gan MCEBuddy
+Poll period	Cyfnod pleidleisio
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	Dyma'r sganiau MCEBuddy pa mor aml y lleoliadau tasgau Monitor ar gyfer cyfwng files.\r\nThe newydd a bennir mewn eiliad.
+Server port	Porth y gweinydd
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	Dyma'r Porth TCP defnyddio MCEBuddy i gyfathrebu â'r engine.\r\nWhen o bell UPnP wedi'i alluogi, bydd MCEBuddy yn awtomatig yn ychwanegu porth hwn at y Porth Windows Firewall\r\nand UPnP i ganiatáu mynediad oddi ar y rhyngrwyd ar porth hwn.
+Hang period	Hongian cyfnod
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	Nodwch nifer yr eiliad y bydd MCEBuddy yn aros am ymateb gan cais the\r\nunderlying o'r blaen yn terfynu y cais fel hung.\r\nEnter 0 analluogi canfod rhewi.
+Subtitle commercial cut sync	Torri masnachol Isdeitl cysoni
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	Defnyddir y paramedr hwn pan fydd yr is-deitlau yn mynd yn raddol o anghydbwysedd wedi tynnu pob segment masnachol o'r lleoliad video.\r\nThis yn cael ei ddefnyddio i ddod â'r isdeitlau yn ôl i cysoni â'r amser video.\r\nEach y mae'r fideo masnachol yn torri allan, yr is-deitlau yn amser symudodd gan hwn swm (+ ve neu-ve mewn eiliad).
+Invalid poll period	Cyfnod pleidleisio annilys
+Invalid server port	Porth y gweinydd annilys
+eMail Subject Customization	e-bost addasu pwnc
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	Defnyddio anfon yr adran hon i addasu'n destun e-bost gan MCEBuddy ar y gwahanol ddigwyddiadau trosi a restrir below.\r\nRefer i'r ddogfennaeth, Orchmynion personol ar gyfer variables.\r\ne.g diffiniwyd gan y defnyddiwr. Dangos % showname % ar gyfer ffeil % originalfilename % trosi yn llwyddiannus gan ddefnyddio tasg % taskname%\r\nNOTE: nid bob amser y bydd holl ddata'n ar gael yn y commands.\r\nLeave personol wag i ddefnyddio llinellau pwnc diofyn.
+Success	Llwyddiant
+Failed	Wedi methu
+Cancelled	Canslo
+Download fail	Llwytho i lawr yn methu
+Limit processor utilization	Gor-ddefnyddio prosesydd terfyn
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	Gwirio hyn yn cyfateb i gyfyngu ar nifer y proseswyr rhesymegol bod MCEBuddy yn gallu use.\r\nEach y blwch ticio isod i prosesydd rhesymegol sydd ar gael.
+Custom profile	Proffil personol
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	Os oes gennych ffeil profiles.conf personol rydych chi am ei ddefnyddio yn lle the\r\none a ddaw yn sgîl MCEBuddy, rhowch y llwybr i'r here.\r\n\r\nNOTE ffeil: MCEBuddy drwy'r amser profiles.conf diweddariadau i ddarparu byg atebion, gwelliannau \r\nenhancements a pherfformiad y byddwch yn methu out\r\non os ydych yn defnyddio'r nodwedd hon.
+Invalid custom profiles.conf	Profiles.conf personol annilys
+Suspend on battery	Atal ar y batri
+Suspend conversions when the computer switches to battery power	Atal trawsnewidiadau pan fydd y cyfrifiadur yn newid i bŵer batri
+MCEBuddy added a video conversion to the queue	Ychwanegodd MCEBuddy tröedigaeth fideo at y ciw
+Queue	Ciw
+Refer to documentation on using custom commands in custom eMail subjects	Cyfeirio at ddogfennau ar gan ddefnyddio gorchmynion personol mewn pynciau e-bost personol
+Could not copy information to Clipboard, please try again.	Gallai copïo gwybodaeth i'r Clipfwrdd, rhowch gynnig arall arni eto.
+Error copying to Clipboard	Gwall wrth gopïo i'r Clipfwrdd
+Copy to clipboard	Copïo i'r Clipfwrdd
+Reconvert files	Adfer ffeiliau
+Are you sure you want to reconvert the selected files?	Ydych chi'n siŵr eich bod am adfer y ffeiliau dan sylw?
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	Dewiswch y ffeiliau rydych chi am adfer ac yna cliciwch hwn button.\r\nIf dal Mae'r ffeiliau gwreiddiol yn cael eu monitro gan MCEBuddy bydd modd rhoi mewn ciw ar gyfer ailadfer.
+Time taken to convert	Amser a gymerwyd i drosi
+Network authentication	Dilysiad Rhwydwaith
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	Cliciwch y botwm i fynd dilysu credentials.\r\nThis cyfranddaliadau'r rhwydwaith yn cael ei ddefnyddio pan ychwanegir ffeiliau drwy'r botwm ychwanegu ar y window\r\nor prif llusgo a gollwng drwy rannu rhwydwaith yn y blwch statws dröedigaeth ar y brif ffenestr.
+Skip reconversion	Ailadfer sgip
+Do not reconvert the video if a converted file already exists in the destination directory.	Nid y fideo yn adfer os bydd ffeil wedi ei addasu eisoes yn bodoli yn y cyfeiriadur cyrchfan.
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	Enw'r ffeil disgwyliedig ar gyfer Mae'r fideo wedi'u haddasu (nid yw'r fideo enw ffeil gwreiddiol) o'i gymharu â'r hadalw yn y directory.\r\nIf cyrchfan y ffeil wedi eu trosi yn bodoli, bydd nid yn aildrosi'r ffeil a byddwn yn cymryd bod yn conversion.\r\nThis llwyddiannus yn ddefnyddiol os yw'r sioe/digwyddiad un yn cael eu cofnodi ar amseroedd lluosog ac nad ydych chi am adfer them.\r\n\r\nNOTE: Opsiwn hwn yn cael ei anwybyddu ar gyfer fideos sy'n cael eu hychwanegu eich hun gan ddefnyddio'r botwm ychwanegu neu llusgo a gollwng
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	Os galluogi, bydd ailadfer sgip hefyd yn gwirio'r ffeil hanes i disgwyl conversions.\r\nThe diwethaf yw enw'r ffeil ar gyfer y fideo wedi'u haddasu (nid yw'r fideo enw ffeil gwreiddiol) o'i gymharu â'r hadalw yn y file.\r\nIf hanes y fod yn enw'r ffeil wedi'u haddasu (gan gynnwys llwybr) yn cyfateb i unrhyw un o'r hadalw eisoes wedi'u haddasu (gan gynnwys llwybrau) yn ffeil y hanes, ffeil \r\nthe ni bydd ei aildrosi a bydd cymryd yn ganiataol fod tröedigaeth llwyddiannus.
+Adding file to the iTunes library	Ychwanegu ffeiliau at y llyfrgell iTunes
+Add to iTunes	Ychwanegu at iTunes
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	Gwiriwch y blwch hwn i ychwanegu'r ffeiliau wedi'u haddasu yn awtomatig i'r library.\r\nThis iTunes dim ond yn gweithio gyda iTunes ffeiliau cefnogi (e.e. MP4, M4V, MP3 ac ati)
+Adding file to the WMP library	Ychwanegu ffeiliau at y llyfrgell WMP
+Library Management	Rheoli llyfrgell
+Add to Windows Media Player	Ychwanegu at Windows Media Player
+Check this box to automatically add the converted files to the WMP library.	Gwirio'r blwch hwn yn awtomatig yn ychwanegu'r ffeiliau wedi'u haddasu i'r llyfrgell WMP.
+Renaming and Sorting	Wrthi'n ailenwi a didoli
+Selection Filters	Detholiad hidlyddion
+Audio and Video	Sain a fideo
+Subtitles and Chapters	Isdeitlau a phenodau'r
+Skip copying original files	Sgip wrthi'n copïo ffeiliau gwreiddiol
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	GWIRIO hwn blwch ar eich hun RISK.\r\nDO na gwirio hwn blwch oni bai bod chi'n gwybod beth ydych yn DOING.\r\nCheck y blwch hwn i anwybyddu gwneud copi wrth gefn o ffeil wreiddiol (gopïo) tra'n troi.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	ONI wyddoch beth ydych yn DOING.\r\nCheck y blwch hwn i anwybyddu gwneud copi wrth gefn o ffeil wreiddiol (gopïo) tra'n converting.\r\nIf hyn yw gwirio, nad yw y caiff y ffeil wreiddiol eu cadw mewn error.\r\nIt gallwch hefyd hyd yn oed arwain gwirio hwn blwch ar eich hun RISK.\r\nDO na gwiriad y blwch hwn i fethiannau trosi neu faterion eraill yn troi'n annisgwyl.
+Are you sure you want to do this?	Ydych chi'n siŵr eich bod am wneud hyn?
+Media Information Management	Rheoli gwybodaeth cyfryngau
+Force show type	Rym yn dangos math
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	Gosod hyn i rym trin y fideo a chofnodi fel fideo neu bydd Series.\r\nThis teledu yn newid y ffordd mae gwybodaeth ychwanegol (metadata) am gofnodi eu lawrlwytho o'r internet.\r\nMovie trin-trin cofnodi fel movie\r\nSeries-trin cofnodi fel TV Series\r\nSports-cofnodi fel show\r\nDefault chwaraeon-defnyddio'r wybodaeth diofyn ar gael yn y metadata cofnodi i benderfynu ar fideo neu gyfres deledu
+Show type	Dangos math
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	Dewiswch hwn i hidlo'r math o recordiadau sy'n cael eu converted.\r\n\r\nMovies-Dewiswch hwn i droi os yw'r math yn dangos Movie.\r\nShows-Dewiswch hwn i droi os nad yw'r math yn dangos Movie.\r\nSports-Dewiswch hwn i droi os yw'r math sioe Sports.\r\n\r\nNOTE: dangos math yw darllen o'r metadata.\r\nOnly cofnodi rhai recordiadau yn cefnogi sioe math metadata fel and\r\nrecordings WTV â chefnogi metadata ffeiliau (XML/ARG ac ati).
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	Y blwch hwn yn dangos y ffeiliau i gyd yn y ciw ar gyfer ffeiliau conversion.\r\nDrag a gostyngiad yma neu'r wasg y botwm ychwanegu i ychwanegu ffeiliau at y ciw trosi
+Conversion	trosiad
+Files	Ffeiliau
+Click this button to open or close the Advanced Settings section	Cliciwch y botwm hwn i agor neu gau'r adran gosodiadau uwch
+Running custom commands	Rhedeg Gorchmynion personol
+Trimming video recording	Recordiad fideo tocio
+Insert at top of queue	Mewnosod ar frig ciw
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	Yn ddiofyn, ychwanegir trawsnewidiadau newydd i'r gwaelod (diwedd) o'r queue.\r\nIf troi at y blwch hwn yw gwirio, ychwanegir unrhyw addasiadau newydd a ychwanegir gan y dasg hon i the\r\nbeginning (top) y ciw trosi.
+Add subtitles and chapters	Ychwanegu is-deitlau a'r penodau
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	Opsiwn hwn i ychwanegu unrhyw isdeitlau wedi'u hechdynnu yn galluogi a Mae penodau i'r bennod video.\r\nEach wedi eu trosi yn nodi diwedd masnachol. Dim ond mae hyn yn gweithio gyda fformatau (e.e. MKV, MP4).\r\n\r\nNOTE: Peidiwch â rhai chwaraewyr a'r TV hŷn gefnogi isdeitlau planedig a chapters.\r\nIf ydych chi'n gallu chwarae'r fideo wedi'u haddasu, ceisiwch ddiffodd y dewis hwn.
+Select best soundtrack	Dewiswch trac sain orau
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	Os yw'r fideo gwreiddiol thraciau sain lluosog, mae'r opsiwn hwn yn dweud MCEBuddy i ddewis soundtrack.\r\nIf priodol a cynradd mwyaf chi am trac sain iaith benodol, gwnewch yn siŵr bod chi Rhowch enw'r iaith neu god yn box.\r\nCheck'r iaith sain y blwch hwn os yr ydych maen glywed y trac sain anghywir yn eich file.\r\n\r\nUncheck wedi eu trosi y blwch hwn os ydych am MCEBuddy i gadw pob thraciau sain o'r fideo gwreiddiol yn y ffeil wedi'i addasu pan fo'n bosibl. \r\nNOTE: nid yn cefnogi rhai proffiliau thraciau sain lluosog, ac felly mae y gosodiad hwn unrhyw effaith.
+Enable remote access	Alluogi mynediad o bell
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	Mae hyn yn creu eithriad yn y mur cadarn windows ar gyfer cais MCEBuddy ac mae'r port.\r\nThis yn ofynnol os ydych wedi galluogi Mur Cadarn windows ac eisiau defnyddio UPnP, y mynediad o bell client\r\nor yr injan a defnyddio address.\r\n\r\nNOTE IP: Os oes gennych chi fur cadarn personol, ni efallai y bydd hyn yn gweithio, bydd angen i chi greu eich hun an\r\nexception ar gyfer gwasanaeth MCEBuddy a'r porthladd.
+Unable to communicate with engine. Firewall exception settings have not been updated.	Gallu i gyfathrebu â'r injan. Ni ddiweddarwyd gosodiadau eithriad mur cadarn.
+Detect and optimize video quality	Ddarganfod ac optimeiddio ansawdd fideo
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	Pan fydd galluogi, MCEBuddy bydd optimeiddio'r opsiynau prosesu fideo drwy geisio canfod y type.\r\nThis ffynhonnell fideo y gall wella ansawdd y fideo wedi'u haddasu sylweddol os gywir detected.\r\n\r\nNOTE: Gwna hyn drwy geisio canfod y math ffynhonnell fideo (Rhyngddalennog, blaengar neu telecine).\r\nIf Mae'n gallu i ganfod y math ffynhonnell fideo, bydd hynny'n diystyru'r paramedrau cyfatebol yn y profile.\r\nTurn'r opsiwn hwn oddi ar os ydych yn wynebu materion ynglŷn ag ansawdd fideo wedi'u haddasu neu eisiau defnyddio'r paramedrau proffil diofyn.
+Are you sure you want to delete this task?	Ydych chi'n siŵr eich bod chi am ddileu'r dasg hon?
+Delete Task	Dileu'r dasg
+Enter the new task name	Teipiwch enw'r dasg newydd
+Rename Task	Ailenwi'r dasg
+MCEBuddy PAUSED	Wedi'i REWI MCEBuddy
+idle	segur
+PAUSED	WEDI RHEWI
+Frame rate	Cyfradd fframiau
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	Galluogi hyn er mwyn pennu framerate personol (FPS) efallai y bydd angen y video.\r\nYou wedi eu trosi i gosod hyn tra'n troi \r\nor fformatau fideo (e.e. PAL i NTSC) ar gyfer dyfeisiau sy'n cefnogi penodol dim ond framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001
+Skip remuxing files	Anwybyddu ffeiliau remuxing
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	Gall hefyd hyd yn oed arwain gwirio hwn blwch ar eich hun RISK.\r\nDO na gwiriad hwn blwch oni bai y cewch wybod beth ydych yn DOING.\r\nCheck y blwch hwn i ganslo'r remuxing y ffeil wreiddiol i ffeil TS tra converting.\r\nIf gwirio hyn, rhai swyddogaethau fel echdynnu Isdeitl neu comskip na work.\r\nIt at fethiannau trosi neu faterion eraill yn troi'n annisgwyl.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	GWIRIO hwn blwch ar eich hun RISK.\r\nDO na gwirio hwn blwch oni bai bod chi'n gwybod beth ydych yn DOING.\r\nCheck y blwch hwn i remuxing y ffeil wreiddiol yn neidio i'r ffeil TS tra'n troi.
+Monitor converted videos	Monitro fideos wedi'u haddasu
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	Yn ddiofyn bydd anwybyddu lleoliadau monitro ffeiliau bod eisoes wedi converted.\r\nCheck y blwch hwn os hoffech hefyd fonitro ffeiliau wedi'u haddasu yn Path.\r\nCAUTION y Monitor: Gall hyn arwain at dolen ddiddiwedd trosi ffeiliau wedi'u haddasu os nad properly.\r\n\r\nThis wedi'u ffurfweddu y gall fod yn ddefnyddiol pan fyddwch yn pennu cyfeiriadur allbwn task\r\n trosi (ffeil wedi'u haddasu) fel y llwybr monitro lleoliad Monitor ac yn cysylltu the\r\nMonitor Lleoliad i dasg dröedigaeth arall.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	Bydd anwybyddu wirio hon blwch ar eich hun RISK.\r\nDO na gwirio hwn blwch oni bai bod chi'n gwybod beth ydych yn DOING.\r\nBy diofyn monitro lleoliadau ffeiliau bod eisoes wedi converted.\r\nCheck y blwch hwn os hoffech hefyd fonitro ffeiliau wedi'u haddasu yn y llwybr Monitor.
+Hardware encoding	Amgodio caledwedd
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	Gwiriwch y blwch hwn i ddefnyddio caledwedd amgodio pan fydd ar gael i droi videos.\r\nThis gallwn gyflymu troi yn sylweddol a lleihau y utilization\r\nbut CPU a gall arwain at videos.\r\n\r\nUncheck ansawdd ychydig yn is hyn blwch os ydych yn wynebu trosi neu faterion ansawdd.
+Do not overwrite files	Nid disodli'r ffeiliau
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	Pan yw gwirio'r blwch hwn, nid disodlir y ffeil gyrchfan Os ychwanegir n eisoes bydd exists.\r\nInstead ffeil newydd yn cael eu creu â rhif unigryw i'r diwedd o'r enw'r ffeil.
+Re-monitor recorded videos	Ail-fonitro fideos wedi'u cofnodi
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	Yn ddiofyn, unwaith y ffeil ffynhonnell (Recorded fideo) wedi'i throsi, byddwn yn olrhain hanes y monitor \r\nthe'r ffeil a nid ciw y again.\r\n\r\nEnable ffeiliau un yr opsiwn hwn i anwybyddu'r hanes a monitro holl ffeiliau ac ychwanegu eu ciw trosi to\r\nthe, hyd yn oed os ydynt eisoes wedi bod gall converted.\r\n\r\nThis fod yn ddefnyddiol weithiau, os nid yw'r meddalwedd recordio yn cynhyrchu a\r\nunique enw'r ffeil ar gyfer pob episod/sioe. Mae'n reccomended i ddefnyddio'r opsiwn ffeil gwreiddiol a the\r\nDelete yn y dudalen gosodiadau wrth ddefnyddio y dewis hwn i dolen ddiddiwedd trosi avoid\r\nan.
+Recommendation	Argymhelliad
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	Er mwyn osgoi dolen ddiddiwedd trosi, argymhellir i sefydlu patrwm chwilio eich Monitor mewn ffordd fel i sicrhau nad yw'r ffeiliau wedi'u haddasu yn cael eu monitro gan dasg hon Monitor.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	Diofyn DOING.\r\nBy RISK.\r\nDO na gwirio hwn blwch oni bai bod chi'n gwybod beth ydych yn gwirio hwn blwch ar eich hun na bydd remonitor monitro lleoliadau yn cofnodi fideos wedi processed.\r\nCheck y blwch hwn os ydych chi eisiau remonitor ac adfer y fideos wedi'u cofnodi.
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	Er mwyn osgoi dolen ddiddiwedd trosi, argymhellir eich bod yn galluogi dileu opsiwn ffeil gwreiddiol yn y dudalen gosodiadau.
+Prioritize air date matching	Flaenoriaethu paru dyddiad aer
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	Mae MCEBuddy yn defnyddio'r enw'r bennod i gyfateb â'r information\r\nwhile gyfres chwilio'r rhyngrwyd. Os yw hynny'n methu yna mae'n defnyddio'r dyddiad broadcast\r\nair gwreiddiol i gyfateb â'r metadata.\r\n\r\nCheck y blwch hwn i ddefnyddio'r dyddiad darlledu gwreiddiol yn gyntaf ac wedyn gellir enw the\r\nepisode i gyfateb i'r wybodaeth gyfres o'r internet.\r\nThis yn ddefnyddiol mewn rhai achosion pan mae tymhorau lluosog yr enw same\r\nepisode. E.e. Americal Idol, 1\r\n\r\nNOTE glyweliad: gwreiddiol nid yw dyddiad darlledu bob amser set cywir gan the\r\nbroadcaster ac weithiau mae'r wybodaeth ar y rhyngrwyd yn incorrect.\r\nUse'r opsiwn hwn dim ond os nad yw'r opsiwn diofyn yn gweithio i chi.
+Skip eMail body	Corff e-bost sgip
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	Gwiriwch yr opsiwn hwn i ddefnyddio corff gwag yn y eMail.\r\nThis hysbysiad gall fod yn ddefnyddiol os ydych chi'n defnyddio Porth SMS ar gyfer hysbysiadau e-bost.
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	Dethol sy'n seiliedig ar reoli hawl digidol (DRM) Mae available\r\nonly pan ailenwi heb droi (ailenwi a symud yn unig) opsiwn yw selected.\r\n\r\nAll-dewis holl ffeiliau ar gyfer prosesu, heb ystyried diogelwch copïo status\r\nProtected-yn unig ffeiliau dethol sy'n protected\r\nUnprotected copi-dim ond Dewiswch ffeiliau nad oes ynddynt diogelwch copïo
+Download cover art	Llwytho celf y clawr
+Enable this to download the cover art from the original video and internet if available.	Hyn i'w lawrlwytho y gelfyddyd gorchudd o'r fideo gwreiddiol a'r rhyngrwyd os yw ar gael yn galluogi.
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	Ydych chi'n siŵr eich bod am Rhowch enw parth? \r\n\r\nUse hon yn unig os ydych yn defnyddio rheolydd parth Windows i reoli eich authentication.\r\nDo ni ddefnyddio hwn os ydych yn rhan o Workgroup.\r\n\r\nIf ydych yn ansicr cliciwch Rhif
+Configuration Warning	Rhybudd ffurfweddiad
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	Mae'n creu'r ffolder o'r enw 'MCEBuddyArchive' lle y ffeil wreiddiol y mae located\r\nand yn symud y ffeil orginal yn y cyfeiriadur hwn ar ôl i newid enw'r ffolder conversion.\r\n\r\nThis llwyddiannus a'r lleoliad isod.
+Monitoring	Monitro
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	Os ydych am i drosi'r ffeil www.COE.INT/EDL penodau, gwnewch yn siŵr i chi wirio'r opsiwn 'Ychwanegu isdeitlau a phenodau' mewn lleoliadau arbenigol.
+EDL to Chapters	WWW.COE.INT/EDL i benodau

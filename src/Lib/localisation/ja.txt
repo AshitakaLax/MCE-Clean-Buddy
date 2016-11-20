@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy のネットワーク共有に接続するには、現在ログインしているユーザーと使用しない、それ独自のサービス アカウントを使用します。接続のユーザー情報 (MCEBuddy、鍵のアイコンを) 指定してください。
+Connection Reminder	接続通知
+Description	説明
+Path	パス
+is invalid	有効ではありません。
+Invalid Path	無効なパス
+Please supply a task name	タスク名を指定してください。
+No name supplied	指定しない名前
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	オーディオ トラックまたは選択 <Default><Original>の 3 桁の言語コードを入力してください。
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	3 桁 ISO コードは、選択した language\r\nMake この元 recording.\r\nTo 取得の言語コードを元の記録されたファイルのオーディオ トラックのオーディオ トラックの言語コードと一致することを確認 file\r\nto キューを追加し、それを右クリックします。ポップアップ ウィンドウを開いて、オーディオが表示されます details\r\nwhich には各オーディオ トラックの言語コードが含まれます。
+Invalid Language Code	無効な言語コード
+No destination directory provided, converted file will be placed in original video directory	先のディレクトリを提供しない、変換後のファイル元のビデオ ディレクトリに配置されます。
+A task name or section	タスク名またはセクション
+already exists\n\rPlease use another name	既に別の名前を使用して exists\n\rPlease
+Duplicate Name	重複する名前
+Engine	エンジン
+Tasks	タスク
+Profile	プロファイル
+disposing	破棄
+Task name	タスク名
+Give a unique name to this task	このタスクには一意の名前を与える
+Gives a short description for the selection conversion profile	選択変換プロファイルの簡単な説明を与える
+Click to select destination folder	コピー先のフォルダーを選択する] をクリックします
+Destination	宛先
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	変換後のファイル placed.\r\nLeave、変換されたファイルと同じディレクトリに、元のビデオを維持して空白になるディレクトリを選択します。
+Max width	最大幅
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	これは、最大幅 (ピクセル) ビデオ変換の file.\r\nTIP の制限されます： 幅、元のファイルを元のビデオ解像度移動スライダー、右のすべての方法を維持するこの number.\r\nIf より小さい場合は適用されません。
+Quality	品質
+Ad remover	広告の除去剤
+None	なし
+Get series details from Internet	インターネットからのシリーズの詳細を取得します。
+Download additional details about the movie or series from the internet	インターネットから映画やシリーズについての追加の詳細をダウンロードします。
+File name match	ファイル名の一致
+Recording title match	記録のタイトル マッチ
+Cancel	キャンセル
+OK	わかりました
+Rename without converting	変換なしの名前を変更します。
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	チェックこのオプションのみ名前を変更し、元ファイルをコピー先 folder.\r\nWhen を変換、トリミング、オーディオ ／ ビデオ処理や商業除去になります available.\r\n\r\nNOTE: コピーではなく移動する場合このオプション checked.\r\nIf で利用できるメタデータと商業の検出 (EDL ファイルの保存) \r\nwill まだ節約字幕を抽出するフィルターに一致するような他の機能、元オプション エキスパート設定 [メイン設定] ページではこのページまたは select\r\nDelete の元ファイルのコピーをスキップするを確認してください。
+Rename and sort by video information	名前を変更して、ビデオ情報を並べ替える
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	変換後のファイルの名前を変更し、ショー/シリーズ情報に基づいて新しいディレクトリに配置すると available\r\n （例： ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate）
+Enter the username and password to access folders that are on a network drive or a different computer	ネットワーク ドライブまたは別のコンピュータにはアクセス フォルダーに、ユーザー名とパスワードを入力します。
+Organize by seasons	季節によって整理します。
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	Showname によるフォルダーの整理し、シーズンのとき利用可能な （メディア センター/XBMC/プレックス互換性のある名前付け規則) \r\n (Showname\\Season XX\\SXXEYY エピソード名など)
+Audio language	オーディオ言語
+Advanced Settings	高度な設定
+General Settings	全般的な設定
+Conversion Task	変換タスク
+Password	パスワード
+Confirm Password	パスワードの確認入力します。
+Domain / computer name	ドメイン/コンピュータ名
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	<Optional>入力リモート コンピューターまたはネットワーク ドライブで authentication.\r\nDo のドメインを使用する場合はここでワークグループを入力できません。ワークグループを使用している場合は、空白のままにします。
+User name	ユーザー名
+Enter the username to access the remote computer or network drive	リモート コンピューターまたはネットワーク ドライブにアクセスするユーザー名を入力します。
+Enter the password to access the remote computer or network drive	リモート コンピューターまたはネットワーク ドライブにアクセスするためのパスワードを入力します。
+Network Connection User Credentials	ネットワーク接続のユーザーの資格情報
+Password Mismatch	パスワードの不一致
+Passwords do not match, please reenter the passwords	パスワードが一致しません、パスワードを再入力してください。
+Hour	時間
+Minute	分
+Wake	目を覚ます
+Start	開始
+Resume	再開
+Pause	一時停止
+Stop	停止
+Language	言語
+Pause conversion tasks	変換タスクの一時停止
+Resume conversion tasks	変換タスクを再開します。
+Please enter a valid time	有効な時間を入力してください。
+Invalid Time	無効な時刻
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	停止時刻は開始時刻後です。停止時刻は、次の日の間と仮定すると、それは正しいですか？
+Time Check	時間をチェック
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	MCEBuddy 許容期間ファイルを確実変換されている場合のみこのオプションを選択します。変換されました後各元のファイルを削除するには MCEBuddy か?
+Confirm delete originals?	削除元を確認？
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy これらのディレクトリに自動的に変換するビデオのファイルを監視します。
+Conversion tasks	変換タスク
+Delete original file	元のファイルを削除します。
+Deletes the original recording after a successful conversion	変換が成功した後元の記録を削除します
+Min age before conversion (hours)	変換前に、の分の年齢 (時間)
+Minimum hours to wait before converting each file after the file is added to the queue	ファイルをキューに追加された後に各ファイルを変換する前に待つ最小時間
+Use this to change the language of the text on the screen	これを使用して、画面上のテキストの言語を変更するには
+Concurrent conversions	同時実行の変換
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	同時変換 MCEBuddy の数には、start\r\nNOTE することができます: 2 以上の同時変換に大量の空きディスク容量とプロセッサ時間を必要
+Logging level	ログ出力のレベル
+Error	エラー
+Warning	警告
+Information	情報
+Debug	デバッグ
+Log conversion jobs	ログ変換ジョブ
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	\'Logs\ の各変換のためのログファイルを保存 ' どこどこ MCEBuddy です installed\r\n （例えば C:\\Program Files\\MCEBuddy2x\\logs) ディレクトリ
+Allow sleep	スリープを許可します。
+If unchecked, it prevents the system from entering sleep while converting	オフの場合は、それが変換中睡眠入るを防ぐ
+Stop at	停止します。
+No new conversions would be started after this time	新しい変換のこの時間後開始はないです。
+minute	分
+hour	時間
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	場合 MCEBuddy がから復帰 sleep\r\nat 指定された開始時刻と曜日を有効に確認されます。
+Start at	開始します。
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy は開始の間に新しい変換を開始および停止 time.\r\n\r\nThe 開始時間が有効な曜日に使用されます、whereas\r\nthe 終わりの時間になります同じ日 or\r\nfor のいずれか、次の日場合は、終了時間は開始時間の後。
+Delete	削除
+Add	追加
+Change	変更
+Archive original file	元のアーカイブ ファイル
+Domain name	ドメイン名
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	モニターおよびコンバージョン タスクを停止し、MCEBuddy を構成するページを開きます
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	\'MCEBuddyArchive\ と呼ばれるフォルダーを作成します '、元のファイルが located\r\nand 成功 conversion.\r\n\r\nThis フォルダー名と場所を [システム設定] ページで変更した後にこのディレクトリ内の元のファイルを移動します。
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	デバッグ - 詳細なログ、トレースの変換 problems\r\nInformation - ログ基本情報 conversion\r\nWarning - ログの潜在的な問題や重要な障害 only\r\nError - ログの重要なエラーのみことができます。
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	このタスクに関連付けられた変換プロファイルを選択します。変換プロファイルは、出力の形式と変換変換に時間がかかる変換 file.\r\nHigher 品質の品質を表します。お勧めします既定: MP4 高品質または MP4 Normal.\r\n\r\nTIP: MCEBuddy ガイドに高度なパラメーターの変換プロファイルを微調整するためのまたは独自の変換プロファイルを作成するを参照してください
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	MCEBuddy が 'なし' に変換された video.\r\n\r\nTIP のコマーシャルを残して video.\r\nSet の変換中に任意のコマーシャルを取り除くに使用するプログラムを選択: サポートを使用して ShowAnalyzer Comskip のではなく、ダウンロードしてください ShowAnalyzer.\r\nShow アナライザーのバージョン 1.0 以降をインストールします。
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	変換後のファイルは、通常のビデオ画質を変更するために使用 1.\r\nA より高い品質が向上しますが conversion.\r\nA より小さい数の品質が低下するが、変換を高速化の時間がかかるです。
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	このタスクのファイル名と一致するパターンを入力 (例： *.wtv と .wtv)\r\nPrefix パターンで終わるすべてのファイルに変換されます 〜 試合をスキップする (例えば *. *; ~*.wtv .wtv)\r\nSeparate で終わる複数のパターンを持つ; ものを除くすべてのファイルを処理します。(例: *.wtv; ncis *; 〜 ネイビー犯罪捜査班マイアミ *) すべて .wtv ファイルと ncis で始まるすべてのファイルを処理するがないで始まる ncis miami\r\n\r\nYou で始まる正規表現パターンに一致する正規表現を使用することができます。
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	このタスク (例えばシンプソン * 変換されますシンプソンから始まるショー タイトルを持っているすべてのファイル) の表示/シリーズのタイトルと一致するパターンを入力 \r\nPrefix パターンと 〜 試合をスキップする (例えば *; 〜 シンプソン * シンプソンで始まるものを除くすべてのショーのタイトルを処理する) \r\nSeparate 複数パターン;（例： シンプソン *;House*) または (例えばシンプソン *;NCIS*; 〜 ネイビー犯罪捜査班マイアミ *) \r\n\r\nYou で始まる正規表現パターンに一致する正規表現を使用することができます。
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	これは、オーディオ言語がある場合複数のオーディオ言語 recording.\r\nTo を取得、記録における音声言語の一覧で、キュー内のファイルを右クリックし、MediaInfo.\r\n\r\n <Default>を選択しますすべてのオーディオ トラックをサポートまたは既定オーディオ track\r\n <Original>を選択するエンコーダー場合維持しよう既定をオーバーライドするために使用することができます。、利用可能な場合は、[と呼ばれる] 記録の元の言語を使用します。
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	'[ビデオ]' を入力またはこの場所のファイル名に一致するすべてのビデオの files\r\nEnter パターンを変換するには空白のままに (例えば *.wtv .wtv)\r\nprefix パターンで終わるすべてのファイルを変換する ~ をスキップする (例えば ※. ※; ~*.wtv .wtv)\r\nseparate では、複数のパターンを終了; 以外のすべてのファイルを処理します。（例えば *.wtv; ncis ※; ~ ncis マイアミ ※) すべて .wtv ファイルと ncis が ncis マイアミの開始で始まるすべてのファイルを処理します。
+MCEBuddy Settings	MCEBuddy の設定
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy のネットワーク共有に接続するには、現在ログインしているユーザーと使用しない、それ独自のサービス アカウントを使用します。接続のユーザー情報 [は鍵のアイコンが MCEBuddy] を指定してください。
+Please supply a source name	ソース名を指定してください。
+Please supply a search path name	検索パス名を指定してください。
+A source name or section	ソース名またはセクション
+already exists. Please use another name	既に存在します。別の名前を使用してください。
+Monitor name	モニター名
+Give this a location a unique name	この場所の一意の名前を与える
+Monitor path	モニターのパス
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	バック グラウンドで自動的に変換する新しいビデオ ファイル MCEBuddy を監視するディレクトリを選択します。
+Click to select the folder to monitor	監視するフォルダーを選択する] をクリックします
+Search pattern	検索パターン
+SourceForm	SourceForm
+Monitor Location	モニターの場所
+Normal	通常
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: pipeProxy エンジンの接続エラー
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: MCEBuddy サービスへのパイプを作成できません。
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	MCEBuddy サービスは利用できません。Windows コントロール パネルから起動するか、エンジンの接続をチェックしてください。
+Announcement	お知らせ
+New version 	新しいバージョン
+available	利用可能です
+New BETA version 	新しいベータ ・ バージョン
+Click here to download new version of MCEBuddy	MCEBuddy の新しいバージョンのダウンロードはこちらです。
+Click here to open link	ここをクリックしてリンクを開くには
+Idle	アイドル
+Closing	閉じる
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI: タスクを更新できません
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: MCEBuddy サービスを開始できません
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: MCEBuddy サービスを停止できません。
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI: ジョブをキャンセルできません。
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	警告: ネットワーク ファイルは、現在ログオンしているユーザーではなく、MCEBuddy サービスのログオン資格情報を使用してアクセスされます。MCEBuddy で-> エキスパート設定ページの設定から、ネットワーク資格情報を手動で指定することができます。
+Credential Warning	資格情報の警告
+Status	ステータス
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI: ジョブを追加できません。
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: パイプ アクティブ ステータスを取得できません。
+The conversions must be stopped to change settings. Stop the conversions?	変換設定を変更する停止する必要があります。変換を停止するか？
+Stop Engine	エンジンを停止します。
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI： 設定をクリックしてからの MCEBuddy サービスを停止できません。
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: ファイルを再スキャンできません。
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: リンクを開けません。
+Close	閉じる
+Close this window, MCEBuddy will keep running in the background	閉じるウィンドウ、MCEBuddy、バック グラウンドで実行し続けます
+If you like MCEBuddy, please click here to Donate - THANKS	MCEBuddy のような場合は、寄付する - おかげでこちら
+Click here to like MCEBuddy on facebook	Facebook の MCEBuddy のようにするにはここをクリック
+Click here to open MCEBuddy website	ここをクリックして、MCEBuddy の web サイトを開くには
+Rescan	再スキャン
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	モニターの場所を新しいビデオ ファイルの変換を再確認するのには、MCEBuddy の力
+Monitor locations	モニターの場所
+Settings	設定
+Select the file(s) in the queue to delete	ファイルを削除するには、キューの選択します。
+Manually add video file(s) to the queue to convert	手動でビデオ ファイルを変換するには、キューに追加します。
+Start the MCEBuddy monitor and conversion tasks	MCEBuddy モニターと変換タスクを開始します。
+Stop the MCEBuddy monitor and conversion tasks	MCEBuddy モニターと変換タスクを停止します。
+There is a new version!	新しいバージョンです ！
+High	高
+Low	低
+Priority	優先順位
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	優先度の高い - 高速変換しますが、ありますその他実行中のアプリケーション unresponsive\r\nLow の優先順位 - 削減妨害その他実行中のアプリケーションがバック グラウンドで変換
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	変換プロファイルとさまざまな他の変換 parameters.\r\nEach を含む変換テンプレート タスクですをキューに追加されるファイルを処理し、各タスクの動作の詳細については、MCEBuddy にこれらの tasks.\r\nRefer の変換されます。
+Getting started	はじめに
+Click here for MCEBuddy guide	MCEBuddy についてはこちら
+Logs	ログ
+Click to open log folder	ログ フォルダーを開く] をクリックします
+MCEBuddy Status	MCEBuddy ステータス
+add	追加
+delete	削除
+paypal-donate	ペイパル-寄付
+stop	停止
+OUTPUT: ConsoleOuput received NULL data	出力: ConsoleOuput NULL データを受信
+hours	時間
+minutes	分
+second	2 番目
+seconds	秒
+Starting	開始
+Comskip advertisement scan - Pass 1	Comskip 広告スキャン - パス 1
+Comskip advertisement scan - Pass 2	Comskip 広告スキャン - 渡す 2
+Cutting commercials from video	ビデオからのコマーシャルをカット
+Cutting commercials from video - segment 	セグメントの切削コマーシャル ビデオ - から
+Merging commercial free segments into new video	新しいビデオに商用無料セグメントをマージ
+Moving converted file to destination	変換後のファイルを移動先に移動
+Checking for disk space	ディスクの空き領域をチェック
+Getting show information and banner from Internet sources	インターネットのソースから情報を表示とバナーを取得
+Copying source file to working directory	ソース ファイルを作業ディレクトリにコピーします。
+Remuxing recording	Remuxing 記録
+ShowAnalyzer advertisement scan	ShowAnalyzer 広告スキャン
+Comskip advertisement scan	Comskip 広告スキャン
+Analyzing video information	ビデオ情報の分析
+Converting	変換します。
+Removing commercials	コマーシャルを削除
+Writing show information	ライティング ショー情報
+Renaming file using show information	情報を表示を使用してファイルの名前を変更
+Success - All done!	成功 - すべてやった ！
+Muxing streams	多重ストリーム
+Fallback remux	フォールバック remux
+Correcting audio delay	オーディオ遅延を修正
+Converting video file - Pass 1	変換するビデオ ファイル - パス 1
+Converting video file - Pass 2	変換するビデオ ファイル - 渡す 2
+Converting video file	ビデオ ファイルの変換
+Audio Track	オーディオ トラック
+Impaired	障害者
+Channels	チャンネル
+Codec	コーデック
+Video	ビデオ
+Duration	期間
+Height	高さ
+Width	幅
+Audio	オーディオ
+Name	名前
+Subtitle	サブタイトル
+Volume	ボリューム
+Enable custom file renaming	カスタムのファイル名の変更を有効にします。
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	この変換されたファイルとフォルダーの名前を変更するカスタム パターンを入力するを有効にします。カスタム パターンを入力ボックス below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S % シーズン % ##E % エピソード %## - episodename % - %airyear%_%airmonth%_%airday%\r\n\r\nWill 食材： \r\nTVShows\CSI\Season 1\CSI - S01E02 - 時代 - 2012_01_06 の最高の。<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill （映画） のための農産物 \r\n Recording\Movies\Star 戦争変換します <ext>。(非映画) の \r\nOR \r\n Recording\TVShows\CSI\Season 1\CSI - S01E02 変換します。<ext>\r\n\r\nRefer、MCEBuddy にすべてのパターンのコマンドの一覧については高度な。
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	ShowAnalyzer が見つかりません。 \n ダウンロードと ShowAnalyzer をインストールします。
+ShowAnalyzer Missing	ShowAnalyzer がありません。
+Invalid language code, reverting to <Default> language	無効な言語コード、<Default>言語に元に戻す
+Cut start	スタートを切る
+Cut end	最後をカットします。
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	（広告を削除する) 前に、録音の先頭からカットする秒数を指定します
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	（広告を削除する) 前に、録音の端からカットする秒数を指定します
+Send an eMail after each conversion.	各変換の後にメールを送信します。
+Send eMail	メールを送信します。
+SMTP Server Name	SMTP サーバー名
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	送信メール (SMTP) サーバーのアドレス here\r\ne.g を入力します。:smtp.gmail.com
+Port	ポート
+Enter the SMTP server port	SMTP のサーバー ポートを入力します。
+Use SSL	SSL の使用
+Check this if you SMTP server uses SSL	Smtp サーバーが SSL を使用している場合、このチェックします。
+e-Mail Settings	電子メールの設定
+From <e-Mail>	<E-Mail> から
+Enter the senders (From) eMail address here	送信者メール アドレス （から） ここでの入力します。
+To <e-Mails>	<E-Mails> に
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	(複数の受信者をセミコロン (;) でアドレス here.\r\nSeparate をメールするには)、受信者を入力します。
+Send eMail on successful conversion	変換に成功したメールを送信します。
+Send eMail on failed conversion	失敗した変換にメールを送信します。
+Send eMail on cancelled conversion	キャンセルの変換にメールを送信します。
+Send eMail on adding a conversion to the queue	キューへの変換を追加するメールを送信します。
+Please enter a valid server address	有効なサーバーのアドレスを入力してください。
+Invalid SMTP Server	無効な SMTP サーバー
+Please enter a valid server port	有効なサーバー ポートを入力してください。
+Invalid SMTP Port	無効な SMTP ポート
+Please enter a valid From eMail address	有効な電子メール アドレスから入力してください。
+Invalid eMail Address	無効な e メール アドレス
+Please enter valid To eMail addresses	E メール アドレスに有効な入力してください。
+Username	ユーザー名
+<Optional> Enter the username for the eMail server authentication	<Optional>の入力、ユーザー名、メール サーバーの認証
+<Optional> Enter the password for the eMail server authentication	<Optional>入力、パスワード、メール サーバーの認証
+MCEBuddy unable to download series information	MCEBuddy シリーズ情報をダウンロードすることができません。
+MCEBuddy successfully converted a video	MCEBuddy は、ビデオが正常に変換
+Source Video	ソース ビデオ
+Converted Video	変換されたビデオ
+Converted At	変換
+MCEBuddy failed to converted a video	MCEBuddy のビデオを変換に失敗しました
+Failed At	失敗しました
+MCEBuddy cancelled a video conversion	MCEBuddy ビデオの変換をキャンセル
+Cancelled At	キャンセル
+Working	作業
+Test	テスト
+Testing	テスト
+Click this button to test the eMail server settings	メール サーバーの設定をテストするには、このボタンをクリックします。
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy server settings.\r\nThis をテストするには、メールが送信されますを最大 60 seconds.\r\nMCEBuddy この期間中に応答できないことがあることができます。
+Test eMail	テスト電子メール
+MCEBuddy Test eMail	MCEBuddy テスト電子メール
+MCEBuddy - Have a great day!	MCEBuddy - 素晴らしい一日がある ！
+Send eMail test successful	E メールのテストが正常に送信します。
+Send eMail test failed! Please check your settings and internet connectivity	E メール テストに失敗しましたを送信 ！インターネット接続を設定してください。
+Test eMail Success	テスト メールの成功
+Test eMail Failed	テスト e メール失敗
+Send eMail on start of conversion	変換の開始にメールを送信します。
+MCEBuddy started a video conversion	MCEBuddy ビデオの変換を開始
+Conversion Started At	変換の開始
+Yes (Comskip)	はい (Comskip)
+Yes (ShowAnalyzer)	はい (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	少なくとも 1 つの変換タスクを有効にする必要があります。
+Disable	無効にします。
+Enable	有効にします。
+Rename	名前の変更
+Move	移動
+Up	アップ
+Down	ダウン
+Slow Remuxing	遅い Remuxing
+Extracting closed captions	クローズド キャプションの抽出
+Validating closed captions	クローズド キャプションの検証
+Extracting subtitles	字幕の抽出
+Trimming closed captions	トリミング クローズド キャプション
+Extract subtitles and closed captions	字幕、クローズド キャプションを抽出します。
+Field	フィールド
+Channel	チャネル
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	クローズド キャプションの抽出を有効にすると、サブタイトルとテレテキスト from\r\nWTV、DVR-MS、TS、MP4、MKV、その他のサポートされている files.\r\n\r\nIt 字幕 (SRT) ファイルとして保存されます。
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	クローズド キャプション extraction\r\nField - 1 または 2\r\nChannel - 1 または 2\r\n\r\nDefault の高度なオプションの設定を有効にする: フィールド 1、チャンネル 1
+Subtitle offset	字幕オフセット
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	秒数を入力 (+ ve/- ve) ビデオと字幕の同期を調整するには
+Re-ReMuxing due to audio error	オーディオ エラーのため再-ReMuxing
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	ポスターを保存して、互換性のある MC/XBMC NFO ファイル (XML 形式) で情報 (メタデータ) を表示
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	このチェック ボックスのみを保存表示情報 (メタデータ) 変換 file.\r\nThis でメタデータタグをサポートするファイルのための作品のような MP4、MKV、WTV etc.\r\n\r\nNOTE： 問題の読書メタデータを持っている古いテレビなどいくつかのデバイスとの問題に直面している場合は、このボックスをオフにします。
+Atleast one day of the week must be enabled	少なくとも 1 つの曜日を有効にする必要があります。
+Invalid Days of Week	無効な曜日
+Invalid day of week found in configuration file	構成ファイルで見つかった無効な曜日
+Scheduling	スケジュール
+Remuxing to	Remuxing に
+Part	その
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	ボタン、ボックスまたはインスタントからヘルプを取得 it.\n\nFor を使用して、トラブルシューティングまたは MCEBuddy のサポートを受ける方法の詳細についてをアイテム上でマウス リンクをクリックして、< 概要 > トップ右 corner.\n\nDonations の残りの部分は常に歓迎:)お楽しみください! \n\n - Ramit、デレク & ガチョウ
+Welcome to MCEBuddy	MCEBuddy へようこそ
+Multichannel audio	マルチ チャンネル オーディオ
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	It.\r\nBy 既定のオーディオ ソースのビデオをサポートする場合、マルチ チャンネル オーディオを許可するチェックは、2 チャンネル (ステレオ) 限られています。
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	ダイナミック レンジ圧縮 (DRC) \r\nWhen ソースは、コンゴ民主共和国 will\r\nreduce、大声で、このボックスに役立つかもしれないチェック マルチ チャンネル オーディオの録音とボリュームがあまりにもソフトである you\r\nfeel があるより多くの even.\r\nIf オーディオのトラックを作る soft\r\nsounds の違いを有効にする、AC3 オーディオです。
+FPS	FPS
+Logfile age (days)	ログ ファイルの有効期間 (日)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	Them.\r\nSet ログを永遠に保つために 0 を削除する前に、ログファイルを保存する日数の最大数。
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	高速 Remuxing
+Byte stream remuxing	バイト ストリーム remuxing
+Disable cropping	トリミングを無効にします。
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	この conversion.\r\nCropping 中にビデオを自動的にトリミングを無効にする「黒いバー」の削除に使用されます (上、下、左、またはこのオプション ビデオ画像は、任意の側に切られた場合、または最後の画像を探している場合伸縮または歪曲 right).\r\nUse。 ビデオのチェックします。
+Only detect Ads	広告のみ検出します。
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	この場合は広告 (コマーシャル) を検出するために MCEBuddy をするなくそれらをこのオプションを有効に video.\r\nWhen からカット、MCEBuddy、EDL ファイル MP4、M4V の変換後の video.\r\nAlso の広告の場所を指定します、変換されたファイルを作成し、コマーシャルの終わりを示す章 MKV ファイル MCEBuddy が作成されます確認してください。
+Download information	情報をダウンロードします。
+Correction	補正
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	ショーのタイトルを修正し、インターネットから特定のアコースティックライヴ シリーズ id または IMDB の映画 id\r\nto 参照追加のメタデータの使用を強制するにはここをクリックします。
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	このバナー ファイル、エピソード、季節などのような番組については、インターネットから追加情報をダウンロードするチェックします。
+Profile Error	プロファイル エラー
+Cannot find selected profile in profiles.conf	選択したプロファイルに profiles.conf を見つけることができません。
+Invalid Profile	無効なプロファイル
+Please select a valid profile	有効なプロファイルを選択してください。
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	MCEBuddy エンジンが墜落しました。Mcebuddy.log が開発者に送信してください。
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	この変換 task\r\nLeave の広告除去のためのデフォルト Comskip INI ファイルを使用するこの空白を使用するには、カスタムの Comskip INI ファイルを選択します。
+Click to select custom Comskip INI file	カスタム Comskip INI ファイルを選択する] をクリックします。
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	一時ファイル用のフォルダーを選択します。十分な空スペースに drive.\r\nLeave、インストール フォルダーの既定の一時フォルダーを使用するには、この空白を確認します。
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	一時ファイルを操作するためのフォルダーを選択します。十分な空領域、drive.\r\nThis でオーバーライド-> エキスパート設定ページ設定で指定されている temp フォルダーがあることを確認します。
+Click to select temp working folder	一時作業フォルダーを選択する] をクリックします。
+Temp folder	Temp フォルダー
+Space check	領域の確認
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	とき十分な空き領域の変換先、ネットワーク ドライブまたは非常に大きいビデオ ・ ファイルがこの場合いるはトラブルに temp).\r\nUncheck。 有効な MCEBuddy をチェックします
+MCEBuddy Windows Event Logs	MCEBuddy Windows のイベント ログ
+Events	イベント
+Click here to open the MCEBuddy Windows Event Logs	MCEBuddy Windows のイベント ログを開くにはここをクリック
+Enable UPnP	UPnP を有効にします。
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	UPnP を有効にするこのチェックします。これは、network.\r\nThis 外から MCEBuddy エンジンへのアクセスを必要と MCEBuddy にアクセスするモバイル/スタンドアロン MCEBuddy クライアントを使用しているかどうかにチェックすることができます。
+Click here to connect to another MCEBuddy engine	別の MCEBuddy エンジンに接続するにはここをクリック
+MCEBuddy Remote Engine Connection	MCEBuddy リモート エンジンの接続
+Engine Name	エンジン名
+Engine Port	エンジン ポート
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	名前または IP アドレスに接続する MCEBuddy エンジンを入力します。
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	MCEBuddy エンジンの接続先の TCP ポート番号を入力します。
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	MCEBuddy エンジン (1 に 63355 する) を接続先の TCP ポート番号を入力します。
+Invalid Name/Port	無効な名/ポート
+Please enter a valid Engine Name and Engine Port Number	有効なエンジンの名前とエンジンのポート番号を入力してください。
+Error Stopping Engine	エラー停止エンジン
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	MCEBuddy エンジンを停止できません、設定を保存する可能性があります。続行しますか。
+Unable to communicate with engine. Settings have NOT been saved.	エンジンと通信できません。設定は保存されていません。
+Communication Error	通信エラー
+Engine not stopped. Settings have NOT been saved.	エンジンは停止します。設定は保存されていません。
+Unable To Save Settings	設定を保存できません。
+Unable to communicate with engine. UPnP settings have not been updated	エンジンと通信できません。UPnP の設定が更新されていません。
+Audio delay	オーディオ遅延
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	秒 (正または負) の値を入力しますここで、video.\r\nUse に比例した音声 conversion.\r\nA 後同期場合、ビデオとオーディオを同期にシフトする正の値 (すなわちビデオをオーディオの前） のオーディオ遅れるし、高度なオーディオは、（前の video).\r\nE.g すなわちオーディオ負の値をします。。-1.5
+Media info	メディア情報
+Click here to get media properties for selected files	選択されたファイルのメディアのプロパティを取得するにはここをクリック
+Save information	情報を保存します。
+Add information	情報を追加します。
+Shows a preview of the custom filename and path	カスタムのファイル名とパスのプレビューを表示します。
+Invalid Filename Pattern	無効なファイル名のパターン
+TVDB Series ID	TVDB シリーズの ID
+IMDB Series ID	IMDB シリーズ ID
+Original title	オリジナル タイトル
+Corrected title	修正されたタイトル
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	ID を入力しますアコースティックライヴ シリーズ ショーをダウンロードするために使用する information.\r\nIf、元のタイトルのボックスが空である、これは、この変換タスクで選択すべてのショーに適用されます。
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	映画 information.\r\nIf オリジナルをダウンロードするために使用する IMDB 映画 ID を入力して [タイトル] ボックスが空である、これは、この変換タスクで選択すべてのショーに適用されます。
+Internet Lookup Title and Metadata Correction	インターネット検索のタイトルとメタデータ補正
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	正しいタイトルと同じ修正されたタイトル、この変換タスクによって変換すべてのショーのための系列 id を使用するシリーズ id.\r\nIf と一致する別の行を追加するには、ここをクリックして \r\nleave の元のタイトル空白、最初の行を追加しないでください 2 番目の行。
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	補正 (例えばシンプソン * を置き換えるシンプソンから始まるショー タイトルを持っているすべてのタイトル) のためのショー/シリーズのタイトルと一致するパターンを入力 \r\nPrefix パターンと 〜 試合をスキップする (例えば *. *; 〜 シンプソン * で修正されますすべてショー タイトル シンプソンで始まるものを除く) \r\nSeparate 複数パターン;（例： シンプソン *;House*) または (例えばシンプソン *;NCIS*; 〜 ネイビー犯罪捜査班マイアミ *) \r\n\r\nNOTE:] このボックスを空白修正されたタイトルまたはシリーズの id を空白のままこの変換 task.\r\nIf によって処理されているすべてのファイルを適用する場合は、2 番目の row.\r\n\r\nYou タイトルで始まる正規表現と一致する正規表現を使用することができますを追加できません。
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	追加情報をダウンロードするために使用する新しい/修正のタイトルを入力してください internet.\r\nIf、元から [タイトル] ボックスが空、これが適用されますこの変換によって選択されたすべてのショーに task.\r\n\r\nYou は正規表現の開始によってタイトルを修正するための正規表現を使用できます。
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	行ごとに、表示名とどちらか修正を一致するように元のタイトルを入力してくださいタイトルまたはアコースティックライヴ/IMDB シリーズ ID
+Please enter either a Corrected title or a TVDB/IMDB Series ID	修正済みタイトルまたはアコースティックライヴ/IMDB シリーズの ID のいずれかを入力してください。
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	MCEBuddy に変換する場合は、これを有効にするソース directory\r\nif の保存先のファイルは使用できません。（例えば、またはマッピング障害ネットワーク）
+Fallback to source path	ソース ・ パスにフォールバック
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	Converting.\r\n1 は正常ですが、the\r\nrecording の量を増減するために使用、以下のものがそれを削減する、anything\r\nhigher は、それを増加します。
+Archive folder	アーカイブ フォルダー
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	既定の 'MCEBuddyArchive' フォルダーの元のディレクトリを使用する空のアーカイブ folder.\r\nLeave の場所を変更します。
+Monitor subdirectories	モニターのサブディレクトリ
+Check this box to also monitor all directories within the Monitor path	また、モニターのパス内のすべてのディレクトリを監視するには、このボックスをチェックします。
+Click here to show MCEBuddy status	MCEBuddy の状態を表示するにはここをクリック
+MCEBuddy service not connected	接続されていない MCEBuddy サービス
+MCEBuddy idle	MCEBuddy アイドル
+conversions in progress	進行中の変換
+MCEBuddy stopped	停止 MCEBuddy
+Sync converted files	変換されたファイルを同期します。
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	変換後のファイルの同期元の files.\r\ni.e を維持する MCEBuddy したい場合は、このオプションをオンします。元のファイルはユーザーによって削除された場合、対応する変換後のファイルは、また deleted.\r\n\r\nNOTE です： MCEBuddy のみモニター場所フォルダー内の元のファイルを監視し、エンジン間のみ running.\r\nMCEBuddy は、エンジン停止中、削除されたユーザー ファイルを追跡することができません。
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	元のファイルが削除されたときに各変換後のファイルを削除するには MCEBuddy か?
+Confirm sync conversions?	同期変換を確認か？
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	あなたはしないでから変換後のビデオのコマーシャルを削除し、のみ EDL ファイルを維持するもよろしいですか。
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer は応答していません。ShowAnalyzer を再インストールまたはシステムを再起動してください。
+ShowAnalyzer Not Responding	応答していない ShowAnalyzer
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	あなた '開始' キーを押してこのウィンドウを閉じて確認、スケジュールおよびウェイクそれ以外の場合は動作しません。
+Enabling Scheduling and Wake	有効化スケジューリングとウェイク アップ
+Passwords do not match	パスワードが一致しません
+Password error	パスワード エラー
+Adding subtitles and chapters to file	字幕とチャプター ファイルに追加します。
+Send eMail if unable to download series information	シリーズ情報をダウンロードできない場合電子メールを送信します。
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	この変換タスクのみから特定モニター locations.\r\nIf オフ各変換タスク (後で追加された新しいものも含めて) すべてのモニターの場所からファイルを処理するファイルを処理する場合は、このボックスをチェックします。
+Select Monitor Locations	モニターの場所を選択します
+Select atleast one Monitor Location name	少なくとも 1 つのモニターの場所の名前を選択します
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	この変換タスクを将来的に追加される新しいモニター場所を自動的に処理する、すべての現在モニター Locations.\r\nDo を選択したか？
+New monitor locations	新しいモニターの場所
+Invalid selection	選択が無効です。
+Channel name match	一致するチャネル名
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	このタスク (例えば ABC の * ファイルを変換するすべて、チャネル名で始まる ABC の記録) のチャネル名と一致するパターンを入力 \r\nPrefix パターンと 〜 試合をスキップする (例えば *; 〜 ABC * ABC で始まるものを除くすべてのチャンネルを処理する) \r\nSeparate 複数パターン;(例: ABC の *;TBS*) または (例えば ABC の *;Fox*; 〜 Fox4 *) \r\n\r\nYou で始まる正規表現パターンに一致する正規表現を使用することができます。
+Clear history	[履歴のクリア
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	すべての変換された files.\r\nThis の履歴を消去するには、このボタンをクリックして監視されているすべてのファイルを再変換する MCEBuddy を引き起こします。
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	すべての変換の履歴を削除するもよろしいですか？ \r\nThis 監視されているすべてのファイルを再変換する MCEBuddy の原因となります。
+Show history	履歴を表示します。
+Click this button to show the history of all converted files.	すべての変換されたファイルの履歴を表示するには、このボタンをクリックします。
+History of Converted Files	変換されたファイルの履歴
+Unable to communicate with engine.	エンジンと通信できません。
+Extracting streams	ストリームを抽出します。
+Fallback muxing streams	フォールバック ランチビット ストリーム
+Remuxing TiVO file	Remuxing TiVO ファイル
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	あなたの 10 桁の変換して TiVO 録音処理 TiVO MAK キーを入力してください。
+Invalid TiVO MAK Key	無効な TiVO MAK キー
+The TiVO MAK key should be 10 digits	TiVO MAK キーは 10 桁の数字をする必要があります。
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	バージョンが一致しません。MCEBuddy クライアントとエンジンと同じバージョンが実行されていることを確認してください。
+Error retrieving Event Logs	イベント ログの取得エラー
+Unable to get Event Log Entries from the MCEBuddy engine.	MCEBuddy エンジンからイベント ログ エントリを取得できませんでした。
+PAUSED: Check conversion schedule	一時停止: チェック変換スケジュール
+Logging	ログ
+Folder Management	フォルダーの管理
+Processor Management	プロセッサの管理
+Expert Settings	高度な設定
+System Settings	システムの設定
+Click here to change additional settings (for experts only)	ここをクリックしての追加設定 (専門家のみ) を変更するには
+Failed folder	失敗したフォルダー
+Location of the folder that hold the original files for failed conversions.	元のファイルを保持フォルダーの場所の変換に失敗しました。
+Move original file on failure	元のファイルを移動します。
+Check this to move the original file to a separate folder if the conversion fails.	この変換が失敗した場合、元のファイルを別のフォルダーに移動するを確認します。
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	この MCEBuddycan use.\r\nEach チェック ボックス以下は利用可能な論理プロセッサに対応する論理プロセッサの数を制限するを確認します。
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	各ボックスを表す論理プロセッサ 1 から 16 respectively.\r\nChecking は、ボックスには、そのプロセッサを使用する MCEBuddy ことができます。
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	各ボックスを表す論理プロセッサ 17 から 32 respectively.\r\nChecking は、ボックスには、そのプロセッサを使用する MCEBuddy ことができます。
+Select atleast one processor to use	少なくとも 1 つのプロセッサを使用する] を選択します
+Invalid Configuration	無効な構成
+Comskip path	Comskip パス
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	Comkip (例えば寄贈者バージョン) のカスタム バージョンを使用する場合 \r\nthen は comskip インストール here.\r\nLeave MCEBuddy となるデフォルトの comskip を使用するのには、空白のパスを入力します。
+Miscellaneous	その他
+Ignore copy protection	コピー保護を無視します。
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	Converting.\r\nNOTE 中にビデオ ファイルのコピー防止フラグを無視するこのチェック： MCEBuddy 暗号化をバイパスできない、ファイルが暗号化されていないときに保護されるコピーとして incorrectly\r\ntagged である場合、これはのみ役立ちます。
+Use recycle bin	ごみ箱の使用
+Check this to use the recycle bin when files are deleted by MCEBuddy	このファイルは、MCEBuddy によって削除されると、ごみ箱を使用するチェックします。
+Poll period	ポーリング期間
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	これは、新しい files.\r\nThe 間隔は秒単位で指定の頻度 MCEBuddy モニター タスク場所スキャンです。
+Server port	サーバーのポート
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	これは MCEBuddy を使用して通信するために UPnP が有効で、リモートの engine.\r\nWhen と MCEBuddy は、このポート上のインターネットからのアクセスを許可する Windows Firewall\r\nand UPnP ゲートウェイをこのポートを自動的に追加されます TCP ポートです。
+Hang period	期間がハングします。
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	MCEBuddy the\r\nunderlying アプリケーションからの応答を待機する秒数を入力する前にハング検出を無効にするアプリケーション hung.\r\nEnter 0 として終了します。
+Subtitle commercial cut sync	字幕コマーシャル カット同期
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	商業のビデオをカット video.\r\nEach 時間と同期に行く徐々 に商業の各セグメントが video.\r\nThis 設定から削除された後同期、字幕を使用して字幕をバックアップするときにこのパラメーターを使用、字幕でこの量 （+ ve - ve 秒で) シフト時間です。
+Invalid poll period	無効なポーリング期間
+Invalid server port	無効なサーバー ポート
+eMail Subject Customization	メール件名のカスタマイズ
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	送信 e メールの主題をカスタマイズするには、このセクションを MCEBuddy によって様々 なコンバージョン イベント below.\r\nRefer ユーザー定義 variables.\r\ne.g のカスタム コマンドのマニュアルに記載されています。%Showname% ファイル ％ originalfilename ％ の変換が成功したタスク ％ taskname%\r\nNOTE を使用して表示: は常にすべてのデータはカスタム デフォルトの件名の行を使用するのには、空白の commands.\r\nLeave で利用可能ななります。
+Success	成功
+Failed	失敗しました
+Cancelled	キャンセル
+Download fail	ダウンロード失敗
+Limit processor utilization	プロセッサ使用率の制限
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	チェック MCEBuddy こと use.\r\nEach 下のチェック ボックスの論理プロセッサの数を制限する、利用可能な論理プロセッサに対応しています。
+Custom profile	カスタム プロファイル
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	MCEBuddy が付属しています the\r\none の代わりに使用するカスタムの profiles.conf ファイルがある場合は、ファイル here.\r\n\r\nNOTE へのパスを入力します: MCEBuddy 常にバグを更新 profiles.conf 修正, この機能を使用する場合は out\r\non を欠場すること \r\nenhancements とパフォーマンスが向上します。
+Invalid custom profiles.conf	無効なカスタム profiles.conf
+Suspend on battery	バッテリをサスペンドします。
+Suspend conversions when the computer switches to battery power	コンピューターをバッテリ電源に切り替わったときに変換を中断します。
+MCEBuddy added a video conversion to the queue	MCEBuddy ビデオ変換をキューに追加
+Queue	キュー
+Refer to documentation on using custom commands in custom eMail subjects	カスタム コマンドを使用してカスタム メール科目に関するドキュメントを参照してください。
+Could not copy information to Clipboard, please try again.	情報をクリップボードにコピーできません、もう一度試してください。
+Error copying to Clipboard	クリップボードへのコピー エラー
+Copy to clipboard	クリップボードにコピー
+Reconvert files	ファイルを再変換します。
+Are you sure you want to reconvert the selected files?	選択したファイルを再変換するもよろしいですか。
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	再変換し、元のファイルは、まだ再変換のキューに置かれます MCEBuddy によって監視されているこの button.\r\nIf をクリックするファイルを選択します。
+Time taken to convert	変換にかかる時間
+Network authentication	ネットワーク認証
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	ネットワーク共有の credentials.\r\nThis の認証を入力するボタン追加ボタン メイン window\r\nor でファイルが追加されますをクリックしてからドラッグ アンド ドロップ ネットワーク共有、変換状態] ボックスに、メイン ウィンドウに。
+Skip reconversion	再変換をスキップします。
+Do not reconvert the video if a converted file already exists in the destination directory.	変換ファイル出力先ディレクトリに既に存在する場合に、ビデオを再変換されません。
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	予想されるファイル名変換したビデオ (ファイルないオリジナル ビデオ名) は、変換されたファイルが存在する目的地 directory.\r\nIf 内のファイル名と比較して、ファイルを再変換することがなく、成功した conversion.\r\nThis である場合に便利です同じ番組/エピソードは複数回に記録されていると them.\r\n\r\nNOTE を再変換したくないと見なされます: 手動で追加] ボタンを使用してドラッグ アンド ドロップに追加動画このオプションは無視されます。
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	過去 conversions.\r\nThe 期待 (ないオリジナル ビデオ filename) の変換後のビデオのファイル名の歴史 file.\r\nIf でファイル名と比較されますスキップ再変換は履歴ファイルをチェックも有効な場合、変換後のファイル名 (パスを含む) を履歴ファイルの (パスを含む) 既に変換されたファイル名のいずれかと一致する、\r\nthe ファイルが再変換されませんが、変換が成功であると見なされます。
+Adding file to the iTunes library	ファイルを iTunes ライブラリに追加
+Add to iTunes	ITunes に追加します。
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	サポートされているファイル （例えば MP4、M4V、MP3 など） が iTunes と iTunes library.\r\nThis に変換されたファイルを自動的に追加するにはこのボックスがのみ動作を確認します。
+Adding file to the WMP library	WMP ライブラリへのファイルの追加
+Library Management	ライブラリの管理
+Add to Windows Media Player	Windows メディア プレーヤーを追加します。
+Check this box to automatically add the converted files to the WMP library.	このチェック ボックスを自動的に WMP ライブラリに変換されたファイルを追加します。
+Renaming and Sorting	名前変更と並べ替え
+Selection Filters	選択フィルター
+Audio and Video	オーディオとビデオ
+Subtitles and Chapters	字幕とチャプター
+Skip copying original files	元のファイルのコピーをスキップします。
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	チェックこのボックスで自分 RISK.\r\nDO ないチェックこのボックスしない限り、あなたが知っているあなたが DOING.\r\nCheck このボックス変換中 (コピー) 元のファイルのバックアップの作成をスキップします。
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	チェックこのボックスであなた自身 RISK.\r\nDO チェックは、このボックスをあなたが DOING.\r\nCheck この converting.\r\nIf 中 (コピー) 元のファイルのバックアップの作成をスキップする] このボックスはチェック、error.\r\nIt の場合は、元のファイルは保持されませんが知っている限りすることができますもをもたらさない変換エラーまたはその他予期せぬ変換の問題。
+Are you sure you want to do this?	これを行うにしてもよろしいですか。
+Media Information Management	メディア情報の管理
+Force show type	力のショーのタイプ
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	この録画ムービーとしての治療を強制的に設定またはテレビの Series.\r\nThis スポーツ show\r\nDefault - 映画やテレビ シリーズを決定に使用記録メタデータで使用できる既定の情報として記録、レコーディングに関する追加情報 (メタデータ) からダウンロードした、internet.\r\nMovie - movie\r\nSeries - 御馳走テレビ Series\r\nSports として記録として記録の御馳走を - 治療方法が変更されます。
+Show type	スライド ショーの種類
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	これ converted.\r\n\r\nMovies されている録音の種類フィルターを選択します - この種類のスライド ショーは、Movie.\r\nShows 場合は変換 - この種類のスライド ショーは、Movie.\r\nSports 場合は変換 - 変換 [番組の種類が Sports.\r\n\r\nNOTE の場合にこのオプションを選択するオプションを選択するオプションを選択: WTV サポート メタデータと and\r\nrecordings などのショー型メタデータ ファイル (いくつかの録音をサポート記録 metadata.\r\nOnly から読み取るは型を表示XML/ARG など)。
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	このボックス conversion.\r\nDrag アンド ドロップ ファイルここでまたはファイル変換キューを追加する追加ボタンを押してキュー内のすべてのファイルが表示されます。
+Conversion	変換
+Files	ファイル
+Click this button to open or close the Advanced Settings section	このボタンをクリックを開くまたは詳細設定セクションを閉じる
+Running custom commands	カスタム コマンドの実行
+Trimming video recording	トリミング ビデオ録画
+Insert at top of queue	キューの先頭に挿入します。
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	既定では、新たに行う変換はオンに、このタスクによって追加されたすべての新しい変換は、変換キューの the\r\nbeginning （上） に追加する変換 queue.\r\nIf の下 (終点) に追加されます。
+Add subtitles and chapters	字幕とチャプターを追加します。
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	任意抽出の字幕を追加するこのオプションを有効にして変換された video.\r\nEach の章の章商業の終わりを示します。これはのみサポートされている形式で動作します (例えば MKV は、MP4).\r\n\r\nNOTE： いくつかの選手と古いテレビ埋め込まれた字幕をサポートしていない chapters.\r\nIf をすることはできません変換したビデオを再生、このオプションをオフにしてください。
+Select best soundtrack	最高のサウンド トラックを選択します。
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	元のビデオがある複数サウンド トラックこのオプション指示 MCEBuddy を特定の言語のサウンド トラックをする最も適切な主な soundtrack.\r\nIf を選択場合、確認言語名を入力するか、または可能であれば、変換ファイルで元のビデオからサウンド トラックを保持する MCEBuddy したい場合は、このボックス、あなた変換 file.\r\n\r\nUncheck で間違っているサウンド トラックを聞いている場合は、このボックス オーディオ言語 box.\r\nCheck でコードします \。r\nNOTE: いくつかのプロファイル サポートしない複数サウンド トラックその場合この設定は効果がありません。
+Enable remote access	リモート アクセスを有効にします。
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	これは MCEBuddy のアプリケーションを windows ファイアウォールで例外を作成し、windows ファイアウォールを有効にし、UPnP client\r\nor リモート アクセス IP address.\r\n\r\nNOTE を使用してエンジンを使用する場合、port.\r\nThis が必要です: カスタム ファイアウォールがある場合、これは動作しない可能性があります、an\r\nexception MCEBuddy サービスとポートを手動で作成する必要があります。
+Unable to communicate with engine. Firewall exception settings have not been updated.	エンジンと通信することができません。ファイアウォールの例外の設定が更新されていません。
+Detect and optimize video quality	検出し、ビデオの品質を最適化
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	MCEBuddy ビデオ ソース type.\r\nThis 場合は正しく変換されたビデオの品質を大幅に向上することができますを検出しようとしてビデオ処理オプションを最適化が有効な場合、detected.\r\n\r\nNOTE: これは (インター レース、プログレッシブやビデオ ソースの種類を検出することができます telecine).\r\nIf ビデオ ソースの種類を検出しようとしていることで、このオプションをオフ変換されたビデオの品質問題に直面しているまたは既定のプロファイルのパラメーターを使用する場合 profile.\r\nTurn で対応するパラメーターは上書きされます。
+Are you sure you want to delete this task?	このタスクを削除してもよろしいですか。
+Delete Task	タスクを削除します。
+Enter the new task name	新しいタスク名を入力してください。
+Rename Task	タスクの名前を変更します。
+MCEBuddy PAUSED	MCEBuddy の一時停止
+idle	アイドル
+PAUSED	一時停止
+Frame rate	フレーム レート
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	これのために変換された video.\r\nYou デバイス対応のみ特定 framerates.\r\n\r\nE.g のビデオ フォーマット （例えば NTSC に PAL) \r\nor の変換中にこれを設定する必要がありますカスタム フレーム レート (FPS) を設定するを有効にする: 25\r\nE.g: 30000/1001。
+Skip remuxing files	Remuxing ファイルをスキップします。
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	チェックこのボックスであなた自身 RISK.\r\nDO チェックこれはあなたが知っているあなたは DOING.\r\nCheck このボックス converting.\r\nIf これは、チェックしながら TS ファイルを remuxing、元のファイルをスキップする、字幕の抽出や comskip のようないくつかの機能は work.\r\nIt ない可能性がありますしない限り、ボックスすることができますもをもたらさない変換エラーまたはその他予期せぬ変換の問題。
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	チェックこのボックスであなた自身 RISK.\r\nDO ないチェックこのボックスしない限り、あなたが知っているあなたが DOING.\r\nCheck このボックス変換中 TS ファイルを remuxing、元のファイルをスキップします。
+Monitor converted videos	変換したビデオを監視します。
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	既定ではモニターの場所ファイルは無視されます converted.\r\nCheck は既にこのボックス モニター Path.\r\nCAUTION に変換されたファイルを監視する場合: 構成された properly.\r\n\r\nThis 立ちますモニター場所のモニター パスとして変換 task\r\n (変換ファイル) の出力ディレクトリを指定すると、the\r\nMonitor のリンクがない場合この変換されたファイルの変換が無限ループにつながることができますもう 1 つの変換タスクする場所です。
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	チェックこのボックスで自分 RISK.\r\nDO ないチェックこのボックスしない限り、あなたが知っているあなたが DOING.\r\nBy 既定モニター場所ファイルは無視されます converted.\r\nCheck は既にこのボックスのモニター パスに変換されたファイルを監視する場合。
+Hardware encoding	ハードウェア エンコード
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	チェック エンコーディングを使用するハードウェアを videos.\r\nThis 変換する利用可能な場合は、このボックスの変換を大幅にスピードアップし、削減できますわずかに低い品質 videos.\r\n\r\nUncheck このボックス変換または品質の問題に直面している場合に発生することができます CPU utilization\r\nbut。
+Do not overwrite files	ファイルを上書きしません。
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	このチェック ボックスをオンにすると、それは既に一意の番号の exists.\r\nInstead 新しいファイルが作成されます、ファイル名の最後に追加した場合、リンク先のファイルは上書きされません。
+Re-monitor recorded videos	再記録されたビデオを監視します。
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	既定では、ソース ファイル (ビデオの記録) が変換された \r\nthe モニターの履歴は追跡ファイル名と同じファイル again.\r\n\r\nEnable をキューいない歴史を無視するおよびすべてのファイルを監視し、それら to\r\nthe 変換キューを追加するこのオプション converted.\r\n\r\nThis することができます時々 役に立つ彼らは既にされている場合でも、一度、レコーディング ソフトウェアは各エピソードのショーの a\r\nunique のファイル名を生成しない場合。それはお勧め avoid\r\nan 変換が無限ループにこのオプションを使用する場合、設定ページで the\r\nDelete 元ファイル オプションを使用します。
+Recommendation	勧告
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	変換が無限ループを避けるため、変換されたファイルはないこのモニターのタスクによって監視されていることを確認するような方法であなたのモニターの検索パターンをセットアップすることをお勧めします。
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	モニターの場所は再度監視しないチェックこのボックスに独自のチェックこのボックスしない限り、あなたが知っているあなたが DOING.\r\nBy RISK.\r\nDO ない既定記録動画 processed.\r\nCheck をされているこのボックス再度監視および録画ビデオを再変換する場合。
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	変換が無限ループを避けるために削除元のファイル オプションの設定] ページで有効にすることをお勧めします。
+Prioritize air date matching	空気日付照合優先順位を付ける
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy は、インターネット検索シリーズ information\r\nwhile を一致するようにエピソードの名前を使用します。失敗した場合それボックスを使用して、元の broadcast\r\nair 日、metadata.\r\n\r\nCheck を一致するようにこの最初元の放送の空気日付を使用してし、internet.\r\nThis からシリーズについて、一致する the\r\nepisode 名することができますいくつかのケースで役に立つ複数の季節 same\r\nepisode 名である場合。例えば Americal アイドル オーディション 1\r\n\r\nNOTE: 元の放送の空気日付は常に the\r\nbroadcaster での正確なセットと時々、インターネット上の情報は、既定のオプションはあなたのために働いていない場合にのみこのオプションを incorrect.\r\nUse。
+Skip eMail body	電子メールの本文をスキップ
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	通知 eMail.\r\nThis の本体は空を使用するこのオプションは電子メール通知の SMS ゲートウェイを使用している場合に便利であることを確認します。
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	デジタル権利管理 (DRM) に基づく選択は available\r\nonly 変換せずとき名前を変更 (名前を変更および移動のみ) オプションは selected.\r\n\r\nAll - status\r\nProtected のコピープロテクトに関係なく、処理のためのすべてのファイルを選択 - 選択ファイルをコピー protected\r\nUnprotected であるのみ - コピー保護がないファイルのみ選択
+Download cover art	カバーアートをダウンロードします。
+Enable this to download the cover art from the original video and internet if available.	利用可能な場合オリジナル ビデオ、インターネットからのカバーアートをダウンロードして、このを有効にします。
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	ドメイン名を入力するよろしいですか？ \r\n\r\nUse こののみを管理する Windows ドメイン コント ローラーを使用している場合、authentication.\r\nDo 使用していないこれは Workgroup.\r\n\r\nIf の一部である場合あなたは不明なクリックいいえ
+Configuration Warning	構成の警告
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	元のファイルが located\r\nand 元のファイルに移動しますこのディレクトリ以下成功 conversion.\r\n\r\nThis フォルダー名と場所を変更した後 ' MCEBuddyArchive' と呼ばれるフォルダーを作成します。
+Monitoring	監視
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	EDL ファイルの章に変換するにはエキスパート設定 '追加字幕とチャプター' オプションのチェックを確認してください。
+EDL to Chapters	EDL の章へ

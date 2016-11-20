@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7E8D78E7-1A6F-4D60-A25E-246CEAECBFD0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MCEBuddy.GUI</RootNamespace>
+    <AssemblyName>MCEBuddy.GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>MCEBuddyIcon_32x32.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\MCEBuddy.GUI.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\MCEBuddy.GUI.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>MCEBuddy2-HP.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>MCEBuddy.GUI.exe.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MCEBuddy.GUI.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConversionTaskExpertSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConversionTaskExpertSettingsForm.Designer.cs">
+      <DependentUpon>ConversionTaskExpertSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConversionTaskForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConversionTaskForm.Designer.cs">
+      <DependentUpon>ConversionTaskForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConversionTaskMonitorTasksListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConversionTaskMonitorTasksListForm.Designer.cs">
+      <DependentUpon>ConversionTaskMonitorTasksListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorTaskExpertSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonitorTaskExpertSettingsForm.Designer.cs">
+      <DependentUpon>MonitorTaskExpertSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputBox.Designer.cs">
+      <DependentUpon>InputBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsSystemSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsSystemSettingsForm.Designer.cs">
+      <DependentUpon>SettingsSystemSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewSorter.cs" />
+    <Compile Include="ConversionTaskSetSeriesIDForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConversionTaskSetSeriesIDForm.Designer.cs">
+      <DependentUpon>ConversionTaskSetSeriesIDForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RemoteEngineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoteEngineForm.Designer.cs">
+      <DependentUpon>RemoteEngineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CredentialsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CredentialsForm.Designer.cs">
+      <DependentUpon>CredentialsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="eMailSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eMailSettingsForm.Designer.cs">
+      <DependentUpon>eMailSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventLogDisplayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventLogDisplayForm.Designer.cs">
+      <DependentUpon>EventLogDisplayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MediaInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MediaInfoForm.Designer.cs">
+      <DependentUpon>MediaInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorTaskForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonitorTaskForm.Designer.cs">
+      <DependentUpon>MonitorTaskForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoryForm.Designer.cs">
+      <DependentUpon>HistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatusForm.Designer.cs">
+      <DependentUpon>StatusForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ConversionTaskExpertSettingsForm.resx">
+      <DependentUpon>ConversionTaskExpertSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConversionTaskForm.resx">
+      <DependentUpon>ConversionTaskForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConversionTaskMonitorTasksListForm.resx">
+      <DependentUpon>ConversionTaskMonitorTasksListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonitorTaskExpertSettingsForm.resx">
+      <DependentUpon>MonitorTaskExpertSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputBox.resx">
+      <DependentUpon>InputBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsSystemSettingsForm.resx">
+      <DependentUpon>SettingsSystemSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConversionTaskSetSeriesIDForm.resx">
+      <DependentUpon>ConversionTaskSetSeriesIDForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoteEngineForm.resx">
+      <DependentUpon>RemoteEngineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CredentialsForm.resx">
+      <DependentUpon>CredentialsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eMailSettingsForm.resx">
+      <DependentUpon>eMailSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventLogDisplayForm.resx">
+      <DependentUpon>EventLogDisplayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MediaInfoForm.resx">
+      <DependentUpon>MediaInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonitorTaskForm.resx">
+      <DependentUpon>MonitorTaskForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoryForm.resx">
+      <DependentUpon>HistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusForm.resx">
+      <DependentUpon>StatusForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="MCEBuddy.GUI.exe.manifest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="MCEBuddy2-HP.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media_play_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MCEBuddyLarge.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MCEBuddy50High.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_right_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control_panel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MCEBuddyIcon_32x32.ico" />
+    <None Include="Resources\MCEBuddyUpdate 20x20.png" />
+    <None Include="Resources\MCEBuddy_Icon.ico" />
+    <None Include="Resources\media_button-pause_yellow.png" />
+    <None Include="Resources\movie_23x23.png" />
+    <None Include="Resources\MCEBuddyUpdate.ico" />
+    <None Include="Resources\mcebuddy_close.png" />
+    <None Include="Resources\3d-up-and-down-arrow.png" />
+    <None Include="Resources\paypal-donate.gif" />
+    <None Include="Resources\UserCredentials.jpg" />
+    <None Include="Resources\nav_refresh_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MCEBuddy.Configuration\MCEBuddy.Configuration.csproj">
+      <Project>{EA3FAF4F-610D-4394-9BF6-75798AA17541}</Project>
+      <Name>MCEBuddy.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MCEBuddy.Globals\MCEBuddy.Globals.csproj">
+      <Project>{582764CD-025E-4CB1-B2C4-0C52A59BE74E}</Project>
+      <Name>MCEBuddy.Globals</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MCEBuddy.MetaData\MCEBuddy.MetaData.csproj">
+      <Project>{A3AA78D8-F912-41EC-844B-48C84E5032BB}</Project>
+      <Name>MCEBuddy.MetaData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MCEBuddy.Util\MCEBuddy.Util.csproj">
+      <Project>{0D324A60-A350-422E-B522-12B9EAEFDAEC}</Project>
+      <Name>MCEBuddy.Util</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MCEBuddy.ProgressODoom\MCEBuddy.ProgressODoom.csproj">
+      <Project>{8DD1E84B-0B03-4C0B-9B42-1E49F75E7CB1}</Project>
+      <Name>MCEBuddy.ProgressODoom</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>attrib -r "$(TargetDir)\*.*" /S
+</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

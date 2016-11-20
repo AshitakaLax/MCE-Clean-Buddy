@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy 네트워크 공유에 연결 하려면 현재 로그인된 한 사용자를 사용 하지 않습니다, 그리고 그것은 자체 서비스 계정을 사용 합니다.  연결 사용자 정보 키 아이콘 (MCEBuddy)를 지정 해야 합니다.
+Connection Reminder	연결 알림
+Description	설명
+Path	경로
+is invalid	유효 하지 않은
+Invalid Path	잘못 된 경로
+Please supply a task name	작업 이름 입력 하십시오
+No name supplied	제공 된 이름 없음
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	오디오 트랙 선택 <Default>또는 <original>의 3 자리 언어 코드를 입력 하십시오.
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	이 원래 recording.\r\nTo 얻 원래 녹음된 파일에서 오디오 트랙에 대 한 언어 코드에서에서 오디오 트랙에 대 한 언어 코드를 일치 하는 선택한 language\r\nmake에 대 한 ISO 코드 3 자리 file\r\nto 큐를 추가 하 고 마우스 오른쪽 버튼을 클릭 하십시오. 오디오를 보여주는 창이 팝업을 열 것 이다 details\r\nwhich 각 오디오 트랙에 대 한 언어 코드를 포함 합니다.
+Invalid Language Code	잘못 된 언어 코드
+No destination directory provided, converted file will be placed in original video directory	대상 디렉터리가 없습니다 제공, 변환 된 파일에에서 배치 됩니다 원래의 비디오 디렉토리
+A task name or section	작업 이름 또는 섹션
+already exists\n\rPlease use another name	이미 exists\n\rPlease 다른 이름 사용
+Duplicate Name	중복 된 이름
+Engine	엔진
+Tasks	작업
+Profile	프로 파일
+disposing	처분
+Task name	작업 이름
+Give a unique name to this task	이 작업에 고유 이름을
+Gives a short description for the selection conversion profile	선택 변환 프로 파일에 대 한 간단한 설명을 제공합니다.
+Click to select destination folder	대상 폴더를 선택 하려면 클릭 하십시오.
+Destination	대상
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	변환 된 파일 placed.\r\nLeave 비디오 원래와 동일한 디렉터리에 변환 된 파일을 유지 하는 것이 빈 됩니다 디렉터리를 선택 합니다.
+Max width	최대 폭
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	이것은 변환 된 file.\r\ntip에 대 한 비디오의 픽셀 단위로 최대 너비 제한: 원래 파일의 너비를 오른쪽으로 원래의 비디오 해상도 이동 슬라이더를 유지 하려면이 number.\r\nIf 보다 작은 경우에 적용 되지 않습니다.
+Quality	품질
+Ad remover	광고 제거
+None	없음
+Get series details from Internet	인터넷에서 시리즈 세부 정보를 얻을
+Download additional details about the movie or series from the internet	인터넷에서 동영상이 나 시리즈에 대 한 추가 세부 정보를 다운로드
+File name match	파일 이름 일치
+Recording title match	기록 타이틀 매치
+Cancel	취소
+OK	괜찮았던 것
+Rename without converting	변환 하지 않고 이름을 바꿉니다
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	이름 바꾸기 및 원래 파일 대상 folder.\r\nWhen 복사만이 옵션을 선택, 변환, 트리밍, 오디오/비디오 처리 및 상업 제거 됩니다 available.\r\n\r\nNOTE 확인: 다른 기능을 복사 하는 대신 이동 하려면이 옵션 checked.\r\nIf와 함께 사용할 수 일치 하는 메타 데이터 및 상업 탐지 (EDL 파일 저장) \r\nwill 스틸 자막을 추출 하는 필터 처럼전문가 설정 기본 설정 페이지에서이 페이지 또는 select\r\nDelete 원본 파일에서에서 원래 옵션을 복사 이동 확인.
+Rename and sort by video information	이름 바꾸기 및 비디오 정보 정렬
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	변환 된 파일의 이름을 바꿉니다 하 고 쇼/시리즈 정보를 기반으로 하는 새 디렉터리에 배치 될 때 available\r\n (예: ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	네트워크 드라이브 또는 다른 컴퓨터에 있는 폴더를 액세스 하려면 사용자 이름 및 암호 입력
+Organize by seasons	시즌 별로 구성
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	Showname 폴더를 정리 하 고 시즌 때 사용할 수 있는 (미디어 센터/XBMC/플렉스 호환 명명 규칙) \r\n (예: Showname\\Season XX\\SXXEYY 에피소드 이름)
+Audio language	오디오 언어
+Advanced Settings	고급 설정
+General Settings	일반 설정
+Conversion Task	변환 작업
+Password	암호
+Confirm Password	암호 확인
+Domain / computer name	도메인 / 컴퓨터 이름
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	원격 컴퓨터 또는 네트워크 드라이브는 authentication.\r\nDo에 대 한 도메인을 사용 하는 경우 <Optional>입력 여기 당신의 작업 그룹을 입력 하지. 이 작업 그룹을 사용 하는 경우 비워 둡니다.
+User name	사용자 이름
+Enter the username to access the remote computer or network drive	원격 컴퓨터 또는 네트워크 드라이브에 액세스 하려면 사용자 이름 입력
+Enter the password to access the remote computer or network drive	원격 컴퓨터 또는 네트워크 드라이브에 액세스 하려면 암호를 입력 하십시오
+Network Connection User Credentials	네트워크 연결 사용자 자격 증명
+Password Mismatch	암호 불일치
+Passwords do not match, please reenter the passwords	암호가 일치 하지 않습니다, 그리고 암호를 다시 입력 하십시오
+Hour	시간
+Minute	분
+Wake	웨이크
+Start	시작
+Resume	이력서
+Pause	일시 중지
+Stop	중지
+Language	언어
+Pause conversion tasks	일시 중지 변환 작업
+Resume conversion tasks	변환 작업을 다시 시작
+Please enter a valid time	유효한 시간을 입력 하십시오.
+Invalid Time	잘못 된 시간
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	중지 시간은 시작 시간 이후 이다. 중지 시간은 다음 하루 동안 가정, 그것은 옳?
+Time Check	시간 확인
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	Mcebuddy가 되었습니다 변환 파일 안정적으로 허용 되는 기간에 대 한 경우에이 옵션을 선택 합니다. MCEBuddy 변환 되 면 각 원본 파일을 삭제 하 시겠습니까?
+Confirm delete originals?	원본 삭제 확인?
+MCEBuddy will monitor these directories for video files to convert automatically	자동으로 변환 되는 비디오 파일에 대 한 이러한 디렉터리를 모니터링 하는 MCEBuddy
+Conversion tasks	변환 작업
+Delete original file	원본 파일 삭제
+Deletes the original recording after a successful conversion	성공적인 변환 후 원본 기록 삭제
+Min age before conversion (hours)	변환 하기 전에 최소 보존 기간 (시간)
+Minimum hours to wait before converting each file after the file is added to the queue	파일 큐에 추가 된 후 각 파일을 변환 하기 전에 대기 하는 최소 시간
+Use this to change the language of the text on the screen	이것을 사용 하 여 화면에 텍스트의 언어를 변경 하려면
+Concurrent conversions	동시 전환
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	동시 변환 MCEBuddy 수 있습니다 start\r\nNOTE: 2 개 이상의 동시 전환에 대 한 많은 양의 디스크 공간 및 프로세서 시간을 필요
+Logging level	로깅 수준
+Error	오류
+Warning	경고
+Information	정보
+Debug	디버그
+Log conversion jobs	로그 변환 작업
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	\'Logs\에서 각 변환에 대 한 로그 파일을 저장 ' MCEBuddy installed\r\n (예: C:\\Program Files\\MCEBuddy2x\\logs)가 있는 디렉터리
+Allow sleep	절전 모드 허용
+If unchecked, it prevents the system from entering sleep while converting	취소 하는 경우에 시스템 입력으로 변환 하는 동안 수 면에서 방지
+Stop at	중지
+No new conversions would be started after this time	새 변환이 없습니다이 시간 후에 시작 될 것 이라고
+minute	분
+hour	시간
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	MCEBuddy sleep\r\nat에서 시스템을 깨울 것 이다 지정 된 시작 시간 및 요일 설정을 선택 합니다.
+Start at	시작
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy 시작 사이 새로운 변환을 시작 하 고 중지 time.\r\n\r\nThe 시작 시간 요일 사용된에 대 한 사용 됩니다, 그리고 whereas\r\nthe 끝 시간 될 것입니다 같은 날 or\r\nfor에 대 한 다음 날 경우 사용 종료 시간은 시작 시간 이후입니다.
+Delete	삭제
+Add	추가
+Change	변경
+Archive original file	아카이브 원본 파일
+Domain name	도메인 이름
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	모니터 및 변환 작업을 중지 하 고 MCEBuddy를 구성 하는 페이지를 열고
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	\'MCEBuddyArchive\ 라는 폴더를 만들고 ' 원본 파일 located\r\nand이이 디렉터리에 있는 원래 파일 이동 후 성공적인 conversion.\r\n\r\nThis 폴더 이름과 위치를 시스템 설정 페이지에서 변경할 수 있다.
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	중요 한 오류만 로그 추적 변환 problems\r\nInformation-conversion\r\nwarning에 대 한 기본 정보 로그-로그 잠재적인 문제 또는 중요 한 오류 only\r\nError-디버그-자세한 로그에 도움이 됩니다.
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	이 작업과 관련 된 변환 프로 파일을 선택 합니다. 변환 프로필 출력 형식 및 변환 변환 하는 데 걸리는 변환된 file.\r\nHigher 품질에 대 한 품질을 나타냅니다. 권장 기본값: MP4 높은 품질 또는 MP4 Normal.\r\n\r\nTIP: 고급 매개 변수 변환 프로필을 팅 겨 보고 하거나 자신의 변환 프로 파일을 만들 MCEBuddy 가이드를 참조
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	MCEBuddy 변환된 video.\r\n\r\nTIP에 광고를 두고 '없음'을 video.\r\nSet를 변환 하는 동안 어떤 광고를 제거 하는 데 사용할 프로그램을 선택 합니다: Comskip 대신 ShowAnalyzer를 사용 하 여, 제발 다운로드 하 고 설치 ShowAnalyzer.\r\nShow 분석기 버전 1.0 및 큰 지원.
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	정상 변환된 된 파일의 비디오 품질을 변경 하는 데 사용 하는 것은 1.\r\nA 높은 숫자 품질을 향상 시킬 것입니다 하지만 conversion.\r\nA 작은 숫자 품질을 줄일 것입니다 하지만 변환 속도 대 한 더 많은 시간이 걸릴 것입니다.
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	이 작업에 대 한 파일 이름을 일치 시킬 패턴을 입력 (예: *.wtv와.wtv)\r\nPrefix 패턴으로 끝나는 모든 파일을 변환 합니다 ~ 경기를 건너 (예: *. *; ~*.wtv.wtv)\r\nSeparate로 끝나는 여러 패턴; 제외 하 고 모든 파일을 처리 합니다 (예: *.wtv; ncis *; ~ ncis 마이애미 *) ncis로 시작 하는 모든 파일 및 모든.wtv 파일 처리 하지만 정규식을 사용 하 여 패턴과 일치 하는 정규식으로 시작 하 여 수 있습니다 그 ncis miami\r\n\r\nYou 함께 시작:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	이 작업 (예: 심슨 * 변환 됩니다 심슨과 시작 제목 보기 모든 파일)에 대 한 표시/시리즈 타이틀에 맞게 패턴을 입력 \r\nPrefix 패턴 ~ 경기를 건너 (예: *; ~ 심슨 * 심슨으로 시작 하는 제외한 모든 쇼 타이틀을 처리 합니다) \r\nSeparate 다중 패턴; (예: 심슨 *;House*) 또는 (예: 심슨 *;NCIS*; ~ NCIS 마이애미 *) \r\n\r\nYou regex로 시작 하 여 일치 하는 패턴을 정규식을 사용할 수 있습니다:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	이 때 recording.\r\nTo get 한 녹음에서 오디오 언어 목록에서에서 다중 오디오 언어 큐에서 파일을 마우스 오른쪽 단추로 클릭 하 고 선택 MediaInfo.\r\n\r\n <Default>오디오 언어 지원 또는 인코더 기본 오디오 track\r\n <original>를 선택 하 게 하는 경우 모든 오디오 트랙을 유지 하려고 합니다 기본값을 재정의 하려면 사용할 수 있습니다.가능한 경우, 원래 [비 더빙] 녹음 언어 사용
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	'[동영상]' 입력 또는이 위치에 대 한 파일 이름이 일치 하는 모든 비디오 files\r\nEnter 패턴 변환 비워 (예: *.wtv와.wtv)\r\nprefix 패턴으로 끝나는 모든 파일을 변환 됩니다 ~ 경기 건너뛰기 (예: *. *; ~*.wtv와 함께 여러 패턴을.wtv)\r\nseparate로 끝나는; 제외한 모든 파일을 처리 (예: *.wtv; ncis *; ~ ncis 마이애미 *) 모든.wtv 파일 및 ncis 하지만 ncis 마이애미에서 시작 하지 그와 함께 시작 하는 모든 파일 처리
+MCEBuddy Settings	MCEBuddy 설정
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy 네트워크 공유에 연결 하려면 현재 로그인된 한 사용자를 사용 하지 않습니다, 그리고 그것은 자체 서비스 계정을 사용 합니다.  연결 사용자 정보 키 아이콘 [MCEBuddy]를 지정 해야 합니다.
+Please supply a source name	원본 이름을 입력 하십시오
+Please supply a search path name	검색 경로 이름을 입력 하십시오
+A source name or section	소스 이름 또는 섹션
+already exists. Please use another name	이미 존재합니다. 다른 이름을 사용 하십시오
+Monitor name	모니터 이름
+Give this a location a unique name	이 게 위치 고유 이름
+Monitor path	모니터 경로
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	새로운 비디오 파일 자동 변환에 대 한 배경에서 Mcebuddy를 모니터링 하는 디렉터리 선택
+Click to select the folder to monitor	모니터 폴더를 선택 하려면 클릭 하십시오
+Search pattern	검색 패턴
+SourceForm	SourceForm
+Monitor Location	모니터 위치
+Normal	보통
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: pipeProxy 엔진 연결 오류
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: 파이프 MCEBuddy 서비스를 만들 수 없습니다.
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	MCEBuddy 서비스를 사용할 수 없습니다. Windows 제어판에서 시작 하거나 엔진 연결을 확인 하십시오.
+Announcement	발표
+New version 	새 버전 
+available	사용 가능
+New BETA version 	새로운 베타 버전 
+Click here to download new version of MCEBuddy	Mcebuddy의 새로운 버전을 다운로드 하려면 여기를 클릭 하십시오.
+Click here to open link	링크를 열려면 여기를 클릭 하십시오.
+Idle	유휴 상태
+Closing	닫기
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI 작업을 업데이트할 수 없습니다.
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: MCEBuddy 서비스를 시작할 수 없습니다.
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: MCEBuddy 서비스를 중지할 수 없습니다.
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI 작업을 취소할 수 없습니다.
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	경고: 네트워크 파일 액세스 MCEBuddy 서비스 하지 현재 로그온된 한 사용자의 로그온 자격 증명을 사용 하 여. 수동으로 MCEBuddy에서 전문가 설정 페이지-> 설정에서 네트워크 자격 증명을 지정할 수 있습니다.
+Credential Warning	자격 증명 경고
+Status	상태
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI 작업에 추가할 수 없습니다.
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: 파이프 활성 상태를 얻을 수 없습니다.
+The conversions must be stopped to change settings. Stop the conversions?	변환은 설정을 변경 하려면 중지 해야 합니다. 변환이 중지?
+Stop Engine	엔진 중지
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI 설정 클릭에서 MCEBuddy 서비스를 중지할 수 없습니다.
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: 파일을 다시 검색할 수 없습니다.
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: 링크를 열 수 없습니다.
+Close	닫기
+Close this window, MCEBuddy will keep running in the background	닫기이 창을 MCEBuddy 것 이다 계속 백그라운드에서 실행
+If you like MCEBuddy, please click here to Donate - THANKS	만약 당신이 MCEBuddy 처럼, 여기를 클릭 하십시오 기부-감사 합니다
+Click here to like MCEBuddy on facebook	페이스 북에 MCEBuddy 처럼 여기를 클릭 하십시오.
+Click here to open MCEBuddy website	MCEBuddy 웹 사이트를 열려면 여기를 클릭 하십시오.
+Rescan	다시 검색
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	새로운 비디오 파일 변환에 대 한 모니터 위치를 다시 검사 하려면 Mcebuddy를 강제로
+Monitor locations	모니터 위치
+Settings	설정
+Select the file(s) in the queue to delete	삭제할 큐의 파일 선택
+Manually add video file(s) to the queue to convert	수동으로 비디오 파일 변환 대기열에 추가
+Start the MCEBuddy monitor and conversion tasks	MCEBuddy 모니터 및 변환 작업 시작
+Stop the MCEBuddy monitor and conversion tasks	MCEBuddy 모니터 및 변환 작업을 중지
+There is a new version!	거기에 새 버전!
+High	높은
+Low	낮음
+Priority	우선 순위
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	우선 순위가 높은-빠른 변환 하지만 수 있습니다 다른 실행 중인 응용 프로그램 unresponsive\r\nLow 우선 순위-배경 있지만 감소 방해 다른 실행 중인 응용 프로그램에서 변환
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	변환 프로 파일 및 기타 다양 한 변환 parameters.\r\nEach 포함 된 변환 서식 파일 작업이 큐에 추가 된 파일 처리 하 고 각 작업의 작동 방식에 대 한 자세한 내용은 MCEBuddy 설명서를 이러한 tasks.\r\nrefer로 변환 합니다.
+Getting started	시작 하기
+Click here for MCEBuddy guide	MCEBuddy 가이드에 대 한 여기를 클릭 하십시오.
+Logs	로그
+Click to open log folder	로그 폴더를 열려면 클릭 하십시오.
+MCEBuddy Status	MCEBuddy 상태
+add	추가
+delete	삭제
+paypal-donate	페이팔-기증
+stop	중지
+OUTPUT: ConsoleOuput received NULL data	출력: ConsoleOuput 받은 NULL 데이터
+hours	시간
+minutes	분
+second	두 번째
+seconds	초
+Starting	시작
+Comskip advertisement scan - Pass 1	Comskip 광고 스캔-단계 1
+Comskip advertisement scan - Pass 2	Comskip 광고 스캔-단계 2
+Cutting commercials from video	비디오에서 절단 광고
+Cutting commercials from video - segment 	비디오-에서 절단 광고 세그먼트 
+Merging commercial free segments into new video	새로운 비디오에 상업 무료 세그먼트를 병합
+Moving converted file to destination	변환 된 파일을 이동 하는 대상
+Checking for disk space	디스크 공간 확인
+Getting show information and banner from Internet sources	인터넷 소스에서 정보를 표시 하 고 배너를 얻기
+Copying source file to working directory	소스 파일을 복사 하는 작업 디렉터리
+Remuxing recording	Remuxing 기록
+ShowAnalyzer advertisement scan	ShowAnalyzer 광고 검색
+Comskip advertisement scan	Comskip 광고 검색
+Analyzing video information	비디오 정보 분석
+Converting	변환
+Removing commercials	광고를 제거
+Writing show information	쓰기 정보 표시
+Renaming file using show information	정보 표시를 사용 하 여 파일 이름 바꾸기
+Success - All done!	성공-모두 완료!
+Muxing streams	다중화 스트림
+Fallback remux	대체 remux
+Correcting audio delay	오디오 지연 수정
+Converting video file - Pass 1	-패스 1 비디오 파일 변환
+Converting video file - Pass 2	변환 비디오 파일-단계 2
+Converting video file	비디오 파일 변환
+Audio Track	오디오 트랙
+Impaired	장애인
+Channels	채널
+Codec	코덱
+Video	비디오
+Duration	기간
+Height	높이
+Width	너비
+Audio	오디오
+Name	이름
+Subtitle	자막
+Volume	볼륨
+Enable custom file renaming	사용자 지정 파일 이름 바꾸기 사용
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	변환 된 파일 및 폴더의 이름을 변경 하려면 사용자 지정 패턴을 입력 하려면이 기능을 사용 합니다. 사용자 지정 패턴 상자 below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname%-S % 시즌 % ##E % 에피소드 % #-%episodename%-%airyear%_%airmonth%_%airday%\r\n\r\nWill 생산: \r\nTVShows\CSI\Season 1\CSI-S01E02-입력 시간-2012_01_06의 베스트.<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname%-S%season%##E%episode%##>-Converted\r\n\r\nWill (영화)에 대 한 생산 \r\n Recording\Movies\Star 전쟁 변환. <ext>(비 영화)에 대 한 \r\nOR \r\n Recording\TVShows\CSI\Season 1\CSI-S01E02 변환.<ext>\r\n\r\nRefer는 MCEBuddy에 고급 모든 패턴 명령 목록에 대 한 설명서.
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	Showanalyzer를 찾을 수 없습니다. \ n 다운로드 하 고 Showanalyzer을 설치 합니다.
+ShowAnalyzer Missing	ShowAnalyzer 누락
+Invalid language code, reverting to <Default> language	잘못 된 언어 코드를 <Default>언어 되돌리기
+Cut start	절단된 시작
+Cut end	끝을 잘라
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	(광고를 제거) 전에 녹음의 시작에서 잘라 초 수를 지정 합니다.
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	(광고를 제거) 전에 녹음의 끝에서 잘라 초 수를 지정 합니다.
+Send an eMail after each conversion.	각 변환 후 전자 메일을 보냅니다.
+Send eMail	이메일 보내기
+SMTP Server Name	SMTP 서버 이름
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	보내는 메일 (SMTP) 서버 주소 here\r\ne.g를 입력 합니다. smtp.gmail.com
+Port	포트
+Enter the SMTP server port	SMTP 서버 포트를 입력 합니다.
+Use SSL	SSL 사용
+Check this if you SMTP server uses SSL	이 확인 하면 SMTP 서버가 SSL을 사용 하는 경우
+e-Mail Settings	전자 메일 설정
+From <e-Mail>	<E-mail>에서
+Enter the senders (From) eMail address here	보낸 사람 (From) 여기에 이메일 주소 입력
+To <e-Mails>	<E-mails>를
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	받는 사람 (을)를 이메일 주소 here.\r\nseparate는 세미콜론 (;)으로 여러 받는 사람을 입력
+Send eMail on successful conversion	성공적인 변환에 이메일 보내기
+Send eMail on failed conversion	실패 한 변환에 이메일 보내기
+Send eMail on cancelled conversion	취소 전환에 이메일 보내기
+Send eMail on adding a conversion to the queue	추가 큐로 변환에 대 한 이메일 보내기
+Please enter a valid server address	올바른 서버 주소를 입력 하십시오.
+Invalid SMTP Server	잘못 된 SMTP 서버
+Please enter a valid server port	유효한 서버 포트를 입력 하십시오.
+Invalid SMTP Port	잘못 된 SMTP 포트
+Please enter a valid From eMail address	입력 하십시오 유효한 이메일 주소를
+Invalid eMail Address	잘못 된 이메일 주소
+Please enter valid To eMail addresses	유효한 이메일 주소를 입력 하십시오.
+Username	사용자 이름
+<Optional> Enter the username for the eMail server authentication	<Optional>입력 전자 메일 서버 인증에 대 한 사용자 이름
+<Optional> Enter the password for the eMail server authentication	<Optional>입력 전자 메일 서버 인증에 대 한 암호
+MCEBuddy unable to download series information	MCEBuddy 시리즈 정보를 다운로드할 수 없습니다.
+MCEBuddy successfully converted a video	MCEBuddy 성공적으로 비디오를 변환
+Source Video	소스 비디오
+Converted Video	변환된 비디오
+Converted At	변환
+MCEBuddy failed to converted a video	MCEBuddy 비디오를 변환 하지 못했습니다.
+Failed At	실패 했습니다.
+MCEBuddy cancelled a video conversion	MCEBuddy 동영상 변환 취소
+Cancelled At	취소
+Working	작업
+Test	테스트
+Testing	테스트
+Click this button to test the eMail server settings	전자 메일 서버 설정을 테스트 하려면이 단추를 클릭 합니다.
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy 서버 settings.\r\nThis 테스트를 이메일을 보낼 것입니다 수 있습니다 걸릴 최대 60 seconds.\r\nMCEBuddy 수 있습니다 응답 하지 않을 수이 기간 동안.
+Test eMail	테스트 전자 우편
+MCEBuddy Test eMail	MCEBuddy 테스트 이메일
+MCEBuddy - Have a great day!	MCEBuddy-좋은 하루 되세요!
+Send eMail test successful	이메일 테스트를 성공적으로 보내기
+Send eMail test failed! Please check your settings and internet connectivity	보내기 메일 테스트 실패! 설정 및 인터넷 연결을 확인 하십시오
+Test eMail Success	테스트 전자 우편 성공
+Test eMail Failed	테스트 전자 우편 실패
+Send eMail on start of conversion	전환의 시작에 이메일 보내기
+MCEBuddy started a video conversion	MCEBuddy 동영상 변환 시작
+Conversion Started At	변환 시작
+Yes (Comskip)	예 (Comskip)
+Yes (ShowAnalyzer)	예 (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	Atleast 하나의 변환 작업을 사용 해야 합니다.
+Disable	사용 안 함
+Enable	활성화
+Rename	이름 바꾸기
+Move	이동
+Up	최대
+Down	다운
+Slow Remuxing	느린 Remuxing
+Extracting closed captions	자막 추출
+Validating closed captions	자막 확인
+Extracting subtitles	자막 추출
+Trimming closed captions	트리밍 폐쇄 캡션
+Extract subtitles and closed captions	자막 및 캡션 추출
+Field	필드
+Channel	채널
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	폐쇄 캡션 추출이 가능 하 게, 부제 및 문자 다중 방송 from\r\nWTV, DVR-MS, TS, MP4, MKV, 다른 지원된 files.\r\n\r\nIt 자막 (SRT) 파일로 저장 됩니다.
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	폐쇄 캡션 extraction\r\nField-1 또는 2\r\nChannel-1 또는 2\r\n\r\ndefault에 대 한 고급 옵션을 설정 하려면이 활성화: 필드 1, 채널 1
+Subtitle offset	자막 오프셋
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	초를 입력 (+ ve /-ve) 비디오 자막 싱크 조정 하기
+Re-ReMuxing due to audio error	오디오 오류에 인해 다시-ReMuxing
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	포스터를 저장 하 고 MC/XBMC 호환 NFO 파일 (XML 형식) 정보 (메타 데이터)를 표시
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	MP4, MKV, 같은 파일에 메타 데이터 태그를 지 원하는 대 한 작품만 공연 정보 (메타 데이터) 변환 된 file.\r\nThis에 저장 하려면이 확인란을 WTV etc.\r\n\r\nNOTE: 문제 읽기 메타 데이터는 오래 된 TV와 같은 일부 장치와 문제를 직면 하는 경우이 확인란의 선택을 취소 합니다.
+Atleast one day of the week must be enabled	이어야 한 요일에 사용할 수 있어야 합니다.
+Invalid Days of Week	잘못 된 일의 주
+Invalid day of week found in configuration file	구성 파일에 잘못 된 날
+Scheduling	일정
+Remuxing to	Remuxing를
+Part	부품
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	나머지 상단 오른쪽 corner.\n\nDonations에 < 시작 하기 &gt; 링크를 클릭 하십시오 단추, 상자 또는 타고 인스턴트 도움말 it.\n\nFor를 사용 하 여, 문제 해결 또는 MCEBuddy에 대 한 지원을 받을 하는 방법에 자세한 내용은 항목에 마우스는 항상 환영 합니다:) 즐길! \n\n-Ramit, 데 릭 & 거 위
+Welcome to MCEBuddy	오신 것을 환영 합니다 MCEBuddy
+Multichannel audio	멀티 채널 오디오
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	소스 비디오 지원 it.\r\nBy 기본 오디오 멀티 채널 오디오를 허용 하는 2 채널 (스테레오)로 제한 됩니다.
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	동적 범위 압축 (DRC는) \r\nWhen 소스는 AC3 오디오, DRC will\r\nreduce 크고 더 even.\r\nIf 멀티 채널 오디오 녹음 및 볼륨은 너무 부드럽고, you\r\nfeel 검사이 상자 도움이 될 수도 있는 오디오 트랙을 만드는 soft\r\nsounds의 차이 사용 합니다.
+FPS	FPS
+Logfile age (days)	로그 파일 기간 (일)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	Them.\r\nSet 로그를 영원히 계속 0 삭제 하기 전에 로그 파일을 유지 하는 일의 최대 수입니다.
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	빠른 Remuxing
+Byte stream remuxing	바이트 스트림 remuxing
+Disable cropping	잘라내기 해제
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	(위쪽, 아래쪽, 왼쪽 또는 right).\r\nuse이이 옵션 비디오 그림 어떤 측면에 잘라 지 고 또는 최종 그림 찾고 늘어나거나 왜곡 비디오에서이 conversion.\r\nCropping 하는 동안 자동으로 비디오를 자르기 하지 않으려면 "" 검은 막대를 제거 하려면 사용 됩니다 확인.
+Only detect Ads	만 검색 광고
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	이 확인 (광고) 광고를 검색 하는 MCEBuddy 하지만 하지이 옵션을 사용 하는 video.\r\nwhen에서 그들을 잘라, MCEBuddy MP4, m4v에 대 한 변환 된 video.\r\nalso에서 광고의 위치를 지정 하는 변환 된 파일과 함께 EDL 파일을 만들 것 이다 고 MKV 파일 MCEBuddy 광고의 끝을 표시 하는 챕터를 만들 것입니다.
+Download information	다운로드 정보
+Correction	보정
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	제목 보기를 수정 하 고 인터넷에서 특정 TVDB 시리즈 id 또는 IMDB 영화 id\r\nto 조회 추가 메타 데이터를 사용 하려면 여기를 클릭 합니다.
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	이 처럼 배너 파일, 에피소드, 시즌 등 쇼에 대 한 인터넷에서 추가 정보를 다운로드 확인
+Profile Error	프로필 오류
+Cannot find selected profile in profiles.conf	Profiles.conf에서 선택한 프로 파일을 찾을 수 없습니다.
+Invalid Profile	잘못 된 프로필
+Please select a valid profile	유효한 프로필을 선택 하십시오.
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	MCEBuddy 엔진 추락 하고있다. 개발자에 게 mcebuddy.log를 보내주시기 바랍니다
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	이 변환 task\r\nleave에 대 한 광고 제거에 대 한 기본 Comskip INI 파일을 사용 하 여이 빈을 사용 하 여 사용자 지정 Comskip INI 파일 선택
+Click to select custom Comskip INI file	사용자 지정 Comskip INI 파일을 선택 하려면 클릭
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	작업 임시 파일을 위한 폴더를 선택 합니다. 거기에 충분 한 빈 공간를 drive.\r\nleave에 설치 폴더에 기본 임시 폴더를 사용 하 여이 비어 있는지 확인 합니다.
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	작업 임시 파일을 위한 폴더를 선택 합니다. drive.\r\nThis에 충분 한 빈 공간이 재정의 전문가 설정 페이지-> 설정에 지정 된 임시 폴더는 다는 것을 확인 하십시오.
+Click to select temp working folder	임시 작업 폴더를 선택 하려면 클릭
+Temp folder	임시 폴더
+Space check	공간 검사
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	때 활성화 된 Mcebuddy는 (대상 및 temp).\r\nuncheck이 있는 경우는 함께 문제가 네트워크 드라이브 또는 매우 큰 비디오 파일 변환 위한 충분 한 여유 공간 확인.
+MCEBuddy Windows Event Logs	MCEBuddy Windows 이벤트 로그
+Events	이벤트
+Click here to open the MCEBuddy Windows Event Logs	MCEBuddy Windows 이벤트 로그를 열려면 여기를 클릭 하십시오.
+Enable UPnP	Upnp를 사용 하도록 설정
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	Upnp를 설정 하려면이 항목을 확인 합니다. 이 network.\r\nThis 외부에서 MCEBuddy 엔진에 대 한 액세스 Mcebuddy에 액세스할 수 모바일/독립형 MCEBuddy 클라이언트를 사용 하는 경우 확인 해야 수 있습니다.
+Click here to connect to another MCEBuddy engine	다른 MCEBuddy 엔진에 연결 하려면 여기를 클릭 하십시오.
+MCEBuddy Remote Engine Connection	MCEBuddy 원격 엔진 연결
+Engine Name	엔진 이름
+Engine Port	엔진 포트
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	이름 또는 IP 주소에 연결 하려면 MCEBuddy 엔진의 입력
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	MCEBuddy 엔진을 연결의 TCP 포트 번호를 입력
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	(1에 63355)에 연결 하려면 MCEBuddy 엔진의 TCP 포트 번호를 입력
+Invalid Name/Port	잘못 된 이름/포트
+Please enter a valid Engine Name and Engine Port Number	엔진 이름과 엔진 포트 번호를 입력 하십시오.
+Error Stopping Engine	오류 중지 엔진
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	MCEBuddy 엔진을 멈출 수 없는 설정 수 있습니다 저장할 수 없습니다. 계속 하 시겠습니까?
+Unable to communicate with engine. Settings have NOT been saved.	엔진과 통신할 수 없습니다. 설정은 저장 하지 않았습니다.
+Communication Error	통신 오류
+Engine not stopped. Settings have NOT been saved.	엔진 중지 되지 않습니다. 설정은 저장 하지 않았습니다.
+Unable To Save Settings	설정을 저장할 수 없습니다.
+Unable to communicate with engine. UPnP settings have not been updated	엔진과 통신할 수 없습니다. UPnP 설정이 업데이트 되지 않았습니다.
+Audio delay	오디오 지연
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	초 (양수 또는 음수) 값 입력 여기이 conversion.\r\nA 후 동기화 되지 않은 경우는 비디오와 오디오를 다시 동기화 하는 video.\r\nUse 기준으로 오디오 이동 하 양수 값 (즉, 앞으로 오디오 비디오) 오디오 지연 됩니다 하 고 음수 값은 고급 오디오 (즉, video).\r\nE.g 앞으로 오디오. -1.5
+Media info	미디어 정보
+Click here to get media properties for selected files	선택한 파일에 대 한 미디어 속성을 얻으려면 여기를 클릭 하십시오.
+Save information	정보 저장
+Add information	추가 정보
+Shows a preview of the custom filename and path	사용자 지정 파일 이름 및 경로 미리 보기를 보여줍니다.
+Invalid Filename Pattern	잘못 된 파일 이름 패턴
+TVDB Series ID	TVDB 시리즈 ID
+IMDB Series ID	IMDB 시리즈 ID
+Original title	원래 제목
+Corrected title	수정 된 제목
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	다운로드 표시를 사용 하려면 TVDB 시리즈 ID 입력 information.\r\nIf 원래 제목 상자가 비어,이이 변환 작업에 의해 선정 하는 모든 프로그램에 적용 됩니다.
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	영화 information.\r\nIf 원본 다운로드를 위해 사용할 IMDB 영화 ID를 입력 제목 상자가 비어,이이 변환 작업에 의해 선정 하는 모든 프로그램에 적용 됩니다.
+Internet Lookup Title and Metadata Correction	인터넷 조회 제목과 메타 데이터 수정
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	일치 하 고 제목과 시리즈 id.\r\nIf 같은 수정 된 제목 또는 일련이 변환 작업으로 변환 하는 모든 프로그램에 대 한 id를 사용 하려면 올바른 다른 행을 추가 하려면 여기를 클릭 하세요 \r\nleave 원래 제목 빈 첫 번째 행을 추가 해서는 안 두 번째 행.
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	입력 패턴을 수정 (예: 심슨 * 바뀝니다 심슨과 시작 쇼 제목 모든 타이틀)에 대 한 표시/시리즈 타이틀을 일치 \r\nPrefix 패턴 ~ 경기를 건너 (예: *. *; ~ 심슨 *에서 올바른 것입니다 모든 심슨으로 시작 하는 제외 하 고 제목 표시) \r\nSeparate 다중 패턴; (예: 심슨 *;House*) 또는 (예: 심슨 *;NCIS*; ~ NCIS 마이애미 *) \r\n\r\nNOTE: 비워이 상자를 비워이 변환 task.\r\nIf에 의해 처리 되는 모든 파일에 수정 된 제목 또는 시리즈 id를 적용 하려면 두 번째 row.\r\n\r\nYou 정규 표현식을 사용 하 여 regex로 시작 하 여 제목에 맞게 수 있습니다 추가할 수 없습니다:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	추가 정보를 다운로드에 대 한 사용 하려는 새로운/수정 제목을 입력 internet.\r\nIf 원본에서에서 제목 상자가 비어,이 적용 될 것입니다이 변환에 의해 선정 하는 모든 쇼에 task.\r\n\r\nYou regex로 시작 하 여 타이틀을 해결 하기 위해 일반 식을 사용할 수:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	각 행에 대 한 표시 이름 및 중 수정에 맞게 원래 제목 입력 제목 또는 TVDB/IMDB 시리즈 ID
+Please enter either a Corrected title or a TVDB/IMDB Series ID	수정 제목 또는 TVDB/IMDB 시리즈 ID를 입력 하십시오
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	Mcebuddy를 넣어 변환 하려는 경우이 기능을 사용 파일 소스 directory\r\nif 대상 경로에 사용할 수 없습니다. (예: 오류 또는 매핑 오류 네트워크)
+Fallback to source path	대체 소스 경로
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	Converting.\r\n1은 정상적인 the\r\nrecording 볼륨을 늘리거나 사용 아래에 아무것도 그것을 줄일 것입니다, 그리고 anything\r\nhigher 그것을 증가할 것 이다.
+Archive folder	보관 폴더
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	원본 디렉터리의 기본 'MCEBuddyArchive' 폴더를 사용 하 여 빈 보관 folder.\r\nleave의 위치를 변경 합니다.
+Monitor subdirectories	모니터 하위 디렉터리
+Check this box to also monitor all directories within the Monitor path	또한 모니터 경로에 모든 디렉터리를 모니터링 하려면이 확인란을
+Click here to show MCEBuddy status	MCEBuddy 상태를 표시 하려면 여기를 클릭 하십시오.
+MCEBuddy service not connected	MCEBuddy 서비스 연결 되지
+MCEBuddy idle	MCEBuddy 유휴
+conversions in progress	변환 진행 중
+MCEBuddy stopped	MCEBuddy 중지
+Sync converted files	변환 된 파일 동기화
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	변환 된 파일을 동기화 원래 files.\r\ni.e와 Mcebuddy이이 옵션을 선택 합니다. 사용자가 원본 파일을 삭제 하면 해당 변환 된 파일은 또한 deleted.\r\n\r\nNOTE: Mcebuddy만 모니터 위치 폴더에 있는 원래 파일을 모니터링 하 고 엔진은 하는 동안에에 running.\r\nmcebuddy에서 엔진이 중지 되는 동안 사용자 삭제 된 파일을 추적할 수 없습니다.
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	MCEBuddy 원본 파일 삭제 된 각 변환 된 파일을 삭제 하 시겠습니까?
+Confirm sync conversions?	동기 변환 확인?
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	당신은 당신이 하지 마십시오 변환 된 동영상에서 광고를 제거 하 고 EDL 파일 계속 하 시겠습니까?
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer 응답 하지 않습니다. Showanalyzer를 다시 설치 하거나 재 부 팅 시스템을 하십시오.
+ShowAnalyzer Not Responding	ShowAnalyzer 응답 하지
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	게 '시작'을 눌러이 창을 닫은 후, 그렇지 않으면 일정 예약 및 일어나 작동 하지 않습니다.
+Enabling Scheduling and Wake	사용 예약 및 웨이크
+Passwords do not match	암호가 일치 하지 않습니다.
+Password error	비밀 번호 오류
+Adding subtitles and chapters to file	파일에 자막 및 챕터 추가
+Send eMail if unable to download series information	시리즈 정보를 다운로드할 수 없는 경우 이메일 보내기
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	이 변환 작업을 특정 모니터 locations.\r\nIf 되지 않은 각 변환 작업 (나중에 추가 하는 새로운 것 들을 포함 한) 모든 모니터 위치에서 파일을 처리할 것입니다에서 파일을 처리 하는 경우이 확인란을 선택 합니다.
+Select Monitor Locations	모니터 위치 선택
+Select atleast one Monitor Location name	이상 이어야 한 모니터 위치 이름을 선택합니다
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	모든 현재 모니터 Locations.\r\nDo이 변환 작업을 나중에 추가 된 모든 새 모니터 위치를 자동으로 처리를 선택 하면?
+New monitor locations	새로운 모니터 위치
+Invalid selection	잘못 된 선택
+Channel name match	채널 이름 일치
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	이 작업 (예: ABC * 변환 합니다 ABC로 시작 하는 채널 이름을에 기록 된 모든 파일)에 대 한 채널 이름을 일치 시킬 패턴 입력 \r\nPrefix 패턴 ~ 경기를 건너 (예: *; ~ ABC * ABC로 시작 하는 제외 하 고 모든 채널을 처리 합니다) \r\nSeparate 다중 패턴; (예: ABC *;TBS*) 또는 (예: ABC *;Fox*; ~ Fox4 *) \r\n\r\nYou regex로 시작 하 여 일치 하는 패턴을 정규식을 사용할 수 있습니다:
+Clear history	기록 지우기
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	모든 변환 된 files.\r\nthis의 기록을 삭제 하려면이 단추를 클릭 발생 모니터링 되는 모든 파일을 다시 변환 하는 MCEBuddy.
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	모든 변환의 기록을 삭제 하 시겠습니까? \r\nThis 모니터링 되는 모든 파일을 다시 변환 하는 Mcebuddy를 발생 합니다.
+Show history	역사 보기
+Click this button to show the history of all converted files.	모든 변환 된 파일의 기록을 표시 하려면이 단추를 클릭 합니다.
+History of Converted Files	변환 된 파일의 역사
+Unable to communicate with engine.	엔진과 통신할 수 없습니다.
+Extracting streams	스트림 추출
+Fallback muxing streams	대체 다중화 스트림
+Remuxing TiVO file	Remuxing 티 보 파일
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	당신의 10 자리 변환 하 고 TiVO 녹음 처리를 치고 MAK 키를 입력
+Invalid TiVO MAK Key	잘못 된 TiVO MAK 키
+The TiVO MAK key should be 10 digits	티 보 MAK 키 10 자리 여야 합니다.
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	버전이 일치 하지 않습니다. MCEBuddy 클라이언트와 엔진 같은 버전을 실행 중인 확인 하십시오.
+Error retrieving Event Logs	이벤트 로그를 검색 하는 오류
+Unable to get Event Log Entries from the MCEBuddy engine.	MCEBuddy 엔진에서 이벤트 로그 항목을 가져올 수 없습니다.
+PAUSED: Check conversion schedule	일시 중지 됨: 체크 전환 일정
+Logging	로깅
+Folder Management	폴더 관리
+Processor Management	프로세서 관리
+Expert Settings	전문가 설정
+System Settings	시스템 설정
+Click here to change additional settings (for experts only)	(전문가 전용)에 대 한 추가 설정을 변경 하려면 여기를 클릭 하십시오.
+Failed folder	실패 한 폴더
+Location of the folder that hold the original files for failed conversions.	실패 한 변환에 대 한 원본 파일을 저장할 폴더의 위치입니다.
+Move original file on failure	실패 시 원본 파일을 이동
+Check this to move the original file to a separate folder if the conversion fails.	변환이 실패 하는 경우 별도 폴더에 원본 파일을 이동 하려면이 확인 하십시오.
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	MCEBuddycan use.\r\nEach 확인란 아래의 사용 가능한 논리 프로세서에 해당 하는 논리 프로세서 수를 제한 하려면이 확인 하십시오.
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	각 상자 대표 논리 프로세서 1에서 16 respectively.\r\nChecking 상자에 해당 프로세서를 사용 하 여 MCEBuddy 수 있습니다.
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	각 상자 대표 논리 프로세서에서 17 32 respectively.\r\nChecking 상자에 해당 프로세서를 사용 하 여 MCEBuddy 수 있습니다.
+Select atleast one processor to use	사용 하 여 이어야 한 프로세서 선택
+Invalid Configuration	잘못 된 구성
+Comskip path	Comskip 경로
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	Comkip (예: 기부자 버전)의 사용자 지정 버전을 사용 하려는 경우 \r\nthen MCEBuddy와 함께 제공 되는 기본 comskip를 사용 하 여 빈 comskip 설치 here.\r\nLeave의 경로 입력 합니다.
+Miscellaneous	기타
+Ignore copy protection	복사 방지를 무시
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	Converting.\r\nNOTE 동안 비디오 파일에서 복사 방지 플래그를 무시 하도록 확인: MCEBuddy 암호화를 무시할 수 없습니다,이 단지는 파일이 암호화 되지 않은 경우 보호 된 복사본으로 incorrectly\r\ntagged 경우 도움이 됩니다.
+Use recycle bin	휴지통 사용
+Check this to use the recycle bin when files are deleted by MCEBuddy	이 파일은 MCEBuddy에 의해 삭제 됩니다 때 휴지통을 사용 하 여 확인
+Poll period	설문 조사 기간
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	MCEBuddy 새로운 files.\r\nThe 간격 초에서 지정 모니터 작업 위치를 검색 하는 빈도입니다.
+Server port	서버 포트
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	MCEBuddy MCEBuddy이이 포트에 인터넷에서 액세스할 수 있도록 Windows Firewall\r\nand UPnP 게이트웨이를이 포트를 자동으로 추가 됩니다 UPnP를 사용 하는 원격 engine.\r\nWhen와 통신에 사용 하는 TCP 포트입니다.
+Hang period	기간 기다려
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	MCEBuddy the\r\nunderlying 응용 프로그램에서 응답을 기다릴 것 이다 초 수를 입력 하기 전에 중단 감지 사용 하지 않으려면 hung.\r\nEnter 0으로 응용 프로그램을 종료 합니다.
+Subtitle commercial cut sync	자막 광고 컷 동기화
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	자막이 점차적으로 동기화 각 상업 세그먼트 video.\r\nThis 설정에서 제거 된 후에 자막을 가져오기 위하여 이용 된다 상업 비디오 잘라 video.\r\nEach 시간 동기화를 다시이 매개 변수를 사용, 부제는이 금액 (+ ve 또는-ve 초에서) 이동 하는 시간.
+Invalid poll period	잘못 된 투표 기간
+Invalid server port	잘못 된 서버 포트
+eMail Subject Customization	이메일 제목 사용자 지정
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	전송 하는 이메일의 주제에 맞게이 섹션에서 사용할 MCEBuddy 다양 한 전환 이벤트에 below.\r\nRefer 사용자 정의 variables.\r\ne.g에 대 한 사용자 지정 명령 설명서에 나와 있습니다. 변환 파일 %originalfilename% showname % 성공 작업 %taskname%\r\nNOTE 사용 하 여 표시: 항상 모든 데이터 제공 되며 기본 제목 줄을 사용 하 여 빈 사용자 지정 commands.\r\nLeave.
+Success	성공
+Failed	실패
+Cancelled	취소
+Download fail	다운로드 실패
+Limit processor utilization	제한 프로세서 사용률
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	체크 MCEBuddy use.\r\nEach 확인란 아래의 수 있는 논리 프로세서의 수를 제한 하는 사용 가능한 논리 프로세서에 해당 합니다.
+Custom profile	사용자 지정 프로필
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	The\r\none MCEBuddy와 함께 제공 되는 대신 사용 하려는 사용자 지정 profiles.conf 파일의 경우 파일 here.\r\n\r\nNOTE을 경로 입력: MCEBuddy 끊임없이 업데이트 profiles.conf 제공 하는 버그를 수정, \r\nenhancements 및 성능 향상을이 기능을 사용 하는 경우 out\r\non을 놓칠 것 이다.
+Invalid custom profiles.conf	잘못 된 사용자 지정 profiles.conf
+Suspend on battery	배터리에 일시 중지
+Suspend conversions when the computer switches to battery power	컴퓨터가 배터리 전원으로 전환 하면 전환 일시 중지
+MCEBuddy added a video conversion to the queue	MCEBuddy 큐 비디오 변환 추가
+Queue	큐
+Refer to documentation on using custom commands in custom eMail subjects	사용자 정의 이메일 주제에 사용자 지정 명령을 사용 하 여 문서를 참조 하십시오
+Could not copy information to Clipboard, please try again.	클립보드에 정보를 복사할 수, 다시 시도 하시기 바랍니다.
+Error copying to Clipboard	클립보드에 복사 오류
+Copy to clipboard	클립보드에 복사
+Reconvert files	파일을 다시 변환
+Are you sure you want to reconvert the selected files?	당신은 선택 된 파일을 다시 변환 하 시겠습니까?
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	다시 변환 하 고 원래 파일 재 전환에 대 한 대기 것입니다 그들은 MCEBuddy에 의해 감시 되 고 아직도이 button.\r\nIf을 클릭 파일을 선택 합니다.
+Time taken to convert	변환 하는 데 걸린 시간
+Network authentication	네트워크 인증
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	주요 window\r\nor에 추가 버튼을 통해 파일을 추가 하는 경우 네트워크 공유 credentials.\r\nThis 인증 입력 버튼 사용 클릭 끌어서 주 창에 변환 상태 상자에 네트워크 공유에서 삭제.
+Skip reconversion	건너뛰기 재 전환
+Do not reconvert the video if a converted file already exists in the destination directory.	변환 된 파일이 대상 디렉터리에 이미 존재 하는 경우 비디오를 다시 변환 하지 않습니다.
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	예상된 파일 이름 변환 파일이 대상 directory.\r\nIf에서 파일 이름 변환된 비디오 (아니 원래 동영상 파일)을 비교 파일에는 디스크로 다시 변환 하지 및 성공적인 conversion.\r\nThis 수 유용 같은 쇼/에피소드에 여러 번 기록 되 고 them.\r\n\r\nNOTE를 다시 변환 하지 않으려는 경우 추측 될 것 이다: 동영상을 수동으로 추가 단추를 사용 하 여 또는 끌어서 놓기 추가이 옵션은 무시 됩니다.
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	사용 하면 건너뛰기 재 전환 됩니다 또한 확인 기록 파일 과거 conversions.\r\nThe 예정 역사 file.\r\nIf에서 파일 이름 변환된 비디오 (아니 원래 동영상 파일)에 대 한 파일 이름 비교는 변환 된 파일 이름 (경로 포함)을 수 일치 기록 파일에 이미 변환 된 파일명 (경로 포함)의 \r\nthe 파일에는 디스크로 다시 변환 하지 하 고 성공적인 변환으로 간주 됩니다.
+Adding file to the iTunes library	ITunes 보관 함에 파일 추가
+Add to iTunes	아이튠즈에 추가
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	아이튠즈 library.\r\nThis 변환 된 파일에 자동으로 추가 하려면이 상자만 iTunes와 작동 하는 확인 파일 (예: MP4, M4V, MP3 등) 지원
+Adding file to the WMP library	WMP 라이브러리에 파일 추가
+Library Management	라이브러리 관리
+Add to Windows Media Player	윈도 즈 미디어 플레이어에 추가
+Check this box to automatically add the converted files to the WMP library.	WMP 라이브러리에 변환 된 파일을 자동으로 추가 하려면이 확인란을 선택 합니다.
+Renaming and Sorting	이름 바꾸기 및 정렬
+Selection Filters	선택 필터
+Audio and Video	오디오 및 비디오
+Subtitles and Chapters	자막 및 장
+Skip copying original files	원본 파일을 복사 하는 건너뛰기
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	검사이 상자에 당신의 자신의 RISK.\r\nDO 하지 검사이 상자 하지 않는 한 당신이 알고 무엇을 하는 DOING.\r\nCheck이이 상자 (복사) 하는 원래 파일의 백업을 만드는 변환 하는 동안 건너뛸 수 있습니다.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	검사이 상자에 당신의 자신의 RISK.\r\nDO 검사가이 상자 DOING.\r\nCheck converting.\r\nIf 동안 (복사) 하는 원래 파일의 백업을 만드는 건너뛸 수이 상자를 선택 하면 원본 파일은 error.\r\nIt의 경우 유지 되지 것입니다 위치를 알고 있으면 않는 한 수 또한도 이어질 하지 변환 오류 또는 기타 예기치 않은 변환 문제.
+Are you sure you want to do this?	당신은이 작업을 수행 하 시겠습니까?
+Media Information Management	미디어 정보 관리
+Force show type	힘 쇼 형식
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	이 비디오를 동영상으로 녹화를 치료 하도록 설정 또는 TV Series.\r\nThis 스포츠 show\r\nDefault-영화나 TV 시리즈를 결정 하기 위해 사용 기록 메타 데이터에서 사용할 수 있는 기본 정보로 녹화 녹음에 대 한 추가 정보 (메타 데이터)-movie\r\nSeries-치료 TV Series\r\nSports로 녹음으로 녹음 치료-치료는 internet.\r\nMovie에서 다운로드 방식으로 변경 됩니다.
+Show type	쇼 형식
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	녹음 되는 converted.\r\n\r\nMovies의 종류를 필터링 하려면이 옵션을 선택-쇼 형식이 Movie.\r\nShows 인 경우 변환-쇼 형식에 Movie.\r\nSports 하지 않으면 변환-쇼 형식이 Sports.\r\n\r\nNOTE 인 경우 변환 하려면이 옵션을 선택 선택 선택: 형식 표시 형식 메타 데이터 메타 데이터를 지 원하는 WTV and\r\nrecordings 같은 파일 (일부 녹음 지원 기록 metadata.\r\nOnly에서 읽어 보기XML/ARG 등).
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	이 상자 conversion.\r\nDrag 앤 드롭 파일 또는 변환 대기열에 파일을 추가 하려면 추가 단추를 누릅니다 큐에 있는 모든 파일을 표시
+Conversion	변환
+Files	파일
+Click this button to open or close the Advanced Settings section	열거나 고급 설정 섹션을 닫으려면이 단추를 클릭 하십시오
+Running custom commands	사용자 지정 명령을 실행
+Trimming video recording	트리밍 비디오 녹화
+Insert at top of queue	대기열의 상단에 삽입
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	기본적으로 새 변환은이 상자를 선택 하면이 작업에 의해 추가 된 모든 새로운 변환 변환 큐의 the\r\nbeginning (위)에 추가 됩니다 변환 queue.\r\nIf의 하단 (끝)에 추가 됩니다.
+Add subtitles and chapters	자막 및 챕터를 추가
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	어떤 추출 된 자막을 추가 하려면이 옵션을 활성화 하 고 변환 된 video.\r\nEach 장 하 장 광고의 끝을 표시. 이만 지원 되는 형식으로 작동 (예: MKV, MP4).\r\n\r\nNOTE: 일부 선수와 더 오래 된 TV 포함 된 자막을 지원 하지 않는 chapters.\r\nIf 당신은 변환 된 동영상의 재생 수 있어,이 옵션을 해제해 보십시오.
+Select best soundtrack	최고의 사운드 트랙을 선택
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	원래 비디오 하는 경우 여러 사운드 트랙이이 옵션 알 MCEBuddy 특정 언어 사운드 트랙을 원하는 가장 적절 하 고 기본 soundtrack.\r\nIf를 선택, 언어 이름을 입력 하거나이 상자 만약 당신이 듣고 있어 변환된 file.\r\n\r\nUncheck에서 잘못 된 사운드 트랙이이 상자 MCEBuddy 가능한 경우 변환된 된 파일에 원본 동영상에서 모든 사운드 트랙을 유지 하 고 싶다면 오디오 언어 box.\r\nCheck에 코드 있는지 확인 하십시오. \r\nNOTE: 일부 프로 파일 지원 하지 않는 여러 개의 사운드 트랙, 어떤 경우에이 설정이 적용 되지 않습니다.
+Enable remote access	원격 액세스를 사용 하도록 설정
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	이렇게 하면 MCEBuddy 응용 프로그램에 대 한 windows 방화벽 예외가 만들어집니다 및 경우 windows 방화벽이 설정 되어 있고 UPnP, 원격 client\r\nor 액세스 IP address.\r\n\r\nNOTE를 사용 하 여 엔진을 사용 하는 port.\r\nThis가 필요: 사용자 지정 방화벽이 있는 경우이 작동 하지 않을 수 있습니다, an\r\nexception MCEBuddy 서비스 및 포트를 수동으로 생성 해야 합니다.
+Unable to communicate with engine. Firewall exception settings have not been updated.	엔진과 통신할 수 없습니다. 방화벽 예외 설정은 업데이트 하지 않았습니다.
+Detect and optimize video quality	감지 하 고 비디오 품질 최적화
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	MCEBuddy 비디오 소스 type.\r\nThis 수 변환 된 비디오의 품질이 크게 향상 경우 올바르게 감지 하 여 비디오 처리 옵션을 최적화 합니다 사용 하면 detected.\r\n\r\nNOTE: 비디오 소스 유형 (인터레이스, 진보 또는 telecine).\r\nIf 비디오 소스 종류를 감지할 수 있다을 감지 하 여그것은이 옵션에서 변환된 화질 문제에 직면 하 고 또는 기본 프로필 매개 변수를 사용 하 여 경우 profile.\r\nTurn에서 해당 매개 변수를 재정의 합니다.
+Are you sure you want to delete this task?	당신은이 작업을 삭제 하 시겠습니까?
+Delete Task	작업 삭제
+Enter the new task name	새 작업 이름을 입력합니다
+Rename Task	작업 이름 바꾸기
+MCEBuddy PAUSED	MCEBuddy 일시 중지
+idle	유휴 상태
+PAUSED	일시 중지
+Frame rate	프레임 속도
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	변환 된 video.\r\nYou 장치를 지 원하는 특정 framerates.\r\n\r\nE.g.에 대 한 비디오 포맷 (예: NTSC PAL) \r\nor를 변환 하는 동안 이것을 설정 해야 할 수도 있습니다에 대 한 사용자 정의 프레임 속도 (FPS)를 설정 하려면이 기능을 사용: 25\r\nE.g.: 30000/1001
+Skip remuxing files	Remuxing 파일 건너뛰기
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	검사이 상자에 당신의 자신의 RISK.\r\nDO 하지 remuxing 원본 파일 converting.\r\nIf이 확인 하는 동안 TS 파일을 건너뛸 수 DOING.\r\nCheck이이 상자, 자막 추출 또는 comskip 같은 일부 함수는 알고 있습니다 하지 work.\r\nIt 하지 않으면이 상자 검사도 또한 발생할 수 있습니다 변환 오류 또는 기타 예기치 않은 변환 문제.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	검사이 상자에 당신의 자신의 RISK.\r\nDO 하지 검사이 상자 하지 않는 한 당신이 알고 무엇을 하는 DOING.\r\nCheck이이 상자 TS 파일을 변환 하는 동안 remuxing 원본 파일을 건너뛸 수 있습니다.
+Monitor converted videos	변환 된 동영상 모니터링
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	기본적으로 모니터 위치 무시 합니다 파일은 converted.\r\nCheck 이미이 상자 모니터 Path.\r\nCAUTION에서 변환 된 파일을 모니터링 하려는 경우: 구성 된 properly.\r\n\r\nThis 경우 유용할 수 있습니다 모니터 위치 모니터 경로로 변환 task\r\n (변환 된 파일)의 출력 디렉터리를 지정 하 고 the\r\nMonitor를 연결 하지 않을 경우이 변환 된 파일의 변환 무한 루프가 발생할 수 다른 변환 작업에 위치입니다.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	검사이 상자에 당신의 자신의 RISK.\r\nDO 검사이 상자 하지 않는 한 당신이 알고 무엇을 하는 DOING.\r\nBy 기본 모니터 위치 모니터 경로에 변환 된 파일을 모니터링 하려는 경우 파일은 converted.\r\nCheck 이미에이 상자를 무시 합니다.
+Hardware encoding	하드웨어 인코딩
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	Videos.\r\nThis 변환 가능한 경우 하드웨어 인코딩을 사용 하려면이 상자 크게 전환 가속화 하 고 약간 낮은 품질 videos.\r\n\r\nUncheck이 상자 변환 또는 품질 문제를 직면 하는 경우에 발생할 수 있습니다 CPU utilization\r\nbut 줄일 수 확인 하십시오.
+Do not overwrite files	파일을 덮어쓰지 않음
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	이 상자를 선택 하면 대상 파일이 덮어쓰지 않습니다 그것은 이미 exists.\r\nInstead 새 파일 고유 번호를 사용 하 여 만들어집니다 파일 이름 끝에 추가 하는 경우.
+Re-monitor recorded videos	녹화 된 동영상을 다시 모니터링
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	소스 파일 (비디오 녹화)를 변환, \r\nthe 모니터 역사 추적 파일 이름과 같은 파일 again.\r\n\r\nEnable 큐 하지 역사를 무시 하 고 모든 파일을 모니터링 하 고 to\r\nthe 변환 대기열에 추가 하려면이 옵션을, 그들은 이미 경우에 converted.\r\n\r\nThis 유용할 수 있습니다 때로는 일단 기본적으로레코딩 소프트웨어 표시/각 에피소드에 대 한 a\r\nunique 파일을 생성 하지 않는 경우. 그것은 avoid\r\nan 무한 변환 반복 하려면이 옵션을 사용 하는 경우 설정 페이지에서 the\r\nDelete 원래 파일 옵션을 사용 하도록 권장 합니다.
+Recommendation	추천
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	변환 무한 루프를 방지 하려면에서 변환 된 파일이 모니터 작업에 의해 모니터링 되는 보장 하기 위해과 같은 방식으로 모니터 검색 패턴을 설정 하는 것이 좋습니다.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	모니터 위치 remonitor 하지 것입니다 확인이 상자에 당신의 자신의 RISK.\r\nDO 하지 DOING.\r\nBy 검사이 상자 하지 않는 한 당신이 알고 무엇을 하는 기본 remonitor 녹화 된 동영상을 다시 변환 하려는 경우에이 상자 processed.\r\nCheck 되었습니다 비디오를 기록.
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	변환 무한 루프를 방지 하려면 삭제 원래 파일 옵션 설정 페이지에서 사용 하는 것이 좋습니다.
+Prioritize air date matching	공기 날짜 일치 하는 우선 순위
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy는 시리즈 information\r\nwhile 인터넷 검색에 맞게 에피소드 이름을 사용 합니다. 실패 하면 그것은를 사용 하 여 원래 broadcast\r\nair 날짜는 metadata.\r\n\r\nCheck 원래 방송된 방송 일을 먼저 사용 하려면이 상자 및 다음 시리즈 정보는 internet.\r\nThis에 대 한 일치 하도록 the\r\nepisode 이름을 때 유용할 수 있습니다 어떤 경우에 여러 개의 절 기는 same\r\nepisode 이름. 예를 들어 Americal 아이돌, 오디션 1\r\n\r\nNOTE: 원래 방송된 공기 날짜는 항상 the\r\nbroadcaster에 의해 정확 하 게 설정 하 고 때로는 인터넷에 정보는 incorrect.\r\nUse 기본 옵션은 당신을 위해 작동 하지 않는 경우에이 옵션.
+Skip eMail body	건너뛰기 이메일 본문
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	확인 이메일 알림에 대 한 SMS 게이트웨이 사용 하는 경우 알림 eMail.\r\nThis에서 빈 시체를 사용 하려면이 옵션을 유용할 수 있습니다.
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	디지털 권리 관리 (DRM)에 따라 선택은 available\r\nonly 때 변환 없이 이름 바꾸기 (이름 바꾸기 및 이동만) 옵션은 selected.\r\n\r\nAll-처리, 복사 방지 status\r\nProtected에 관계 없이 모든 파일을 선택-선택 파일 복사 protected\r\nUnprotected는만-만 복사 방지 없는 파일 선택
+Download cover art	커버 아트를 다운로드
+Enable this to download the cover art from the original video and internet if available.	이 경우 사용할 수 있는 커버 아트 원본 비디오 및 인터넷에서 다운로드를 사용 합니다.
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	당신은 도메인 이름을 입력 하 시겠습니까? \r\n\r\nUse가 Windows 도메인 컨트롤러를 사용 하 여 관리 하는 경우 당신의 authentication.\r\nDo 사용 하지만이 Workgroup.\r\n\r\nIf의 일부인 경우 있습니다 확실 하지 클릭 NO.
+Configuration Warning	구성 경고
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	원본 파일 located\r\nand 성공적인 conversion.\r\n\r\nThis 폴더 이름 및 위치 아래 변경 후이 디렉터리에 있는 원래 파일 이동은 ' MCEBuddyArchive' 라는 폴더를 만듭니다.
+Monitoring	모니터링
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	EDL 파일 챕터로 변환 하려는 경우 고급 설정에서 '추가 자막 및 챕터' 옵션을 체크 확인 하십시오.
+EDL to Chapters	장에 EDL

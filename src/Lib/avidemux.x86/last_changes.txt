@@ -1,0 +1,15 @@
+    [win] Add ADM_coreSubtitle to nsi files
+    [admVersion] Prepare for 2.6.8
+    [WinInstaller] Prepare for 2.6.8
+    [editor/half fps] Actually allow to half fps
+    [qt/audio] Fix issue when input files has more than 4 audio tracks (thanks rickardE)
+    [editor] Try to be more prudent when evaluating doubled fps
+    [filter/ass] dont use alloca
+    [filter/ass] hook video filter to core subtitles
+    [core/sub] Try to handle multilines subtitles
+    [core/sub] Almost working srt->ssa simple filter
+    [coreSub] Save subtitle in ass format (incomplete)
+    [coreSubitle] Simplify srt2ssa
+    [py/nonreg] Test case for subtitle
+    [py] Add test functions in its own file
+    [gen] Fix py function code generator, still ugly

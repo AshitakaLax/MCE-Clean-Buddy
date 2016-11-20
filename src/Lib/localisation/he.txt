@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy אינו משתמש שהמשתמש השתמש בה כעת כדי להתחבר אל מיקומים משותפים ברשת, הוא משתמש משלו חשבון שירות.  הקפד לציין את פרטי המשתמש בחיבור (MCEBuddy עם סמל מפתח)
+Connection Reminder	תזכורת להתחבר
+Description	תיאור
+Path	נתיב
+is invalid	לא חוקי
+Invalid Path	נתיב לא חוקי
+Please supply a task name	נא ספק שם פעילות
+No name supplied	אין שם שסופק
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	נא הזן את קוד השפה ספרה 3 של רצועת שמע או בחר <Default>או <Original>
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	הספרה 3 קוד ISO עבור language\r\nMake נבחר כי זה תואם את קוד השפה עבור רצועת השמע המקורית recording.\r\nTo קבלת קוד השפה עבור רצועות השמע בקובץ המוקלט המקורי, להוסיף file\r\nto בתור, לחץ לחיצה ימנית על אותה. מוקצפים החלון ייפתח מציג את השמע details\r\nwhich כלול את קודי שפה עבור כל רצועה שמע.
+Invalid Language Code	קוד שפה לא חוקי
+No destination directory provided, converted file will be placed in original video directory	ספריית היעד לא סיפק, הקובץ שהומר ימוקם בספריית הווידיאו המקורי
+A task name or section	שם הפעילות או מקטע
+already exists\n\rPlease use another name	כבר exists\n\rPlease השתמש בשם אחר
+Duplicate Name	שם כפול
+Engine	מנוע
+Tasks	משימות
+Profile	פרופיל
+disposing	המסיימים
+Task name	שם הפעילות
+Give a unique name to this task	תן שם ייחודי על פעילות זו
+Gives a short description for the selection conversion profile	נותן תיאור קצר עבור פרופיל ההמרה של הקטע הנבחר
+Click to select destination folder	לחץ כדי לבחור תיקיית יעד
+Destination	היעד
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	בחר את הספריה שבה הקובץ שהומר יהיה placed.\r\nLeave זה ריק כדי לשמור את הקובץ שהומר באותה ספריה כמו המקור וידאו.
+Max width	רוחב מרבי
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	זה יגביל את רוחב מרבי (בפיקסלים) של הווידאו עבור file.\r\nTIP שעבר המרה: אינה חלה אם הקובץ המקורי יש רוחב קטן יותר זה number.\r\nIf ברצונך לשמור את הצעד המקורי של רזולוציית המסך את המחוון לקצה הימני.
+Quality	איכות
+Ad remover	המודעה אקולוגי
+None	אף אחד
+Get series details from Internet	קבל פרטים סדרת מהאינטרנט
+Download additional details about the movie or series from the internet	הורד את פרטים נוספים אודות סרט או סדרת מהאינטרנט
+File name match	התאם שם קובץ
+Recording title match	התאמת כותרת הקלטה
+Cancel	ביטול
+OK	אוקיי
+Rename without converting	שינוי שם ללא המרה
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	לבדוק אפשרות זו רק לשנות ולהעתיק את הקבצים המקוריים כדי folder.\r\nWhen היעד מסומנת, המרה, חיתוך, עיבוד אודיו/וידאו והסרת מסחרי לא יהיה available.\r\n\r\nNOTE: השני פונקציות כמו התאמת מסננים, לחילוץ כתוביות, שמירת מטא-נתונים ומסחרי זיהוי (שמירת הקובץ EDL) \r\nwill עדיין יהיה זמין עם זה checked.\r\nIf אפשרות שברצונך להעביר במקום העתקה, בדוק את הקטיעה העתקה המקורי אפשרות בהגדרות מומחה על דף או select\r\nDelete המקורי הקובץ הזה בדף ההגדרות הראשי.
+Rename and sort by video information	שינוי שם ולמיין לפי מידע וידאו
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	שינוי שם הקובץ שהומר וממקם אותו מדריך חדש בהתבסס על המידע הצג/סדרות כאשר available\r\n (למשל ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	הזן את שם המשתמש והסיסמה לגישה לתיקיות המהוות כונן רשת או במחשב אחר
+Organize by seasons	לארגן לפי עונות
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	לארגן תיקיות על-ידי Showname של עונה מתי זמין (Media Center/XBMC/ה-Plex תואם המוסכמה) \r\n (לדוגמה: שם, פרק XX\\SXXEYY של Showname\\Season)
+Audio language	שפת שמע
+Advanced Settings	הגדרות מתקדמות
+General Settings	הגדרות כלליות
+Conversion Task	פעילות המרה
+Password	סיסמה
+Confirm Password	אשר את הסיסמה
+Domain / computer name	קבוצת המחשבים \ שם מחשב
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	<Optional>Enter אם הכונן במחשב או ברשת מרחוק משתמש תחום עבור authentication.\r\nDo תזין את קבוצת העבודה שלך כאן. . להשאיר את זה ריק אם אתה משתמש לקבוצת עבודה.
+User name	שם המשתמש
+Enter the username to access the remote computer or network drive	הזן את שם המשתמש כדי לגשת לכונן מרחוק במחשב או ברשת
+Enter the password to access the remote computer or network drive	הזן סיסמה כדי לגשת לכונן מרחוק במחשב או ברשת
+Network Connection User Credentials	אישורי המשתמש של חיבור רשת
+Password Mismatch	אי-התאמה של סיסמה
+Passwords do not match, please reenter the passwords	הסיסמאות אינן תואמות, נא הזן מחדש את הסיסמאות
+Hour	ביממה
+Minute	דקה
+Wake	התעוררות
+Start	התחלה
+Resume	קורות חיים
+Pause	השהה
+Stop	עצירה
+Language	שפה
+Pause conversion tasks	השהה ההמרה משימות
+Resume conversion tasks	חידוש משימות ההמרה
+Please enter a valid time	נא הזן זמן חוקי
+Invalid Time	זמן לא חוקי
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	לזמן העצירה היא אחרי שעת ההתחלה. בהנחה שלזמן העצירה הוא במהלך יום למחרת, האם זה נכון?
+Time Check	הסימון זמן
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	בחר באפשרות זו רק אם MCEBuddy יש כבר ממיר את הקבצים שלך באופן אמין עבור תקופה סבירה. האם אתה רוצה MCEBuddy כדי למחוק כל קובץ מקור לאחר שהוא הומר?
+Confirm delete originals?	אישור מחיקת עותקי מקור?
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy לפקח על ספריות אלה עבור קבצי וידאו להמיר באופן אוטומטי
+Conversion tasks	המרת משימות
+Delete original file	מחיקת הקובץ המקורי
+Deletes the original recording after a successful conversion	מוחק את ההקלטה המקורית לאחר ההמרה מוצלחת
+Min age before conversion (hours)	גיל מינימום לפני ההמרה (שעות)
+Minimum hours to wait before converting each file after the file is added to the queue	מינימום שעות לחכות לפני המרת כל קובץ לאחר הקובץ נוסף לתור
+Use this to change the language of the text on the screen	השתמש באפשרות זו כדי לשנות את השפה של הטקסט על המסך
+Concurrent conversions	המרות בו-זמניים
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	מספר בו-זמניות המרות MCEBuddy יכולים start\r\nNOTE: אתה צריך כמויות גדולות של שטח דיסק פנוי וזמן המעבד עבור יותר מ- 2 המרות בו-זמנית
+Logging level	רמת רישום
+Error	שגיאה
+Warning	אזהרה
+Information	מידע
+Debug	איתור באגים
+Log conversion jobs	עבודות ההמרה של יומן רישום
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	שמירת קובץ יומן רישום עבור כל המרה \'logs\ ' ספריית איפה MCEBuddy איפה installed\r\n (למשל, Files\\MCEBuddy2x\\logs C:\\Program)
+Allow sleep	אפשר מצב שינה
+If unchecked, it prevents the system from entering sleep while converting	אם האפשרות אינה מסומנת, היא מניעת הזנת שינה בעת המרת
+Stop at	עוצרות
+No new conversions would be started after this time	המרות חדש לא יופעל לאחר מועד זה
+minute	דקה
+hour	ביממה
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	אם בדקת את MCEBuddy יעיר את המערכת ממצב sleep\r\nat שעת ההתחלה שצוין והופעלה ימים בשבוע.
+Start at	התחל ב
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy חדש המרות בין ההתחלה יתחיל וייפסק time.\r\n\r\nThe התחל זמן ישמש במשך ימי השבוע מאופשר, whereas\r\nthe סוף השעה תהיה בשימוש לשם or\r\nfor באותו יום למחרת אם שעת הסיום לאחר שעת ההתחלה.
+Delete	מחק
+Add	להוסיף
+Change	שינוי
+Archive original file	הקובץ המקורי של ארכיון
+Domain name	שם תחום
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	העוצר את המשימות הצג והמרה, פותח דף, כדי לקבוע את תצורת MCEBuddy
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	יוצר תיקיה הנקראת \'MCEBuddyArchive\' הקובץ המקורי איפה located\r\nand מעביר את הקובץ המקורי בספריה זו אחרי שם התיקיה conversion.\r\n\r\nThis מוצלח ומיקום לשינוי בדף ' הגדרות מערכת '.
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	איתור באגים - יומנים מפורטים, מסייעת מעקב ההמרה problems\r\nInformation - מידע בסיסי יומני רישום אודות conversion\r\nWarning - יומן בעיות אפשריות או כשלים קריטיים only\r\nError - יומן רישום כשלי קריטיים בלבד
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	בחר את פרופיל ההמרה המשויכים לפעילות זו. פרופיל ההמרה מייצג את תבנית הפלט ואת איכות לאיכות המומר file.\r\nHigher המרות להימשך זמן רב יותר כדי להמיר. ברירת מחדל מומלצת: MP4 איכותי או MP4 Normal.\r\n\r\nTIP: עיין במדריך MCEBuddy עבור פרמטרים מתקדמים כדי לעדן פרופילים ההמרה או כדי ליצור פרופילים משלך המרה
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	בחר את התוכנית MCEBuddy ישתמש להתפשט החוצה כל הפרסומות בעת המרת את video.\r\nSet על 'ללא' כדי להשאיר את הפרסומות video.\r\n\r\nTIP המרה: כדי להשתמש ShowAnalyzer במקום דילוג פרסומות, אנא הורד והתקן ShowAnalyzer.\r\nShow מנתח גירסה 1.0 ו רבתי נתמך.
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	משמשת לשינוי איכות הווידאו של הקובץ שהומר, רגילה הוא מספר גבוה יותר 1.\r\nA תשפר את איכות אבל ייקח זמן רב יותר מספר קטן יותר של conversion.\r\nA להפחית את האיכות אך להאיץ את ההמרה.
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	הזן את התבנית כדי להתאים שמות קבצים עבור משימה זו (למשל *.wtv יהיה להמיר כל הקבצים המסתיימים .wtv)\r\nPrefix דפוס עם ~ כדי לדלג על ההתאמה (למשל *. *; ~*.wtv יהיה תהליך כל הקבצים פרט לאלה המסתיימים .wtv)\r\nSeparate דפוסים מרובים עם; (למשל *.wtv; ג'אג *; ~ ג'אג מיאמי *) יהיה תהליך כל קבצי. wtv ואת כל הקבצים החל ג'אג אבל לא אלה החל miami\r\n\r\nYou ג'אג להשתמש ביטויים רגילים כדי להתאים את התבנית על-ידי הפעלת regex של האימות:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	הזן את התבנית כדי להתאים הצג/סדרת כותרים עבור משימה זו (למשל סימפסון * יהיה להמיר כל הקבצים בעלי כותרת הצג מתחיל עם סימפסון) \r\nPrefix דפוס עם ~ כדי לדלג על ההתאמה (למשל *; ~ סימפסון * יהיה תהליך כל הצג כותרות פרט לאלה שמתחילים עם סימפסון) \r\nSeparate מרובה תבניות עם; (למשל סימפסון *;House*) או (למשל סימפסון *;NCIS*; ~ ג'אג מיאמי *) \r\n\r\nYou ניתן להשתמש בביטויים רגילים כדי להתאים את התבנית על-ידי הפעלת regex של האימות:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	זה יכול לשמש כדי לעקוף את ברירת המחדל שפת שמע כאשר ישנם מספר שפות שמע ב- get recording.\r\nTo הרשימה של השפות השמע הקלטה, לחץ לחיצה ימנית על הקובץ בתור ובחר MediaInfo.\r\n\r\n <Default>ינסה לשמור כל רצועות שמע אם נתמך או לתת המקודד לבחור ברירת מחדל שמע track\r\n <Original>, אם הוא זמין, ישתמש בשפה [ללא כינו] הקלטת המקורית
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	הזן '[וידאו]' או להשאיר ריק כדי להמיר כל files\r\nEnter וידאו תבנית כדי להתאים שמות קבצים עבור מיקום זה (למשל *.wtv ימיר את כל הקבצים המסתיימים התבנית .wtv)\r\nprefix ~ כדי לדלג על ההתאמה (למשל *. *; ~*.wtv לעבד את כל הקבצים מלבד אלה המסתיימים .wtv)\r\nseparate עיצובים עם; (למשל *.wtv; ג'אג *; ~ ג'אג מיאמי *) יעבד כל הקבצים .wtv ואת כל הקבצים החל ג'אג אך לא את אלה המתחילים במיאמי ג'אג
+MCEBuddy Settings	הגדרות MCEBuddy
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy אינו משתמש שהמשתמש השתמש בה כעת כדי להתחבר אל מיקומים משותפים ברשת, הוא משתמש משלו חשבון שירות.  הקפד לציין את פרטי המשתמש חיבור [MCEBuddy עם סמל מפתח]
+Please supply a source name	נא ספק שם מקור
+Please supply a search path name	נא ספק שם נתיב חיפוש
+A source name or section	שם מקור או מקטע
+already exists. Please use another name	כבר קיים. נא השתמש בשם אחר
+Monitor name	שם צג
+Give this a location a unique name	לתת לזה מיקום שם ייחודי
+Monitor path	נתיב צג
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	בחר את הספריה המפקחים MCEBuddy ברקע עבור קבצי וידאו חדשים להמיר באופן אוטומטי
+Click to select the folder to monitor	לחץ כדי לבחור את התיקיה לפיקוח
+Search pattern	תבנית חיפוש
+SourceForm	SourceForm
+Monitor Location	הצג מיקום
+Normal	רגיל
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: שגיאה בחיבור של מנוע pipeProxy
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: אין אפשרות ליצור רכיב pipe לשירות MCEBuddy
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	שירות MCEBuddy אינו זמין. נא הפעל את לוח הבקרה של Windows או חיבור מנוע.
+Announcement	הכרזה
+New version 	גירסה חדשה 
+available	זמין
+New BETA version 	גירסת ביתא חדשה 
+Click here to download new version of MCEBuddy	לחץ כאן כדי להוריד את הגירסה החדשה של MCEBuddy
+Click here to open link	לחץ כאן כדי לפתוח את הקישור
+Idle	חוסר פעילות
+Closing	סגירת
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI: אין אפשרות לעדכן משימות
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: אין אפשרות להפעיל את שירות MCEBuddy
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: אין אפשרות לעצור את שירות MCEBuddy
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI: לא ניתן לבטל את המשימה
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	אזהרה: קבצים ברשת יהיה לגשת באמצעות אישורי הכניסה של השירות MCEBuddy, לא המשתמש המחובר כעת. באפשרותך לציין באופן ידני את אישורי הרשת מן ההגדרות-> מומחה הגדרות דף MCEBuddy.
+Credential Warning	אזהרת אישור
+Status	מצב
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI: אין אפשרות להוסיף משימה
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: אין אפשרות לקבל מצב פעיל של הצינור
+The conversions must be stopped to change settings. Stop the conversions?	חייבים לעצור את ההמרות כדי לשנות הגדרות. להפסיק את ההמרות?
+Stop Engine	לעצור את המנוע
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI: אין אפשרות לעצור את שירות MCEBuddy לחץ על הגדרות
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: אין אפשרות לסרוק מחדש קבצים
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: לא ניתן לפתוח את הקישור
+Close	סגור
+Close this window, MCEBuddy will keep running in the background	סגור חלון זה, MCEBuddy ימשיכו לפעול ברקע
+If you like MCEBuddy, please click here to Donate - THANKS	אם אתה אוהב MCEBuddy, לחצו כאן לתרומה - תודה
+Click here to like MCEBuddy on facebook	לחץ כאן כדי כמו MCEBuddy בפייסבוק
+Click here to open MCEBuddy website	לחץ כאן כדי לפתוח את אתר האינטרנט של MCEBuddy
+Rescan	סרוק מחדש
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	כוחות MCEBuddy כדי לבדוק מחדש את מיקומי צג עבור קבצי וידאו חדשים להמיר
+Monitor locations	צג מיקומים
+Settings	הגדרות
+Select the file(s) in the queue to delete	בחר בקבצים בתור כדי למחוק
+Manually add video file(s) to the queue to convert	להוסיף באופן ידני קבצי וידאו בתור כדי להמיר
+Start the MCEBuddy monitor and conversion tasks	הפעלת משימות צג והמרה של MCEBuddy
+Stop the MCEBuddy monitor and conversion tasks	הפסקת משימות צג והמרה של MCEBuddy
+There is a new version!	יש גירסה חדשה!
+High	גבוהה
+Low	נמוכה
+Priority	עדיפות
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	עדיפות גבוהה - להמיר במהירות רבה יותר אך עלול להפוך יישומים אחרים עדיפות unresponsive\r\nLow - המרת רקע אך הפרעה מופחתת עם יישומים אחרים
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	משימה היא תבנית המרה המכיל פרופיל המרה שונות parameters.\r\nEach ההמרה בקובץ נוספות לתור לעבד, המרה על-ידי כל אחד tasks.\r\nRefer אלה במדריך MCEBuddy לקבלת פרטים נוספים אודות אופן הפעולה של משימות.
+Getting started	תחילת העבודה
+Click here for MCEBuddy guide	לחץ כאן לקבלת מדריך MCEBuddy
+Logs	יומני רישום
+Click to open log folder	לחץ כדי לפתוח את תיקיית יומן רישום
+MCEBuddy Status	מצב MCEBuddy
+add	להוסיף
+delete	מחק
+paypal-donate	paypal-תרומה
+stop	עצירה
+OUTPUT: ConsoleOuput received NULL data	פלט: ConsoleOuput קיבל נתונים NULL
+hours	שעות
+minutes	דקות
+second	השני
+seconds	שניות
+Starting	החל
+Comskip advertisement scan - Pass 1	סריקה פרסומת Comskip - עוברים 1
+Comskip advertisement scan - Pass 2	סריקה פרסומת Comskip - עוברים 2
+Cutting commercials from video	חיתוך פרסומות וידאו
+Cutting commercials from video - segment 	גזירה פרסומות וידאו - קטע 
+Merging commercial free segments into new video	ממזג מסחרי מקטעי חינם וידאו חדש
+Moving converted file to destination	העברת הקובץ שהומר ליעד
+Checking for disk space	בדיקת שטח דיסק
+Getting show information and banner from Internet sources	תחבורה הצג פרטי, הכרזה ממקורות אינטרנט
+Copying source file to working directory	העתקת קובץ המקור ספריית העבודה
+Remuxing recording	הקלטה Remuxing
+ShowAnalyzer advertisement scan	ShowAnalyzer פרסומת סריקה
+Comskip advertisement scan	דילוג פרסומות פרסומת סריקה
+Analyzing video information	ניתוח מידע וידאו
+Converting	המרת
+Removing commercials	הסרת פרסומות
+Writing show information	הכתיבה מציגים מידע
+Renaming file using show information	שינוי שם קובץ באמצעות הצגת מידע
+Success - All done!	הצלחה - הכל נעשה!
+Muxing streams	זרמים Muxing
+Fallback remux	נסיגה remux
+Correcting audio delay	תיקון עיכוב שמע
+Converting video file - Pass 1	המרת קובץ וידאו - עוברים 1
+Converting video file - Pass 2	המרת קובץ וידאו - עוברים 2
+Converting video file	המרת קובץ וידאו
+Audio Track	רצועת שמע
+Impaired	ראייה
+Channels	ערוצים
+Codec	רכיב codec
+Video	וידאו
+Duration	משך זמן
+Height	גובה
+Width	רוחב
+Audio	שמע
+Name	שם
+Subtitle	כותרת משנה
+Volume	אמצעי אחסון
+Enable custom file renaming	אפשר שינוי שם של קובץ מותאם אישית
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	אפשרות זו להזין תבנית מותאמת אישית כדי לשנות שם להמיר קבצים ותיקיות. הזן את התבנית המותאמת אישית תיבת below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S % העונה % ##E % פרק % #-% episodename % - %airyear%_%airmonth%_%airday%\r\n\r\nWill תוצרת: \r\nTVShows\CSI\Season 1\CSI - S01E02 - הטוב ביותר של פעמים - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill תוצרת (עבור סרט) \r\n Recording\Movies\Star המרה מלחמות. <ext>1\CSI \r\n Recording\TVShows\CSI\Season \r\nOR (עבור סרטים שאינם) - S01E02-המרה.<ext>\r\n\r\nRefer כדי MCEBuddy מתקדמות תיעוד עבור רשימה של כל הפקודות דפוס.
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	ShowAnalyzer לא נמצא. \nPlease להוריד ולהתקין ShowAnalyzer.
+ShowAnalyzer Missing	ShowAnalyzer חסר
+Invalid language code, reverting to <Default> language	קוד לא חוקי השפה, חזרה אל השפה <Default>
+Cut start	לחתוך את ההתחלה
+Cut end	לחתוך את הקצה
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	תכונה זו מציינת את מספר השניות לחתוך מתחילת ההקלטה (לפני הסרת המודעות)
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	תכונה זו מציינת את מספר השניות לחתוך בסוף ההקלטה (לפני הסרת המודעות)
+Send an eMail after each conversion.	שלח הודעת דואר אלקטרוני לאחר ההמרה בכל.
+Send eMail	שלח דוא
+SMTP Server Name	שם שרת SMTP
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	הזן את here\r\ne.g יוצאות של כתובת שרת דואר אלקטרוני (SMTP). smtp.gmail.com
+Port	יציאה
+Enter the SMTP server port	הזן את היציאה של שרת ה-SMTP
+Use SSL	השתמש ב- SSL
+Check this if you SMTP server uses SSL	בחר באפשרות זו אם שרת SMTP שאתה משתמש ב- SSL
+e-Mail Settings	הגדרות דואר אלקטרוני
+From <e-Mail>	מ <e-Mail>
+Enter the senders (From) eMail address here	הזן את השולחים (מ) כתובת אימייל כאן
+To <e-Mails>	ל <e-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	הזן את הנמענים (אל) דוא ל כתובת here.\r\nSeparate נמענים מרובים באמצעות נקודה-פסיק (;)
+Send eMail on successful conversion	שלח דוא על ההמרה מוצלחת
+Send eMail on failed conversion	שלח דוא על ההמרה נכשל
+Send eMail on cancelled conversion	שלח דוא על ההמרה מבוטלים
+Send eMail on adding a conversion to the queue	שלח דוא על הוספת המרה לתור
+Please enter a valid server address	נא הזן כתובת שרת חוקית
+Invalid SMTP Server	שרת SMTP לא חוקי
+Please enter a valid server port	נא הזן יציאה שרת חוקי
+Invalid SMTP Port	יציאת SMTP לא חוקי
+Please enter a valid From eMail address	נא הזן ערך חוקי כתובת האימייל של השולח
+Invalid eMail Address	כתובת דואר אלקטרוני לא חוקית
+Please enter valid To eMail addresses	נא הזן כתובות דוא ל חוקית
+Username	שם משתמש
+<Optional> Enter the username for the eMail server authentication	<Optional>הזן שם המשתמש עבור אימות שרת דוא
+<Optional> Enter the password for the eMail server authentication	<Optional>הזן הסיסמה עבור אימות שרת דוא
+MCEBuddy unable to download series information	אין אפשרות להוריד מידע הסידרה MCEBuddy
+MCEBuddy successfully converted a video	MCEBuddy המיר בהצלחה וידאו
+Source Video	מקור וידאו
+Converted Video	וידאו שעברו המרה
+Converted At	המרה
+MCEBuddy failed to converted a video	MCEBuddy לא הצליחו להמיר וידאו
+Failed At	נכשל ב
+MCEBuddy cancelled a video conversion	MCEBuddy בוטלה המרת וידאו
+Cancelled At	בוטל ב
+Working	עבודה
+Test	מבחן
+Testing	בדיקות
+Click this button to test the eMail server settings	לחץ על לחצן זה כדי לבדוק את הגדרות שרת הדואר האלקטרוני
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy תשלח הודעת דואר אלקטרוני כדי לבדוק את settings.\r\nThis שרת יכול לקחת עד 60 seconds.\r\nMCEBuddy עלול שלא להגיב במהלך תקופה זו.
+Test eMail	לבדוק דוא
+MCEBuddy Test eMail	מבחן MCEBuddy דוא
+MCEBuddy - Have a great day!	MCEBuddy - שיהיה לך יום נהדר!
+Send eMail test successful	שלח דוא ל מבחן מוצלח
+Send eMail test failed! Please check your settings and internet connectivity	שלח דוא ל הבדיקה נכשלה! נא בדוק את ההגדרות ואת קישוריות לאינטרנט
+Test eMail Success	לבדוק דוא ל הצלחה
+Test eMail Failed	דוא של הבדיקה נכשלה
+Send eMail on start of conversion	שלח דוא בתחילת ההמרה
+MCEBuddy started a video conversion	MCEBuddy התחיל המרת וידאו
+Conversion Started At	החל המרה
+Yes (Comskip)	כן (Comskip)
+Yes (ShowAnalyzer)	כן (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	פעילות המרה אחת Atleast חייב להיות זמין
+Disable	הפוך ללא זמין
+Enable	אפשר
+Rename	שינוי שם
+Move	מהלך
+Up	למעלה
+Down	למטה
+Slow Remuxing	Remuxing איטי
+Extracting closed captions	לחילוץ כתוביות מקודדות לכבדי שמיעה
+Validating closed captions	אימות כתוביות מקודדות לכבדי שמיעה
+Extracting subtitles	לחילוץ כתוביות
+Trimming closed captions	זמירה סגור כיתובים
+Extract subtitles and closed captions	תמצית כתוביות, כתוביות מקודדות לכבדי שמיעה
+Field	שדה
+Channel	ערוץ
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	אפשרות זו לחלץ כתוביות מקודדות לכבדי שמיעה, כתוביות טלטקסט from\r\nWTV, DVR-MS, TS, MP4, MKV ו files.\r\n\r\nIt נתמכים אחרים נשמר כקובץ כותרת המשנה (SRT).
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	אפשר זו כדי להגדיר אפשרויות מתקדמות עבור כתוביות מקודדות לכבדי שמיעה extraction\r\nField - 1 או 2\r\nChannel - 1 או 2\r\n\r\nDefault: 1 שדה, ערוץ 1
+Subtitle offset	היסט כתוביות
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	הזן את מספר השניות (+ ve / - ve) כדי להתאים את הסינכרון כתוביות עם וידאו
+Re-ReMuxing due to audio error	Re-ReMuxing עקב שגיאת שמע
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	להציל את הפוסטר ולהציג מידע (מטה-נתונים) ב- MC/XBMC קובץ NFO תואם (בפורמט XML)
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	סמן תיבה זו כדי לשמור את המידע הצג (מטה-נתונים) ב- file.\r\nThis המומר רק עובד עבור הקבצים התומכים תגיות מטא-נתונים כמו MP4, MKV, WTV etc.\r\n\r\nNOTE: נקה תיבה זו אם אתם מתמודדים עם סוגיות של התקנים מסוימים כגון הטלוויזיה בוגרים אשר יש בעיית הקריאה מטה-נתונים.
+Atleast one day of the week must be enabled	Atleast יום אחד בשבוע חייב להיות זמין
+Invalid Days of Week	הימים לא חוקי של השבוע
+Invalid day of week found in configuration file	יום בשבוע נמצא בקובץ תצורה לא חוקי
+Scheduling	תזמון
+Remuxing to	Remuxing אל
+Part	חלק
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	השאר את העכבר על לחצן, תיבה או פריט כדי לקבל עזרה מיידית על it.\n\nFor מידע נוסף על אופן שימוש, לפתור בעיות או לקבל תמיכה עבור MCEBuddy לחצו על הקישור < תחילת העבודה > על corner.\n\nDonations נכון העליון מתקבלים תמיד בברכה :) ליהנות! \n\n - רמית, דרק & אווז
+Welcome to MCEBuddy	ברוכים הבאים MCEBuddy
+Multichannel audio	שמע רב-ערוצי
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	הסימון כדי לאפשר שמע רב-ערוצי אם מקור וידאו תומך it.\r\nBy מחדל השמע מוגבלת 2 ערוצי (סטריאו).
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	טווח דינמי דחיסה (הרפובליקה הדמוקרטית) \r\nWhen המקור הוא שמע AC3, הפעלת הרפובליקה הדמוקרטית של קונגו will\r\nreduce ההבדל בין את רם soft\r\nsounds מה שהופך רצועת השמע even.\r\nIf נוספים שיש לך רב ערוצי הקלטת שמע you\r\nfeel שאמצעי האחסון הוא רך מדי, בדיקת שבתיבת זו עשוי לעזור.
+FPS	FPS
+Logfile age (days)	Logfile גיל (ימים)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	המספר המרבי של יום כדי לשמור את logfiles לפני מחיקת them.\r\nSet 0 כדי לשמור את יומני לנצח.
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	Remuxing מהיר
+Byte stream remuxing	בית זרם remuxing
+Disable cropping	בטל חיתוך
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	בדוק כדי לבטל חיתוך הווידאו באופן אוטומטי במהלך conversion.\r\nCropping משמש כדי להסיר "פסים שחורים" וידאו (העליון, התחתון, השמאלי או right).\r\nUse באפשרות זו אם הוא מקבל לגזור תמונת וידאו בצד אחד או אם להסתכל התמונה הסופית נמתח או מעוות.
+Only detect Ads	לזהות רק מודעות
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	סמן אפשרות זו אם ברצונך MCEBuddy כדי לזהות את המודעות (פרסומות) אבל לא לחתוך אותם על פי video.\r\nWhen שאפשרות זו מופעלת, MCEBuddy תיצור קובץ EDL יחד עם הקובץ שהומר המציין את המיקומים של המודעות video.\r\nAlso שעבר המרה, עבור MP4 / M4V וליצור קבצי MKV MCEBuddy פרקים כדי לסמן את הסוף של פרסומות.
+Download information	להוריד מידע
+Correction	תיקון
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	לחץ כאן כדי לתקן את הכותרת הצג, לכפות שימוש מזהה ספציפי של סדרת TVDB או מטא-IMDB סרט id\r\nto בדיקת נתונים נוספים מהאינטרנט.
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	סמן אפשרות זו כדי להוריד מידע נוסף מהאינטרנט על ההצגה כמו קובץ כרזה, פרק, העונה ועוד
+Profile Error	שגיאת פרופיל
+Cannot find selected profile in profiles.conf	אין אפשרות לאתר את הפרופיל שנבחר ב- profiles.conf
+Invalid Profile	פרופיל לא חוקי
+Please select a valid profile	נא בחר פרופיל חוקי
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	מנגנון MCEBuddy יש התרסק. נא לשלוח mcebuddy.log למפתחים
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	בחר קובץ ה-Comskip INI מותאם אישית לשימוש זה task\r\nLeave המרה זה ריק כדי להשתמש בברירת המחדל של קובץ ה-Comskip INI עבור הסרת מודעה
+Click to select custom Comskip INI file	לחץ כדי לבחור קובץ Comskip INI מותאם אישית
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	בחר את התיקיה עבור עבודה עם קבצים זמניים. ודא כי יש די ריק השטח drive.\r\nLeave זה ריק כדי להשתמש בתיקיה temp של ברירת המחדל בתיקיית ההתקנה.
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	בחר את התיקיה עבור עבודה עם קבצים זמניים. ודא שיש מספיק שטח ריק על drive.\r\nThis עוקפת את תיקיית temp שצוין בהגדרות של-> מומחה הגדרות דף.
+Click to select temp working folder	לחץ כדי לבחור את תיקיית העבודה הזמנית
+Temp folder	התיקיה temp
+Space check	סימון שטח
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	כאשר MCEBuddy מופעל יבדוק די שטח פנוי עבור ההמרה (היעד ו- temp).\r\nUncheck זה אם יהיו מתקשה עם כונני רשת או קובצי וידאו גדולים בצורה יוצאת מן הכלל.
+MCEBuddy Windows Event Logs	יומני רישום של MCEBuddy Windows
+Events	אירועים
+Click here to open the MCEBuddy Windows Event Logs	לחץ כאן כדי לפתוח את יומני האירועים של Windows MCEBuddy
+Enable UPnP	UPnP לזמינה
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	סמן אפשרות זו כדי לאפשר UPnP. פעולה זו מאפשרת הדרוש ל- access למנגנון MCEBuddy בחוץ network.\r\nThis לבדוק אם אתה משתמש לקוח MCEBuddy נייד/עצמאיים גישה MCEBuddy.
+Click here to connect to another MCEBuddy engine	לחץ כאן כדי להתחבר למנגנון MCEBuddy אחר
+MCEBuddy Remote Engine Connection	חיבור מנוע MCEBuddy מרוחק
+Engine Name	שם מנוע
+Engine Port	מנוע יציאה
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	הזן את השם או את כתובת ה-IP של מנגנון MCEBuddy שברצונך להתחבר
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	הזן את מספר יציאת ה-TCP של מנגנון MCEBuddy ברצונך להתחבר
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	הזן את מספר יציאת ה-TCP של מנגנון MCEBuddy ברצונך להתחבר (1 כדי 63355)
+Invalid Name/Port	שם לא חוקי/יציאה
+Please enter a valid Engine Name and Engine Port Number	נא הזן ערך חוקי שם מנוע מספר היציאה מנוע
+Error Stopping Engine	שגיאת עצירה מנוע
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	אין אפשרות לעצור את מנוע MCEBuddy, הגדרות ייתכן לא יישמרו. האם ברצונך להמשיך?
+Unable to communicate with engine. Settings have NOT been saved.	אין אפשרות לקיים תקשורת עם מנוע. הגדרות לא נשמרו.
+Communication Error	שגיאת תקשורת
+Engine not stopped. Settings have NOT been saved.	מנוע לא להפסיק. הגדרות לא נשמרו.
+Unable To Save Settings	אין אפשרות לשמור הגדרות
+Unable to communicate with engine. UPnP settings have not been updated	אין אפשרות לקיים תקשורת עם מנוע. הגדרות UPnP לא עודכנו
+Audio delay	עיכוב שמע
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	הזן ערך בשניות (חיובי או שלילי) כאן להעביר השמע ביחס video.\r\nUse זה כדי סונכרן מחדש את השמע עם הוידאו, אם הם אינם מסונכרנים לאחר conversion.\r\nA ערך חיובי תעכב את השמע (כלומר וידאו לפני שמע), ערך שלילי יהיה מתקדם השמע (כלומר שמע לפני video).\r\nE.g. 1.5
+Media info	פרטי מדיה
+Click here to get media properties for selected files	לחץ כאן כדי לקבל את מאפייני מדיה עבור הקבצים הנבחרים
+Save information	-שמירה של מידע
+Add information	להוסיף מידע
+Shows a preview of the custom filename and path	הצגת תצוגה מקדימה של קובץ מותאם אישית והנתיב
+Invalid Filename Pattern	תבנית שם קובץ לא חוקי
+TVDB Series ID	מזהה סידרה TVDB
+IMDB Series ID	מזהה סידרה של IMDB
+Original title	הכותרת המקורית
+Corrected title	כותרת המתוקן
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	הזן את מזהה סדרת TVDB ברצונך להשתמש עבור הורדת הצג information.\r\nIf התיבה כותרת מקורית ריקה, זה יוחל על כל מראה נבחר על-ידי משימה זו המרה.
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	הזן את מזהה הסרט IMDB ברצונך להשתמש עבור הורדת הסרט information.\r\nIf המקורי כותרת ריקה, זה יוחל על כל מראה נבחר על-ידי משימה זו המרה.
+Internet Lookup Title and Metadata Correction	אינטרנט בדיקת מידע כותרת ותיקון מטא-נתונים
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	לחץ כאן כדי להוסיף שורה נוספת לתקן titles וסדרת id.\r\nIf ברצונך להשתמש באותה כותרת המתוקן או סדרת מזהה עבור כל התוכניות המרה על-ידי משימה זו המרה, \r\nleave הריק הכותרת המקורית על הראשון שורה ו עליך להוסיף שורה שניה.
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	הזן את התבנית כדי להתאים הצג/סדרת כותרים עבור תיקון (למשל סימפסון * יחליף כל הכותרים בעלי כותרת הצג מתחיל עם סימפסון) \r\nPrefix דפוס עם ~ כדי לדלג על ההתאמה (למשל *. *; ~ סימפסון * יתקנו להציג את כל כותרות פרט לאלה שמתחילים עם סימפסון) \r\nSeparate מרובה תבניות עם; (למשל סימפסון *;House*) או (למשל סימפסון *;NCIS*; ~ ג'אג מיאמי *) \r\n\r\nNOTE: השאר תיבה זו ריקה אם ברצונך להחיל את הכותרת המתוקן או סדרת מזהה כל הקבצים המעובדות על-ידי-זה task.\r\nIf המרה להשאיר ריק, אין באפשרותך להוסיף row.\r\n\r\nYou השני באפשרותך להשתמש בביטוי רגיל כדי להתאים את הכותרת על-ידי הפעלת regex של האימות:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	הזן שם חדש/תיקן ברצונך להשתמש עבור הורדת מידע נוסף מ- internet.\r\nIf המקורי כותרת ריקה, זה יוחל להצגות כל שנבחר על-ידי המרה זו task.\r\n\r\nYou באפשרותך להשתמש בביטוי רגיל כדי לתקן את הכותרת על-ידי הפעלת regex של האימות:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	עבור כל שורה, הזינו בבקשה את הכותרת המקורית כדי להתאים את שם הצג ואת גם Corrected של כותרת או מזהה סדרת TVDB/IMDB
+Please enter either a Corrected title or a TVDB/IMDB Series ID	לקלה ופשוטה-הזינו את כותרת Corrected או מזהה סדרת TVDB/IMDB
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	אפשר זה אם ברצונך MCEBuddy לשים את המומר קובץ ב- directory\r\nif מקור נתיב היעד אינו זמין. (למשל רשת כשל או כשל מיפוי)
+Fallback to source path	חזור אל נתיב המקור
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	בשימוש כדי להגביר או להחליש את עוצמת הקול של the\r\nrecording בזמן converting.\r\n1 נורמלי, משהו מתחת יקטין אותה, anything\r\nhigher להגדיל אותו.
+Archive folder	תיקיית ארכיון
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	שינוי המיקום של folder.\r\nLeave ארכיון ריק כדי להשתמש בתיקיה 'MCEBuddyArchive' של ברירת המחדל בספריה המקורית.
+Monitor subdirectories	ספריות המשנה של צג
+Check this box to also monitor all directories within the Monitor path	סמן תיבה זו כדי גם לפקח על כל הספריות בתוך הנתיב צג
+Click here to show MCEBuddy status	לחץ כאן כדי להציג את מצב MCEBuddy
+MCEBuddy service not connected	שירות MCEBuddy לא מחובר
+MCEBuddy idle	MCEBuddy פעיל
+conversions in progress	המרות בביצוע
+MCEBuddy stopped	MCEBuddy עצר
+Sync converted files	לסנכרן את הקבצים שעברו המרה
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	סמן אפשרות זו אם ברצונך MCEBuddy כדי לסנכרן את הקבצים שעברו המרה עם files.\r\ni.e המקורי. כאשר הקבצים המקוריים נמחקים על-ידי המשתמש, להמיר קבצים המתאימים הם גם deleted.\r\n\r\nNOTE: MCEBuddy מפקח רק הקבצים המקוריים בתיקיות מיקומים צג, רק כאשר המנוע הוא running.\r\nMCEBuddy לא תהיה אפשרות לעקוב אחר קבצי המשתמש נמחק כאשר המנוע מופסק.
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	האם אתה רוצה MCEBuddy כדי למחוק כל קובץ המרה כאשר הקובץ המקורי נמחק?
+Confirm sync conversions?	אשר המרות סינכרון?
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	האם אתה בטוח שאתה לא רוצה להסיר פרסומות הווידאו המומרים ולהשאיר רק את הקובץ EDL?
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer אינו מגיב. בבקשה את המערכת מחדש או להתקין מחדש את ShowAnalyzer.
+ShowAnalyzer Not Responding	ShowAnalyzer אינו מגיב
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	ודא כי באפשרותך ללחוץ על 'התחל' לאחר סגירת חלון זה, אחרת התזמון ההתעוררות לא יפעלו.
+Enabling Scheduling and Wake	תזמון הפעלת ו- Wake
+Passwords do not match	הסיסמאות אינן תואמות
+Password error	שגיאה בסיסמה
+Adding subtitles and chapters to file	הוספת כתוביות וסניפים לקובץ
+Send eMail if unable to download series information	שלח דוא ל אם אין אפשרות להוריד מידע הסידרה
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	סמן תיבה זו אם ברצונך שפעילות זו המרה לעבד רק קבצים מ צג מסוים locations.\r\nIf לא מסומן שכל פעילות ההמרה לעבד קבצים ממיקומים כל צג (כולל חדשים שנוספו מאוחר יותר).
+Select Monitor Locations	בחר צג מיקומים
+Select atleast one Monitor Location name	בחירת שם צג מיקום אחד לפחות
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	בחרת כל את הנוכחי צג Locations.\r\nDo ברצונך שפעילות זו המרה לעיבוד אוטומטי מיקומים חדשים כלשהם צג נוסף בעתיד?
+New monitor locations	צג מיקומים חדשים
+Invalid selection	בחירה לא חוקית
+Channel name match	התאמת שם ערוץ
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	הזן את התבנית כדי להתאים את שם הערוץ עבור משימה זו (למשל ABC * יהיה להמיר כל הקבצים נרשם על שם ערוץ עם ABC) \r\nPrefix דפוס עם ~ כדי לדלג על ההתאמה (למשל *; ~ ABC * יהיה תהליך כל הערוצים למעט אלה להתחיל עם ABC) \r\nSeparate מרובה תבניות עם; (למשל ABC *;TBS*) או (למשל ABC *;Fox*; ~ Fox4 *) \r\n\r\nYou ניתן להשתמש בביטויים רגילים כדי להתאים את התבנית על-ידי הפעלת regex של האימות:
+Clear history	נקה היסטוריה
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	לחץ על לחצן זה כדי לנקות את ההיסטוריה של כל files.\r\nThis המרה היא לגרום MCEBuddy להמיר מחדש כל הקבצים תחת פיקוח.
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	האם אתה בטוח שברצונך לנקות את ההיסטוריה של כל המרות? \r\nThis יגרום MCEBuddy להמיר מחדש כל הקבצים תחת פיקוח.
+Show history	הצג היסטוריה
+Click this button to show the history of all converted files.	לחץ על לחצן זה כדי להציג את ההיסטוריה של כל הקבצים המומרים.
+History of Converted Files	היסטוריה של הקבצים שעברו המרה
+Unable to communicate with engine.	אין אפשרות לקיים תקשורת עם מנוע.
+Extracting streams	חילוץ נחלים
+Fallback muxing streams	זרמים muxing נסיגה
+Remuxing TiVO file	קובץ Remuxing TiVO
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	הזן את בן 10 ספרות TiVO MAK מפתח כדי להמיר ולעבד TiVO הקלטות
+Invalid TiVO MAK Key	מפתח לא חוקי TiVO MAK
+The TiVO MAK key should be 10 digits	המפתח TiVO MAK צריך להיות 10 ספרות
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	אי-התאמה של גירסאות. נא ודא כי הלקוח MCEBuddy, המנוע מפעיל גירסה זהה.
+Error retrieving Event Logs	שגיאה באחזור יומני אירועים
+Unable to get Event Log Entries from the MCEBuddy engine.	אין אפשרות לקבל ערכי יומן מן המנוע MCEBuddy.
+PAUSED: Check conversion schedule	מושהה: תזמון המרות הסימון
+Logging	רישום
+Folder Management	ניהול תיקיות
+Processor Management	ניהול מעבד
+Expert Settings	הגדרות מומחה
+System Settings	הגדרות מערכת
+Click here to change additional settings (for experts only)	לחץ כאן כדי לשנות הגדרות נוספות (עבור מומחים בלבד)
+Failed folder	התיקיה נכשלה
+Location of the folder that hold the original files for failed conversions.	המיקום של תיקיית שמחזיקים את הקבצים המקוריים עבור המרות שנכשלו.
+Move original file on failure	להעביר את הקובץ המקורי בכשל
+Check this to move the original file to a separate folder if the conversion fails.	סמן אפשרות זו כדי להעביר את הקובץ המקורי לתיקיה נפרדת, אם ההמרה נכשלת.
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	סמן אפשרות זו כדי להגביל את מספר המעבדים הלוגיים המשתמשים בצינור MCEBuddycan use.\r\nEach בתיבת הסימון שלהלן המתאים למעבד הלוגיים הזמינים.
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	כל תיבת מייצג מעבדים לוגיים מ- 1 עד 16 respectively.\r\nChecking תיבה מאפשר MCEBuddy להשתמש באותו המעבד.
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	כל תיבת מייצג מעבדים לוגיים מ- 17 ל- 32 respectively.\r\nChecking תיבה מאפשר MCEBuddy להשתמש באותו המעבד.
+Select atleast one processor to use	בחר מעבד אחד לפחות כדי להשתמש
+Invalid Configuration	תצורה לא חוקי
+Comskip path	דילוג פרסומות נתיב
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	אם ברצונך להשתמש גירסה מותאמת אישית של Comkip (למשל גרסה ותתקיים) \r\nthen הזן את הנתיב של here.\r\nLeave ההתקנה דילוג הפרסומות ריק כדי להשתמש דילוג הפרסומות של ברירת המחדל שמגיע עם MCEBuddy.
+Miscellaneous	שונות
+Ignore copy protection	התעלם הגנה מפני העתקה
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	סמן אפשרות זו כדי להתעלם את הדגל הגנה מפני העתקה על קובץ וידאו בזמן converting.\r\nNOTE: MCEBuddy לא יכול לעקוף את ההצפנה, זה עוזר רק אם קובץ incorrectly\r\ntagged כעותק מוגן כאשר זה אינם מוצפנים.
+Use recycle bin	סל המיחזור של שימוש
+Check this to use the recycle bin when files are deleted by MCEBuddy	סמן אפשרות זו כדי להשתמש בסל המיחזור כאשר הקבצים נמחקים על-ידי MCEBuddy
+Poll period	סקר תקופה
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	זוהי התדירות MCEBuddy סורק את מיקומי הפעילויות של צג עבור מרווח files.\r\nThe החדש שצוין בשניות.
+Server port	יציאת שרת
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	זוהי יציאת ה-TCP שמשתמש MCEBuddy כדי לקיים תקשורת עם engine.\r\nWhen מרחוק UPnP מוגדר כזמין, MCEBuddy יוסיף באופן אוטומטי יציאה זו אל שער ה-UPnP Firewall\r\nand של Windows כדי לאפשר גישה מהאינטרנט ביציאה זו.
+Hang period	לתלות תקופת
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	הזן את מספר השניות MCEBuddy ימתין לתגובה מיישום the\r\nunderlying מסתיימת לפני יישום כמו hung.\r\nEnter 0 כדי לבטל את זיהוי להיתקע.
+Subtitle commercial cut sync	כתוביות מסחרי לחתוך סינכרון
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	פרמטר זה נמצא בשימוש בעת כתוביות ללכת בהדרגה מסונכרן לאחר כל קטע מסחרי מוסר את ההגדרה video.\r\nThis משמש כדי להביא את הכתוביות בחזרה לתוך סינכרון עם הזמן video.\r\nEach שוידאו מסחרי היא לחתוך החוצה, הכתוביות הזמן מוזז על-ידי זה סכום (+ ve או - ve שניות).
+Invalid poll period	סקר לא חוקי תקופה
+Invalid server port	יציאת שרת לא חוקי
+eMail Subject Customization	דוא ל נושא ההתאמה האישית
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	השתמש במקטע זה כדי להתאים אישית את הנושא של הדוא ל שנשלחו על-ידי MCEBuddy על האירועים המרה שונים המפורטים below.\r\nRefer בתיעוד, פקודות מותאמות אישית עבור המשתמש הגדיר variables.\r\ne.g. הצג % showname % עבור הקובץ % originalfilename % המרה מוצלחת באמצעות פעילות % taskname%\r\nNOTE: לא תמיד כל הנתונים יהיו זמינים commands.\r\nLeave מותאם אישית ריק כדי להשתמש לשורות נושא ברירת המחדל.
+Success	הצלחה
+Failed	נכשל
+Cancelled	בוטל
+Download fail	הורד להיכשל
+Limit processor utilization	מגבלת ניצול המעבד
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	בדוק זה כדי להגביל את מספר המעבדים הלוגיים המשתמשים שיכולים MCEBuddy use.\r\nEach בתיבת הסימון שלהלן תואם מעבד לוגי זמינים.
+Custom profile	פרופיל מותאם אישית
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	אם יש לך קובץ profiles.conf מותאם אישית שברצונך להשתמש במקום the\r\none המגיע עם MCEBuddy, הזן את הנתיב אל here.\r\n\r\nNOTE קובץ: MCEBuddy כל הזמן עדכונים profiles.conf כדי לספק באג מתקן, \r\nenhancements שיפורים אשר תוכלו לפספס out\r\non אם אתה משתמש בתכונה זו.
+Invalid custom profiles.conf	Profiles.conf מותאם אישית לא חוקי
+Suspend on battery	השעיה על הסוללה
+Suspend conversions when the computer switches to battery power	להשעות את המרות כאשר המחשב עובר למצב סוללה
+MCEBuddy added a video conversion to the queue	MCEBuddy הוסיף המרת וידאו לתור
+Queue	תור
+Refer to documentation on using custom commands in custom eMail subjects	עיין בתיעוד באמצעות פקודות מותאמות אישית במקצועות דוא ל אישית
+Could not copy information to Clipboard, please try again.	לא היתה אפשרות להעתיק מידע ללוח, אנא נסו שוב.
+Error copying to Clipboard	שגיאה בהעתקת ללוח
+Copy to clipboard	העתק ללוח
+Reconvert files	המר מחדש קבצים
+Are you sure you want to reconvert the selected files?	האם אתה בטוח שברצונך להמיר מחדש את הקבצים שנבחרו?
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	בחר את הקבצים שברצונך להמיר מחדש ולאחר מכן לחץ על זה button.\r\nIf שהקבצים המקוריים עדיין להיות מפוקח על-ידי MCEBuddy הם בתור עבור ההמרה מחדש.
+Time taken to convert	זמן הצילום כדי להמיר
+Network authentication	אימות רשת
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	לחץ על לחצן כדי להזין את אימות credentials.\r\nThis מניות רשת משמש כאשר קבצים נוספים באמצעות לחצן הוסף על window\r\nor הראשי הנגררת ומשוחררת ממיקום משותף ברשת לתוך תיבת מצב ההמרה בחלון הראשי.
+Skip reconversion	דלג על ההמרה מחדש
+Do not reconvert the video if a converted file already exists in the destination directory.	לא להמיר מחדש את הווידאו אם קיים כבר קובץ שהומר היעד.
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	שם הקובץ הצפוי עבור הווידאו מומר (שם לא הסרטונים הקובץ המקורי) מושווה עם שמות קבצים ב- directory.\r\nIf היעד הקובץ שהומר קיים, החזיר הקובץ לא להיות לקדמותו, זה להניח, להיות conversion.\r\nThis מוצלחת היא שימושית אם הפרק/הצג אותו מוקלטת על מספר פעמים ואתה לא רוצה להמיר מחדש them.\r\n\r\nNOTE: האפשרות זו מתעלמת עבור קטעי וידאו שנוספים באופן ידני באמצעות לחצן הוספה או גרירה ושחרור
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	אם זמינה, דלג על ההמרה מחדש גם לבדוק את קובץ היסטוריה עבור conversions.\r\nThe האחרונים צפוי שם קובץ עבור הווידאו מומר (שם לא הסרטונים הקובץ המקורי) מושווה עם שמות קבצים ב- file.\r\nIf ההיסטוריה להיות מומר שם קובץ (לרבות נתיב) מתאים כל אחד שמות שכבר הומר (כולל נתיבים) בקובץ ה-היסטוריה, החזיר \r\nthe הקובץ לא להיות לקדמותו, זה אפשר להניח להיות המרה מוצלחת.
+Adding file to the iTunes library	הוספת קובץ לספריית iTunes
+Add to iTunes	הוסף ל- iTunes
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	סימון תיבה זו כדי להוסיף באופן אוטומטי את הקבצים שעברו המרה library.\r\nThis iTunes עובד רק עם iTunes נתמך קבצים (למשל, MP4, M4V, MP3 וכו ')
+Adding file to the WMP library	הוספת קובץ לספריה WMP
+Library Management	ספריית ניהול
+Add to Windows Media Player	להוסיף ל- Windows Media Player
+Check this box to automatically add the converted files to the WMP library.	סמן תיבה זו כדי להוסיף באופן אוטומטי להמיר קבצים לספריה WMP.
+Renaming and Sorting	שינוי שם ומיון
+Selection Filters	מבחר מסננים
+Audio and Video	אודיו ווידאו
+Subtitles and Chapters	כתוביות ופרקים
+Skip copying original files	דלג על העתקת הקבצים המקוריים
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	בדוק זה תיבת-הוד עצמו RISK.\r\nDO לא בדוק זו תיבת אלא אם כן אתה יודע מה אתה DOING.\r\nCheck תיבה זו כדי לדלג על יצירת גיבוי של הקובץ המקורי (העתקה) בעת המרת.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	RISK.\r\nDO לבדוק זו תיבת-הוד עצמו לא סימון תיבה זו אלא אם כן אתה יודע מה אתה DOING.\r\nCheck תיבה זו כדי לדלג על יצירת גיבוי של הקובץ המקורי (העתקה) בעוד converting.\r\nIf זה מסומנת, הקובץ המקורי לא ישמרו במקרה של error.\r\nIt יכול גם גם להוביל ההמרה כשלים או בעיות המרה בלתי צפויות אחרות.
+Are you sure you want to do this?	? אתה בטוח שאתה רוצה לעשות את זה
+Media Information Management	ניהול מידע מדיה
+Force show type	סוג הצגת כוח
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	להגדיר את זה כדי לכפות טיפול הקלטת כסרט הוידאו או טלוויזיה Series.\r\nThis ישנה את האופן פרטים נוספים (מטה-נתונים) על ההקלטה הוא להוריד מאתר internet.\r\nMovie - פינוק ההקלטה כמו movie\r\nSeries - פינוק ההקלטה כמו Series\r\nSports טלוויזיה - פינוק את ההקלטה כמו show\r\nDefault ספורט - שימוש ברירת המידע הזמין ב- metadata הקלטה כדי לקבוע סרט או סדרת טלוויזיה
+Show type	להציג סוג
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	בחר באפשרות זו כדי לסנן את הסוג של הקלטות להיות converted.\r\n\r\nMovies - בחר באפשרות זו כדי להמיר אם הסוג Movie.\r\nShows - בחר באפשרות זו כדי להמיר אם הסוג אינה Movie.\r\nSports - בחר באפשרות זו כדי להמיר אם סוג הצג Sports.\r\n\r\nNOTE: הצג סוג זה לקרוא את metadata.\r\nOnly הקלטה כמה הקלטות תומך הצג סוג מטא-נתונים כגון WTV and\r\nrecordings עם תמיכה מטה-נתונים של קבצים (XML/ARG ועוד).
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	תיבה זו מציגה את כל הקבצים בתור conversion.\r\nDrag ושחרור קבצים כאן או לחץ על לחצן הוספה כדי להוסיף קבצים תור ההמרה
+Conversion	המרה
+Files	קבצים
+Click this button to open or close the Advanced Settings section	לחץ על לחצן זה כדי לפתוח או לסגור את המקטע הגדרות מתקדמות
+Running custom commands	הפעלת פקודות מותאמות אישית
+Trimming video recording	זמירה הקלטת וידאו
+Insert at top of queue	הוסף בחלק העליון של תור
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	כברירת מחדל, המרות חדשים מתווספים לתחתית (end) של queue.\r\nIf המרה תיבה זו מסומנת, כל המרות חדשים שנוספו על-ידי משימה זו יתווספו the\r\nbeginning (למעלה) של תור ההמרה.
+Add subtitles and chapters	להוסיף כתוביות, פרקים
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	הפעלת אפשרות זו להוסיף כתוביות שחולץ, פרקי הפרק video.\r\nEach שהומר מסמן את סוף פרסומת. זה עובד רק עם הפורמטים הנתמכים (לדוגמא MKV, MP4).\r\n\r\nNOTE: כמה שחקנים, הטלוויזיה ישנים יותר שאינם תומכים מוטבע כתוביות ואתה chapters.\r\nIf אפשרות של הפעלת הווידאו המומרים, נסה לבטל אפשרות זו.
+Select best soundtrack	בחר הפסקול הטוב ביותר
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	אם הסרטון המקורי פסקולים מרובים, אפשרות זו מורה MCEBuddy כדי לבחור את soundtrack.\r\nIf המתאים ביותר, ראשית אתה רוצה פסקול בשפה מסוימת, ודא שאתה מזין את שם השפה או קוד ב- box.\r\nCheck שפת שמע תיבה זו אם אתה שומע הפסקול טועה ב file.\r\n\r\nUncheck המומר שלך תיבה זו אם ברצונך MCEBuddy כדי לשמור את כל פסקולים מהוידאו המקורי בקובץ המומר במידת האפשר. \r\nNOTE: פרופילים מסוימים אינם תומכים פסקולים מרובים, ובמקרה הזה הגדרה זו אינה משפיעה.
+Enable remote access	לאפשר גישה מרחוק
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	זה יוצר חריג חומת האש של windows עבור יישום MCEBuddy, port.\r\nThis נדרש אם חומת האש של windows מופעלת וברצונך להשתמש UPnP, הגישה מרחוק client\r\nor המנוע באמצעות address.\r\n\r\nNOTE של ה-IP: אם יש לך חומת אש אישית, זה לא יפעלו, עליך ליצור באופן ידני את an\r\nexception לשירות MCEBuddy והנמל.
+Unable to communicate with engine. Firewall exception settings have not been updated.	אין אפשרות לקיים תקשורת עם מנוע. הגדרות חריג חומת האש לא עודכנו.
+Detect and optimize video quality	לזהות ולשפר איכות וידאו
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	כאשר מופעל, MCEBuddy יהיה לייעל את אפשרויות עיבוד וידאו מאת מנסה לזהות מקור וידאו type.\r\nThis יכול לשפר את איכות הווידאו המומרים באופן משמעותי אם כראוי detected.\r\n\r\nNOTE: זה עושה זאת על ידי מנסה לזהות את סוג מקור וידיאו (שזור, פרוגרסיבי או telecine).\r\nIf הוא מסוגל לזהות את סוג מקור וידאו, הוא יעקוף את הפרמטרים המתאימים ב- profile.\r\nTurn זה האפשרות אם עומדים בפני בעיות איכות הווידאו מומר או רוצה להשתמש הפרמטרים פרופיל ברירת מחדל.
+Are you sure you want to delete this task?	האם אתה בטוח שברצונך למחוק משימה זו?
+Delete Task	מחק פעילות
+Enter the new task name	הזן את שם הפעילות החדשה
+Rename Task	שינוי שם פעילות
+MCEBuddy PAUSED	MCEBuddy עצר
+idle	לא פעיל
+PAUSED	מושהה
+Frame rate	במסגרת שיעור
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	אפשרות זו להגדיר את קצב מסגרות מותאמות אישית (FPS) עבור video.\r\nYou המומר ייתכן שיהיה עליך להגדיר זאת בעת המרת תבניות וידאו (למשל PAL ל NTSC) \r\nor עבור התקנים אשר תומך framerates.\r\n\r\nE.g מסוימים בלבד.: 25\r\nE.g.: 30000/1001
+Skip remuxing files	דלג על קבצים remuxing
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	RISK.\r\nDO לבדוק זו תיבת-הוד עצמו לא הסימון הקופסה הזאת אלא אם כן אתה יודע מה. אתה DOING.\r\nCheck תיבה זו כדי לדלג על remuxing הקובץ המקורי לקובץ TS תוך converting.\r\nIf זה נבדק, פונקציות מסוימות כמו הפקת כתוביות או דילוג פרסומות אולי לא work.\r\nIt יכול גם גם להוביל ההמרה כשלים או בעיות המרה בלתי צפויות אחרות.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	בדוק זה תיבת-הוד עצמו RISK.\r\nDO לא בדוק זו תיבת אלא אם כן אתה יודע מה אתה DOING.\r\nCheck תיבה זו כדי לדלג על remuxing הקובץ המקורי לקובץ TS בעת המרת.
+Monitor converted videos	צג להמיר קטעי וידאו
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	כברירת מחדל בצג מיקומים יתעלם קבצים שכבר עברו converted.\r\nCheck תיבה זו אם גם אתה רוצה לפקח להמיר קבצים ב- Path.\r\nCAUTION צג: זה יכול להוביל ללולאה אינסופית המרה של קבצים המומרים אם לא מוגדר properly.\r\n\r\nThis עשויה להיות שימושית כאשר אתה נמצא המציין את ספריית הפלט של task\r\n המרה (הקובץ שהומר) כנתיב צג של מיקום הצג ויש קישור the\r\nMonitor מיקום לפעילות המרה אחרת.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	בדוק זה תיבת-הוד עצמו RISK.\r\nDO לא בדוק זו תיבת אלא אם כן אתה יודע מה אתה DOING.\r\nBy צג מיקומי ברירת המחדל של יתעלם קבצים שכבר עברו converted.\r\nCheck תיבה זו אם ברצונך גם לפקח להמיר קבצים בנתיב צג.
+Hardware encoding	קידוד בחומרה
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	בדוק תיבה זו כדי להשתמש בקידוד חומרה כאשר היא זמינה להמיר videos.\r\nThis יכול לזרז את ההמרה באופן משמעותי ולצמצם את utilization\r\nbut ה-CPU שיכול לגרום videos.\r\n\r\nUncheck איכות נמוך במקצת הקופסה הזאת, אם אתם מתמודדים עם ההמרה או בעיות איכות.
+Do not overwrite files	אל תמחק קבצים
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	כאשר תיבה זו מסומנת, קובץ היעד לא יוחלף אם זה כבר exists.\r\nInstead קובץ חדש ייווצר עם מספר ייחודי נוסף לסופו של שם הקובץ.
+Re-monitor recorded videos	מחדש לפקח וידאו מוקלט
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	כברירת מחדל, לאחר שעבר המרה של קובץ המקור (Recorded וידאו), \r\nthe הצג היסטוריה יעקבו שם הקובץ ואת לא לתור again.\r\n\r\nEnable קבצים באותו באפשרות זו כדי להתעלם ההיסטוריה, לעקוב אחר כל הקבצים ולהוסיף אותם תור ההמרה to\r\nthe, גם אם הם כבר היו converted.\r\n\r\nThis יכול להיות שימושי לפעמים, אם תוכנת הצריבה אינו יוצר a\r\nunique שם קובץ עבור כל פרק/תוכנית. זה מומלץ להשתמש באפשרות קובץ מקורי the\r\nDelete בעמוד הגדרות בעת שימוש באפשרות זו ללולאה אינסופית המרה avoid\r\nan.
+Recommendation	המלצה
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	כדי להימנע ללולאה אינסופית ההמרה, מומלץ להגדיר את תבנית חיפוש צג בצורה כגון כדי לוודא כי קבצי המרה לא במעקב על ידי פעילות זו צג.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	ברירת DOING.\r\nBy לבדוק זו תיבת אלא אם כן אתה יודע מה אתה RISK.\r\nDO לא בדוק זה תיבת-הוד עצמו שצג מיקומים לא בכוונון להקליט קטעי וידאו כי כבר processed.\r\nCheck תיבה זו אם ברצונך בכוונון ו להמיר מחדש את קטעי וידאו מוקלטים.
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	כדי להימנע ללולאה אינסופית ההמרה, מומלץ להפעיל באפשרות מחק קובץ המקורי בדף ' הגדרות '.
+Prioritize air date matching	קביעת סדר עדיפויות אוויר תאריך התאמת
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy משתמש בשם הפרק כדי להתאים את information\r\nwhile סדרה לחיפוש באינטרנט. ואם היא נכשלת לאחר מכן היא משתמשת תאריך broadcast\r\nair המקורי כדי להתאים את metadata.\r\n\r\nCheck תיבה זו כדי להשתמש תאריך שידור אוויר המקורי הראשון, ואז the\r\nepisode שם כדי להתאים עבור המידע סדרה internet.\r\nThis יכול להיות שימושי במקרים מסוימים כאשר מספר עונות יש את השם same\r\nepisode. למשל Americal האליל, האודישן 1\r\n\r\nNOTE: המקורי תאריך שידור אוויר אינו תמיד מדויק נקבע על-ידי the\r\nbroadcaster, לפעמים המידע באינטרנט הוא incorrect.\r\nUse באפשרות זו רק אם האפשרות ' ברירת מחדל ' לא עובד בשבילך.
+Skip eMail body	דלג על דוא ל הגוף
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	בדוק אפשרות זו כדי להשתמש גוף ריק ב eMail.\r\nThis ההודעות יכולה להיות שימושית אם אתה משתמש לך שער SMS על הודעות דוא.
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	הבחירה מבוססת על ניהול נכון דיגיטלי (DRM) היא available\r\nonly מתי לשנות מבלי להמיר (לשנות ולעבור רק) אפשרות הוא selected.\r\n\r\nAll - בוחר את כל הקבצים עבור עיבוד, ללא קשר status\r\nProtected הגנה מפני העתקה - בלבד בחר קבצים אשר הם העתק protected\r\nUnprotected - רק לבחור קבצים אשר אין הגנה מפני העתקה
+Download cover art	להוריד את העטיפה
+Enable this to download the cover art from the original video and internet if available.	הפעל זה להוריד את העטיפה המקורית וידאו, אינטרנט אם הוא זמין.
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	האם אתה בטוח שברצונך להזין שם תחום? \r\n\r\nUse הזה רק אם אתה משתמש בבקר תחום של Windows כדי לנהל את authentication.\r\nDo לא להשתמש בזה אם אתם חלק Workgroup.\r\n\r\nIf אתה לא בטוח לחץ על לא.
+Configuration Warning	תצורת אזהרה
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	יוצר תיקיה בשם 'MCEBuddyArchive' הקובץ המקורי איפה located\r\nand מעביר את הקובץ המקורי בספריה זו אחרי שם התיקיה conversion.\r\n\r\nThis מוצלח ומיקום להשתנות מתחת.
+Monitoring	ניטור
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	אם אתה רוצה להמיר את הקובץ אדי לפרקים, הקפד שלבדוק את האפשרות 'הוספת כתוביות ו פרקים' בהגדרות מומחה.
+EDL to Chapters	אדי פרקים

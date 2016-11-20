@@ -1,0 +1,12 @@
+MCEBuddy uses a custom built version of ffmpeg.
+cross_compile_ffmpeg.sh - This script runs on Linux Ubuntu, it will prompt for all the necessary packages needed to build ffmpeg. It is a completely automated build script and build a static version of ffmpeg using the latest source code, both 64bit and 32bit versions of ffmpeg using the MinGW-x64 cross compiler.
+collect.sh - This script is run after the cross_compile script and creates a directory in which it then places the 32bit and 64bit build of ffmpeg.
+
+These scripts are customized versions of the FFMPEG Windows Build Helper script found at:
+https://github.com/rdp/ffmpeg-windows-build-helpers
+
+To add --enable-opencl support for ffmpeg build, you need to:
+1. Install libglew-dev headers (based on whatever version of runtime is installed)
+2. Copy the CL directory (headers) in the include directory of the mingw compilers (x86 and x64)
+3. Create a new symbolic link directory OpenCL pointing to CL directory in each of the above include directories using the command -> ln -s CL OpenCL
+4. Copy the x86 and x64 libOpenCL.a into the mingw compiler x86 and x64 lib directories respectively

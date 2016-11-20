@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy nenaudoja šiuo metu prisijungęs vartotojas prisijungti prie tinklo, jis naudoja savo paslaugų sąskaita.  Įsitikinkite, kad nurodyti ryšio vartotojo informacija (MCEBuddy su rakto piktograma)
+Connection Reminder	Ryšio priminimas
+Description	Aprašymas
+Path	Maršrutas
+is invalid	neleistinas
+Invalid Path	Klaidingas maršrutas
+Please supply a task name	Prašome pateikti užduoties pavadinimą
+No name supplied	Nr pavadinimo, pateikto
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	Prašome įvesti 3 skaitmenų kalbos kodą garso takelio arba pasirinkite <Default>ar <Original>
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	3 Skaitmuo ISO kodas, pasirinktą language\r\nMake, tai atitinka garso takelį į pradinį recording.\r\nTo gauti kalbos kodą, garso takelius, pradinį įrašytą failą, kalbos kodas pridėti file\r\nto eilę ir dešiniuoju pelės mygtuku spustelėkite jį. A pop-up langą, bus atidarytas, rodoma garso details\r\nwhich įtraukti kiekvieno garso takelį kalbos kodus.
+Invalid Language Code	Neleistinas kalbos kodas
+No destination directory provided, converted file will be placed in original video directory	Nr paskirties katalogas sąlyga, konvertuotame faile bus į pradinį vaizdo katalogas
+A task name or section	Užduoties pavadinimą arba skirsnis
+already exists\n\rPlease use another name	jau exists\n\rPlease naudoti kitą pavadinimą
+Duplicate Name	Pasikartojantis vardas
+Engine	Variklis
+Tasks	Užduotis
+Profile	Profilis
+disposing	realizuoti
+Task name	Užduoties pavadinimas
+Give a unique name to this task	Šią užduotį suteikti unikalų pavadinimą.
+Gives a short description for the selection conversion profile	Suteikia trumpą aprašymą atrankos perskaičiavimo profilio
+Click to select destination folder	Spustelėkite norėdami pasirinkti paskirties aplanką
+Destination	Paskirties
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	Pasirinkite katalogą, kur konvertuotame faile bus placed.\r\nLeave šiuo tuščią, kad išlaikytumėte konvertuotame faile tame pačiame kataloge kaip ir originalas vaizdo.
+Max width	Maksimalus plotis
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	Tai bus apriboti didžiausias plotis (pikseliais), konvertuotą file.\r\nTIP vaizdo: nėra taikoma, jeigu pradinis failas yra plotis mažesnis už šį number.\r\nIf norite išsaugoti jūsų originalaus vaizdo rezoliucija perkelti slankiklį visą kelią į dešinę.
+Quality	Kokybės
+Ad remover	Skelbimo valiklis
+None	Nė vienas
+Get series details from Internet	Gauti serijos informaciją iš interneto
+Download additional details about the movie or series from the internet	Papildomos informacijos apie filmą ar serijos atsisiųsti iš interneto
+File name match	Failo vardas rungtynės
+Recording title match	Įrašymo pavadinimas rungtynės
+Cancel	Atšaukti
+OK	gerai
+Rename without converting	Pervardyti nekonvertuojant
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	Patikrinti šią parinktį tik pervardyti ir kopijuoti pradiniai failai į paskirties folder.\r\nWhen patikrinti, konversijos, Apipjaustymas, garso/vaizdo apdorojimo ir prekybos pašalinimas bus available.\r\n\r\nNOTE: kitų funkcijų, kaip atitikimo filtrai, gavybos subtitrai, taupymo metaduomenų ir komercinės aptikimo (EDL failo įrašymas) \r\nwill dar galima įsigyti su šią parinktį checked.\r\nIf norite perkelti vietoj kopija, patikrinti kopijavimo originalus variantas ekspertas parametruose šį puslapį arba select\r\nDelete pradinį failą pagrindinių nustatymų puslapyje praleisti.
+Rename and sort by video information	Pervardyti ir rūšiuoti vaizdo informacija
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	Pervardija konvertuotame faile ir perkelia jį į naują katalogą, remiantis informacija, rodo ir serijos kai available\r\n (pvz. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	Įveskite vartotojo vardą ir slaptažodį į aplankus, esančius tinklo diską arba kitą kompiuterį
+Organize by seasons	Tvarkyti, metų laikai
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	Tvarkyti aplankus iš Showname ir sezonas kai galima (Media Center/XBMC/Plex suderinama vardų suteikimo konvencija) \r\n (pvz Showname\\Season XX\\SXXEYY-epizodas pavadinimas)
+Audio language	Garso kalba
+Advanced Settings	Papildomi parametrai
+General Settings	Bendrieji parametrai
+Conversion Task	Perskaičiavimo užduočių
+Password	Slaptažodį
+Confirm Password	Patvirtinti slaptažodį
+Domain / computer name	Domeno / kompiuterio vardas
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	<Optional>Enter jei nuotolinio kompiuterio ar tinklo disko naudoja domeno authentication.\r\nDo neturi patekti čia jūsų darbo grupės. Palikite tuščią, jei jūs naudojate darbo grupėje.
+User name	Vartotojo vardas
+Enter the username to access the remote computer or network drive	Įveskite vartotojo vardą prieiti prie nuotolinio kompiuterio arba tinklo diską
+Enter the password to access the remote computer or network drive	Įveskite slaptažodį, kad prieiti prie nuotolinio kompiuterio ar tinklo disko
+Network Connection User Credentials	Tinklo ryšio vartotojo kredencialai
+Password Mismatch	Slaptažodis nesutampa
+Passwords do not match, please reenter the passwords	Slaptažodžiai nesutampa, prašome įvesti slaptažodžiai
+Hour	Valandą
+Minute	Minutę
+Wake	Po
+Start	Pradėti
+Resume	CV
+Pause	Pristabdyti
+Stop	sustoti, sustok
+Language	Kalba
+Pause conversion tasks	Pristabdyti konvertavimo užduotis
+Resume conversion tasks	Tęsti konvertavimo užduotis
+Please enter a valid time	Įveskite teisingą laiką
+Invalid Time	Klaidinga laiko
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	Pabaigos laikas yra po pradžios laiką. Darant prielaidą, kad stabdymo metu yra per kitą dieną, ar tai teisinga?
+Time Check	Laiko žymės
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	Tik pasirinkite šią parinktį, jei MCEBuddy yra buvo jūsų rinkmenų konvertavimas patikimai, priimtinos trukmės laiką. Ar norite naikinti kiekvienam originalo failui, kai konvertuotas MCEBuddy?
+Confirm delete originals?	Patvirtinti naikinti originalai?
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy bus stebėti šių katalogų vaizdo failus automatiškai konvertuoti
+Conversion tasks	Perskaičiavimo užduotis
+Delete original file	Panaikinti pradinio failo
+Deletes the original recording after a successful conversion	Naikina studijinis po sėkmingą konversiją
+Min age before conversion (hours)	Min amžiaus prieš konvertuojant (valandos)
+Minimum hours to wait before converting each file after the file is added to the queue	Mažiausias valandų prieš konvertuodami kiekvieną failą, po to, kai failas įrašomas į eilę laukti
+Use this to change the language of the text on the screen	Naudokite tai, norėdami pakeisti tekstą ekrane kalbą
+Concurrent conversions	Tuo pačiu metu transformaciją
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	Tuo pačiu metu konversijų MCEBuddy skaičius gali start\r\nNOTE: jums reikia didelės sumos laisvos disko vietos ir perdirbėjo laiko daugiau nei 2 vienu metu perskaičiavimams
+Logging level	Įėjimo lygis
+Error	Klaida
+Warning	Įspėjimas
+Information	Informacija
+Debug	Derinimo
+Log conversion jobs	Žurnalo perskaičiavimo darbo vietų
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	Įrašyti failą už konversiją į \'logs\ "katalogas, kai kur MCEBuddy yra installed\r\n (pvz C:\\Program Files\\MCEBuddy2x\\logs)
+Allow sleep	Leisti miego
+If unchecked, it prevents the system from entering sleep while converting	Jeigu nepatikrintų, tai neleidžia sistemos į miego konvertavimo iš
+Stop at	Sustoti
+No new conversions would be started after this time	Jokių naujų konversijas galėtų būti pradėtas po šiuo metu
+minute	minutę
+hour	valandą
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	Jei patikrinti MCEBuddy atsibus sistema iš sleep\r\nat, nustatytą pradžios laiką ir leido savaitės dienomis.
+Start at	Prasideda
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy prasidės naujas konversijos tarp pradžios ir sustabdyti time.\r\n\r\nThe pradžios laikas panaudojamas įjungtas savaitės dienas, whereas\r\nthe pabaigos laikas bus naudojamas arba pačią dieną or\r\nfor kitą dieną jei pabaigos laikas yra po pradžios laiką.
+Delete	Naikinti
+Add	Pridėti
+Change	Keisti
+Archive original file	Archyvas pradinį failą
+Domain name	Domeno vardas
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	Sustoja, monitorius ir konversijos užduotis ir atidaro puslapį konfigūruoti MCEBuddy
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	Sukuria aplanką, pavadintą \'MCEBuddyArchive\ "kur originalus failas yra located\r\nand juda originalus failą į šį katalogą po sėkmingai conversion.\r\n\r\nThis aplanko pavadinimą ir vietą keisti sistemos nustatymų puslapyje.
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	Derinimo - išsamias žurnalus, padeda sekti perskaičiavimo problems\r\nInformation - rąstų pagrindinę informaciją apie conversion\r\nWarning - žurnalas galimas problemas arba ypatingos svarbos nesėkmių only\r\nError - žurnalo ypatingos svarbos nesėkmių tik
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	Pasirinkite konvertavimo profiliu, susijusias su šios užduoties. Perskaičiavimo profilis nurodo kokybės konversijas užtrukti ilgiau konvertuoti konvertuotą file.\r\nHigher kokybės ir išvesties formatą. Rekomenduojama numatytąjį: MP4 aukštos kokybės arba MP4 Normal.\r\n\r\nTIP: atsižvelgti į MCEBuddy vadovą pažangiosios parametrų įgnybti perskaičiavimo profiliai arba sukurti savo perskaičiavimo profiliai
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	Pasirinkite MCEBuddy naudos juostelės iš bet kokios reklamos, konvertuojant nėra palikti reklamos konvertuotą video.\r\n\r\nTIP video.\r\nSet programa: naudokite ShowAnalyzer vietoj Comskip, prašome atsisiųsti ir įdiegti ShowAnalyzer.\r\nShow analizatorius versija 1.0 ir labiau remti.
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	Taikomas keisti vaizdo kokybę, konvertuotame faile, įprastas yra 1.\r\nA didesnis skaičius bus pagerinti kokybės, tačiau prireiks daugiau laiko, conversion.\r\nA mažesnis skaičius bus sumažinti kokybės bet paspartinti pertvarkymo.
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Įveskite modelis atitiktų varduose šią užduotį (pvz *.wtv konvertuos visus failais, su .wtv)\r\nPrefix modelis su ~ praleisti rungtynes (pvz *. *; ~*.wtv apdoros visus failus išskyrus tuos, kurie baigiasi .wtv)\r\nSeparate kelis modelius su; (pvz., *.wtv; ne kredito *; ~ ne kredito miami *) apdoros visus .wtv failus ir visus failus, pradedant ne kredito, bet ne tiems, pradedant Amy miami\r\n\r\nYou galite naudoti reguliarios išraiškos atitiktų modelio pradedant regex:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Įveskite modelio rungtynės Rodyti/serijų pavadinimų, kuriuos šią užduotį (pvz Simpson * bus konvertuoti visus failus, kurie turi Rodyti pavadinimą pradedant Simpson) \r\nPrefix modelio su ~ praleisti rungtynes (pvz *; ~ Simpson * apdoroja visus Rodyti pavadinimai išskyrus tuos, kurie pradėti Simpson) \r\nSeparate keli raštai; (pvz Simpson *;House*) arba (pvz Simpson *;NCIS*; ~ ne kredito Miami *) \r\n\r\nYou galite naudoti reguliarios išraiškos atitiktų modelis pradedant regex:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	Tai gali būti naudojamas perrašyti numatytąjį garso kalba tada, kai yra garso kalbose recording.\r\nTo gauti garso įrašymo, kalbų sąraše dešiniuoju pelės mygtuku spustelėkite failą į eilę ir pasirinkite MediaInfo.\r\n\r\n <Default>bandys išlaikyti visų garso takelių, jei palaiko arba leisti pasirinkti numatytąjį garso track\r\n <Original>kodavimo, jei įmanoma, naudoti originalo [ne dubliuotas] įrašymo kalba
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	Įveskite "[vaizdo]" arba palikite tuščią, kad konvertuoti visus vaizdo files\r\nEnter modelio atitiktų šią vietą failų (pvz *.wtv bus konvertuoti visus failus, baigiasi .wtv)\r\nprefix modelio su ~ praleisti rungtynės (pvz *. *; ~*.wtv bus apdoroti visi failai, išskyrus tuos, kurie baigiasi .wtv)\r\nseparate kelis modelius su; (pvz., *.wtv; ncis Makedonijoje· ~ ncis miami *) bus apdoroti visi .wtv failai ir visi failai, pradedant nuo ncis, bet ne tiems, pradedant su ncis miami
+MCEBuddy Settings	MCEBuddy parametrai
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy nenaudoja šiuo metu prisijungęs vartotojas prisijungti prie tinklo, jis naudoja savo paslaugų sąskaita.  Įsitikinkite, kad nurodyti ryšio vartotojo informaciją [MCEBuddy su rakto piktograma]
+Please supply a source name	Prašome pateikti šaltinio pavadinimas
+Please supply a search path name	Prašome pateikti paieškos maršruto pavadinimas
+A source name or section	Šaltinio pavadinimą arba skirsnis
+already exists. Please use another name	jau yra. Prašome naudoti kitą pavadinimą
+Monitor name	Monitoriaus pavadinimas
+Give this a location a unique name	Tai suteikia vietą unikalų pavadinimą.
+Monitor path	Monitoriaus maršrutą
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	Pasirinkite katalogą, kad MCEBuddy bus stebėti naujų vaizdo failų automatiškai konvertuoti fone
+Click to select the folder to monitor	Pažymėkite aplanką, kuriame bus stebėti
+Search pattern	Ieškos šablonas
+SourceForm	SourceForm
+Monitor Location	Monitoriaus vietą
+Normal	Normalus
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: pipeProxy variklio ryšio klaida
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: Neįmanoma sukurti MCEBuddy paslaugų vamzdžio
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	MCEBuddy paslauga yra nepasiekiama. Pradėkite nuo "Windows" valdymo skyde arba patikrinkite variklio ryšį.
+Announcement	Skelbimu
+New version 	Nauja versija 
+available	prieinama
+New BETA version 	Nauja BETA versija 
+Click here to download new version of MCEBuddy	Spauskite čia Norėdami atsisiųsti naują versiją MCEBuddy
+Click here to open link	Spauskite čia Norėdami atidaryti nuorodą
+Idle	Tuščiąja eiga
+Closing	Uždarymo
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI: Neįmanoma atnaujinti užduotis
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: Negali paleisti MCEBuddy paslaugos
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: Nepavyko sustabdyti tarnybos MCEBuddy
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI: Negali atšaukti užduotį
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	Įspėjimas: Tinklo failai bus prieinama naudojant MCEBuddy paslauga, nėra šiuo metu įėjusio vartotojo įėjimo kredencialus. Jūs galite neautomatiniu būdu nurodyti tinklo kredencialus nuo parametrų-> ekspertas nustatymų puslapį – MCEBuddy.
+Credential Warning	Kredencialų įspėjimas
+Status	Būsena
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI: Neįmanoma pridėti darbo
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: Neįmanoma gauti vamzdžio aktyvią būseną
+The conversions must be stopped to change settings. Stop the conversions?	Konversijos turi būti nutrauktas keisti parametrus. Sustabdyti konversijos?
+Stop Engine	Sustabdyti variklis
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI: Sustabdyti MCEBuddy paslauga nuo parametrai spustelėkite neįmanoma
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: Neįmanoma iš naujo nuskaityti failų
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: Neįmanoma atidaryti nuorodą
+Close	Uždaryti
+Close this window, MCEBuddy will keep running in the background	Uždarykite šį langą, MCEBuddy bus nuolat veikia fone
+If you like MCEBuddy, please click here to Donate - THANKS	Jei tau patinka MCEBuddy, prašome spausti čia norėdami Donate - Ačiū
+Click here to like MCEBuddy on facebook	Spauskite čia Norėdami MCEBuddy, pavyzdžiui, "Facebook"
+Click here to open MCEBuddy website	Norėdami atidaryti MCEBuddy svetainę, spustelėkite čia
+Rescan	Iš naujo nuskaityti
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	Pajėgų MCEBuddy dar kartą patikrinti naują vaizdo rinkmenas konvertuoti monitoriaus vietos
+Monitor locations	Monitorius vietose
+Settings	Parametrai
+Select the file(s) in the queue to delete	Pasirinkite failų eilėje naikinti
+Manually add video file(s) to the queue to convert	Neautomatiniu būdu pridėti vaizdo failų į eilę konvertuoti
+Start the MCEBuddy monitor and conversion tasks	Pradėti MCEBuddy monitorius ir konversijos užduotis
+Stop the MCEBuddy monitor and conversion tasks	Sustabdyti MCEBuddy monitorius ir konversijos užduotis
+There is a new version!	Yra nauja versija!
+High	Didelis
+Low	Žemas
+Priority	Prioritetas
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	Prioritetas - greičiau konvertuoti bet gali padaryti kitų veikia paraiškas unresponsive\r\nLow prioritetas - konvertuoti fono tačiau sumažintą interferencijos su kitomis veikia paraiškas
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	Užduotis yra perskaičiavimo šabloną, kuriame yra perskaičiavimo profilį ir įvairių kitų perskaičiavimo parameters.\r\nEach failą į eilę bus tvarkomi ir konvertuojamos pagal kiekvieną iš šių tasks.\r\nRefer į MCEBuddy vadovą, daugiau informacijos apie užduotis.
+Getting started	Darbo pradžia
+Click here for MCEBuddy guide	Spauskite čia, jei MCEBuddy vadovas
+Logs	Rąstai
+Click to open log folder	Spustelėkite norėdami atidaryti žurnalo aplanką
+MCEBuddy Status	MCEBuddy būsena
+add	pridėti
+delete	Naikinti
+paypal-donate	PayPal-paaukoti
+stop	sustoti, sustok
+OUTPUT: ConsoleOuput received NULL data	REZULTATAS: ConsoleOuput gavo NULL duomenis
+hours	valandų
+minutes	minučių
+second	antrasis
+seconds	sekundžių
+Starting	Pradedant
+Comskip advertisement scan - Pass 1	Comskip reklama nuskaitymo - perduoti 1
+Comskip advertisement scan - Pass 2	Comskip reklama nuskaitymo - Pass 2
+Cutting commercials from video	Pjovimo reklama nuo vaizdo
+Cutting commercials from video - segment 	Pjaustymo reklamos iš video - segmento 
+Merging commercial free segments into new video	Komercinės nemokamai segmentų sujungimas į naują vaizdo įrašą
+Moving converted file to destination	Juda konvertuotą failą į paskirties vietą
+Checking for disk space	Ieškoma diske
+Getting show information and banner from Internet sources	Interneto šaltinių gauti rodyti informaciją ir reklama
+Copying source file to working directory	Kopijuoti šaltinio failą į darbinis katalogas
+Remuxing recording	Remuxing įrašymo
+ShowAnalyzer advertisement scan	ShowAnalyzer reklama skenavimas
+Comskip advertisement scan	Comskip reklama skenavimas
+Analyzing video information	Analizuojama vaizdo informacija
+Converting	Konvertavimas
+Removing commercials	Pašalinti reklamos
+Writing show information	Raštu rodyti informaciją
+Renaming file using show information	Pervardijant failą naudodami rodyti informaciją
+Success - All done!	Sėkmės - visus nuveikti!
+Muxing streams	Muxing srautai
+Fallback remux	Atsarginės remux
+Correcting audio delay	Pataisantis garso nedelsiant
+Converting video file - Pass 1	Konvertavimas vaizdo failas - perduoti 1
+Converting video file - Pass 2	Konvertavimas vaizdo failas - Pass 2
+Converting video file	Konvertavimas vaizdo failas
+Audio Track	Garso takelį
+Impaired	Sutrikusi
+Channels	Kanalai
+Codec	Kodekas
+Video	Vaizdo
+Duration	Trukmė
+Height	Aukštis
+Width	Plotis
+Audio	Garso
+Name	vardas, pavadinimas
+Subtitle	Paantraštė
+Volume	Tūris
+Enable custom file renaming	Įgalinti pasirinktinį failo pervardijimas
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	Įgalinti įveskite pasirinktinį trafaretą pervardyti konvertuoti failus ir aplankus. Įveskite pasirinktinį šabloną langelyje below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S % sezono % ##E % epizodas % ##-% episodename % - %airyear%_%airmonth%_%airday%\r\n\r\nWill produkcija: \r\nTVShows\CSI\Season 1\CSI - S01E02 - geriausias kartų - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill gaminti (už filmą) \r\n Recording\Movies\Star karai konvertuojami. <ext>\r\nOR (filmams ne) \r\n Recording\TVShows\CSI\Season 1\CSI - S01E02 konvertuojami.<ext>\r\n\r\nRefer, MCEBuddy Išplėstinė dokumentų sąrašą visų modelio komandų.
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	ShowAnalyzer, nerastas. \nPlease atsisiųsti ir įdiegti ShowAnalyzer.
+ShowAnalyzer Missing	ShowAnalyzer trūksta
+Invalid language code, reverting to <Default> language	Neleistina kalba kodas, grįžti prie <Default>kalba
+Cut start	Sumažinti pradėti
+Cut end	Supjaustyti pabaigos
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	Čia nurodoma sekundėmis sumažinti nuo pat pradžių registravimo (prieš išimdami skelbimai)
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	Čia nurodoma sekundėmis sumažinti nuo įrašymo (prieš išimdami skelbimai)
+Send an eMail after each conversion.	Siųsti laišką po kiekvienos konversijos.
+Send eMail	Siųsti laišką
+SMTP Server Name	SMTP serverio pavadinimas
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	Įveskite išeinančio pašto (SMTP) serverio adresas here\r\ne.g. SMTP.gmail.com
+Port	Uosto
+Enter the SMTP server port	Įveskite SMTP serverio prievado
+Use SSL	Naudoti SSL
+Check this if you SMTP server uses SSL	Tai patikrinti, jei jūs SMTP serveris naudoja SSL
+e-Mail Settings	el. pašto parametrai
+From <e-Mail>	Iš <e-Mail>
+Enter the senders (From) eMail address here	Įveskite siuntėjų (iš) elektroninio pašto adresą čia
+To <e-Mails>	Į <e-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	Įveskite gavėjų () elektroninio pašto adresas here.\r\nSeparate keliems gavėjams kabliataškiu (;)
+Send eMail on successful conversion	Siųsti el. laišką apie sėkmingą konversiją
+Send eMail on failed conversion	Siųsti laišką dėl nepavyko perskaičiavimo
+Send eMail on cancelled conversion	Siųsti laišką dėl atšauktų perskaičiavimo
+Send eMail on adding a conversion to the queue	Siųsti laišką pridėti konversija į eilę
+Please enter a valid server address	Įveskite galiojantį serverio adresas
+Invalid SMTP Server	Netinkamas SMTP serverio
+Please enter a valid server port	Įveskite galiojantį serverio uosto
+Invalid SMTP Port	Netinkamas SMTP prievadas
+Please enter a valid From eMail address	Prašome įvesti galiojanti iš elektroninio pašto adresą
+Invalid eMail Address	Neteisingas el. pašto adresas
+Please enter valid To eMail addresses	Įveskite galiojantį elektroninio pašto adresai
+Username	Vartotojo vardas
+<Optional> Enter the username for the eMail server authentication	<Optional>Įvesti vartotojo vardą, el. pašto serverio autentifikavimas
+<Optional> Enter the password for the eMail server authentication	<Optional>Įvesti slaptažodį el. pašto serverio autentifikavimas
+MCEBuddy unable to download series information	MCEBuddy Nepavyko atsisiųsti sekos informacijos
+MCEBuddy successfully converted a video	MCEBuddy sėkmingai Konvertuoti video
+Source Video	Šaltinio vaizdo
+Converted Video	Konvertuoti Video
+Converted At	Reorganizuojama
+MCEBuddy failed to converted a video	MCEBuddy nepavyko konvertuoti video
+Failed At	Nepavyko ne
+MCEBuddy cancelled a video conversion	MCEBuddy atšauktas vaizdo konvertavimo
+Cancelled At	Atšaukiamos
+Working	Darbo
+Test	Bandymas
+Testing	Bandymai
+Click this button to test the eMail server settings	Spustelėkite šį mygtuką norėdami patikrinti el. pašto serverio parametrus
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy bus išsiųsti elektroniniu paštu į bandymo serverio settings.\r\nThis gali priimti iki 60 seconds.\r\nMCEBuddy gali būti nereaguoja per šį laikotarpį.
+Test eMail	Bandomosios laišką
+MCEBuddy Test eMail	MCEBuddy bandymo paštu
+MCEBuddy - Have a great day!	MCEBuddy - Have a great day!
+Send eMail test successful	Siųsti el. pašto bandymo sėkmingai
+Send eMail test failed! Please check your settings and internet connectivity	Siųsti el. pašto bandymas nepavyko! Prašome patikrinti savo parametrus ir interneto ryšio
+Test eMail Success	Bandomosios laišką sėkmės
+Test eMail Failed	Bandomosios laišką nepavyko
+Send eMail on start of conversion	Siųsti laišką dėl perskaičiavimo pradžios
+MCEBuddy started a video conversion	MCEBuddy pradėjo vaizdo konvertavimo
+Conversion Started At	Perskaičiavimo prasidėjo
+Yes (Comskip)	Taip (Comskip)
+Yes (ShowAnalyzer)	Taip (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	Atleast vieną perskaičiavimo užduotį turi būti įgalintas
+Disable	Išjungti
+Enable	Įgalinti
+Rename	Pervardyti
+Move	Perkelti
+Up	Iki
+Down	Žemyn
+Slow Remuxing	Lėtai Remuxing
+Extracting closed captions	Gavybos uždarytų nuorodinių antraščių
+Validating closed captions	Patvirtinti uždarytų nuorodinių antraščių
+Extracting subtitles	Gavybos subtitrai
+Trimming closed captions	Apipjaustymas uždarytos Nuorodinės antraštės
+Extract subtitles and closed captions	Išskleisti subtitrų ir uždarytų nuorodinių antraščių
+Field	Laukas
+Channel	Kanalas
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	Įgalinti išgauti uždarytos Nuorodinės antraštės, subtitrų ir teleteksto from\r\nWTV, DVR-MS, TS, MP4, MKV ir kitų palaikomų files.\r\n\r\nIt įrašomas kaip subtitrų (SRT) failą.
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	Įgalinti norėdami nustatyti išplėstines pasirinktis, uždarytos nuorodinės antraštės extraction\r\nField - 1 arba 2\r\nChannel - 1 arba 2\r\n\r\nDefault: 1 laukas, Channel 1
+Subtitle offset	Dalies poslinkis
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	Įveskite sekundžių skaičių (+ ve / - ve) koreguoti Subtitrų sinchronizavimo su vaizdo
+Re-ReMuxing due to audio error	Re-ReMuxing garso klaidos
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	Išsaugoti plakato ir Rodyti informaciją (metaduomenis) MC/XBMC suderinama NFO failą (XML formatu)
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	Pažymėkite šį langelį įrašyti Rodyti informaciją (metaduomenis) konvertuoti file.\r\nThis tik darbų failų, kad parama meta tags, pavyzdžiui, MP4, MKV, WTV etc.\r\n\r\nNOTE: nuimkite šį langelį, jei esate susiduria su problemų su kai kuriais įrenginiais pvz., vyresnio amžiaus TV, kurios turi problemų svarstymą metaduomenų.
+Atleast one day of the week must be enabled	Atleast vieną dieną per savaitę turi būti įgalintas
+Invalid Days of Week	Neleistinas savaitės dienos
+Invalid day of week found in configuration file	Neleistinas konfigūracijos faile rasti savaitės dieną
+Scheduling	Planavimas
+Remuxing to	Remuxing
+Part	Dalis
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	Poilsio pelės mygtuką, lauke ar prekės gauti trumpąją padėti it.\n\nFor daugiau informacijos apie tai, kaip naudoti, trikčių diagnostika arba gauti paramą MCEBuddy spustelėkite < Darbo Pradžia > nuorodą viršuje dešinėje corner.\n\nDonations yra visada laukiami :) Mėgaukitės! \n\n - Ramit, Derek & žąsis
+Welcome to MCEBuddy	Sveiki atvykę į MCEBuddy
+Multichannel audio	Daugiakanalę garso
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	Pažymėkite, jei norite leisti daugiakanalio garso Jeigu šaltinio vaizdo it.\r\nBy nutylėjimą garso apsiriboja 2 kanalų (stereo).
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	Dinaminio diapazono kompresijos (KDR) \r\nWhen šaltinis yra AC3 garso, kad KDR will\r\nreduce skirtumą tarp to garsiai ir padaryti garso takelį daugiau even.\r\nIf turite daugiakanalio garso įrašymo ir you\r\nfeel yra per minkšta, patikrinti šį langelį gali padėti soft\r\nsounds.
+FPS	FPS
+Logfile age (days)	LOGFILE amžiaus (dienomis)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	Didžiausias skaičius dienų laikyti logo prieš naikindami them.\r\nSet 0 išlaikyti rąstų amžinai.
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	Greitas Remuxing
+Byte stream remuxing	Baitų srautas remuxing
+Disable cropping	Išjungti apkarpymo
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	Patikrinti išjungti vaizdo apkarpymas automatiškai per conversion.\r\nCropping naudojamas pašalinti "juoda barai" vaizdo (viršuje, apačioje, kairėje arba right).\r\nUse šią pasirinktį Jei vaizdo nuotraukos yra Iškirpkite bet pusėje arba jei galutinis paveikslėlio ieško ištempus arba iškraipoma.
+Only detect Ads	Tik aptikti skelbimai
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	Patikrinkite tai, jei norite MCEBuddy nustatyti reklamos (reklama), bet ne supjaustyti juos iš video.\r\nWhen ši parinktis įjungta, MCEBuddy bus sukurti EDL failą kartu su konvertuoto failo, kurį nurodo skelbimų vietose, konvertuoti video.\r\nAlso, MP4, M4V ir MKV failus MCEBuddy bus sukurtas skyrius pažymėti reklamos.
+Download information	Parsisiųsti informaciją
+Correction	Korekcija
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	Spauskite čia Norėdami ištaisyti Rodyti pavadinimą ir priversti naudoti konkrečius TVDB eilutės identifikacija ar IMDB filmas id\r\nto peržvalgos metaduomenis iš interneto.
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	Patikrinti, kad atsisiųsti papildomą informaciją iš interneto apie parodyti kaip banerio failą, epizodas, sezono ir tt
+Profile Error	Profilis klaida
+Cannot find selected profile in profiles.conf	Negali rasti pasirinkto profilio profiles.conf
+Invalid Profile	Neleistinus profilio
+Please select a valid profile	Pasirinkite galiojantį profilis
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	MCEBuddy variklis turi sudaužė. Prašome siųsti mcebuddy.log kūrėjams
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	Pasirinkite vartotojo Comskip INI failą naudoti šio perskaičiavimo task\r\nLeave šio tuščia naudoti numatytąjį Comskip INI failo reklamos išvežimo
+Click to select custom Comskip INI file	Spustelėkite, jei norite pasirinkti pasirinktines Comskip INI failo
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	Pasirinkite aplanką, darbo su laikinuosius failus. Patikrinkite, ar yra pakankamai tuščios vietos, drive.\r\nLeave šį tuščia naudoti numatytąjį laikinasis aplankas diegimo aplanke.
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	Pasirinkite aplanką darbui su laikinuosius failus. Įsitikinkite, kad nėra pakankamai tuščios vietos su drive.\r\nThis svarbiau nei nurodytas laikinasis aplankas nurodyt±-> ekspertas nustatymų puslapyje.
+Click to select temp working folder	Spustelėkite norėdami pasirinkti temp darbo aplanką
+Temp folder	Laikinasis aplankas
+Space check	Vietos žymės
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	Kai įjungtas MCEBuddy bus patikrinti pakankamai laisvos vietos (paskirties ir temp).\r\nUncheck tai jei yra problemų su tinklo diskus arba nepaprastai didelio vaizdo failus.
+MCEBuddy Windows Event Logs	MCEBuddy Windows įvykių žurnalus
+Events	Renginiai
+Click here to open the MCEBuddy Windows Event Logs	Spauskite čia Norėdami atidaryti MCEBuddy Windows įvykių žurnale
+Enable UPnP	Įgalinti UPnP
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	Patikrinkite, ar tai, kad UPnP. Tai leidžia, prieiga prie MCEBuddy variklis nuo ribų ir network.\r\nThis turi būti patikrinti, jei jūs naudojate Mobilus/autonominę klientas MCEBuddy naudotis MCEBuddy.
+Click here to connect to another MCEBuddy engine	Spauskite čia, norėdami prisijungti prie kito MCEBuddy variklio
+MCEBuddy Remote Engine Connection	MCEBuddy nuotolinio variklio ryšio
+Engine Name	Paieškos pavadinimas
+Engine Port	Variklio uosto
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	Įveskite vardą arba IP adresą norite prisijungti prie variklio MCEBuddy
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	Įveskite TCP prievadas MCEBuddy variklio, kurį norite prisijungti prie
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	Įveskite TCP prievadas MCEBuddy variklio, kurį norite prisijungti prie (1 63355)
+Invalid Name/Port	Netinkamas pavadinimas ir uosto
+Please enter a valid Engine Name and Engine Port Number	Prašome įvesti galiojantį variklio pavadinimą bei variklio prievado numerį
+Error Stopping Engine	Klaida sustoti variklis
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	Negali liautis MCEBuddy variklio parametrai gali būti neįrašytos. Ar norite tęsti?
+Unable to communicate with engine. Settings have NOT been saved.	Nesugeba bendrauti su varikliu. NE nustatymai buvo išsaugoti.
+Communication Error	Ryšių klaida
+Engine not stopped. Settings have NOT been saved.	Ne išjungtu varikliu. NE nustatymai buvo išsaugoti.
+Unable To Save Settings	Neįmanoma įrašyti parametrai
+Unable to communicate with engine. UPnP settings have not been updated	Nesugeba bendrauti su varikliu. UPnP parametrai nebuvo atnaujinti
+Audio delay	Garso vėlavimo
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	Įveskite vertę per kelias sekundes (teigiamą arba neigiamą) čia perkelti garso atsižvelgiant į video.\r\nUse to resync garso, vaizdo, jei jie yra out of sync po conversion.\r\nA teigiama reikšmė bus atidėti garso (t. y. vaizdo prieš garso) ir jos vertė yra neigiama bus Išplėstinis garsas (t. y. garso prieš video).\r\nE.g. –1, 5
+Media info	Laikmeną
+Click here to get media properties for selected files	Spauskite čia Norėdami gauti medijos ypatybės pasirinktus failus
+Save information	Išsaugoti informaciją
+Add information	Pridėti informaciją
+Shows a preview of the custom filename and path	Rodoma pasirinktinės failo vardas ir kelias peržiūra
+Invalid Filename Pattern	Neleistinas failo vardas modelis
+TVDB Series ID	TVDB serijos ID
+IMDB Series ID	IMDB serijos ID
+Original title	Pavadinimas originalo kalba
+Corrected title	Pataisyta pavadinimas
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Įveskite norimą naudoti atsisiųsti Rodyti TVDB serijos ID information.\r\nIf originalus pavadinimas įveskite šio disko yra tuščias, tai bus taikomi visi rodo pažymėtas šis konvertavimo užduotis.
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Įveskite norimą naudoti atsisiųsti filmą information.\r\nIf originalas IMDB filmas ID pavadinimas laukas yra tuščias, tai bus taikomi visi rodo pažymėtas šis konvertavimo užduotis.
+Internet Lookup Title and Metadata Correction	Interneto paieškos pavadinimas ir metaduomenų korekcija
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	Spauskite čia Norėdami pridėti kitą eilutę rungtynės ir taisyti pavadinimus ir serijos id.\r\nIf norite naudoti patį pataisyta pavadinimas ar eilutės identifikacija visų matyti iš šios konversijos užduotis, \r\nleave originalus pavadinimas tuščias pirmąją eilutę ir jūs neturėtumėte pridėti antrosios eilės.
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	Įveskite modelio rungtynės Rodyti/serijų pavadinimų koreguoti (pvz Simpson * pakeis visus pavadinimus, kad turėti Rodyti pavadinimą, pradedant Simpson) \r\nPrefix modelio su ~ praleisti rungtynes (pvz *. *; ~ Simpson * bus teisinga rodo pavadinimai išskyrus tuos, kurie pradėti Simpson) \r\nSeparate keli raštai; (pvz Simpson *;House*) arba (pvz Simpson *;NCIS*; ~ ne kredito Miami *) \r\n\r\nNOTE: palikite šį laukelį tuščią, jei norite taikyti pataisytą pavadinimas ar eilutės identifikacija visiems failams tvarkomus šio perskaičiavimo task.\r\nIf palikti tuščią, jūs negalite pridėti antrą row.\r\n\r\nYou galite naudoti reguliarios išraiškos atitiktų pavadinimą pradedant regex:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	Įveskite norimą naudoti atsisiųsti papildomą informaciją naujas/ištaisyti pavadinimą iš internet.\r\nIf originalas pavadinimas laukas yra tuščias, tai bus taikoma visiems matyti, atrenka pavertimas task.\r\n\r\nYou gali naudoti reguliarios išraiškos taisyti pavadinimas pradedant regex:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	Kiekvienoje eilutėje, įveskite to, originalus pavadinimas rungtynės Rodyti pavadinimą ir arba Corrected pavadinimas arba TVDB/IMDB eilutės identifikacija
+Please enter either a Corrected title or a TVDB/IMDB Series ID	Įveskite Corrected antraštę arba TVDB/IMDB eilutės identifikacija
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	Tai įjungti, jei norite įdėti į konvertuotą MCEBuddy failą į kodo directory\r\nif paskirties kelias negalimas. (pvz. tinklo gedimas arba kartografavimo nepakankamumas)
+Fallback to source path	Grįžti prie šaltinio maršrutas
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	Naudojamas padidinti arba sumažinti apimtis the\r\nrecording o converting.\r\n1 yra normalu, kas toliau bus sumažinti, anything\r\nhigher bus padidinti.
+Archive folder	Archyvinis
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	Pakeisti tuščią Norėdami naudoti numatytąjį "MCEBuddyArchive" aplanką originalo katalogo folder.\r\nLeave archyvas.
+Monitor subdirectories	Stebėti pakatalogį
+Check this box to also monitor all directories within the Monitor path	Pažymėkite šį langelį, taip pat stebėti visus katalogus per monitorius kelias
+Click here to show MCEBuddy status	Spauskite čia Norėdami Rodyti MCEBuddy statusas
+MCEBuddy service not connected	MCEBuddy tarnyba neprijungta
+MCEBuddy idle	MCEBuddy laukimo
+conversions in progress	konvertavimai vyksta
+MCEBuddy stopped	MCEBuddy sustojo
+Sync converted files	Sinchronizuoti konvertuoti failus
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	Pažymėkite šią parinktį, jei norite MCEBuddy laikyti konvertuoti failus sinchronizavime su originalaus files.\r\ni.e. Kai pradiniai failai ištrinti vartotojo, atitinkamas konvertuoti failus taip pat yra deleted.\r\n\r\nNOTE: MCEBuddy tik stebi originaliais failais, esančiais stebėti vietų katalogai ir tik tada, kai variklis yra running.\r\nMCEBuddy bus galima stebėti vartotojų panaikinti failus stovint variklis.
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	Ar norite MCEBuddy ištrintų kiekvieno konvertuoto failo, kai pradinis failas buvo panaikintas?
+Confirm sync conversions?	Sinchronizavimo keitimų patvirtinimas?
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	Tu tikrai ne reklamos panaikinti konvertuoti vaizdo ir tik laikyti EDL failą?
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer neatsako. Prašome perkrauti sistemą arba iš naujo įdiegti ShowAnalyzer.
+ShowAnalyzer Not Responding	ShowAnalyzer neatsako
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	Įsitikinkite, kad jūs paspauskite "Start", kai uždarysite šį langą, priešingu atveju planavimas ir pažadinti neveiks.
+Enabling Scheduling and Wake	Suteikiant planavimo ir po
+Passwords do not match	Slaptažodžiai nesutampa
+Password error	Slaptažodį klaida
+Adding subtitles and chapters to file	Pridėdami subtitrus ir skyriuose failo
+Send eMail if unable to download series information	Siųsti elektroniniu paštu, jei negali atsisiųsti sekos informacijos
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	Paώymλkite πα langelα, jei konversijos užduotis tik tvarkyti failus iš konkrečių monitorius locations.\r\nIf Neregistruoto užduoties konversijos bus atlikti failus iš visų monitorių vietų (įskaitant naujų vėliau).
+Select Monitor Locations	Pasirinkite monitoriaus vietose
+Select atleast one Monitor Location name	Pasirinkite atleast vieną monitorių vietos pavadinimą
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	Pasirinktas visas Dabartinis monitorius Locations.\r\nDo konvertavimo užduotis automatiškai apdoroti kiekvieną naują monitorius vietą pridėta į ateitį?
+New monitor locations	Naujas monitorius vietas
+Invalid selection	Neleistinas atrankos
+Channel name match	Kanalo pavadinimas rungtynės
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Įveskite modelis atitiktų kanalo pavadinimas šią užduotį (pvz ABC * bus konvertuoti visus failus, kurių užregistruotas kanalo pavadinimas prasideda su ABC) \r\nPrefix modelio su ~ praleisti rungtynes (pvz *; ~ ABC * apdoroja visus kanalus išskyrus tuos, kurie prasideda ABC) \r\nSeparate keli raštai; (pvz ABC *;TBS*) arba (pvz ABC *;Fox*; ~ Fox4 *) \r\n\r\nYou galite naudoti reguliarios išraiškos atitiktų modelis pradedant regex:
+Clear history	Valyti retrospektyvą
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	Spustelėkite šį mygtuką norėdami išvalyti visus konvertuoti files.\r\nThis istorija yra sukelti MCEBuddy perkonvertuoti visi failai yra stebimi.
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	Ar tikrai norite išvalyti visus konversijų istorijos? \r\nThis sukels MCEBuddy perkonvertuoti visi failai yra stebimi.
+Show history	Rodyti istorija
+Click this button to show the history of all converted files.	Bakstelėkite šį mygtuką norėdami parodyti visus konvertuoti failus istorija.
+History of Converted Files	Konvertuoti failus istorija
+Unable to communicate with engine.	Nesugeba bendrauti su varikliu.
+Extracting streams	Gavybos srautus
+Fallback muxing streams	Atsarginis muxing srautus
+Remuxing TiVO file	Remuxing TiVO failą
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	Įveskite savo 10 skaitmenų TiVO MAK raktas konvertuoti ir apdoroti TiVO įrašai
+Invalid TiVO MAK Key	Neleistinas TiVO MAK raktas
+The TiVO MAK key should be 10 digits	TiVO MAK raktas turėtų būti 10 skaitmenų
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	Neatitinka versija. Prašome įsitikinti, kad MCEBuddy klientų ir variklis naudoja tą pačią versiją.
+Error retrieving Event Logs	Nuskaitant įvykių žurnaluose klaida
+Unable to get Event Log Entries from the MCEBuddy engine.	Nepavyksta gauti įvykių žurnalo įvykius iš MCEBuddy variklio.
+PAUSED: Check conversion schedule	PRISTABDYTA: Žymės pertvarkymo tvarkaraštį
+Logging	Miško ruoša
+Folder Management	Aplankų tvarkymas
+Processor Management	Procesoriaus valdymas
+Expert Settings	Ekspertų parametrai
+System Settings	Sistemos parametrai
+Click here to change additional settings (for experts only)	Spauskite čia Norėdami keisti papildomus parametrus (už ekspertų tik)
+Failed folder	Nepavykusį aplanką
+Location of the folder that hold the original files for failed conversions.	Kad surengti pradiniai failai dėl nepavykusių konvertavimų aplanko vietą.
+Move original file on failure	Perkelti pirminį failą nepakankamumas
+Check this to move the original file to a separate folder if the conversion fails.	Patikrinti, kad originalus failą perkelti į atskirą aplanką jei konvertavimas nepavyko.
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	Patikrinti, kad būtų apriboti Loginių procesorių, kurie MCEBuddycan use.\r\nEach žymės langelį žemiau atitinka turimų loginis procesorius.
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Kiekvieną langelį sudaro Loginių procesorių nuo 1 iki 16 respectively.\r\nChecking laukas leidžia MCEBuddy naudoti kad procesorius.
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Kiekvieną langelį sudaro Loginių procesorių nuo 17 iki 32 respectively.\r\nChecking laukas leidžia MCEBuddy naudoti kad procesorius.
+Select atleast one processor to use	Pasirinkite atleast vienas perdirbėjas naudoti
+Invalid Configuration	Neteisingą konfigūracijos
+Comskip path	Comskip kelias
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	Jei norite naudoti pasirinktinį versija Comkip (pvz teikėjos versija) \r\nthen įvesti kelias tuščią Norėdami naudoti numatytąjį comskip kad ateina su MCEBuddy comskip montavimo here.\r\nLeave.
+Miscellaneous	Įvairūs
+Ignore copy protection	Ignoruoti apsaugos nuo kopijavimo
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	Patikrinti, kad ignoruoti vaizdo failo o converting.\r\nNOTE apsaugos nuo kopijavimo vėliavos: MCEBuddy negali apeiti šifravimo, tai tik padeda jei failas yra incorrectly\r\ntagged kaip kopija saugoma kai jis neužšifruotas.
+Use recycle bin	Naudokite šiukšlinę
+Check this to use the recycle bin when files are deleted by MCEBuddy	Patikrinti, kad naudoti šiukšlinės failus išbraukiami iš MCEBuddy
+Poll period	Apklausos laikotarpis
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	Tai, kaip dažnai MCEBuddy nuskaito monitorius užduotis vietose naujas files.\r\nThe intervalas yra nurodyta per kelias sekundes.
+Server port	Serverio prievadą
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	Tai MCEBuddy naudoja norėdamas susisiekti su nuotolinio engine.\r\nWhen įgalintas UPnP, MCEBuddy bus automatiškai pridėti šį prievadą Windows Firewall\r\nand UPnP vartai leisti prieigą internetu šio uosto TCP prievadas.
+Hang period	Pakabinti laikotarpis
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	Įveskite sekundėmis, kad MCEBuddy bus laukti atsakymo iš the\r\nunderlying programos prieš nutraukia hung.\r\nEnter 0 taikymo išjungti pakabinti aptikimo.
+Subtitle commercial cut sync	Subtitrų komercinių sumažinti sinchronizavimo
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	Šis parametras naudojamas kai eiti palaipsniui out of sync po kiekvienos prekybos segmente yra pašalintas iš video.\r\nThis nustatymas yra naudojamas, kad subtitrai subtitrai atgal į sinchronizavimo su tuo video.\r\nEach metu prekybos video yra iškirpti, subtitrai metu perkeliama iš šios sumos (+ ve arba - ve per kelias sekundes).
+Invalid poll period	Neleistinas apklausa laikotarpis
+Invalid server port	Neleistini serverio prievado
+eMail Subject Customization	elektroninio pašto temos tinkinimas
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	Šiame skyriuje individualizuoti laišką tema siųsti iš MCEBuddy apie įvairių konversijos įvykius išvardyti below.\r\nRefer dokumentus, pasirinktines komandas, nustatyta vartotojo variables.\r\ne.g. Rodyti sėkmingai naudojant užduočių % taskname%\r\nNOTE % showname % failą % originalfilename % konvertavimo: ne visada visi duomenys bus prieinami pasirinktinį tuščią naudoti numatytąjį temų commands.\r\nLeave.
+Success	Sėkmės
+Failed	Nepavyko
+Cancelled	Atšauktas
+Download fail	Parsisiųsti nepavyksta
+Limit processor utilization	Ribinės CPU naudojimas
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	Patikrinkite tai apriboti Loginių procesorių, kad MCEBuddy gali use.\r\nEach žymės langelį žemiau skaičių atitinka turimų loginis procesorius.
+Custom profile	Vartotojo profilis
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	Jei turite užsakymą profiles.conf failą, kurį norite naudoti vietoj the\r\none, kuris ateina su MCEBuddy, įveskite kelią į failą here.\r\n\r\nNOTE: MCEBuddy nuolat atnaujinimai profiles.conf teikti klaidą ištaiso, \r\nenhancements ir efektyvumo patobulinimų, kurie jums bus praleisti out\r\non jei jūs naudojate šią funkciją.
+Invalid custom profiles.conf	Neleistinas vartotojo profiles.conf
+Suspend on battery	Sustabdyti akumuliatoriaus
+Suspend conversions when the computer switches to battery power	Sustabdyti konversijos, kai kompiuteris pereina į akumuliatoriaus energiją
+MCEBuddy added a video conversion to the queue	MCEBuddy pridėtinės vaizdo konvertavimo į eilę
+Queue	Eilėje
+Refer to documentation on using custom commands in custom eMail subjects	Perduoti dokumentus naudodami pasirinktines komandas priskirtą el. pašto dalykų
+Could not copy information to Clipboard, please try again.	Galėtų ne kopijuoti informaciją į iškarpinę, pabandykite dar kartą.
+Error copying to Clipboard	Klaida kopijuoti į mainų sritį
+Copy to clipboard	Kopijuoti į mainų sritį
+Reconvert files	Konvertuoti iš naujo failus
+Are you sure you want to reconvert the selected files?	Ar tikrai norite konvertuoti iš naujo pasirinkti failai?
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	Pasirinkite failai, kuriuos norite konvertuoti iš naujo ir tada spustelėkite šį button.\r\nIf pradiniai failai yra vis dar stebi MCEBuddy jie lauks pertvarkymas.
+Time taken to convert	Laikas konvertuoti
+Network authentication	Tinklo autentifikavimo
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	Spustelėkite mygtuką, norėdami įvesti tinklo akcijų credentials.\r\nThis autentifikavimas yra naudojamas kai failai įrašomi per mygtuką Pridėti pagrindinis window\r\nor nutempė ir nukrito iš bendrųjų tinklo išteklių į pagrindiniame lange langelį perskaičiavimo būseną.
+Skip reconversion	Praleisti pertvarkymas
+Do not reconvert the video if a converted file already exists in the destination directory.	Negali perkonvertuoti vaizdo, jei konvertuotame faile jau yra paskirties aplanką.
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	Numatomas failo vardas konvertuoti vaizdo (failo ne originalus video pavadinimas) yra palyginti su failų į paskirties directory.\r\nIf konvertuotame faile yra, failas negali būti reconverted ir bus laikoma, kad sėkmingai conversion.\r\nThis yra naudinga, jei pačios Rodyti/epizodas yra nurodžius kelis kartus ir nenorite konvertuoti iš naujo them.\r\n\r\nNOTE: Šis nepaisoma vaizdo įrašų įrašomos neautomatiniu būdu naudojant mygtuką Pridėti arba nuvelkant ir paliekant
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	Įjungus, praleisti pertvarkymas taip pat patikrins istorijos bylą dėl praeities conversions.\r\nThe laukiamų dividendų konvertuoti vaizdo (failo ne originalus video pavadinimas), failo pavadinimas yra palyginti su failų į istorijos file.\r\nIf ir konvertuoto failo vardą (įskaitant kelias), kad atitinka bet kurį iš jau konvertuotą failų (įskaitant takus) į istorijos failą, \r\nthe failo negali būti reconverted ir bus daroma prielaida, kad sėkminga konversija.
+Adding file to the iTunes library	Pridėti failą į iTunes biblioteką
+Add to iTunes	Pridėti į iTunes
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	Patikrinkite šį langelį, norėdami automatiškai įtraukti konvertuoti failus į iTunes library.\r\nThis veikia tik su iTunes palaikomų failų (pvz., MP4, M4V, MP3 ir tt)
+Adding file to the WMP library	Pridėti failą į biblioteką, WMP
+Library Management	Bibliotekos valdymo
+Add to Windows Media Player	Įtraukti į Windows Media Player
+Check this box to automatically add the converted files to the WMP library.	Pažymėkite šį langelį automatiškai pridėti konvertuoti failus į biblioteką, WMP.
+Renaming and Sorting	Pervardyti ir rūšiavimas
+Selection Filters	Atrankos filtrai
+Audio and Video	Garso ir vaizdo
+Subtitles and Chapters	Subtitrai ir skyriai
+Skip copying original files	Praleisti kopijavimo pradiniai failai
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	Patikrinkite šį langelį ne savo RISK.\r\nDO ne patikrinti šį langelį nebent jums žinoti, kas esate DOING.\r\nCheck šį langelį, jei norite praleisti padaryti atsarginę kopiją originalaus failo (kopijavimas) konvertavimo.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	PATIKRINTI šį langelį ne savo RISK.\r\nDO ne patikrinti šį langelį, nebent jūs žinote, kas yra DOING.\r\nCheck šį langelį, jei norite praleisti padaryti atsarginę kopiją originalaus failo (kopijavimas) o converting.\r\nIf tai pažymėtas, pradinis failas bus išsaugotas tuo atveju, kai yra error.\r\nIt gali taip pat net sukelti perskaičiavimo gedimų ar kitų nenumatytų konvertavimo klausimais.
+Are you sure you want to do this?	Ar jūs tikrai norite tai padaryti?
+Media Information Management	Žiniasklaidos informacijos valdymo
+Force show type	Jėgos demonstravimo tipas
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	Tai priversti gydyti filmuoti kaip filmas ar TV Series.\r\nThis bus pakeisti tai, kaip papildoma informacija (metaduomenys) apie įrašymą yra atsisiųstas į internet.\r\nMovie - gydyti įrašymas kaip movie\r\nSeries - gydyti įrašymas kaip TV Series\r\nSports - gydyti įrašymas kaip sporto show\r\nDefault - naudoti numatytąjį informacijos įrašymo metaduomenys nustatyti filmas ar TV serialas
+Show type	Demonstracijos tipas
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	Pasirinkite, jei norite filtruoti įrašai yra converted.\r\n\r\nMovies tipo - pasirinkite konvertuoti jei demonstravimo tipas yra Movie.\r\nShows-pasirinkite konvertuoti jei demonstravimo tipas yra ne per Movie.\r\nSports-pasirinkite konvertuoti jei demonstravimo tipas yra Sports.\r\n\r\nNOTE: Rodyti tipas yra skaityti iš įrašymo metadata.\r\nOnly kai kuriuos įrašus remti Rodyti tipo metaduomenis, pvz WTV and\r\nrecordings su patvirtinamaisiais metaduomenimis failus ()XML/ARG ir tt).
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	Šis laukas rodo visus failus eilės conversion.\r\nDrag ir upuść failus čia arba paspauskite mygtuką Pridėti pridėti failų konvertavimo eilę
+Conversion	Perskaičiavimo
+Files	Failai
+Click this button to open or close the Advanced Settings section	Bakstelėkite šį mygtuką norėdami atidaryti arba uţdaryti išplėstiniai parametrai skyriaus
+Running custom commands	Veikia pasirinktines komandas
+Trimming video recording	Apipjaustymas vaizdo įrašymo
+Insert at top of queue	Įterpti viršuje eilės
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	Pagal numatytuosius nustatymus, naujas konversijų priskirti apačioje (pabaigos) perskaičiavimo queue.\r\nIf šis langelis pažymėtas, bet naujas konversijų pridėjo šią užduotį bus įtraukti į the\r\nbeginning (aukščiau), konvertavimo eilę.
+Add subtitles and chapters	Pridėti subtitrus ir skyriuose
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	Įjungti šią parinktį pridėti bet išgauti subtitrus ir skyriuose konvertuotą video.\r\nEach skirsnio nebetęsiama komercinės. Tai veikia tik su palaikomų formatų (pvz., MKV, MP4).\r\n\r\nNOTE: kai kurie žaidėjai ir vyresnio amžiaus TV nepalaiko įdėtųjų subtitrus ir chapters.\r\nIf negalite atkūrimo konvertuoti vaizdo, pabandykite išjungti šią parinktį.
+Select best soundtrack	Pasirinkti geriausias garso takelis
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	Jei originalaus vaizdo turi kelis garso takelių, ši parinktis rodo MCEBuddy pasirinkti tinkamiausias ir pirminis soundtrack.\r\nIf norite konkrečios kalbos garso takelį, įsitikinkite, kad jūs įvedate kalbos pavadinimas arba kodas, garso kalba box.\r\nCheck šį langelį, jei jums klausymo negerai garso takelis į jūsų konvertuotos file.\r\n\r\nUncheck šį langelį, jei norite MCEBuddy išlaikyti visų garso takelių iš originalaus vaizdo konvertuotame faile nesukeliantis. \r\nNOTE: kai kurie profiliai nepalaiko kelis garso takelius, ir tokiu atveju šis parametras neturi jokios įtakos.
+Enable remote access	Įgalinti nuotolinę prieigą
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	Tai padarys išimtį windows užkardoje MCEBuddy taikymo ir į port.\r\nThis yra būtina, jei turite įgalinta windows ugniasienė ir norite naudoti UPnP, nuotolinio client\r\nor prieigos naudojant IP address.\r\n\r\nNOTE variklis: jei turite pasirinktinį ugniasienės, tai gali neveikti, jums reikės rankiniu būdu sukurti an\r\nexception MCEBuddy paslaugos ir uosto.
+Unable to communicate with engine. Firewall exception settings have not been updated.	Nesugeba bendrauti su varikliu. Nebuvo atnaujinti užkardos išimtis parametrus.
+Detect and optimize video quality	Aptikti ir optimizuoti vaizdo kokybė
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	Kai įjungta, MCEBuddy bus optimizuoti vaizdo apdorojimo funkcijos, bando nustatyti vaizdo šaltinio type.\r\nThis gali pagerinti konvertuoti vaizdo kokybe labai jei teisingai detected.\r\n\r\nNOTE: jis tai daro bando nustatyti vaizdo šaltinio (supintų, progressive ar tipo telecine).\r\nIf tai galima nustatyti vaizdo šaltinio tipas, ji pakeis atitinkamus parametrus į šią parinktį išjungti jei susiduria su problemų su konvertuoti vaizdo kokybė arba norite naudoti numatytuosius profilio parametrus profile.\r\nTurn.
+Are you sure you want to delete this task?	Ar tikrai norite panaikinti šią užduotį?
+Delete Task	Naikinti užduotį
+Enter the new task name	Įveskite naują užduoties pavadinimą
+Rename Task	Pervardyti užduotis
+MCEBuddy PAUSED	MCEBuddy pristabdytas
+idle	tuščiosios eigos
+PAUSED	PRISTABDYTA
+Frame rate	Kadrų dažnis
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	Tai nustatyti pasirinktinį kadrų dažnį (FPS) konvertuoti video.\r\nYou gali tekti nustatyti tai konvertuojant vaizdo formatus (pvz PAL į NTSC) \r\nor prietaisų, kurie palaiko tik konkrečių framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001
+Skip remuxing files	Pereiti remuxing failus
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	Patikrinkite šį langelį ne savo RISK.\r\nDO ne žymės tai dėžė nebent jums žinoti, kas esate DOING.\r\nCheck šį langelį praleisti remuxing pradinį failą į TS failą, o converting.\r\nIf tai yra patikrinti, kai kurios funkcijos kaip paantraštės gavyba ar comskip gali ne work.\r\nIt gali taip pat net sukelti perskaičiavimo gedimų ar kitų nenumatytų konvertavimo klausimais.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	Patikrinkite šį langelį ne savo RISK.\r\nDO ne patikrinti šį langelį nebent jums žinoti, kas esate DOING.\r\nCheck šį langelį praleisti remuxing pradinį failą į TS failą konvertavimo.
+Monitor converted videos	Stebėti konvertuoti vaizdo įrašus
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	Pagal numatytuosius nustatymus monitorius vietose nepaisys failus, kurie jau buvo converted.\r\nCheck šį langelį, jei norite stebėti konvertuoti failus į monitoriaus Path.\r\nCAUTION: tai gali sukelti begalybės konvertavimo linijos, konvertuoti failus, jei ne sukonfigūruotas properly.\r\n\r\nThis gali būti naudinga, kai jums nurodyti produkcijos katalogą, konversijos task\r\n (konvertuotame faile) kaip monitorius stebėti vietovės ir susieti the\r\nMonitor Vietos į kitą konvertavimo užduotis.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	PATIKRINTI šį langelį ne savo RISK.\r\nDO ne patikrinti šį langelį nebent jums žinoti, kas esate DOING.\r\nBy numatytasis monitoriaus vietose bus ignoruoti failus, kurie jau buvo converted.\r\nCheck šį langelį, jei norite stebėti konvertuoti failus monitorius kelyje.
+Hardware encoding	Aparatūros kodavimas
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	Patikrinkite šį langelį, jei norite naudoti aparatūros kodavimą kai galima konvertuoti videos.\r\nThis gali žymiai paspartinti konvertavimo ir sumažinti CPU utilization\r\nbut jis gali sukelti šiek tiek žemesnės kokybės videos.\r\n\r\nUncheck šį langelį, jei esate susiduria su perstatymo ar kokybės klausimais.
+Do not overwrite files	Rinkmenos neperrašo
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	Pažymėjus šį langelį, jei paskirties failas neperrašomas jei ji jau exists.\r\nInstead naują failą bus sukurti unikalų numerį įtrauktas į pabaigoje failo vardas.
+Re-monitor recorded videos	Vėl stebėti įrašytos vaizdo
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	Pagal numatytuosius nustatymus, kai šaltinio faile (video įrašas) buvo konvertuota, \r\nthe monitorius istorija bus sekti failo vardas ir ne eilė pačios failus again.\r\n\r\nEnable šią pasirinktį norėdami nepaisyti istoriją ir stebėti visus failus ir įtraukti juos to\r\nthe konvertavimo eilę, net jei jie jau buvo converted.\r\n\r\nThis gali būti naudinga kartais, jei įrašymo įranga nesukuria a\r\nunique failo vardą kiekvienam epizodas/Rodyti. Ji yra rekomenduojama naudoti the\r\nDelete pradinį failą parinktį nustatymų puslapyje naudodami šią parinktį, kad avoid\r\nan begalybės konvertavimo linijos.
+Recommendation	Rekomendacija
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	Siekiant išvengti begalybės konvertavimo linijos, rekomenduojama sukonfigūruoti jūsų monitoriaus ieškos šablonas taip, kaip užtikrinti, kad šis monitorius užduočių nestebimi konvertuoti failus.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	Patikrinkite šį langelį ne savo RISK.\r\nDO ne patikrinti šį langelį nebent jums žinoti, kas esate DOING.\r\nBy numatytasis monitoriaus vietose bus ne remonitor įrašyti vaizdo įrašus, kurie buvo processed.\r\nCheck šį langelį, jei norite remonitor ir pertvarkyti vaizdo.
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	Siekiant išvengti begalybės konvertavimo linijos, rekomenduojama, kad įjungsite ištrinti pradinį failą parinktį nustatymų puslapyje.
+Prioritize air date matching	Prioritetus oro data atitikimo
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy naudoja epizodas pavadinimas rungtynės serijos information\r\nwhile ieškoti internete. Jei to padaryti nepavyksta tada jis naudoja broadcast\r\nair dieną suderinti su metadata.\r\n\r\nCheck šį langelį, jei norite naudoti transliacijos oro dieną pirmą kartą ir tada the\r\nepisode pavadinimas skirto į internet.\r\nThis serijos informacija gali būti naudinga kai kuriais atvejais, kai kelis sezonus same\r\nepisode pavadinimas. Pvz Americal Idol, klausytis 1\r\n\r\nNOTE: originalus transliacijos oro data, ne visada tiksliai nustatyti iš the\r\nbroadcaster ir kartais informacija internete yra incorrect.\r\nUse šią parinktį tik tada, jei Numatytoji parinktis veikia jums.
+Skip eMail body	Praleisti el. laiško tekste
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	Patikrinti šią parinktį Norėdami naudoti tuščią kūno pranešimo eMail.\r\nThis gali būti naudinga, jei jūs naudojate SMS vartai el. pašto pranešimus.
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	Atranka pagal apie skaitmeninių teisių valdymo (DRM) yra available\r\nonly Kada pervardyti nekonvertuojant (pervardyti ir perkelti tik) variantas yra selected.\r\n\r\nAll - parenka visus failus perdirbimui, neatsižvelgiant į tai, apsaugos nuo kopijavimo status\r\nProtected - tik pasirinkti failus, kurie yra kopija protected\r\nUnprotected - tik pasirinkti failus, kurių nėra apsaugos nuo kopijavimo
+Download cover art	Atsisiųsti viršelį
+Enable this to download the cover art from the original video and internet if available.	Įgalinti jį parsisiųsti ir viršelį iš originalaus vaizdo ir interneto, jei toks yra.
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	Ar tikrai norite, kad įvesti domeno vardą? \r\n\r\nUse tai tik jei naudojate Windows domeno valdiklį valdyti savo authentication.\r\nDo ne tai naudoti, jei esate dalis yra Workgroup.\r\n\r\nIf esate tikri spustelėkite Nr.
+Configuration Warning	Konfigūracijos įspėjimas
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	Sukuria aplanką, pavadintą "MCEBuddyArchive" kur originalus failas yra located\r\nand juda originalus failą į šį katalogą po sėkmingai conversion.\r\n\r\nThis aplanko pavadinimą ir vietą keisti žemiau.
+Monitoring	Stebėsenos
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	Jei norite konvertuoti EDL failą į skyrių, įsitikinkite, kad patikrinti "Pridėti subtitrus ir skyrių" parinktį ekspertas parametrus.
+EDL to Chapters	EDL skyrių

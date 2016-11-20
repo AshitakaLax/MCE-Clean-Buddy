@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy 不使用当前登录的用户连接到网络共享，它使用其自己的服务帐户。请确保指定的连接用户信息 （MCEBuddy 的一个钥匙图标）
+Connection Reminder	连接的提醒
+Description	说明
+Path	路径
+is invalid	是无效的
+Invalid Path	无效的路径
+Please supply a task name	请任务名称，提供
+No name supplied	没有提供的名称
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	请输入音频轨道或选择 <Default>或 <Original>的 3 位语言代码
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	3 位确保这与匹配原始 recording.\r\nTo get 在原始的记录文件的音频轨道的语言代码中的音频轨道的语言代码的选定 language\r\nMake ISO 代码添加 file\r\nto 队列，并右键单击它。将会打开一个弹出窗口来显示音频 details\r\nwhich 包括每个音频轨道的语言代码。
+Invalid Language Code	无效的语言代码
+No destination directory provided, converted file will be placed in original video directory	没有目标目录提供，转换后的文件将放置在原始视频目录
+A task name or section	任务名称或节
+already exists\n\rPlease use another name	exists\n\rPlease 已使用另一个名称
+Duplicate Name	重复的名称
+Engine	发动机
+Tasks	任务
+Profile	配置文件
+disposing	处置
+Task name	任务名称
+Give a unique name to this task	这项任务提供唯一的名称
+Gives a short description for the selection conversion profile	给出的选择转换配置文件的简短描述
+Click to select destination folder	单击以选择目标文件夹
+Destination	目标
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	选择转换后的文件将这个空白，以保留原始的相同目录中的转换后的文件视频 placed.\r\nLeave 的目录。
+Max width	最大宽度
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	这将限制为转换后的 file.\r\nTIP 视频的最大宽度 （以像素为单位）： 如果原始文件具有宽度小于此要保留你的原始视频分辨率移动滑块到最右边的 number.\r\nIf 不适用。
+Quality	质量
+Ad remover	Ad 卸妆
+None	无
+Get series details from Internet	从互联网获取系列详细信息
+Download additional details about the movie or series from the internet	从互联网下载影片或系列有关其他详细信息
+File name match	匹配的文件名称
+Recording title match	录制标题匹配
+Cancel	取消
+OK	还行
+Rename without converting	不进行转换，重命名
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	检查选中此选项只重命名，并将原始文件复制到目的地 folder.\r\nWhen、 转换、 裁切、 音频/视频处理和商业去除不会 available.\r\n\r\nNOTE： 其他功能，如匹配的筛选器，提取字幕，保存元数据和商业检测 (EDL 文件保存) \r\nwill 仍然可与您想要移动而不是复制此选项 checked.\r\nIf请跳过此页或 select\r\nDelete 的原始文件，在主要设置页上的专家设置中复制原始选项检查。
+Rename and sort by video information	重命名，并通过视频信息进行排序
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	重命名已转换的文件并将其放在一个新的目录，基于显示/系列的信息时 （例如 ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate) available\r\n
+Enter the username and password to access folders that are on a network drive or a different computer	输入的用户名和密码以访问网络驱动器或不同计算机上的文件夹
+Organize by seasons	按季节组织
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	组织文件夹的 Showname 和季节时可用 （媒体中心/XBMC/丛兼容命名约定） \r\n （例如 Showname\\Season XX\\SXXEYY 集名称）
+Audio language	音频语言
+Advanced Settings	高级的设置
+General Settings	常规设置
+Conversion Task	转换任务
+Password	密码
+Confirm Password	确认密码
+Domain / computer name	域 / 计算机名称
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	如果远程计算机或网络驱动器使用的域名为 authentication.\r\nDo 的 <Optional>输入不输入您的工作组在这里。这将保留为空，如果你使用一个工作组。
+User name	用户名称
+Enter the username to access the remote computer or network drive	输入的用户名来访问远程计算机或网络驱动器
+Enter the password to access the remote computer or network drive	输入密码以访问远程计算机或网络驱动器
+Network Connection User Credentials	网络连接用户凭据
+Password Mismatch	密码不匹配
+Passwords do not match, please reenter the passwords	密码不匹配，请重新输入密码
+Hour	小时
+Minute	分钟
+Wake	唤醒
+Start	启动
+Resume	简历
+Pause	暂停
+Stop	停止
+Language	语言
+Pause conversion tasks	暂停转换任务
+Resume conversion tasks	继续执行转换任务
+Please enter a valid time	请输入一个有效的时间
+Invalid Time	无效的时间
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	停止时间是在开始时间之后。假设的停止时间在第二天，这是否正确吗？
+Time Check	时检查
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	如果 MCEBuddy 已经被转换您的文件可靠地可接受的一段时间，才选择此选项。是否要删除的每个原始文件，一旦已转换的 MCEBuddy 吗？
+Confirm delete originals?	确认删除原始文件吗？
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy 将会监察这些视频文件将自动转换为目录
+Conversion tasks	转换任务
+Delete original file	删除原始文件
+Deletes the original recording after a successful conversion	删除成功转换后的原始录音
+Min age before conversion (hours)	在转换之前的最小年龄 (小时)
+Minimum hours to wait before converting each file after the file is added to the queue	将每个文件转换后将文件添加到队列之前要等待的最短时间
+Use this to change the language of the text on the screen	使用它可以改变屏幕上的文本的语言
+Concurrent conversions	并发转换
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	同时转换 MCEBuddy 的数目可以 start\r\nNOTE： 您需要大量的可用磁盘空间和处理器时间超过 2 同时转换为
+Logging level	日志记录级别
+Error	错误
+Warning	警告
+Information	信息
+Debug	调试
+Log conversion jobs	日志转换作业
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	在 \'logs\ 中保存一个日志文件，每个转换 ' 凡其中 MCEBuddy 是 installed\r\n （例如 C:\\Program Files\\MCEBuddy2x\\logs) 的目录
+Allow sleep	允许睡眠
+If unchecked, it prevents the system from entering sleep while converting	如果未选中，它可以防止系统进入睡眠转换时
+Stop at	在停止
+No new conversions would be started after this time	将此时间后，不开始任何新的转换
+minute	分钟
+hour	小时
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	如果检查 MCEBuddy 将唤醒系统 sleep\r\nat 从指定的开始时间和启用了周中的天。
+Start at	在启动
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy 将启动新转换之间开始和停止 time.\r\n\r\nThe 开始将启用天一周的使用时间，whereas\r\nthe 结束时间将使用或者为同一天 or\r\nfor，第二天如果结束时间是开始时间之后。
+Delete	删除
+Add	添加
+Change	变化
+Archive original file	存档原始文件
+Domain name	域名
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	停止的监视器和转换任务，并打开一个页面来配置 MCEBuddy
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	创建名为 \'MCEBuddyArchive\ 的文件夹 ' 原始文件所在的 located\r\nand 移动此目录中的原始文件之后在系统设置页中更改成功 conversion.\r\n\r\nThis 文件夹名称和位置。
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	调试-详细的日志，可以帮助跟踪转换 problems\r\nInformation-基本信息关于 conversion\r\nWarning 的日志-日志潜在的问题或严重故障 only\r\nError-日志只严重故障
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	选择与此任务关联的转换配置文件。转换配置文件表示的输出格式和转换需要较长时间将转换为转换后的 file.\r\nHigher 质量。建议的默认值： MP4 高质量或 MP4 Normal.\r\n\r\nTIP: MCEBuddy 指南高级参数调整转换配置文件或创建您自己的转换配置文件，请参阅
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	选择的程序 MCEBuddy 将使用转换为无离开广告在转换后的 video.\r\n\r\nTIP video.\r\nSet 同时剔除任何广告： 使用 ShowAnalyzer 而不是 Comskip，请下载并安装 ShowAnalyzer.\r\nShow 分析器版本 1.0 和更大的支持。
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	用于更改转换后，正常的视频质量是文件的 1.\r\nA 高数量将提高质量，但 conversion.\r\nA 较小的数字将会降低质量但加快转换将采取更多的时间。
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	输入要匹配此任务的文件名模式 （如 *.wtv 会将转换以.wtv)\r\nPrefix 模式与结尾的所有文件 ~ 要跳过这场比赛 （例如 *。 * ； ~*.wtv 将处理所有的文件，除了那些以.wtv)\r\nSeparate 结尾与多个模式 ；（例如，*.wtv ； 海军罪案调查处 *; ~ 海军罪案调查处迈阿密 *) 将过程.wtv 的所有文件和所有文件与海军罪案调查处开始，但不是那些与海军罪案调查处 miami\r\n\r\nYou 开始可以使用正则表达式与模式匹配的正则表达式从开始：
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	输入要匹配显示/系列标题 （例如辛普森 * 将转换与辛普森开始具有显示标题的所有文件） 此任务模式 \r\nPrefix 模式与 ~ 要跳过这场比赛 （例如 * ； ~ 辛普森 * 将处理所有显示书名，开始与辛普森的除外） \r\nSeparate 多模式 ；(例如辛普森 * ；House*） 或 （例如辛普森 * ；NCIS*; ~ 海军罪案调查处迈阿密 *) \r\n\r\nYou 可以使用正则表达式与模式匹配的正则表达式从开始：
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	这可以用来重写的默认的音频语言 recording.\r\nTo get 中录制的音频语言的列表中的多个音频语言在队列中的文件上右键单击，并选择 MediaInfo.\r\n\r\n <Default>时将尝试阻止所有音频轨道，如果支持或让编码器选择默认音频 track\r\n <Original>如果可用，将使用 [非配音] 录音原文
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	输入 '[视频]' 或保留为空以转换要匹配文件名，此位置的所有视频 files\r\nEnter 模式 （例如 *.wtv 将转换以.wtv)\r\nprefix 模式的结尾的所有文件 ~ 要跳过这场比赛 （例如 ＊。 ＊ ； ~*.wtv 将处理所有的文件，除非那些以.wtv)\r\nseparate 结尾与多个模式 ；（如 *.wtv ； ncis ＊ ； ~ 调处迈阿密 ＊） 将处理.wtv 的所有文件和所有文件开头调处，但不是那些开始调处迈阿密
+MCEBuddy Settings	MCEBuddy 设置
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy 不使用当前登录的用户连接到网络共享，它使用其自己的服务帐户。请确保指定的连接用户信息 [MCEBuddy 与一个钥匙图标]
+Please supply a source name	请提供一个源名称
+Please supply a search path name	请提供一个搜索路径名称
+A source name or section	源名称或节
+already exists. Please use another name	已存在。请使用另一个名称
+Monitor name	显示器名称
+Give this a location a unique name	这给一个唯一的名称的位置
+Monitor path	监视器的路径
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	在新的视频文件将自动转换为背景中选择 MCEBuddy 将监视的目录
+Click to select the folder to monitor	单击以选择要监视的文件夹
+Search pattern	搜索模式
+SourceForm	SourceForm
+Monitor Location	显示器位置
+Normal	正常
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI： pipeProxy 引擎连接错误
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI： 无法创建到 MCEBuddy 服务的管道
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	MCEBuddy 服务不可用。请从 Windows 控制面板启动或检查引擎的连接。
+Announcement	公告
+New version 	新版本
+available	可用
+New BETA version 	新的测试版
+Click here to download new version of MCEBuddy	单击此处下载新版本的 MCEBuddy
+Click here to open link	单击此处可打开链接
+Idle	空闲
+Closing	关闭
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI： 无法更新任务
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI： 无法启动 MCEBuddy 服务
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI： 无法停止服务 MCEBuddy
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI： 无法取消作业
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	警告： 将使用 MCEBuddy 的服务，不是当前登录的用户的登录凭据访问网络的文件。在 MCEBuddy 中，你可以手动指定-> 专家设置页面设置中的网络凭据。
+Credential Warning	凭据警告
+Status	状态
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI： 无法添加作业
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI： 无法获得管活动状态
+The conversions must be stopped to change settings. Stop the conversions?	若要更改设置，必须停止转换。停止转换吗？
+Stop Engine	停止引擎
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI： 无法停止从设置单击 MCEBuddy 服务
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI： 无法重新扫描文件
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI： 无法打开链接
+Close	关闭
+Close this window, MCEBuddy will keep running in the background	关闭此窗口中，MCEBuddy 将保持在后台运行
+If you like MCEBuddy, please click here to Donate - THANKS	如果您喜欢 MCEBuddy，请单击此处捐款-谢谢
+Click here to like MCEBuddy on facebook	单击此处可在 facebook 上喜欢 MCEBuddy
+Click here to open MCEBuddy website	单击此处打开 MCEBuddy 网站
+Rescan	重新扫描
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	部队重新检查显示器位置新视频文件将转换为 MCEBuddy
+Monitor locations	监视器位置
+Settings	设置
+Select the file(s) in the queue to delete	删除队列中选择的文件
+Manually add video file(s) to the queue to convert	将视频文件手动添加到要转换的队列
+Start the MCEBuddy monitor and conversion tasks	开始 MCEBuddy 显示器和转换任务
+Stop the MCEBuddy monitor and conversion tasks	停止 MCEBuddy 显示器和转换任务
+There is a new version!	有新的版本 ！
+High	高
+Low	低
+Priority	优先
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	高优先级-转换速度更快，但可能会使其他正在运行的应用程序 unresponsive\r\nLow 的优先事项-转换背景但减少的干扰与其他正在运行的应用程序中
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	一项任务是转换模板包含转换配置文件和其他各种转换 parameters.\r\nEach 将处理和转换的这些任务是如何工作的详细指南 MCEBuddy tasks.\r\nRefer 的每个文件添加到队列中。
+Getting started	入门
+Click here for MCEBuddy guide	单击此处查看 MCEBuddy 指南
+Logs	日志
+Click to open log folder	单击以打开日志文件夹
+MCEBuddy Status	MCEBuddy 状态
+add	添加
+delete	删除
+paypal-donate	paypal-捐赠
+stop	停止
+OUTPUT: ConsoleOuput received NULL data	输出： ConsoleOuput 收到 NULL 数据
+hours	小时
+minutes	分钟
+second	第二次
+seconds	秒
+Starting	开始
+Comskip advertisement scan - Pass 1	Comskip 广告扫描-传递 1
+Comskip advertisement scan - Pass 2	Comskip 广告扫描-传递 2
+Cutting commercials from video	视频切割的广告
+Cutting commercials from video - segment 	从视频-切割广告段
+Merging commercial free segments into new video	将免费在商业部门合并到新视频
+Moving converted file to destination	将转换后的文件移动到目标
+Checking for disk space	检查磁盘空间
+Getting show information and banner from Internet sources	从互联网来源获取显示信息和横幅
+Copying source file to working directory	将源文件复制到工作目录
+Remuxing recording	Remuxing 录制
+ShowAnalyzer advertisement scan	ShowAnalyzer 广告扫描
+Comskip advertisement scan	Comskip 广告扫描
+Analyzing video information	视频信息分析
+Converting	转换
+Removing commercials	删除广告
+Writing show information	书面形式显示的信息
+Renaming file using show information	使用显示信息的文件重命名
+Success - All done!	成功-所有做过 ！
+Muxing streams	隔木香流
+Fallback remux	回退 remux
+Correcting audio delay	纠正音频延迟
+Converting video file - Pass 1	转换视频文件-传递 1
+Converting video file - Pass 2	转换视频文件-传递 2
+Converting video file	将视频文件转换
+Audio Track	音频轨道
+Impaired	受损
+Channels	渠道
+Codec	编解码器
+Video	视频
+Duration	持续时间
+Height	高度
+Width	宽度
+Audio	音频
+Name	名称
+Subtitle	副标题
+Volume	卷
+Enable custom file renaming	启用自定义文件重命名
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	启用此输入转换后的文件及文件夹重命名的自定义模式。输入的自定义模式中框 below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname%-S %季节 %##E %情节 # %#-%episodename%-%airyear%_%airmonth%_%airday%\r\n\r\nWill 制作： \r\nTVShows\CSI\Season 1\CSI-S01E02-最佳的时期-2012_01_06。<ext>\r\n\r\nExample:\r\nRecording\%ismovie%< Movie\%showname%,TVShows\%showname%\Season %season%\%showname%-S%season%##E%episode%##>-Converted\r\n\r\nWill (电影) 生产 \r\n Recording\Movies\Star 战争转换。 <ext>（对于非电影) \r\nOR \r\n Recording\TVShows\CSI\Season 1\CSI-S01E02 转换。MCEBuddy 到 <ext>\r\n\r\nRefer 高级模式的所有命令的列表文件。
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	未找到 ShowAnalyzer。 \n 请下载并安装 ShowAnalyzer。
+ShowAnalyzer Missing	ShowAnalyzer 失踪
+Invalid language code, reverting to <Default> language	无效的语言代码，恢复到 <Default>语言
+Cut start	切的开始
+Cut end	切端
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	此选项指定要从一开始的录音 （之前删除广告） 切的秒数
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	此选项指定要削减从录音结束的 （在删除广告） 之前的秒数
+Send an eMail after each conversion.	每个转换后发送电子邮件。
+Send eMail	发送电子邮件
+SMTP Server Name	SMTP 服务器的名称
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	输入传出电子邮件 (SMTP) 服务器地址 here\r\ne.g。smtp.gmail.com
+Port	端口
+Enter the SMTP server port	输入的 SMTP 服务器端口
+Use SSL	使用 SSL
+Check this if you SMTP server uses SSL	如果您的 SMTP 服务器使用 SSL，请
+e-Mail Settings	电子邮件设置
+From <e-Mail>	从 <e-Mail>
+Enter the senders (From) eMail address here	（从） 的电子邮件地址在这里输入发件人
+To <e-Mails>	到 <e-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	输入收件人 （到） 用分号 (;) 多个收件人的电子邮件地址 here.\r\nSeparate
+Send eMail on successful conversion	成功的转换上发送电子邮件
+Send eMail on failed conversion	发送邮件失败的转换
+Send eMail on cancelled conversion	对已取消转换发送电子邮件
+Send eMail on adding a conversion to the queue	发送电子邮件上添加到队列的转换
+Please enter a valid server address	请输入一个有效的服务器地址
+Invalid SMTP Server	无效的 SMTP 服务器
+Please enter a valid server port	请输入一个有效的服务器端口
+Invalid SMTP Port	SMTP 端口无效
+Please enter a valid From eMail address	请输入有效的电子邮件地址
+Invalid eMail Address	无效的电子邮件地址
+Please enter valid To eMail addresses	请输入有效的电子邮件地址
+Username	用户名
+<Optional> Enter the username for the eMail server authentication	<Optional>输入的电子邮件服务器身份验证的用户名
+<Optional> Enter the password for the eMail server authentication	<Optional>输入的电子邮件服务器身份验证的密码
+MCEBuddy unable to download series information	MCEBuddy 无法下载系列信息
+MCEBuddy successfully converted a video	MCEBuddy 成功转换视频
+Source Video	源视频
+Converted Video	转换后的视频
+Converted At	在转换
+MCEBuddy failed to converted a video	MCEBuddy 视频转换失败
+Failed At	在失败
+MCEBuddy cancelled a video conversion	MCEBuddy 取消视频转换
+Cancelled At	在取消
+Working	工作
+Test	测试
+Testing	测试
+Click this button to test the eMail server settings	单击此按钮可以测试电子邮件服务器设置
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy 将发送电子邮件到测试服务器 settings.\r\nThis 可以采取至 60 多 seconds.\r\nMCEBuddy 可能没有响应这一时期。
+Test eMail	测试电子邮件
+MCEBuddy Test eMail	MCEBuddy 测试电子邮件
+MCEBuddy - Have a great day!	MCEBuddy-有伟大的一天 ！
+Send eMail test successful	发送电子邮件测试成功
+Send eMail test failed! Please check your settings and internet connectivity	发送电子邮件测试失败 ！请检查您的设置和互联网连接
+Test eMail Success	测试电子邮件成功
+Test eMail Failed	测试电子邮件失败
+Send eMail on start of conversion	在转换启动发送电子邮件
+MCEBuddy started a video conversion	MCEBuddy 开始视频转换
+Conversion Started At	在开始转换
+Yes (Comskip)	是 （Comskip）
+Yes (ShowAnalyzer)	是 （ShowAnalyzer）
+Atleast one Conversion Task must be enabled	必须启用至少一个转换任务
+Disable	禁用
+Enable	启用
+Rename	重命名
+Move	移动
+Up	向上
+Down	下来
+Slow Remuxing	慢 Remuxing
+Extracting closed captions	提取字幕
+Validating closed captions	验证关闭的字幕
+Extracting subtitles	提取字幕
+Trimming closed captions	修整关闭字幕
+Extract subtitles and closed captions	提取字幕和关闭的字幕
+Field	字段
+Channel	通道
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	启用此提取关闭字幕，字幕和图文电视 from\r\nWTV、 DVR MS、 TS、 MP4、 MKV 和其他受支持的 files.\r\n\r\nIt 保存为字幕 （SRT） 的文件。
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	启用此设置关闭字幕 extraction\r\nField-1 或 2\r\nChannel-1 或 2\r\n\r\nDefault 的高级的选项: 字段 1、 通道 1
+Subtitle offset	副标题偏移量
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	输入的秒数 (+ ve /-ve) 调整视频的字幕同步
+Re-ReMuxing due to audio error	Re ReMuxing 音频错误
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	保存这张海报，并在 MC/XBMC 兼容的 NFO 文件 （XML 格式） 中显示信息 （元数据）
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	选中此框，将显示信息 （元数据） 保存转换后的 file.\r\nThis 只支持元数据标记文件的工程如 MP4、 MKV、 WTV etc.\r\n\r\nNOTE： 如果你面对的问题与某些设备 （如旧电视有问题读元数据，请取消选中此框。
+Atleast one day of the week must be enabled	至少必须启用一周的一天
+Invalid Days of Week	周的无效天
+Invalid day of week found in configuration file	在配置文件中找到的周中的日期无效
+Scheduling	调度
+Remuxing to	到 Remuxing
+Part	部分
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	其余任何按钮、 框或要获取即时的帮助，在 it.\n\nFor 上如何使用、 故障排除或者获得对 MCEBuddy 的支持的详细信息项上的鼠标单击顶右 corner.\n\nDonations 的 < 入门 > 链接随时欢迎您的:)享受! \n\n-Ramit、 德里克 & 鹅
+Welcome to MCEBuddy	欢迎来到 MCEBuddy
+Multichannel audio	多声道音频
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	检查允许多声道音频，如果源视频支持 it.\r\nBy 默认音频仅限于 2 通道 (立体声)。
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	动态范围压缩 （DRC） \r\nWhen 源是 AC3 音频，使刚果民主共和国 will\r\nreduce 响亮和使您有一个多通道的音频录音和 you\r\nfeel 卷是太软，检查此框可能会帮助更多 even.\r\nIf 的音频轨道的 soft\r\nsounds 之间的差异。
+FPS	新鲜粮食店
+Logfile age (days)	日志文件的时间 (天)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	要删除 them.\r\nSet 为 0，以永远保持日志前保留日志文件的天数的最大数目。
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	快速 Remuxing
+Byte stream remuxing	字节流 remuxing
+Disable cropping	禁用裁剪
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	检查此要禁用在 conversion.\r\nCropping 期间自动裁剪视频用于删除"黑酒吧"的视频 （顶部、 底部、 左边或 right).\r\nUse 此选项如果视频图片获取削减对任何一方或最后的图片正在伸展或扭曲。
+Only detect Ads	仅检测到广告
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	如果要 MCEBuddy 检测 (广告) 广告但不是砍从启用此选项的 video.\r\nWhen，MCEBuddy 将创建和转换后的文件，转换后的 video.\r\nAlso，在指定的位置的广告，MP4，一部分为 EDL 文件和文件极东泵 MCEBuddy 将创建章节标记的广告结束，请选中此处。
+Download information	下载信息
+Correction	更正
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	单击此处可正确显示标题和从互联网上强制使用特定的 TVDB 系列 id 或 IMDB 电影 id\r\nto 查找其他元数据。
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	检查此从像一面旗帜文件、 插曲、 季节等节目在互联网上下载的其他信息
+Profile Error	配置文件错误
+Cannot find selected profile in profiles.conf	在 profiles.conf 中找不到所选的配置文件
+Invalid Profile	无效的配置文件
+Please select a valid profile	请选择一个有效的配置文件
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	MCEBuddy 引擎已崩溃。请将 mcebuddy.log 发送给开发人员
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	选择要用于此转换 task\r\nLeave 这个空广告去除使用默认的 Comskip INI 文件的自定义 Comskip INI 文件
+Click to select custom Comskip INI file	单击以选择自定义 Comskip INI 文件
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	选择使用临时文件的文件夹。请确保有足够的空空间 drive.\r\nLeave 这个空以使用默认的 temp 文件夹中的安装文件夹。
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	选择使用的临时文件的文件夹。请确保有足够的空闲空间在 drive.\r\nThis 上重写-> 专家设置页面设置中指定的临时文件夹。
+Click to select temp working folder	单击以选中临时工作文件夹
+Temp folder	临时文件夹
+Space check	空间检查
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	当启用的 MCEBuddy 会检查的足够的空间存放转换 （目的地和 temp).\r\nUncheck 这如果您也有麻烦与网络驱动器或有特大的视频文件。
+MCEBuddy Windows Event Logs	MCEBuddy Windows 事件日志
+Events	事件
+Click here to open the MCEBuddy Windows Event Logs	单击此处打开 MCEBuddy Windows 事件日志
+Enable UPnP	启用 UPnP
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	检查以启用 UPnP。这将允许访问从外面 network.\r\nThis 的 MCEBuddy 引擎需要检查是否您正使用移动/独立的 MCEBuddy 客户端访问 MCEBuddy。
+Click here to connect to another MCEBuddy engine	单击此处可连接到另一个 MCEBuddy 引擎
+MCEBuddy Remote Engine Connection	MCEBuddy 远程引擎连接
+Engine Name	引擎名称
+Engine Port	引擎端口
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	输入的名称或 IP 地址，您想要连接到的 MCEBuddy 引擎
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	输入您想要连接到的 MCEBuddy 引擎的 TCP 端口号
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	输入您想要连接到 （1 到 63355) 的 MCEBuddy 引擎的 TCP 端口号
+Invalid Name/Port	每个端口无效名称
+Please enter a valid Engine Name and Engine Port Number	请输入一个有效的引擎名称和引擎端口号
+Error Stopping Engine	错误停止引擎
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	无法停止 MCEBuddy 引擎，可不保存设置。您要继续吗？
+Unable to communicate with engine. Settings have NOT been saved.	无法与引擎进行通信。尚未保存的设置。
+Communication Error	通信错误
+Engine not stopped. Settings have NOT been saved.	不停的引擎。尚未保存的设置。
+Unable To Save Settings	无法保存设置
+Unable to communicate with engine. UPnP settings have not been updated	无法与引擎进行通信。UPnP 设置未更新
+Audio delay	音频延迟
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	输入一个值，以秒为单位 （正数或负数） 在这里转变与 video.\r\nUse 音频这要重新同步的音频与视频，如果他们是同步后 conversion.\r\nA 正值将延迟 （即前音频视频） 音频和负值将先进的音频 （即前 video).\r\nE.g 音频。-1.5
+Media info	媒体信息
+Click here to get media properties for selected files	单击此处获取所选文件的介质属性
+Save information	保存信息
+Add information	添加信息
+Shows a preview of the custom filename and path	显示自定义文件名和路径的预览
+Invalid Filename Pattern	无效的文件名模式
+TVDB Series ID	TVDB 系列 ID
+IMDB Series ID	IMDB 系列 ID
+Original title	原始的标题
+Corrected title	更正的标题
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	输入您想要使用下载显示使用的 TVDB 系列 ID information.\r\nIf 原标题框是空的这将应用到选定的这一转换任务的所有节目。
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	请输入您想要使用下载电影 information.\r\nIf 原来使用的 IMDB 电影 ID 标题框为空，这将应用到选定的这一转换任务的所有节目。
+Internet Lookup Title and Metadata Correction	互联网查找标题和元数据校正
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	单击此处可添加另一行来匹配和正确的标题和您想要使用的已更正的标题相同或系列 id 为通过此转换任务转换的所有节目系列 id.\r\nIf \r\nleave 原标题为空第一次行和你应该不添加第二行。
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	输入要匹配显示/系列标题的更正 （例如辛普森 * 将取代已开始与辛普森显示标题的所有书名） 模式 \r\nPrefix 模式与 ~ 要跳过这场比赛 （例如 *。 * ； ~ 辛普森 * 将更正所有显示标题，开始与辛普森的除外） \r\nSeparate 多模式 ；(例如辛普森 * ；House*） 或 （例如辛普森 * ；NCIS*; ~ 海军罪案调查处迈阿密 *) \r\n\r\nNOTE： 将此框保留为空如果你想要应用于正在处理的空白此转换 task.\r\nIf 的所有文件的更正的标题或系列 id，您不能添加第二个 row.\r\n\r\nYou 可以使用正则表达式来匹配标题入手 regex:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	请输入您想要使用下载的附加信息使用新/更正的标题从原始 internet.\r\nIf 标题框为空，这将应用到选定的这种转换的所有显示 task.\r\n\r\nYou 可以使用正则表达式通过正则表达式从开始更正标题：
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	对于每一行，请输入要匹配的显示名称和任一经更正原始标题标题或 TVDB/IMDB 系列 ID
+Please enter either a Corrected title or a TVDB/IMDB Series ID	请输入一个经更正标题或 TVDB/IMDB 系列 ID
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	如果您想把已转换的 MCEBuddy 启用此源 directory\r\nif 的目标路径中的文件将不可用。（如网络或映射发生故障）
+Fallback to source path	回退到源路径
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	用来增加或减少量的 the\r\nrecording，而 converting.\r\n1 是正常的任何东西下面将减少它，anything\r\nhigher 会增加它。
+Archive folder	存档文件夹
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	更改存档 folder.\r\nLeave 为空以使用默认的原始目录中的 'MCEBuddyArchive' 文件夹的位置。
+Monitor subdirectories	监视器子目录
+Check this box to also monitor all directories within the Monitor path	选中此复选框，还监测监控路径内的所有目录
+Click here to show MCEBuddy status	单击此处显示 MCEBuddy 状态
+MCEBuddy service not connected	不连接的 MCEBuddy 服务
+MCEBuddy idle	MCEBuddy 空闲
+conversions in progress	进展中的转换
+MCEBuddy stopped	MCEBuddy 已停止
+Sync converted files	将转换后的文件同步
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	如果您想保持转换后的文件同步与原始的 files.\r\ni.e 的 MCEBuddy，请选中此选项。当用户删除原始文件，则相应转换后的文件也是 deleted.\r\n\r\nNOTE： MCEBuddy 只监视监视器位置文件夹中的原始文件，并只虽然发动机是 running.\r\nMCEBuddy 将不能够跟踪用户已删除的文件，而该引擎已停止。
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	您是否要删除每个已转换的文件时的原始文件已被删除的 MCEBuddy?
+Confirm sync conversions?	确认同步转换吗？
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	确实不做您想要删除广告从转换后的视频，只保留 EDL 文件吗?
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer 没有响应。请重新启动系统，或者重新安装 ShowAnalyzer。
+ShowAnalyzer Not Responding	ShowAnalyzer 没有响应
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	请确保您按 '开始' 关闭此窗口后，否则计划和唤醒将不工作。
+Enabling Scheduling and Wake	有利调度和唤醒
+Passwords do not match	密码不匹配
+Password error	密码错误
+Adding subtitles and chapters to file	向文件中添加字幕和章节
+Send eMail if unable to download series information	如果无法下载系列信息，发送电子邮件
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	如果您希望此转换任务仅处理特定监视器 locations.\r\nIf 未选中每个转换任务将进程从所有监视器位置 （包括以后添加新的） 文件中的文件，请选中此框。
+Select Monitor Locations	选择显示器位置。
+Select atleast one Monitor Location name	选择至少一个监视器位置名称
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	您选择了您希望自动处理在将来添加任何新的监视器位置此转换任务的所有当前的监视器 Locations.\r\nDo 吗？
+New monitor locations	新的监视器位置
+Invalid selection	无效的选择
+Channel name match	通道名称匹配
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	输入要匹配此任务 (例如 ABC * 将转换记录在 ABC 从开始的通道名称的所有文件) 的通道名称模式 \r\nPrefix 模式与 ~ 要跳过这场比赛 （例如 * ； ~ ABC * 将处理所有渠道，以 ABC 开头的除外） \r\nSeparate 多模式 ；(例如 ABC * ；TBS*） 或 （例如 ABC * ；Fox*; ~ Fox4 *) \r\n\r\nYou 可以使用正则表达式与模式匹配的正则表达式从开始：
+Clear history	清除历史记录
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	单击此按钮以清除历史记录的所有转换后的 files.\r\nThis 是导致 MCEBuddy 以重组正在监视的所有文件。
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	是否确实要清除所有转换的历史呢？ \r\nThis 将导致 MCEBuddy 以重组正在监视的所有文件。
+Show history	显示历史记录
+Click this button to show the history of all converted files.	单击此按钮可显示所有已转换文件的历史记录。
+History of Converted Files	转换后的文件的历史记录
+Unable to communicate with engine.	无法与引擎进行通信。
+Extracting streams	提取流
+Fallback muxing streams	回退灸法流
+Remuxing TiVO file	Remuxing TiVO 文件
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	请输入您的 10 位 TiVO 麦键转换和处理 TiVO 录制
+Invalid TiVO MAK Key	无效的 TiVO MAK 密钥
+The TiVO MAK key should be 10 digits	TiVO MAK 密钥应该为 10 位数字
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	版本不匹配。请确保在 MCEBuddy 客户端和引擎都运行相同的版本。
+Error retrieving Event Logs	检索事件日志时出错
+Unable to get Event Log Entries from the MCEBuddy engine.	无法获得事件日志条目从 MCEBuddy 引擎。
+PAUSED: Check conversion schedule	已暂停： 检查转换计划
+Logging	日志记录
+Folder Management	文件夹管理
+Processor Management	处理器管理
+Expert Settings	专家设置
+System Settings	系统设置
+Click here to change additional settings (for experts only)	单击此处以更改其他设置 （仅供专家)
+Failed folder	失败的文件夹
+Location of the folder that hold the original files for failed conversions.	存放转换失败的原始文件的文件夹的位置。
+Move original file on failure	移动上失败的原始文件
+Check this to move the original file to a separate folder if the conversion fails.	对此进行检查将原始文件移动到一个单独的文件夹，如果转换失败。
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	对此进行检查下面的 MCEBuddycan use.\r\nEach 复选框对应于可用的逻辑处理器的逻辑处理器的数目限制。
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	每个框表示逻辑处理器从 1 到 16 respectively.\r\nChecking 框中允许使用该处理器的 MCEBuddy。
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	每个框表示逻辑处理器从 17 至 32 respectively.\r\nChecking 框中允许使用该处理器的 MCEBuddy。
+Select atleast one processor to use	选择至少一个处理器使用
+Invalid Configuration	无效的配置
+Comskip path	Comskip 路径
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	如果您想要使用一个自定义版本的 Comkip (例如捐赠版) \r\nthen 输入的 comskip 安装 here.\r\nLeave 留空，使用带有 MCEBuddy 的默认 comskip 的路径。
+Miscellaneous	杂项
+Ignore copy protection	忽略复制保护
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	请检查此项以忽略时 converting.\r\nNOTE 的视频文件的复制保护标志： MCEBuddy 不能绕过加密，这只可以帮助如果一个文件是 incorrectly\r\ntagged 作为复制保护时未加密。
+Use recycle bin	使用回收站
+Check this to use the recycle bin when files are deleted by MCEBuddy	请检查此项可使用回收站，当文件被删除的 MCEBuddy
+Poll period	投票期间
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	这是如何往往 MCEBuddy 扫描监视器任务位置以秒为单位指定新的 files.\r\nThe 间隔。
+Server port	服务器端口
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	这是 MCEBuddy 使用与进行通信启用 UPnP，则远程 engine.\r\nWhen MCEBuddy 将自动添加到 Windows Firewall\r\nand UPnP 网关，允许从这个端口上互联网访问此端口的 TCP 端口。
+Hang period	期内坑
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	输入的 MCEBuddy 将等待从 the\r\nunderlying 的应用程序的响应的秒数之前终止应用程序作为 hung.\r\nEnter 0 来禁用挂起检测。
+Subtitle commercial cut sync	副标题商业剪同步
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	转到逐步同步每个商业段从 video.\r\nThis 设置删除后用来带字幕的字幕回与商业视频切出的 video.\r\nEach 时间同步时使用此参数，字幕是由这个数额 （+ ve 或-ve 以秒为单位） 转移的时间。
+Invalid poll period	无效投票期
+Invalid server port	无效的服务器端口
+eMail Subject Customization	主题自定义的电子邮件
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	此节可自定义电子邮件的主题发送的 MCEBuddy 上使用各种转换事件列出 below.\r\nRefer 的文档，用户定义 variables.\r\ne.g 的自定义命令。显示成功使用任务 %taskname%\r\nnote%showname %文件 %originalfilename%改为： 所有的数据并不总是会在自定义的 commands.\r\nLeave 为空以使用默认的主题行中可用。
+Success	成功
+Failed	失败
+Cancelled	取消
+Download fail	下载失败
+Limit processor utilization	限制处理器利用率
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	请检查这限制的 MCEBuddy 可以 use.\r\nEach 复选框下面的逻辑处理器数对应于可用的逻辑处理器。
+Custom profile	自定义配置文件
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	如果您有一个自定义的 profiles.conf 文件，您想要使用而不是来与 MCEBuddy 的 the\r\none，输入文件 here.\r\n\r\nNOTE 的路径： MCEBuddy 不断更新 profiles.conf 提供 bug 修复、 \r\nenhancements 和性能方面的改进，你将会错过 out\r\non，如果您使用此功能。
+Invalid custom profiles.conf	无效的自定义 profiles.conf
+Suspend on battery	在电池上暂停
+Suspend conversions when the computer switches to battery power	当计算机切换到电池电源时暂停转换
+MCEBuddy added a video conversion to the queue	MCEBuddy 添加到队列的视频转换
+Queue	队列
+Refer to documentation on using custom commands in custom eMail subjects	关于使用自定义的电子邮件主题中的自定义命令文件，请参阅
+Could not copy information to Clipboard, please try again.	无法将信息复制到剪贴板，请再试一次。
+Error copying to Clipboard	复制到剪贴板时出错
+Copy to clipboard	复制到剪贴板
+Reconvert files	汉字重选的文件
+Are you sure you want to reconvert the selected files?	你确定你要重新转换选定的文件？
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	选择您想要重新转换，然后单击此原始文件仍正在监测由他们将排队进行汉字重选的 MCEBuddy 的 button.\r\nIf 的文件。
+Time taken to convert	转换所需的时间
+Network authentication	网络身份验证
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	单击按钮，进入网络共享 credentials.\r\nThis 身份验证使用通过主要的 window\r\nor 上的添加按钮添加文件时拖动，从网络共享放到主窗口上的转换状态框。
+Skip reconversion	跳过汉字重选
+Do not reconvert the video if a converted file already exists in the destination directory.	如果转换后的文件已经存在，目标目录中不重组视频。
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	预期的文件名为转换后的视频 （不原始视频文件名） 相比转换后的文件存在的目的地 directory.\r\nIf 中的文件名，该文件将不复原和它会被认为是成功的 conversion.\r\nThis 很有用如果同样的显示事件正在录制上多次，你不想以重组 them.\r\n\r\nNOTE： 此选项将被忽略为手动使用添加按钮或拖动和删除添加的视频
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	如果启用了，跳过汉字重组还会检查历史记录文件为过去 conversions.\r\nThe 预期文件名转换后视频 （不原始视频文件名） 的，相比历史 file.\r\nIf 中的文件名，将转换后的文件名 （包括路径） 匹配任何历史文件中的已转换文件名 （包括路径）、 \r\nthe 文件将不复原和它将被认为是成功的转换。
+Adding file to the iTunes library	将文件添加到 iTunes 资料库
+Add to iTunes	添加到 iTunes
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	复选此框，将转换后的文件自动添加到 iTunes library.\r\nThis 只适用于 iTunes 支持文件 （如 MP4、 一部分、 MP3 等）
+Adding file to the WMP library	将文件添加到 WMP 库
+Library Management	图书馆管理
+Add to Windows Media Player	添加到 Windows 媒体播放器
+Check this box to automatically add the converted files to the WMP library.	选中此复选框以将转换后的文件自动添加到 WMP 库。
+Renaming and Sorting	重命名和分类
+Selection Filters	选择过滤器
+Audio and Video	音频和视频
+Subtitles and Chapters	字幕和章节
+Skip copying original files	跳过将原始文件复制
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	请检查此框在您自己 RISK.\r\nDO 不检查此框除非你知道你是什么 DOING.\r\nCheck 此框将转换时跳过制作的 （复制） 的原始文件的备份。
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	请检查此框在您自己 RISK.\r\nDO 不复选此框除非你知道你是选中此框可跳过这同时 converting.\r\nIf 制作的 （复制） 的原始文件的备份，在 error.\r\nIt 的情况下，不会保留原始文件的 DOING.\r\nCheck 可以还甚至导致转换失败或其他不可预见的转换问题。
+Are you sure you want to do this?	你确定你要这样做？
+Media Information Management	媒体信息管理
+Force show type	部队放映类型
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	设置此强制治疗，录像作为一部电影或电视 Series.\r\nThis 将改变有关记录的其他信息 （元数据） 从 internet.\r\nMovie 下载-治疗作为 movie\r\nSeries-治疗作为电视 Series\r\nSports 录制录音-治疗的方式作为体育 show\r\nDefault-使用默认可用记录元数据中的信息来确定电影或电视系列节目录制
+Show type	显示类型
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	选择此选项可筛选的录音被 converted.\r\n\r\nMovies 的类型-选择此选项以转换如果显示类型是 Movie.\r\nShows-选择此选项以转换如果显示类型不是 Movie.\r\nSports-选择此选项以转换如果显示类型是 Sports.\r\n\r\nNOTE： 显示类型从一些录音支持录制 metadata.\r\nOnly 中读取显示类型元数据如沃普特 and\r\nrecordings 与支持元数据文件 （XML/ARG 等)。
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	此框中显示的所有文件中的 conversion.\r\nDrag 和拖放文件在这里或按添加按钮，将文件添加到转换队列的队列
+Conversion	转换
+Files	文件
+Click this button to open or close the Advanced Settings section	单击此按钮可打开或关闭高级设置部分
+Running custom commands	运行自定义命令
+Trimming video recording	修剪视频录制
+Insert at top of queue	在队列的顶部插入
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	默认情况下，新的转换添加到选中此框，此任务由添加的任何新的转换将添加到 the\r\nbeginning （顶部） 的转换队列转换 queue.\r\nIf 的底部 （结束）。
+Add subtitles and chapters	添加字幕和章节
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	启用此选项可添加任何提取的字幕和到转换后的 video.\r\nEach 章章标志着一个商业的结束。这只适用于支持的格式 （例如 MKV、 MP4).\r\n\r\nNOTE： 有些球员和旧电视不支持嵌入式的字幕和 chapters.\r\nIf 你找不到播放的转换后的视频，请尝试关闭此选项。
+Select best soundtrack	选择最佳电影配乐
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	如果原始视频有多个原声的此选项将告诉 MCEBuddy 选择你想要的特定语言电影配乐的最适当和最初级的 soundtrack.\r\nIf，请确保您输入的语言名称或代码在音频语言 box.\r\nCheck 此框，如果你听错了电影配乐中您转换后的 file.\r\n\r\nUncheck 此框如果您希望保留原始视频在转换后的文件时可能从所有原声音乐的 MCEBuddy.\r\nNOTE: 某些配置文件不支持多个电影配乐，在这种情况下此设置不起作用。
+Enable remote access	启用远程访问
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	这在 windows 防火墙中为 MCEBuddy 应用程序创建的异常，如果您已启用 windows 防火墙并且想要使用 UPnP，远程 client\r\nor 访问引擎使用 IP address.\r\n\r\nNOTE port.\r\nThis 则需要： 如果你有一个自定义防火墙，这可能不工作，您将需要手动创建 an\r\nexception MCEBuddy 服务和端口。
+Unable to communicate with engine. Firewall exception settings have not been updated.	无法与引擎进行通信。不更新了防火墙例外设置。
+Detect and optimize video quality	检测和优化的视频质量
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	启用时，MCEBuddy 将尝试检测视频源 type.\r\nThis 可以显著改善的转换后的视频质量，如果正确地通过优化的视频处理选项 detected.\r\n\r\nNOTE： 这是通过尝试检测的视频源类型 （隔行扫描，进步或 telecine).\r\nIf 它是能够检测到视频源类型它将重写此选项关闭，如果你正面临问题，转换后的视频质量，或者想要使用的默认配置文件参数 profile.\r\nTurn 中的相应参数。
+Are you sure you want to delete this task?	是否确实要删除此任务?
+Delete Task	删除任务
+Enter the new task name	输入新任务名称
+Rename Task	重命名任务
+MCEBuddy PAUSED	MCEBuddy 已暂停
+idle	空闲
+PAUSED	暂停
+Frame rate	帧速率
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	启用此设置自定义的帧速率 (FPS) 为转换后的 video.\r\nYou 可能需要设置此转换视频格式 (例如对 NTSC PAL) \r\nor 的设备的支持时: 25\r\nE.g.: 30000/1001年仅特定 framerates.\r\n\r\nE.g。
+Skip remuxing files	跳过 remuxing 的文件
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	请检查此框在您自己 RISK.\r\nDO 不复选此框除非你知道你想要什么 DOING.\r\nCheck 此框跳到 TS 文件同时选中此选项的 converting.\r\nIf 的 remuxing 的原始文件、 像字幕提取或 comskip 的某些功能可能不 work.\r\nIt 可以还甚至导致转换失败或其他不可预见的转换问题。
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	请检查此框在您自己 RISK.\r\nDO 不检查此框除非你知道你是什么 DOING.\r\nCheck 此框跳到 TS 文件在转换时的 remuxing 的原始文件。
+Monitor converted videos	监测转换的视频
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	默认情况下监视器位置将忽略文件已经被 converted.\r\nCheck 此框如果你还想要监视在监视器 Path.\r\nCAUTION 转换后的文件： 这可能会导致转换后的文件无限转换循环，如果不是你是作为监视器显示器位置的路径指定的输出目录的转换 task\r\n （转换后的文件） 和链接 the\r\nMonitor 时，配置的 properly.\r\n\r\nThis 可以很有用到另一个转换任务的位置。
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	检查此框在您自己 RISK.\r\nDO 不检查此框除非你知道你是什么 DOING.\r\nBy 默认监视器位置将忽略文件已经被 converted.\r\nCheck 此框，如果你还想要监视的监视器路径中转换后的文件。
+Hardware encoding	硬件编码
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	请检查此框可以使用硬件编码时可用来转换 videos.\r\nThis 可以大大加快转换和减少 CPU utilization\r\nbut 它可以导致稍低质量 videos.\r\n\r\nUncheck 这框如果你面对的转换或质量问题。
+Do not overwrite files	不会覆盖文件
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	选中此框后，如果它已经使用一个唯一的编号将创建的 exists.\r\nInstead 一个新文件添加到文件名的末尾不会覆盖目标文件。
+Re-monitor recorded videos	重新监视录制的视频
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	默认情况下，一旦已转换源文件 （视频记录），\r\nthe 显示器历史将跟踪的文件名和不相同的文件 again.\r\n\r\nEnable 队列此选项可忽略历史和监测所有文件并将它们添加 to\r\nthe 转换队列，即使他们已经过有时可有用 converted.\r\n\r\nThis如果刻录软件不会生成 a\r\nunique 文件名为每个的一集节目。它是建议 the\r\nDelete 原始文件选项在设置页中使用时要使用此选项可 avoid\r\nan 无限转换循环。
+Recommendation	建议
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	为了避免无限转换循环，它被建议安装方式如您显示器的搜索模式，确保转换后的文件不被此监视器任务进行监测。
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	如果您想要更改重新监视和重组录制的视频，检查此框在您自己的 RISK.\r\nDO 不检查此框除非你知道你是什么 DOING.\r\nBy 默认监视器位置将不更改重新监视录得了 processed.\r\nCheck 的视频此框。
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	为了避免无限转换循环，建议您启用删除原始的文件选项，在设置页中。
+Prioritize air date matching	确定优先次序空气日期匹配
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy 使用的插曲名称匹配在互联网上寻找系列 information\r\nwhile。如果失败然后它使用 broadcast\r\nair 的原始日期进行匹配的 metadata.\r\n\r\nCheck 此框，第一次使用的原始广播的播出日期，然后 the\r\nepisode 从 internet.\r\nThis 系列信息匹配的名称可以在某些情况下非常有用时多个季节有 same\r\nepisode 的名称。例如美国偶像海选 1\r\n\r\nNOTE： 原始广播的播出日期并不总是准确设置的 the\r\nbroadcaster 和互联网上的信息有时是的 incorrect.\r\nUse 此选项仅当默认的选项不为你工作。
+Skip eMail body	跳过电子邮件正文
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	请检查此选项可在通知 eMail.\r\nThis 中使用一个空的机构可以是有用的如果您使用 SMS 网关的电子邮件通知。
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	选择基于数字权利管理 (DRM) 是 available\r\nonly 时不进行转换，重命名 (重命名和移动只) 选项仅选择文件有哪些副本 protected\r\nUnprotected selected.\r\n\r\nAll-选择所有文件进行处理，无论复制保护 status\r\nProtected--只能选择，并不具有复制保护的文件
+Download cover art	下载封面艺术
+Enable this to download the cover art from the original video and internet if available.	启用此下载封面艺术从原始视频和互联网，如果可用。
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	你是你想要输入一个域名吗？ \r\n\r\nUse 这只有如果你使用 Windows 域控制器来管理您的 authentication.\r\nDo 不使用此如果你是 Workgroup.\r\n\r\nIf 的一部分你号是不能确定单击
+Configuration Warning	配置警告
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	创建一个文件夹，叫做 'MCEBuddyArchive' located\r\nand 移动此目录中的原始文件后成功 conversion.\r\n\r\nThis 文件夹名称和位置在下面更改原始文件在哪里。
+Monitoring	监测
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	如果您想要该 EDL 文件转换的章节，请务必检查专家设置中的添加字幕和章的选项。
+EDL to Chapters	EDL 的章节

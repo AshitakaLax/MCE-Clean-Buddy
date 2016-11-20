@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy pa itilize utilisateur connecté aktyèlman nan la pou li konekte pou rezo aksyon li, li itilize pwòp compte sèvis.  Asire w pou spécifier connexion utilisateur enfòmasyon (MCEBuddy ak yon kle icône)
+Connection Reminder	Connexion èd
+Description	Dekri teren
+Path	Ti chemen
+is invalid	non
+Invalid Path	Accès non
+Please supply a task name	Souple, founi yon non tâche
+No name supplied	Pa rele apwovizyone
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	Souple rantre nan kòd lang 3 chif de Suivi odyo ou sélectionnez, <Default>ou <Original>
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	3 Chif ISO kòd pou sélectionné language\r\nMake si ke sa à kòd lang pou a adyo Suivi nan a orijinal recording.\r\nTo manje kòd lang pou adyo tren yo nan orijinal anrejistre fichier, ajoute la file\r\nto tche a ak dwa Sur sou li. Pete yon leve fennèt yo ap louvri montre odyo a details\r\nwhich inclure codes lang yo pou chak adyo Suivi.
+Invalid Language Code	Non kòd lang
+No destination directory provided, converted file will be placed in original video directory	Anyè destinasyon pa te bay, fichier seri ap mete l ' nan anyè vidéo orijinal
+A task name or section	Yon tâche non ou seksyon
+already exists\n\rPlease use another name	deja exists\n\rPlease itilize yon lòt non
+Duplicate Name	Non en
+Engine	Motè
+Tasks	Tach
+Profile	Wofil
+disposing	se
+Task name	Tâche non
+Give a unique name to this task	Rele yon inik pou travay sa a
+Gives a short description for the selection conversion profile	Bay yon kout dekri teren pou chwazi wofil konvèsyon
+Click to select destination folder	Sur pou yo chwazi destinasyon Katab
+Destination	Destinasyon
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	Fè chwa anyè a ki kote en dokiman an pral placed.\r\nLeave sa a vid pou kenbe en dokiman an nan menm anyè a kòm orijinal la vidéo.
+Max width	Max lajè
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	Sa pwal limite a yon maksimòm lajè (nan pixels) de videyo pou seri file.\r\nTIP: pa aplike si orijinal fichier ki lajè yon pi piti pase number.\r\nIf sa a, nou vle kenbe mouvman vidéo rezolisyon orijinal curseur a nèt pou dwa.
+Quality	Kalite
+Ad remover	Suppression piblisite
+None	Aucun
+Get series details from Internet	Pran seri detay nan entènèt
+Download additional details about the movie or series from the internet	Rale dosye plis detay sou fim ou nan seri de entènèt la
+File name match	Fichier non à
+Recording title match	Albòm li ki anrejistre Tit à
+Cancel	Anile
+OK	Oke
+Rename without converting	Bay yon lòt non san conversion
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	Tcheke opsyon sa a pou sèlman bay yon lòt non ak copie les fichiers orijinal la folder.\r\nWhen destinasyon pou tcheke, konvèsyon, limitation, odyo/videyo otomatik Et suppression komèsyal pa pwal available.\r\n\r\nNOTE: lòt fonctions tankou asòti filtres, extraction sous-titres, enregistrement métadonnées Et \r\nwill komèsyal détection (enregistrement fichier EDL) toujou ap disponib ak yon opsyon checked.\r\nIf sa a ou vle pou avanse pou olye de kopi, tcheke Passer la copie orijinal chwa nan Paramètres ekspè nan sa a paj ou select\r\nDelete orijinal dosye ki nan paj paramètres pwensipal la.
+Rename and sort by video information	Bay yon lòt non ak tri par enfòmasyon sou videyo kamera
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	Renomme en dokiman an ak bouk li nan yon nouvo anyè selon enfòmasyon cho/seri lè available\r\n (pa egzanp lè w ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	Antre D' ak modpas nan dossiers dwa antre nan tèren ki sou yon lecteur rezo ou yon òdinatè diferan
+Organize by seasons	Òganize pa sezon
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	Òganize dossiers pa Showname Et Saison lè disponib (medya sant/XBMC/Plex konpatib D' konvansyon) \r\n (pa egzanp lè w Showname\\Season XX\\SXXEYY-Épisode non)
+Audio language	Adyo lang
+Advanced Settings	Paramètres avanse
+General Settings	Paramètres jeneral
+Conversion Task	Tâche konvèsyon
+Password	Modpas
+Confirm Password	Konfime modpas
+Domain / computer name	Domèn / non konpitè
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	Entrez <Optional>si à lecteur òdinatè ou rezo yo itilize yon domèn pou authentication.\r\nDo pa antre de ou isit la. Kite sa yo blanch si w ap itilize yon de.
+User name	Utilisateur non
+Enter the username to access the remote computer or network drive	Antre D' pou accès a à òdinatè ou rezo lecteur
+Enter the password to access the remote computer or network drive	Antre modpas pou accès a à òdinatè ou rezo lecteur
+Network Connection User Credentials	Rezo koneksyon D' Utilisateur
+Password Mismatch	Modpas ne
+Passwords do not match, please reenter the passwords	Modpas pa à, souple à modpas
+Hour	Heure
+Minute	Minit
+Wake	Reveye
+Start	Kòmanse
+Resume	Vite
+Pause	Pause
+Stop	Rete
+Language	Lang
+Pause conversion tasks	Pause konvèsyon travay
+Resume conversion tasks	Vite konvèsyon travay
+Please enter a valid time	Souple antre nan yon tan valab
+Invalid Time	Pas tan
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	Rete heure se kòmansman tan apre. En rete anvan lontan tout bagay pandan jou kap vini a, èske sa kòrèk?
+Time Check	Temps separe, chèk separe
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	Sèlman chwazi opsyon sa a si MCEBuddy ki te conversion lime ou fiable pou yon peryòd akseptab pou tan. Èske ou swete MCEBuddy pou retire fichier orijinal chak yon fwa ke li te en?
+Confirm delete originals?	Konfime supprimer orijinal?
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy pwal monitè répertoires sa yo pou sou videyo kamera lime pou kouvri otomatikman
+Conversion tasks	Travay konvèsyon
+Delete original file	Retire orijinal fichier
+Deletes the original recording after a successful conversion	Supprime orijinal enregistrement apwè yon siksè konvèsyon
+Min age before conversion (hours)	Min laj anvan konvèsyon (heures)
+Minimum hours to wait before converting each file after the file is added to the queue	Èdtan minimòm pou ret tann devan conversion fichier chak apwè dokiman an te ajoute pou tche a
+Use this to change the language of the text on the screen	Itilize sa pou chanje lang tèks sou ekran a
+Concurrent conversions	Conversions konkouran
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	Nombre de conversions simultanée, MCEBuddy, ki kapab start\r\nNOTE: ou pa bezwen gwo montants de wikipédia plak zo rèldo tan gen plas ak prosesè an pou plis pase 2 conversions simultanée
+Logging level	Enregistrement nivo
+Error	Erreur
+Warning	Avètisman
+Information	Enfòmasyon
+Debug	Déboguer
+Log conversion jobs	Journal travay konvèsyon
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	Mete sou kote yon lim boutèy demi lit pou chak konvèsyon nan \'logs\ a ' anyè kote ki kote MCEBuddy ye installed\r\n (pa egzanp lè w C:\\Program Files\\MCEBuddy2x\\logs)
+Allow sleep	Pèmèt dòmi
+If unchecked, it prevents the system from entering sleep while converting	Si non, li fè sistèm a de k ap antre nan dòmi pandan conversion
+Stop at	Kanpe nan
+No new conversions would be started after this time	Nouvo conversions pa ta te kòmanse apwè tan sa a
+minute	minit
+hour	heure
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	Si tcheke MCEBuddy ap veye sistèm lan nan sleep\r\nat lè kòmanse Pwogram leta a Et pèmèt jou nan semèn nan.
+Start at	Kòmanse nan
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy ap kòmanse nouvo conversions ant kòmansman Et Arrêter time.\r\n\r\nThe kòmanse lè yo gen pou itilize activé jou nan semèn nan, whereas\r\nthe, fin n' ap rete te itilize soit pou or\r\nfor jou menm jou kap vini a si lè mouri a se apre lè kòmanse a.
+Delete	Efase
+Add	Ajoute
+Change	Chanjman
+Archive original file	Fichier orijinal achiv yo
+Domain name	Domèn non
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	S' travay ki monitè kè bebe Et konvèsyon Et s' yon paj pou configure MCEBuddy
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	Kreye yon Katab ki te rele \'MCEBuddyArchive\' kote dokiman orijinal an se located\r\nand deplase fichier repwezante lide orijinal nan anyè sa a apwè yon siksè conversion.\r\n\r\nThis Katab non w ak kote fè lide nan paj sistèm Paramètres.
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	Déboguer - detaye journaux, ede mak konvèsyon problems\r\nInformation - journaux enfòmasyon debaz sou conversion\r\nWarning - journal potansyèl Questions ou kritik echèk only\r\nError - journal kritik echèk sèlman
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	Fè chwa wofil konvèsyon ki asosye ak travay sa a. Wofil konvèsyon a repwezante sortie fòma ak bon kalite, pou kalite seri file.\r\nHigher conversions pran plis tan pou kouvri. Defo Reccomended: MP4 anwo nan syèl la bon kalite ou MP4 Normal.\r\n\r\nTIP: refere pou MCEBuddy gid sa a pou avanse paramètres pou tweak konvèsyon Des ou pou kreye kont ou Des konvèsyon
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	Chwazi pwogram lan ki MCEBuddy pwal itilize pou Gaza publicitaires tout pandan conversion a video.\r\nSet pou 'Aucune' pou yo kite publicitaires yo nan video.\r\n\r\nTIP en a, pou yo sèvi ak ShowAnalyzer olye de Comskip, souple desann ak enstale Analyzer ShowAnalyzer.\r\nShow vèsyon pipiti de youn 1.0 Et plus en.
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	Te itilize pou chanje vidéo kalite a seri fichier, nòmal se nombre plus 1.\r\nA ap amelyore bon kalite, men pral pran plis tan pou nombre plus conversion.\r\nA ap vin pi piti a bon kalite men pi vit konvèsyon a.
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Rantre nan gen fòm pou n konpare noms pou travay sa a (par *.wtv pral kouvri tout fichiers se avèk .wtv)\r\nPrefix pa gen fòm ak èdi/chit cheve mande pou sote à la (pa egzanp lè w *. *, ~*.wtv ap travay tout fichiers esepte sa yo se .wtv)\r\nSeparate ak plizyè modèles ak, (pa egzanp lè w *.wtv, * ncis, èdi/chit cheve Miyami ncis *) ap travay tout .wtv fichiers Et tout fichiers konmanse ak ncis men pa moun ta kòmanse avèk ncis miami\r\n\r\nYou kapab itilize ekspresyon regilye pou n konpare modèle a pa ta kòmanse avèk regex:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Antre siy pou à afficher/seri titres pou travay sa a (pa egzanp lè w Simpson * pral kouvri tout fichiers ki gen yon demonstrasyon Tit konmanse ak Simpson) \r\nPrefix pa gen fòm ak èdi/chit cheve mande pou sote match la (pa egzanp lè w *, èdi/chit cheve Simpson * ap travay tout titres afficher esepte sa yo ki te kòmanse avèk Simpson) \r\nSeparate plusieurs modèles ak, (pa egzanp lè w Simpson *,House*) ou (pa egzanp lè w Simpson *,NCIS*, èdi/chit cheve Miyami NCIS *) \r\n\r\nYou sa kapab itilize ekspresyon regilye pou n konpare modèle a pa ta kòmanse avèk regex:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	Sa ka sèvi pou remplacer la defo adyo lang lè genyen plizyè lang adyo nan yon pran recording.\r\nTo lis adyo lang yo nan yon albòm li ki anrejistre, dwa Sur nan dosye a ki nan tche a epi chwazi MediaInfo.\r\n\r\n <Default>ap bat pou pa tout tren adyo si en ou kite encoder a chwazi a defo adyo track\r\n <Original>, si disponib, pwal itilize orijinal lang enregistrement [ki pa-appelé]
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	Rantre nan '[vidéo]' ou kite vid pou kouvri tout motif vidéo files\r\nEnter pou n konpare noms pou kote sa a (par *.wtv pral kouvri tout sispann mete fen ak .wtv)\r\nprefix pa gen fòm ak èdi/chit cheve mande pou sote à la (pa egzanp lè w *. *, ~*.wtv ap travay tout sispann esepte sa yo se .wtv)\r\nseparate ak plizyè modèles ak, (pa egzanp lè w *.wtv, ncis *, èdi/chit cheve Miyami ncis *) ap travay tout sispann .wtv Et sispann tout, ta kòmanse avèk ncis men pa moun ta kòmanse avèk ncis Miyami
+MCEBuddy Settings	Paramètres MCEBuddy
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy pa itilize utilisateur connecté aktyèlman nan la pou li konekte pou rezo aksyon li, li itilize pwòp compte sèvis.  Asire w pou spécifier connexion utilisateur enfòmasyon [MCEBuddy ak yon kle icône]
+Please supply a source name	Souple, founi yon non sous
+Please supply a search path name	Souple, founi yon non D' recherche
+A source name or section	Yon sous non ou seksyon
+already exists. Please use another name	existe deja. Souple sèvi ak yon lòt non
+Monitor name	Non ki monitè kè bebe
+Give this a location a unique name	Fè sa yon kote yon inik non
+Monitor path	D' ki monitè kè bebe
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	Fè chwa anyè ki MCEBuddy pwal monitè nan aryè pou nouvo vidéo lime pou kouvri otomatikman
+Click to select the folder to monitor	Sur pou yo chwazi Katab pou kontwole
+Search pattern	Recherche modèle
+SourceForm	SourceForm
+Monitor Location	Kote ki monitè kè bebe
+Normal	Nòmal
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy Utilisateur: pipeProxy motè connexion erreur
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy Utilisateur: Pat kapab kreye fif pou sèvis MCEBuddy
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	Sèvis MCEBuddy la fin. Souple kòmanse nan fennèt kontwòl panneau ou tcheke motè kouche.
+Announcement	Anonsman
+New version 	Nouvo vèsyon pipiti de youn 
+available	disponib
+New BETA version 	Nouvo BÊTA vèsyon 
+Click here to download new version of MCEBuddy	Cliquez ici pou rale dosye vèsyon nouvo de MCEBuddy
+Click here to open link	Cliquez ici pou louvri lyen
+Idle	Flanen
+Closing	Fèmen
+MCEBuddy GUI: Unable to update tasks	MCEBuddy Utilisateur: Pas à travay
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy Utilisateur: Pat kapab kòmanse sèvis MCEBuddy
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy Utilisateur: Pa te kapab stope MCEBuddy sèvis
+MCEBuddy GUI: Unable to cancel job	MCEBuddy Utilisateur: Pas annuler travay
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	Avètisman an: Sispann en Sera être accessible itilize D' ouverture de sèvis MCEBuddy la, pa la kounye a ouvert sou utilisateur. Ou kapab lamen indiquer D' rezo dans les Paramètres-> ekspè Paramètres paj nan MCEBuddy.
+Credential Warning	Avètisman ak
+Status	Estati
+MCEBuddy GUI: Unable to add job	MCEBuddy Utilisateur: Pat kapab ajoute travay
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy Utilisateur: Pat kapab jwenn estati aktif tiyo
+The conversions must be stopped to change settings. Stop the conversions?	Conversions yo dwe sispann pou chanje paramètres. Stop Stop @ estope conversions yo?
+Stop Engine	Sispann! / rete motè
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy Utilisateur: Pa te kapab stope sèvis MCEBuddy de paramètres Sur
+MCEBuddy GUI: Unable to rescan files	MCEBuddy Utilisateur: Pas une lime
+MCEBuddy GUI: Unable to open link	MCEBuddy Utilisateur: Pat kapab louvri lyen
+Close	Fèmen
+Close this window, MCEBuddy will keep running in the background	Fèmen fennèt sa a, MCEBuddy ap fè kouri nan aryè
+If you like MCEBuddy, please click here to Donate - THANKS	Si ou renmen MCEBuddy, souple cliquez ici pou Donate - MÈSI.
+Click here to like MCEBuddy on facebook	Cliquez ici renmen MCEBuddy sou facebook
+Click here to open MCEBuddy website	Cliquez ici pou louvri nan sit entènèt MCEBuddy
+Rescan	Analyse
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	Fòs MCEBuddy pou vérifier kote ki monitè kè bebe yo pou nouvo vidéo lime pou kouvri
+Monitor locations	Kote yo ye ki monitè kè bebe
+Settings	Paramètres
+Select the file(s) in the queue to delete	Fè chwa (la nan tche pou retire
+Manually add video file(s) to the queue to convert	Lamen ajoute vidéo (tche pou kouvri
+Start the MCEBuddy monitor and conversion tasks	Kòmanse MCEBuddy ki monitè kè bebe ak konvèsyon travay
+Stop the MCEBuddy monitor and conversion tasks	Sispann! / rete MCEBuddy ki monitè kè bebe ak konvèsyon travay
+There is a new version!	La se yon vèsyon nouvo!
+High	Anwo nan syèl la
+Low	Ba
+Priority	Priyorite
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	Anwo nan syèl la priyorite - konvèti lwa men ka fè lòt aplikasyon pou kouri priyorite unresponsive\r\nLow - konvèti nan jan nou koumanse men entèferans diminye ak lòt aplikasyon pou kouri
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	Yon, ke devwa li se yon modèle konvèsyon ki gen ladann yon wofil konvèsyon ak plizyè lòt konvèsyon parameters.\r\nEach fichier te ajoute pou tche a va être trete ak en par chak nan sa yo tasks.\r\nRefer pou MCEBuddy gid sa a pou plis detay sou kijan travay travay.
+Getting started	Comment te kòmanse
+Click here for MCEBuddy guide	Cliquez ici pou gid MCEBuddy
+Logs	Journaux
+Click to open log folder	Sur pou ouvwi boutèy demi lit Katab
+MCEBuddy Status	Kondisyon MCEBuddy
+add	ajoute
+delete	efase
+paypal-donate	paypal-bay
+stop	Rete
+OUTPUT: ConsoleOuput received NULL data	RÉSULTAT: ConsoleOuput te resevwa NULL done
+hours	heures
+minutes	minit
+second	dezyèm
+seconds	secondes
+Starting	Kòmanse
+Comskip advertisement scan - Pass 1	Comskip piblisite detaye - 1 pase
+Comskip advertisement scan - Pass 2	Comskip piblisite detaye - pase 2
+Cutting commercials from video	Coupe publicitaires de videyo
+Cutting commercials from video - segment 	Piblisite découpe de videyo - segment 
+Merging commercial free segments into new video	Fusion komèsyal segments gratis nan nouvo nan videyo
+Moving converted file to destination	Fè seri fichier pou destinasyon
+Checking for disk space	Tyeke pou plas plak zo rèldo
+Getting show information and banner from Internet sources	Route afficher enfòmasyon ak banyè de entènèt sous
+Copying source file to working directory	Copie fichier sous pou travay anyè
+Remuxing recording	Remuxing albòm li ki anrejistre
+ShowAnalyzer advertisement scan	Analyse piblisite ShowAnalyzer
+Comskip advertisement scan	Analyse piblisite Comskip
+Analyzing video information	Analyse enfòmasyon sou videyo kamera
+Converting	Conversion
+Removing commercials	Fen piblisite
+Writing show information	Ekri montre enfòmasyon
+Renaming file using show information	Du fichier itilize enfòmasyon afficher
+Success - All done!	Siksè - tout fè!
+Muxing streams	Flux Muxing
+Fallback remux	Secours remux
+Correcting audio delay	Correction adyo delè
+Converting video file - Pass 1	Conversion fichier vidéo - 1 pase
+Converting video file - Pass 2	Conversion fichier vidéo - pase 2
+Converting video file	Conversion fichier vidéo
+Audio Track	Adyo Suivi
+Impaired	Onmaje
+Channels	Chèn televizyon
+Codec	Codec
+Video	Videyo
+Duration	Durée
+Height	Wotè
+Width	Ajè
+Audio	Odyo
+Name	fe-apel
+Subtitle	Sous-titre
+Volume	Volim
+Enable custom file renaming	Pèmèt personnalisé fichier rebay
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	Pèmèt sa a pou antre nan yon siy personnalisé pou bay yon lòt non en sispann Et dossiers. Rantre nan personnalisé fòm nan a bwat below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S % sezon %, ##E % épisode % ##-% episodename % - %airyear%_%airmonth%_%airday%\r\n\r\nWill produire: \r\nTVShows\CSI\Season 1\CSI - S01E02 - pi bon de fwa - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produire (pou al wè on fim) \r\n Recording\Movies\Star en lagè san rete. <ext>\r\nOR (pou sinema ki pa) \r\n Recording\TVShows\CSI\Season 1\CSI - S01E02-en.\r\n\r\nRefer <ext>pou MCEBuddy a avanse dokiman pou yon lis de tout modèle commandes.
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	ShowAnalyzer ke yo pa jwenn. \nPlease desann ak enstale ShowAnalyzer.
+ShowAnalyzer Missing	Pa wè ShowAnalyzer
+Invalid language code, reverting to <Default> language	Lang non kòd, retour pou <Default>lang
+Cut start	Koupe kòmanse
+Cut end	Koupe fin
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	Sa indique kantite segond koupe depi nan konmansman an albòm li ki anrejistre (DEVAN yo retire les annonces)
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	Sa indique kantite segond koupe de la fin de la albòm li ki anrejistre (DEVAN yo retire les annonces)
+Send an eMail after each conversion.	Voye yon kouryèll apre chak konvèsyon.
+Send eMail	Voye kouryèll
+SMTP Server Name	Sèvè SMTP non
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	Antre an sòtan kouryèll (SMTP) sèvè adrès ou here\r\ne.g. smtp.gmail.com
+Port	Pò
+Enter the SMTP server port	Antre nan pò sèvè SMTP
+Use SSL	Utiliser SSL
+Check this if you SMTP server uses SSL	Tcheke sa si ou SMTP sèvè itilize SSL
+e-Mail Settings	Paramètres lèt elektwonik
+From <e-Mail>	De <e-Mail>
+Enter the senders (From) eMail address here	Antre les expéditeurs (de) kouryèll adrès isit la
+To <e-Mails>	Pou <e-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	Antre destinataires (&lt; &lt; ekri adrès here.\r\nSeparate miltip destinataires ak yon pwenvigil (;) V)
+Send eMail on successful conversion	Voye kouryèll sou siksè konvèsyon
+Send eMail on failed conversion	Voye kouryèll sou failed konvèsyon
+Send eMail on cancelled conversion	Voye kouryèll sou konvèsyon ranvwaye, nou ranvwaye
+Send eMail on adding a conversion to the queue	Voye kouryèll sou yo pandan l ajoute yon konvèsyon pou tche a
+Please enter a valid server address	Souple rantre nan yon adrès sèvè valab
+Invalid SMTP Server	Sèvè SMTP non
+Please enter a valid server port	Souple rantre nan yon pò sèvè valab
+Invalid SMTP Port	Pò SMTP non
+Please enter a valid From eMail address	Souple antre yon valab de kouryèll adrès
+Invalid eMail Address	Mel non, adrès
+Please enter valid To eMail addresses	Souple antre valab pou &lt; &lt; ekri adrès
+Username	D'
+<Optional> Enter the username for the eMail server authentication	Entrez <Optional>D' pou D' sèvè kouryèll
+<Optional> Enter the password for the eMail server authentication	Entrez <Optional>modpas pou D' sèvè kouryèll
+MCEBuddy unable to download series information	MCEBuddy pa t ' rale dosye seri enfòmasyon kapab
+MCEBuddy successfully converted a video	MCEBuddy siksè te transfòme yon videyo
+Source Video	Videyo sous
+Converted Video	Seri videyo
+Converted At	En nan
+MCEBuddy failed to converted a video	MCEBuddy ki te echwe pou te transfòme yon videyo
+Failed At	Echwe nan
+MCEBuddy cancelled a video conversion	MCEBuddy te anile yon konvèsyon sou videyo kamera
+Cancelled At	Anile nan
+Working	Travay
+Test	Tès
+Testing	Sonde
+Click this button to test the eMail server settings	Sur sa a bouton teste paramètres sèvè kouryèll
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy ap voye yon kouryèll pou tès nan settings.\r\nThis sèvè prendre (60 seconds.\r\nMCEBuddy pou kapab sou blòk glas pandan tan sa a.
+Test eMail	Tès kouryèll
+MCEBuddy Test eMail	Mel tès MCEBuddy
+MCEBuddy - Have a great day!	MCEBuddy - gen yon gwo jou!
+Send eMail test successful	Voye kouryèll tès siksè
+Send eMail test failed! Please check your settings and internet connectivity	Voye kouryèll tès ki echwe! Tanpri, tchyeke paramètres ou ak entènèt la connectivité
+Test eMail Success	Mel tès siksè
+Test eMail Failed	Mel tès Failed
+Send eMail on start of conversion	Voye kouryèll sou début de konvèsyon
+MCEBuddy started a video conversion	MCEBuddy te kòmanse yon konvèsyon sou videyo kamera
+Conversion Started At	Konvèsyon te kòmanse nan
+Yes (Comskip)	Wi, (Comskip)
+Yes (ShowAnalyzer)	Wi, (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	Yon sèl Tâche konvèsyon nan au être dwe pèmèt
+Disable	Rann enfim
+Enable	Pèmèt
+Rename	Bay yon lòt non
+Move	Fe mouvman
+Up	Leve
+Down	Desann
+Slow Remuxing	Pa rapid Remuxing
+Extracting closed captions	Légendes fermé extraction
+Validating closed captions	Légendes fermé validation
+Extracting subtitles	Extraction sous-titres
+Trimming closed captions	Légendes limitation fèmen
+Extract subtitles and closed captions	Extrait sous-titres Et légendes fèmen pòt
+Field	Jaden
+Channel	Kanal
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	Pèmèt sa a pou retire fèmen Légendes, sous-titres Et Télétexte from\r\nWTV, DVR-Madanm, TS, MP4, MKV Et files.\r\n\r\nIt en lòt sove kòm yon fichier sous-titre (SRT).
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	Pèmèt sa a pou li tabli avanse posiblite pou fèmen Légendes extraction\r\nField - 1 ou 2\r\nChannel - 1 ou 2\r\n\r\nDefault: 1 jaden, chanèl 1
+Subtitle offset	Metòd enpresyon sous-titre
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	Antre nombre secondes (+ ve / - ve) pou ajiste a sync sous-titres ak videyo
+Re-ReMuxing due to audio error	La ReMuxing-pou tèt adyo erreur
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	Mete sou kote a afich Et montre enfòmasyon (métadonnées) nan yon MC/XBMC konpatib NFO fichier (XML fòma)
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	Tcheke bwat sa a pou sove a enfòmasyon afficher (métadonnées) nan file.\r\nThis en a sèlman fè sa pou fichiers ki sipòte métadonnées baj tankou MP4, MKV, WTV etc.\r\n\r\nNOTE: Désactivez bwat sa a si ou ap fè fas a kesyon ak kèk materyèl tankou pi gran téléviseurs ki te gen pwoblèm lekti métadonnées.
+Atleast one day of the week must be enabled	Au yon sèl jou nan semèn sa a se pou ka pèmèt
+Invalid Days of Week	Non jou nan de semèn
+Invalid day of week found in configuration file	Non jou nan semèn ki te twouve nan configuration fichier
+Scheduling	Orè
+Remuxing to	Remuxing pou
+Part	Pati
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	Lòt sourit ou sou yon bouton, Bwat osinon yon atik pou jwenn èd Instant sou it.\n\nFor plis enfòmasyon sou kouman pou itilize, résoudre ou jwenn sipò pou MCEBuddy Sur sou < Pou te Kòmanse ou > lyen sou a corner.\n\nDonations an tèt dwat li toujou Me :) Jwi! \n\n - Ramit, Derek, & Zwa
+Welcome to MCEBuddy	Byenveni nan MCEBuddy
+Multichannel audio	Odyo multicouche
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	Tyeke pou pèmèt multiples odyo si videyo sous la sipòte it.\r\nBy defo odyo a te limite pou 2 chèn televizyon (stéréo).
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	Gamme dynamique konpwesyon (RDC) \r\nWhen sous la se yon, AC3 odyo qui diferans ant a byen fò e soft\r\nsounds la fè a adyo total plis even.\r\nIf ou genyen yon multiples enregistrement adyo ak you\r\nfeel volim twò lou, Tyeke bwat sa a ki te ka ede, will\r\nreduce RDC.
+FPS	I
+Logfile age (days)	Logfile a laj (jou)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	Maksimòm kantite jou pou kenbe fichiers la devan efase them.\r\nSet pou 0 pou kenbe journaux yo la pou toutan.
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	Remuxing vit
+Byte stream remuxing	Octets ravin remuxing
+Disable cropping	Désactiver découpage
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	Tcheke sa a pou yo rann enfim découpage videyo a otomatikman pandan conversion.\r\nCropping ki itilize pou retire "barres nwa" nan videyo (sou tèt, bounda bough @ branch, bò gòch ou right).\r\nUse opsyon sa a si vidéo foto an pou koupe sou okenn kote ou si dènye foto an ap kouche ou defòme.
+Only detect Ads	Sèlman pou detekte Annonces
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	Tcheke sa a si ou vle MCEBuddy pou detekte les annonces (publicitaires) men pa koupe yo de a video.\r\nWhen opsyon sa a pèmèt, MCEBuddy pwal kreye yon EDL fichier ansanm ak en fichier indique lokasyon yo an plen mete nan video.\r\nAlso en a, pou MP4, M4V Et MCEBuddy, sispann MKV pwal kreye retrè pou make finisman publicitaires.
+Download information	Rale dosye enfòmasyon
+Correction	Koreksyon
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	Cliquez ici pou korije Tit Afficher Et fòse itilize yon espesifik didantite seri TVDB ou IMDB fim id\r\nto recherche supplémentaires métadonnées a sou entènèt.
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	Tcheke sa a pou rale dosye plis enfòmasyon sou entènèt osijè de cho an te tankou yon bannière fichier, épisode, sezon ets
+Profile Error	Wofil Erreur
+Cannot find selected profile in profiles.conf	Pa ka jwenn sélectionné wofil nan profiles.conf
+Invalid Profile	Wofil non
+Please select a valid profile	Tanpri, chwazi yon bon wofil
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	Motè MCEBuddy a ki te fè aksidan. Tanpri voye mcebuddy.log pou devlopè yo
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	Fè chwa personnalisé Comskip INI dokiman an pou itilize pou task\r\nLeave konvèsyon sa a vide sa a pou yo itilize a defo fichier Comskip INI pou retire reklam
+Click to select custom Comskip INI file	Sur pou yo chwazi personnalisé fichier Comskip INI
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	Fè chwa Katab pou travay avèk sispann tanporèman. Pou pi si pa gen ase vid galeri sou drive.\r\nLeave a vide sa a pou yo itilize defo Katab temp nan Katab enstalasyon an.
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	Fè chwa a Katab pou travay avèk fichiers tanporè. Pou pi si pa gen ase plas vid sou drive.\r\nThis a Sur la temp Katab kategori les Paramètres-> ekspè Paramètres paj.
+Click to select temp working folder	Sur pou yo chwazi Katab travay temp
+Temp folder	Katab temp
+Space check	Espas separe, chèk separe
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	Lè MCEBuddy activé ap tcheke koulwa ase pou konvèsyon (destinasyon Et temp).\r\nUncheck sa a si ou gen sont gen à ak rezo lecteurs ou gen gwo ekstrèmman sispann vidéo.
+MCEBuddy Windows Event Logs	Fenèt MCEBuddy evènman Journaux
+Events	Evènman
+Click here to open the MCEBuddy Windows Event Logs	Cliquez ici pou louvri a MCEBuddy fennèt evènman Journaux
+Enable UPnP	Pèmèt UPnP
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	Tcheke sa a pou pèmèt UPnP. Sa pèmèt aksè a motè MCEBuddy de deyò a network.\r\nThis bezwen être récupéré si w ap itilize yon kliyan MCEBuddy mobil/autonome pou aux MCEBuddy.
+Click here to connect to another MCEBuddy engine	Cliquez ici pou li konekte li pou yon lòt MCEBuddy motè
+MCEBuddy Remote Engine Connection	MCEBuddy rimòt motè koneksyon
+Engine Name	Non motè
+Engine Port	Pò motè
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	Rantre nan non oubyen adrès IP de MCEBuddy motè a ou vle pou li konekte li pou
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	Rantre nan pò TCP kantite MCEBuddy motè a ou vle pou li konekte li pou
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	Rantre nan pò TCP kantite MCEBuddy motè a ou vle pou li konekte li pou (1 pou 63355)
+Invalid Name/Port	Non non/Port
+Please enter a valid Engine Name and Engine Port Number	Souple antre yon valab motè non ak nimewo pò motè
+Error Stopping Engine	Erreur rete motè
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	Pa te kapab stope MCEBuddy motè, paramètres ka pa sove. Èske ou vle?
+Unable to communicate with engine. Settings have NOT been saved.	Pa t ' kapab kominike a motè. Paramètres ont pa te sove.
+Communication Error	Erreur kominikasyon
+Engine not stopped. Settings have NOT been saved.	Motè pa sispann. Paramètres ont pa te sove.
+Unable To Save Settings	Pat kapab sove Paramètres
+Unable to communicate with engine. UPnP settings have not been updated	Pa t ' kapab kominike a motè. Paramètres UPnP ont pa te à
+Audio delay	Adyo delè
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	Antre nan yon valè nan kèk segond (pozitiv ou negativ) isit la pou chanjman odyo relative to video.\r\nUse a sa pou resync odyo ak videyo a, si yo gen ase an sync aprè conversion.\r\nA pozitif valè Sera délai odyo (c'est-à-dire vidéo devan odyo) Et negatif pri a avanse odyo (c'est-à-dire adyo devan video).\r\nE.g. -1.5
+Media info	Enfòmasyon sou medya
+Click here to get media properties for selected files	Cliquez ici pou jwenn medya propriétés pou sispann sélectionné
+Save information	Mete sou kote enfòmasyon
+Add information	Ajoute enfòmasyon
+Shows a preview of the custom filename and path	Montre ke yon aperçu de la du personnalisés Et D'
+Invalid Filename Pattern	Non du Modèle
+TVDB Series ID	TVDB seri Didantite
+IMDB Series ID	IMDB seri Didantite
+Original title	Tit orijinal
+Corrected title	Corrigé Tit
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Antre a TVDB seri Didantite ou vle pou yo itilize pou téléchargement afficher information.\r\nIf orijinal bwat Tit vid, sa ap aplike pou tout montre ki te konn chwazi yo travay konvèsyon sa a.
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Rantre nan fim IMDB Didantite ou vle pou yo itilize pou téléchargement information.\r\nIf fim orijinal lan Tit bwat vid, sa ap aplike pou tout montre ki te konn chwazi yo travay konvèsyon sa a.
+Internet Lookup Title and Metadata Correction	Tit Recherche Internet Et Métadonnées koreksyon
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	Cliquez ici pou ajoute yon lòt ligne pou koresponn ak pase men sou titres Et seri id.\r\nIf ou vle sèvi ak menm corrigées Tit ou didantite seri pou tout montre en pa travay konvèsyon sa a, \r\nleave orijinal vide Tit sou premye ligne Et ou ta dwe pa ajoute dezyèm lot.
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	Antre siy pou à afficher/seri titres pou koreksyon (pa egzanp lè w Simpson * pral ranplase tout titres ki gen yon demonstrasyon Tit konmanse ak Simpson) \r\nPrefix pa gen fòm ak èdi/chit cheve mande pou sote à la (pa egzanp lè w *. *, èdi/chit cheve Simpson * ap korije tout montre titres esepte sa yo ki te kòmanse avèk Simpson) \r\nSeparate plusieurs modèles ak, (pa egzanp lè w Simpson *,House*) ou (pa egzanp lè w Simpson *,NCIS*, èdi/chit cheve Miyami NCIS *) \r\n\r\nNOTE: kite Bwat sa a vid si ou vle pou aplike a tit corriger ou seri didantite pou tout fichiers ki te trete pou konvèsyon task.\r\nIf sa a kite blanch, ou pa ka ajoute yon dezyèm row.\r\n\r\nYou sa kapab itilize yon espresyon regilye pou n konpare tit la pa konmanse ak regex:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	Rantre nan nouvo/corrigées Tit ou vle pou yo itilize pou téléchargement plis enfòmasyon de la internet.\r\nIf orijinal la Tit bwat vid, sa ap aplike pou tout montre ki te konn chwazi yo konvèsyon sa a task.\r\n\r\nYou ka sèvi ak yon espresyon regilye pou m korije tit la pa konmanse ak regex:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	Pou chak ligne, souple antre orijinal Tit pou n konpare non afficher ET Corrigés soit Tit ou TVDB/IMDB yon seri Didantite
+Please enter either a Corrected title or a TVDB/IMDB Series ID	Souple antre swa, yon Tit Corriger ou TVDB/IMDB yon seri Didantite
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	Pèmèt sa a si ou vle MCEBuddy pou mete a en dosye ki nan directory\r\nif sous chimen pou destinasyon fin. (pa egzanp lè w rezo défaillance ou transfòmasyon échec)
+Fallback to source path	Secours pou D' sous
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	Te itilize pou fè vini pi gran ou redui kantite the\r\nrecording pandan converting.\r\n1 nòmal, yon bagay pi ba pase ap redwi li, anything\r\nhigher ap ogmante l.
+Archive folder	Katab achiv yo
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	Chanje ki kote vid pou itilize defo Katab 'MCEBuddyArchive' nan anyè orijinal la folder.\r\nLeave achiv yo a.
+Monitor subdirectories	Sous-répertoires ki monitè kè bebe
+Check this box to also monitor all directories within the Monitor path	Tcheke bwat sa a pou kontwole tou tout répertoires nan chimen pou ki monitè kè bebe
+Click here to show MCEBuddy status	Cliquez ici pou montre estati MCEBuddy
+MCEBuddy service not connected	Sèvis MCEBuddy pa konekte
+MCEBuddy idle	Izit nan kanpe MCEBuddy
+conversions in progress	conversions nan pwogrè
+MCEBuddy stopped	MCEBuddy te kanpe
+Sync converted files	Sispann sync en
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	Tyeke opsyon sa a si ou vle MCEBuddy pou kenbe sispann en nan sync ak files.\r\ni.e orijinal la. Lè sispann orijinal sont supprimés pou moun kap itilize li an, sispann en korespondan yo tou deleted.\r\n\r\nNOTE: MCEBuddy sèlman moniteurs orijinal sispann nan ki monitè kè bebe dossiers kote yo ye ak sèlman pandan motè a se, running.\r\nMCEBuddy pesonn p'ap ka Suivi utilisateur a supprimé sispann pandan motè a fèmen.
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	Èske ou vle MCEBuddy pou retire fichier en chak lè dokiman orijinal an ki te supprimé?
+Confirm sync conversions?	Konfime sync conversions?
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	Eske ou si ou fè PAS vle pou yo deplase publicitaires de videyo en la rete sèlman dokiman EDL an
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer pa reponn. Souple sistèm nan redémarrer ou réinstaller ShowAnalyzer.
+ShowAnalyzer Not Responding	ShowAnalyzer ki pa bay repons
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	Pou pi si ou Sur la kòmanse' après fèmen fennèt sa a, san sa Planification Et Wake a pa travay.
+Enabling Scheduling and Wake	Orè qui Et Wake
+Passwords do not match	Modpas pa à
+Password error	Modpas erreur
+Adding subtitles and chapters to file	E li ajoute ke sous-titres Et retrè pou ranpli
+Send eMail if unable to download series information	Voye kouryèll si pa t ' rale dosye seri enfòmasyon kapab
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	Tyeke bwat sa a si ou vle travay konvèsyon sa a nou travay sèlman fichiers de espesyal ki monitè kè bebe locations.\r\nIf pas tâche konvèsyon chak ap travay fichiers de tout kote ki monitè kè bebe (notamment ceux nouvo te ajoute pita).
+Select Monitor Locations	Fè chwa ki monitè kè bebe kote yo ye
+Select atleast one Monitor Location name	Sélectionnez au yon non ki monitè kè bebe kote yo ye
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	Ou menm te chwazi tout a kouran ki monitè kè bebe Locations.\r\nDo ou vle travay konvèsyon sa a nou tout nouvo kote ki monitè kè bebe ki te ajoute nan pwochen nan travay otomatikman?
+New monitor locations	Kote yo ye nouvo ki monitè kè bebe
+Invalid selection	Chwazi non
+Channel name match	Chanèl non à
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Rantre nan gen fòm pou n konpare chanèl non pou travay sa a (par ABC * pral kouvri tout fichiers ki ekri sou yon non kanal ta kòmanse avèk ABC) \r\nPrefix pa gen fòm ak èdi/chit cheve mande pou sote à la (pa egzanp lè w *, èdi/chit cheve ABC * ap travay tout chèn televizyon esepte sa yo ki te kòmanse avèk ABC) \r\nSeparate plusieurs modèles ak, (pa egzanp lè w ABC *,TBS*) ou (pa egzanp lè w ABC *,Fox*, mal Fox4 *) \r\n\r\nYou sa kapab itilize ekspresyon regilye pou n konpare modèle a pa ta kòmanse avèk regex:
+Clear history	Istwa klè
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	Sur bouton sa a pou istwa tout en files.\r\nThis se koze MCEBuddy pou reconvert tout sispann te Suivi.
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	Eske ou si ou vle pou istwa tout conversions? \r\nThis pwal koze MCEBuddy pou reconvert tout sispann te Suivi.
+Show history	Montre istwa
+Click this button to show the history of all converted files.	Sur sa a bouton pou montre istwa tout en sispann.
+History of Converted Files	Istwa sispann en
+Unable to communicate with engine.	Pa t ' kapab kominike a motè.
+Extracting streams	Extraction flux
+Fallback muxing streams	Flux secours muxing
+Remuxing TiVO file	Fichier Remuxing TiVO
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	Rantre nan ou 10 chif TiVO MAK kle pou kouvri ak travay TiVO enregistrements
+Invalid TiVO MAK Key	Kle non MAK TiVO
+The TiVO MAK key should be 10 digits	Kle TiVO MAK a ta dwe 10 chif aryè
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	Vèsyon pipiti de youn pas. Souple asire ke kliyan an MCEBuddy Et motè a kouri a menm vèsyon.
+Error retrieving Event Logs	Erreur récupération evènman Journaux
+Unable to get Event Log Entries from the MCEBuddy engine.	Pa t ' kapab jwenn Entrées evènman Journal de motè MCEBuddy a.
+PAUSED: Check conversion schedule	EN: Orè konvèsyon separe, chèk separe
+Logging	Enregistrement
+Folder Management	Katab Gestion
+Processor Management	Gestion prosesè an
+Expert Settings	Paramètres konn
+System Settings	Sistèm Paramètres
+Click here to change additional settings (for experts only)	Cliquez ici pou chanje autres paramètres (pou ekspè yo te sèlman)
+Failed folder	Katab failed
+Location of the folder that hold the original files for failed conversions.	Kote Katab ki kenbe sispann orijinal pou te tonbe conversions.
+Move original file on failure	Mouvman fichier orijinal sou ki dire
+Check this to move the original file to a separate folder if the conversion fails.	Tcheke sa a pou yo avanse dokiman orijinal an pou yon Katab separe si dabò nan konvèsyon la.
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	Tcheke sa a pou limite kantite transformateurs lojik sa MCEBuddycan use.\r\nEach separe, chèk separe bwat ki pi ba corresponds pou yon processeur lojik disponib.
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Chak bwat représente lojik transformateurs de 1 16 respectively.\r\nChecking yon bwat pou pèmèt MCEBuddy pou yo itilize prosesè an sa.
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Chak bwat représente lojik transformateurs de 17 32 respectively.\r\nChecking yon bwat pou pèmèt MCEBuddy pou yo itilize prosesè an sa.
+Select atleast one processor to use	Chwazi yon sèl processeur au pou itilize
+Invalid Configuration	Configuration non
+Comskip path	D' Comskip
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	Si ou vle pou yo itilize yon vèsyon personnalisé de Comkip (pa egzanp lè w donatè vèsyon) \r\nthen rantre nan chemin de la comskip enstalasyon here.\r\nLeave vid pou itilize comskip defo ki ak MCEBuddy.
+Miscellaneous	Divers
+Ignore copy protection	Inyore kopi pwoteksyon
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	Tcheke sa inyore drapo kopi pwoteksyon yo nan dosye vidéo pandan converting.\r\nNOTE: MCEBuddy pas ignorer cryptage, sa sèlman te ede si yon fichier se incorrectly\r\ntagged kòm kopi protégé lè l' pa chiffré.
+Use recycle bin	Utiliser corbeille emplacement
+Check this to use the recycle bin when files are deleted by MCEBuddy	Tcheke sa a pou yo itilize emplacement corbeille a lè sispann sont supprimés pa MCEBuddy
+Poll period	Sondaj la peryòd
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	Sa a se konbyen fwa MCEBuddy analyse kote travay ki monitè kè bebe yo ye pou nouvo files.\r\nThe entèval te afiche nan kèk segond.
+Server port	Pò sèvè
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	Sa se TCP pò a MCEBuddy ki itilize pou kominike ak engine.\r\nWhen à la UPnP pèmèt, MCEBuddy otomatikman ajoute pò sa a pou la passerelle fenèt Firewall\r\nand UPnP pou pèmèt dispozisyon de entènèt la nan pò sa a.
+Hang period	Se peryòd
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	Rantre nan kantite segond ki MCEBuddy pwal tann pou yon repons nan aplikasyon the\r\nunderlying anvan fin aplikasyon kòm hung.\r\nEnter 0 pou désactiver se détection.
+Subtitle commercial cut sync	Sous-titre komèsyal koupe sync
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	Paramètre sa a ki itilize lè sous-titres yo ale progressivement ase an sync aprè chak segman komèsyal te retire nan video.\r\nThis tabli ki itilize pou pote sous-titres yo tounen nan sync ak video.\r\nEach temps videyo komèsyal dekoupe, sous-titres yo temps Et sa a montan (+ ve osinon ve - nan kèk segond).
+Invalid poll period	Vòt non peryòd
+Invalid server port	Pò non sèvè
+eMail Subject Customization	E-mail sijè Personnalisation
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	Itilize seksyon sa a pou personnaliser sijè a de kouryèll te voye pa MCEBuddy sou evènman konvèsyon plizyè make below.\r\nRefer pou dokiman an, commandes personnalisé pou variables.\r\ne.g kap itilize li an jan l defini. Montre % showname % pou ranpli % originalfilename % konvèsyon siksè itilize tâche % taskname%\r\nNOTE: pa toujou tout enfòmasyon yo pwal disponib nan personnalisé commands.\r\nLeave vid pou itilize lignes sijè defo.
+Success	Siksè
+Failed	Te tonbe
+Cancelled	Anile
+Download fail	Rale dosye ne
+Limit processor utilization	Fwontyè processeur itilizasyon
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	Chèk sa pou limite kantite lojik transformateurs MCEBuddy ka use.\r\nEach separe, chèk separe bwat ki pi ba corresponds pou yon processeur lojik disponib.
+Custom profile	Wofil personnalisé
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	Si ou gen yon fichier personnalisé profiles.conf ou vle pou yo itilize olye de the\r\none sa vini avèk MCEBuddy, antre yo nan wout la pou fè here.\r\n\r\nNOTE dosye a: MCEBuddy en profiles.conf à la pou bay n. pinèz correctifs, amelyorasyon \r\nenhancements Et pèfòmans ki ou ap sonje out\r\non lè ou sèvi ak mak sa a.
+Invalid custom profiles.conf	Non personnalisée profiles.conf
+Suspend on battery	Sispann sou pil pou flach
+Suspend conversions when the computer switches to battery power	Sispann conversions lè konpitè a commutateurs sou pouvwa pil pou flach
+MCEBuddy added a video conversion to the queue	MCEBuddy te di nan yon konvèsyon sou videyo pou tche a
+Queue	Tche
+Refer to documentation on using custom commands in custom eMail subjects	Fè referans a dokiman sou itilize personnalisé pòs de kòmand nan personnalisé kouryèll sujets
+Could not copy information to Clipboard, please try again.	Te kapab pa copie enfòmasyon pou Presse-papiers, souple eseye ankò.
+Error copying to Clipboard	Erreur copie pou Presse-papiers
+Copy to clipboard	Copie pou presse-papiers
+Reconvert files	Reconvert sispann
+Are you sure you want to reconvert the selected files?	Eske ou si ou vle pou reconvert sispann sélectionné
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	Fè chwa sispann ou vle pou reconvert Et Sur button.\r\nIf sa a sispann orijinal yo ki toujou ap monitè a pa MCEBuddy yo ap pasyamman pou reconversion.
+Time taken to convert	Lè pran pou kouvri
+Network authentication	Rezo D'
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	Sur la bouton pou rantre nan an desen aksyon credentials.\r\nThis D' ki itilize lè sispann sont te ajoute via bouton Ajouter sou window\r\nor pwensipal la trènen Et jete nan yon rezo pati yo nan bwat estati konvèsyon sou pwensipal fennèt la.
+Skip reconversion	Pase sou reconversion
+Do not reconvert the video if a converted file already exists in the destination directory.	Pa reconvert videyo a si yon en fichier deja ekziste nan anyè destinasyon a.
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	Du attend a paske en videyo (pa a orijinal vidéo du) te konpare ak les noms nan dèstinasyon directory.\r\nIf en dokiman an existe, dokiman an ap pa être reconverted Et l' va être supposé pou yon siksè conversion.\r\nThis se bon si la menm cho/épisode te ekri sou plizyè fwa, epi ou pa vle pou reconvert them.\r\n\r\nNOTE: Opsyon sa a li te inyore pou vidéos sont te ajoute lamen itilize a bouton ajouter ou derapaj Et -
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	Si nou pèmèt, ignorer reconversion a tou tcheke fichier istwa a pou pase conversions.\r\nThe te espere du pou en videyo (pa a orijinal vidéo du) te konpare ak les noms nan istwa a, file.\r\nIf a en en fichier (notamment D') alimè a, gen yonn nan yo deja en noms (, chemins) nan dokiman istwa an, \r\nthe fichier a pa gen reconverted ak li a pou mwen sa se ka yon siksè konvèsyon.
+Adding file to the iTunes library	E li ajoute ke fichier nan bibliotèk iTunes
+Add to iTunes	Ajoute iTunes
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	Separe, chèk separe bwat sa a pou otomatikman ajoute les fichiers en library.\r\nThis iTunes la sèlman travay ak iTunes en fichiers (pa egzanp lè w MP4, M4V, MP3 etc)
+Adding file to the WMP library	E li ajoute ke fichier nan bibliotèk WMP
+Library Management	Bibliyotèk Gestion
+Add to Windows Media Player	Ajoute fennèt medya jwè
+Check this box to automatically add the converted files to the WMP library.	Tyeke bwat sa a pou ajoute otomatikman les fichiers en nan bibliotèk WMP.
+Renaming and Sorting	Rebay Et triyay
+Selection Filters	Filtres chwazi
+Audio and Video	Odyo Et videyo
+Subtitles and Chapters	Sous-titres Et retrè
+Skip copying original files	Pase sou copie fichiers orijinal
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	TCHEKE sa a n. BWAT nan ou PWÒP RISK.\r\nDO PAS TCHEKE CETTE BWAT, ou konnen sa n' ap DOING.\r\nCheck bwat sa a mande pou sote fè yon sauvegarde de orijinal fichier (copie) pandan conversion.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	TCHEKE CETTE BWAT nan ou PWÒP RISK.\r\nDO PAT CHÈK BWAT sa a, ou konnen sa n' ap DOING.\r\nCheck bwat sa a mande pou sote fè yon sauvegarde de orijinal fichier (copie) pandan converting.\r\nIf sa Tyeke, dokiman orijinal an a pa ka konsève ka ta gen yon error.\r\nIt ka tou menm dirije pou konvèsyon défaillances ou lòt kesyon enprevi konvèsyon.
+Are you sure you want to do this?	Èske ou si ou vle fè sa pou nou?
+Media Information Management	Medya enfòmasyon Gestion
+Force show type	Fòs montre jan de
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	Mete sa a fòse enregistrement kòm yon fim videyo a ap trete yon malad ou Televizyon Series.\r\nThis pwal chanje la façon plis enfòmasyon (métadonnées) sou albòm li ki anrejistre a telechaje de la internet.\r\nMovie, - Traiter a albòm li ki anrejistre kòm movie\r\nSeries - Traiter a albòm li ki anrejistre kòm yon Series\r\nSports Televizyon - Traiter a albòm li ki anrejistre kòm yon espò show\r\nDefault - Utilisation defo enfòmasyon disponib nan métadonnées albòm li ki anrejistre a pou detèmine fim ou seri Televizyon
+Show type	Montre jan de
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	Fè chwa sa a pou filtre ki kalite enregistrements être converted.\r\n\r\nMovies - chwazi sa pou kouvri si jan afficher de Movie.\r\nShows - fè chwa sa pou kouvri si ki tip afficher se pa yon Movie.\r\nSports - chwazi sa pou kouvri si jan afficher de se Sports.\r\n\r\nNOTE: montre jan de lecture de albòm li ki anrejistre metadata.\r\nOnly enregistrements kèk sipòte afficher jan de métadonnées tankou and\r\nrecordings WTV ak en métadonnées fichiers (XML/ARG ets).
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	Bwat sa a montre ke tout fichiers yo nan tche pou conversion.\r\nDrag Et ane ke yo bliye fichiers isit la, ni Sur la bouton Ajouter pou ajoute fichiers tche konvèsyon a
+Conversion	Konvèsyon
+Files	Fichiers
+Click this button to open or close the Advanced Settings section	Sur bouton sa a pou louvri ou fèmen seksyon Paramètres avanse a
+Running custom commands	Kouri commandes personnalisé
+Trimming video recording	Limitation vidéo albòm li ki anrejistre
+Insert at top of queue	Mete nan tèt tche
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	Defo, pa nouvo conversions sont te ajoute pou bas (fin) de konvèsyon queue.\r\nIf bwat sa a Tyeke, tout nouvo conversions te ajoute ke travay sa a va être ajoute nan the\r\nbeginning (tèt) tche konvèsyon a.
+Add subtitles and chapters	Ajoute sous-titres Et retrè
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	Pèmèt opsyon sa a pou ajoute UN extrait sous-titres Et retrè chapit en video.\r\nEach la pou make tou sa li de yon piblisite. Sa se travay ak en be'l varyete fo'm (, MKV, MP4).\r\n\r\nNOTE, jwè yo kèk Et téléviseurs plus pa sipòte embedded sous-titres Et chapters.\r\nIf w pa t ' lecture a en videyo a kapab, eseye vire opsyon sa a.
+Select best soundtrack	Chwazi pi bon audio
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	Si videyo orijinal la gen plizyè sonores, opsyon sa a di MCEBuddy pou yo chwazi a ki pi apwopwiye Et principal soundtrack.\r\nIf ou vle yon lang espesifik piste, pou pi si ou antre non lang ou code box.\r\nCheck lang odyo a nan bwat sa a si n' ap tande la bande mal nan ou en file.\r\n\r\nUncheck bwat sa a si ou vle MCEBuddy pou kenbe tout pistes de videyo orijinal la nan en fichier lè posib. \r\nNOTE: Des kèk pa sipòte miltip sonores, nan ka qui tabli sa a ki pa pèdi benefis.
+Enable remote access	Pèmèt aksè à
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	Sa kreye yon eksepsyon nan pare-feu fenèt la pou aplikasyon MCEBuddy Et port.\r\nThis la mande l si ou genyen pare-feu fennèt ki pèmèt epi ta vle itilize UPnP, a client\r\nor à aksè a motè w ap itilize yon IP address.\r\n\r\nNOTE: Si ou gen yon pare-feu personnalisé, sa pa ka travay, w ap bezwen pou lamen kreye an\r\nexception pou sèvis MCEBuddy Et pò a.
+Unable to communicate with engine. Firewall exception settings have not been updated.	Pa t ' kapab kominike a motè. Pare-feu eksepsyon paramètres ont pa te jour.
+Detect and optimize video quality	Detekte Et optimiser kalite vidéo
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	Lè pèmèt, MCEBuddy Sera optimiser vidéo otomatik pwogram ki pa tap eseye pou detekte type.\r\nThis vidéo sous la kapab amelyore kalite a en videyo siyifikativman si kòrèkteman detected.\r\n\r\nNOTE: li fè bagay sa a pa tap eseye pou detekte ki tip sous vidéo (entrelacé, Pwogresis ou telecine).\r\nIf sa ki ka detekte ki tip sous vidéo, li pral remplacer korespondan paramètres nan profile.\r\nTurn a sa option hors si ou kap fè fas questions ak kalite vidéo en ou ta vle itilize paramètres wofil defo.
+Are you sure you want to delete this task?	Eske ou si ou vle pou retire travay sa a
+Delete Task	Retire Tâche
+Enter the new task name	Rantre nan lòt non tâche
+Rename Task	Bay yon lòt non Tâche
+MCEBuddy PAUSED	MCEBuddy EN
+idle	izit nan kanpe
+PAUSED	EN
+Frame rate	Branka pou pote yo ki te konn
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	Pèmèt sa a pou li tabli yon personnalisée D' (s) pou tout en video.\r\nYou ka bezwen pou mete sou sa pandan conversion be'l varyete vidéo fo'm (bon pa egzanp lè w ZANMI pou NTSC) \r\nor pou aparèy ki sipòte sèlman espesifik framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001
+Skip remuxing files	Pase sou remuxing fichiers
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	TCHEKE CETTE BWAT nan ou PWÒP RISK.\r\nDO PAT separe, CHÈK separe sa ZONE, ou SAVOIR, sa W'A DOING.\r\nCheck bwat sa a mande pou sote remuxing dokiman orijinal an pou yon fichier TS pandan converting.\r\nIf sa Tyeke, kèk fonksyon tankou fè ekstraksyon sous-titre ou comskip pou work.\r\nIt pa kapab tou menm dirije pou konvèsyon défaillances ou lòt kesyon enprevi konvèsyon.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	TCHEKE CETTE BWAT nan ou PWÒP RISK.\r\nDO PAS TCHEKE CETTE BWAT, ou konnen sa n' ap DOING.\r\nCheck bwat sa a mande pou sote remuxing dokiman orijinal an pandan conversion pou yon fichier TS.
+Monitor converted videos	Moniteur vidéos en
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	Pa defo ki monitè kè bebe kote yo ye a meprize fichiers ki deja ont été converted.\r\nCheck bwat sa a si ou vle tou pou kontwole fichiers en nan Path.\r\nCAUTION ki monitè kè bebe a, sa ka mennen a yon konvèsyon enfini boucle de fichiers en si se pa configuré properly.\r\n\r\nThis ka itil lè ou spécifiant anyè pèsistans yap ogmante jiska de yon task\r\n konvèsyon (en fichier) kòm D' ki monitè kè bebe de yon kote ki monitè kè bebe Et entre the\r\nMonitor Kote ye pou yon lòt konvèsyon tâche.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	Kote TCHEKE CETTE BWAT nan ou PWÒP RISK.\r\nDO PAS TCHEKE CETTE BWAT, ou konnen sa n' ap DOING.\r\nBy defo ki monitè kè bebe yo ap meprize fichiers ki deja ont été converted.\r\nCheck bwat sa a si ou vle tou pou kontwole fichiers en nan chemen ki monitè kè bebe a.
+Hardware encoding	Pyès ki nan konpitè codage
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	Tyeke bwat sa a pou sèvi ak pyès ki nan konpitè codage lè disponib pou kouvri videos.\r\nThis ka mache vit konvèsyon a siyifikativman Et DU utilization\r\nbut li ka debouche sou yon ti jan pi ba bon kalite videos.\r\n\r\nUncheck Zone si ou ap fè fas konvèsyon ou problèmes bon kalite è vin pi piti.
+Do not overwrite files	Remplacer fichiers
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	Lè bwat sa a Tyeke, fichier destinasyon la a pa être remplacé si l' deja exists.\r\nInstead yon nouvo fichier ap kreye ansanm ak anpil inik te ajoute de nom a jouk sa kaba.
+Re-monitor recorded videos	Re-moniteur jwenn tou sa ekri vidéos
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	Pa defo, yon fwa ke, yon fichier sous (Enregistrées vidéo) ki te en, \r\nthe ki monitè kè bebe istwa a Suivi du ak pa tche again.\r\n\r\nEnable fichiers menm opsyon sa a pou yo inyore istwa Et contrôler tout fichiers Et ajoute yo to\r\nthe konvèsyon tche, menm si yo deja twouve converted.\r\n\r\nThis ka itil pafwa, si la lojisyèl albòm li ki anrejistre générer du a\r\nunique pou chak épisode/cho. Li se reccomended pou yo itilize the\r\nDelete orijinal fichier opsyon nan paj Paramètres la lè w ap itilize opsyon sa a pou avoid\r\nan konvèsyon enfini boucle.
+Recommendation	Rekòmandasyon
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	Pou evite yon boucle enfini konvèsyon, li rekòmande pou du modèle recherche ki monitè kè bebe ou nan yon fason tèlke pou asire ke les fichiers en sont pa te monitè a pa travay ki monitè kè bebe sa a.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	TCHEKE sa a n. BWAT nan ou PWÒP RISK.\r\nDO PAS TCHEKE CETTE BWAT, ou konnen sa n' ap DOING.\r\nBy defo ki monitè kè bebe kote yo ye a pa remonitor jwenn tou sa ekri vidéos ont été processed.\r\nCheck bwat sa a si ou vle pou remonitor Et reconvert anrejistre vidéos.
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	Pou evite yon boucle enfini konvèsyon, li rekòmande nou pèmèt Supprimer orijinal fichier chwa nan paj Paramètres a.
+Prioritize air date matching	Mendèv de lè dat asòti
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy itilize épisode non pou n konpare seri information\r\nwhile chache entènèt la. Si sa dabò lè sa a li itilize orijinal broadcast\r\nair dat pou n konpare a metadata.\r\n\r\nCheck bwat sa a pou yo itilize orijinal dat de diffusion lè premye lè sa a the\r\nepisode non pou n konpare pou enfòmasyon seri de internet.\r\nThis a kapab itil nan kèk ka lè sezon miltip sèvi ak non same\r\nepisode. Americal Idol, Audition 1\r\n\r\nNOTE: orijinal de diffusion lè dat pa toujou byen mezire ansanm ak the\r\nbroadcaster e pafwa enfòmasyon sou entènèt la se sa yon opsyon sèlman si yon defo opsyon pa soti pou ou incorrect.\r\nUse.
+Skip eMail body	Passez kouryèll kò
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	Tyeke opsyon sa a pou sèvi ak yon kò vid nan eMail.\r\nThis anonsman a kapab itil si w ap itilize yon passerelle SMS pou fè kouryèll voye avize yo osijè.
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	Chwazi ki baze sou Digital dwa Gestion (DRM) se available\r\nonly lè bay yon lòt non san conversion (bay yon lòt non Et déplacer sèlman) chwa a se selected.\r\n\r\nAll - Sélectionne tout fichiers pou otomatik, irrespective of pwotèksyon kopi status\r\nProtected - sèlman fè chwa ki sispann gen kopi protected\r\nUnprotected - sèlman fè chwa fichiers ki pa gen kopi pwoteksyon
+Download cover art	Rale dosye kouvèti atis
+Enable this to download the cover art from the original video and internet if available.	Pèmèt sa a pou rale dosye atis kouvèti a nan videyo orijinal ak entènèt si disponib.
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	Eske ou si ou vle pou rantre nan yon non domèn? \r\n\r\nUse sa a sèlman si w ap itilize yon fennèt domèn reskonsab pou jere authentication.\r\nDo ou pa itilize sa si ou yo fè pati de yon Workgroup.\r\n\r\nIf n' a pas Sur non
+Configuration Warning	Configuration avètisman
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	Kreye yon Katab ki te rele 'MCEBuddyArchive' kote dokiman orijinal an se located\r\nand deplase fichier repwezante lide orijinal nan anyè sa a apwè yon siksè conversion.\r\n\r\nThis Katab non w ak kote fè lide pi ba pase.
+Monitoring	Ap swiv
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	Si ou vle pou kouvri dokiman EDL an nan retrè, asire w ou tcheke 'Ajoute sous-titres Et retrè' chwa nan ekspè Paramètres.
+EDL to Chapters	EDL pou retrè

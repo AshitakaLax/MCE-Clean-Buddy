@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy nem használja a jelenleg bejelentkezett felhasználó csatlakozni a hálózati megosztások, azt a saját szolgáltatás fiókot használja.  Ügyeljen arra, hogy adja meg a kapcsolat felhasználói információkat (MCEBuddy-val a kulcs ikon)
+Connection Reminder	Kapcsolat-emlékeztető
+Description	Leírás
+Path	Elérési út
+is invalid	Érvénytelen
+Invalid Path	Érvénytelen elérési út
+Please supply a task name	Adjon meg egy tevékenység neve
+No name supplied	Nincs megadott neve
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	Adja meg a 3 számjegy nyelvkód hangsáv vagy válassza ki a <Default>, vagy <Original>
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	A 3 számjegy a kijelölt language\r\nMake, hogy ez megegyezik a hangsávot, az eredeti recording.\r\nTo kap az eredeti felvett fájl audio sín nyelv kódját a nyelv kódját ISO-kód hozzáadása a várólista file\r\nto, és jobb kettyenés rajta. Egy pukkanás-megjelöl ablak akarat nyit, feltüntetve az audio details\r\nwhich tartalmaz minden egyes hangsávot nyelvkódokat.
+Invalid Language Code	Érvénytelen nyelvi kód
+No destination directory provided, converted file will be placed in original video directory	A célkönyvtár nem biztosított, konvertált fájl lesz könyvtárba kell helyezni eredeti videó
+A task name or section	A tevékenység neve vagy a szakasz
+already exists\n\rPlease use another name	már a exists\n\rPlease egy másik név használata
+Duplicate Name	Név
+Engine	Motor
+Tasks	Feladatok
+Profile	Profil
+disposing	disposing
+Task name	Tevékenység neve
+Give a unique name to this task	Adjon egyedi nevet a tevékenységhez
+Gives a short description for the selection conversion profile	Ad a kijelölt konvertálási profilként rövid leírása
+Click to select destination folder	Kattintson a célmappa
+Destination	Rendeltetési
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	Válassza ki azt a könyvtárat, ahol a konvertált fájlba lesz ebben üres tartani az átalakított fájlnak ugyanabban a könyvtárban, mint az eredeti videó placed.\r\nLeave.
+Max width	Max szélessége
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	Ez korlátozza a video részére a konvertált file.\r\nTIP legnagyobb szélessége (képpontban): nem alkalmazandó, ha az eredeti fájl szélessége kisebb, mint ez meg szeretné őrizni az eredeti képfelbontás áthelyezése a csúszka egészen a jobb number.\r\nIf rendelkezik.
+Quality	Minőségi
+Ad remover	Hirdetés Bútorszállító
+None	Nincs
+Get series details from Internet	Sorozatok részletei kap az internetről
+Download additional details about the movie or series from the internet	További részletek a mozgókép vagy a sorozat letöltése az internetről
+File name match	Fájlegyezés neve
+Recording title match	Felvétel cím egyezik
+Cancel	Mégse
+OK	oké
+Rename without converting	Konvertálás nélkül átnevezése
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	Ellenőrizze ezt a beállítást csak átnevez és másol a eredeti fájlokat-hoz rendeltetési folder.\r\nWhen ellenőrizni, átalakítás, tisztítás, audió/videó-feldolgozó, kereskedelmi eltávolítása nem lesz meg a available.\r\n\r\nNOTE: más funkciók, mint a egyező szűrők, felirat, metaadatok és kereskedelmi nyomozás (EDL fájl mentése) \r\nwill még mindig elérhető a beállítás checked.\r\nIf példány helyett áthelyezni kívánt, ellenőrizze az eredeti beállítás másolása a szakértő elintézés-ra ez oldal vagy select\r\nDelete eredeti fájlt a fő beállítások oldalon ugrás.
+Rename and sort by video information	Átnevezés, és rendezni a videó információ
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	Átnevezi a konvertált fájlt, és elhelyezi egy új könyvtárat a Térkép/sorozat információk alapján ha available\r\n (pl. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	Adja meg a felhasználónév és a jelszó hozzáférést mappák, hálózati meghajtón vagy másik számítógépen található
+Organize by seasons	Rendezhetünk évszakok
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	Megszervezzék a mappákban, a Showname és a szezon, amikor elérhető (XBMC/Media Center/Plex kompatibilis elnevezési konvenció) \r\n (pl. Showname\\Season XX\\SXXEYY-epizód neve)
+Audio language	Szinkronnyelv
+Advanced Settings	Speciális beállítások
+General Settings	Általános beállítások
+Conversion Task	Konverziós tevékenység
+Password	Jelszó
+Confirm Password	Jelszó megerősítése
+Domain / computer name	Tartomány / számítógép neve
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	<Optional>Adja meg, ha a távoli számítógép vagy a hálózati meghajtón egy tartományt használja a authentication.\r\nDo írja be a munkacsoport itt. Hagyja üresen, ha használ a munkacsoportban.
+User name	Felhasználónév
+Enter the username to access the remote computer or network drive	Adja meg a távoli számítógép vagy hálózati meghajtó eléréséhez felhasználónevet
+Enter the password to access the remote computer or network drive	Adja meg a jelszót a távoli számítógépen vagy hálózati meghajtó eléréséhez.
+Network Connection User Credentials	Hálózati kapcsolat felhasználói hitelesítő adatok
+Password Mismatch	Jelszó eltérés
+Passwords do not match, please reenter the passwords	A jelszavak nem egyezőek, írja be újra a jelszót
+Hour	Óra
+Minute	Perc
+Wake	Wake
+Start	Indítsa el a
+Resume	Folytatás
+Pause	Szünet
+Stop	állj
+Language	Nyelv
+Pause conversion tasks	Szünet átalakítási munkák
+Resume conversion tasks	Konvertálási feladat folytatása
+Please enter a valid time	Adjon meg egy érvényes idő
+Invalid Time	Érvénytelen idő
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	Stop ideje után a kezdő időpont. Feltételezve, hogy a Stop ideje alatt a következő nap, amit kijavít?
+Time Check	Rendszeridő ellenőrzése
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	Csak ezt a beállítást, ha a MCEBuddy már megtörtént a fájlok konvertálása megbízhatóan elfogadható ideig. Biztosan minden eredeti fájl törlése, amint lett átalakítva MCEBuddy?
+Confirm delete originals?	Erősítse meg a Törlés eredetik?
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy figyelemmel fogja kísérni az ezeket a könyvtárakat, videó fájlok konvertálása automatikusan
+Conversion tasks	Konverziós feladatok
+Delete original file	Eredeti fájl törlése
+Deletes the original recording after a successful conversion	Törli az eredeti felvétel sikeres konverzió után
+Min age before conversion (hours)	Konverzió előtt min-kor (óra)
+Minimum hours to wait before converting each file after the file is added to the queue	Minden egyes-fájl átalakítása után a fájl hozzáadódik a várólista várnom minimum munkaóra
+Use this to change the language of the text on the screen	Használ ez-hoz cserél a nyelv, a szöveg a képernyőn
+Concurrent conversions	Egyidejű konverziók
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	Egyidejű MCEBuddy konverziók száma is start\r\nNOTE: szabad korong hely és a processzor idő nagy mennyiségű szüksége több mint 2 egyidejű konverziók
+Logging level	Naplózási szint
+Error	Hiba
+Warning	Figyelmeztetés
+Information	Információk
+Debug	A Debug segédprogram
+Log conversion jobs	Jelentkezzen be az átváltási munkahelyek
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	Menteni egy naplófájlba a minden átalakításkor a \'logs\ "könyvtárba, ahol ahol MCEBuddy installed\r\n (pl. C:\\Program Files\\MCEBuddy2x\\logs)
+Allow sleep	Alvás engedélyezése
+If unchecked, it prevents the system from entering sleep while converting	Ha nincs bejelölve, megakadályozza a rendszer alvó konvertálása közben belépő
+Stop at	Megáll
+No new conversions would be started after this time	Nincs új konverziók volna kezdett-Ez idõ
+minute	perc
+hour	óra
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	Ha be van jelölve MCEBuddy nyomán sleep\r\nat a rendszer a megadott kezdési időpont, és engedélyezve van a hét napjai.
+Start at	Kezdőpont
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy indul új konverziók között a Start és Stop time.\r\n\r\nThe elkezd idő lesz használva az engedélyezett nap a hét, whereas\r\nthe idő lesz vége használt vagy ugyanazon a napon or\r\nfor a következő nap, ha a Befejezés időpontja a kezdés után.
+Delete	Törlése
+Add	Hozzáadása
+Change	Változás
+Archive original file	Eredeti archívumfájl
+Domain name	Domain név
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	A monitor és a konverziós feladat leáll, és megnyit egy oldalt, MCEBuddy beállításához
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	Teremt egy dosszié hívott \'MCEBuddyArchive\ "ahol az eredeti fájlt az located\r\nand helyezi át az eredeti fájlt ebbe a könyvtárba, után egy sikeres conversion.\r\n\r\nThis mappa nevét és helyét a rendszer beállításai lapon módosítható.
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	Debug - részletes naplózási segít a nyomkövetési átváltási problems\r\nInformation - naplók alapinformációkat conversion\r\nWarning - napló potenciális problémák vagy a kritikus hibák only\r\nError - napló csak a kritikus hibák
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	A feladathoz társított konverzió-profil kiválasztása. A konvertálási profilként jelöli a kimeneti formátum és a minőséget a konvertált file.\r\nHigher minőségi konverziók tovább tart a konvertálás. Reccomended alapértelmezett: MP4 minőségi vagy MP4 Normal.\r\n\r\nTIP: a MCEBuddy útmutató speciális paraméterek átváltási profilok csípés, vagy a saját átváltási profilok létrehozása
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	Válassza ki a program MCEBuddy fogja használni a szalag, reklámokat konvertálásakor a "Nincs", hogy hagyja el a reklámok a konvertált video.\r\n\r\nTIP video.\r\nSet: használ ShowAnalyzer helyett Comskip, kérjük, töltse le és telepítse ShowAnalyzer.\r\nShow elemző változat 1.0 és nagyobb támogatott.
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	Módosításához a videó minősége, a konvertált fájl normál használatos 1.\r\nA magasabb számú javítani fogja a minőségi, de több időt vesz conversion.\r\nA kisebb számot csökkentik a minősége, de speed up the conversion.
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Adja meg a minta megfelelő fájlneveket erre a feladatra (pl. *.wtv akarat megtérít minden fájlokat végződés-val .wtv)\r\nPrefix minta ~ ugrani a mérkőzés (például *. *; ~*.wtv feldolgozza az összes fájlt, kivéve azok végződő .wtv)\r\nSeparate több minták; (pl. *.wtv, ncis *; ~ ncis miami *) minden .wtv fájlok és az összes fájlt kezdődő ncis, de nem azok, kezdve az ncis miami\r\n\r\nYou használ szabályos kifejezések, hogy megfeleljen a minta a regex kezdve:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Írja be az egyeztetendő Térkép/sorozat címe erre a feladatra (pl. Simpson * akarat megtérít minden fájlokat amit van egy Térkép cím összerezzenés-val Simpson) minta \r\nPrefix minta ~ ugrani a mérkőzés (pl. *; ~ Simpson * feldolgoz minden Térkép címek kivételével, a Simpson) \r\nSeparate több szokások; (pl. Simpson *;House*) vagy (pl. Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nYou használható reguláris kifejezések egyezik a minta a regex kezdve:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	Ezt fel lehet használni, hogy felülbírálja az alapértelmezett Audio nyelvet, ha a több nyelvet egy recording.\r\nTo kap a nyelvet a felvétel, a lista jobb kettyenés-on reszelő a sorban, és válassza ki a MediaInfo.\r\n\r\n <Default>akarat megpróbál-hoz eltartás minden audio sín, ha támogatja, vagy hagyja, hogy a kódoló, válassza ki az alapértelmezett audio track\r\n <Original>, ha elérhető, használja az eredeti felvétel [nem szinkronizált] nyelven
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	"[Video]" írja be, vagy hagyja üresen a konvertálás minden videó files\r\nEnter mintának megfelelő fájlneveket ehhez a helyhez (jelenti, pl. *.wtv a .wtv)\r\nprefix minta-val végződő összes fájlok konvertálása ~ kihagyja a mérkőzés (például *. *; ~*.wtv feldolgozza az összes fájlt, kivéve a .wtv)\r\nseparate többféle mintázat-val végződő; (pl. *.wtv, ncis *; ~ ncis miami *) dolgozza fel minden .wtv és minden olyan fájlok, kezdve az ncis, de nem azokat, kezdve az ncis-miami
+MCEBuddy Settings	MCEBuddy beállítások
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy nem használja a jelenleg bejelentkezett felhasználó csatlakozni a hálózati megosztások, azt a saját szolgáltatás fiókot használja.  Ügyeljen arra, hogy adja meg a kapcsolat felhasználói információkat [MCEBuddy kulcsot ábrázoló ikonnal]
+Please supply a source name	Adjon meg egy forrás neve
+Please supply a search path name	Adjon meg egy keresési elérési útja
+A source name or section	A forrás nevét, vagy a szakasz
+already exists. Please use another name	már létezik. Kérjük használja a másik neve
+Monitor name	Monitor neve
+Give this a location a unique name	Ad ez egy hely egyedi neve
+Monitor path	Monitor elérési útja
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	Jelölje ki a könyvtárat, amely figyelemmel kíséri az MCEBuddy új videó fájlok konvertálása automatikusan a háttérben
+Click to select the folder to monitor	Jelölje be a mappa ellenőrzésére
+Search pattern	A keresési minta
+SourceForm	SourceForm
+Monitor Location	Monitor helye
+Normal	Normál
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: pipeProxy motor csatlakozási hiba
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: Nem lehet létrehozni a cső MCEBuddy szolgáltatás
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	A MCEBuddy szolgáltatás nem érhető el. Indítsa el a Windows Vezérlőpult, vagy ellenőrizze a motor kapcsolat.
+Announcement	Hirdetmény
+New version 	Új verzió 
+available	rendelkezésre álló
+New BETA version 	Új béta változat 
+Click here to download new version of MCEBuddy	MCEBuddy az új verzió letöltéséhez kattintson ide
+Click here to open link	Kattintson ide, hogy nyissa meg a link
+Idle	Üresjárati
+Closing	Bezárása
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI: Nem lehet frissíteni a feladatok
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: Nem lehet elindítani a MCEBuddy szolgáltatás
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: Nem sikerült leállítani a MCEBuddy szolgáltatás
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI: Képtelen megszakításához
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	Figyelmeztetés: Hálózati fájlokat lesz elérhető a MCEBuddy szolgáltatás, nem az aktuálisan bejelentkezett felhasználó bejelentkezési hitelesítő adatait. A-> szakértői beállítások lap beállítások hálózati hitelesítő adatokat manuálisan megadhatja a MCEBuddy.
+Credential Warning	Hitelesítőadat-figyelmeztetés
+Status	Állapot
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI: Nem lehet hozzáadni a feladat
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: Nem lehet megkapni a cső aktív állapot
+The conversions must be stopped to change settings. Stop the conversions?	A konverziók beállításainak módosításához meg kell állítani. Megáll a konverzió?
+Stop Engine	Állítsa le a motort
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI: Nem sikerült leállítani a beállításokat, kattintson a MCEBuddy service
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: Nem sikerült a fájlok újraellenőrzése
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: Képtelen-hoz nyit láncszem
+Close	Zárja be
+Close this window, MCEBuddy will keep running in the background	Közel ebben az ablakban MCEBuddy fog tartani a háttérben futó
+If you like MCEBuddy, please click here to Donate - THANKS	Ha tetszik a MCEBuddy, kérjük kattintson ide Donate - köszönet
+Click here to like MCEBuddy on facebook	Kattintson ide, hogy MCEBuddy, mint a Facebook-on
+Click here to open MCEBuddy website	Ide kattintva nyissa meg a MCEBuddy honlapon
+Rescan	Lemezek újraellenőrzése
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	Újraellenőrzi a Monitor helyek, az új video fájlokat-hoz megtérít MCEBuddy erők
+Monitor locations	Monitor helyek
+Settings	Beállítások
+Select the file(s) in the queue to delete	A várólista törléséhez jelölje ki a fájl(ok)
+Manually add video file(s) to the queue to convert	Kézi hozzáadása videó fájl(ok) a várólista konvertálása
+Start the MCEBuddy monitor and conversion tasks	Indítsa el a monitor és a konverziós MCEBuddy feladatok
+Stop the MCEBuddy monitor and conversion tasks	A MCEBuddy monitor és a konverziós feladatok leállítása
+There is a new version!	Van egy új verzió!
+High	Magas
+Low	Alacsony
+Priority	Prioritás
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	Magas prioritás - konvertálás gyorsabb, de lehet más futó alkalmazást, hogy unresponsive\r\nLow prioritás - konvertálni a háttérben, de más futó alkalmazások csökkentett zavarása
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	A feladata a konverziós sablon, a konvertálási profilként és különböző átváltási-parameters.\r\nEach tartalmazó fájl hozzáadódik a várólista feldolgozása, és konvertálja az egyes ezeket a tasks.\r\nRefer, a MCEBuddy útmutató, hogyan működnek a feladatok további részletekért.
+Getting started	Első lépések
+Click here for MCEBuddy guide	Kattintson ide a MCEBuddy útmutató
+Logs	Naplók
+Click to open log folder	Kattintson a napló mappájának megnyitásához
+MCEBuddy Status	MCEBuddy állapota
+add	hozzáadása
+delete	törlése
+paypal-donate	PayPal-adományoz
+stop	állj
+OUTPUT: ConsoleOuput received NULL data	KIMENET: A NULL adatokat kapott ConsoleOuput
+hours	óra
+minutes	perc
+second	második
+seconds	Seconds
+Starting	Indítása
+Comskip advertisement scan - Pass 1	Comskip hirdetés átkutat - hágó 1
+Comskip advertisement scan - Pass 2	Comskip hirdetés átkutat - hágó 2
+Cutting commercials from video	Vágó reklám videó
+Cutting commercials from video - segment 	Daraboló reklámok a videó - szegmens 
+Merging commercial free segments into new video	Kereskedelmi szabad szegmensek illesztésével új videó
+Moving converted file to destination	Konvertált fájl áthelyezése a rendeltetési
+Checking for disk space	A lemezterület ellenőrzése
+Getting show information and banner from Internet sources	Szerzés a Internet forrásokból származó információ megjelenítése és a banner
+Copying source file to working directory	Munkakönyvtár forrás fájl másolása
+Remuxing recording	Remuxing felvétel
+ShowAnalyzer advertisement scan	ShowAnalyzer hirdetés ellenőrzés
+Comskip advertisement scan	Comskip hirdetés ellenőrzés
+Analyzing video information	Videó információ elemzése
+Converting	Konvertálás
+Removing commercials	Reklámok eltávolítása
+Writing show information	Információk megjelenítése az írás
+Renaming file using show information	Átnevez a reszelő használ az információ megjelenítése
+Success - All done!	A siker - minden kész!
+Muxing streams	Muxing-folyamok
+Fallback remux	Visszaváltási remux
+Correcting audio delay	Audió késés helyesbítéséről
+Converting video file - Pass 1	Videofájl - hágó 1 konvertálása
+Converting video file - Pass 2	Videofájl - hágó 2 konvertálása
+Converting video file	Videofájl konvertálása
+Audio Track	Hangsáv
+Impaired	Károsodott
+Channels	Csatornák
+Codec	Kodek
+Video	Videó
+Duration	Időtartama
+Height	Magasság
+Width	Szélessége
+Audio	Audio
+Name	név
+Subtitle	Alcím
+Volume	Kötet
+Enable custom file renaming	Egyéni fájl átnevezésének engedélyezése
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	Ez adja meg a konvertált fájlok és mappák átnevezése egyéni minta engedélyezése Adja meg az egyéni minta a doboz below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S % szezon % ##E % epizód % ##-% episodename % - %airyear%_%airmonth%_%airday%\r\n\r\nWill termék: \r\nTVShows\CSI\Season 1\CSI - S01E02 - legjobb időkben - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill termelni (filmet), \r\n Recording\Movies\Star háborúk átalakított. <ext>\r\nOR (nem mozi) a \r\n Recording\TVShows\CSI\Season 1\CSI - S01E02-át.<ext>\r\n\r\nRefer, a MCEBuddy speciális dokumentációját a minta-parancsok.
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	Nem található ShowAnalyzer. \nTedd töltse le és telepítse a ShowAnalyzer.
+ShowAnalyzer Missing	Hiányzó ShowAnalyzer
+Invalid language code, reverting to <Default> language	Érvénytelen nyelv kódja, visszatérés a <Default>nyelv
+Cut start	Vágott start
+Cut end	Vágott a vége
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	Itt adható meg másodpercben, hogy csökkentsék a kezdetektől a felvétel (mielőtt eltávolítja a hirdetéseket)
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	Itt adható meg, hány másodpercig kell kivágni a végén a felvétel, (mielőtt eltávolítja a hirdetéseket)
+Send an eMail after each conversion.	Küld egy e-mailt minden átalakítás után.
+Send eMail	E-mailben
+SMTP Server Name	SMTP-kiszolgáló neve
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	Írja be a kimenő elektronikus levél (SMTP) kiszolgáló címe here\r\ne.g. SMTP.gmail.com
+Port	Port
+Enter the SMTP server port	Adja meg az SMTP-kiszolgáló portja
+Use SSL	SSL használata
+Check this if you SMTP server uses SSL	Jelölje be, ha az SMTP kiszolgáló használ SSL
+e-Mail Settings	e-Mail Beállítások
+From <e-Mail>	A <e-Mail>
+Enter the senders (From) eMail address here	Írja be a feladók (itt a elektronikus levél cím A)
+To <e-Mails>	A <e-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	Adja meg a címzetteket (,) elektronikus levél cím here.\r\nSeparate több címzettnek pontosvesszővel (;)
+Send eMail on successful conversion	A konverzió sikeres e-mailben
+Send eMail on failed conversion	Küldjön e-mailt a konverzió sikertelen
+Send eMail on cancelled conversion	Küldjön e-mailt a törölt konverzió
+Send eMail on adding a conversion to the queue	Küldjön e-mailt a hozzá egy átalakítása a várólista
+Please enter a valid server address	Adjon meg érvényes kiszolgálócím
+Invalid SMTP Server	Érvénytelen SMTP-kiszolgáló
+Please enter a valid server port	Adjon meg egy érvényes kiszolgáló portja
+Invalid SMTP Port	Érvénytelen SMTP Port
+Please enter a valid From eMail address	Adjon meg egy érvényes elektronikus levél cím-ból
+Invalid eMail Address	Érvénytelen elektronikus levél cím
+Please enter valid To eMail addresses	Adjon meg érvényes E-mail címek
+Username	Felhasználónév
+<Optional> Enter the username for the eMail server authentication	<Optional>Enter a felhasználónév, az E-mail kiszolgáló hitelesítéséhez
+<Optional> Enter the password for the eMail server authentication	<Optional>Enter a jelszót, az E-mail kiszolgáló hitelesítéséhez
+MCEBuddy unable to download series information	MCEBuddy képtelen-hoz letölt adatsor-információk
+MCEBuddy successfully converted a video	MCEBuddy sikeresen konvertálta a videó
+Source Video	Forrás Video
+Converted Video	A konvertált Video
+Converted At	Átváltani
+MCEBuddy failed to converted a video	Nem sikerült konvertálni a videót, MCEBuddy
+Failed At	Sikertelen volt
+MCEBuddy cancelled a video conversion	MCEBuddy törölt videó átalakítás
+Cancelled At	Törölni kell
+Working	Dolgozó
+Test	Vizsgálat
+Testing	Vizsgálat
+Click this button to test the eMail server settings	Erre a gombra az E-mail kiszolgáló beállításainak tesztelése
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy küld egy e-mailt a kiszolgáló settings.\r\nThis teszteléséhez is veszi upto 60 seconds.\r\nMCEBuddy lehet nem válaszoló ebben az időszakban.
+Test eMail	Próba E-mail
+MCEBuddy Test eMail	MCEBuddy próba e-mailt
+MCEBuddy - Have a great day!	MCEBuddy - volna egy nagy nap!
+Send eMail test successful	Küldjön E-mail teszt sikeres
+Send eMail test failed! Please check your settings and internet connectivity	Küldje el E-mail teszt sikertelen volt! Ellenőrizze a beállításokat, és az internet connectivity
+Test eMail Success	Teszt E-mail siker
+Test eMail Failed	Próba e-mailt nem sikerült
+Send eMail on start of conversion	Küldjön e-mailt a start-konverzió
+MCEBuddy started a video conversion	MCEBuddy indult, video átalakítás
+Conversion Started At	Konverziós Started At
+Yes (Comskip)	Igen (Comskip)
+Yes (ShowAnalyzer)	Igen (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	Atleast egy konverziós tevékenység engedélyezve kell lennie
+Disable	Letiltása
+Enable	Engedélyezése
+Rename	Átnevezése
+Move	Mozog
+Up	Fel
+Down	Le
+Slow Remuxing	Lassú Remuxing
+Extracting closed captions	Kivonás a kódolt feliratok
+Validating closed captions	Kódolt feliratok érvényesítése
+Extracting subtitles	Felirat
+Trimming closed captions	Asztalosipari zárt feliratok
+Extract subtitles and closed captions	Kivonat feliratok és a kódolt feliratok
+Field	A mező
+Channel	Csatorna
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	Képessé tesz ez-hoz kivonat Closed Captions, feliratok és a Teletext from\r\nWTV, DVR-MS, Rd, MP4, MKV és más támogatott files.\r\n\r\nIt a felirat (SRT)-fájlként van mentve.
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	Ez a kódolt feliratok extraction\r\nField - 1 vagy 2\r\nChannel - 1 vagy a 2\r\n\r\nDefault vonatkozó speciális beállítások engedélyezése: mező 1, 1 csatorna
+Subtitle offset	Eltolásának felirat
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	Adja meg a másodpercek száma (+ ve / - ve) a videó feliratok-szinkronizálás beállításához
+Re-ReMuxing due to audio error	Re-ReMuxing köszönhetően a hang hiba
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	Mentse a poszter és megjeleníteni információt (metaadatok) egy MC/XBMC kompatibilis NFO fájlt (XML-formátum)
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	Menteni a Térkép adatok (metaadatok) a konvertált file.\r\nThis csak működik a metaadatok támogató fájlokat mint MP4, MKV, a négyzet WTV etc.\r\n\r\nNOTE: a pipát, ha-a ' fordulat kérdés az egyes készülékek, például a régebbi TV, amely probléma olvasó metaadatokat.
+Atleast one day of the week must be enabled	Atleast egy nap a hét engedélyezve kell lennie
+Invalid Days of Week	Érvénytelen hét napjaira
+Invalid day of week found in configuration file	Érvénytelen konfigurációs fájlban található hét napja
+Scheduling	Ütemezés
+Remuxing to	A Remuxing
+Part	Rész
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	A többi a felső a jobb corner.\n\nDonations < első lépések &gt; linkre kattint az egérrel, gombra, doboz vagy cikk-hoz kap azonnali segítséget a it.\n\nFor további információt használni, elhárítása vagy Kaphatok segítséget a MCEBuddy is mindig szívesen látjuk :) Élvezze! \n\n - Kinga, Derek & lúd
+Welcome to MCEBuddy	Üdvözöljük a MCEBuddy
+Multichannel audio	Többcsatornás hang
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	Ellenőriz-hoz enged többcsatornás audio, ha a forrás videó támogatja az audio it.\r\nBy alapértelmezett korlátozódik 2 csatorna (sztereo).
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	Dynamic Range Compression (KDK) \r\nWhen a forrása az AC3 audio-, amely lehetővé teszi a Kongói Demokratikus Köztársaság will\r\nreduce a különbség a hangos és a soft\r\nsounds, így a hangsávot több even.\r\nIf van egy többcsatornás hangfelvétel és you\r\nfeel a kötet túl puha, ellenőrzésére, a jelölőnégyzet segíthet.
+FPS	FPS
+Logfile age (days)	Logfile élettartama (nap)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	Megtartani a logfiles them.\r\nSet 0 tartani örökre, a naplók törlése előtt napok maximális számát.
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	Gyors Remuxing
+Byte stream remuxing	Bájt adatfolyam remuxing
+Disable cropping	Tiltsa le a levágás
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	Ez letiltja a levágás videó automatikusan a conversion.\r\nCropping során használatos, távolítsuk el a "fekete oszlopok" Ellenőrizze a videó (felső, alsó, bal vagy right).\r\nUse, ez a beállítás a videó kép vágottan szerzés bármely oldalán, vagy a végső kép látszó nyújtva vagy torz.
+Only detect Ads	Csak a hirdetések észlelése
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	Jelölje be, ha szeretné MCEBuddy felismerni, hogy a hirdetések (reklámok), de nem vágja a video.\r\nWhen ez a beállítás engedélyezve van, MCEBuddy akarat teremt egy EDL fájl, és a konvertált fájlt, hirdetések helyét megadó az átalakított video.\r\nAlso, MP4, M4V, és MKV fájlok MCEBuddy létrehozza a fejezetek reklámok végét.
+Download information	Információ letöltése
+Correction	Korrekció
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	Kattintson ide a Térkép címe helyes és erőt adott TVDB azonosítót vagy IMDB film id\r\nto keresés további metaadatokat az internetről.
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	Ha bejelöli a letöltése további információt talál mint egy transzparens fájl, a epizód, a szezon stb megjelenítése Internet
+Profile Error	Profilszerkesztési hiba
+Cannot find selected profile in profiles.conf	Kijelölt profilhoz nem található az profiles.conf
+Invalid Profile	Érvénytelen profilja
+Please select a valid profile	Jelöljön ki egy érvényes profilja
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	A MCEBuddy motor összeomlott. Legyen szíves küld a mcebuddy.log a fejlesztők számára
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	Válassza ki a használandó a konverziós task\r\nLeave ez üres hely eltávolítása az alapértelmezett Comskip INI-fájl használandó egyéni Comskip INI-fájl
+Click to select custom Comskip INI file	Kattintással jelölje ki az egyéni Comskip INI-fájl
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	Jelölje ki a mappát, az ideiglenes fájlokat. Győződjön meg arról, hogy van elég üres helyet a drive.\r\nLeave ez az alapértelmezett temp mappa használata a telepítési mappa üres.
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	Válassza ki a mappát, az ideiglenes fájlokat. Győződjön meg róla, van elég üres hely a drive.\r\nThis felülírja a temp mappa-> szakértő beállításlap beállításaiban megadott.
+Click to select temp working folder	Kattintással jelölje ki az ideiglenes munkakönyvtár megadása
+Temp folder	Alkat dosszié
+Space check	Lemezterület-ellenőrzést
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	Mikor ellenőrizni fogja a engedélyezett MCEBuddy elég szabad hely a konverzió (cél- és temp).\r\nUncheck ez ha birtoklás baj-val a hálózati meghajtókat, vagy rendkívül nagy video fájlokat.
+MCEBuddy Windows Event Logs	MCEBuddy a Windows Eseménynapló
+Events	Események
+Click here to open the MCEBuddy Windows Event Logs	Kattintson ide, hogy nyissa meg a MCEBuddy Windows eseménynaplójával
+Enable UPnP	Engedélyezi a UPnP
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	Bejelölésével engedélyezzük a UPnP. Ez lehetővé teszi a hozzáférést MCEBuddy motor a network.\r\nThis kívül meg kell ellenőrizni kell, ha a ' használ egy mobil/önálló MCEBuddy ügyfél MCEBuddy eléréséhez.
+Click here to connect to another MCEBuddy engine	Kattintson ide, hogy csatlakozni egy másik MCEBuddy motor
+MCEBuddy Remote Engine Connection	MCEBuddy távoli motor-kapcsolat
+Engine Name	Motor neve
+Engine Port	Motor Port
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	Írja be a nevét vagy IP-címét a MCEBuddy motor ön akar-hoz összeköt-hoz
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	Adja meg a TCP Port számát a MCEBuddy motor ön akar-hoz összeköt-hoz
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	Adja meg a TCP Port számát a MCEBuddy motor ön akar-hoz összeköt-hoz (1 63355)
+Invalid Name/Port	Érvénytelen név/Port
+Please enter a valid Engine Name and Engine Port Number	Adjon meg egy érvényes motor nevét és a motor Port száma
+Error Stopping Engine	Hiba megállás motor
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	Nem tudott megállni MCEBuddy motor, beállítások esetleg nem lesznek mentve. Szeretné, hogy továbbra is?
+Unable to communicate with engine. Settings have NOT been saved.	Nem sikerült kommunikálni a motor. Beállításai nem lettek mentve.
+Communication Error	Kommunikációs hiba
+Engine not stopped. Settings have NOT been saved.	A motor nem állt meg. Beállításai nem lettek mentve.
+Unable To Save Settings	Nem lehet menteni a beállításokat
+Unable to communicate with engine. UPnP settings have not been updated	Nem sikerült kommunikálni a motor. UPnP-beállítások nem lettek frissítve
+Audio delay	Audió késés
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	Adjon meg egy értéket másodpercben (pozitív vagy negatív) itt váltani az audio, a video.\r\nUse képest ez végezte el az újraszinkronizálást a hang és a videó, ha nincsenek szinkronban után conversion.\r\nA pozitív érték lesz az audiót (azaz video audio előtt) a negatív érték lesz haladó a hang (azaz audio előtt video).\r\nE.g. -1.5
+Media info	Sajtóinformációk
+Click here to get media properties for selected files	Kattintson ide, hogy kap média tulajdonságait a kijelölt fájlok
+Save information	Adatok mentése
+Add information	Információ hozzáadása
+Shows a preview of the custom filename and path	Mutat egy sajtóbemutató-ból az egyéni fájlnév és elérési út
+Invalid Filename Pattern	Érvénytelen fájlnév-minta
+TVDB Series ID	TVDB sorozat-azonosító
+IMDB Series ID	IMDB azonosítót
+Original title	Eredeti címe
+Corrected title	Korrigált cím
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Adja meg a TVDB azonosítót a Térkép letöltést használni kívánt information.\r\nIf az eredeti cím mező üres, ez vonatkozik minden azt mutatja, a konverziós feladat által kiválasztott.
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Adja meg a film IMDB Azonosítóját, ön akar-hoz használ részére letöltő film information.\r\nIf az eredeti cím mező üres, ez vonatkozik minden azt mutatja, a konverziós feladat által kiválasztott.
+Internet Lookup Title and Metadata Correction	Internetes keresés cím és metaadatok korrekció
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	Ide kattintva vehet fel egy másik sor felel meg, és helyes címeket és azonos korrigált cím, illetve azonosítót minden azt mutatja, a konverziós feladat alakítja át használni kívánt sorozat id.\r\nIf \r\nleave az eredeti cím üres az első sorban, és ne adja hozzá egy második sort.
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	Írja be az egyeztetendő Térkép/sorozat címe a korrekció (pl. Simpson * akarat helyettesít minden címet, hogy a Térkép címe, kezdve a Simpson) minta \r\nPrefix minta ~ ugrani a mérkőzés (pl. *. *; ~ Simpson * helyes minden show, kivéve a Simpson kezdődő címek) \r\nSeparate több minták; (pl. Simpson *;House*) vagy (pl. Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nNOTE: hagyjuk ezt a mezőt üresen, ha a korrigált cím vagy azonosítót alkalmazza ezen átalakítás task.\r\nIf üresen hagyva által feldolgozott minden fájlokat, nem vehet fel egy második row.\r\n\r\nYou használatával a reguláris kifejezés egyezik a cím összerezzenés-val összefagy:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	Letöltése további információt használni kívánt új javított címet adja meg a internet.\r\nIf az eredeti cím mező üres, ezt fogja alkalmazni minden azt mutatja, ez az átalakítás által kiválasztott task.\r\n\r\nYou segítségével egy reguláris kifejezés helyes cím regex kiindulva:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	Minden sorban, kérjük, írja be a Térkép nevét és vagy korrigált eredeti cím cím vagy egy TVDB/IMDB-azonosítót
+Please enter either a Corrected title or a TVDB/IMDB Series ID	Kérjük, írja be a korrigált címet vagy egy TVDB/IMDB-azonosítót
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	Képessé tesz ez, ha azt szeretné, hogy a konvertált MCEBuddy reszelő-ban forrás directory\r\nif a cél elérési út nem érhető el. (pl. hálózati hiba vagy a portkezelő sikertelen)
+Fallback to source path	Visszalépés a forrás elérési útja
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	Használt növelheti vagy csökkentheti a kötet the\r\nrecording, míg converting.\r\n1 a normális, semmit az alábbiakban csökkenteni fogja, anything\r\nhigher fogja növelni.
+Archive folder	Archív mappa
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	Az Archívum folder.\r\nLeave üres, használja az alapértelmezett "MCEBuddyArchive" mappát az eredeti könyvtárba helyének módosítása.
+Monitor subdirectories	Monitor alkönyvtárak
+Check this box to also monitor all directories within the Monitor path	A négyzet bejelölésével is figyelemmel kíséri az összes könyvtár a Monitor elérési útját
+Click here to show MCEBuddy status	Kattintson ide, hogy MCEBuddy állapotának megjelenítése
+MCEBuddy service not connected	MCEBuddy szolgáltatás nincs csatlakoztatva
+MCEBuddy idle	Üresjárati MCEBuddy
+conversions in progress	Konvertálás folyamatban
+MCEBuddy stopped	MCEBuddy leállt
+Sync converted files	Konvertált fájlok szinkronizálása
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	Jelölje be ezt a beállítást, ha szeretné megtartani a konvertált fájlokat szinkronban az eredeti files.\r\ni.e MCEBuddy. Ha az eredeti fájlok a felhasználó által törölt, a megfelelő konvertált fájlokat is deleted.\r\n\r\nNOTE: MCEBuddy csak figyeli az eredeti fájlokat a monitor helyek mappában, és csak, míg a motor running.\r\nMCEBuddy nem lesz képes-hoz nyom felhasználó töröl fájlokat, míg a motor leáll.
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	Biztosan MCEBuddy minden átalakított fájlt töröl a eredeti reszelő van deleted?
+Confirm sync conversions?	Szinkron fájlkonvertálás jóváhagyása?
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	Biztos vagy benne, hogy a nem kívánt reklámok eltávolítása a konvertált videó, és csak tartani az EDL fájl?
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer nem válaszol. Legyen szíves újraindít rendszer, vagy telepítse újra a ShowAnalyzer.
+ShowAnalyzer Not Responding	ShowAnalyzer nem válaszol
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	Győződjön meg arról, hogy nyomja meg a "Start" Ez az ablak bezárása után, ellenkező esetben ütemezés és nyomán nem fog működni.
+Enabling Scheduling and Wake	Lehetővé tevő ütemezése és nyomában
+Passwords do not match	A jelszavak nem egyezőek
+Password error	Jelszó hiba
+Adding subtitles and chapters to file	Feliratok és fejezetek hozzáadása a fájl
+Send eMail if unable to download series information	Küldjön e-mailt, ha képtelen-hoz letölt adatsor-információk
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	Jelölje be a négyzetet, ha azt szeretné, hogy a konverziós feladat csak feldolgozni fájlokat-ból különleges monitor locations.\r\nIf akadálytalan minden a konverziós feladat feldolgozza a fájlokat-ból minden idegen rádióadást figyel hely (beleértve a később hozzáadott újak).
+Select Monitor Locations	Válassza ki a Monitor helyek
+Select atleast one Monitor Location name	Kiválasztása az atleast egy idegen rádióadást figyel hely neve
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	Minden a jelenlegi Monitor Locations.\r\nDo szeretné a konverziós feladat automatikusan feldolgozni semmilyen új Monitor helyeken hozzáadott-ban jövő választotta?
+New monitor locations	Új monitor helyek
+Invalid selection	Érvénytelen kijelölés
+Channel name match	Csatorna név egyezés
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Adja meg a mintázat, hogy megfeleljen a csatorna neve, a feladat (pl. ABC * akarat megtérít minden fájlokat, rögzített az ABC csatorna neve) \r\nPrefix minta ~ ugrani a mérkőzés (pl. *; ~ ABC * feldolgoz minden csatornán, kivéve azokat, amelyek kezdeni ABC) \r\nSeparate több szokások; (pl. ABC *;TBS*) vagy (pl. ABC *;Fox*; ~ Fox4 *) \r\n\r\nYou használható reguláris kifejezések egyezik a minta a regex kezdve:
+Clear history	Előzmények törlése
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	Kattintson erre a gombra kattintva törölje a történelem minden átalakított files.\r\nThis is okozhat MCEBuddy kezelésének minden fájlokat lét figyelt.
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	Biztos, hogy törli a történelem minden konverziók? \r\nThis hatására MCEBuddy kezelésének minden fájlokat lét figyelt.
+Show history	Előzményeinek megjelenítése
+Click this button to show the history of all converted files.	Kattintson erre a gombra, a történelem, az összes konvertált fájlok megjelenítéséhez.
+History of Converted Files	A konvertált fájlok története
+Unable to communicate with engine.	Nem sikerült kommunikálni a motor.
+Extracting streams	Kivonás patakok
+Fallback muxing streams	Tartalék Keverési patakok
+Remuxing TiVO file	Remuxing TiVO fájl
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	Írja be a 10 jegyű TiVO MAK kulcs-hoz megtérít és a folyamat TiVO felvételek
+Invalid TiVO MAK Key	Érvénytelen TiVO MAK kulcs
+The TiVO MAK key should be 10 digits	A TiVO MAK kulcs legyen 10 számjegy
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	Verzióeltérés. Győződjön meg arról, hogy az ügyfél MCEBuddy és a motor ugyanazon verzióját futtatja.
+Error retrieving Event Logs	Visszaállítása, eseménynaplóban hiba
+Unable to get Event Log Entries from the MCEBuddy engine.	Nem lehet megkapni az Eseménynapló-bejegyzések a MCEBuddy motor.
+PAUSED: Check conversion schedule	SZÜNETEL: Ellenőrzés konverziós táblázat
+Logging	Naplózás
+Folder Management	Mappa kezelése
+Processor Management	Folyamat-menedzsment
+Expert Settings	Szakértõ
+System Settings	Rendszerbeállítások
+Click here to change additional settings (for experts only)	Kattintson ide további módosítása (csak gyakorlottaknak)
+Failed folder	Sikertelen mappába
+Location of the folder that hold the original files for failed conversions.	A mappa, hogy tartsa az eredeti fájlokat, a sikertelen konvertálások.
+Move original file on failure	Helyezze át az eredeti fájlt a hiba
+Check this to move the original file to a separate folder if the conversion fails.	Ellenőrizze az eredeti fájl áthelyezése egy külön mappába, ha a konverzió nem sikerül.
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	Ha bejelöli a logikai processzor, amely MCEBuddycan use.\r\nEach jelölőnégyzet be lent felel meg egy rendelkezésre álló logikai processzor számát.
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Minden doboz képviseli logikai processzorok 1 16 respectively.\r\nChecking egy doboz lehetővé teszi, hogy használja a processzor MCEBuddy.
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Minden doboz képviseli logikai processzorok 17 32 respectively.\r\nChecking egy doboz lehetővé teszi, hogy használja a processzor MCEBuddy.
+Select atleast one processor to use	Válassza ki a atleast egy processzor használatát
+Invalid Configuration	Érvénytelen konfiguráció
+Comskip path	Comskip elérési útja
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	Ha szeretné használni a Comkip (pl. adományozó változat) testreszabott verzióját, \r\nthen a comskip telepítés here.\r\nLeave üres, használja az alapértelmezett comskip, amit jön-val MCEBuddy elérési útját adja meg.
+Miscellaneous	Egyéb
+Ignore copy protection	Figyelmen kívül hagyja a copy protection
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	Ezt figyelmen kívül hagyja a másolásvédelmi zászlót video reszelő, míg a converting.\r\nNOTE: MCEBuddy nem kitérő encryption, ez csak segít, ha egy reszelő incorrectly\r\ntagged, mint másolás védett, ha a fájl nincs titkosítva.
+Use recycle bin	Használja újra feldolgoz tartó
+Check this to use the recycle bin when files are deleted by MCEBuddy	Ezt kell használni a újra feldolgoz tartó mikor fájlokat van töröl-a MCEBuddy
+Poll period	Közvélemény-kutatás időszak
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	Ez a, milyen gyakran MCEBuddy vizsgál a Monitor feladatok helyét, az új files.\r\nThe időköz másodpercben megadva.
+Server port	Szerver port
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	Ez a MCEBuddy használatával kommunikálni a távoli engine.\r\nWhen engedélyezve van az UPnP, MCEBuddy automatikusan hozzáadja ezt a portot a Windows Firewall\r\nand UPnP átjáró engedélyezik a hozzáférést az internetről, a port TCP-portot.
+Hang period	Felfüggeszt idő
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	Adja meg másodpercben, hogy MCEBuddy fogja várni a választ a the\r\nunderlying alkalmazás előtt megszűnik az alkalmazás hung.\r\nEnter 0 letiltása hang felismerés.
+Subtitle commercial cut sync	Felirat kereskedelmi cut-szinkronizálása
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	Ez a paraméter akkor használatos, ha megy fokozatosan szinkronban után minden egyes kereskedelmi szegmens el kell távolítani a video.\r\nThis beállítás használatos, hogy a feliratok feliratok vissza szinkronban a video.\r\nEach idő a videó kereskedelmi kivágták, a feliratok időben eltolódott ez összeg (+ ve vagy - ve másodperc).
+Invalid poll period	Érvénytelen közvélemény-kutatás időszak
+Invalid server port	Érvénytelen kiszolgáló portja
+eMail Subject Customization	eMail-téma testreszabása
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	Használja ebben a szakaszban testreszabhatja az E-mail tárgya küldött MCEBuddy a különböző konverziós események felsorolt below.\r\nRefer a dokumentációt, egyéni parancsokat a felhasználó által definiált variables.\r\ne.g. Megjelenítése % showname % % originalfilename % Fájlkonverzió sikeres használ feladat % taskname%\r\nNOTE: nem mindig minden a adat lesz elérhető az egyéni commands.\r\nLeave használandó alapértelmezett tárgyú üres.
+Success	Siker
+Failed	Nem sikerült
+Cancelled	Törölve
+Download fail	Letöltés fail
+Limit processor utilization	Limit processzor kihasználtság
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	Ellenőriz ez, hogy MCEBuddy is use.\r\nEach jelölőnégyzet be lent logikai processzorok számának korlátozása felel meg egy rendelkezésre álló logikai processzor.
+Custom profile	Egyedi profil
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	Ha nem the\r\none, hogy jön a MCEBuddy használni kívánt egyéni profiles.conf fájl, az elérési útját adja meg a fájl here.\r\n\r\nNOTE: MCEBuddy folyamatosan frissítések profiles.conf, hogy a rovar megalszik, \r\nenhancements és a teljesítményt növelő, amely hiányozni fog out\r\non, ha használja ezt a funkciót.
+Invalid custom profiles.conf	Érvénytelen egyéni profiles.conf
+Suspend on battery	Felfüggeszti a akkumulátor
+Suspend conversions when the computer switches to battery power	Konverziók felfüggesztheti, ha a számítógép akkumulátoros áramellátásra vált
+MCEBuddy added a video conversion to the queue	MCEBuddy hozzá egy video megtérítés a várólista
+Queue	Várólista
+Refer to documentation on using custom commands in custom eMail subjects	Dokumentációban használatával egyéni parancsokat, egyéni E-mail tantárgyak
+Could not copy information to Clipboard, please try again.	Sem információ másolása a vágólapra, kérjük, próbálja meg újra.
+Error copying to Clipboard	Hiba másolás a vágólapra
+Copy to clipboard	Másolása a vágólapra
+Reconvert files	Visszaalakítás fájlok
+Are you sure you want to reconvert the selected files?	Biztos vagy benne, hogy a szeretné visszaalakítani a kijelölt fájlokat?
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	Jelölje ki a fájlokat szeretne visszaalakítani, és kattintson a button.\r\nIf az eredeti fájlok továbbra is felügyelik ezek lesz a várólistára baromfitenyésztő MCEBuddy.
+Time taken to convert	Idő elvett-hoz megtérít
+Network authentication	Hálózati hitelesítésre
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	Kattintson a gombot, hogy a hálózati megosztások credentials.\r\nThis hitelesítés használatos, ha a fájlokat keresztül a Hozzáadás gombra a fő window\r\nor húzni, és leesett egy hálózati megosztásról, a fő ablak átalakítás állapotának dobozba.
+Skip reconversion	Visszaalakítás kihagyása
+Do not reconvert the video if a converted file already exists in the destination directory.	Csak nem visszaalakítani a videót, ha a konvertált fájl már létezik a célkönyvtár.
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	A várható fájlnév a konvertált video (nem az eredeti videó fájl) összehasonlítva a filenév-ban a cél directory.\r\nIf a konvertált fájl létezik, a fájl nem lesz célkarakterlánc és azt feltételezi, hogy egy sikeres conversion.\r\nThis akkor hasznos, ha a Térkép/életbiztosítása van lét rögzített, a többször, és nem szeretné visszaalakítani them.\r\n\r\nNOTE: Ez a beállítás figyelmen kívül hagyja, manuálisan a Hozzáadás gomb segítségével vagy húzó és csepegés felvett videók
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	Ha engedélyezve van, Visszaalakítás skip is ellenőrzi az előzményfájl elmúlt conversions.\r\nThe várható filenév részére a konvertált video (nem az eredeti videó fájl) van összehasonlítva-val a filenév-ban a történelem file.\r\nIf a konvertált fájlnév (elérési úttal együtt) hogy megegyezik-e a már átalakított fájlneveket (ösvényeket is beleértve), a történelem fájlt, \r\nthe fájlt nem lehet célkarakterlánc és abból kiindulni, hogy egy sikeres konverziót.
+Adding file to the iTunes library	Fájl hozzáadása a iTunes könyvtár
+Add to iTunes	Add to iTunes
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	Ellenőrizze a jelölőnégyzetet, ha automatikusan hozzáadja az átalakított fájlokat az iTunes library.\r\nThis egyetlen szerkezet-val iTunes támogatott fájlokat (MP4, M4V, MP3 stb.)
+Adding file to the WMP library	A WMP könyvtár fájl hozzáadása
+Library Management	A könyvtár vezetősége
+Add to Windows Media Player	Hozzáadása a Windows Media Player
+Check this box to automatically add the converted files to the WMP library.	A négyzet bejelölésével automatikusan adja hozzá a konvertált fájlokat a WMP könyvtár.
+Renaming and Sorting	Átnevezés és rendezés
+Selection Filters	Szűrő kiválasztás
+Audio and Video	Audió és videó
+Subtitles and Chapters	Feliratok és fejezetek
+Skip copying original files	Ugrás az eredeti fájlok másolása
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	Ellenőrizze a doboz a saját RISK.\r\nDO nem ellenőriz ez doboz kivéve, ha Ön tudja mit kell DOING.\r\nCheck ezt a rovatot hogy egy hát-ból eredeti reszelő (másolás) konvertálása közben ugrani.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	Ellenőrizze a doboz a saját RISK.\r\nDO nem ellenőriz ez doboz hacsak BIZONYÁRA tudod te ezt, akkor hagyja ki, így egy hát-ból eredeti reszelő (másolás), míg a converting.\r\nIf ez van jelölve, az eredeti fájl nem őrzi esetén egy error.\r\nIt DOING.\r\nCheck még vezethet konvertálási hibák vagy egyéb előre nem látható konverziós problémák.
+Are you sure you want to do this?	Biztos vagy benne, hogy a ön akar-hoz csinál ez?
+Media Information Management	Média adatok kezelése
+Force show type	Erő Térkép típus
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	Készlet ez-hoz erő kezelésére a videofelvétel, mint egy film vagy TV Series.\r\nThis megváltoztatja további információt (metaadatok) a felvétel letölthető a internet.\r\nMovie élvezet - élvezet mint movie\r\nSeries - kezelésére a felvétel, mint egy TV-Series\r\nSports felvétel - a felvétel, mint egy sport show\r\nDefault - a hiba információ elérhető a felvétel metaadatok segítségével határozza meg a filmet, vagy TV-sorozat
+Show type	A következő szálláshely típusa
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	Válassza ezt, hogy kiszűrje a típusú felvételek, hogy converted.\r\n\r\nMovies - be, konvertálás, ha a térkép típusú Movie.\r\nShows - be, konvertálás, ha a térkép típusú nem egy Movie.\r\nSports - válassza ezt, ha a térkép típusú Sports.\r\n\r\nNOTE konvertálni: Térkép típusú beolvassa a felvétel metadata.\r\nOnly néhány felvételt támogatja Térkép típusú metaadat-mint WTV and\r\nrecordings a metaadatok támogatása fájlokat (XML/ARG stb).
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	Ez a rovat mutatja a fájlokat sorban itt conversion.\r\nDrag és csepp fájlokat, vagy nyomja meg a Hozzáadás gombot, fájlok hozzáadása a konverziós sortól
+Conversion	Átalakítás
+Files	Fájlok
+Click this button to open or close the Advanced Settings section	Erre a gombra, vagy a speciális beállítások szakasz bezárása
+Running custom commands	Egyéni parancsok futtatása
+Trimming video recording	Körülvágás video regisztráló készülék
+Insert at top of queue	Felső sor beszúrása
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	Alapértelmezés szerint új konverziók hozzáadódnak a konverziós queue.\r\nIf ez a jelölőnégyzet be van jelölve, minden új konverziót hozzáadta ezt a feladatot the\r\nbeginning (fent), a konverziós sortól egészül ki az alján (vége).
+Add subtitles and chapters	Összead feliratok és fejezetek
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	Engedélyezze ezt a beállítást olyan kivonat feliratok hozzáadása és a fejezetek a konvertált video.\r\nEach fejezet végét egy kereskedelmi. Ez egyetlen szerkezet-val támogatott formátumok (pl.: MKV, MP4).\r\n\r\nNOTE: néhány játékos és a régebbi TV nem támogatja a beágyazott feliratok és chapters.\r\nIf ' képtelen-hoz megtérít a video lejátszás, próbálja meg kikapcsolni ezt a beállítást.
+Select best soundtrack	Válassza ki a legjobb filmzene
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	Ha az eredeti videó több filmzenét, ez a beállítás utasítja MCEBuddy válassza ki a legmegfelelőbb és elsődleges soundtrack.\r\nIf azt szeretné, hogy egy adott nyelv zenéje, győződjön meg róla, adjuk meg a nyelv neve, vagy kód a nyelv Audio box.\r\nCheck ezt a rovatot, ha éppen tárgyalásra a rossz filmzene az átalakított file.\r\n\r\nUncheck ez doboz ha szeretné megtartani az eredeti videó a konvertált fájlban, ha lehetséges minden filmzene MCEBuddy. \r\nNOTE: néhány profilok nem támogatja több filmzenét, ebben az esetben ez a beállítás hatástalan.
+Enable remote access	Távoli hozzáférés engedélyezése
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	Ez létrehoz egy kivételt a windows tűzfal alkalmazás MCEBuddy és a port.\r\nThis szükség, ha a windows tűzfal engedélyezve van, és szeretné használni a UPnP, a távoli client\r\nor hozzáférést a motor segítségével egy IP-address.\r\n\r\nNOTE: Ha van egy saját tűzfalat, ez május nem dolgozik, szüksége lesz an\r\nexception MCEBuddy szolgáltatás és a port kézi létrehozásához.
+Unable to communicate with engine. Firewall exception settings have not been updated.	Nem sikerült kommunikálni a motor. Tűzfalbeállítások kivétel nem lettek frissítve.
+Detect and optimize video quality	Kinyomoz és optimalizálja a képminőséget
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	Ha engedélyezve van, MCEBuddy optimalizálja a videó feldolgozás lehetőségeket azáltal, hogy a video forrás-type.\r\nThis javíthatják a konvertált videó minősége jelentősen, ha helyesen detected.\r\n\r\nNOTE: Igen ez próbálva-hoz kinyomoz a videoforrás típusát (átlapolt, progresszív vagy telecine).\r\nIf-a ' képes-hoz kinyomoz a videoforrás típusát, akkor az felülírja a megfelelő paramétereket az profile.\r\nTurn ezt a lehetőséget ki, ha szembesül a kérdés-val megtérít video tulajdonság, vagy szeretné használni az alapértelmezett profil paramétereket.
+Are you sure you want to delete this task?	Biztosan törli ezt a feladatot?
+Delete Task	Feladat törlése
+Enter the new task name	Adja meg az új feladat nevét
+Rename Task	Nevezze át a feladat
+MCEBuddy PAUSED	MCEBuddy szünetel
+idle	üresjáratban
+PAUSED	FELFÜGGESZTVE
+Frame rate	Képfrissítés
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	Engedélyezi ezt, ha egy egyéni framerátát (FPS), a konvertált video.\r\nYou kell állítani ezt Converting video alakok (pl. NTSC-PAL) \r\nor eszközök, melyik támogat csak bizonyos framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001
+Skip remuxing files	Ugrás remuxing files
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	Ellenőrizze a doboz a saját RISK.\r\nDO nem ellenőriz ez doboz, kivéve, ha lehet, hogy tudja, mit kell DOING.\r\nCheck ezt a rovatot az eredeti fájl remuxing ugrani egy TS fájlt, míg a converting.\r\nIf ez be van jelölve, az egyes függvények, mint felirat kitermelési vagy a comskip nem work.\r\nIt még vezethet konvertálási hibák vagy egyéb előre nem látható konverziós problémák.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	Ellenőrizze a doboz a saját RISK.\r\nDO nem ellenőriz ez doboz kivéve, ha Ön tudja mit kell DOING.\r\nCheck ezt a rovatot az eredeti fájl remuxing ugrani egy TS file konvertálása közben.
+Monitor converted videos	Figyelemmel kíséri a konvertált videókat
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	Alapértelmezés szerint Monitor fekvések akarat nem vesz tudomásul fájlokat, már converted.\r\nCheck ezt a rovatot ha is figyelni kívánt konvertált fájlokat a Monitor Path.\r\nCAUTION: ez vezethet a konvertált fájlok konverziós végtelen ciklusba, ha nem konfigurált properly.\r\n\r\nThis hasznos lehet, ha megadása a kimeneti könyvtár a konverziós task\r\n (konvertált fájl), mint egy idegen rádióadást figyel hely Monitor útját, és összekötő the\r\nMonitor Egy másik konverziós feladat helyét.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	Ellenőrizze a doboz a saját RISK.\r\nDO nem ellenőriz ez doboz kivéve, ha Ön tudja mit kell DOING.\r\nBy alapértelmezett Monitor helyek mellőzése fájlokat, már converted.\r\nCheck ezt a rovatot, ha is figyelni kívánt Monitor útját a konvertált fájlok.
+Hardware encoding	Hardver kódolás
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	Ellenőrizze, hogy ez a rovat, hardveres kódolás elérhető videos.\r\nThis konvertálni felgyorsítása a konverzió jelentősen, és csökkenti a CPU utilization\r\nbut valamivel alacsonyabb minőségű videos.\r\n\r\nUncheck be a mezőt, ha valaki már átalakítás vagy minőségi problémák vezethet.
+Do not overwrite files	Ne felülírni fájlokat
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	Ha ez a jelölőnégyzet be van jelölve, a célfájl nem lesz felülírva, ha már exists.\r\nInstead egy új reszelő lesz teremtett-val egy egyedülálló szám hozzá a fájlnév végére.
+Re-monitor recorded videos	Újra ellenőrzi a rögzített videók
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	Alapértelmezés szerint ha egy forrásfájlban (Recorded videóinak) alakított, \r\nthe monitor történetét követi nyomon a fájlnév és a nem várólista az azonos fájlokat again.\r\n\r\nEnable ezt a beállítást figyelmen kívül hagyja a történelem és idegen rádióadást figyel minden fájlokat és összead őket to\r\nthe konverziós sortól, még akkor is, ha azok már converted.\r\n\r\nThis hasznos lehet néha, ha a felvétel szoftver nem jelent meg a a\r\nunique fájlnév minden epizód/show. -A ' ajánlott használatakor the\r\nDelete eredeti reszelő választás-ban elintézés oldal ezt a lehetőséget avoid\r\nan átalakítás végtelen hurok.
+Recommendation	Ajánlás
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	A konverziós végtelen ciklusba elkerülése érdekében ajánlott beállítani a Monitor keresési minta, mint ahogy annak biztosítása érdekében, hogy a konvertált fájlok nem figyelt a idegen rádióadást figyel feladat.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	Ellenőrizze a doboz a saját RISK.\r\nDO nem ellenőriz ez doboz kivéve, ha Ön tudja mit kell DOING.\r\nBy alapértelmezett helyeken idegen rádióadást figyel akarat nem feljegyezze rögzített videók, hogy már processed.\r\nCheck ezt a rovatot, ha feljegyezze, és a felvett videók visszaalakítani.
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	A konverziós végtelen ciklusba elkerülése érdekében ajánlatos, engedélyezi a törlés eredeti reszelő választás-ban elintézés oldal.
+Prioritize air date matching	Rangsorolni levegő időpont egyeztetése
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy használ az epizód neve egyezik a sorozat information\r\nwhile keres az interneten. Ha ez nem sikerül majd használja az eredeti broadcast\r\nair dátum egyezik a metadata.\r\n\r\nCheck használata az eredeti adás levegő dátum először, és majd the\r\nepisode név, hogy megfeleljen a sor információt a internet.\r\nThis hasznos lehet egyes esetekben több évadot same\r\nepisode névvel rendelkezik. Pl. Americal Idol, meghallgatás 1\r\n\r\nNOTE: eredeti, szórt levegőt dátum nem mindig pontosan meghatározott the\r\nbroadcaster és néha az információkat az interneten incorrect.\r\nUse ezt a lehetőséget csak akkor, ha az alapértelmezett beállítás nem működik az Ön számára.
+Skip eMail body	Ugrál elektronikus levél test
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	Ellenőrizze, hogy a beállítás használatához egy üres szerv a bejelentés eMail.\r\nThis lehet hasznos, ha egy SMS gateway használ részére elektronikus levél hirdetések.
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	Digitális jog menedzsment (DRM) alapján az available\r\nonly Mikor átnevezése átalakítás nélkül (átnevez és mozog csak) beállítás - kiválaszt minden fájlokat, feldolgozásra, függetlenül attól, hogy másolásvédelmi status\r\nProtected - selected.\r\n\r\nAll, csak jelölje ki fájlokat, amelyeket másol protected\r\nUnprotected - csak válassza ki a fájlokat, amelyek nem másol védelem
+Download cover art	Letölt fed művészet
+Enable this to download the cover art from the original video and internet if available.	Engedélyezi a ez-hoz letölt a borítón az eredeti videó és internet, ha rendelkezésre áll.
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	Biztos, hogy meg kíván adni egy Domain nevet? \r\n\r\nUse ezt csak ha Windows alapú tartományvezérlő segítségével kezelheti a authentication.\r\nDo nem használ ez ha Ön egy Workgroup.\r\n\r\nIf része bizonytalan kattintson.
+Configuration Warning	Konfiguráció-figyelmeztetés
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	Teremt egy dosszié hívott "MCEBuddyArchive", ahol az eredeti fájlt az located\r\nand helyezi át az eredeti fájlt ebbe a könyvtárba, után egy sikeres conversion.\r\n\r\nThis mappa nevét és helyét változtatható alatt.
+Monitoring	Monitoring
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	Ha ön akar-hoz megtérít az EDL fájl fejezetekre, győződj meg ön ellenőriz a szakértő elintézés-ban "Összead feliratok és fejezetek" opciót.
+EDL to Chapters	A fejezetek EDL

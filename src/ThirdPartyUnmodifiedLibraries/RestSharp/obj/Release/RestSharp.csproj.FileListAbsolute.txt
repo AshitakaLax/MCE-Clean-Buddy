@@ -1,0 +1,4 @@
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\RestSharp\bin\Release\MCEBuddy.RestSharp.dll
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\RestSharp\bin\Release\MCEBuddy.RestSharp.pdb
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\RestSharp\obj\Release\MCEBuddy.RestSharp.dll
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\RestSharp\obj\Release\MCEBuddy.RestSharp.pdb

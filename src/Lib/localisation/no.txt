@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy bruker ikke pålogget bruker til å koble til delte nettverksressurser, den bruker sin egen tjenestekontoen.  Husk å angi brukerinformasjon tilkobling (MCEBuddy med et ikon)
+Connection Reminder	Tilkobling-påminnelse
+Description	Beskrivelse
+Path	Banen
+is invalid	er ugyldig
+Invalid Path	Ugyldig bane
+Please supply a task name	Angi et navn på oppgaven
+No name supplied	Ingen angitt navn
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	Angi språkkoden 3 sifret lydspor eller velg <Default>eller <Original>
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	3-Sifret ISO-koden for den valgte language\r\nMake om dette stemmer overens med språkkoden for lydsporet i det opprinnelige recording.\r\nTo få språkkoden for lydsporene i innspilte originalfilen, Legg til file\r\nto køen og rett falle i staver opp på den. Et popup-vindu åpnes viser lyden details\r\nwhich inkludere språkkodene for hvert lydspor.
+Invalid Language Code	Ugyldig språkkode
+No destination directory provided, converted file will be placed in original video directory	Ingen målmappe angitt, konverterte filen vil bli plassert i opprinnelige video katalog
+A task name or section	En Aktivitetsnavn eller inndeling
+already exists\n\rPlease use another name	allerede exists\n\rPlease bruker et annet navn
+Duplicate Name	Duplisert navn
+Engine	Motoren
+Tasks	Oppgaver
+Profile	Profil
+disposing	Avhending
+Task name	Aktivitetsnavn
+Give a unique name to this task	Gi et unikt navn for denne aktiviteten
+Gives a short description for the selection conversion profile	Gir en kort beskrivelse for konverteringsprofilen utvalg
+Click to select destination folder	Klikk for å velge målmappen
+Destination	Destinasjon
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	Velg mappen der den konverterte filen skal placed.\r\nLeave denne boksen vµre blank å holde den konverterte filen i samme mappe som opprinnelige video.
+Max width	Maksimal bredde
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	Dette vil begrense den maksimale bredden (i piksler) for video for de konverterte file.\r\nTIP: gjelder ikke hvis den opprinnelige filen med en bredde-mindre enn denne number.\r\nIf du vil beholde din opprinnelige videooppløsning Flytt glidebryteren helt til høyre.
+Quality	Kvalitet
+Ad remover	Annonse fjerne
+None	Ingen
+Get series details from Internet	Få Seriedetaljer fra Internett
+Download additional details about the movie or series from the internet	Last ned flere detaljer om filmen eller serien fra Internett
+File name match	Filen navnet kamp
+Recording title match	Innspillingen tittel kamp
+Cancel	Avbryt
+OK	ok
+Rename without converting	Gi nytt navn uten konvertering
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	Når dette alternativet bare endre navn og kopiere de opprinnelige filene til målet folder.\r\nWhen sjekket, konvertering, trimming, lyd/video prosessering og kommersielle fjerning ikke kan available.\r\n\r\nNOTE: andre funksjoner som samsvarende filtre, utpakking undertekster, lagre metadata og kommersielle gjenkjenning (lagre EDL arkiv) \r\nwill fortsatt være tilgjengelig med dette alternativet checked.\r\nIf du vil flytte i stedet for kopien, sjekk på hopp kopiere original alternativ i ekspert-innstillingene på denne siden eller select\r\nDelete opprinnelige filen på siden hovedinnstillingene.
+Rename and sort by video information	Gi nytt navn og sortere etter videoinformasjon
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	Gir nytt navn til den konverterte filen og plasserer den i en ny katalog basert på informasjon om Vis/serien når available\r\n (f.eks ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	Angi brukernavn og passord for tilgang mapper på en nettverksstasjon eller en annen datamaskin
+Organize by seasons	Ordne av sesonger
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	Ordne mapper ved Showname og sesongen når tilgjengelig (Media Center/XBMC/Plex kompatibel navnekonvensjonen) \r\n (f.eks Showname\\Season XX\\SXXEYY-Episode navn)
+Audio language	Språk på lydsporet
+Advanced Settings	Avanserte innstillinger
+General Settings	Generelle innstillinger
+Conversion Task	Konvertering aktivitet
+Password	Passord
+Confirm Password	Bekreft passord
+Domain / computer name	Domene / datamaskinnavn
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	<Optional>Enter hvis eksterne datamaskinen eller nettverksstasjonen bruker et domene for authentication.\r\nDo ikke inn arbeidsgruppen her. La dette stå tomt hvis du bruker en arbeidsgruppe.
+User name	Brukernavn
+Enter the username to access the remote computer or network drive	Skriv inn brukernavn for å få tilgang til den eksterne datamaskinen eller nettverksstasjonen
+Enter the password to access the remote computer or network drive	Skriv inn passordet for å få tilgang til den eksterne datamaskinen eller nettverksstasjonen
+Network Connection User Credentials	Legitimasjonsbeskrivelser for nettverk-tilkobling
+Password Mismatch	Passord Mismatch
+Passwords do not match, please reenter the passwords	Passordene er ikke like, angi passordene på nytt Vennligst
+Hour	Time
+Minute	Minutt
+Wake	Våkne
+Start	Start
+Resume	CV
+Pause	Pause
+Stop	stopp
+Language	Språk
+Pause conversion tasks	Pause omdanne verv
+Resume conversion tasks	Gjenoppta omdanne verv
+Please enter a valid time	Skriv inn en gyldig tid
+Invalid Time	Ugyldig tid
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	Stopptiden er etter starttidspunktet. Hvis stopptiden er i løpet av dagen, er det riktig?
+Time Check	Tid sjekk
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	Bare Velg dette alternativet hvis MCEBuddy har vært å konvertere filene pålitelig for en akseptabel tidsperiode. Vil du MCEBuddy å slette hver opprinnelige filen når den er konvertert?
+Confirm delete originals?	Bekrefte slette originaler?
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy vil overvåke disse kataloger for video fil-størrelse å konvertere automatisk
+Conversion tasks	Konvertering aktiviteter
+Delete original file	Slett originalfil
+Deletes the original recording after a successful conversion	Sletter opprinnelige innspillingen etter en vellykket konvertering
+Min age before conversion (hours)	Min alder før konvertering (timer)
+Minimum hours to wait before converting each file after the file is added to the queue	Minimum timer å vente før du konverterer hver fil når filen er lagt til køen
+Use this to change the language of the text on the screen	Bruk denne til å endre språket på teksten på skjermen
+Concurrent conversions	Samtidige konverteringer
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	Antall samtidige konverteringer MCEBuddy kan start\r\nNOTE: du trenger store mengder ledig diskett mellomrom og prosessor tid for mer enn 2 samtidige konverteringer
+Logging level	Loggingsnivå
+Error	Feil
+Warning	Advarsel
+Information	Informasjon
+Debug	Feilsøke
+Log conversion jobs	Logge konvertering jobber
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	Lagre en loggfil for hver konvertering i \'logs\' adresseliste der hvor MCEBuddy er installed\r\n (f.eks C:\\Program Files\\MCEBuddy2x\\logs)
+Allow sleep	Tillat hvilemodus
+If unchecked, it prevents the system from entering sleep while converting	Hvis ukontrollert, forhindrer den systemet fra å gå i dvale under konvertering
+Stop at	Stoppe på
+No new conversions would be started after this time	Ingen nye konverteringer ville være i gang etter denne tid
+minute	minutt
+hour	Time
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	Hvis sjekket MCEBuddy vil vekke systemet fra sleep\r\nat angitt starttid og aktivert ukedagene.
+Start at	Start på
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy starter nye konverteringer mellom Start og stopp time.\r\n\r\nThe Start tid brukes for aktivert dager i uken, whereas\r\nthe slutten tid blir brukt for den samme dagen or\r\nfor neste dag hvis sluttidspunktet etter starttidspunktet.
+Delete	Slette
+Add	Legge til
+Change	Endre
+Archive original file	Opprinnelige arkivfil
+Domain name	Domenenavn
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	Stopper skjermen og konvertering oppgaver og åpner en side for å konfigurere MCEBuddy
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	Oppretter en mappe kalt \'MCEBuddyArchive\' der filen er located\r\nand flytter den opprinnelige filen i denne mappen når vellykket conversion.\r\n\r\nThis mappenavn og plassering endres i siden systeminnstillinger.
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	Debug - detaljerte logger, hjelper spor konvertering problems\r\nInformation - logger grunnleggende informasjon om conversion\r\nWarning - loggen potensielle problemer eller kritiske feil only\r\nError - loggen kritiske feil bare
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	Velg konvertering-profil som er knyttet til denne oppgaven. Konverteringsprofilen representerer utdataformat og kvalitet for de konverterte file.\r\nHigher kvaliteten konverteringer tar lenger tid å konvertere. Anbefalte standard: MP4 høy kvalitet eller MP4 Normal.\r\n\r\nTIP: Se installasjonsveiledningen for MCEBuddy for avanserte parametere til å finpusse konvertering profiler eller opprette dine egne profiler for konvertering
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	Velg programmet MCEBuddy bruker til å fjerne noen reklame under konvertering video.\r\nSet til ingen å forlate reklame i den konverterte video.\r\n\r\nTIP: bruke ShowAnalyzer i stedet for Comskip, kan du laste ned og installere ShowAnalyzer.\r\nShow analyserer versjon 1.0 og større støttes.
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	Brukes til å endre video kvaliteten på den konverterte filen, normalt er 1.\r\nA høyere tall vil forbedre kvaliteten, men vil ta mer tid for conversion.\r\nA mindre tall vil redusere kvaliteten, men hastigheten på konverteringen.
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Angi mønster å matche filnavn for denne oppgaven (f.eks *.wtv ville konvertere alle filer som slutter med .wtv)\r\nprefix mønster ~ å hoppe kampen (f.eks *. *; ~*.wtv behandler alle filer unntatt slutter med .wtv)\r\nseparate flere mønstre med; (f.eks. *.wtv, ncis *; ~ ncis miami *) vil behandle alle WTV-filer og alle filer som begynner med ncis men ikke de starter med ncis miami\r\n\r\nYou kan bruke regeluttrykk tilsvare mønsteret ved å starte med regex:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Angi mønster å matche Vis/serie titler for denne oppgaven (f.eks Simpson * konverteres alle filer som har en tittel med Simpson) \r\nPrefix mønster ~ å hoppe kampen (f.eks *; ~ Simpson * vil behandle alle Vis titler unntatt dem som begynner med Simpson) \r\nSeparate flere mønstre med; (f.eks Simpson *;House*) eller (f.eks Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nYou kan bruke regeluttrykk tilsvare mønsteret ved å starte med regex:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	Dette kan brukes til å overstyre standard lydspråk når det er flere lydspråk i en recording.\r\nTo komme liste over lydspråk i en innspilling, rett falle i staver opp på arkiv i køen, og velg MediaInfo.\r\n\r\n <Default>vil prøve å holde alle lydspor hvis støttes eller la koderen velge standard lyd track\r\n <Original>, hvis tilgjengelig, vil bruke originalspråket [ikke-kalt] opptak
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	Angi '[video]' eller la stå tomt til å konvertere alle video files\r\nEnter mønster for å matche filnavn for denne plasseringen (f.eks *.wtv vil konvertere alle filer som slutter med .wtv)\r\nprefix mønster med ~ å hoppe kampen (f.eks *. *; ~*.wtv behandler alle filer unntatt de slutter med .wtv)\r\nseparate flere mønstre med; (f.eks *.wtv; ncis *; ~ ncis miami *) behandler alle WTV og alle filer som begynner med ncis, men ikke de som starter med ncis miami
+MCEBuddy Settings	MCEBuddy innstillinger
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy bruker ikke pålogget bruker til å koble til delte nettverksressurser, den bruker sin egen tjenestekontoen.  Husk å angi brukerinformasjon tilkobling [MCEBuddy med et ikon]
+Please supply a source name	Angi et navn på datakilde
+Please supply a search path name	Angi et søkenavn for banen
+A source name or section	En kildenavnet eller inndeling
+already exists. Please use another name	finnes allerede. Bruk eit anna namn
+Monitor name	Skjermnavn
+Give this a location a unique name	Gi dette en plassering et unikt navn
+Monitor path	Skjerm-bane
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	Merk mappen som MCEBuddy vil overvåke i bakgrunnen for ny video fil-størrelse å konvertere automatisk
+Click to select the folder to monitor	Klikk for å velge mappen du vil overvåke
+Search pattern	Søkemønsteret
+SourceForm	SourceForm
+Monitor Location	Plassering av skjermen
+Normal	Normal
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: pipeProxy motor-tilkoblingsfeil
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: Kunne ikke lage pipe til MCEBuddy-tjenesten
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	MCEBuddy-tjenesten er ikke tilgjengelig. Vennligst starte fra Windows Kontrollpanel eller kontroller motor-tilkoblingen.
+Announcement	Kunngjøring
+New version 	Ny versjon 
+available	tilgjengelig
+New BETA version 	Nye BETA-versjon 
+Click here to download new version of MCEBuddy	Klikk her for å laste ned ny versjon av MCEBuddy
+Click here to open link	Klikk her for å åpne kobling
+Idle	Inaktiv
+Closing	Lukke
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI: Kan ikke oppdatere aktiviteter
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: Kan ikke starte MCEBuddy-tjenesten
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: Kan ikke stoppe tjenesten for MCEBuddy
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI: Kan avbryte jobben
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	Advarsel: Nettverksfilene vil nås bruker påloggingslegitimasjon av MCEBuddy Service, ikke den påloggede brukeren. Du kan manuelt angi nettverkslegitimasjonen fra innstillingene-> innstillinger for ekspert i MCEBuddy.
+Credential Warning	Legitimasjon for advarsel
+Status	Status
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI: Kan ikke legge til jobben
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: Kan ikke hente aktiv status for datakanal
+The conversions must be stopped to change settings. Stop the conversions?	Konverteringer må stoppes for å endre innstillingene. Stoppe konverteringer?
+Stop Engine	Stoppe motoren
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI: Kan ikke stoppe MCEBuddy tjenesten fra innstillinger-Klikk
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: Kan ikke skanne filer på nytt
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: Kan ikke åpne kobling
+Close	Lukk
+Close this window, MCEBuddy will keep running in the background	Lukk dette vinduet, MCEBuddy vil fortsette å kjøre i bakgrunnen
+If you like MCEBuddy, please click here to Donate - THANKS	Hvis du liker MCEBuddy, vennligst klikk her for å Doner - Takk
+Click here to like MCEBuddy on facebook	Klikk her å like MCEBuddy på facebook
+Click here to open MCEBuddy website	Klikk her for å åpne MCEBuddy nettsted
+Rescan	Skann på nytt
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	Styrker MCEBuddy å sjekker skjerm-plasseringer for ny video fil-størrelse å konvertere
+Monitor locations	Skjermen steder
+Settings	Innstillinger
+Select the file(s) in the queue to delete	Merk filen(e) i køen du vil slette
+Manually add video file(s) to the queue to convert	Manuelt legge video fil(er) til i køen for å konvertere
+Start the MCEBuddy monitor and conversion tasks	Starte MCEBuddy skjermen og konvertering aktiviteter
+Stop the MCEBuddy monitor and conversion tasks	Stoppe MCEBuddy skjermen og konvertering aktiviteter
+There is a new version!	Det er en ny versjon!
+High	Høy
+Low	Lav
+Priority	Prioritet
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	Høy prioritet - konvertere raskere, men kan gjøre andre åpne programmer unresponsive\r\nLow prioritet - konvertere i bakgrunnen, men redusert interferens med andre kjørende programmer
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	En aktivitet er en konvertering mal som inneholder en konverteringsprofilen og ulike andre konvertering parameters.\r\nEach filen legges til køen blir behandlet og konvertert av hver av disse tasks.\r\nRefer til TV-guiden for MCEBuddy for flere detaljer om hvordan oppgaver skal fungere.
+Getting started	Komme i gang
+Click here for MCEBuddy guide	Klikk her for MCEBuddy guide
+Logs	Logger
+Click to open log folder	Klikk for å åpne Logg-mappen
+MCEBuddy Status	MCEBuddy-Status
+add	legge til
+delete	slette
+paypal-donate	PayPal-donere
+stop	stopp
+OUTPUT: ConsoleOuput received NULL data	UTDATA: ConsoleOuput mottok NULL-data
+hours	timer
+minutes	minutter
+second	sekund
+seconds	sekunder
+Starting	Starter
+Comskip advertisement scan - Pass 1	Comskip annonse scan - passere 1
+Comskip advertisement scan - Pass 2	Comskip annonse scan - passere 2
+Cutting commercials from video	Kutte reklame fra video
+Cutting commercials from video - segment 	Kutte reklame fra video - segment 
+Merging commercial free segments into new video	Sammenslåing kommersielle gratis segmenter til ny video
+Moving converted file to destination	Flytte konverterte filen til destinasjon
+Checking for disk space	Ser etter diskplass
+Getting show information and banner from Internet sources	Å få viser informasjon og banner fra Internett-kilder
+Copying source file to working directory	Kopiere kildefilen til arbeidsmappen
+Remuxing recording	Remuxing opptak
+ShowAnalyzer advertisement scan	ShowAnalyzer reklame skanning
+Comskip advertisement scan	Comskip reklame skanning
+Analyzing video information	Analysere videoinformasjon
+Converting	Konvertere
+Removing commercials	Fjerne reklame
+Writing show information	Skrive vise informasjon
+Renaming file using show information	Gi nytt navn til filen ved hjelp av Vis-informasjon
+Success - All done!	Suksess - gjort!
+Muxing streams	Muxing strømmer
+Fallback remux	"Fallback"-remux
+Correcting audio delay	Korrigere lyd forsinkelse
+Converting video file - Pass 1	Konvertere videofil - passere 1
+Converting video file - Pass 2	Konvertere videofil - passere 2
+Converting video file	Konvertere videofil
+Audio Track	Lydspor
+Impaired	Svaksynte
+Channels	Kanaler
+Codec	Kodek
+Video	Video
+Duration	Varighet
+Height	Høyde
+Width	Bredde
+Audio	Lyd
+Name	navn
+Subtitle	Undertittel
+Volume	Volum
+Enable custom file renaming	Aktivere egendefinerte filen et nytt navn
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	Aktiver denne for å angi et egendefinert mønster for å gi nytt navn til konverterte filer og mapper. Angi det egendefinerte mønsteret i boksen below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S % sesongen % ##E % episode % ##-% episodename % - %airyear%_%airmonth%_%airday%\r\n\r\nWill produsere: \r\nTVShows\CSI\Season 1\CSI - S01E02 - beste tider - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produsere (for en film) \r\n Recording\Movies\Star Wars-konvertert. <ext>\r\nOR (for ikke-filmer) \r\n Recording\TVShows\CSI\Season 1\CSI - S01E02-konvertert.<ext>\r\n\r\nRefer til MCEBuddy avanserte dokumentasjon for en liste av alle kommandoene mønster.
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	ShowAnalyzer ikke funnet. siden Last ned og Installer ShowAnalyzer.
+ShowAnalyzer Missing	ShowAnalyzer mangler
+Invalid language code, reverting to <Default> language	Ugyldig språkkode, gå tilbake til <Default>-språk
+Cut start	Kutte start
+Cut end	Kutt slutten
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	Angir antall sekunder å kutte fra starten av opptak (før du fjerner annonser)
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	Angir antall sekunder å kutte fra slutten av opptak (før du fjerner annonser)
+Send an eMail after each conversion.	Sende en e-post etter hver konvertering.
+Send eMail	Send e-post
+SMTP Server Name	SMTP-servernavnet
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	Angi utgående e-post (SMTP) server adressen here\r\ne.g. SMTP.gmail.com
+Port	Port
+Enter the SMTP server port	Skriv inn SMTP tjenerport
+Use SSL	Bruk SSL
+Check this if you SMTP server uses SSL	Merk av her hvis du SMTP-serveren bruker SSL
+e-Mail Settings	e-postinnstillinger
+From <e-Mail>	Fra <e-Mail>
+Enter the senders (From) eMail address here	Angi avsenders (e-postadresse her fra)
+To <e-Mails>	Til <e-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	Angi mottakerne (til) e-postadressen here.\r\nSeparate flere mottakere med et semikolon (;)
+Send eMail on successful conversion	Send e-post på vellykket konvertering
+Send eMail on failed conversion	Send e-post på mislykkede konvertering
+Send eMail on cancelled conversion	Send e-post på avlyste konvertering
+Send eMail on adding a conversion to the queue	Send e-post for å legge til en konvertering til køen
+Please enter a valid server address	Skriv inn en gyldig serveradresse
+Invalid SMTP Server	Ugyldig SMTP-Server
+Please enter a valid server port	Skriv inn en gyldig Serverport
+Invalid SMTP Port	Ugyldig SMTP-Port
+Please enter a valid From eMail address	Angi et gyldig fra e-postadresse
+Invalid eMail Address	Ugyldig epostadresse
+Please enter valid To eMail addresses	Skriv inn gyldig til e-postadresser
+Username	Brukernavn
+<Optional> Enter the username for the eMail server authentication	<Optional>Enter username for e-post server-godkjenning
+<Optional> Enter the password for the eMail server authentication	<Optional>Enter passordet for e-post server-godkjenning
+MCEBuddy unable to download series information	MCEBuddy kan ikke laste ned informasjon om serien
+MCEBuddy successfully converted a video	MCEBuddy lyktes med å konvertere en video
+Source Video	Kildevideo
+Converted Video	Konverterte Video
+Converted At	Konvertert til
+MCEBuddy failed to converted a video	MCEBuddy kunne ikke konverteres til en video
+Failed At	Mislyktes I
+MCEBuddy cancelled a video conversion	MCEBuddy avbrutt en Videokonvertering
+Cancelled At	Annullert til
+Working	Arbeider
+Test	Test
+Testing	Testing
+Click this button to test the eMail server settings	Klikk denne knappen for å teste e-post serverinnstillinger
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy vil sende en e-post for å teste server-settings.\r\nThis kan ta opp til 60-seconds.\r\nMCEBuddy kan ikke svarer i denne perioden.
+Test eMail	Teste e-post
+MCEBuddy Test eMail	MCEBuddy Test e-post
+MCEBuddy - Have a great day!	MCEBuddy - har en stor dag!
+Send eMail test successful	Sende e-post-testen vellykket
+Send eMail test failed! Please check your settings and internet connectivity	Sende e-post-test mislyktes! Kontroller innstillingene og Internett-tilkobling
+Test eMail Success	Teste e-post suksess
+Test eMail Failed	Teste e-post mislyktes
+Send eMail on start of conversion	Send e-post på starten av konvertering
+MCEBuddy started a video conversion	MCEBuddy startet en Videokonvertering
+Conversion Started At	Konvertering startet
+Yes (Comskip)	Ja (Comskip)
+Yes (ShowAnalyzer)	Ja (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	Atleast én konvertering aktivitet må aktiveres
+Disable	Deaktivere
+Enable	Aktiver
+Rename	Gi nytt navn
+Move	Flytte
+Up	Opp
+Down	Ned
+Slow Remuxing	Langsom Remuxing
+Extracting closed captions	Utdrager teksting
+Validating closed captions	Validere teksting
+Extracting subtitles	Utdrager undertekster
+Trimming closed captions	Trimming lukkede bildetekster
+Extract subtitles and closed captions	Ekstra subtitles og teksting
+Field	Feltet
+Channel	Kanal
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	Aktivere dette trekke ut teksting, teksting og tekst-TV-from\r\nWTV, DVR-MS, TS, MP4, MKV og andre støttede files.\r\n\r\nIt lagres som en Subtitle (SRT)-fil.
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	Aktiver denne for å angi avanserte alternativer for teksting for hørselshemmede extraction\r\nField - 1 eller 2\r\nChannel - 1 eller 2\r\n\r\nDefault: feltet 1, kanal 1
+Subtitle offset	Undertittel forskyvning
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	Skriv inn hvor mange sekunder (+ ve / - ve) til å justere subtitles synkroniseringen med video
+Re-ReMuxing due to audio error	Re-ReMuxing grunnet Lydfeil
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	Lagre plakaten og vise informasjon (metadata) i en MC/XBMC kompatibel NFO-fil (XML format)
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	Merk denne boksen for å lagre Vis informasjon (metadata) i de konverterte file.\r\nThis bare fungerer for filer som støtter metadata-kodene som MP4, MKV, WTV etc.\r\n\r\nNOTE: Hvis du står overfor problemer med noen enheter som eldre TV som har problemet lese metadata, fjerner du merket.
+Atleast one day of the week must be enabled	Atleast må en dag i uken aktiveres
+Invalid Days of Week	Ugyldig ukedagene
+Invalid day of week found in configuration file	Ugyldig dag i uken som er funnet i konfigurasjonsfilen
+Scheduling	Planlegging
+Remuxing to	Remuxing til
+Part	Del
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	Hvile musepekeren på en knapp, boksen eller elementet å få øyeblikkelig hjelp på it.\n\nFor mer informasjon om hvordan du bruker, feilsøke eller få støtte for MCEBuddy Klikk på koblingen < Begynt > på den øverste høyre corner.\n\nDonations er alltid velkommen :) Nyt! \n\n - Ramit, Derek & gås
+Welcome to MCEBuddy	Velkommen til MCEBuddy
+Multichannel audio	Flerkanalslyd
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	Sjekk å tillate flerkanals lyd hvis kildevideo støtter it.\r\nBy standard lyden er begrenset til 2 kanaler (stereo).
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	Dynamic Range Compression (DRC) \r\nWhen kilden er en AC3 audio, slik at DRC will\r\nreduce forskjellen mellom høyt og soft\r\nsounds å lage lydsporet mer even.\r\nIf du har en flerkanals lydopptak og you\r\nfeel volumet er for myk, sjekke denne boksen kan hjelpe.
+FPS	FPS
+Logfile age (days)	Logfile alder (dager)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	Maksimalt antall dager du beholder loggfilene før du sletter them.\r\nSet til 0 for å holde loggene for alltid.
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	Rask Remuxing
+Byte stream remuxing	Byte stream remuxing
+Disable cropping	Deaktivere beskjæring
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	Sjekk dette for å deaktivere tilskjæring av videoen automatisk under conversion.\r\nCropping brukes til å fjerne "svarte stolper" i videoen (topp, bunn, venstre eller right).\r\nUse dette alternativet hvis bildet video er får kutt på en av sidene eller endelige bildet ser strukket eller forvrengt.
+Only detect Ads	Bare oppdage annonser
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	Merk av her hvis du vil MCEBuddy å oppdage annonsene (reklame), men ikke kutte dem fra video.\r\nWhen dette alternativet er aktivert, MCEBuddy vil skape en EDL-fil sammen med den konverterte filen som angir plasseringen av annonser i den konverterte video.\r\nAlso, for MP4, M4V og MKV filer MCEBuddy vil opprette kapitler for å markere slutten på reklame.
+Download information	Last ned informasjon
+Correction	Korreksjon
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	Klikk her for å rette programtittelen og fremtvinge bruk av en bestemt TVDB serien id eller IMDB movie id\r\nto oppslag flere metadata fra Internett.
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	Merk av her for å laste ned mer informasjon fra Internett om show som en banner fil, episode, sesongen osv.
+Profile Error	Profilfeil
+Cannot find selected profile in profiles.conf	Finner ikke valgte profilen i profiles.conf
+Invalid Profile	Ugyldig profil
+Please select a valid profile	Velg en gyldig profil
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	MCEBuddy-motoren har krasjet. Send mcebuddy.log til utviklerne
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	Velg den egendefinerte Comskip INI-filen til bruk for denne konverteringen-task\r\nLeave denne tom for å bruke standard Comskip INI-filen for fjerning av reklame
+Click to select custom Comskip INI file	Klikk for å velge egendefinert Comskip INI-fil
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	Velg mappen for å arbeide med midlertidige filer. Kontroller at det er nok tom plass på drive.\r\nLeave denne tom for å bruke standard temp-mappen i installasjonsmappen.
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	Velg mappen for arbeid med midlertidige filer. Kontroller at det er nok ledig plass på drive.\r\nThis overstyrer den midlertidige mappen angitt i innstillingene-> innstillinger for ekspert.
+Click to select temp working folder	Klikk for å velge midlertidig arbeidsmappe
+Temp folder	Temp-mappen
+Space check	Plass sjekk
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	Når aktivert MCEBuddy vil se etter nok ledig plass for konvertering (målet og temp).\r\nUncheck dette hvis du har er å ha problemer med nettverk stasjoner, eller har uvanlig stor video fil-størrelse.
+MCEBuddy Windows Event Logs	MCEBuddy Windows-hendelseslogger
+Events	Arrangementer
+Click here to open the MCEBuddy Windows Event Logs	Klikk her for å åpne MCEBuddy Windows-hendelseslogger
+Enable UPnP	Aktivere UPnP-støtte
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	Merk av for å aktivere UPnP-støtte. Dette tillater tilgang til MCEBuddy-motor fra utenfor network.\r\nThis nødvendig å bli avkrysset hvis du bruker en mobil/frittstående MCEBuddy klient for å få tilgang til MCEBuddy.
+Click here to connect to another MCEBuddy engine	Klikk her for å koble til en annen MCEBuddy-motor
+MCEBuddy Remote Engine Connection	MCEBuddy ekstern motoren tilkobling
+Engine Name	Søkemotor navn
+Engine Port	Motor-Port
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	Skriv inn navnet eller IP-adressen til MCEBuddy motoren du ønsker å koble til
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	Angi TCP-Port MCEBuddy motoren du ønsker å koble til
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	Angi TCP-Port MCEBuddy-motoren som du vil koble til (1 til 63355)
+Invalid Name/Port	Ugyldig navn/Port
+Please enter a valid Engine Name and Engine Port Number	Skriv inn en gyldig motoren navn og portnummer for motoren
+Error Stopping Engine	Feil stoppe motor
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	Kan ikke stoppe MCEBuddy motor, innstillinger kan ikke lagres. Vil du fortsette?
+Unable to communicate with engine. Settings have NOT been saved.	Kan ikke kommunisere med motor. Innstillingene har ikke blitt lagret.
+Communication Error	Kommunikasjonsfeil
+Engine not stopped. Settings have NOT been saved.	Motoren ikke stoppet. Innstillingene har ikke blitt lagret.
+Unable To Save Settings	Kan ikke lagre innstillinger
+Unable to communicate with engine. UPnP settings have not been updated	Kan ikke kommunisere med motor. UPnP settings har ikke blitt oppdatert
+Audio delay	Lydforsinkelse
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	Angi en verdi i sekunder (positiv eller negativ) her for å skifte lyd i forhold til video.\r\nUse dette for å resync lyd med videoen, hvis de er synkronisert etter conversion.\r\nA en positiv verdi vil forsinke lyd (dvs. video foran lyd) og en negativ verdi vil avansert lyd (f.eks. audio foran video).\r\nE.g. -1.5
+Media info	Medieinformasjon
+Click here to get media properties for selected files	Klikk her for å få egenskaper for media for valgte filer
+Save information	Lagre informasjon
+Add information	Legge til informasjon
+Shows a preview of the custom filename and path	Viser en forhåndsvisning av egendefinerte filnavnet og banen
+Invalid Filename Pattern	Ugyldig filnavn-mønster
+TVDB Series ID	TVDB serien ID
+IMDB Series ID	IMDB serien ID
+Original title	Original tittel
+Corrected title	Korrigert tittel
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Angi TVDB serien ID du vil bruke for nedlasting viser information.\r\nIf Original Tittel-boksen er tom, dette vil bli brukt på alle viser valgt av denne konverteringen oppgaven.
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Angi IMDB Movie ID du vil bruke for å laste ned filmen information.\r\nIf Original Tittel-boksen er tom, dette vil bli brukt på alle viser valgt av denne konverteringen oppgaven.
+Internet Lookup Title and Metadata Correction	Internett oppslag tittel og Metadata korreksjon
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	Klikk her for å legge til en rad for å matche og korrigere titler og serien id.\r\nIf du vil bruke samme korrigert tittel eller serie-id for alle viser konvertert denne konverteringen oppgaven, \r\nleave den opprinnelige tittel tomt på første rad og du bør ikke legge andre rad.
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	Angi mønster å matche Vis/serie titler for korreksjon (f.eks Simpson * vil erstatte alle titler som har en tittel med Simpson) \r\nPrefix mønster ~ å hoppe kampen (f.eks *. *; ~ Simpson * korrigerer alle viser titlene unntatt dem som begynner med Simpson) \r\nSeparate flere mønstre med; (f.eks Simpson *;House*) eller (f.eks Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nNOTE: la denne boksen stå tomt hvis du vil bruke korrigert tittelen eller serien id på alle filer som behandles av denne konvertering task.\r\nIf la stå tomt, du ikke kan legge til en andre row.\r\n\r\nYou kan bruke et vanlig uttrykk tilsvarer tittelen ved å starte med regex:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	Angi nye/korrigert tittelen du vil bruke for nedlasting tilleggsinformasjon fra internet.\r\nIf Original Tittel-boksen er tom, brukes dette til alle viser valgt av denne konverteringen kan task.\r\n\r\nYou bruke et vanlig uttrykk vil korrigere tittelen ved å starte med regex:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	For hver rad, Skriv inn den opprinnelige tittelen å matche viser navnet og enten en rettet tittel eller en TVDB/IMDB-ID
+Please enter either a Corrected title or a TVDB/IMDB Series ID	Angi en rettet tittel eller en TVDB/IMDB-ID
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	Aktiver dette hvis du vil MCEBuddy å sette den konverterte filen i kilde directory\r\nif målbanen er utilgjengelig. (f.eks nettverk feil eller mislykket porttilordning)
+Fallback to source path	"Fallback" til kildebanen
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	Brukes til å øke eller redusere volumet av the\r\nrecording mens converting.\r\n1 er normalt, noe under vil redusere det, anything\r\nhigher vil øke den.
+Archive folder	Arkivmappe
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	Endre plasseringen av arkiv folder.\r\nLeave tom for å bruke standardmappen for 'MCEBuddyArchive' i den opprinnelige katalogen.
+Monitor subdirectories	Overvåke underkataloger
+Check this box to also monitor all directories within the Monitor path	Merk denne boksen for å også overvåke alle kataloger innen Monitor-banen
+Click here to show MCEBuddy status	Klikk her for å vise statusen for MCEBuddy
+MCEBuddy service not connected	MCEBuddy-tjenesten ikke er koblet
+MCEBuddy idle	MCEBuddy inaktiv
+conversions in progress	konverteringer pågår
+MCEBuddy stopped	MCEBuddy stoppet
+Sync converted files	Synkronisere konverterte filer
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	Merk av for dette alternativet hvis du vil MCEBuddy å holde de konverterte filene synkronisert med den opprinnelige files.\r\ni.e. Når de opprinnelige filene er slettet av brukeren, tilsvarende konverterte filene er også deleted.\r\n\r\nNOTE: MCEBuddy bare overvåker de opprinnelige filer i mapper for skjerm-steder, og bare mens motoren er running.\r\nMCEBuddy vil ikke være i stand til å spore brukerfiler slettet mens motoren er stoppet.
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	Vil du MCEBuddy å slette hver konverterte filen når den opprinnelige filen er slettet?
+Confirm sync conversions?	Bekrefte sync konverteringer?
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	Er du sikker på at du ikke vil fjerne reklame fra den konverterte videoen og bare holde EDL-filen?
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer svarer ikke. Behage gjenstarte systemet eller reinstallere ShowAnalyzer.
+ShowAnalyzer Not Responding	ShowAnalyzer svarer ikke
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	Kontroller at du presse 'Starte' etter at du lukker dette vinduet, ellers planlegging og kjølvannet vil ikke fungere.
+Enabling Scheduling and Wake	Aktivering planlegging og kjølvannet
+Passwords do not match	Passordene samsvarer ikke
+Password error	Passordfeil
+Adding subtitles and chapters to file	Legge til teksting og kapitler til filen
+Send eMail if unable to download series information	Send e-post hvis det er kan ikke laste ned informasjon om serien
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	Merk denne boksen hvis du vil denne konverteringen oppgaven bare behandle filer fra bestemte skjermen locations.\r\nIf ukontrollert hver konverteringen oppgaven behandler filer fra alle dataskjerm steder (inkludert nye lagt til senere).
+Select Monitor Locations	Velg skjermen plasseringer
+Select atleast one Monitor Location name	Velg minst én skjerm lokasjonsnavnet
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	Du valgte alle gjeldende skjerm Locations.\r\nDo du denne konverteringen oppgaven skal automatisk behandle alle nye skjermen steder lagt i fremtiden?
+New monitor locations	Nye skjermen steder
+Invalid selection	Ugyldig valg
+Channel name match	Kanal navn kamp
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Angi mønster å matche kanalnavnet for denne oppgaven (f.eks ABC * konverteres alle filer som er spilt inn på en kanalnavn som starter med ABC) \r\nPrefix mønster ~ å hoppe kampen (f.eks *; ~ ABC * vil behandle alle kanalene bortsett fra de som starter med ABC) \r\nSeparate flere mønstre med; (f.eks ABC *;TBS*) eller (f.eks ABC *;Fox*; ~ Fox4 *) \r\n\r\nYou kan bruke regeluttrykk tilsvare mønsteret ved å starte med regex:
+Clear history	Slett logg
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	Klikk denne knappen for å slette alle konverterte files.\r\nThis historie er forårsake MCEBuddy å konvertere på nytt alle filer som overvåkes.
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	Er du sikker på at du vil tømme loggen av alle konverteringer? \r\nThis vil føre til MCEBuddy å konvertere på nytt alle filer som overvåkes.
+Show history	Vis historie
+Click this button to show the history of all converted files.	Klikk denne knappen for å vise historien til alle konverterte filer.
+History of Converted Files	Historien om konverterte filer
+Unable to communicate with engine.	Kan ikke kommunisere med motor.
+Extracting streams	Utdrager bekker
+Fallback muxing streams	Reservekultur muxing bekker
+Remuxing TiVO file	Remuxing TiVO fil
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	Angi din sekssifrede TiVO MAK nøkkel å konvertere og behandle TiVO innspillinger
+Invalid TiVO MAK Key	Ugyldig TiVO MAK nøkkel
+The TiVO MAK key should be 10 digits	TiVO MAK nøkkelen bør være 10 sifre
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	Manglende versjonssamsvar. Kontroller at MCEBuddy klienten og motoren kjører samme versjon.
+Error retrieving Event Logs	Feil under henting av hendelseslogger
+Unable to get Event Log Entries from the MCEBuddy engine.	Kan ikke hente oppføringer i hendelsesloggen fra MCEBuddy motoren.
+PAUSED: Check conversion schedule	Midlertidig stanset: Sjekk konvertering tidsplan
+Logging	Logging
+Folder Management	Brosjyre ledelse
+Processor Management	Prosessor Management
+Expert Settings	Ekspertinnstillinger
+System Settings	Systeminnstillinger
+Click here to change additional settings (for experts only)	Klikk her for å endre flere innstillinger (bare for eksperter)
+Failed folder	Mislykkede mappen
+Location of the folder that hold the original files for failed conversions.	Plasseringen av mappen som inneholder de opprinnelige filene for mislykkede konverteringer.
+Move original file on failure	Flytte opprinnelige filen på feil
+Check this to move the original file to a separate folder if the conversion fails.	Merk av her for å flytte filen til en egen mappe Hvis konverteringen mislykkes.
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	Merk av her hvis du vil begrense antall logiske prosessorer som MCEBuddycan use.\r\nEach avmerkingsboksen nedenfor tilsvarer en tilgjengelig logiske prosessor.
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Hver boks representerer logiske prosessorer fra 1 til 16 respectively.\r\nChecking en boks lar MCEBuddy å bruke denne prosessoren.
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Hver boks representerer logiske prosessorer fra 17 til 32 respectively.\r\nChecking en boks lar MCEBuddy å bruke denne prosessoren.
+Select atleast one processor to use	Velg minst én prosessor til å bruke
+Invalid Configuration	Ugyldig konfigurasjon
+Comskip path	Comskip bane
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	Hvis du vil bruke en tilpasset versjon av Comkip (f.eks donator versjon) \r\nthen angir banen til comskip installasjon here.\r\nLeave stå tomt for å bruke standard comskip som følger med MCEBuddy.
+Miscellaneous	Diverse
+Ignore copy protection	Ignorere kopibeskyttelse
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	Merk av for å ignorere kopibeskyttelse flagg på videofilen mens converting.\r\nNOTE: MCEBuddy ikke kan omgå kryptering, hjelper dette bare hvis filen er incorrectly\r\ntagged som kopibeskyttet når det ikke er kryptert.
+Use recycle bin	Bruk gjenvinne kasse
+Check this to use the recycle bin when files are deleted by MCEBuddy	Merk av for å bruke papirkurven når filer blir slettet ved MCEBuddy
+Poll period	Målingen periode
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	Dette er hvor ofte MCEBuddy skanner skjermen aktiviteter steder for nye files.\r\nThe intervall er angitt i sekunder.
+Server port	Serverporten
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	Dette er TCP-port MCEBuddy bruker til å kommunisere med den eksterne engine.\r\nWhen UPnP er aktivert, MCEBuddy vil automatisk legge til denne porten til Windows Firewall\r\nand UPnP-gateway for å tillate tilgang fra Internett på denne porten.
+Hang period	Henge periode
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	Angi antall sekunder som MCEBuddy vil vente på svar fra the\r\nunderlying programmet før du avslutter programmet som hung.\r\nEnter 0 for å deaktivere gjenkjenning av henger.
+Subtitle commercial cut sync	Undertittel kommersielle kuttet synkronisering
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	Denne parameteren brukes når undertekster gå gradvis synkronisert etter hvert kommersielle segment er fjernet fra video.\r\nThis-innstillingen brukes til å bringe undertekster tilbake inn i sync med video.\r\nEach tiden videoen kommersielle er kuttet ut, undertekster tid flyttet etter dette beløpet (+ ve eller -ve i sekunder).
+Invalid poll period	Ugyldig målingen periode
+Invalid server port	Ugyldig Serverport
+eMail Subject Customization	e-post emne tilpasning
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	Bruk denne delen til å tilpasse emnet for e-post sendt av MCEBuddy på ulike konverteringshendelser oppført below.\r\nRefer i dokumentasjonen, egendefinerte kommandoer for brukerdefinerte variables.\r\ne.g. Vis det lykkes i å bruke oppgave % taskname%\r\nNOTE % showname % for filen % originalfilename % konvertering: ikke alltid vil alle data bli tilgjengelig i den egendefinerte commands.\r\nLeave stå tomt for å bruke standard emnelinjer.
+Success	Suksess
+Failed	Mislyktes
+Cancelled	Kansellert
+Download fail	Last ned mislykkes
+Limit processor utilization	Grense prosessorutnyttelsen
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	Sjekk tilsvarer dette til å begrense antall logiske prosessorer at MCEBuddy kan use.\r\nEach avmerkingsboksen nedenfor en tilgjengelig logiske prosessor.
+Custom profile	Tilpasset profil
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	Hvis du har en egendefinert profiles.conf-filen du vil bruke i stedet for the\r\none som følger med MCEBuddy, må du angi banen til filen here.\r\n\r\nNOTE: MCEBuddy stadig oppdateringer profiles.conf å gi tege bestemmer, \r\nenhancements og ytelse forbedringer som du vil savne out\r\non hvis du bruker denne funksjonen.
+Invalid custom profiles.conf	Ugyldig egendefinert profiles.conf
+Suspend on battery	Suspendere på batteri
+Suspend conversions when the computer switches to battery power	Suspendere konverteringer når datamaskinen går over til batteri
+MCEBuddy added a video conversion to the queue	MCEBuddy lagt til en video konvertering til køen
+Queue	Køen
+Refer to documentation on using custom commands in custom eMail subjects	Se dokumentasjonen om hvordan du bruker egendefinerte kommandoer i skikk og bruk eMail fag
+Could not copy information to Clipboard, please try again.	Kan ikke kopiere informasjon til utklippstavlen, prøv igjen.
+Error copying to Clipboard	Feil under kopiering til utklippstavle
+Copy to clipboard	Kopier til utklippstavlen
+Reconvert files	Konvertere filer på nytt
+Are you sure you want to reconvert the selected files?	Er du sikker på at du vil konvertere de valgte filene på nytt?
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	Merk filene du vil konvertere på nytt, og klikk deretter denne button.\r\nIf de opprinnelige filene fremdeles blir overvåket av MCEBuddy de vil legges i kø for ny konvertering.
+Time taken to convert	Tiden det tar å konvertere
+Network authentication	Nettverksgodkjenning
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	Klikk på knappen for å angi nettverksgodkjenning aksjer credentials.\r\nThis brukes når filer legges til via Legg til-knappen på den viktigste window\r\nor dras og slippes fra en delt nettverksressurs i statusboksen konvertering på hovedvinduet.
+Skip reconversion	Hoppe over ny konvertering
+Do not reconvert the video if a converted file already exists in the destination directory.	Ikke konvertere videoen på nytt hvis en konverterte filen allerede finnes i målmappen.
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	Forventet filnavn for den konverterte videoen (ikke det opprinnelige video filnavnet) sammenlignes med filnavnene i destinasjon directory.\r\nIf konverterte filen finnes, filen vil ikke bli Målstrengen og det vil antas å være en vellykket conversion.\r\nThis er nyttig hvis samme Vis/episode registreres på flere ganger og du ikke vil konvertere på nytt them.\r\n\r\nNOTE: Dette alternativet ignoreres for videoer som er lagt til manuelt ved hjelp av Legg til eller dra og slippe
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	Hvis aktivert, hopp over ny konvertering vil også sjekke historien Arkiv for siste conversions.\r\nThe forventet filnavn for den konverterte videoen (ikke det opprinnelige video filnavnet) sammenlignes med filnavnene i historien file.\r\nIf det skal konverterte filnavn (inkludert banen) samsvarer med noen av de allerede konvertert filnavn (inkludert baner) i historien arkiv, \r\nthe filen vil ikke bli Målstrengen og det vil antas for å være en vellykket konvertering.
+Adding file to the iTunes library	Å legge til filen i iTunes-biblioteket
+Add to iTunes	Legg til i iTunes
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	Sjekk denne for å legge de konverterte filene til iTunes-library.\r\nThis fungerer bare med iTunes støttede filer (f.eks MP4, M4V, MP3 etc)
+Adding file to the WMP library	Legge til filen i WMP-biblioteket
+Library Management	Biblioteket ledelse
+Add to Windows Media Player	Legge til Windows Media Player
+Check this box to automatically add the converted files to the WMP library.	Merk av i denne boksen for å automatisk legge til de konverterte filene til WMP-biblioteket.
+Renaming and Sorting	Endre navn og sortering
+Selection Filters	Utvalgsfiltre
+Audio and Video	Lyd og Video
+Subtitles and Chapters	Undertekster og kapitler
+Skip copying original files	Hoppe over kopiering originalfilene
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	Sjekk denne BOKSEN på ditt eget RISK.\r\nDO ikke sjekke denne BOKSEN med mindre du vet hva du er DOING.\r\nCheck dette for å hoppe sikkerhetskopi av originalfilen (kopierer) under konvertering.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	Sjekk denne BOKSEN på ditt eget RISK.\r\nDO ikke Merk denne BOKSEN kan med mindre du vet hva du er DOING.\r\nCheck dette for å hoppe over gjør en sikkerhetskopi av originalfilen (kopierer) mens converting.\r\nIf dette er merket, filen ikke beholdes i et error.\r\nIt med føre til konverteringsfeil eller andre uforutsette konverteringsproblemer.
+Are you sure you want to do this?	Er du sikker på at du vil gjøre dette?
+Media Information Management	Media Information Management
+Force show type	Force visningstype
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	Angi dette tvinge behandling av videoen innspillingen som en film eller TV Series.\r\nThis vil endre måten ytterligere informasjon (metadata) om innspillingen er lastet ned fra internet.\r\nMovie - Treat opptaket som movie\r\nSeries - behandle opptaket som en TV Series\r\nSports - behandle opptaket som en sport show\r\nDefault - bruk standardinformasjon i innspillingen metadataene å avgjøre film eller TV-serien
+Show type	Visningstype
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	Velg dette for å filtrere visningstypen opptak blir converted.\r\n\r\nMovies - Velg dette for å konvertere hvis showet er Movie.\r\nShows - Velg dette for å konvertere hvis program-typen ikke er en Movie.\r\nSports - Velg dette for å konvertere hvis showet er Sports.\r\n\r\nNOTE: Vis typen leses fra opptak metadata.\r\nOnly noen opptak støtte Vis typen metadata som WTV and\r\nrecordings med støtte for metadata filer ()XML/ARG etc).
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	Denne boksen viser alle filene i køen for conversion.\r\nDrag og slipp filer her eller trykk Legg til filer til konverteringskøen
+Conversion	Konvertering
+Files	Filer
+Click this button to open or close the Advanced Settings section	Klikk denne knappen for å åpne eller lukke delen Avanserte innstillinger
+Running custom commands	Kjøre egendefinerte kommandoer
+Trimming video recording	Trimming video innspillingen
+Insert at top of queue	Sett inn på toppen av køen
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	Som standard legges nye konverteringer til bunnen (slutten) av konvertering queue.\r\nIf denne boksen er avmerket, eventuelle nye konverteringer lagt til denne oppgaven vil bli lagt til the\r\nbeginning (øverst) av konverteringskøen.
+Add subtitles and chapters	Legge til undertekster og kapitler
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	Aktiver dette alternativet å legge utdraget undertekster og kapitler konverterte video.\r\nEach kapitlet markerer slutten på en kommersiell. Dette fungerer bare med støttede formater (f.eks MKV, MP4).\r\n\r\nNOTE: noen spillere og eldre TV støtter ikke innebygde undertekster og chapters.\r\nIf du ikke klarer å spille den konverterte videoen, prøv å slå dette alternativet.
+Select best soundtrack	Velg beste soundtrack
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	Hvis den originale videoen har flere lydspor, dette alternativet forteller MCEBuddy å velge den mest passende og primære soundtrack.\r\nIf du et bestemt språk lydspor, må du angi navnet på språket eller koden i lydspråk box.\r\nCheck denne boksen hvis du hører feil lydsporet i den konverterte file.\r\n\r\nUncheck denne boksen hvis du vil MCEBuddy å beholde alle lydspor fra den opprinnelige videoen i den konverterte filen når mulig. \r\nNOTE: noen profiler ikke støtter flere lydspor, da denne innstillingen har ingen virkning.
+Enable remote access	Aktiver ekstern tilgang
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	Dette skaper et unntak i windows-brannmur for MCEBuddy program og på port.\r\nThis er nødvendig hvis du har aktivert windows-brannmuren og vil bruke UPnP, ekstern client\r\nor tilgang motoren av en IP address.\r\n\r\nNOTE: Hvis du har en tilpasset firewall, dette kanskje ikke fungerer, må du manuelt opprette an\r\nexception for MCEBuddy-tjenesten og havnen.
+Unable to communicate with engine. Firewall exception settings have not been updated.	Kan ikke kommunisere med motor. Unntak brannmurinnstillingene er ikke oppdatert.
+Detect and optimize video quality	Oppdage og optimalisere videokvalitet
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	Når aktivert, MCEBuddy vil optimalisere videobehandling alternativene ved å prøve å oppdage video kilde type.\r\nThis kan forbedre kvaliteten på den konverterte videoen betydelig riktig detected.\r\n\r\nNOTE: den gjør dette ved å prøve å registrere videokilde (sammenflettet, progressiv eller telecine).\r\nIf det er kjøpedyktig merker video kildetypen, overstyrer de tilsvarende parameterne i profile.\r\nTurn dette alternativet av hvis du står overfor problemer med konverterte videokvalitet eller vil bruke standard profil parametere.
+Are you sure you want to delete this task?	Er du sikker på at du vil slette denne oppgaven?
+Delete Task	Slett oppgave
+Enter the new task name	Angi det nye aktivitetsnavnet
+Rename Task	Gi nytt navn til oppgaven
+MCEBuddy PAUSED	MCEBuddy stoppet
+idle	inaktiv
+PAUSED	MIDLERTIDIG STANSET
+Frame rate	Bildefrekvens
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	Aktiver denne for å angi en egendefinert bildefrekvens (FPS) for de konverterte video.\r\nYou må konfigurere dette ved konvertering av video formater (f.eks PAL til NTSC) \r\nor for enheter som støtter bare bestemte framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001
+Skip remuxing files	Hopp over remuxing filer
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	Sjekk denne BOKSEN på ditt eget RISK.\r\nDO ikke sjekke denne BOKSEN med mindre du vet hva du er DOING.\r\nCheck denne boksen til å hoppe remuxing filen til en TS fil mens converting.\r\nIf er merket av for dette, noen funksjoner som undertittel utvinning eller comskip kan ikke work.\r\nIt kan med føre til konverteringsfeil eller andre uforutsette konverteringsproblemer.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	Sjekk denne BOKSEN på ditt eget RISK.\r\nDO ikke sjekke denne BOKSEN med mindre du vet hva du er DOING.\r\nCheck dette for å hoppe remuxing filen til en TS-fil under konvertering.
+Monitor converted videos	Overvåke konverterte videoene
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	Standard skjerm steder ignorerer filer som allerede er converted.\r\nCheck denne boksen hvis du vil overvåke filer konverteres i skjermen Path.\r\nCAUTION: Dette kan føre til en uendelig konvertering løkke av konverterte filer hvis ikke konfigurerte properly.\r\n\r\nThis kan være nyttig når du angir utdatamappen av en konvertering task\r\n (omvendt arkiv) som skjermen av en skjerm og koble the\r\nMonitor Plasseringen til en annen konvertering aktivitet.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	Sjekk denne BOKSEN på ditt eget RISK.\r\nDO ikke sjekke denne BOKSEN med mindre du vet hva du er DOING.\r\nBy skjermen standardplasseringene vil ignorere filer som allerede er converted.\r\nCheck denne boksen hvis du vil overvåke filer konverteres i skjermen banen.
+Hardware encoding	Maskinvare koding
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	Sjekk denne for å bruke maskinvare koding når tilgjengelig for å konvertere videos.\r\nThis kan øke hastigheten konvertering betydelig og redusere CPU utilization\r\nbut det kan medføre noe lavere kvalitet videos.\r\n\r\nUncheck denne boksen hvis du står overfor konvertering eller problemer.
+Do not overwrite files	Ikke Overskriv filer
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	Når denne boksen er avmerket, blir målfilen ikke overskrevet hvis det allerede exists.\r\nInstead en ny fil opprettes med et unikt nummer legges til på slutten av filnavnet.
+Re-monitor recorded videos	Overvåke re innspilte videoer
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	Som standard når en kildefil (innspilt video) er konvertert \r\nthe skjermen historie vil spore filnavnet og ikke køen den samme filer again.\r\n\r\nEnable dette alternativet for å ignorere historien og overvåke alle filene og legge dem to\r\nthe konvertering kø, selv om de allerede har blitt converted.\r\n\r\nThis kan være nyttig noen ganger, hvis innspillingen programvare ikke genererer a\r\nunique filnavnet for hver episode/Vis. Det anbefales å bruke the\r\nDelete opprinnelige filalternativet på siden når du bruker dette alternativet til avoid\r\nan uendelig konvertering loop.
+Recommendation	Anbefaling
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	For å unngå en uendelig konvertering løkke, anbefales det å setup skjermen søkemønsteret på en måte som for å sikre at de konverterte filene ikke blir overvåket av overvåke aktiviteten.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	Sjekk denne BOKSEN på ditt eget RISK.\r\nDO ikke sjekke denne BOKSEN med mindre du vet hva du er DOING.\r\nBy standard skjerm steder ikke vil overvåke ytelsen på nytt innspilte videoer som er processed.\r\nCheck denne boksen hvis du vil overvåke ytelsen på nytt og konvertere innspilte videoer på nytt.
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	For å unngå en uendelig konvertering løkke, anbefales det at du aktiverer Slett opprinnelige filalternativet på siden.
+Prioritize air date matching	Prioritere luften dato matchende
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy bruker episode navnet tilsvare serien information\r\nwhile søke på Internett. Hvis det ikke da det bruker den opprinnelige broadcast\r\nair datoen tilsvarer metadata.\r\n\r\nCheck denne boksen for å bruke den opprinnelige kringkasting luften datoen først og deretter the\r\nepisode navnet tilsvare for serieinformasjonen fra internet.\r\nThis kan være nyttig i noen tilfeller når flere årstidene har same\r\nepisode navn. F.eks Americal Idol, Audition 1\r\n\r\nNOTE: opprinnelige kringkasting luften dato er ikke alltid nøyaktig angitt av the\r\nbroadcaster og noen ganger informasjon på Internett er incorrect.\r\nUse dette alternativet bare hvis standardvalget ikke fungerer for deg.
+Skip eMail body	Hopp over eMail kropp
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	Merk dette alternativet for å bruke en tom kroppen i varsling-eMail.\r\nThis kan være nyttig hvis du bruker en SMS gateway for beskjeder.
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	Utvalg basert på Digital rett ledelse (DRM) er available\r\nonly når endre navn uten å konvertere (gi nytt navn til og flytte bare) alternativet er selected.\r\n\r\nAll - velger alle filer for behandling, uavhengig av kopibeskyttelse status\r\nProtected - bare Velg filer som er kopier protected\r\nUnprotected - bare Velg filer som ikke har kopibeskyttelse
+Download cover art	Laste ned albumbilder
+Enable this to download the cover art from the original video and internet if available.	Aktivere dette laste ned coverbilde fra den opprinnelige videoen og Internett hvis tilgjengelig.
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	Er du sikker på at du vil angi et domenenavn? \r\n\r\nUse dette bare hvis du bruker en Windowsdomenekontroller for å administrere din authentication.\r\nDo ikke bruke dette hvis du er del av en Workgroup.\r\n\r\nIf du er usikker på klikk.
+Configuration Warning	Advarsel om konfigurasjon
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	Oppretter en mappe kalt "MCEBuddyArchive" der filen er located\r\nand flytter den opprinnelige filen i denne mappen når vellykket conversion.\r\n\r\nThis mappenavn og plassering endres under.
+Monitoring	Overvåking
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	Hvis du vil konvertere filen EDL i kapitler, må du sjekke alternativet "Legg til Subtitles og kapitler" i Expert Settings.
+EDL to Chapters	EDL til kapitler

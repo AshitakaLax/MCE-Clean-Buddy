@@ -1,0 +1,169 @@
+A source name or section	Een bronnaam of indeling
+Add	Toevoegen
+Added manually selected file to queue	Handmatig geselecteerde bestand toegevoegd aan wachtrij
+Added new job to queue for	Proces toegevoegd aan wachtrij
+Advanced settings	Geavanceerde instellingen
+Advertisement scan	Reclame scan
+Advertisement scan	Reclame scan
+already exists. Please use another name	bestaat al. Gebruik een andere naam
+Attempting directshow based remux	Directshow gebaseerde remux geprobeert
+Attempting raw container DVR-MS read	DVR-MS ruwe container proberen te lezen
+Attempting to connect to network share	Netwerkdelings verbinding proberen te maken
+available	 required	beschikbaar	 vereiste
+Byte stream remuxing	Byte stream remuxing
+Cancel	Annuleren
+Change	Wijzigen
+Checking for new version of MCEBuddy	Controleren voor nieuwste versie van MCEBuddy
+Close	Sluiten
+Closing	Sluiten
+completed	voltooid
+Concurrent conversions	Gezamenlijke omzettingen
+Confirm delete originals?	Bevestigen van verwijderen originelen?
+Conversion	Conversie
+Conversion failed	Conversie is mislukt
+Conversion or remux failed at	Conversie of remux is mislukt op
+Conversion Task	Conversie taak
+Conversion tasks	Conversie taken
+Converting	Converteren
+Converting video file - Pass 1	Converteren van video bestand - Stap 1
+Converting video file - Pass 2	Converteren van video bestand - Stap 2
+Correcting audio delay	Audio synchronisatie corrigeren
+Credential Warning	Referentie waarschuwing
+Cutting commercials from video - Reclame van video verwijderen	
+Delete	Verwijderen
+Delete original file	Oorspronkelijke bestand verwijderen
+Demux of	Demultiplex van
+Destination	Bestemming
+did not match file wildcard	niet overeenkomen met bestand\'s jokertekens
+did not match meta data wildcard	niet overeenkomen met meta gegevens jokertekens
+did not match wildcard	komt niet overeen met jokertekens
+Domain name	Domeinnaam
+Duplicate Name	Dubbele naam
+EDL file does not exist [no commercials found?]	EDL bestand bestaat niet [geen reclame gevonden?]
+Engine Settings	Instellingen zoekmachine
+Episode	Aflevering
+ERROR	FOUT
+Error reading media information	Fout bij het lezen van media-informatie
+Extracting MediaPortal meta data	Extraheren van MediaPortal meta-gegevens
+Extracting streams	Extraheren streams
+Extracting Windows Media Center meta data	Windows Media Center meta-gegevens ophalen
+failed.  Extracted video and audio streams not found.	is mislukt.  Uitgepakte video en audiostromen niet gevonden.
+Fallback	 terugval op remux
+File	Bestand
+File name match	Bestand\'s naam vergelijking
+File not found	Bestand niet gevonden
+File type not supported for commercial removal	Bestandstype niet ondersteund voor reclame verwijdering
+Found existing EDL file	 using it	EDL bestand gevonden	 word nu gebruikt
+Get series details from Internet	Serie informatie ophalen van Internet
+Getting show information and banner from Internet sources	Media informatie en banner krijgen van Internet-bronnen
+Getting video information	Video-informatie krijgen
+Help MCEBuddy!	Help MCEBuddy!
+hour	uur
+hour	uur
+hours	uur
+Idle	Idle
+INFORMATION	INFORMATIE
+Insufficient destination disk space avalable in	Onvoldoende ruimte op bestemming\'s schijf
+Insufficient task information	Onvoldoende taakgegevens
+Invalid Path	Ongeldig pad
+is invalid	is ongeldig
+Job for	Word doorgestuurd naar
+Loaded MCEBuddy engine settings	Instellingen van de MCEBuddy-engine geladen
+Locale	Lokaal
+Log conversion jobs	Meld conversie\'s
+Loggin level	Logging niveau
+Max width	Maximale breedte
+MCEBuddy does NOT use the currently logged in user to connect to network shares	 it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy maakt geen gebruik van de momenteel aangemelde gebruiker\'s gebruikersreferenties om verbinding te maken met netwerkshares	 het lokale serviceaccount wordt gebruikt.  Zorg ervoor dat de gebruikersreferenties voor de netwerkverbinding [MCEBuddy met een sleutelpictogram] opgeeft
+MCEBuddy engine service started	MCEBuddy engine-service gestart
+MCEBuddy engine service stopped	MCEBuddy engine-service gestopt
+MCEBuddy engine started.  Setting engine last running state to start.	MCEBuddy engine gestart.  Laatste Instelling van de engine gebruikt om op te starten
+MCEBuddy engine stopped	MCEBuddy engine gestopt
+MCEBuddy Status	MCEBuddy Status
+Merging commercial free segments into new video	Reclame vrije segmenten aan het samenvoegen in de nieuwe video
+Min age before conversion [days]	Min. leeftijd voor conversie [in dagen]
+minute	minuut
+minute	minuut
+minutes	minuten
+Most likely cause is insufficient premissions for the MCEBuddy engine at	Meest waarschijnlijke oorzaak is onvoldoende pemissies voor de engine van MCEBuddy op de
+Moving converted file	Geconverteerd bestand verplaatsen
+must be a wtv or dvr-ms file	moet een wtv of dvr-ms-bestand zijn
+Muxing streams	Muxing video
+Network Connection User Credentials	Netwerk verbinding gebruikersreferenties
+No commercials to remove from	Geen reclames te verwijderen uit
+No conversions running 	 allowing system sleep	Geen conversies uitgevoerd	 waardoor het systeem kan gaan slapen
+No name supplied	Geen naam opgegeven
+No recording meta data can be extracted	 using Title extracted from file name. If you are running MCEBuddy on a Windows Server	 this is normal as the Media Center filters are not available on that platfom.	Geen video meta gegevens kunnen worden geextraheerd	 de titel word van de bestandsnaam onttrokken. Als u MCEBuddy op een Windows-Server uitvoert	 is dit normaal omdat de Media Center-filters niet beschikbaar zijn op dit platfom.
+OK	OK
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	Selecteer deze optie alleen als MCEBuddy al uw bestanden betrouwbaar converteerd sinds een aanvaardbare tijd. Moet MCEBuddy elk oorspronkelijke bestand verwijderen zodra het is geconverteerd?
+Parameters for profile do not exist	Parameters voor profiel bestaan niet
+Password	Wachtwoord
+Path	Pad
+Please check connection credentials.	Controleer de verbindingsreferenties.
+Please supply a source name	Gelieve een bronnaam in te voeren
+Process hung	Proces is vastgelopen
+Quality	Kwaliteit
+Recording title match	Opname titel vergelijk
+Remove ads	Verwijder reclame
+Removing commercials	Verwijderen van reclame
+Remux failed	Remux is mislukt
+Remuxing Windows Media Center recording	Remuxing Windows Media Center opname
+Rename and sort by recording information	Naam wijzigen en sorteren op opname informatie
+Renaming by meta data	Hernoemen door meta-gegevens
+Rescan	Opnieuw scannen
+Return code is	Controlle code is
+Search path	Zoekpad
+Search pattern	Zoekpatroon
+Season	Seizoen
+second	tweede
+seconds	seconden
+Setting engine last running state to do not start	De laatste instellingen van de MCEBuddy engine niet laten starten
+Settings	Instellingen
+Show information matching	Toon informatie vergelijk
+Shut Down Engine	Engine afsluiten
+Signalled cancellation for	Annulering gesignaleerd voor
+Source location	Bronlocatie
+Source Location	Bronlocatie
+Source locations	Bron locaties
+Source name	Bronnaam
+Start	Start
+Starting	Starten
+Starting new conversions	 preventing system sleep	Nieuwe conversies starten en voorkomen dat het systeem in slaap valt
+Stop	Stop
+System language for stream purposes is	Systeemtaal voor stream doeleinden is
+Task	Taak
+Task name	Taaknaam
+The MCEBuddy engine must be shut down to change settings. Shut down the engine?	De MCEBuddy engine moet stoppen om de instellingen te wijzigen. Kan de engine afsluiten?
+The MCEBuddy Windows service is unavailable. Please start from Windows control panel.	De MCEBuddy Windows-service is niet beschikbaar. Start deze in het Configuratiescherm->systeembeheer->Services van Windows.
+There is a new version!	Er is een nieuwe versie!
+This is a small video file <100MB. Some actions such as advertisement removal will not occur	Dit is een klein video bestand < 100 MB. Sommige acties zoals reclame verwijdering zal niet optreden
+This is most likely caused by the currently logged on user being having a drive connected to the network location.  Please disconnect all network drives to the specified network locations for MCEBuddy.	Dit wordt waarschijnlijk veroorzaakt door de op dit moment aangemelde gebruiker die een netwerkverbining heeft gekoppeld aan een schijfletter.  Gelieve verbinding te verbreken met alle netwerkstations die naar de opgegeven netwerklocaties voor MCEBuddy verwijzen.
+to	Aan
+Unable to cleanly close process	Het proces netjes te sluiten is niet gelukt
+Unable to connect to network location	Het is niet mogelijk om met de netwerklocatie verbinding te maken
+Unable to convert file	Kan bestand niet converteren
+Unable to copy temporary remux file	Niet in staat om tijdelijke remux bestand te kopieren
+Unable to correct audio aync.  Supported options are mp4 and avi files	Niet in staat om de audio sync te corrigeren.  Ondersteunde bestands containers zijn mp4 en avi.
+Unable to extract meta data from file	Niet in staat om meta-gegevens uit bestand te extraheren
+Unable to extract meta data using filters.  Filters may not be present [eg. Windows Server].	Niet in staat om meta-gegevens met behulp van filters te extraheren.  Filters kunnen niet aanwezig zijn [bv. in Windowsserver].
+Unable to extract streams	Kan streams niet extraheren
+Unable to move audio sync corrected file	Niet in staat om het audio sync gecorrigeerde bestand te verplaatsen
+Unable to move file	Niet in staat om bestand te verplaatsen
+Unable to move remuxed file	Niet in staat om remuxed bestand te verplaatsen
+Unable to move remuxed file	Niet in staat om remuxed bestand te verplaatsen
+Unable to move remuxed stream	Niet in staat om de remuxed stream te verplaatsen
+Unable to queue file for conversion - file not found	Niet in staat om bestand in wachtrij te zetten voor conversie - bestand niet gevonden
+Unable to remux	Niet in staat  te remuxen
+Unable to remux file	Niet in staat bestand te remuxen
+Unable to rename file	Niet in staat het bestand te hernoemen
+Unable to search for files in location	Niet in staat om te zoeken naar bestanden op locatie
+Unable to terminate process	Niet in staat om het proces te beeindigen
+Unable to write meta data to file	Niet in staat om de meta-gegevens naar het bestand te schrijven
+Unsupported profile for container / codec combination	Profiel voor container  / codec combinatie word niet ondersteund
+unsupported remux container path	niet ondersteunde remux container pad
+User name	Gebruikersnaam
+using profile	met behulp van profiel
+Wake and start at	Wakker worden en beginnen bij
+WARNING	WAARSCHUWING
+Warning - MP4Box command exceeding 8192 characters.  This may fail on some systems [such as Windows XP]	Waarschuwing - MP4Box opdracht heeft meer dan 8192 tekens.  Dit kan mislukken op sommige systemen [zoals Windows XP]
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service	 not the currently logged on user.Ensure the MCEBuddy service uses a user account that has local administrative acces and access to the remote file [Control Panel-Administrative Tools-Services-MCEBuddy]	Waarschuwing: Netwerkverbindingen worden gemaakt met behulp van de aanmeldingsreferenties van de MCEBuddy service	 DUS niet de momenteel aangemelde gebruiker-referenties.Zorg dat de MCEBuddy service gebruik maakt van een gebruikersaccount die beschikt over lokale administrator toegang naar het externe bestand [Configuratiescherm-Systeembeheer-Services-MCEBuddy]
+Writing show information	Serie informatie wegschrijven

@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy δεν χρησιμοποιεί το χρήστη που είναι συνδεδεμένος αυτήν τη στιγμή για τη σύνδεση με κοινόχρηστα στοιχεία δικτύου, να χρησιμοποιεί τη δική του λογαριασμού υπηρεσίας.  Φροντίστε να καθορίσετε τις πληροφορίες σύνδεσης χρήστη (MCEBuddy με ένα εικονίδιο κλειδιού)
+Connection Reminder	Σύνδεση υπενθύμισης
+Description	Περιγραφή
+Path	Διαδρομή
+is invalid	δεν είναι έγκυρη
+Invalid Path	Μη έγκυρη διαδρομή
+Please supply a task name	Δώστε ένα όνομα εργασίας
+No name supplied	Χωρίς όνομα που παρέχονται
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	Παρακαλούμε εισάγετε τον κωδικό γλώσσας 3 ψηφία του κομμάτι ήχου ή επιλέξτε <προεπιλογή> ή <Original>
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	Το ψηφίο 3 κωδικό ISO για το επιλεγμένο language\r\nMake βέβαιοι ότι αυτό συμφωνεί με τον κωδικό γλώσσας για το κομμάτι ήχου στο αρχικό recording.\r\nTo Αποκτήστε τον κωδικό γλώσσας για τα κομμάτια ήχου στο αρχικό αρχείο που καταγράφονται, προσθέστε το file\r\nto την ουρά και κάντε δεξί κλικ σε αυτό. Ένα pop up παράθυρο θα ανοίξει εμφάνιση του ήχου details\r\nwhich περιλαμβάνει τους κωδικούς γλώσσας για κάθε κομμάτι ήχου.
+Invalid Language Code	Ο κωδικός γλώσσας που δεν είναι έγκυρη
+No destination directory provided, converted file will be placed in original video directory	Εφόσον δεν κατάλογος προορισμού, αρχείο μετατροπής θα τοποθετηθεί στον αρχικό κατάλογο βίντεο
+A task name or section	Μια εργασία ή μια ενότητα
+already exists\n\rPlease use another name	exists\n\rPlease χρησιμοποιούν ήδη ένα άλλο όνομα
+Duplicate Name	Πανομοιότυπο όνομα
+Engine	Κινητήρας
+Tasks	Εργασίες
+Profile	Προφίλ
+disposing	διάθεση
+Task name	Όνομα εργασίας
+Give a unique name to this task	Δώσετε ένα μοναδικό όνομα για αυτή την εργασία
+Gives a short description for the selection conversion profile	Παρέχει μια σύντομη περιγραφή για το προφίλ, μετατροπή επιλογής
+Click to select destination folder	Κάντε κλικ στο φάκελο προορισμού
+Destination	Προορισμού
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	Επιλέξτε τον κατάλογο όπου το αρχείο μετατροπής θα placed.\r\nLeave αυτό κενό για να διατηρήσετε το αρχείο που έχετε μετατρέψει στον ίδιο κατάλογο με το πρωτότυπο βίντεο.
+Max width	Μέγιστο πλάτος
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	Αυτό θα περιορίσει το μέγιστο πλάτος (σε pixel) του βίντεο για το file.\r\nTIP έχει μετατραπεί: δεν ισχύουν εάν το αρχικό αρχείο έχει πλάτος μικρότερο από το number.\r\nIf που θέλετε να διατηρήσετε σας αρχική ανάλυση οθόνης κίνηση το ρυθμιστικό εντελώς προς τα δεξιά.
+Quality	Ποιότητα
+Ad remover	Διαφήμιση απομακρύνω
+None	Κανένα
+Get series details from Internet	Βρείτε λεπτομέρειες σειρά από Internet
+Download additional details about the movie or series from the internet	Λήψη πρόσθετες λεπτομέρειες σχετικά με την ταινία ή μια σειρά από το internet
+File name match	Ταίριασμα όνομα αρχείου
+Recording title match	Καταγραφή Τίτλος Ταίριασμα
+Cancel	Άκυρο
+OK	Ok
+Rename without converting	Μετονομάστε χωρίς μετατροπή
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	Ελέγξτε αυτήν την επιλογή για μόνο μετονομάστε και αντιγράψτε τα αρχικά αρχεία, να τα folder.\r\nWhen προορισμό που ελέγχθηκαν, μετατροπή, κοπή, επεξεργασία ήχου/βίντεο και αφαίρεση εμπορικών δεν θα available.\r\n\r\nNOTE: άλλες λειτουργίες όπως το ταίριασμα φίλτρα, εξαγωγή υπότιτλους, αποθήκευση μεταδεδομένων και εμπορική ανίχνευσης (Αποθήκευση αρχείου EDL) \r\nwill ακόμα είναι διαθέσιμο με αυτό checked.\r\nIf επιλογή που θέλετε να μετακινήσετε αντί αντίγραφο, ελέγξτε το Skip αντιγραφή αρχική επιλογή στις ρυθμίσεις του εμπειρογνώμονα σε αυτό σελίδα ή select\r\nDelete αρχικό αρχείο στη σελίδα ρυθμίσεων κύρια.
+Rename and sort by video information	Μετονομάστε και να ταξινομήσετε με βάση πληροφορίες βίντεο
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	Μετονομάζει το αρχείο μετατροπής και τα τοποθετεί σε έναν νέο κατάλογο με βάση την παρουσίαση/σειρά πληροφορίες όταν available\r\n (π.χ. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	Εισαγάγετε το όνομα χρήστη και τον κωδικό πρόσβασης για πρόσβαση σε φακέλους που βρίσκονται σε μια μονάδα δίσκου δικτύου ή σε διαφορετικό υπολογιστή
+Organize by seasons	Οργάνωση από τις εποχές
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	Οργάνωση των φακέλων από Showname και εποχής όταν διαθέσιμα (Media Center/XBMC/Plex συμβατό σύμβαση ονομασίας) \r\n (π.χ. Showname\\Season XX\\SXXEYY-επεισόδιο όνομα)
+Audio language	Γλώσσα ήχου
+Advanced Settings	Ρυθμίσεις για προχωρημένους
+General Settings	Γενικές ρυθμίσεις
+Conversion Task	Μετατροπή εργασίας
+Password	Κωδικός πρόσβασης
+Confirm Password	Επιβεβαίωση κωδικού
+Domain / computer name	Τομέα / όνομα υπολογιστή
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	<Optional>Enter εάν απομακρυσμένο υπολογιστή ή δίκτυο το αυτοκίνητο χρησιμοποιεί ένα Domain για authentication.\r\nDo δεν εισάγετε ομάδα εργασίας σας εδώ. Το αφήσετε κενό αν χρησιμοποιείτε μια ομάδα εργασίας.
+User name	Όνομα χρήστη
+Enter the username to access the remote computer or network drive	Εισαγάγετε το όνομα χρήστη για πρόσβαση απομακρυσμένο υπολογιστή ή δίκτυο στη μονάδα δίσκου
+Enter the password to access the remote computer or network drive	Πληκτρολογήστε τον κωδικό πρόσβασης για πρόσβαση σε απομακρυσμένη μονάδα δίσκου υπολογιστή ή το δίκτυο
+Network Connection User Credentials	Πιστοποιήσεις χρήστη σύνδεσης δικτύου
+Password Mismatch	Ασυμφωνία κωδικού πρόσβασης
+Passwords do not match, please reenter the passwords	Δεν ταιριάζουν με τους κωδικούς πρόσβασης, πληκτρολογήστε ξανά τους κωδικούς πρόσβασης
+Hour	Ώρα
+Minute	Λεπτό
+Wake	Ξυπνάω
+Start	Έναρξη
+Resume	Βιογραφικό σημείωμα
+Pause	Παύση
+Stop	Σταμάτα
+Language	Γλώσσα
+Pause conversion tasks	Παύση εργασιών μετατροπής
+Resume conversion tasks	Εργασίες μετατροπής βιογραφικό
+Please enter a valid time	Πληκτρολογήστε ένα έγκυρο χρονικό διάστημα
+Invalid Time	Δεν είναι έγκυρη ώρα
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	Χρόνος ακινητοποίησης είναι μετά την ώρα έναρξης. Υποθέτοντας ότι ο χρόνος διακοπής είναι κατά την επόμενη μέρα, είναι ότι η σωστή;
+Time Check	Έλεγχος του χρόνου
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	Επιλέξετε αυτήν την επιλογή μόνο εάν MCEBuddy έχει μετατροπή τα αρχεία σας αξιόπιστα για μια αποδεκτή χρονικό διάστημα. Θέλετε να MCEBuddy, να διαγράψετε κάθε αρχικό αρχείο αφού αυτό έχει μετατραπεί;
+Confirm delete originals?	Επιβεβαίωση διαγραφής πρωτότυπα;
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy θα παρακολουθεί αυτούς τους καταλόγους για αρχεία βίντεο για να μετατρέψετε αυτόματα
+Conversion tasks	Οι εργασίες μετατροπής
+Delete original file	Διαγραφή αρχικού αρχείου
+Deletes the original recording after a successful conversion	Διαγράφει την αρχική εγγραφή μετά από μια επιτυχημένη μετατροπή
+Min age before conversion (hours)	Min ηλικία πριν από μετατροπή (ώρες)
+Minimum hours to wait before converting each file after the file is added to the queue	Ελάχιστη ώρες αναμονής πριν από τη μετατροπή κάθε αρχείο, αφού το αρχείο προστίθεται στην ουρά
+Use this to change the language of the text on the screen	Χρησιμοποιήστε το για να αλλάξετε τη γλώσσα του κειμένου στην οθόνη
+Concurrent conversions	Ταυτόχρονη μετατροπή
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	Αριθμός των ταυτόχρονων μετατροπές MCEBuddy να start\r\nNOTE: χρειάζεστε μεγάλες ποσότητες ελεύθερου χώρου και επεξεργαστή χρόνο για περισσότερο από 2 ταυτόχρονη μετατροπές
+Logging level	Επίπεδο καταγραφής
+Error	Σφάλμα
+Warning	Προειδοποίηση
+Information	Πληροφορίες
+Debug	Ο εντοπισμός σφαλμάτων
+Log conversion jobs	Αρχείο καταγραφής μετατροπή θέσεων εργασίας
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	Αποθηκεύσετε ένα αρχείο καταγραφής για κάθε μετατροπή σε \'logs\ το «κατάλογο όπου όπου MCEBuddy είναι installed\r\n (π.χ. Files\\MCEBuddy2x\\logs C:\\Program)
+Allow sleep	Επιτρέπει την κατάσταση νάρκης
+If unchecked, it prevents the system from entering sleep while converting	Εάν δεν είναι επιλεγμένο, το σύστημα αποτρέπει από εισαγωγή νάρκης κατά τη μετατροπή
+Stop at	Διακοπή σε
+No new conversions would be started after this time	Καμία νέα μετατροπές θα αρχίσουν μετά από αυτή τη φορά
+minute	λεπτό
+hour	ώρα
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	Εάν ελέγχεται MCEBuddy θα αφυπνίσουν το σύστημα από το sleep\r\nat την καθορισμένη ώρα έναρξης και ενεργοποιημένη ημέρες της εβδομάδας.
+Start at	Ξεκινά από
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy θα ξεκινήσει νέο μετατροπές μεταξύ την έναρξη και να σταματήσει time.\r\n\r\nThe έναρξη χρόνο θα χρησιμοποιηθούν για τις ενεργοποιημένες ημέρες της εβδομάδας, το whereas\r\nthe τέλος θα χρησιμοποιείται είτε για την ίδια ημέρα or\r\nfor την επόμενη μέρα, εάν η ώρα λήξης είναι μετά την ώρα έναρξης.
+Delete	Διαγραφή
+Add	Προσθήκη
+Change	Αλλαγή
+Archive original file	Αρχικό αρχείο αρχειοθέτησης
+Domain name	Όνομα τομέα
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	Σταματά η οθόνη και μετατροπή δουλειές και ανοίγει μια σελίδα για να ρυθμίσετε το MCEBuddy
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	Δημιουργεί ένα φάκελο που ονομάζεται \'MCEBuddyArchive\» όπου το αρχικό αρχείο είναι located\r\nand κινείται το αρχικό αρχείο σε αυτόν τον κατάλογο, μετά από μια επιτυχημένη conversion.\r\n\r\nThis όνομα φακέλου και τοποθεσίες να αλλάξει στη σελίδα ρυθμίσεων του συστήματος.
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	Ο εντοπισμός σφαλμάτων - λεπτομερείς καταγραφές, βοηθά παρακολούθησης μετατροπής problems\r\nInformation - αρχεία καταγραφής βασικές πληροφορίες σχετικά με conversion\r\nWarning - καταγραφής πιθανά ζητήματα ή κρίσιμη αποτυχίες only\r\nError - καταγραφής κρίσιμη αποτυχίες μόνο
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	Επιλέξτε το προφίλ μετατροπής που σχετίζεται με αυτήν την εργασία. Το προφίλ μετατροπής αντιπροσωπεύει τη μορφή εξόδου και την ποιότητα για την ποιότητα μετατροπής file.\r\nHigher μετατροπές χρειαστούν περισσότερο χρόνο για να μετατρέψετε. Reccomended προεπιλογή: Υψηλής ποιότητας MP4 ή MP4 Normal.\r\n\r\nTIP: ανατρέξτε στον οδηγό MCEBuddy για προχωρημένους παραμέτρους στο tweak προφίλ μετατροπής ή για να δημιουργήσετε το δικό σας προφίλ μετατροπής
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	Επιλέξτε το πρόγραμμα MCEBuddy θα χρησιμοποιήσετε για να απομακρύνουν τις διαφημίσεις κατά τη μετατροπή του video.\r\nSet σε 'Κανένα' και να αφήσει τις διαφημίσεις σε η μετατροπή video.\r\n\r\nTIP: να χρησιμοποιήσετε ShowAnalyzer αντί Comskip δεν, να μπορείτε να κατεβάσετε και να εγκαταστήσετε ShowAnalyzer.\r\nShow Analyzer έκδοση 1.0 και μεγαλύτερη υποστήριξη.
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	Χρησιμοποιείται για να αλλάξετε την ποιότητα βίντεο του αρχείου που μετατράπηκε, κανονική είναι υψηλότερο αριθμό 1.\r\nA θα βελτιώσει την ποιότητα αλλά θα χρειαστεί περισσότερος χρόνος για conversion.\r\nA μικρότερο αριθμό θα μειώσετε την ποιότητα αλλά να επισπευσθεί η μετατροπή.
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Εισάγετε το σχέδιο για να ταιριάζει με ονόματα αρχείων για αυτήν την εργασία (π.χ. το *.wtv θα μετατρέψει όλα τα αρχεία που έληξε με μοτίβο .wtv)\r\nPrefix με ~ να παρακάμψετε τον αγώνα (π.χ. *. *? ~*.wtv που θα επεξεργάζεται όλα τα αρχεία εκτός από αυτές που τελειώνουν με .wtv)\r\nSeparate πολλαπλές μοτίβα με? (π.χ. *.wtv, ncis *? ~ ncis Μαϊάμι *) θα επεξεργάζεται όλα τα αρχεία .wtv και όλα τα αρχεία που αρχίζουν με ncis αλλά δεν εκείνων που αρχίζουν με ncis miami\r\n\r\nYou να χρησιμοποιήσετε τυπικές εκφράσεις για να ταιριάζει με το μοτίβο ξεκινώντας με regex:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Εισάγετε το σχέδιο για να ταιριάζει με τίτλους εμφάνιση/σειρά για αυτήν την εργασία (π.χ. Simpson * θα μετατρέψει όλα τα αρχεία που έχουν μια εμφάνιση τίτλο που αρχίζει με την Simpson) \r\nPrefix μοτίβο με ~ να παρακάμψετε τον αγώνα (π.χ. *? ~ Simpson * θα επεξεργάζεται όλους τους τίτλους Εμφάνιση εκτός από αυτά που ξεκινούν με Simpson) \r\nSeparate πολλαπλών μοτίβα με? (π.χ. Simpson *?House*) ή (π.χ. Simpson *?NCIS*? ~ NCIS Μαϊάμι *) \r\n\r\nYou να χρησιμοποιήσετε τυπικές εκφράσεις για να ταιριάζει με το μοτίβο ξεκινώντας με regex:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	Αυτό μπορεί να χρησιμοποιηθεί για να αλλάζετε τις προκαθορισμένες ομιλούμενης γλώσσας όταν υπάρχουν πολλές ομιλούμενες γλώσσες recording.\r\nTo παίρνει τη λίστα από τις ήχου γλώσσες σε μια εγγραφή, κάντε δεξί κλικ στο αρχείο στην ουρά και επιλέξτε MediaInfo.\r\n\r\n <Default>θα προσπαθήσει να κρατήσει όλα τα κομμάτια ήχου, αν υποστηρίζεται ή αφήστε τον κωδικοποιητή που επιλέξετε την προεπιλογή ήχου track\r\n <Original>, εάν είναι διαθέσιμο, θα χρησιμοποιήσει την αρχική γλώσσα [μη-μεταγλωττισμένα] καταγραφή
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	Εισαγάγετε «[video]» ή αφήστε κενό για να μετατρέψετε όλες βίντεο files\r\nEnter μοτίβου ώστε να ταιριάζει με τα ονόματα αρχείων για αυτήν τη θέση (π.χ. *.wtv θα μετατρέψει όλα τα αρχεία που τελειώνουν με .wtv)\r\nprefix μοτίβο με ~ για να παραλείψετε το ταίριασμα (π.χ. *. *; ~*.wtv θα επεξεργαστεί όλα τα αρχεία εκτός από αυτές που καταλήγουν σε .wtv)\r\nseparate πολλά μοτίβα με, (π.χ. *.wtv, ncis * · ~ ncis Μαϊάμι *) θα επεξεργαστεί όλα τα αρχεία .wtv και όλα τα αρχεία που ξεκινώντας με ncis, αλλά δεν εκείνων που ξεκινώντας με ncis Μαϊάμι
+MCEBuddy Settings	Ρυθμίσεις MCEBuddy
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy δεν χρησιμοποιεί το χρήστη που είναι συνδεδεμένος αυτήν τη στιγμή για τη σύνδεση με κοινόχρηστα στοιχεία δικτύου, να χρησιμοποιεί τη δική του λογαριασμού υπηρεσίας.  Φροντίστε να καθορίσετε τις πληροφορίες σύνδεσης χρήστη [MCEBuddy με ένα εικονίδιο κλειδιού]
+Please supply a source name	Δώστε ένα όνομα αρχείου προέλευσης
+Please supply a search path name	Δώστε ένα όνομα διαδρομής αναζήτησης
+A source name or section	Μια ονομασία προέλευσης ή μια ενότητα
+already exists. Please use another name	υπάρχει ήδη. Χρησιμοποιήστε ένα άλλο όνομα
+Monitor name	Όνομα οθόνης
+Give this a location a unique name	Αυτό δίνει μια θέση ένα μοναδικό όνομα
+Monitor path	Παρακολούθηση διαδρομής
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	Επιλέξτε τον κατάλογο που θα παρακολουθεί την MCEBuddy στο παρασκήνιο για νέα αρχεία βίντεο για να μετατρέψετε αυτόματα
+Click to select the folder to monitor	Κάντε κλικ για να επιλέξετε το φάκελο για την παρακολούθηση
+Search pattern	Μοτίβο αναζήτησης
+SourceForm	SourceForm
+Monitor Location	Οθόνη θέση
+Normal	Normal
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: σφάλμα σύνδεσης pipeProxy κινητήρα
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: Δεν είναι δυνατή Η δημιουργία διοχέτευσης MCEBuddy υπηρεσία
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	Η υπηρεσία MCEBuddy είναι διαθέσιμη. Παρακαλούμε ξεκινούν από πίνακα ελέγχου των Windows ή ελέγξτε τη σύνδεση κινητήρα.
+Announcement	Ανακοίνωση
+New version 	Νέα έκδοση 
+available	διαθέσιμο
+New BETA version 	Νέα έκδοση BETA 
+Click here to download new version of MCEBuddy	Κάντε κλικ εδώ για να κάνετε λήψη της νέας έκδοσης του MCEBuddy
+Click here to open link	Κάντε κλικ εδώ για να ανοίξετε τη σύνδεση
+Idle	ΑΔΡΑΝΩΝ
+Closing	Κλείσιμο
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI: Δεν είναι δυνατή Η ενημέρωση εργασιών
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: Δεν είναι δυνατή Η εκκίνηση της υπηρεσίας MCEBuddy
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: Δεν είναι δυνατή Η διακοπή της υπηρεσίας MCEBuddy
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI: Δεν είναι δυνατή Η ακύρωση της εργασίας
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	Προειδοποίηση: Τα αρχεία δικτύου θα να προσεγγιστεί χρησιμοποιώντας τις πιστοποιήσεις σύνδεσης της υπηρεσίας MCEBuddy, δεν το συνδεδεμένος χρήστης. Μπορείτε να καθορίσετε με μη αυτόματο τρόπο τις πιστοποιήσεις δικτύου από τις ρυθμίσεις-> σελίδα "εμπειρογνώμονα ρυθμίσεις" στο MCEBuddy.
+Credential Warning	Προειδοποίηση πιστοποιήσεων
+Status	Κατάσταση
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI: Δεν είναι δυνατή Η προσθήκη εργασίας
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: Δεν είναι δυνατή Η λήψη σωλήνα ενεργή κατάσταση
+The conversions must be stopped to change settings. Stop the conversions?	Οι μετατροπές πρέπει να σταματήσει να αλλάξετε τις ρυθμίσεις. Σταματήσει τις μετατροπές;
+Stop Engine	Σταματήστε τη μηχανή
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI: Δεν είναι δυνατή Η διακοπή της υπηρεσίας MCEBuddy από ρυθμίσεις κάντε κλικ
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: Δεν είναι δυνατή Η σάρωση αρχείων
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: Δεν είναι δυνατή Η σύνδεση το άνοιγμα
+Close	Κλείσιμο
+Close this window, MCEBuddy will keep running in the background	Κλείστε αυτό το παράθυρο, MCEBuddy θα συνεχίσει να τρέχει στο παρασκήνιο
+If you like MCEBuddy, please click here to Donate - THANKS	Εάν θέλετε να MCEBuddy, κάντε κλικ εδώ για να Donate - ΧΆΡΗ
+Click here to like MCEBuddy on facebook	Κάντε κλικ εδώ, για να αρέσει MCEBuddy στο facebook
+Click here to open MCEBuddy website	Κάντε κλικ εδώ, για να ανοίξετε την τοποθεσία Web MCEBuddy
+Rescan	Επανάληψη της σάρωσης
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	Δυνάμεις του MCEBuddy να ελέγξετε ξανά την οθόνη θέσεις για τα νέα αρχεία βίντεο για να μετατρέψετε
+Monitor locations	Οθόνη θέσεις
+Settings	Ρυθμίσεις
+Select the file(s) in the queue to delete	Επιλέξτε τα αρχεία στην ουρά για να διαγράψετε
+Manually add video file(s) to the queue to convert	Με μη αυτόματο τρόπο να προσθέσετε αρχεία βίντεο στην ουρά για να μετατρέψετε
+Start the MCEBuddy monitor and conversion tasks	Ξεκινήστε τα καθήκοντα εποπτείας και τη μετατροπή των MCEBuddy
+Stop the MCEBuddy monitor and conversion tasks	Διακοπή τα καθήκοντα εποπτείας και τη μετατροπή των MCEBuddy
+There is a new version!	Υπάρχει μια νέα έκδοση!
+High	Υψηλή
+Low	Χαμηλή
+Priority	Προτεραιότητα
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	Υψηλή προτεραιότητα - μετατροπή πιο γρήγορα, αλλά ενδέχεται να κάνω άλλων εφαρμογών που εκτελούνται unresponsive\r\nLow προτεραιότητα - μετατρέψετε το φόντο, αλλά μειωμένες παρεμβολές με άλλες εφαρμογές που εκτελούνται
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	Η εργασία είναι ένα πρότυπο μετατροπής που περιέχει ένα προφίλ μετατροπής και διάφορες άλλες parameters.\r\nEach μετατροπή αρχείου που προστέθηκε στην ουρά θα υποβάλλονται σε επεξεργασία και μετατρέπονται από κάθε ένα από αυτά τα tasks.\r\nRefer στον οδηγό του MCEBuddy για περισσότερες λεπτομέρειες σχετικά με πώς λειτουργούν οι εργασίες.
+Getting started	Ξεκινώντας
+Click here for MCEBuddy guide	Κάντε κλικ εδώ για τον οδηγό MCEBuddy
+Logs	Αρχεία καταγραφής
+Click to open log folder	Κάντε κλικ για να ανοίξετε το φάκελο καταγραφής
+MCEBuddy Status	Κατάσταση MCEBuddy
+add	Προσθήκη
+delete	Διαγραφή
+paypal-donate	PayPal-δωρεά
+stop	Σταμάτα
+OUTPUT: ConsoleOuput received NULL data	ΈΞΟΔΟΣ: ConsoleOuput έλαβε δεδομένα NULL
+hours	ώρες
+minutes	συνοπτικά πρακτικά
+second	δεύτερη
+seconds	δευτερόλεπτα
+Starting	Εκκίνηση
+Comskip advertisement scan - Pass 1	Comskip διαφήμιση σάρωσης - Pass 1
+Comskip advertisement scan - Pass 2	Comskip διαφήμιση σάρωσης - Pass 2
+Cutting commercials from video	Διαφημιστικά σποτ κοπή από βίντεο
+Cutting commercials from video - segment 	Διαφημιστικά σποτ κοπής από βίντεο - τμήμα αγοράς 
+Merging commercial free segments into new video	Συγχώνευση εμπορικής ελεύθερου τμήματα σε νέο βίντεο
+Moving converted file to destination	Μετακίνηση του αρχείου που μετατράπηκε σε προορισμού
+Checking for disk space	Έλεγχος για χώρο στο δίσκο
+Getting show information and banner from Internet sources	Λήψη πληροφοριών παρουσίαση και πανό από πηγές του Internet
+Copying source file to working directory	Αντιγραφή αρχείου προέλευσης σε κατάλογο εργασίας
+Remuxing recording	Καταγραφή Remuxing
+ShowAnalyzer advertisement scan	ShowAnalyzer διαφήμιση σάρωση
+Comskip advertisement scan	Comskip δεν διαφήμιση σάρωση
+Analyzing video information	Ανάλυση πληροφορίες βίντεο
+Converting	Μετατροπή
+Removing commercials	Κατάργηση διαφημιστικά σποτ
+Writing show information	Γραπτή εμφάνιση πληροφοριών
+Renaming file using show information	Μετονομασία αρχείου χρησιμοποιώντας πληροφορίες Παρουσίαση
+Success - All done!	Επιτυχία - όλα done!
+Muxing streams	Muxing ροών
+Fallback remux	Εναλλακτικός remux
+Correcting audio delay	Διόρθωση ήχου καθυστέρηση
+Converting video file - Pass 1	Μετατροπή αρχείου βίντεο - Pass 1
+Converting video file - Pass 2	Μετατροπή αρχείου βίντεο - Pass 2
+Converting video file	Μετατροπή αρχείου βίντεο
+Audio Track	Κομμάτι ήχου
+Impaired	Με προβλήματα όρασης
+Channels	Κανάλια
+Codec	Κωδικοποιητής
+Video	Βίντεο
+Duration	Διάρκεια
+Height	Ύψος
+Width	Πλάτος
+Audio	Ήχος
+Name	Όνομα
+Subtitle	Υπότιτλος
+Volume	Όγκος
+Enable custom file renaming	Ενεργοποίηση μετονομασία προσαρμοσμένου αρχείου
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	Επιτρέπω this εισέρχομαιχ ένα προσαρμοσμένο μοτίβο για να μετονομάσετε τη μετατροπή των αρχείων και φακέλων. Εισαγάγετε το προσαρμοσμένο μοτίβο στο πλαίσιο below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S % εποχής % ##E % επεισόδιο % ##-% episodename % - %airyear%_%airmonth%_%airday%\r\n\r\nWill προϊόντα: \r\nTVShows\CSI\Season 1\CSI - S01E02 - καλύτερο των χρόνων - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill προϊόντα (για μια ταινία) \r\n Recording\Movies\Star πολέμους, μετατροπή. <ext>1\CSI \r\n Recording\TVShows\CSI\Season \r\nOR (για μη ταινίες) - S01E02 μετατραπεί.<ext>\r\n\r\nRefer να MCEBuddy την προηγμένη τεκμηρίωση για μια λίστα με όλες τις εντολές του μοτίβο.
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	ShowAnalyzer δεν βρέθηκε. \nPlease να κάνετε λήψη και να εγκαταστήσετε το ShowAnalyzer.
+ShowAnalyzer Missing	Λείπει το ShowAnalyzer
+Invalid language code, reverting to <Default> language	Μη έγκυρη γλώσσα κώδικα, επαναφορά σε γλώσσα <προεπιλογή>
+Cut start	Κόψτε την έναρξη
+Cut end	Κόψτε το τέλος
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	Αυτό καθορίζει τον αριθμό των δευτερολέπτων να κοπεί από την αρχή της καταγραφής (πριν από την αφαίρεση των διαφημίσεων)
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	Αυτό καθορίζει τον αριθμό των δευτερολέπτων να κόψει από το τέλος της καταγραφής (πριν από την αφαίρεση των διαφημίσεων)
+Send an eMail after each conversion.	Στείλτε ένα eMail μετά τη μετατροπή κάθε.
+Send eMail	Στείλετε eMail
+SMTP Server Name	Το όνομα του διακομιστή SMTP
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	Εισαγάγετε την εξερχόμενη here\r\ne.g διεύθυνση του διακομιστή ηλεκτρονικού ταχυδρομείου (SMTP). SMTP.Gmail.com
+Port	Θύρα
+Enter the SMTP server port	Εισαγάγετε την θύρα του διακομιστή SMTP
+Use SSL	Χρήση SSL
+Check this if you SMTP server uses SSL	Ελέγξτε αυτό εάν σας SMTP server χρησιμοποιεί SSL
+e-Mail Settings	Ρυθμίσεις ηλεκτρονικού ταχυδρομείου
+From <e-Mail>	Από <e-Mail>
+Enter the senders (From) eMail address here	Εισαγάγετε τους αποστολείς (εδώ τη διεύθυνση eMail από)
+To <e-Mails>	Να <e-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	Εισαγάγετε τους παραλήπτες (στο) eMail διεύθυνση here.\r\nSeparate πολλούς παραλήπτες με ένα ελληνικό ερωτηματικό (;).
+Send eMail on successful conversion	Αποστολή ηλεκτρονικού ταχυδρομείου για επιτυχή μετατροπή
+Send eMail on failed conversion	Αποτυχία μετατροπής να στείλετε ηλεκτρονικό ταχυδρομείο
+Send eMail on cancelled conversion	Στείλετε eMail ακυρώθηκε μετατροπής
+Send eMail on adding a conversion to the queue	Στείλτε eMail σχετικά με την προσθήκη μια μετατροπή στην ουρά
+Please enter a valid server address	Παρακαλούμε εισάγετε μια διεύθυνση έγκυρο διακομιστή
+Invalid SMTP Server	Μη έγκυρο διακομιστή SMTP
+Please enter a valid server port	Εισαγάγετε μια έγκυρη server port
+Invalid SMTP Port	Θύρα SMTP δεν είναι έγκυρος
+Please enter a valid From eMail address	Παρακαλούμε εισάγετε ένα έγκυρο από τη διεύθυνση ηλεκτρονικού ταχυδρομείου
+Invalid eMail Address	Μη έγκυρη ηλεκτρονική διεύθυνση
+Please enter valid To eMail addresses	Πληκτρολογήστε έγκυρο για διευθύνσεις eMail
+Username	Όνομα χρήστη
+<Optional> Enter the username for the eMail server authentication	Enter <Optional>το όνομα χρήστη για τον έλεγχο ταυτότητας του διακομιστή ηλεκτρονικού ταχυδρομείου
+<Optional> Enter the password for the eMail server authentication	<Optional>Πληκτρολογήστε τον κωδικό πρόσβασης για τον έλεγχο ταυτότητας του διακομιστή ηλεκτρονικού ταχυδρομείου
+MCEBuddy unable to download series information	Δεν είναι δυνατή η λήψη πληροφοριών σειρά MCEBuddy
+MCEBuddy successfully converted a video	MCEBuddy μετέτρεψε με επιτυχία ένα βίντεο
+Source Video	Προέλευση βίντεο
+Converted Video	Μετατροπή βίντεο
+Converted At	Η μετατροπή των
+MCEBuddy failed to converted a video	MCEBuddy απέτυχε να μετατραπεί ένα βίντεο
+Failed At	Απέτυχε στο
+MCEBuddy cancelled a video conversion	MCEBuddy ακυρωθεί ένα βίντεο μετατροπής
+Cancelled At	Ακυρωθέν στην
+Working	Εργασίας
+Test	Δοκιμή
+Testing	Δοκιμή
+Click this button to test the eMail server settings	Κάντε κλικ σε αυτό το κουμπί για να δοκιμάσετε τις ρυθμίσεις του διακομιστή ηλεκτρονικού ταχυδρομείου
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy θα στείλει ένα eMail για να δοκιμάσετε το διακομιστή settings.\r\nThis να λάβει έως 60 seconds.\r\nMCEBuddy ενδέχεται να μην ανταποκρίνεται κατά τη διάρκεια αυτής της περιόδου.
+Test eMail	Δοκιμή eMail
+MCEBuddy Test eMail	Δοκιμή MCEBuddy eMail
+MCEBuddy - Have a great day!	MCEBuddy - έχετε μια μεγάλη μέρα!
+Send eMail test successful	Αποστολή eMail δοκιμή επιτυχής
+Send eMail test failed! Please check your settings and internet connectivity	Αποστολή eMail δοκιμασία που απέτυχε! Ελέγξτε τις ρυθμίσεις και τη δυνατότητα σύνδεσης στο internet
+Test eMail Success	Δοκιμή eMail επιτυχία
+Test eMail Failed	Δοκιμή eMail απέτυχε
+Send eMail on start of conversion	Στείλετε eMail έναρξη της μετατροπής
+MCEBuddy started a video conversion	MCEBuddy ξεκίνησε ένα βίντεο μετατροπής
+Conversion Started At	Μετατροπή ξεκίνησε στις
+Yes (Comskip)	Ναι (Comskip)
+Yes (ShowAnalyzer)	Ναι (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	Πρέπει να είναι ενεργοποιημένη τουλάχιστον μία μετατροπή εργασία
+Disable	Απενεργοποίηση
+Enable	Ενεργοποίηση
+Rename	Μετονομασία
+Move	Κίνηση
+Up	Επάνω
+Down	Κάτω
+Slow Remuxing	Αργή Remuxing
+Extracting closed captions	Εξαγωγή των κλειστών λεζαντών
+Validating closed captions	Επικύρωση των κλειστών λεζαντών
+Extracting subtitles	Εξαγωγή υπότιτλους
+Trimming closed captions	ΣΥΡΗΤΙ κλειστό λεζάντες
+Extract subtitles and closed captions	Εκχύλισμα υπότιτλος και κλειστών λεζαντών
+Field	Το πεδίο
+Channel	Κανάλι
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	Ενεργοποίηση αυτό για να εξαγάγετε κλειστές λεζάντες, υπότιτλοι και Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV και άλλα υποστηριζόμενα files.\r\n\r\nIt αποθηκεύεται ως υπότιτλος (SRT) αρχείο.
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	Επιτρέπει να ορίσετε επιλογές για προχωρημένους για κλειστές λεζάντες extraction\r\nField - 1 ή 2\r\nChannel - 1 ή 2\r\n\r\nDefault: το πεδίο 1, 1 κανάλι
+Subtitle offset	Μετατόπιση υποτίτλων
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	Εισαγάγετε τον αριθμό των δευτερολέπτων (+ ve / - ve) για να προσαρμόσετε τον συγχρονισμό υπότιτλοι με βίντεο
+Re-ReMuxing due to audio error	Re-ReMuxing λόγω του σφάλματος ήχου
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	Αποθηκεύσετε την αφίσα και την εμφάνιση πληροφοριών (μεταδεδομένα) σε ένα συμβατό αρχείο NFO MC/XBMC (μορφή XML)
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	Τσεκάρετε το κουτί αυτό για να αποθηκεύσετε την εμφάνιση πληροφοριών (μεταδεδομένα) σε η μετατροπή file.\r\nThis μόνο εργασίες για τα αρχεία που υποστηρίζουν τις ετικέτες metadata όπως MP4, MKV, WTV etc.\r\n\r\nNOTE: αποεπιλέξτε αυτό το πλαίσιο, εάν αντιμετωπίζετε ζητήματα με ορισμένες συσκευές όπως παλαιότερα τηλεοράσεις που έχουν πρόβλημα ανάγνωση μεταδεδομένων.
+Atleast one day of the week must be enabled	Τουλάχιστον μία ημέρα της εβδομάδας πρέπει να είναι ενεργοποιημένη
+Invalid Days of Week	Μη έγκυρη ημέρες της εβδομάδας
+Invalid day of week found in configuration file	Μη έγκυρη ημέρα της εβδομάδας που βρέθηκε στο αρχείο παραμέτρων
+Scheduling	Προγραμματισμός
+Remuxing to	Remuxing να
+Part	Τμήμα
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	Υπόλοιπο το ποντίκι σας σε οποιοδήποτε κουμπί, το πλαίσιο ή το στοιχείο για να πάρετε άμεση βοήθεια στο it.\n\nFor περισσότερες πληροφορίες σχετικά με το πώς να χρησιμοποιήσετε, να αντιμετωπίζετε προβλήματα ή να λάβετε υποστήριξη για MCEBuddy κλικ στο σύνδεσμο < Ξεκινώντας > σχετικά με την κορυφαία σωστή corner.\n\nDonations είναι πάντα ευπρόσδεκτες :) Απολαύστε! \n\n - Ramit, Derek & χήνα
+Welcome to MCEBuddy	Καλώς ήρθατε στο MCEBuddy
+Multichannel audio	Πολυκάναλη ήχου
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	Ελέγχου να επιτραπεί πολλαπλών καναλιών ήχου, εάν το αρχείο προέλευσης βίντεο υποστηρίζει προεπιλεγμένη it.\r\nBy του ήχου περιορίζεται σε 2 κανάλια (στερεοφωνικό).
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	Δυναμική περιοχή συμπίεσης (ΛΔΚ) \r\nWhen το αρχείο προέλευσης είναι ένα ήχο AC3, ενεργοποίηση της ΛΔΚ will\r\nreduce η διαφορά μεταξύ της ζωηρά και του soft\r\nsounds καθιστώντας το κομμάτι ήχου περισσότερες even.\r\nIf έχετε πολλαπλών καναλιών ήχου ηχογράφησης και you\r\nfeel ο όγκος είναι πολύ μαλακό, για τον έλεγχο αυτό το πλαίσιο θα μπορούσαν να βοηθήσουν.
+FPS	FPS
+Logfile age (days)	Logfile ηλικία (ημέρες)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	Μέγιστος αριθμός ημερών για να διατηρήσετε τα αρχεία καταγραφής πριν από τη διαγραφή them.\r\nSet σε 0 για να διατηρήσετε τα αρχεία καταγραφής για πάντα.
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	Γρήγορο Remuxing
+Byte stream remuxing	Remuxing ροή byte
+Disable cropping	Απενεργοποίηση περικοπή
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	Ελέγξτε αυτό για να απενεργοποιήσετε την περικοπή του βίντεο αυτόματα κατά τη διάρκεια της conversion.\r\nCropping χρησιμοποιείται για να καταργήσετε το "μαύρες γραμμές" στο βίντεο (επάνω, κάτω, αριστερά ή right).\r\nUse αυτή την επιλογή εάν η εικόνα βίντεο γρήγορα κόβεται σε οποιαδήποτε πλευρά ή εάν η τελική εικόνα ψάχνει παραμόρφωση ή στρέβλωση.
+Only detect Ads	Ανίχνευση μόνο διαφημίσεις
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	Ελέγχω this εάν θέλετε το MCEBuddy να ανιχνεύσει τις διαφημίσεις (διαφημίσεις) αλλά δεν κόβουμε από την video.\r\nWhen αυτή η επιλογή είναι ενεργοποιημένη, MCEBuddy θα δημιουργήσει ένα αρχείο EDL μαζί με τη μετατροπή αρχείων που καθορίζει τις θέσεις των διαφημίσεων σε η μετατροπή video.\r\nAlso, για το MP4, M4V και MKV αρχεία MCEBuddy θα δημιουργήσει κεφάλαια για να σηματοδοτήσει το τέλος της διαφημίσεις.
+Download information	ΑΝΤΛΗΣΗ ΠΛΗΡΟΦΟΡΙΩΝ
+Correction	Διόρθωση
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	Κάντε κλικ εδώ για να διορθώσει τον τίτλο του εμφάνιση και να αναγκάσει χρήση ενός TVDB σειρά αναγνωριστικό ή IMDB ταινία id\r\nto αναζήτησης πρόσθετα μετα-δεδομένα από το internet.
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	Ελέγξτε αυτό για να κάνετε λήψη πρόσθετων πληροφοριών από το internet σχετικά με την παρουσίαση, όπως ένα πανό αρχείο, το επεισόδιο, το σεζόν κ.λπ
+Profile Error	Σφάλμα προφίλ
+Cannot find selected profile in profiles.conf	Δεν μπορώ να βρω το επιλεγμένο προφίλ στο profiles.conf
+Invalid Profile	Μη έγκυρος τύπος προφίλ
+Please select a valid profile	Επιλέξτε ένα έγκυρο προφίλ
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	Ο MCEBuddy κινητήρας κατέρρευσε. Παρακαλώ, στείλετε mcebuddy.log για τους προγραμματιστές
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	Επιλέξτε το προσαρμοσμένο αρχείο Comskip INI, για να χρησιμοποιήσετε για αυτό task\r\nLeave μετατροπής, αυτό κενό, για να χρησιμοποιήσετε το προεπιλεγμένο αρχείο Comskip INI για διαφήμιση αφαίρεση
+Click to select custom Comskip INI file	Κάντε κλικ στην επιλογή προσαρμοσμένο αρχείο Comskip INI
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	Επιλέξτε το φάκελο για εργασία με προσωρινά αρχεία. Βεβαιωθείτε ότι υπάρχει αρκετό κενό χώρο για το drive.\r\nLeave αυτό κενό, να χρησιμοποιήσετε τον προεπιλεγμένο φάκελο temp στο φάκελο εγκατάστασης.
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	Επιλέξτε το φάκελο για την εργασία με προσωρινά αρχεία. Βεβαιωθείτε ότι υπάρχει αρκετός κενός χώρος για το drive.\r\nThis αντικαθιστά φάκελο temp που ορίζονται στις ρυθμίσεις-> σελίδα ρυθμίσεις του εμπειρογνώμονα.
+Click to select temp working folder	Κάντε κλικ για να επιλέξετε το προσωρινό φάκελο εργασίας
+Temp folder	Φάκελος Τemp
+Space check	Χώρο ελέγχου
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	Όταν ενεργοποιηθεί MCEBuddy θα ελέγξει για αρκετό ελεύθερο χώρο για τη μετατροπή (προορισμός και αυτό αν έχετε είναι έχοντας κόπο με temp).\r\nUncheck μονάδες δίσκου του δικτύου ή έχουν εξαιρετικά μεγάλων αρχείων βίντεο.
+MCEBuddy Windows Event Logs	Τα αρχεία καταγραφής συμβάντων των MCEBuddy Windows
+Events	Εκδηλώσεις
+Click here to open the MCEBuddy Windows Event Logs	Κάντε κλικ εδώ για να ανοίξετε τα αρχεία καταγραφής συμβάντων Windows MCEBuddy
+Enable UPnP	Ενεργοποίησης UPnP
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	Ελέγξτε αυτό για να ενεργοποιήσετε το UPnP. Αυτό επιτρέπει πρόσβαση σε MCEBuddy κινητήρα από έξω από το network.\r\nThis πρέπει να ελεγχθεί εάν χρησιμοποιείτε κινητό/μεμονωμένου πελάτη MCEBuddy πρόσβασης MCEBuddy.
+Click here to connect to another MCEBuddy engine	Κάντε κλικ εδώ για να συνδεθείτε με άλλο μηχανισμό MCEBuddy
+MCEBuddy Remote Engine Connection	Σύνδεση κινητήρα απομακρυσμένης MCEBuddy
+Engine Name	Όνομα του κινητήρα
+Engine Port	Θύρα κινητήρα
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	Εισαγάγετε το όνομα ή τη διεύθυνση IP του MCEBuddy κινητήρα που θέλετε να συνδεθείτε
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	Πληκτρολογήστε τον αριθμό θύρας TCP του MCEBuddy κινητήρα που θέλετε να συνδεθείτε
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	Πληκτρολογήστε τον αριθμό θύρας TCP του MCEBuddy κινητήρα που θέλετε να συνδεθείτε (1 στην 63355)
+Invalid Name/Port	Μη έγκυρο όνομα/Port
+Please enter a valid Engine Name and Engine Port Number	Πληκτρολογήστε ένα έγκυρο όνομα κινητήρα και κινητήρα αριθμός θύρας
+Error Stopping Engine	Σφάλμα ακινητοποίησης κινητήρα
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	Δεν είναι δυνατή η διακοπή MCEBuddy κινητήρα, ρυθμίσεις ενδέχεται να μην αποθηκευτούν. Θέλετε να συνεχίσετε;
+Unable to communicate with engine. Settings have NOT been saved.	Δεν είναι δυνατό να επικοινωνήσει με τον κινητήρα. Ρυθμίσεις δεν αποθηκεύτηκαν.
+Communication Error	Σφάλμα επικοινωνίας
+Engine not stopped. Settings have NOT been saved.	Κινητήρας δεν σταμάτησε. Ρυθμίσεις δεν αποθηκεύτηκαν.
+Unable To Save Settings	Δεν είναι δυνατή η αποθήκευση των ρυθμίσεων
+Unable to communicate with engine. UPnP settings have not been updated	Δεν είναι δυνατό να επικοινωνήσει με τον κινητήρα. Δεν έχουν ενημερωθεί UPnP settings
+Audio delay	Καθυστέρηση ήχου
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	Εισαγάγετε μια τιμή σε δευτερόλεπτα (θετική ή αρνητική) εδώ για να μετατοπίσει τον ήχο σε σχέση με το video.\r\nUse αυτό να resync τον ήχο με το βίντεο, αν είναι εκτός συγχρονισμού μετά conversion.\r\nA θετική τιμή θα καθυστερήσει τον ήχο (δηλαδή βίντεο μπροστά από ήχου) και μια αρνητική τιμή θα προηγμένες ήχου (δηλαδή ήχου μπροστά από το video).\r\nE.g. -1,5
+Media info	Πληροφοριών πολυμέσων
+Click here to get media properties for selected files	Κάντε κλικ εδώ για να λάβετε ιδιότητες πολυμέσων για τα επιλεγμένα αρχεία
+Save information	Αποθήκευση πληροφοριών
+Add information	Προσθέστε πληροφορίες
+Shows a preview of the custom filename and path	Εμφανίζει μια προεπισκόπηση του το όνομα του προσαρμοσμένου αρχείου και τη διαδρομή
+Invalid Filename Pattern	Μη έγκυρο όνομα αρχείου μοτίβο
+TVDB Series ID	TVDB σειρά ID
+IMDB Series ID	IMDB σειρά ID
+Original title	Πρωτότυπος τίτλος
+Corrected title	Διορθωμένο τίτλος
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Εισαγάγετε το ID σειρά TVDB που θέλετε να χρησιμοποιήσετε για τη μεταφόρτωση Εμφάνιση information.\r\nIf το αρχικό τίτλο κουτί είναι άδειο, αυτό θα εφαρμοστεί σε όλες τις εκπομπές επιλέγονται από αυτήν την εργασία μετατροπής.
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Εισαγάγετε το ID του IMDB ταινία που θέλετε να χρησιμοποιήσετε για τη μεταφόρτωση ταινία information.\r\nIf το πρωτότυπο τίτλο κουτί είναι άδειο, αυτό θα εφαρμοστεί σε όλες τις εκπομπές επιλέγονται από αυτήν την εργασία μετατροπής.
+Internet Lookup Title and Metadata Correction	Τίτλος αναζήτησης Internet και διόρθωση των μετα-δεδομένων
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	Κάντε κλικ εδώ για να προσθέσετε μια άλλη σειρά να ταιριάζει και να διορθώσει τίτλους και id.\r\nIf σειρά που θέλετε να χρησιμοποιήσετε το ίδιο τίτλο διορθωμένη ή σειρά αναγνωριστικό για όλες τις εκπομπές μετατρέπονται από αυτήν την εργασία μετατροπής, \r\nleave το αρχικό κενό τίτλο την πρώτη σειρά και σας δεν πρέπει να προσθέσετε μια δεύτερη σειρά.
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	Εισάγετε το σχέδιο για να ταιριάζει με τίτλους εμφάνιση/σειρά για διόρθωση (π.χ. Simpson * θα αντικαταστήσει όλους τους τίτλους που έχουν ένα τίτλο εμφάνιση που αρχίζει με την Simpson) \r\nPrefix μοτίβο με ~ να παρακάμψετε τον αγώνα (π.χ. *. *? ~ Simpson * θα διορθώσει όλα δείχνουν τίτλους εκτός από αυτά που ξεκινούν με Simpson) \r\nSeparate πολλαπλών μοτίβα με? (π.χ. Simpson *?House*) ή (π.χ. Simpson *?NCIS*? ~ NCIS Μαϊάμι *) \r\n\r\nNOTE: αφήστε το πλαίσιο κενό αν θέλετε να εφαρμόσετε το διορθωμένο τίτλος ή σειρά αναγνωριστικό σε όλα τα αρχεία που επεξεργάζεται από αυτό task.\r\nIf μετατροπή αφήνοντας κενό, δεν μπορείτε να προσθέσετε μια δεύτερη row.\r\n\r\nYou να χρησιμοποιήσετε μια κανονική έκφραση για να ταιριάζει με τον τίτλο ξεκινώντας με regex:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	Εισάγετε τον τίτλο νέα/διόρθωση που θέλετε να χρησιμοποιήσετε για τη μεταφόρτωση πρόσθετες πληροφορίες από το internet.\r\nIf το πρωτότυπο τίτλο κουτί είναι άδειο, αυτό θα εφαρμοστεί σε όλες τις εκπομπές επιλέγονται από τη μετατροπή αυτή task.\r\n\r\nYou να χρησιμοποιήσετε μια κανονική έκφραση να διορθώσει τον τίτλο ξεκινώντας με regex:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	Για κάθε γραμμή, πληκτρολογήστε τον αρχικό τίτλο για να ταιριάζει με το όνομα εμφάνιση και είτε ένα διορθώθηκε τίτλο ή ένα αναγνωριστικό σειράς TVDB/IMDB
+Please enter either a Corrected title or a TVDB/IMDB Series ID	Παρακαλούμε εισάγετε ένα ID σειρά TVDB/IMDB είτε έναν τίτλο διορθώθηκε
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	Ενεργοποίηση αυτό εάν θέλετε MCEBuddy να θέσει τη μετατροπή αρχείων σε η directory\r\nif πηγή τη διαδρομή προορισμού δεν είναι διαθέσιμη. (π.χ. δίκτυο αστοχία ή αποτυχία αντιστοίχισης)
+Fallback to source path	Επαναφορά σε διαδρομή προέλευσης
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	Χρησιμοποιείται για να αυξήσετε ή να μειώσετε τον όγκο των the\r\nrecording, ενώ converting.\r\n1 είναι κανονική, τίποτα παρακάτω θα μειώσει, anything\r\nhigher θα αυξήσουν αυτό.
+Archive folder	Φάκελος αρχειοθέτησης
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	Αλλάξτε τη θέση του το κενό για να χρησιμοποιήσετε τον προεπιλεγμένο φάκελο «MCEBuddyArchive» στον αρχικό κατάλογο αρχειοθέτησης folder.\r\nLeave.
+Monitor subdirectories	Οθόνη υποκαταλόγους
+Check this box to also monitor all directories within the Monitor path	Επιλέξτε αυτό το πλαίσιο επίσης παρακολουθούν όλους τους καταλόγους μέσα στη διαδρομή Monitor
+Click here to show MCEBuddy status	Κάντε κλικ εδώ, για να εμφανίσετε MCEBuddy κατάσταση
+MCEBuddy service not connected	Δεν συνδέεται η υπηρεσία MCEBuddy
+MCEBuddy idle	MCEBuddy σε αδράνεια
+conversions in progress	μετατροπές σε εξέλιξη
+MCEBuddy stopped	MCEBuddy σταμάτησε
+Sync converted files	Συγχρονίστε αρχεία που έχουν μετατραπεί
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	Χρησιμοποιήστε αυτήν την επιλογή εάν θέλετε να MCEBuddy για να διατηρήσετε τα αρχεία που έχουν μετατραπεί σε συγχρονισμό με την αρχική files.\r\ni.e. Όταν τα αρχικά αρχεία διαγράφονται από τον χρήστη, η αντίστοιχη μετατροπή των αρχείων είναι επίσης deleted.\r\n\r\nNOTE: MCEBuddy παρακολουθεί μόνο τα αρχικά αρχεία στους φακέλους θέσεις εποπτείας και ΜΌΝΟ, ενώ ο κινητήρας είναι running.\r\nMCEBuddy δεν θα είναι σε θέση να παρακολουθούν αρχεία χρήστη διαγράφονται, ενώ ο κινητήρας είναι σταμάτησε.
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	Θέλετε MCEBuddy να διαγράψετε κάθε Μετατροπή αρχείου όταν το αρχικό αρχείο έχει διαγραφεί;
+Confirm sync conversions?	Επιβεβαίωση συγχρονισμού μετατροπές;
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	Είστε βέβαιοι ότι δεν θέλετε να καταργήσετε διαφημιστικά σποτ από το βίντεο που έχετε μετατρέψει και διατηρήστε μόνο το αρχείο EDL;
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer δεν αποκρίνεται. Παρακαλούμε το σύστημα επανεκκίνηση ή επανεγκατάσταση του ShowAnalyzer.
+ShowAnalyzer Not Responding	ShowAnalyzer που δεν αποκρίνεται
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	Να βεβαιωθείτε ότι σας πατήστε 'Start' αφού κλείσετε αυτό το παράθυρο, διαφορετικά προγραμματισμός και μετά δεν θα λειτουργήσει.
+Enabling Scheduling and Wake	Ενεργοποίηση προγραμματισμού και ως επακόλουθο
+Passwords do not match	Κωδικοί πρόσβασης δεν ταιριάζουν
+Password error	Λάθος κωδικό πρόσβασης
+Adding subtitles and chapters to file	Προσθήκη υπότιτλους και κεφάλαια σε αρχείο
+Send eMail if unable to download series information	Στείλτε eMail αν δεν είναι δυνατή η λήψη πληροφοριών σειρά
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	Επιλέξτε αυτό το πλαίσιο, εάν θέλετε αυτήν την εργασία μετατροπής σε μόνο αρχεία από συγκεκριμένη οθόνη locations.\r\nIf ανεξέλεγκτη κάθε εργασία μετατροπής θα επεξεργαστεί αρχεία από όλες τις θέσεις οθόνη (συμπεριλαμβανομένων και των νέων, που προστέθηκε αργότερα).
+Select Monitor Locations	Επιλέξτε τοποθεσίες οθόνη
+Select atleast one Monitor Location name	Επιλέξτε ένα όνομα οθόνη τοποθεσία atleast
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	Έχετε επιλέξει όλες την τρέχουσα οθόνη Locations.\r\nDo θέλετε αυτή η εργασία μετατροπής να επεξεργάζεται αυτόματα κάθε νέα οθόνη θέσεις προστίθενται στο μέλλον;
+New monitor locations	Νέες θέσεις οθόνη
+Invalid selection	Μη έγκυρη επιλογή
+Channel name match	Κανάλι όνομα αγώνα
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Εισάγετε το σχέδιο για να ταιριάζει με το όνομα του καναλιού για αυτήν την εργασία (π.χ. ABC * θα μετατρέψει όλα τα αρχεία που καταγράφονται σε ένα κανάλι όνομα που αρχίζει με το ABC) \r\nPrefix μοτίβο με ~ να παρακάμψετε τον αγώνα (π.χ. *? ~ ABC * θα επεξεργάζεται όλα τα κανάλια εκτός από αυτά που ξεκινούν με το ABC) \r\nSeparate πολλαπλών μοτίβα με? (π.χ. ABC *?TBS*) ή (π.χ. ABC *?Fox*, ~ Fox4 *) \r\n\r\nYou να χρησιμοποιήσετε τυπικές εκφράσεις για να ταιριάζει με το μοτίβο ξεκινώντας με regex:
+Clear history	Εκκαθάριση ιστορικού
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	Κάντε κλικ στο κουμπί για να απαλείφετε το ιστορικό των όλα μετατραπεί files.\r\nThis είναι να προκαλέσει MCEBuddy να επαναλάβετε τη μετατροπή όλων των αρχείων που παρακολουθούνται.
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	Είστε βέβαιοι ότι θέλετε να καταργήσετε την ιστορία του όλες τις μετατροπές; \r\nThis θα προκαλέσει MCEBuddy να επαναλάβετε τη μετατροπή όλων των αρχείων που παρακολουθούνται.
+Show history	Εμφάνιση ιστορία
+Click this button to show the history of all converted files.	Κάντε κλικ σε αυτό το κουμπί για την ιστορία των κάθε μετατροπή αρχείων.
+History of Converted Files	Ιστορία της μετατροπή αρχείων
+Unable to communicate with engine.	Δεν είναι δυνατή η επικοινωνία με τη μηχανή.
+Extracting streams	Εξαγωγή ρεύματα
+Fallback muxing streams	Εφεδρική muxing μέσων ρεύματα
+Remuxing TiVO file	Θέμα remuxing TiVO αρχείο
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	Εισάγετε σας 10 ψηφίων TiVO MAK κλειδί να μετατρέψετε και να επεξεργαστούν τις καταγραφές TiVO
+Invalid TiVO MAK Key	Μη έγκυρη TiVO MAK κλειδί
+The TiVO MAK key should be 10 digits	Το TiVO MAK κλειδί πρέπει να είναι 10 ψηφία
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	Ασυμφωνία έκδοσης. Βεβαιωθείτε ότι η MCEBuddy του πελάτη και την μηχανή εκτελούνται την ίδια έκδοση.
+Error retrieving Event Logs	Σφάλμα κατά την ανάκτηση αρχείων καταγραφής συμβάντων
+Unable to get Event Log Entries from the MCEBuddy engine.	Σε θέση να πάρει καταχωρήσεις του αρχείου καταγραφής του MCEBuddy κινητήρα.
+PAUSED: Check conversion schedule	"Σε παύση": Πίνακας μετατροπής ελέγχου
+Logging	Καταγραφή
+Folder Management	Διαχείριση των φακέλων
+Processor Management	Διαχείριση επεξεργαστή
+Expert Settings	Ρυθμίσεις του εμπειρογνώμονα
+System Settings	Ρυθμίσεις του συστήματος
+Click here to change additional settings (for experts only)	Κάντε κλικ εδώ, για να αλλάξετε τις πρόσθετες ρυθμίσεις (για ειδικούς μόνο)
+Failed folder	Αποτυχημένη φάκελο
+Location of the folder that hold the original files for failed conversions.	Θέση του φακέλου που κρατούν τα αρχικά αρχεία για αποτυχημένες μετατροπές.
+Move original file on failure	Μετακινήσετε το πρωτότυπο αρχείο στο αποτυχία
+Check this to move the original file to a separate folder if the conversion fails.	Επιλέξτε το για να μετακινήσετε το πρωτότυπο αρχείο σε ξεχωριστό φάκελο, εάν η μετατροπή αποτύχει.
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	Επιλέξτε το για να περιοριστεί ο αριθμός των λογικούς επεξεργαστές που MCEBuddycan use.\r\nEach πλαίσιο ελέγχου παρακάτω αντιστοιχεί σε ένα διαθέσιμο επεξεργαστή λογική.
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Κάθε πλαίσιο αντιπροσωπεύει λογικούς επεξεργαστές από 1 σε 16 respectively.\r\nChecking ένα κουτί, επιτρέπει MCEBuddy να χρησιμοποιήσετε αυτό το επεξεργαστή.
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Κάθε κουτί αντιπροσωπεύει λογικούς επεξεργαστές από 17 σε 32 respectively.\r\nChecking ένα κουτί, επιτρέπει MCEBuddy να χρησιμοποιήσετε αυτό το επεξεργαστή.
+Select atleast one processor to use	Επιλέξτε atleast μια επιχείρηση μεταποίησης να χρησιμοποιήσετε
+Invalid Configuration	Μη έγκυρη ρύθμιση παραμέτρων
+Comskip path	Διαδρομή Comskip δεν
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	Αν θέλετε να χρησιμοποιήσετε μια προσαρμοσμένη έκδοση του Comkip (π.χ. έκδοση δωρητής) \r\nthen πληκτρολογήστε τη διαδρομή του το Comskip δεν εγκατάσταση here.\r\nLeave κενό για να χρησιμοποιήσετε την προεπιλογή Comskip δεν που έρχεται με MCEBuddy.
+Miscellaneous	Διάφορα
+Ignore copy protection	Αγνοούν την προστασία αντιγραφής
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	Επιλέξτε το για να αγνοήσει τη σημαία της προστασίας αντιγραφής σε αρχείο βίντεο ενώ converting.\r\nNOTE: MCEBuddy δεν μπορεί να παρακάμψει κρυπτογράφησης, αυτό βοηθά μόνο εάν ένα αρχείο είναι incorrectly\r\ntagged ως αντίγραφο προστατεύονται όταν δεν είναι κρυπτογραφημένο.
+Use recycle bin	Χρήση κάδο
+Check this to use the recycle bin when files are deleted by MCEBuddy	Επιλέξτε το για να χρησιμοποιήσετε τον κάδο, όταν διαγράφονται τα αρχεία από MCEBuddy
+Poll period	Δημοσκόπηση περίοδο
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	Αυτό είναι πόσο συχνά MCEBuddy σαρώνει την οθόνη θέσεις εργασίες για το νέο διάστημα files.\r\nThe καθορίζεται σε δευτερόλεπτα.
+Server port	Θύρα διακομιστή
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	Αυτή είναι η θύρα TCP MCEBuddy χρησιμοποιεί για να επικοινωνήσει με το απομακρυσμένο engine.\r\nWhen UPnP είναι ενεργοποιημένη, MCEBuddy θα προσθέσετε αυτόματα αυτήν τη θύρα στην πύλη Windows Firewall\r\nand UPnP για να επιτρέψει την πρόσβαση από το internet σε αυτήν τη θύρα.
+Hang period	"Κολλήσει" περίοδος
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	Εισαγάγετε τον αριθμό δευτερολέπτων που θα MCEBuddy θα περιμένουμε μια απάντηση από την εφαρμογή του the\r\nunderlying πριν να τερματίζει την εφαρμογή ως hung.\r\nEnter 0 για να απενεργοποιήσετε την ανίχνευση "κολλάει".
+Subtitle commercial cut sync	Υπότιτλος εμπορική κομμένα συγχρονισμού
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	Αυτή η παράμετρος χρησιμοποιείται όταν οι υπότιτλοι πάει σταδιακά εκτός συγχρονισμού μετά κάθε εμπορικό τμήμα έχει αφαιρεθεί από τη ρύθμιση video.\r\nThis χρησιμοποιείται για να φέρει τους υπότιτλους πίσω σε συγχρονισμό με το χρόνο video.\r\nEach το βίντεο εμπορικό είναι κομμένες, οι υπότιτλοι είναι ώρα μετατοπίστηκε από αυτό ποσό (+ ve ή - ve σε δευτερόλεπτα).
+Invalid poll period	Μη έγκυρη δημοσκόπηση περίοδο
+Invalid server port	Θύρα του διακομιστή Άκυρα
+eMail Subject Customization	ηλεκτρονικό ταχυδρομείο θέμα προσαρμογής
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	Χρήση έστειλε αυτήν την ενότητα για να προσαρμόσετε το θέμα του ηλεκτρονικού ταχυδρομείου από MCEBuddy για τις διάφορες εκδηλώσεις της μετατροπής που αναφέρονται below.\r\nRefer για την τεκμηρίωση, προσαρμοσμένες εντολές για variables.\r\ne.g χρήστη. Εμφάνιση % showname % για το αρχείο % originalfilename % μετατροπής επιτυχής χρήση εργασιών % taskname%\r\nNOTE: δεν είναι πάντα όλα τα δεδομένα θα διατίθεται σε το κενό για να χρησιμοποιήσετε προεπιλεγμένες γραμμές θέματος συνήθειας commands.\r\nLeave.
+Success	Επιτυχία
+Failed	Απέτυχε
+Cancelled	Ακυρωθεί
+Download fail	Κατεβάστε αποτύχει
+Limit processor utilization	Αξιοποίηση του επεξεργαστή όριο
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	Ελέγξτε αυτό να περιοριστεί ο αριθμός των λογικούς επεξεργαστές ότι MCEBuddy να use.\r\nEach πλαίσιο ελέγχου παρακάτω αντιστοιχεί σε μια διαθέσιμη λογικών επεξεργαστή.
+Custom profile	Προσαρμοσμένο προφίλ
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	Εάν έχετε μια προσαρμοσμένη profiles.conf αρχείο που θέλετε να χρησιμοποιήσετε αντί για the\r\none που έρχεται με MCEBuddy, πληκτρολογήστε τη διαδρομή προς το αρχείο here.\r\n\r\nNOTE: MCEBuddy συνεχώς ενημερώσεις profiles.conf να παρέχει bug καθορίζει, \r\nenhancements και επιδόσεις βελτιώσεις, οι οποίες δεν θα σας λείψει out\r\non εάν χρησιμοποιήσετε αυτήν τη δυνατότητα.
+Invalid custom profiles.conf	Μη έγκυρη συνήθειας profiles.conf
+Suspend on battery	Αναστείλει την μπαταρία
+Suspend conversions when the computer switches to battery power	Αναστείλει μετατροπές, όταν ο υπολογιστής μεταβαίνει την μπαταρία
+MCEBuddy added a video conversion to the queue	MCEBuddy προστεθεί ένα βίντεο μετατροπής στην ουρά
+Queue	Ουρά
+Refer to documentation on using custom commands in custom eMail subjects	Ανατρέξτε στην τεκμηρίωση σχετικά με τη χρήση προσαρμοσμένων εντολών σε θέματα ηλεκτρονικού ταχυδρομείου συνήθειας
+Could not copy information to Clipboard, please try again.	Δεν θα μπορούσε να αντιγράψετε πληροφορίες στο Πρόχειρο, παρακαλώ προσπαθήστε ξανά.
+Error copying to Clipboard	Σφάλμα αντιγραφή στο Πρόχειρο
+Copy to clipboard	Αντιγραφή στο Πρόχειρο
+Reconvert files	Αναίρεση μετατροπής αρχείων
+Are you sure you want to reconvert the selected files?	Είστε βέβαιοι ότι θέλετε να επαναλάβετε τη μετατροπή τα επιλεγμένα αρχεία;
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	Επιλέξτε τα αρχεία που θέλετε να επαναλάβετε τη μετατροπή και στη συνέχεια κάντε κλικ σε αυτό button.\r\nIf τα αρχικά αρχεία ελέγχονται ακόμα από το MCEBuddy θα είναι στην ουρά για μετατροπή.
+Time taken to convert	Χρόνος που απαιτείται για τη μετατροπή
+Network authentication	Έλεγχο ταυτότητας δικτύου
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	Κάντε κλικ στο κουμπί εισέρχομαιχ το δίκτυο μετοχές credentials.\r\nThis ταυτότητας χρησιμοποιείται όταν αρχεία προστίθενται μέσω το κουμπί Προσθήκη για την κύρια window\r\nor σύρθηκε και έπεσε από ένα κοινόχρηστο στοιχείο δικτύου στο πλαίσιο κατάστασης της μετατροπής στο κύριο παράθυρο.
+Skip reconversion	Skip μετατροπής
+Do not reconvert the video if a converted file already exists in the destination directory.	Δεν μετατροπή το βίντεο αν ένα αρχείο που μετατράπηκε υπάρχει ήδη στον κατάλογο προορισμού.
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	Το αναμενόμενο όνομα αρχείου για το βίντεο (δεν το αρχικό όνομα βίντεο αρχείου) είναι σε σύγκριση με τα ονόματα των αρχείων σε το directory.\r\nIf προορισμού υπάρχει αρχείο που μετατράπηκε, το αρχείο δεν θα είναι πράσινο και θα υποτεθεί να είναι μια επιτυχημένη conversion.\r\nThis είναι χρήσιμο εάν το ίδιο εμφάνιση/επεισόδιο καταγράφεται σε πολλές φορές και δεν θέλετε να επαναλάβετε τη μετατροπή them.\r\n\r\nNOTE: Αυτή η επιλογή αγνοείται για τα βίντεο που προστίθενται με το χέρι χρησιμοποίηση του add κουμπιού ή μεταφορά και απόθεση
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	Εάν ενεργοποιηθεί, η παράλειψη μετατροπή θα ελέγχει επίσης το ιστορικό αρχείο για τελευταία conversions.\r\nThe αναμένεται όνομα αρχείου για το βίντεο (δεν το αρχικό όνομα βίντεο αρχείου) είναι σε σύγκριση με τα ονόματα των αρχείων σε file.\r\nIf η ιστορία το να μετατραπεί όνομα αρχείου (συμπεριλαμβανομένης της διαδρομής) ταιριάζει με κάποιο από τα ήδη μετατραπεί ονόματα αρχείων (συμπεριλαμβανομένων μονοπάτια) στο ιστορικό αρχείο, αρχείο \r\nthe δεν θα είναι πράσινο και θα θεωρηθεί ως επιτυχημένη μετατροπή.
+Adding file to the iTunes library	Προσθήκη αρχείου στη βιβλιοθήκη iTunes
+Add to iTunes	Προσθήκη στο iTunes
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	Ελέγξτε αυτό το πλαίσιο να προσθέσετε αυτόματα τα αρχεία που έχουν μετατραπεί σε library.\r\nThis το iTunes λειτουργεί μόνο με το iTunes Υποστηριζόμενα αρχεία (π.χ. MP4, M4V, MP3 κλπ)
+Adding file to the WMP library	Προσθήκη αρχείου στη βιβλιοθήκη του WMP
+Library Management	Μάνατζμεντ βιβλιοθηκών
+Add to Windows Media Player	Προσθέστε στο Windows Media Player
+Check this box to automatically add the converted files to the WMP library.	Τσεκάρετε το κουτί αυτό για να προσθέσετε αυτόματα η μετατροπή των αρχείων στη βιβλιοθήκη του WMP.
+Renaming and Sorting	Μετονομασία και τη διαλογή
+Selection Filters	Επιλογή φίλτρα
+Audio and Video	Ήχου και βίντεο
+Subtitles and Chapters	Υπότιτλους και κεφάλαια
+Skip copying original files	Skip αντιγραφή αρχικά αρχεία
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	Ελέγξτε αυτό πλαίσιο στο ΔΙΚΌ ΣΑΣ δεν RISK.\r\nDO ελέγξτε αυτό πλαίσιο αν δεν ΣΑΣ ΞΈΡΟΥΝ τι ΕΊΣΑΙ DOING.\r\nCheck αυτό το πλαίσιο να παρακάμψετε την λήψη ενός αντιγράφου ασφαλείας του αρχικού αρχείου (αντιγραφή) κατά τη μετατροπή.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	Ελέγξτε αυτό πλαίσιο στο ΔΙΚΌ ΣΑΣ RISK.\r\nDO δεν αυτό το πλαίσιο ελέγχου αν δεν ΞΈΡΕΤΕ τι είστε DOING.\r\nCheck είναι επιλεγμένο το πλαίσιο για να παρακάμψετε την λήψη ενός αντιγράφου ασφαλείας του αρχικού αρχείου (αντιγραφή) ενώ converting.\r\nIf αυτό, το αρχικό αρχείο δεν θα πρέπει να διατηρηθεί σε περίπτωση μια error.\r\nIt επίσης ακόμη και μπορεί να οδηγήσει σε αποτυχίες μετατροπής ή άλλων απρόβλεπτων μετατροπής.
+Are you sure you want to do this?	Είστε βέβαιοι ότι θέλετε να το κάνετε αυτό;
+Media Information Management	Διαχείριση πληροφοριών πολυμέσων
+Force show type	Τύπος προβολής δύναμης
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	Θέστε αυτό για να αναγκάσει τη θεραπεία την εγγραφή ως μια ταινία βίντεο ή τηλεόραση Series.\r\nThis θα αλλάξει τον τρόπο που πρόσθετες πληροφορίες (μεταδεδομένα) σχετικά με την καταγραφή είναι κατεβάσει από το internet.\r\nMovie - θεραπεία την καταγραφή ως movie\r\nSeries - θεραπεία την καταγραφή ως μια TV Series\r\nSports - θεραπεία την καταγραφή του ως ένα σπορ show\r\nDefault - χρήση προεπιλογή πληροφορίες που διαθέτει τα μεταδεδομένα καταγραφής για να καθορίσει την ταινία ή τηλεοπτική σειρά
+Show type	Εμφάνιση τύπου
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	Επιλέξτε το για να φιλτράρετε τον τύπο των εγγραφών που converted.\r\n\r\nMovies - επιλέξτε το για να μετατρέψετε, εάν ο τύπος εμφάνιση είναι Movie.\r\nShows - επιλέξτε το για να μετατρέψετε, εάν ο τύπος του εμφάνιση δεν είναι ένα Movie.\r\nSports - επιλέξτε το για να μετατρέψετε, εάν ο τύπος εμφάνιση είναι Sports.\r\n\r\nNOTE: Εμφάνιση τύπου διαβάζεται από την καταγραφή metadata.\r\nOnly κάποιες ηχογραφήσεις υποστήριξη Εμφάνιση μεταδεδομένων τύπου όπως WTV and\r\nrecordings με την υποστήριξη μεταδεδομένων αρχεία ()XML/ARG κλπ).
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	Αυτό το πλαίσιο δείχνει όλα τα αρχεία στην ουρά για conversion.\r\nDrag και τις πτώση αρχεία εδώ ή πατήστε το κουμπί Προσθήκη για να προσθέσετε αρχεία στην ουρά της μετατροπής
+Conversion	Μετατροπή
+Files	Αρχεία
+Click this button to open or close the Advanced Settings section	Κάντε κλικ στο κουμπί για να ανοίξετε ή να κλείσετε την ενότητα ρυθμίσεις για προχωρημένους
+Running custom commands	Εκτέλεση προσαρμοσμένων εντολών
+Trimming video recording	ΣΥΡΗΤΙ βιντεοσκόπηση
+Insert at top of queue	Εισαγωγή στην κορυφή της ουράς
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	Από προεπιλογή, τα νέα μετατροπές προστίθενται στο κάτω μέρος (τέλος) η μετατροπή queue.\r\nIf είναι επιλεγμένο το πλαίσιο, οποιαδήποτε νέα μετατροπές που προστέθηκε από αυτήν την εργασία θα να είμαι αύξησα the\r\nbeginning (κορυφή) της ουράς μετατροπής.
+Add subtitles and chapters	Προσθέστε υπότιτλους και κεφάλαια
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	Ενεργοποιήσετε αυτή την επιλογή για να προσθέσετε οποιαδήποτε εξάγονται υπότιτλους και τα κεφάλαια στο κεφάλαιο της μετατραπεί video.\r\nEach σηματοδοτεί το τέλος της εμπορικής. Αυτό λειτουργεί μόνο με τις υποστηριζόμενες μορφές (π.χ. MKV, MP4).\r\n\r\nNOTE: Μερικοί παίκτες και παλαιότερες τηλεοράσεις δεν υποστηρίζουν τα ενσωματωμένα υπότιτλους και chapters.\r\nIf είστε σε θέση να αναπαράγει το βίντεο, δοκιμάστε αυτή την επιλογή Απενεργοποίηση.
+Select best soundtrack	Επιλέξτε το καλύτερο σάουντρακ
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	Εάν το αρχικό βίντεο έχει πολλαπλές soundtracks, αυτή η επιλογή που λέει MCEBuddy για να επιλέξετε το πιο κατάλληλο και πρωτοβάθμια soundtrack.\r\nIf θέλετε ένα soundtrack συγκεκριμένη γλώσσα, βεβαιωθείτε ότι εισάγετε το όνομα της γλώσσας ή κωδικό στο box.\r\nCheck την ομιλούμενη γλώσσα αυτό το πλαίσιο, αν ακούτε το λάθος soundtrack σε σας μετατραπεί file.\r\n\r\nUncheck αυτό το πλαίσιο αν θέλετε MCEBuddy να διατηρήσει όλες τις μουσικές επενδύσεις από το αρχικό βίντεο σε αρχείο που μετατράπηκε όταν είναι δυνατόν. \r\nNOTE: κάποια προφίλ δεν υποστηρίζουν πολλαπλές soundtracks, οπότε αυτή η ρύθμιση δεν έχει καμία επίδραση.
+Enable remote access	Ενεργοποίηση απομακρυσμένης πρόσβασης
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	Αυτό δημιουργεί μια εξαίρεση στο τείχος προστασίας των windows για την εφαρμογή της MCEBuddy και το port.\r\nThis απαιτείται εάν έχετε τείχος προστασίας των windows ενεργοποιημένο και θέλετε να χρησιμοποιήσετε το UPnP, την πρόσβαση απομακρυσμένης client\r\nor το μηχανισμό χρησιμοποιώντας μια IP address.\r\n\r\nNOTE: αν έχετε μια συνήθεια firewall, αυτό δεν μπορεί να λειτουργήσει, θα πρέπει να δημιουργήσετε με μη αυτόματο τρόπο το an\r\nexception για την υπηρεσία MCEBuddy και το λιμάνι.
+Unable to communicate with engine. Firewall exception settings have not been updated.	Μπορούν να επικοινωνούν με κινητήρα. Εξαίρεση ρυθμίσεις του τείχους προστασίας δεν έχουν ενημερωθεί.
+Detect and optimize video quality	Εντοπισμό και τη βελτιστοποίηση της ποιότητας βίντεο
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	Όταν ενεργοποιηθεί, η MCEBuddy θα βελτιστοποιήσει τις επιλογές επεξεργασίας βίντεο, προσπαθώντας να εντοπίσει την πηγή βίντεο type.\r\nThis μπορεί να βελτιώσει σημαντικά την ποιότητα του βίντεο μετατροπή, αν σωστά detected.\r\n\r\nNOTE: το κάνει αυτό, προσπαθώντας να ανιχνεύσει τον τύπο του βίντεο προέλευσης (interlaced, προοδευτική ή telecine).\r\nIf είναι σε θέση να ανιχνεύσει τον τύπο του βίντεο πηγή, θα αντικαταστήσει τις αντίστοιχες παραμέτρους το profile.\r\nTurn αυτή την επιλογή εκτός εάν αντιμετωπίζουν προβλήματα με την τηλεοπτική ποιότητα ή θέλετε να χρησιμοποιήσετε τις προεπιλεγμένες παραμέτρους προφίλ.
+Are you sure you want to delete this task?	Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την εργασία;
+Delete Task	Διαγραφή εργασίας
+Enter the new task name	Πληκτρολογήστε το νέο όνομα εργασίας
+Rename Task	Μετονομάστε το έργο
+MCEBuddy PAUSED	ΠΑΎΣΗ MCEBuddy
+idle	αδρανής
+PAUSED	ΣΕ ΠΑΎΣΗ
+Frame rate	Ρυθμός καρέ
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	Ενεργοποίηση αυτό για να ορίσετε μια προσαρμοσμένη framerate (FPS), για τη μετατροπή video.\r\nYou μπορεί να χρειάζεται να ρυθμίσετε αυτή κατά τη μετατροπή των μορφές βίντεο (π.χ. PAL σε NTSC) \r\nor για συσκευές που υποστηρίζουν μόνο συγκεκριμένη framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001
+Skip remuxing files	Περάστε θέμα remuxing αρχεία
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	Ελέγξτε αυτό πλαίσιο στο ΔΙΚΌ ΣΑΣ RISK.\r\nDO δεν ελέγχου αυτό το κουτί αν δεν ΞΈΡΕΤΕ τι είστε DOING.\r\nCheck αυτό το πλαίσιο να παρακάμψετε θέμα remuxing το αρχικό αρχείο σε ένα αρχείο TS ενώ converting.\r\nIf είναι επιλεγμένο, ορισμένες λειτουργίες όπως υπότιτλος εξόρυξη ή Comskip δεν μπορείτε δεν work.\r\nIt ακόμη και μπορεί να οδηγήσει σε αποτυχίες μετατροπής ή άλλων απρόβλεπτων μετατροπής.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	Ελέγξτε αυτό πλαίσιο στο ΔΙΚΌ ΣΑΣ δεν RISK.\r\nDO ελέγξτε αυτό πλαίσιο αν δεν ΣΑΣ ΞΈΡΟΥΝ τι ΕΊΣΑΙ DOING.\r\nCheck αυτό το πλαίσιο να παρακάμψετε θέμα remuxing το αρχικό αρχείο σε ένα αρχείο TS κατά τη μετατροπή.
+Monitor converted videos	Παρακολούθηση βίντεο
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	Από προεπιλογή οθόνη τοποθεσίες θα αγνοήσει αρχεία που έχουν ήδη converted.\r\nCheck αυτό το πλαίσιο αν θέλετε επίσης να παρακολουθείτε αρχεία που έχουν μετατραπεί σε Path.\r\nCAUTION η οθόνη: αυτό μπορεί να οδηγήσει σε μια μετατροπή άπειρο βρόχο του αρχεία που έχουν μετατραπεί, αν δεν έχει ρυθμιστεί properly.\r\n\r\nThis μπορεί να είναι χρήσιμο όταν είστε καθορίζει τον κατάλογο εξόδου, της μια task\r\n μετατροπής (μετατροπή αρχείων) ως η διαδρομή οθόνη του μια οθόνη τοποθεσία και σύνδεση the\r\nMonitor Θέση σε μια άλλη εργασία μετατροπής.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	Ελέγξτε αυτό πλαίσιο στο ΔΙΚΌ ΣΑΣ δεν RISK.\r\nDO ελέγξτε αυτό πλαίσιο εκτός αν ΣΑΣ ΞΈΡΕΤΕ τι είστε DOING.\r\nBy οθόνη προεπιλεγμένες θα αγνοήσει τα αρχεία που έχουν ήδη converted.\r\nCheck αυτό το πλαίσιο αν θέλετε επίσης να παρακολουθείτε αρχεία που έχουν μετατραπεί στη διαδρομή οθόνη.
+Hardware encoding	Κωδικοποίηση του υλικού
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	Ελέγξτε αυτό το πλαίσιο να χρησιμοποιήσετε υλικό κωδικοποίησης όταν είναι διαθέσιμο να μετατρέψει videos.\r\nThis να επιταχυνθεί σημαντικά, η μετατροπή και να μειώσει το utilization\r\nbut CPU που μπορεί να οδηγήσει σε ελαφρώς χαμηλότερη ποιότητα videos.\r\n\r\nUncheck αυτό το κουτί αν αντιμετωπίζετε μετατροπής ή θέματα ποιότητας.
+Do not overwrite files	Μην αντικαταστήσετε τα αρχεία
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	Όταν είναι επιλεγμένο αυτό το πλαίσιο, το αρχείο προορισμού δεν θα αντικατασταθούν αν αυτό ήδη exists.\r\nInstead ένα νέο αρχείο θα δημιουργηθεί με ένα μοναδικό αριθμό προστίθεται στο τέλος του ονόματος αρχείου.
+Re-monitor recorded videos	Παρακολούθηση εκ νέου εγγεγραμμένα βίντεο
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	Από προεπιλογή, μόλις ένα αρχείο προέλευσης (καταγράφονται βίντεο) έχει μετατραπεί, \r\nthe οθόνη ιστορία θα παρακολουθείτε το όνομα αρχείου και δεν ουρά τα ίδια αρχεία again.\r\n\r\nEnable αυτή η επιλογή να αγνοήσει την ιστορία και να παρακολουθεί όλα τα αρχεία και να τους προσθέσετε ουρά μετατροπής to\r\nthe, ακόμη και αν έχουν ήδη converted.\r\n\r\nThis μπορεί να είναι χρήσιμο μερικές φορές, εάν το λογισμικό εγγραφής δεν δημιουργεί a\r\nunique όνομα αρχείου για κάθε επεισόδιο/εμφάνιση. Είναι συνιστάται να χρησιμοποιήσετε the\r\nDelete αρχικό αρχείο επιλογή στη σελίδα ρυθμίσεων όταν χρησιμοποιείτε αυτήν την επιλογή avoid\r\nan μετατροπή άπειρο βρόχο.
+Recommendation	Σύσταση
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	Για να αποφύγετε μια μετατροπή άπειρο βρόχο, συνιστάται να ρυθμίσετε σας μοτίβο αναζήτησης οθόνη με ένα τρόπο όπως να εξασφαλίσουν ότι η μετατροπή των αρχείων δεν είναι υπό παρακολούθηση από αυτήν την εργασία οθόνη.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	Ελέγξτε αυτό πλαίσιο στο ΔΙΚΌ ΣΑΣ RISK.\r\nDO δεν DOING.\r\nBy ελέγξτε αυτό πλαίσιο αν δεν ξέρω τι ΣΑΣ είστε προεπιλεγμένη οθόνη τοποθεσίες θα δεν επαναλαμβάνετε την εποπτεία κάθε εγγεγραμμένα βίντεο που έχουν processed.\r\nCheck αυτό το πλαίσιο, εάν θέλετε να επαναλαμβάνετε την εποπτεία κάθε και να επαναλάβετε τη μετατροπή των βιντέο, αρχείο.
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	Για να αποφύγετε μια μετατροπή άπειρο βρόχο, συνιστάται να ενεργοποιήσετε την επιλογή "Διαγραφή αρχικού αρχείου" στη σελίδα ρυθμίσεων.
+Prioritize air date matching	Προτεραιότητα αέρα ημερομηνία ταιριάζουν
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy χρησιμοποιεί το όνομα του επεισόδιο για να ταιριάζει με την σειρά information\r\nwhile αναζήτηση στο Διαδίκτυο. Αν αυτό αποτύχει τότε χρησιμοποιεί την αρχική ημερομηνία broadcast\r\nair να ταιριάζει με το metadata.\r\n\r\nCheck αυτό το πλαίσιο να χρησιμοποιήσετε την αρχική ημερομηνία της ραδιοφωνικής μετάδοσης αέρα πρώτα και στη συνέχεια η όνομα the\r\nepisode για να ταιριάζει για την σειρά πληροφορίες από το internet.\r\nThis μπορεί να είναι χρήσιμη σε ορισμένες περιπτώσεις, όταν πολλές εποχές έχουν το όνομα same\r\nepisode. Π.χ. Americal είδωλο, οντισιόν 1\r\n\r\nNOTE: Αρχική ημερομηνία εκπομπής αέρα δεν είναι πάντα ακριβές σύνολο από the\r\nbroadcaster και μερικές φορές οι πληροφορίες στο Διαδίκτυο είναι incorrect.\r\nUse αυτή την επιλογή μόνο αν η προεπιλεγμένη επιλογή δεν λειτουργεί για σας.
+Skip eMail body	Skip ηλεκτρονικό ταχυδρομείο σώμα
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	Ελέγξτε αυτήν την επιλογή για να χρησιμοποιήσετε ένα άδειο σώμα σε eMail.\r\nThis η κοινοποίηση μπορεί να είναι χρήσιμη, εάν χρησιμοποιείτε ένα SMS gateway για ειδοποιήσεις μέσω ηλεκτρονικού ταχυδρομείου.
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	Επιλογή με βάση την διαχείριση ψηφιακών δικαίωμα (DRM) είναι available\r\nonly όταν μετονομάσετε χωρίς μετατροπή (Μετονομασία και κουνάει μόνο) επιλογή είναι selected.\r\n\r\nAll - επιλέγει όλα τα αρχεία για την επεξεργασία, ανεξάρτητα από την προστασία αντιγραφής status\r\nProtected - μόνο επιλέξτε αρχεία τα οποία είναι αντίγραφο protected\r\nUnprotected - να επιλέξετε μόνο τα αρχεία που δεν έχουν προστασία αντιγραφής
+Download cover art	Λήψη εξώφυλλο
+Enable this to download the cover art from the original video and internet if available.	Ενεργοποίηση αυτό για να κατεβάσετε το εξώφυλλο από το αρχικό βίντεο και το internet, εάν είναι διαθέσιμα.
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	Είστε βέβαιοι ότι θέλετε να εισάγετε ένα όνομα; \r\n\r\nUse αυτό μόνο εάν χρησιμοποιείτε έναν ελεγκτή τομέα των Windows για τη διαχείριση σας authentication.\r\nDo δεν χρησιμοποιείτε αυτό εάν είστε μέρος του ένα Workgroup.\r\n\r\nIf είστε σίγουροι, κάντε κλικ στο κουμπί αριθ.
+Configuration Warning	Configuration Warning
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	Δημιουργεί ένα φάκελο που ονομάζεται «MCEBuddyArchive», όπου το αρχικό αρχείο είναι located\r\nand κινείται το αρχικό αρχείο σε αυτόν τον κατάλογο, μετά από μια επιτυχημένη conversion.\r\n\r\nThis όνομα φακέλου και τοποθεσίες να αλλάξει κάτω από.
+Monitoring	Παρακολούθηση
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	Αν θέλετε να μετατρέψετε το αρχείο EDL σε κεφάλαια, βεβαιωθείτε ότι έχετε ελέγξει την "Προσθέσετε υπότιτλους και κεφάλαια" επιλογή στις ρυθμίσεις του εμπειρογνώμονα.
+EDL to Chapters	EDL κεφάλαια

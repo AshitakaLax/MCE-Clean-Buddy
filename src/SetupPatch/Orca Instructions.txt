@@ -1,0 +1,10 @@
+To replace the 32-bit InstallUtilLib.dll with the 64-bit bitness,
+
+Open the resulting .msi in Orca from the Windows Installer SDK
+Select the Binary table
+Double click the cell [Binary Data] for the record InstallUtil
+Make sure "Read binary from filename" is selected and click the Browse button
+Browse to Lib\setuppatch.x64
+Select InstallUtilLib.dll
+Click the Open button
+Click the OK button

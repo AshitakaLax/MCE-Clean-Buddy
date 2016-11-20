@@ -1,0 +1,8 @@
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\ManagedUPnP\obj\Debug\ManagedUPnP.csprojResolveAssemblyReference.cache
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\ManagedUPnP\bin\Debug\MCEBuddy.ManagedUPnP.xml
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\ManagedUPnP\bin\Debug\MCEBuddy.ManagedUPnP.dll
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\ManagedUPnP\bin\Debug\MCEBuddy.ManagedUPnP.pdb
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\ManagedUPnP\obj\Debug\Interop.UPNPLib.dll
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\ManagedUPnP\obj\Debug\ManagedUPnP.csproj.ResolveComReference.cache
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\ManagedUPnP\obj\Debug\MCEBuddy.ManagedUPnP.dll
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\ManagedUPnP\obj\Debug\MCEBuddy.ManagedUPnP.pdb

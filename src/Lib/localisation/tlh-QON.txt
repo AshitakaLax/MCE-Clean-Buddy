@@ -1,0 +1,483 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	                  (  )  
+Connection Reminder	 
+Description	
+Path	
+is invalid	
+Invalid Path	 
+Please supply a task name	   
+No name supplied	  
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	         <Default> <Original>
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	 \\          \\       \\                        \\
+Invalid Language Code	  
+No destination directory provided, converted file will be placed in original video directory	         
+A task name or section	   
+already exists\n\rPlease use another name	    \\
+Duplicate Name	 
+Engine	
+Tasks	
+Profile	
+disposing	
+Task name	 
+Give a unique name to this task	   
+Gives a short description for the selection conversion profile	     
+Click to select destination folder	   
+Destination	
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	     \\            
+Max width	 
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	  ()  \\  :         \\          
+Quality	
+Remove ads	 
+None	
+Get series details from Internet	    
+Download additional details about the movie or series from the internet	        
+File name match	   
+Recording title match	   
+Cancel	
+OK	
+Rename and sort files only	    
+Check this option to only rename, sort and move the original files to the destination folder.\r\nWhen checked, there will be no conversion, ad removal or processing done on the video.	                    \\
+Rename and sort by video information	    
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	               \\ ( \\---)
+Enter the username and password to access folders that are on a network drive or a different computer	            
+Use MC compatible naming	    
+Use Media Center compatible naming convention when available\r\n(e.g. ShowName\\Season XX\\SXXEYY-Episode Name)	        \\ ( \\ \\- )
+Audio language	 
+Advanced Settings	 
+Conversion Task	 
+Password	
+Confirm Password	 
+Domain / computer name	   
+<Optional> Enter if remote computer or network drive uses a Domain for authentication	<optional>           
+User name	 
+Enter the username to access the remote computer or network drive	         
+Enter the password to access the remote computer or network drive	         
+Network Connection User Credentials	   
+Password Mismatch	 
+Passwords do not match, please reenter the passwords	      
+Hour	
+Minute	
+Wake	
+Start	
+Resume	
+Pause	
+Stop	
+Locale	
+Pause conversion tasks	  
+Resume conversion tasks	  
+Please enter a valid time	   
+Invalid Time	 
+Stop time is after Start time, assuming the Stop time is the next day	              
+Time Check	 
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	                   ?
+Confirm delete originals?	  ?
+MCEBuddy will monitor these directories for video files to convert automatically	         
+Conversion tasks	 
+Delete original file	  
+Deletes the original recording after a successful conversion	     
+Min age before conversion (hours)	    ()
+Minimum hours to wait before converting each file after the file is added to the queue	          
+Select the default language.\r\nThis will determine the selection of Audio language in the recordings\r\nand also the text language on the screen/logs	           \\     \\
+Concurrent conversions	 
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	     \\:              
+Logging level	 
+Error	
+Warning	
+Information	
+Debug	
+Log conversion jobs	  
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	     \\ "   \\ ( :\\ \\\\) 
+Allow sleep	 
+If unchecked, it prevents the system from entering sleep while converting	         
+Stop at	 
+No new conversions would be started after this time	     
+minute	
+hour	
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time (daily)	   \\       ()
+Start at	 
+MCEBuddy will start new conversions between the Start and Stop time	          
+Delete	
+Add	
+Change	
+Archive original file	  
+Domain name	 
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion	 \\   "       \\   
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	   \\-   \\ -    \\  -     - 
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	             \\            :      \\\\:            
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'No' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	       ""    \\\\ \\  :          \\      
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	          \\             \\  
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	      (   )\\     * ~    ( * *;         )\\;   ~* ( *;  *; ~   *)                
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)	      (          *)    \\  ~    ( * *; ~          *) \\   ; (  *;*)  (  *;*; ~   *)
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	              \\ <Original>            \\\\ <Default>    \\           [-]   
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	"[]"       \\       (   )\\     * ~    ( * *;         )\\;   ~* ( *;  *; ~   *)                
+MCEBuddy Settings	 
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	                  [  ]  
+Please supply a source name	   
+Please supply a search path name	    
+A source name or section	   
+already exists. Please use another name	     
+Monitor name	 
+Give this a location a unique name	   
+Monitor path	 
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	             
+Click to select the folder to monitor	   
+Search pattern	 
+SourceForm	
+Monitor Location	 
+Normal	
+MCEBuddy GUI: pipeProxy engine connection error	 :    
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	 :     
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	           
+Announcement	
+New version 	  
+available	
+New BETA version 	   
+Click here to download new version of MCEBuddy	     
+Click here to open link	   
+Idle	   
+Closing	
+MCEBuddy GUI: Unable to update tasks	 :   
+MCEBuddy GUI: Unable to start MCEBuddy service	 :    
+MCEBuddy GUI: Unable to stop MCEBuddy service	 :    
+MCEBuddy GUI: Unable to cancel job	 :   
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	:               ->        
+Credential Warning	 
+Status	
+MCEBuddy GUI: Unable to add job	 :   
+MCEBuddy GUI: Unable to get pipe active status	 :     
+The MCEBuddy engine must be shut down to change settings. Shut down the engine?	         ?
+Shut Down Engine	  
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	 :        
+MCEBuddy GUI: Unable to rescan files	 :   
+MCEBuddy GUI: Unable to open link	 :   
+Close	
+Close this window, MCEBuddy will keep running in the background	      
+If you like MCEBuddy, please click here to Donate - THANKS	      -
+Click here to open MCEBuddy website	    
+Rescan	
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	        
+Settings	
+Select the file(s) in the queue to delete	   
+Manually add video file(s) to the queue to convert	      
+Start the MCEBuddy monitor and conversion tasks	     
+Stop the MCEBuddy monitor and conversion tasks	     
+There is a new version!	  !
+High	
+Low	
+Priority	
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	    \\     -           -
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	         \\             \\     
+Getting Started	 
+Click here for MCEBuddy guide	   
+Logs	
+Click to open log folder	   
+MCEBuddy Status	 
+add	
+delete	
+paypal-donate	-
+stop	
+OUTPUT: ConsoleOuput received NULL data	:    
+hours	
+minutes	
+second	
+seconds	
+Starting	
+Comskip advertisement scan - Pass 1	     - 
+Comskip advertisement scan - Pass 2	     - 
+Cutting commercials from video	   
+Cutting commercials from video - segment 	   - 
+Merging commercial free segments into new video	      
+Moving converted file to destination	   
+Checking for disk space	   
+Getting show information and banner from Internet sources	       
+Copying source file to working directory	    
+Remuxing recording	 
+ShowAnalyzer Advertisement scan	     
+Comskip Advertisement scan	     
+Analyzing video information	  
+Converting	 
+Removing commercials	 
+Writing show information	  
+Renaming file using show information	    
+Success - All done!	- !
+Muxing streams	 
+Fallback remux	 
+Correcting audio delay	  
+Converting video file - Pass 1	 -  
+Converting video file - Pass 2	 -  
+Converting video file	  
+Audio Track	 
+Impaired	
+Channels	
+Codec	
+Video	
+Duration	
+Height	
+Width	
+Audio	
+Language	
+Name	
+Subtitle	
+Volume	
+Enable custom file renaming	   
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	              \\\\:\\\%%\ %%\%%-    #    ##-  -%%_%%_%%\\\\ : \\\\_\---__  <ext>\\\\:\\\%% < \%%\%%\ %%\%%-%%##%%##>-\\\\  () \\_\\ - <ext>\\ ( ) \\_\\\ \--       <ext>\\\\ 
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	    \   
+ShowAnalyzer Missing	 
+Invalid language code, reverting to <Default> language	    <Default>
+Start trim	 
+End trim	 
+This specifies the number of seconds to trim from the start of the recording (BEFORE removing the ads)	    ( )    
+This specifies the number of seconds to trim from the end of the recording (BEFORE removing the ads)	    (  )   
+Send an eMail after each conversion.	[      
+Send eMail	 
+SMTP Server Name	  
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	 ()    \\  
+Port	 
+Enter the SMTP server port	    
+Use SSL	 
+Check this if you SMTP server uses SSL	      
+e-Mail Settings	- 
+From <e-Mail>	 <e-Mail>
+Enter the senders (From) eMail address here	  ()   
+To <e-Mails>	<e-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	()   (;)    \\  
+Send eMail on successful conversion	   
+Send eMail on failed conversion	   
+Send eMail on cancelled conversion	   
+Send eMail on adding a conversion to the queue	    
+Please enter a valid server address	    
+Invalid SMTP Server	  
+Please enter a valid server port	     
+Invalid SMTP Port	   
+Please enter a valid From eMail address	     
+Invalid eMail Address	  
+Please enter valid To eMail addresses	    
+Username	
+<Optional> Enter the username for the eMail server authentication	<optional>    
+<Optional> Enter the password for the eMail server authentication	<optional>    
+MCEBuddy unable to download series information	    
+MCEBuddy successfully converted a video	   
+Source Video	 
+Converted Video	  
+Converted At	 
+MCEBuddy failed to converted a video	    
+Failed At	 
+MCEBuddy cancelled a video conversion	   
+Cancelled At	 
+Working	
+Test	
+Testing	
+Click this button to test the eMail server settings	     
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	  \\        \\    
+Test eMail	 
+MCEBuddy Test eMail	  
+MCEBuddy - Have a great day!	-  !
+Send eMail test successful	   
+Send eMail test failed! Please check your settings and internet connectivity	   !      
+Test eMail Success	  
+Test eMail Failed	  
+Send eMail on start of conversion	   
+MCEBuddy started a video conversion	   
+Conversion Started At	  
+Yes (Comskip)	 ()
+Yes (ShowAnalyzer)	 ()
+Atleast one Conversion Task must be enabled	     
+Disable	
+Enable	
+Slow Remuxing	 
+Extracting Closed Captions	  
+Trimming Closed Captions	  
+Extract CC	 
+Field	
+Channel	
+Enable this to Extract the Closed Captions from WTV, DVR-MS and TS files\r\nPS - This ONLY works for North American (NTSC) Closed Captions	    \\  -    -     (())  
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	    \\-\\-   \\\\    :    
+Offset	
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	   (+  -)    
+Re-ReMuxing due to audio error	-     
+Extract information from WTV and DVR-MS files in a MC/XBMC compatible NFO file (XML format)	    -         ( )
+Extract MC information	  
+Atleast one day of the week must be enabled	     
+Invalid Days of Week	  
+Invalid day of week found in configuration file	     
+Scheduling	
+Remuxing to	
+Part	
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit & Derek	 <   >    \\                    \\   :) ! \\-  
+Welcome to MCEBuddy	 
+Multichannel audio	 
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	   ()  -    \\     
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	   () \\     \\    \\  \\ -   \\              
+FPS	
+Logfile age (days)	  ()
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	    \\       
+DVRMS Remuxing	 
+Fast Remuxing	 
+Byte stream remuxing	  
+Disable cropping	 
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	" "        \\   (    )\\               
+Skip cutting ads	  
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	  ()           \\               \\               
+Download series info	  
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	               
+Profile Error	 
+Cannot find selected profile in profiles.conf	    
+Invalid Profile	 
+Please select a valid profile	   
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	      
+Comskip INI	 
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	        \\          
+Click to select custom Comskip INI file	     
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	                \\  
+Click to select temp working folder	    
+Temp folder	 
+Space check	 
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	        (  )\\             
+MCEBuddy Windows Event Logs	   
+Events /	 
+Click here to open the MCEBuddy Windows Event Logs	      
+Enable UPnP	 
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	                    \\ 
+Click here to connect to another MCEBuddy engine	     
+MCEBuddy Remote Engine Connection	   
+Engine Name	 
+Engine Port	  
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	        
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	        
+Default	
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	       ( )  
+Invalid Name/Port	    
+Please enter a valid Engine Name and Engine Port Number	        
+Error Stopping Engine	  
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	         ?
+Unable to communicate with engine. Settings have NOT been saved.	     
+Communication Error	 
+Engine not stopped. Settings have NOT been saved.	     
+Unable To Save Settings	  
+Unable to communicate with engine. UPnP settings have not been updated	      
+Audio delay	 
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	 (  )          \\    \\   (    )      (    )\\      -
+Media Info	 
+Click here to get media properties for selected files	      
+Save Metadata	 
+Click here to create a XML file with the Show and Media properties in XBMC format for selected files	            
+Shows a preview of the custom filename and path	     
+Invalid Filename Pattern	  
+Click here to specify TVDB series id or IMDB movie id	         
+TVDB Series ID	  
+IMDB Series ID	  
+Enter the TVDB Series ID you want to use for his for downloading show information	         
+Enter the IMDB Movie ID you want to use for his for downloading movie information	         
+Internet Lookup Series or Movie ID	     
+Series Error	 
+Please enter either a TVDB or IMDB Series ID	 >        
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	        \\     (     )
+Fallback to source path	  
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	  \\    \\          \\
+Archive folder	 
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	  \\          
+Monitor subdirectories	 
+Check this box to also monitor all directories within the Monitor path	        
+Click here to show MCEBuddy status	    
+MCEBuddy service not connected	   
+MCEBuddy idle	    
+conversions in progress	 
+MCEBuddy stopped	 
+Sync converted files	  
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	           \\            \\\\:             \\         
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	         ?
+Confirm sync conversions?	  ?
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	             ?
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	        
+ShowAnalyzer Not Responding	  
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	  ""          
+Enabling Scheduling and Wake	     
+Passwords do not match	   
+Password error	 
+Adding subtitles and chapters to file	    
+Send eMail if unable to download series information	      
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nBy default each conversion task will process files from all monitor locations.	                     \\ 
+Select Monitor Locations	  
+Select atleast one Monitor Location name	     
+Invalid selection	 
+Channel name match	   
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)	    (           *)    \\  ~    ( * *; ~         *) \\   ; (  *;*)  (  *;*; ~  *)
+Clear history	 
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	         \\   
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	      ?       \\
+Show history	 
+Click this button to show the history of all converted files.	      
+History of Converted Files	  
+Unable to communicate with engine.	  
+Extracting streams	 
+Fallback muxing streams	  
+Remuxing TiVO file	  
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	          
+Invalid TiVO MAK Key	   
+The TiVO MAK key should be 10 digits	     
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	            
+Error retrieving Event Logs	   
+Unable to get Event Log Entries from the MCEBuddy engine.	       
+PAUSED: Check conversion schedule	:   
+Logging	
+Folder Management	 
+Processor Management	 
+Validating Closed Captions	  
+Expert settings	 
+Click here to change additional settings (for experts only)	    ( ) 
+Failed folder	 
+Location of the folder that hold the original files for failed conversions.	       
+Move original file on failure	   
+Check this to move the original file to a separate folder if the conversion fails.	         
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	        \\       
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	            \\ 
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	            \\ 
+Select atleast one processor to use	    
+Invalid Configuration	 
+Comskip folder	 
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	    (  )      \\           \\
+Miscellaneous	
+Ignore copy protection	  
+Check this to ignore the copy protection flag on video file.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	     \\  :         \\      
+Use recycle bin	  
+Check this to use the recycle bin when files are deleted by MCEBuddy	        
+Poll period	 
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	          \\   
+Server port	  
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	          \\          \\     
+Hang period	 
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	      \\       \\     
+Subtitle segment offset	  
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	    \\                  \\         (+ - )
+Invalid poll period	  
+Invalid server port	   
+eMail Subject Customization	  
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	\\      \\                        %\\  :         \\     
+Success	
+Failed	
+Cancelled	
+Download fail	 
+Limit processor utilization	  
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	    \\          
+Custom profile	 
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	      \\           \\\\:   \\    \\          
+Invalid custom profiles.conf	  
+Suspend on battery	  
+Suspend conversions when the computer switches to battery power	       
+MCEBuddy added a video conversion to the queue	    
+Queue	
+Refer to documentation on using custom commands in custom eMail subjects	       
+Could not copy information to Clipboard, please try again.	       
+Error copying to Clipboard	  
+Copy to clipboard	 
+Reconvert files	 
+Are you sure you want to reconvert the selected files?	     ?
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	    \\           
+Time taken to convert	  
+Network authentication	 
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	               \\          \\  
+Skip reprocessing	 
+Do not reconvert the video if a converted file already exists in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.	          \\           
+If enabled, skip reprocessing will also check the history file for past conversions.\r\nIf a past conversion is found, the file will not be reconverted and it will be assumed to be a successful conversion.	      \\               
+Adding file to the iTunes library	    
+Add to iTunes	 
+Check this box to automatically add the converted file to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	 (    )           \\ 

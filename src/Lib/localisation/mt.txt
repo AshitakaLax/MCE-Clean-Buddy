@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy ma jużax l-utent bħalissa logged fil biex tikkonnettja ma ' netwerk ishma, li juża l-kont tas-servizz tagħha.  Żgura li tispeċifika l-informazzjoni għall-utent tal-konnessjoni (MCEBuddy b ' ċavetta ikona)
+Connection Reminder	Tifkira ta ' konnessjoni
+Description	Deskrizzjoni
+Path	Mogħdija
+is invalid	huwa invalidu
+Invalid Path	Mogħdija invalida
+Please supply a task name	Jekk jogħġbok provvista isem ix-xogħol
+No name supplied	Ebda isem forniti
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	Jekk jogħġbok daħħal il-kodiċi tal-lingwa 3 numri tat-trekk awdjo jew agħżel <Default>jew <Original>
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	-Numri 3 kodiċi ISO għall-language\r\nMake magħżula żgur dan jaqbel mal-kodiċi tal-lingwa għall-trekk awdjo fl-oriġinali recording.\r\nTo ġib kodiċi tal-lingwa għall-Trekks tal-awdjo fil-fajl oriġinali rreġistrat, żid l-file\r\nto l-kju u lemin ikklikkja fuqha. Jiftaħ a pop't-tieqa li turi l-awdjo details\r\nwhich jinkludu l-kodiċi tal-lingwa għal kull trekk awdjo.
+Invalid Language Code	Kodiċi tal-lingwa invalidu
+No destination directory provided, converted file will be placed in original video directory	Sakemm ebda direttorju tad-destinazzjoni, fajl maqluba se jitqiegħdu fid-direttorju oriġinali tal-vidjo
+A task name or section	A l-isem ta ' l-attività jew is-Sezzjoni
+already exists\n\rPlease use another name	diġà exists\n\rPlease jużaw isem ieħor
+Duplicate Name	Isem duplikat
+Engine	Magna
+Tasks	Il-kompiti
+Profile	Profil
+disposing	jiddisponi
+Task name	L-isem ta ' l-attività
+Give a unique name to this task	Agħti isem uniku għal din l-attività
+Gives a short description for the selection conversion profile	Tagħti deskrizzjoni fil-qosor għall-profil ta ' konverżjoni ta ' għażla
+Click to select destination folder	Ikklikkja biex tagħżel il-fowlder tad-destinazzjoni
+Destination	Destinazzjoni
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	Agħżel id-direttorju fejn il-fajl maqluba se jkun placed.\r\nLeave vojt f'dan li jżommu l-fajl maqluba fid-direttorju ta ' l-istess bħall-oriġinal tal-vidjo.
+Max width	Wisa ' ta ' max
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	Dan jillimita l-wisa ' massima (f'pixels) tal-vidjo għall-file.\r\nTIP maqluba: ma tapplikax jekk il-fajl oriġinali ikollha ta'wisa iżgħar minn din number.\r\nIf li tixtieq iżżomm il-mossa oriġinali Riżoluzzjoni tal-vidjo tiegħek-slajder-mixja lejn il-lemin.
+Quality	Kwalità
+Ad remover	Apparat ta ' l-ad
+None	L-ebda
+Get series details from Internet	Ikseb id-dettalji ta ' serje mill-Internet
+Download additional details about the movie or series from the internet	Niżżel id-dettalji addizzjonali dwar il-filmat jew serje mill-internet
+File name match	Qabbel l-isem tal-fajl
+Recording title match	Qabbel it-titolu ta ' reġistrazzjoni
+Cancel	Ikkanċella
+OK	kollox sew
+Rename without converting	Ibdel l-isem mingħajr konverżjoni
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	Iċċekkja din l-għażla Ibdel l-isem biss u tikkopja l-fajls oriġinali għall-folder.\r\nWhen tad-destinazzjoni verifikati, konverżjoni, it-tirqim, ipproċessar awdjo/vidjo u tneħħija kummerċjali ma tkun available.\r\n\r\nNOTE: oħra funzjonijiet simili li jaqblu filtri, estrazzjoni sottotitli, prevja metadata u kxif kummerċjali (tissejvja l-fajl EDL) \r\nwill li jkun disponibbli ma ' din l-għażla checked.\r\nIf li inti tixtieq tmexxi minflok kopja, iċċekkja l-Aqbeż qed jikkopja l-għażla oriġinali fl-issettjar ta ' l-espert fuq din il-paġna jew select\r\nDelete fajl oriġinali fil-paġna prinċipali ta ' l-issettjar.
+Rename and sort by video information	Ibdel l-isem u Issortja bl-informazzjoni tal-vidjo
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	Jibdel isem il-fajl maqluba u postijiet hu f'direttorju ġodda bbażati fuq l-informazzjoni juru/serje meta available\r\n (eż. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	Daħħal l-isem l-utent u password għal fowlders ta ' aċċess li huma fuq drajv tan-netwerk jew kompjuter differenti
+Organize by seasons	Organizza mill-istaġuni
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	Organizza l-fowlders mill-Showname u l-istaġun meta disponibbli (Media Center/XBMC/Plex kompatibbli l-Konvenzjoni) \r\n (eż. Showname\\Season XX\\SXXEYY-episodju isem)
+Audio language	Lingwa tal-awdjo
+Advanced Settings	Issettjar Avvanzat
+General Settings	Ġenerali ta ' l-issettjar
+Conversion Task	Il-kompitu tal-konverżjoni
+Password	Il-password
+Confirm Password	Ikkonferma l-Password
+Domain / computer name	Dominju / isem il-kompjuter
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	Daħħal <Optional>jekk drajv remot ta ' kompjuter jew netwerk juża l-dominju għall-authentication.\r\nDo tidħol ma rnexxilekx tiegħek hawn. Ħalli dan vojta jekk qed tuża a rnexxilekx.
+User name	Isem l-utent
+Enter the username to access the remote computer or network drive	Daħħal l-isem l-utent biex taċċessa l-drajv ta ' kompjuter jew netwerk remot
+Enter the password to access the remote computer or network drive	Daħħal il-password biex jaċċessa s-sewqan ta ' kompjuter jew netwerk remot
+Network Connection User Credentials	Kredenzjali ta ' l-utent ta ' konnessjoni tan-netwerk
+Password Mismatch	Il-password ħazin
+Passwords do not match, please reenter the passwords	Il-passwords ma jaqblux, jekk jogħġbok reenter l-passwords
+Hour	Siegħa
+Minute	Minuta
+Wake	Qawmien
+Start	Bidu
+Resume	Kompli
+Pause	Issospendi
+Stop	Waqqaf
+Language	Lingwa
+Pause conversion tasks	Issospendi konverżjoni kompiti
+Resume conversion tasks	Jerġgħu jibdew il-kompiti tal-konverżjoni
+Please enter a valid time	Daħħal ħin validi
+Invalid Time	Ħin invalidu
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	Ħin ta ' waqfien hija wara l-ħin tal-bidu. Jassumi huwa l-ħin ta ' waqfien matul il-jum li jmiss, huwa dak korrett?
+Time Check	Iċċekkjar tal-ħin
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	Agħmel din l-għażla biss jekk MCEBuddy ikun ġie jikkonvertu fajls tiegħek b'mod affidabbli għal perjodu ta ' żmien aċċettabbli. Ma tixtieq MCEBuddy biex tħassar kull fajl oriġinali ladarba jkun ġie kkonvertit?
+Confirm delete originals?	Ikkonferma t-tħassir tal-kopji oriġinali?
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy se tissorvelja dawn direttorji għall-fajls tal-vidjow jinqalbu awtomatikament
+Conversion tasks	Kompiti ta ' konverżjoni
+Delete original file	Ħassar il-fajl oriġinali
+Deletes the original recording after a successful conversion	Iħassar ir-reġistrazzjoni oriġinali wara konverżjoni b ' suċċess
+Min age before conversion (hours)	Min età qabel bidla (sigħat)
+Minimum hours to wait before converting each file after the file is added to the queue	Sigħat minimi tistenna qabel tikkonverti kull fajl wara li l-fajl huwa miżjud ma ' l-kju ta ' l-
+Use this to change the language of the text on the screen	Uża dan li tbiddel il-lingwa tat-test fuq l-iskrin
+Concurrent conversions	Konverżjonijiet konkorrenti
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	In-numru ta ' konverżjonijiet simultanju MCEBuddy jista start\r\nNOTE: għandek bżonn ammonti kbar ta ' ħin ta ' l-ispazju u l-proċessur liberu fid-diska għall-konverżjonijiet simultanju aktar minn 2
+Logging level	Livell ta ' l-illoggjar
+Error	L-iżball
+Warning	Twissija
+Information	L-informazzjoni
+Debug	Iddibaggjar
+Log conversion jobs	Impjiegi ta ' l-konverżjoni tar-reġistru
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	Issejvja l-fajl tar-reġistru għal kull bidla fl-\'logs\' direttorju fejn fejn MCEBuddy huwa installed\r\n (eż. C:\\Program Files\\MCEBuddy2x\\logs)
+Allow sleep	Ippermetti l-irqad
+If unchecked, it prevents the system from entering sleep while converting	Jekk mhux iċċekkjati, ma tħallix is-sistema milli jidħlu rqad waqt li jikkonvertu
+Stop at	Waqfien fil-
+No new conversions would be started after this time	Ebda konverżjonijiet ġdid kien jiġi startjat wara dan iż-żmien
+minute	minuta
+hour	siegħa
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	Jekk kkontrollati MCEBuddy se qawmien tas-sistema mill-sleep\r\nat l-ħin tal-bidu speċifikat u mixgħul il-jum tal-ġimgħa.
+Start at	Tibda fil-
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy se tibda konverżjonijiet ġodda bejn il-bidu u waqqaf time.\r\n\r\nThe bidu ħin se jintuża għall-mixgħul jum tal-Ġimgħa, l-whereas\r\nthe għan-ħin se jkun użat jew għall-istess or\r\nfor ta ' jum l-jum li jmiss jekk il-ħin tat-tmiem hija wara l-ħin tal-bidu.
+Delete	Ħassar il-
+Add	Żid
+Change	Il-bidla
+Archive original file	Fajl oriġinali tal-arkivju
+Domain name	L-isem tad-dominju
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	Iwaqqaf ix-xogħol moniter u l-konverżjoni u jiftaħ paġna biex tikkonfigura l-MCEBuddy
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	Joħloq fowlder imsejjaħ \'MCEBuddyArchive\ "fejn il-fajl oriġinali huwa located\r\nand imexxi l-fajl orginal dan id-direttorju wara ta ' isem il-fowlder conversion.\r\n\r\nThis b ' suċċess u post jinbidlu fil-paġna tas-Settings tas-sistema.
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	Iddibaggjar - zkuk dettaljati, jgħin traċċa konverżjoni problems\r\nInformation - tagħrif bażiku dwar conversion\r\nWarning zkuk - log potenzjali kwistjonijiet jew nuqqasijiet kritiċi only\r\nError - reġistru nuqqasijiet kritiċi biss
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	Agħżel il-profil ta ' kambju assoċjati ma ' dan ix-xogħol. Il-profil tal-konverżjoni jirrappreżenta l-format tal-produzzjoni u l-kwalità għall-kwalità ta ' l-file.\r\nHigher maqluba konverżjonijiet jieħdu aktar biex jikkonverti. Reccomended Default: MP4 kwalità għolja jew MP4 Normal.\r\n\r\nTIP: jirreferu għall-gwida MCEBuddy għall-parametri avvanzati biex tweak profili ta ' konverżjoni jew toħloq tiegħek stess profili ta ' konverżjoni
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	Agħżel il-programm MCEBuddy se tuża biex strixxa kif kull commercials waqt li jikkonvertu l-video.\r\nSet li "Xejn" tħalli l-commercials fl-video.\r\n\r\nTIP maqluba: għal użu ShowAnalyzer minflok Comskip, jekk jogħġbok Niżżel u installa l-analizzatur ta ' l-ShowAnalyzer.\r\nShow verżjoni 1.0 u akbar appoġġjati.
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	Jintuża biex ibiddel il-kwalità tal-vidjo tal-fajl maqluba, normali huwa numru ogħla ta ' 1.\r\nA se tittejjeb il-kwalità imma se tieħu aktar żmien għal numru iżgħar ta ' conversion.\r\nA se jnaqqsu l-kwalità imma tħaffef l-konverżjoni.
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Jidħol disinn li jallinja l-ismijiet tal-fajls għal dan ix-xogħol (p.e. *.wtv se jikkonverti l-fajls kollha li jispiċċa b'mudell .wtv)\r\nPrefix bl-~ li taqbeż l-taqbila (eż. *. *; ~*.wtv ser jipproċessa l-fajls kollha ħlief dawk li jispiċċa bil .wtv)\r\nSeparate mudelli multipli ma; (eż. *.wtv; ncis *; ~ ncis miami *) ser jipproċessa l-fajls kollha ta ' l-.wtv u l-fajls kollha li jibdew bl-ncis imma mhux dawk li jibda bl-ncis miami\r\n\r\nYou jistgħu jużaw espressjonijiet regolari li jaqblu mal-mudell mill-bidu ma regex:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Jidħol disinn li jallinja juru/serje titoli għal dan ix-xogħol (p.e. Simpson * se taqleb il-fajls kollha li għandhom it-titlu juru li jibda b ' Simpson) tal-mudell \r\nPrefix ma ~ li taqbeż l-taqbila (eż. *; ~ Simpson * għandhom jipproċessaw it-titoli uri kollha ħlief dawk li jibdew b ' Simpson) \r\nSeparate multipli patterns; (e.g. Simpson *;House*) jew (e.g. Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nYou jistgħu jużaw espressjonijiet regolari li jaqblu mal-mudell mill-bidu ma regex:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	Dan jistgħu jintużaw biex tinjora d-default lingwa awdjo meta hemm lingwi multipli awdjo fl-Ikseb recording.\r\nTo l-lista tal-lingwi ta ' l-awdjo fil reġistrazzjoni, lemin ikklikkja fuq l-fajl fil-kju u agħżel MediaInfo.\r\n\r\n <Default>jipprova jżomm diski awdjo kollha jekk appoġġati jew ħalli l-encoder li jagħżlu l-default awdjo-track\r\n <Original>, jekk disponibbli, juża l-lingwa oriġinali ta ' reġistrazzjoni [mhux iddabbjati]
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	Jidħol "[video]" jew ħalli vojta biex taqleb kollha tad-disinn ta ' files\r\nEnter tal-vidjo li jallinja l-ismijiet tal-fajls għal dan il-post (p.e. *.wtv se jikkonverti l-fajls kollha li jispiċċa b'mudell .wtv)\r\nPrefix bl-~ li taqbeż l-taqbila (eż. *. *; ~*.wtv ser jipproċessa l-fajls kollha ħlief dawk li jispiċċa bil .wtv)\r\nSeparate mudelli multipli ma; (eż. *.wtv; ncis *; ~ ncis miami *) ser jipproċessa l-fajls kollha ta ' l-.wtv u l-fajls kollha li jibdew bl-ncis imma mhux dawk li jibda bl-ncis miami
+MCEBuddy Settings	L-issettjar ta ' l-MCEBuddy
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy ma jużax l-utent bħalissa logged fil biex tikkonnettja ma ' netwerk ishma, li juża l-kont tas-servizz tagħha.  Żgura li tispeċifika l-informazzjoni ta ' l-utent konnessjoni [MCEBuddy b ' ċavetta ikona]
+Please supply a source name	Jekk jogħġbok provvista isem sors
+Please supply a search path name	Jekk jogħġbok provvista a isem il-mogħdija tat-tiftix
+A source name or section	Isem is-sors jew is-Sezzjoni
+already exists. Please use another name	ġa jeżisti. Uża isem ieħor
+Monitor name	Isem il-moniter
+Give this a location a unique name	Dan jagħti isem uniku post
+Monitor path	Mogħdija tal-moniter
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	Agħżel id-direttorju li se timmoniterja MCEBuddy fl-isfond għall-fajls tal-vidjow ġdid jinqalbu awtomatikament
+Click to select the folder to monitor	Ikklikkja biex tagħżel il-fowlder li tissorvelja
+Search pattern	Iskema tat-tiftix
+SourceForm	SourceForm
+Monitor Location	Il-post tal-moniter
+Normal	Normali
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: Żball tal-konnessjoni tal-magna tal-pipeProxy
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: Ma jistax joħloq il-pajp li MCEBuddy servizz
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	Is-servizz tal-MCEBuddy mhux disponibbli. Erġa ibda mill-Panew tal-kontroll tal-Windows jew Iċċekkja l-konnessjoni tal-magna.
+Announcement	Tħabbir
+New version 	Verżjoni ġdida 
+available	disponibbli
+New BETA version 	VERŻJONI BETA ġdida 
+Click here to download new version of MCEBuddy	Ikklikkja hawn biex tniżżel il-verżjoni ġdida tal-MCEBuddy
+Click here to open link	Ikklikkja hawn biex tiftaħ il-link
+Idle	Wieqaf
+Closing	L-għeluq
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI: Ma setax jaġġorna l-kompiti
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: Ma jistax jistartja s-servizz MCEBuddy
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: Ma jistax jitwaqqaf is-servizz MCEBuddy
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI: Ma jistax tikkanċella x-xogħol
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	Twissija: Hi konservata fajls se jiġu aċċessati bl-użu tal-kredenzjali tal-logon tas-servizz tal-MCEBuddy, mhux l-utent li huwa attwalment illoggjat. Tista ' tispeċifika l-kredenzjali tan-netwerk mill-issettjar-> paġna tas-Settings ta ' l-espert bl-idejn fl-MCEBuddy.
+Credential Warning	Twissija tal-kredenzjali
+Status	L-istatus
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI: Ma jistax iżid l-impjiegi
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: Ma jistax iġib l-istatus attiva pajp
+The conversions must be stopped to change settings. Stop the conversions?	Il-konverżjonijiet irid jitwaqqaf biex tibdel l-issettjar. Waqqaf l-konverżjonijiet?
+Stop Engine	Waqfien tal-magna
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI: Ma jistax jitwaqqaf is-servizz MCEBuddy mill-issettjar tal-klikkjatura
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: Ma jistax rescan l-fajls
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: Ma setax jiftaħ il-link
+Close	Agħlaq
+Close this window, MCEBuddy will keep running in the background	Agħlaq din it-tieqa, MCEBuddy se żżomm taħdem fl-isfond
+If you like MCEBuddy, please click here to Donate - THANKS	Jekk int MCEBuddy, jekk jogħġbok Ikklikkja hawn biex Donate - GRAZZI
+Click here to like MCEBuddy on facebook	Ikklikkja hawn għal bħal MCEBuddy fuq facebook
+Click here to open MCEBuddy website	Ikklikkja hawn biex tiftaħ il-websajt MCEBuddy
+Rescan	Rescan
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	Il-forzi ta ' l-MCEBuddy li recheck l-postijiet ta ' Monitor għall-fajls tal-vidjow ġdid jinqalbu
+Monitor locations	Postijiet tal-moniter
+Settings	L-issettjar
+Select the file(s) in the queue to delete	Agħżel il-fajl (s) fil-kju biex tħassar
+Manually add video file(s) to the queue to convert	Manwalment Żid fajl tal-vidjo (s) fil-kju biex jikkonverti
+Start the MCEBuddy monitor and conversion tasks	Jibda l-kompiti ta ' l-moniter u l-konverżjoni tal-MCEBuddy
+Stop the MCEBuddy monitor and conversion tasks	Waqqaf l-kompiti ta ' l-moniter u l-konverżjoni tal-MCEBuddy
+There is a new version!	Hemm verżjoni ġdida!
+High	Għoli
+Low	Baxxa
+Priority	Prijorità
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	Prijorità għolja - jikkonverti iktar malajr imma jistgħu jagħmlu applikazzjonijiet ġiri prijorità unresponsive\r\nLow - jinqalbu fl-isfond imma mnaqqsa interferenza mal-applikazzjonijiet ġiri oħra
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	Biċċa xogħol hija galvu konverżjoni li fih profil konverżjoni u diversi oħrajn konverżjoni parameters.\r\nEach fajl miżjuda mal-kju se tiġi proċessata u maqluba minn kull wieħed minn dawn tasks.\r\nRefer il-gwida MCEBuddy għal aktar dettalji dwar kif taħdem il-kompiti.
+Getting started	Kif tibda
+Click here for MCEBuddy guide	Ikklikkja hawn għall-gwida MCEBuddy
+Logs	Zkuk
+Click to open log folder	Ikklikkja biex tiftaħ il-fowlder tar-reġistru
+MCEBuddy Status	L-istatus ta ' l-MCEBuddy
+add	Żid
+delete	Ħassar il-
+paypal-donate	paypal-jiddonaw
+stop	Waqqaf
+OUTPUT: ConsoleOuput received NULL data	PRODUZZJONI: ConsoleOuput riċevuta informazzjoni NULL
+hours	siegħa
+minutes	minuti
+second	it-tieni
+seconds	sekondi
+Starting	Tal-bidu
+Comskip advertisement scan - Pass 1	Comskip reklam scan - Pass 1
+Comskip advertisement scan - Pass 2	Comskip reklam scan - Pass 2
+Cutting commercials from video	Qtugħ commercials minn vidjo
+Cutting commercials from video - segment 	Qtugħ commercials minn vidjo - segment 
+Merging commercial free segments into new video	Għaqda segmenti ħieles kummerċjali fis-vidjo ġdid
+Moving converted file to destination	Tmexxi fajl maqluba għal destinazzjoni
+Checking for disk space	Iċċekkjar għal spazju fid-diska
+Getting show information and banner from Internet sources	Qed jikseb informazzjoni Uri u l-istrixxun minn sorsi ta ' l-Internet
+Copying source file to working directory	Qed jikkopja l-fajl tas-sors fid-direttorju tax-xogħol
+Remuxing recording	Reġistrazzjoni Remuxing
+ShowAnalyzer advertisement scan	ShowAnalyzer reklam skenjatura
+Comskip advertisement scan	Comskip reklam skenjatura
+Analyzing video information	Analiżi ta ' informazzjoni tal-vidjo
+Converting	Konverżjoni
+Removing commercials	It-tneħħija ta ' commercials
+Writing show information	Miktub juru informazzjoni
+Renaming file using show information	Bdil tal-isem il-fajl bl-użu ta ' informazzjoni juru
+Success - All done!	Suċċess - magħmul kollu!
+Muxing streams	Nixxigħat Muxing
+Fallback remux	Remux tal-fallback tal
+Correcting audio delay	Korrezzjoni ta ' dewmien tal-awdjo
+Converting video file - Pass 1	Jikkonverti l-fajl tal-vidjo - Pass 1
+Converting video file - Pass 2	Jikkonverti l-fajl tal-vidjo - Pass 2
+Converting video file	Jikkonverti l-fajl tal-vidjo
+Audio Track	Trekk tal-awdjo
+Impaired	Imfixkla
+Channels	Kanali
+Codec	Il-codec
+Video	Vidjo
+Duration	It-tul
+Height	L-għoli
+Width	Wisa ' ta '
+Audio	Awdjo
+Name	L-isem
+Subtitle	Is-subtitolu
+Volume	Volum
+Enable custom file renaming	Jippermettu li l-bdil tal-isem tal-fajl personalizzat
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	Jippermettu li dan jidħol mudell personalizzat li tibdel l-isem maqluba fajls u fowlders. Jidħol id-disinn personalizzat fil-kaxxa below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S % staġun %##E % episodju % ## - % episodename % - prodott %airyear%_%airmonth%_%airday%\r\n\r\nWill: \r\nTVShows\CSI\Season 1\CSI - S01E02 - aħjar ta ' drabi - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill prodott (għall-filmat) \r\n Recording\Movies\Star gwerer-konvertiti. <ext>\r\nOR (għall-filmati mhux) \r\n Recording\TVShows\CSI\Season 1\CSI - S01E02-maqluba.<ext>\r\n\r\nRefer għall-MCEBuddy avvanzat dokumentazzjoni għall-lista tal-kmandi kollha tad-disinn.
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	ShowAnalyzer ma nstabx. \nPlease tniżżel u tinstalla l-ShowAnalyzer.
+ShowAnalyzer Missing	ShowAnalyzer nieqsa
+Invalid language code, reverting to <Default> language	Kodiċi tal-lingwa invalidu, tmur lura għal-lingwa <Default>
+Cut start	Bidu maqtugħ
+Cut end	Maqtugħa tmiem
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	Dan jispeċifika n-numru ta ' sekondi biex maqtugħa mill-bidu tar-reġistrazzjoni (qabel it-tneħħija ta ' l-ads)
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	Dan jispeċifika n-numru ta ' sekondi biex maqtugħa mit-tmiem tar-rekordjar (qabel it-tneħħija ta ' l-ads)
+Send an eMail after each conversion.	Ibgħat eMail wara kull konverżjoni.
+Send eMail	Ibgħat posta elettronika
+SMTP Server Name	Isem tas-Server SMTP
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	Daħħal l-indirizz elettroniku (SMTP) ħierġa tas-server indirizz here\r\ne.g. SMTP.Gmail.com
+Port	Tal-port
+Enter the SMTP server port	Tidħol il-port tas-server SMTP
+Use SSL	Użu SSL
+Check this if you SMTP server uses SSL	Iċċekkja dan jekk inti SMTP server juża SSL
+e-Mail Settings	l-issettjar tal-posta elettronika
+From <e-Mail>	Minn <e-Mail>
+Enter the senders (From) eMail address here	Tidħol l-mittenti (minn) l-indirizz hawn
+To <e-Mails>	Biex <e-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	Jidħlu dawk li jirċievu (għal) here.\r\nSeparate l-indirizz tal-eMail riċevituri multipli bil-virgola (;)
+Send eMail on successful conversion	Ibgħat b'email fuq il-konverżjoni b ' suċċess
+Send eMail on failed conversion	Ibgħat b'email fuq konverżjoni ma rnexxiex
+Send eMail on cancelled conversion	Ibgħat b'email fuq il-konverżjoni kkanċellata
+Send eMail on adding a conversion to the queue	Ibgħat eMail fuq iż-żieda ta ' konverżjoni għall-kju
+Please enter a valid server address	Jekk jogħġbok daħħal l-indirizz tas-server validu
+Invalid SMTP Server	Is-Server SMTP invalidu
+Please enter a valid server port	Daħħal port tas-server validu
+Invalid SMTP Port	Port SMTP invalidu
+Please enter a valid From eMail address	Jekk jogħġbok daħħal validu mill-indirizz elettroniku
+Invalid eMail Address	B'email invalidu indirizz
+Please enter valid To eMail addresses	Jekk jogħġbok daħħal valida għal indirizzi eMail
+Username	Isem l-utent
+<Optional> Enter the username for the eMail server authentication	<Optional>Daħħal l-isem l-utent għall-awtentikar tas-server tal-posta elettronika
+<Optional> Enter the password for the eMail server authentication	<Optional>Daħħal il-password għall-awtentikar tas-server tal-posta elettronika
+MCEBuddy unable to download series information	MCEBuddy ma jistax iniżżel informazzjoni serje
+MCEBuddy successfully converted a video	MCEBuddy maqluba b ' suċċess il-vidjo
+Source Video	Sors vidjow
+Converted Video	Vidjo maqluba
+Converted At	Kkonvertit
+MCEBuddy failed to converted a video	MCEBuddy ma rnexxilux konvertiti vidjo
+Failed At	Falla fil-
+MCEBuddy cancelled a video conversion	MCEBuddy kkanċellati konverżjoni tal-vidjo
+Cancelled At	Mħassra fuq
+Working	Tax-xogħol
+Test	It-test
+Testing	L-ittestjar
+Click this button to test the eMail server settings	Ikklikkja din il-buttuna biex tittestja l-issettjar tas-server tal-posta elettronika
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy tibgħat eMail lill-settings.\r\nThis tas-server tat-test jistgħu jieħdu sal-marka 60 seconds.\r\nMCEBuddy jistgħu ikunu mhux qed tirrispondi matul dan il-perjodu.
+Test eMail	It-test bl-eMail
+MCEBuddy Test eMail	It-MCEBuddy Test eMail
+MCEBuddy - Have a great day!	MCEBuddy - kienu kuljum kbira!
+Send eMail test successful	Ibgħat b'email it-test b ' suċċess
+Send eMail test failed! Please check your settings and internet connectivity	Ibgħat b'email it-test ma rnexxiex! Iċċekkja l-issettjar u l-konnettività tal-internet tiegħek
+Test eMail Success	It-test b'email suċċess
+Test eMail Failed	It-test b'email Failed
+Send eMail on start of conversion	Ibgħat b'email fuq il-bidu tal-konverżjoni
+MCEBuddy started a video conversion	MCEBuddy bdew l-konverżjoni tal-vidjo
+Conversion Started At	Konverżjoni beda
+Yes (Comskip)	Iva (Comskip)
+Yes (ShowAnalyzer)	Iva (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	Atleast għandu jinxtegħel wieħed konverżjoni kompitu
+Disable	Itfi l-
+Enable	Jippermettu
+Rename	Ibdel l-isem
+Move	Mossa
+Up	L-
+Down	' L isfel
+Slow Remuxing	Remuxing bil-mod
+Extracting closed captions	Estrazzjoni ta ' captions magħluqa
+Validating closed captions	Validazzjoni ta ' captions magħluqa
+Extracting subtitles	Estrazzjoni ta ' sottotitli
+Trimming closed captions	Titli tirqim magħluqa
+Extract subtitles and closed captions	Estratt sottotitli u titli magħluqa
+Field	Il-qasam
+Channel	Il-kanal
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	Jippermetti li dan l-estratt ta ' Captions magħluqa, sottotitli u teletest from\r\nWTV, DVR-MS, TS, MP4, MKV u oħra files.\r\n\r\nIt appoġġati issejvjat bħala fajl subtitolu (SRT).
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	Jippermetti dan biex tissettja Għażliet avvanzati għall-Captions magħluqa extraction\r\nField - 1 jew 2\r\nChannel - 1 jew 2\r\n\r\nDefault: 1 il-qasam, il-kanal 1
+Subtitle offset	Is-subtitolu tpattija
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	Ikteb in-numru ta ' sekondi (+ ve / - ve) biex taġġusta l-sinkronizzazzjoni sottotitli bil-vidjo
+Re-ReMuxing due to audio error	Ri-ReMuxing minħabba żball tal-awdjo
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	Issejvja l-kartellun u juru l-informazzjoni (metadata) f'fajl MC/XBMC kompatibbli NFO (XML format)
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	Iċċekkja din il-kaxxa biex tissejvja l-informazzjoni juru (metadata) fl-file.\r\nThis maqluba biss xogħlijiet għall-fajls li jappoġġjaw it-tags metadata bħal MP4, MKV, WTV etc.\r\n\r\nNOTE: Neħħi l-kaxxa dan marka jekk inti qed jiffaċċjaw kwistjonijiet ma xi tagħmir bħalma huma TV's akbar li jkollhom problema qari metadata.
+Atleast one day of the week must be enabled	Atleast jum tal-Ġimgħa għandu jiġi attivat
+Invalid Days of Week	Invalidu jum tal-Ġimgħa
+Invalid day of week found in configuration file	Invalidu jum tal-Ġimgħa nstabu fil-fajl tal-konfigurazzjoni
+Scheduling	Iskedar
+Remuxing to	Remuxing biex
+Part	Il-parti
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	Bqija tal-maws tiegħek fuq kwalunkwe buttuna, kaxxa jew oġġett biex tikseb għajnuna immedjati fuq it.\n\nFor aktar informazzjoni dwar kif tuża, Solvi l-problema jew Ikseb appoġġ għall-MCEBuddy ikklikkja l-link < Kif Tibda > fuq l-corner.\n\nDonations fuq dritt huma dejjem Merħba :) Igawdu! \n\n - Ramit, Derek & Goose
+Welcome to MCEBuddy	Merħba għall MCEBuddy
+Multichannel audio	Pjan'a ta ' l-awdjo
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	Verifika li jippermettu multi-kanal awdjo jekk-sors vidjow jaċċetta it.\r\nBy default-awdjo huwa limitat għal kanali 2 (stereo).
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	Medda dinamika kompressjoni (RDK) \r\nWhen is-sors huwa l-awdjo tal-AC3, li jippermetti lill-RDK will\r\nreduce id-differenza bejn il-ħsejjes għolja u l-soft\r\nsounds li jagħmel it-Trekk awdjo-even.\r\nIf aktar għandek ta ' multi-kanal reġistrazzjoni awdjo u you\r\nfeel il-volum huwa wisq artab, jiċċekkja din il-kaxxa tista ' tgħin.
+FPS	FPS
+Logfile age (days)	Logfile l-età (ġranet)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	In-numru massimu ta ' ġranet biex iżommu l-logfiles qabel it-tħassir ta ' them.\r\nSet għal 0 biex iżommu z-zkuk għal dejjem.
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	Remuxing veloċi
+Byte stream remuxing	Byte fluss remuxing
+Disable cropping	Itfi l-ħsad
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	Iċċekkja dan iwaqqaf l-ħsad tal-vidjow awtomatikament matul conversion.\r\nCropping jintuża biex tneħħi l-"strixxi suwed" fil-vidjo (wiċċ, qiegħ, xellug jew right).\r\nUse din l-għażla jekk l-istampa tal-vidjow huwa ksib maqtugħa fuq kull naħa jew jekk l-istampa finali qed ifittex mġebbda jew imfixkla.
+Only detect Ads	Biss tiskopri Ads
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	Iċċekkja dan jekk tixtieq li MCEBuddy biex jiskopru l-ads (commercials) iżda mhux maqtugħin minnhom mill-video.\r\nWhen din l-għażla hija attivata, MCEBuddy se toħloq fajl EDL flimkien mal-fajl maqluba li jispeċifika l-postijiet ta ' ads fil-video.\r\nAlso maqluba, għal MP4, M4V u MKV fajls MCEBuddy joħloq Kapitoli jimmarka t-tmiem ta ' commercials.
+Download information	Niżżel l-informazzjoni
+Correction	Korrezzjoni
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	Ikklikkja hawn biex tikkoreġi l-titolu juru u użu speċifiku KI ta ' serje TVDB jew IMDB filmat id\r\nto tistax tfittex addizzjonali metadata fis-seħħ mill-internet.
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	Iċċekkja dan biex tniżżel informazzjoni addizzjonali mill-internet dwar l-Uri simili ta ' l-istrixxun fajl, episodju, staġun eċċ
+Profile Error	Żball fil-profil
+Cannot find selected profile in profiles.conf	Ma jistax isib il-profil magħżula fil-profiles.conf
+Invalid Profile	Il-profil mhux validu
+Please select a valid profile	Jekk jogħġbok agħżel profil validu
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	L-MCEBuddy tal-magna tkun crashed. Jekk jogħġbok Ibgħat mcebuddy.log lill-iżviluppaturi
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	Agħżel il-fajl Comskip INI personalizzat li jużaw għal dan task\r\nLeave konverżjoni dan il-vojt li Uża l-default tal-fajl Comskip INI għat-tneħħija ta ' l-avviż
+Click to select custom Comskip INI file	Ikklikkja biex tagħżel il-fajl Comskip INI personalizzat
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	Agħżel il-fowlder biex taħdem bil-fajls temporanji. Żgura li hemm vojta biżżejjed spazju fuq l-drive.\r\nLeave dan il-vojt li Uża l-fowlder temp ta ' default fil-fowlder ta ' l-installazzjoni.
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	Agħżel il-fowlder biex taħdem bil-fajls temporanji. Żgura li hemm biżżejjed spazju vojt fuq il-drive.\r\nThis tħassar il-fowlder temp speċifikati fl-issettjar-> paġna tas-Settings ta ' l-espert.
+Click to select temp working folder	Ikklikkja biex tagħżel il-fowlder temp tax-xogħol
+Temp folder	Fowlder temp
+Space check	Il-verifika ta ' l-ispazju
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	Meta MCEBuddy mixgħul se jiċċekkja għal biżżejjed spazju liberu għall-konverżjoni (destinazzjoni u temp).\r\nUncheck dan jekk għandek huma wara li trouble mal-drajvs tan-netwerk jew fajls tal-vidjo straordinarjament kbar.
+MCEBuddy Windows Event Logs	Il-Windows MCEBuddy l-okkorrenzi
+Events	Avvenimenti
+Click here to open the MCEBuddy Windows Event Logs	Ikklikkja hawn biex tiftaħ l-okkorrenzi tal-Windows MCEBuddy
+Enable UPnP	Jippermettu UPnP
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	Iċċekkja dan biex UPnP. Dan jippermetti aċċess lill-magna MCEBuddy minn barra l-network.\r\nThis teħtieġ li jiġi verifikat jekk qed tuża klijent mobbli/standalone MCEBuddy biex MCEBuddy l-aċċess.
+Click here to connect to another MCEBuddy engine	Ikklikkja hawn biex tikkonnettja ma ' magna MCEBuddy ieħor
+MCEBuddy Remote Engine Connection	Il-konnessjoni tal-magna mill-bogħod MCEBuddy
+Engine Name	L-isem tal-magna
+Engine Port	Port tal-magna
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	Daħħal l-isem jew l-indirizz IP tal-magna ta ' l-MCEBuddy inti tixtieq tikkonnettja miegħu
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	Daħħal in-numru tal-TCP Port tal-magna ta ' l-MCEBuddy inti tixtieq tikkonnettja miegħu
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	Daħħal in-numru tal-TCP Port tal-magna ta ' l-MCEBuddy inti tixtieq tikkonnettja miegħu (1 għall-63355)
+Invalid Name/Port	Isem/Port invalidu
+Please enter a valid Engine Name and Engine Port Number	Jekk jogħġbok daħħal isem magna validu u numru tal-Port tal-magna
+Error Stopping Engine	Żball tal-magna tal-waqfien
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	Ma jistax jitwaqqaf magna MCEBuddy, l-issettjar jista ma jiġi ssejvjat. Tixtieq tkompli?
+Unable to communicate with engine. Settings have NOT been saved.	Ma jistax jikkomunika mal-magna. L-issettjar ma ġiex issejvjat.
+Communication Error	Żball tal-komunikazzjoni
+Engine not stopped. Settings have NOT been saved.	Magna ma waqaf. L-issettjar ma ġiex issejvjat.
+Unable To Save Settings	Ma jistax jissejvja l-issettjar
+Unable to communicate with engine. UPnP settings have not been updated	Ma jistax jikkomunika mal-magna. L-issettjar UPnP ma ġew aġġornati
+Audio delay	Dewmien tal-awdjo
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	Daħħal valur sekonda (pożittivi jew negattivi) hawn biex içaqlaq l-awdjo ma-video.\r\nUse dan ma resync l-awdjo bil-vidjo, jekk huma skaduti tal sinkronizzat wara conversion.\r\nA valur pożittiv ddewwem l-awdjo (i.e. vidjo quddiem awdjo) u valur negattiv se avvanzat ta ' l-awdjo (i.e. awdjo quddiem video).\r\nE.g. -1.5
+Media info	Informazzjoni tal-midja
+Click here to get media properties for selected files	Ikklikkja hawn għall-proprjetajiet tal-midja għall-fajls magħżula
+Save information	Issejvja l-informazzjoni
+Add information	Żid l-informazzjoni
+Shows a preview of the custom filename and path	Turi previżjoni ta ' l-isem il-fajl personalizzat u l-mogħdija
+Invalid Filename Pattern	Mudell ta ' isem il-fajl invalidu
+TVDB Series ID	ID ta ' serje ta ' TVDB
+IMDB Series ID	ID ta ' serje ta ' IMDB
+Original title	It-Titolu oriġinali
+Corrected title	Titlu korrett
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Tidħol l-ID ta ' serje ta ' TVDB li inti tixtieq tuża għall-tniżżil juru information.\r\nIf l-kaxxa titolu oriġinali huwa vojt, dan se jiġu applikati biex turi kollha magħżula minn dan ix-xogħol ta ' konverżjoni.
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Tidħol l-filmat IMDB ID li inti tixtieq tuża għall-filmat information.\r\nIf l-oriġinali ta ' tniżżil titolu kaxxa hija vojta, dan se jiġu applikati biex turi kollha magħżula minn dan ix-xogħol ta ' konverżjoni.
+Internet Lookup Title and Metadata Correction	Internet tistax tfittex it-titolu u l-korrezzjoni tal-Metadata
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	Ikklikkja hawn biex iżżid ieħor filliera li jallinja u jikkoreġu it-titoli u id.\r\nIf serje tixtieq tuża l-istess Titolu korrett jew serje KI għall-wirjiet kollha konvertiti minn dan ix-xogħol ta ' konverżjoni, \r\nleave-vojt it-Titolu oriġinali fl-ewwel filliera u inti ma Żid it-tieni filliera.
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	Jidħol disinn li jallinja juru/serje titoli għal korrezzjoni (e.g. Simpson * ser jibdel it-titoli kollha li jkollhom it-Titolu juru li jibda b ' Simpson) tal-mudell \r\nPrefix ma ~ li taqbeż l-taqbila (eż. *. *; ~ Simpson * se tikkoreġi kollha juru titoli ħlief dawk li jibdew b ' Simpson) \r\nSeparate multipli patterns; (e.g. Simpson *;House*) jew (e.g. Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nNOTE: ħalli l-kaxxa vojta jekk tixtieq tapplika l-titolu korrett jew serje KI għall-fajls kollha tiġi pproċessata minn din task.\r\nIf konverżjoni li jħalli vojta, ma tistax iżżid a row.\r\n\r\nYou tieni jistgħu jużaw a espressjoni regolari li jaqblu mal-titlu minn tal-bidu ma regex:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	Tidħol l-Titolu ġdid/korrett li tixtieq tuża biex tniżżel informazzjoni addizzjonali mill-internet.\r\nIf oriġinali titolu kaxxa hija vojta, dan se jiġu applikati biex turi kollha magħżula minn din il-konverżjoni task.\r\n\r\nYou jistgħu jużaw a espressjoni regolari biex jikkoreġu it-Titolu mill-bidu ma regex:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	Għal kull filliera, daħħal it-Titolu oriġinali li jaqblu mal-isem juru u a korrett jew titolu jew a ID ta ' serje ta ' TVDB/IMDB
+Please enter either a Corrected title or a TVDB/IMDB Series ID	Daħħal titlu korrett jew a ID ta ' serje ta ' TVDB/IMDB
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	Jippermetti dan jekk tixtieq MCEBuddy tpoġġi l-maqluba fajl fil-directory\r\nif ta ' sors mogħdija tad-destinazzjoni mhux disponibbli. (e.g. Network in-nuqqas jew falliment ta ' l-immappjar)
+Fallback to source path	Fallback mal-mogħdija tas-sors
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	Użat biex iżżid jew tnaqqas il-volum ta ' l-the\r\nrecording waqt li converting.\r\n1 hija normali, għandu jnaqqas xejn hawn taħt huwa, anything\r\nhigher se tiżdied.
+Archive folder	Fowlder ta ' l-arkivju
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	Ibdel il-post ta ' l-arkivju folder.\r\nLeave vojta għall-fowlder default tal-"MCEBuddyArchive" fid-direttorju oriġinali ta ' l-użu.
+Monitor subdirectories	Subdirectories tal-moniter
+Check this box to also monitor all directories within the Monitor path	Iċċekkja din il-kaxxa wkoll tissorvelja d-direttorji kollha fi ħdan il-mogħdija tal-moniter
+Click here to show MCEBuddy status	Ikklikkja hawn biex juri l-istatus ta ' MCEBuddy
+MCEBuddy service not connected	Servizz ta ' MCEBuddy mhux imqabbad
+MCEBuddy idle	MCEBuddy wieqaf
+conversions in progress	konverżjonijiet fil-progress
+MCEBuddy stopped	Waqaf MCEBuddy
+Sync converted files	Issinkronizza l-fajls maqluba
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	Iċċekkja din l-għażla jekk tixtieq li MCEBuddy biex iżżomm il-fajls maqluba sinkronizzat mal-files.\r\ni.e oriġinali. Meta l-fajls oriġinali huma mħassra mill-utent, il-fajls maqluba korrispondenti huma wkoll deleted.\r\n\r\nNOTE: MCEBuddy biss jimmonitorja oriġinali fajls fil-fowlders postijiet moniter u biss waqt li l-magna hija running.\r\nMCEBuddy ma jkunux kapaċi li jintraċċaw il-fajls tal-utent imħassar meta l-magna tkun wieqfa.
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	Ma tixtieq MCEBuddy biex tħassar il-fajl maqluba kull meta tħassret l-fajl oriġinali?
+Confirm sync conversions?	Ikkonferma l-konverżjonijiet tas-sinkronizzar?
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	Żgur li ma tkunx tixtieq tneħħi commercials mill-vidjow maqluba u jżomm biss l-fajl EDL?
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer mhux qed jirrispondi. Jekk jogħġbok is-sistema ta ' startjar mill-ġdid jew installa mill-ġdid ShowAnalyzer.
+ShowAnalyzer Not Responding	ShowAnalyzer mhux jirrispondi
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	Żgura li inti agħfas "Bidu" wara l-għeluq ta ' din it-tieqa, inkella Scheduling u bħala riżultat ma jaħdimx.
+Enabling Scheduling and Wake	L-iskedar li jippermettu u wara
+Passwords do not match	Il-passwords ma jaqblux
+Password error	Żball fil-password
+Adding subtitles and chapters to file	Iż-żieda ta ' sottotitli u Kapitoli il-fajl
+Send eMail if unable to download series information	Ibgħat b'email jekk ma jistax iniżżel informazzjoni serje
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	Iċċekkja din il-kaxxa jekk inti tixtieq dan ix-xogħol ta ' konverżjoni li jipproċessaw biss fajls minn verifikatur speċifiċi locations.\r\nIf mhux iċċekkjati kull kompitu konverżjoni se jipproċessaw fajls minn postijiet moniter kollha (inklużi oħrajn ġodda miżjuda aktar tard).
+Select Monitor Locations	Agħżel il-postijiet tal-moniter
+Select atleast one Monitor Location name	Agħżel isem il-post tal-moniter wieħed atleast
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	Għażilt kollha l-kurrenti moniter Locations.\r\nDo tixtieq li dan ix-xogħol ta ' konverżjoni li awtomatikament jipproċessaw xi postijiet ġodda moniter jiżdied fil-futur?
+New monitor locations	Ġodda moniter postijiet
+Invalid selection	Għażla invalida
+Channel name match	Qabbel l-isem tal-kanal
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Jidħol disinn li jaqblu mal-isem ta ' kanal għal dan ix-xogħol (per eżempju ABC * se jikkonvertu fajls kollha rrekordjati fuq isem il-kanal li jibda bl-ABC) tal-mudell tal-\r\nPrefix b ~ li taqbeż l-taqbila (eż. *; ~ ABC * ser jipproċessa l-kanali kollha ħlief dawk li jibdew bl-ABC) \r\nSeparate multipli patterns; (per eżempju ABC *;TBS*) jew (per eżempju ABC *;Fox*; ~ Fox4 *) \r\n\r\nYou jistgħu jużaw espressjonijiet regolari li jaqblu mal-mudell mill-bidu ma regex:
+Clear history	Ħassar il-kronoloġija
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	Ikklikkja din il-buttuna biex Neħħi l-kronoloġija ta ' l-files.\r\nThis maqluba kollha huwa jikkawża MCEBuddy biex jerġa ' jbiddel l fajls kollha immonitorjat.
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	Żgur tixtieq tneħħi l-istorja kollha konverżjonijiet? \r\nThis se jikkawżaw MCEBuddy biex jerġa ' jbiddel l fajls kollha immonitorjat.
+Show history	Uri l-kronoloġija
+Click this button to show the history of all converted files.	Ikklikkja din il-buttuna biex juru l-istorja ta ' l-fajls kollha maqluba.
+History of Converted Files	Kronoloġija tal-fajls maqluba
+Unable to communicate with engine.	Ma jistax jikkomunika mal-magna.
+Extracting streams	Flussi ta ' l-estrazzjoni
+Fallback muxing streams	Flussi ta ' l-muxing tal-fallback tal
+Remuxing TiVO file	Il-fajl Remuxing TiVO
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	Tidħol tiegħek TiVO MAK ċavetta biex jikkonverti u jipproċessa reġistrazzjonijiet TiVO ta-figuri 10
+Invalid TiVO MAK Key	Kodiċi invalidu TiVO MAK
+The TiVO MAK key should be 10 digits	Iċ-ċavetta TiVO MAK għandhom ikunu numri 10
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	VERŻJONI ħazin. Żgura li l-klijent tal-MCEBuddy u l-magna taħdem il-verżjoni ta ' l-istess.
+Error retrieving Event Logs	Żball qed isib l-okkorrenzi
+Unable to get Event Log Entries from the MCEBuddy engine.	Ma jistax iġib l-Event Log entrati mill-magna MCEBuddy.
+PAUSED: Check conversion schedule	PAUSED: Iskeda konverżjoni tal-verifika ta
+Logging	L-illoggjar
+Folder Management	Tmexxija tal-fowlder
+Processor Management	Tmexxija tal-proċessur
+Expert Settings	Issettjar ta ' l-esperti
+System Settings	Issettjar tas-sistema
+Click here to change additional settings (for experts only)	Ikklikkja hawn biex tibdel l-issettjar addizzjonali (għall-esperti biss)
+Failed folder	Il-fowlder falliet
+Location of the folder that hold the original files for failed conversions.	Il-post tal-fowlder li jżommu l-fajls oriġinali għall-konverżjonijiet ma rnexxewx.
+Move original file on failure	Mexxi l-fajl oriġinali dwar in-nuqqas
+Check this to move the original file to a separate folder if the conversion fails.	Iċċekkja dan li tmexxi l-fajl oriġinali għal fowlder separati jekk tonqos l-konverżjoni.
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	Iċċekkja dan li jillimitaw in-numru ta ' proċessuri loġiċi li jikkorrispondi MCEBuddycan use.\r\nEach il-kaxxa hawn taħt lill-proċessur loġiku disponibbli.
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Kull kaxxa tirrappreżenta loġiċi proċessuri mill-1 sa 16 respectively.\r\nChecking kaxxa jippermetti MCEBuddy li jużaw dik il-proċessur.
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Kull kaxxa tirrappreżenta loġiċi proċessuri minn 17 biex respectively.\r\nChecking 32 kaxxa jippermetti MCEBuddy li jużaw dik il-proċessur.
+Select atleast one processor to use	Agħżel il-proċessur wieħed atleast li jużaw
+Invalid Configuration	Konfigurazzjoni invalidu
+Comskip path	Mogħdija ta ' Comskip
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	Jekk tixtieq tuża VERŻJONI personalizzat ta ' Comkip (eż. donator VERŻJONI) \r\nthen jidħol l-mogħdija tal-comskip installazzjoni here.\r\nLeave vojta li jużaw l-comskip ta ' nuqqas li jiġi ma ' MCEBuddy.
+Miscellaneous	Mixxellanji
+Ignore copy protection	Injora l-protezzjoni mill-ikkupjar
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	Iċċekkja dan tinjora l-bandiera ta ' protezzjoni kopja fuq il-fajl tal-vidjo waqt li converting.\r\nNOTE: MCEBuddy ma jistax jaqbeż l-iċċifrar, dan jgħin biss jekk il-fajl huwa incorrectly\r\ntagged bħala kopja protetti meta ma huwa ċċifrat.
+Use recycle bin	Użu reċipjent tar-riċiklaġġ
+Check this to use the recycle bin when files are deleted by MCEBuddy	Iċċekkja dan biex tuża l-reċipjent tar-riċiklaġġ meta fajls huma mħassra mill-MCEBuddy
+Poll period	Poll perjodu
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	Dan huwa kemm il-darba MCEBuddy jiskenja l-postijiet ta ' kompiti Monitor għal intervall ta ' files.\r\nThe ġodda huwa speċifikat f'sekondi.
+Server port	Tal-port tas-server
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	Dan huwa l-port TCP MCEBuddy juża biex jikkomunika ma ' l-engine.\r\nWhen remota mixgħula UPnP, MCEBuddy awtomatikament iżid dan il-port mal-Gateway għall-Windows Firewall\r\nand UPnP biex jippermettu aċċess mill-internet fuq dan il-port.
+Hang period	Aqta perjodu
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	Ikteb in-numru ta ' sekondi li MCEBuddy se jistenna għal tweġiba mis-the\r\nunderlying applikazzjoni qabel itemm l-applikazzjoni bħala hung.\r\nEnter 0 tiddiżattiva hang kxif.
+Subtitle commercial cut sync	Is-subtitolu kummerċjali maqtugħa tas-sinkronizzazzjoni
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	Dan il-parametru tintuża meta l-sottotitli go progressivament skaduti tal sinkronizzat wara kull segment kummerċjali jitneħħa mill-issettjar video.\r\nThis huwa użat biex idaħħlu l-sottotitli lura fis-sinkronizzar mal-ħin video.\r\nEach l-vidjo kummerċjali hija maqtugħa, il-sottotitli huma żmien mressqa minn dan l-ammont (+ ve jew ve - sekonda).
+Invalid poll period	Perjodu poll invalidu
+Invalid server port	Tal-port tas-server invalidu
+eMail Subject Customization	b'email esiztenza suġġett
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	Użu din is-sezzjoni Ippersonalizza s-suġġett ta ' posta elettronika mibgħuta mill-MCEBuddy fuq l-avvenimenti ta ' konverżjoni varji elenkati below.\r\nRefer għad-dokumentazzjoni, kmandi personalizzat għal utent definiti variables.\r\ne.g. Uri b ' suċċess bl-użu ta ' kompitu % taskname%\r\nNOTE % showname % għall-fajl % originalfilename % konverżjoni: mhux dejjem l-informazzjoni tkun disponibbli fil-commands.\r\nLeave personalizzat vojta biex tuża l-linji ta ' suġġett default.
+Success	Is-suċċess
+Failed	Ma rnexxiex
+Cancelled	Kkanċellat
+Download fail	Niżżel tonqos
+Limit processor utilization	Użu ta ' proċessur ta ' limitu
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	Iċċekkja dan li jillimitaw in-numru ta ' proċessuri loġiċi li MCEBuddy jista use.\r\nEach il-kaxxa hawn taħt jikkorrispondi mal-proċessur loġiku disponibbli.
+Custom profile	Profil personalizzat
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	Jekk għandek profiles.conf personalizzat fajl li tixtieq tuża minflok the\r\none li jiġi ma ' MCEBuddy, daħħal il-mogħdija għall-fajl here.\r\n\r\nNOTE: MCEBuddy kontinwament aġġornamenti profiles.conf li jipprovdu bug jiffissa, titjib ta ' l-\r\nenhancements u l-prestazzjoni li inti se neqsin out\r\non jekk tuża din il-karatteristika.
+Invalid custom profiles.conf	Profiles.conf Personalizzazzjoni invalidu
+Suspend on battery	Tissospendi fuq il-batterija
+Suspend conversions when the computer switches to battery power	Tissospendi l-konverżjonijiet meta l-kompjuter swiċċijiet għall-batterija
+MCEBuddy added a video conversion to the queue	MCEBuddy miżjud konverżjoni tal-vidjo għall-kju
+Queue	Kju
+Refer to documentation on using custom commands in custom eMail subjects	Jirreferi għal dokumentazzjoni dwar l-użu ta ' kmandi personalizzat b'email personalizzat suġġetti
+Could not copy information to Clipboard, please try again.	Ma seta ' Ikkopja informazzjoni fuq il-Klibbord, jekk jogħġbok Ipprova erġa.
+Error copying to Clipboard	Żball fl-ikkupjar fuq il-Klibbord
+Copy to clipboard	Ikkopja għal klibbord
+Reconvert files	Jerġa ' jbiddel l fajls
+Are you sure you want to reconvert the selected files?	Żgur tixtieq jerġa ' jbiddel l-fajls magħżula?
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	Agħżel il-fajls li tixtieq jerġa ' jbiddel l u mbagħad ikklikkja din button.\r\nIf l-fajls oriġinali huma xorta li jiġi mmonitorjat mill-MCEBuddy fil-dawn ser ikunu kju għall-konverżjoni mill-gdid.
+Time taken to convert	Ħin li jittieħed biex jikkonverti
+Network authentication	Awtentikazzjoni tan-netwerk
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	Ikklikkja l-buttuna biex jidħol l-ishma tan-network credentials.\r\nThis ' l-awtentikazzjoni huwa użat meta fajls huma miżjuda permezz tal-buttuna Żid fuq l-window\r\nor prinċipali ddraggjat u niżel minn kondiviżjoni tan-netwerk fil-kaxxa ta ' l-istatus tal-konverżjoni fit-tieqa ewlenija.
+Skip reconversion	Aqbeż rikonverżjoni
+Do not reconvert the video if a converted file already exists in the destination directory.	Jerġa ' ma jbiddel il-vidjo jekk maqluba ġa jeżisti fajl fid-direttorju destinazzjoni l.
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	L-isem tal-fajl mistenni għall-vidjo maqluba (mhux l-oriġinali tal-vidjo fajl) huwa mqabbel mal-ismijiet tal-fajls fil-directory.\r\nIf tad-destinazzjoni l-fajl maqluba jeżisti, il-fajl mhux se jiġu reconverted u jiġi assunt li jkun a conversion.\r\nThis b ' suċċess hija utli jekk l-istess juru/episodju huwa rrekordjati fuq diversi drabi u li ma tixtieqx jerġa ' jbiddel l them.\r\n\r\nNOTE: Din l-għażla hija injorati għall-vidjos li jiżdiedu manwalment bl-użu tal-buttuna Żid jew dreggjar u
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	Jekk attivat, Aqbeż rikonverżjoni wkoll se jiċċekkja l-fajl ta ' kronoloġija għal conversions.\r\nThe fil-passat mistennija isem il-fajl għall-vidjo maqluba (mhux l-oriġinali tal-vidjo fajl) huwa mqabbel ma ' l-ismijiet tal-fajls fl-istorja file.\r\nIf-bħala fajl maqluba (inklużi l-mogħdija) jaqbel ma xi wieħed mill-ismijiet tal-il-maqluba diġà fajls (inklużi l-mogħdijiet) fil-fajl ta ' l-istorja, il-fajl \r\nthe mhux ser jiġu reconverted u jiġi assunt li jkun konverżjoni b ' suċċess.
+Adding file to the iTunes library	Biex iżżid fajl mal-iTunes librerija
+Add to iTunes	Żid għall iTunes
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	Iċċekkja din il-kaxxa biex iżżid awtomatikament il-fajls maqluba għall-library.\r\nThis iTunes biss xogħlijiet mal iTunes fajls appoġġjati (per eżempju, MP4, M4V, MP3 eċċ)
+Adding file to the WMP library	Iż-żieda ta ' fajl fil-librerija WMP
+Library Management	Tmexxija tal-librerija
+Add to Windows Media Player	Żid fil-Windows Media Player
+Check this box to automatically add the converted files to the WMP library.	Iċċekkja din il-kaxxa biex iżżid il-fajls maqluba awtomatikament fil-librerija WMP.
+Renaming and Sorting	Bdil tal-isem u l-għażla
+Selection Filters	Il-filtri ta ' l-għażla
+Audio and Video	Awdjo u vidjo
+Subtitles and Chapters	Sottotitli u Kapitoli
+Skip copying original files	Aqbeż qed jikkopja l-fajls oriġinali
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	IĊĊEKKJA din il-kaxxa fuq tiegħek stess RISK.\r\nDO ma IĊĊEKKJA din kaxxa sakemm INTI taf INTI X'INHUMA DOING.\r\nCheck din il-kaxxa li taqbeż li tagħmel backup tal-fajl oriġinali (tikkopja) waqt li jikkonvertu.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	IĊĊEKKJA din il-kaxxa fuq tiegħek stess RISK.\r\nDO ma IĊĊEKKJA din il-kaxxa ma tkun taf liema INTI DOING.\r\nCheck din il-kaxxa biex taqbeż tagħmel backup tal-fajl oriġinali (tikkopja) filwaqt li converting.\r\nIf dan huwa kkontrollat, l-fajl oriġinali mhux se tkun ippriservata fil-każ ta ' l-error.\r\nIt jistgħu wkoll anke twassal għal nuqqasijiet konverżjoni jew il-kwistjonijiet konverżjoni imprevisti oħra.
+Are you sure you want to do this?	Żgur tixtieq tagħmel dan?
+Media Information Management	Amministrazzjoni ta ' l-informazzjoni tal-midja
+Force show type	Seħħ juru tip
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	Issettja dan li seħħ li jittrattaw il-vidjo reġistrazzjoni bħala filmat jew Series.\r\nThis tat-TV se tibdel il-mod informazzjoni addizzjonali (metadata) dwar ir-reġistrazzjoni hija titniżżel mill-internet.\r\nMovie - jittrattaw ir-reġistrazzjoni bħala movie\r\nSeries - jittrattaw ir-reġistrazzjoni bħala a Series\r\nSports tat-TV - jittrattaw ir-reġistrazzjoni bħala a show\r\nDefault sportiv - użu default l-informazzjoni disponibbli fl-metadata reġistrazzjoni biex tiddetermina l-filmat jew serje TV
+Show type	Juru tip
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	Agħżel dan biex Iffiltra t-tip ta ' reġistrazzjonijiet li huma converted.\r\n\r\nMovies - Agħżel dan biex jikkonverti jekk it-tip ta ' Uri huwa Movie.\r\nShows - Agħżel dan biex jikkonverti jekk tat-tip tal-wirja mhix a Movie.\r\nSports - Agħżel dan biex jikkonverti jekk it-tip ta ' juru hija Sports.\r\n\r\nNOTE: juru tip jinqara mill-metadata.\r\nOnly reġistrazzjoni xi reġistrazzjonijiet appoġġ juru tip metadata bħal WTV and\r\nrecordings bl-appoġġ tal-metadata fajls ()XML/ARG eċċ).
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	Din il-kaxxa turi l-fajls kollha fil-kju għall-fajls conversion.\r\nDrag u qatra hawn jew agħfas il-buttuna Żid biex iżżid fajls ma ' l-kju ta ' konverżjoni
+Conversion	Konverżjoni
+Files	Il-fajls
+Click this button to open or close the Advanced Settings section	Ikklikkja din il-buttuna biex tiftaħ jew tagħlaq is-Sezzjoni ta ' l-issettjar avvanzat
+Running custom commands	Jaħdem kmandi personalizzat
+Trimming video recording	Tirqim rekordjar tal-vidjo
+Insert at top of queue	Daħħal fil-quċċata tal-kju
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	B'default, konverżjonijiet ġodda huma miżjuda mal-qiegħ (tmiem) tal-konverżjoni queue.\r\nIf din il-kaxxa hija kkontrollata, kull konverżjonijiet ġodda miżjuda minn din l-attività se tkun miżjuda mal-the\r\nbeginning (wiċċ) ta ' l-kju ta ' l-konverżjoni.
+Add subtitles and chapters	Żid sottotitli u Kapitoli
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	Jippermettu li din l-għażla biex iżżid xi estratti sottotitli u Kapitoli li l-Kapitolu video.\r\nEach maqluba jimmarka t-tmiem tal-kummerċjali. Dan biss xogħlijiet mal-formati appoġġjati (e.g. MKV, MP4).\r\n\r\nNOTE: xi plejers u TV's eqdem Terġax appoġġ sottotitli integrat u chapters.\r\nIf inti m'intix kapaċi plejbek tal-vidjo maqluba tal, ipprova titfi din l-għażla.
+Select best soundtrack	Agħżel soundtrack aħjar
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	Jekk il-vidjo oriġinali tkun soundtracks multipli, din l-għażla ssib MCEBuddy biex tagħżel l-aktar xierqa u l-ewlieni soundtrack.\r\nIf tixtieq a soundtrack lingwa speċifika, żgura li inti Daħħal l-isem tal-lingwa jew il-kodiċi fil-lingwa ta ' l-awdjo box.\r\nCheck din il-kaxxa jekk inti m'intix tisma il-soundtrack ħażin fil tiegħek file.\r\n\r\nUncheck maqluba din il-kaxxa jekk tixtieq li MCEBuddy biex iżommu-soundtracks kollha mill-vidjow oriġinali fil-fajl maqluba meta possibbli. ċerejalir\nNOTE: xi profili ma jaċċettawx soundtracks multipli, f'liema każ dan l-issettjar għandha l-ebda effett.
+Enable remote access	Jippermetti aċċess remot
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	Dan joħloq eċċezzjoni tal-fajerwol tal-windows għall-applikazzjoni ta ' l-MCEBuddy u l-port.\r\nThis hija meħtieġa jekk għandek kienu windows firewall mixgħul u tixtieq tuża UPnP, l-aċċess remot client\r\nor-magna bl-użu ta ' l-address.\r\n\r\nNOTE IP: Jekk għandek fajerwol personalizzat, dan jista ' ma jaħdimx, ikollok bżonn li manwalment jinħoloq an\r\nexception għas-servizz tal-MCEBuddy u l-port.
+Unable to communicate with engine. Firewall exception settings have not been updated.	Ma jistax jikkomunika mal-magna. Issettjar ta ' l-eċċezzjoni tal-fajerwol ma ġew aġġornati.
+Detect and optimize video quality	Jikxef u jottimizza l-kwalità tal-vidjo
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	Meta attivat, MCEBuddy se Ottimizza l-għażliet ta ' l-ipproċessar tal-vidjo mill-jipprova jikxef l-type.\r\nThis sors vidjow jistgħu itejbu l-kwalità tal-vidjo maqluba b'mod sinifikanti jekk sew detected.\r\n\r\nNOTE: tagħmel dan billi jipprova jsib il-tip ta ' sors vidjow (interlaced, progressivi jew telecine).\r\nIf huwa kapaċi li jikxfu t-tip ta ' sors tal-vidjo, hu se jwarrab l-parametri korrispondenti fl-profile.\r\nTurn dan għażla barra jekk inti qed jiffaċċjaw kwistjonijiet mal-kwalità tal-vidjo maqluba jew tixtieq tuża l-parametri tal-profil default.
+Are you sure you want to delete this task?	Żgur tixtieq tħassar dan ix-xogħol?
+Delete Task	Ħassar il-kompitu
+Enter the new task name	Daħħal l-isem ta ' kompitu ġdid
+Rename Task	Ibdel Isem il-kompitu
+MCEBuddy PAUSED	MCEBuddy SOSPIŻ
+idle	wieqaf
+PAUSED	SOSPIŻ
+Frame rate	Rata tal-frejms
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	Jippermettu li dan stabbilit a framerate personalizzat (FPS) għall-video.\r\nYou maqluba jistgħu jeħtieġu li jistabbilixxu dan waqt li taqleb il-formati tal-vidjo (per eżempju, il-PAL biex NTSC) \r\nor għal mezzi li jsostnu l-framerates.\r\n\r\nE.g speċifiċi biss.: 25\r\nE.g.: 30000/1001
+Skip remuxing files	Aqbeż il-fajls remuxing
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	IĊĊEKKJA din il-kaxxa fuq tiegħek stess RISK.\r\nDO ma verifika dan kaxxa sakemm INTI magħrufa dak INTI DOING.\r\nCheck din il-kaxxa biex taqbeż il-remuxing l-fajl oriġinali f'fajl TS waqt li converting.\r\nIf dan huwa kkontrollat, xi funzjonijiet simili subtitolu estrazzjoni jew comskip jistgħu ma work.\r\nIt ukoll anke jwasslu għal konverżjoni nuqqasijiet jew il-kwistjonijiet konverżjoni imprevisti oħra.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	IĊĊEKKJA din il-kaxxa fuq tiegħek stess RISK.\r\nDO ma IĊĊEKKJA din kaxxa sakemm INTI taf INTI X'INHUMA DOING.\r\nCheck din il-kaxxa biex taqbeż il-remuxing l-fajl oriġinali f'fajl TS waqt li jikkonvertu.
+Monitor converted videos	Moniter konvertiti vidjows
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	B'default postijiet Monitor se jinjora fajls li jkunu diġà ġew converted.\r\nCheck din il-kaxxa jekk tixtieq ukoll li jissorveljaw fajls maqluba fil-Path.\r\nCAUTION il-moniter: dan jista jwassal għal-linja ta ' konverżjoni infinita ta ' fajls maqluba jekk mhux ikkonfigurat properly.\r\n\r\nThis jistgħu jkunu utli meta inti huma li jispeċifika d-direttorju tal-produzzjoni tal-task\r\n tal-konverżjoni (fajl maqluba) bħala l-passaġġ tal-moniter tal-post Monitor u li jgħaqqad l-the\r\nMonitor Post għal attività oħra tal-konverżjoni.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	IĊĊEKKJA din il-kaxxa fuq tiegħek stess RISK.\r\nDO ma IĊĊEKKJA din kaxxa sakemm INTI taf INTI X'INHUMA DOING.\r\nBy default moniter postijiet se jinjora fajls li jkunu diġà ġew converted.\r\nCheck din il-kaxxa jekk tixtieq ukoll li jissorveljaw fajls maqluba fil-mogħdija tal-Monitor.
+Hardware encoding	Kodifikar ta ' ħardwer
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	Iċċekkja din il-kaxxa biex tuża ħardwer kodifikar meta disponibbli biex tikkonverti videos.\r\nThis tista ' tħaffef b'mod sinifikanti l-konverżjoni u tnaqqas l-utilization\r\nbut tas-CPU li jistgħu jirriżultaw f ' xi ftit aktar baxx ta ' kwalità videos.\r\n\r\nUncheck din il-kaxxa jekk inti qed jiffaċċjaw konverżjoni jew kwistjonijiet ta ' kwalità.
+Do not overwrite files	Ma Issostitwixxi l-fajls
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	Meta din il-kaxxa hija kkontrollata, il-fajl tad-destinazzjoni se ma jiġi sostitwit jekk ikun diġà exists.\r\nInstead fajl ġdid se jinħoloq b'numru uniku miżjud fl-aħħar tal-fajl.
+Re-monitor recorded videos	Tissorvelja mill-ġdid il-vidjos irrekordjati
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	B'default, ladarba l-fajl tas-sors (Recorded vidjo) ġie kkonvertit, \r\nthe l-istorja tal-moniter se timmarka l-isem tal-fajl u l-kju mhux-again.\r\n\r\nEnable fajls istess din l-għażla li jinjora l-istorja u tissorvelja l-fajls kollha u żid magħhom il-kju tal-konverżjoni tal-to\r\nthe, saħansitra jekk ikunu diġà ġew converted.\r\n\r\nThis jistgħu jkunu utli xi kultant, jekk is-softwer ta ' reġistrazzjoni ma jiġġeneraw a\r\nunique fajl għal kull episodju/juru. Huwa reccomended li juża the\r\nDelete l-għażla tal-fajl oriġinali fil-paġna tas-Settings meta tuża din l-għażla għal linja ta ' konverżjoni infinita ta ' avoid\r\nan.
+Recommendation	Ir-rakkomandazzjoni
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	Biex jevitaw l-linja tal-konverżjoni infinita, huwa rakkomandat li l-konfigurazzjoni tiegħek moniter tat-tiftix tal-mudell b'mod tali biex jiżguraw li l-fajls maqluba huma mhux immonitorjat minn dan ix-xogħol tal-Monitor.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	IĊĊEKKJA din il-kaxxa fuq tiegħek stess RISK.\r\nDO ma IĊĊEKKJA din kaxxa sakemm INTI taf INTI X'INHUMA DOING.\r\nBy default moniter postijiet mhux se remonitor reġistrati vidjos li kienu processed.\r\nCheck din il-kaxxa jekk inti tixtieq remonitor u jerġa ' jbiddel l-vidjos irrekordjati.
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	Biex jevitaw l-linja tal-konverżjoni infinita, huwa rakkomandat li tixgħel Ħassar għażla fajl oriġinali fil-paġna tas-Settings.
+Prioritize air date matching	Prioritize id-data ta ' l-allinjament ta ' l-arja
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy juża l-isem ta ' l-episodju li jaqblu mal-information\r\nwhile ta ' serje tfittex fl-internet. Jekk tonqos li mbagħad tuża d-data ta ' l-broadcast\r\nair tal-oriġinali li jaqblu mal-metadata.\r\n\r\nCheck din il-kaxxa għall-ewwel jużaw id-data ta ' l-arja tax-xandir tal-oriġinali u mbagħad the\r\nepisode l-isem li jallinja għall-informazzjoni ta ' serje mill-internet.\r\nThis jistgħu jkunu utli f'xi każijiet meta staġuni multipla jkollha l-isem ta ' same\r\nepisode. Eż Americal Idol, Audition 1\r\n\r\nNOTE: oriġinali data għax-xandir ta ' l-ajru ma jkunx dejjem sett eżatti mill-the\r\nbroadcaster u xi drabi l-informazzjoni fuq l-internet hija incorrect.\r\nUse dan għażla biss jekk l-għażla kontumaċja mhux jaħdem għalik.
+Skip eMail body	Aqbeż b'email korp
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	Iċċekkja din l-għażla biex tuża l-korp vojta fil-eMail.\r\nThis n-notifika jistgħu jkunu utli jekk qed tuża-gateway ta ' l-SMS għan-notifiki b'email.
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	Għażla bbażata fuq diġitali dritt amministrattiv (DRM) hija available\r\nonly meta tibdel l-isem mingħajr konverżjoni (tibdel l-isem u tmexxi biss) l-għażla hija selected.\r\n\r\nAll - jagħżel l-fajls kollha għall-ipproċessar, irrispettivament mill-kopja protezzjoni status\r\nProtected - biss Agħżel il-fajls li huma kopja protected\r\nUnprotected - biss tagħżel fajls li m ' għandhomx protezzjoni mill-ikkupjar
+Download cover art	Niżżel il-kopertura ta ' l-Arti
+Enable this to download the cover art from the original video and internet if available.	Jippermetti dan biex tniżżel il-kopertura ta ' l-Arti mill-oriġinali tal-vidjo u l-internet jekk disponibbli.
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	Żgur li tixtieq iddaħħal isem tad-dominju? \r\n\r\nUse dan biss jekk qed tuża Windows Kontrollur tad-dominju li timmaniġġja tiegħek authentication.\r\nDo ma jużaw dan jekk int parti tal-Workgroup.\r\n\r\nIf inti ċert ikklikkja Nru.
+Configuration Warning	Twissija ta ' konfigurazzjoni
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	Joħloq fowlder imsejjaħ "MCEBuddyArchive" fejn il-fajl oriġinali huwa located\r\nand imexxi l-fajl orginal dan id-direttorju wara li jinbidlu ta ' isem il-fowlder conversion.\r\n\r\nThis b ' suċċess u post hawn taħt.
+Monitoring	Il-monitoraġġ
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	Jekk tixtieq tikkonverti l-fajl EDL fil-Kapitoli, żgura li tiċċekkja l-għażla "Żid sottotitli u Kapitoli" fl-issettjar ta ' l-espert.
+EDL to Chapters	EDL għall-Kapitoli

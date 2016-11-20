@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy no utilitzar l'actualment registrat en usuari per connectar-se a recursos compartits de xarxa, que utilitza el seu propi compte del servei.  Assegureu-vos d'especificar la informació d'usuari de connexió (MCEBuddy amb una icona de clau)
+Connection Reminder	Notificació de connexió
+Description	Descripció
+Path	Camí
+is invalid	no és vàlid
+Invalid Path	Camí no és vàlid
+Please supply a task name	Poseu-li un nom de la tasca
+No name supplied	No hi ha indicat el nom
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	Si us plau introdueix el codi de llengua de 3 dígits de la pista d'àudio, seleccioneu <Default>o <Original>
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	El dígit 3 codi ISO per a la language\r\nMake seleccionat segur això coincideix amb el codi de llengua per a la pista d'àudio en l'original recording.\r\nTo aconseguir el codi de llengua per a les pistes d'àudio a l'arxiu original enregistrada, afegir la file\r\nto la cua i bé fer clic en això. Un pop cap amunt de finestra s'obrirà mostrant l'àudio details\r\nwhich inclouen els codis d'idioma per a cada pista d'àudio.
+Invalid Language Code	Codi d'idioma no és vàlid
+No destination directory provided, converted file will be placed in original video directory	Cap Guia de destinació proporcionat, arxiu convertit seran col locats en guia de vídeo original
+A task name or section	Un nom de la tasca o secció
+already exists\n\rPlease use another name	ja exists\n\rPlease utilitzar un altre nom
+Duplicate Name	Nom duplicat
+Engine	Motor
+Tasks	Tasques
+Profile	Perfil
+disposing	eliminació
+Task name	Nom de la tasca
+Give a unique name to this task	Doni un nom únic d'aquesta tasca
+Gives a short description for the selection conversion profile	Dóna una descripció curta per al perfil de conversió de selecció
+Click to select destination folder	Feu clic per seleccionar la carpeta de destinació
+Destination	Destinació
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	Seleccioneu el directori on l'arxiu convertit will be placed.\r\nLeave aquest en blanc per mantenir l'arxiu convertit en el mateix guia com l'original vídeo.
+Max width	Amplada màx.
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	Això limitarà l'amplada màxima (en píxels) de vídeo per a la file.\r\nTIP convertit: no s'aplica si l'arxiu original té una amplada més petita que aquest number.\r\nIf que voleu mantenir el seu moviment de resolució de vídeo original de la colissa tot el camí a la dreta.
+Quality	Qualitat
+Ad remover	Transportista d'anunci
+None	Cap
+Get series details from Internet	Obtenir sèrie de dades d'Internet
+Download additional details about the movie or series from the internet	Descarregar detalls addicionals sobre pel lícula o sèrie d'internet
+File name match	Partit de nom de fitxer
+Recording title match	Partit títol de gravació
+Cancel	Cancel·la
+OK	OK
+Rename without converting	Rebategi sense convertir
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	Comprovar aquesta opció només rebatejar i copiï els arxius originals a la destinació folder.\r\nWhen marcada, conversió, retallada, processament d'àudio/vídeo i supressió comercial no serà available.\r\n\r\nNOTE: altres funcions com filtres, extreure els subtítols, desar les metadades i detecció comercial (salvant arxiu EDL) \r\nwill encara es posin en venda estiguin disponibles amb aquesta opció checked.\r\nIf que voleu desplaçar en comptes de còpia, comprovar la Skip còpia original opció en escenes d'experts sobre aquest fitxer original pàgina o select\r\nDelete a la pàgina d'escenes principals.
+Rename and sort by video information	Canvieu el nom i Ordena segons la informació de vídeo
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	Canvia el nom de l'arxiu convertit i posa en un directori nou basat en la sèrie de demostració/informació quan available\r\n (p. ex ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	Introduïu el nom d'usuari i contrasenya a les carpetes d'accés que estan en una unitat de xarxa o un ordinador diferent
+Organize by seasons	Organitzar per temporades
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	Organitzar carpetes per Showname i quan la temporada disponibles (Media Center/XBMC/Plex compatible Convenció de nomenclatura) \r\n (p. ex. Showname\\Season nom XX\\SXXEYY-episodi)
+Audio language	Idioma d'àudio
+Advanced Settings	Configuració avançada
+General Settings	Configuració general
+Conversion Task	Tasques de conversió
+Password	Contrasenya
+Confirm Password	Confirmació de la contrasenya
+Domain / computer name	Domini / nom d'ordinador
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	<Optional>Entrar si empenta remot ordinador o xarxa utilitza un domini per a authentication.\r\nDo no introduïu aquí el teu grup de treball. Això deixa en blanc si està utilitzant un grup de treball.
+User name	Nom d'usuari
+Enter the username to access the remote computer or network drive	Introduïu el nom d'usuari per accedir a l'empenta d'ordinador o xarxa remota
+Enter the password to access the remote computer or network drive	Introduïu la contrasenya per accedir a la unitat d'ordinador o xarxa remota
+Network Connection User Credentials	Credencials d'usuari de connexió de xarxa
+Password Mismatch	Incompatibilitat de la contrasenya
+Passwords do not match, please reenter the passwords	No coincideixen les contrasenyes, torneu a introduir les contrasenyes
+Hour	Hora
+Minute	Minut
+Wake	Estela
+Start	Inici
+Resume	Currículum vitae
+Pause	Pausa
+Stop	Stop
+Language	Llengua
+Pause conversion tasks	Tasques de conversió de pausa
+Resume conversion tasks	Tasques de conversió de currículum
+Please enter a valid time	Introduïu un període vàlid
+Invalid Time	Hora no és vàlid
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	Temps de parada és hora d'inici. Suposant que el temps de parada és durant l'endemà, és tan correcte?
+Time Check	Comprovació d'hora
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	Només seleccioneu aquesta opció si MCEBuddy ha estat convertint els seus arxius fiable per a un acceptable període de temps. T'agradaria MCEBuddy suprimir cada fitxer original, una vegada que s'ha convertit?
+Confirm delete originals?	Confirmar la supressió originals?
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy controlarà aquests directoris per a arxius de vídeo convertir automàticament
+Conversion tasks	Tasques de conversió
+Delete original file	Suprimeixi l'arxiu original
+Deletes the original recording after a successful conversion	Suprimeix l'enregistrament original després d'una conversió d'èxit
+Min age before conversion (hours)	Min d'edat abans de conversió (hores)
+Minimum hours to wait before converting each file after the file is added to the queue	Mínims hores d'esperar abans de convertir cada arxiu després de l'arxiu s'afegeix a la cua
+Use this to change the language of the text on the screen	Utilitzar això canviar la llengua del text a la pantalla
+Concurrent conversions	Conversions concurrents
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	Nombre de simultanis conversions MCEBuddy pot start\r\nNOTE: necessita grans quantitats de temps de processador i espai de disc lliure per més de 2 simultànies conversions
+Logging level	Nivell de registre
+Error	Error
+Warning	Avís
+Information	Informació
+Debug	Depuració
+Log conversion jobs	Feines de conversió de registre
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	Desar un fitxer de registre per cada conversió en el \'logs\' directori on on MCEBuddy és installed\r\n (p. ex C:\\Program Files\\MCEBuddy2x\\logs)
+Allow sleep	Permetre son
+If unchecked, it prevents the system from entering sleep while converting	Si no es controla, que impedeix al sistema d'entrar a dormir durant la conversió
+Stop at	Parada a
+No new conversions would be started after this time	Sense conversions nous comencés després d'aquesta vegada
+minute	minut
+hour	Hora
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	Si està marcada MCEBuddy es desperta el sistema de sleep\r\nat el temps de començament especificat i permetia dies de la setmana.
+Start at	Començar a
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy començarà nous conversions entre l'inici i aturada time.\r\n\r\nThe començament temps s'utilitzarà per a habilitar els dies de la setmana, whereas\r\nthe final moment serà utilitzat tampoc al mateix dia or\r\nfor l'endemà si el temps final és després del començament.
+Delete	Eliminar
+Add	Afegir
+Change	Canvi
+Archive original file	Arxiu d'arxiu original
+Domain name	Nom de domini
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	Les tasques de monitor i conversió s'atura i s'obre una pàgina per configurar MCEBuddy
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	Crea una carpeta anomenada \'MCEBuddyArchive\' on l'arxiu original és located\r\nand mou l'arxiu original en aquest directori després d'un èxit conversion.\r\n\r\nThis nom de la carpeta i ubicació pot canviar a la pàgina de configuració de sistema.
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	Depuració - registres detallats, ajuda a water conversió problems\r\nInformation - registres d'informació bàsica sobre conversion\r\nWarning - registre problemes potencials o fallades only\r\nError - registre fallades només
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	Seleccioneu el perfil de conversió associat amb aquesta tasca. El perfil de conversió representa el format de sortida i la qualitat de la qualitat de file.\r\nHigher convertit conversions prendre més temps per convertir. Recomana per defecte: MP4 d'alta qualitat o MP4 Normal.\r\n\r\nTIP: es refereixen a la guia de MCEBuddy per vore els paràmetres avançats per retocar perfils de conversió o crear el seu propi perfils de conversió
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	Seleccioni el programa MCEBuddy utilitzarà per es despulla fora qualsevol anuncis durant la conversió de la video.\r\nSet de "Cap" per deixar els anuncis en la video.\r\n\r\nTIP convertit: utilitzar ShowAnalyzer en comptes de Comskip, si us plau, descarregar i instal·lar analitzador ShowAnalyzer.\r\nShow versió 1.0 i un major suport.
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	Solia canviar la qualitat de vídeo de l'arxiu convertit, normal és nombre més alt de 1.\r\nA millorarà la qualitat però prendrà més temps per número més petit de conversion.\r\nA es reduir la qualitat però accelerar la conversió.
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Introduir patró perquè coincideixi amb noms de fitxer per a aquesta tasca (per exemple, convertirà tots els arxius que acaben amb patró .wtv)\r\nPrefix amb *.wtv ~ saltar-se el partit (p. ex. *. *; ~*.wtv tractarà tots els arxius excepte aquells que acaben amb .wtv)\r\nSeparate múltiples patrons amb; (per exemple *.wtv; ncis *; ~ ncis miami *) tractarà tots els arxius de .wtv i tots els fitxers que comencin amb ncis però no els començant amb ncis miami\r\n\r\nYou pot utilitzar expressions regulars perquè coincideixi amb el patró començant amb regex:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Introduïu patró perquè coincideixi amb títols/sèrie de demostració per a aquesta tasca (p. ex. Simpson * convertirà tots els fitxers que tenen un títol Mostra el començant amb Simpson) \r\nPrefix patró amb ~ saltar-se el partit (p. ex. *; ~ Simpson * tractarà tots els títols Mostra el llevat dels que comencen amb Simpson) \r\nSeparate múltiple patrons amb; (p. ex. Simpson *;House*) o (p. ex. Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nYou pot utilitzar expressions regulars perquè coincideixi amb el patró començant amb regex:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	Això es pot utilitzar per substituir el valor per defecte de l'idioma d'àudio quan hi ha múltiples idiomes d'àudio en un get de recording.\r\nTo la llista de les llengües d'àudio en un enregistrament, feu clic dret sobre el fitxer a la cua i seleccioneu MediaInfo.\r\n\r\n <Default>a tractar de mantenir totes les pistes d'àudio si admet o deixar que el codificador d'escollir la track\r\n d'àudio per defecte <Original>, si s'escau, a utilitzar l'idioma original d'enregistrament [habitacions-anomenat]
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	Introdueixi '[Vídeo]' o deixa en blanc per convertir tots els vídeo files\r\nEnter patró per lligar amb noms de fitxer per a aquesta ubicació (p. ex. *.wtv convertirà tots els arxius que acaben amb el patró de .wtv)\r\nprefix amb ~ saltar-se el partit (p. ex. *. *; ~*.wtv processarà tots els arxius excepte els que acaben amb .wtv)\r\nseparate dibuixos múltiples amb; (p. ex. *.wtv; ncis *; ~ ncis miami *) processarà tots els arxius de .wtv i tots els fitxers que comencen amb ncis però no les començant amb ncis miami
+MCEBuddy Settings	Configuració de MCEBuddy
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy no utilitzar l'actualment registrat en usuari per connectar-se a recursos compartits de xarxa, que utilitza el seu propi compte del servei.  Assegureu-vos d'especificar la informació d'usuari de connexió [MCEBuddy amb una icona clau]
+Please supply a source name	Poseu-li un nom de font
+Please supply a search path name	Poseu-li un nom de camí de cerca
+A source name or section	Un nom de font o una secció
+already exists. Please use another name	ja existeix. Utilitzeu un altre nom
+Monitor name	Nom del monitor
+Give this a location a unique name	Això dóna una ubicació d'un nom únic
+Monitor path	Camí de monitor
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	Seleccioneu el directori que controlarà l'MCEBuddy en el fons per a arxius de vídeo nous convertir automàticament
+Click to select the folder to monitor	Feu clic per seleccionar la carpeta per controlar
+Search pattern	Patró de cerca
+SourceForm	SourceForm
+Monitor Location	Localització de monitor
+Normal	Normal
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: error de connexió de motor de pipeProxy
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: No es pot crear la canonada per servei de MCEBuddy
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	El Servei de MCEBuddy no està disponible. Si us plau d'inici del tauler de control del Windows o Comproveu la connexió de motor.
+Announcement	Anunci
+New version 	Nova versió 
+available	disponible
+New BETA version 	Versió BETA nova 
+Click here to download new version of MCEBuddy	Feu clic aquí per descarregar la versió nova de MCEBuddy
+Click here to open link	Feu clic aquí per obrir l'enllaç
+Idle	Inactiu
+Closing	Tancament
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI: No es pot actualitzar les tasques
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: No es pot iniciar el servei de MCEBuddy
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: No es pot aturar el servei de MCEBuddy
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI: Incapaç d'anul·lar la feina
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	Avís: Els arxius en xarxa s'accedirà amb les credencials d'inici de sessió del MCEBuddy Service, no l'actualment registrat en usuari. Pot especificar manualment les credencials de la xarxa de la configuració-> la pàgina de configuració de l'Expert en MCEBuddy.
+Credential Warning	Advertència de credencial
+Status	L'estat
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI: No es pot afegir la feina
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: No es pot obtenir l'estatus actiu de canonada
+The conversions must be stopped to change settings. Stop the conversions?	Cal aturar les conversions per canviar la configuració. Aturar les conversions?
+Stop Engine	Aturar el motor
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI: No es pot aturar el servei de MCEBuddy d'escenes de clic
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: Incapaç de reescannejar arxius
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: No es pot obrir l'enllaç
+Close	Tancar
+Close this window, MCEBuddy will keep running in the background	Tanca aquesta finestra, MCEBuddy continuarà funcionant en el fons
+If you like MCEBuddy, please click here to Donate - THANKS	Si t'agrada MCEBuddy, faci clic aquí per fer donació - gràcies
+Click here to like MCEBuddy on facebook	Feu clic aquí per com MCEBuddy a facebook
+Click here to open MCEBuddy website	Feu clic aquí per obrir MCEBuddy lloc web
+Rescan	Torna a escanejar
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	Forces MCEBuddy per tornar a verificar les localitzacions de Monitor per a arxius de vídeo nous convertir
+Monitor locations	Localitzacions de monitor
+Settings	Configuració
+Select the file(s) in the queue to delete	Seleccioneu els fitxers a la cua per suprimir
+Manually add video file(s) to the queue to convert	Afegir manualment els fitxers de vídeo a la cua per convertir
+Start the MCEBuddy monitor and conversion tasks	Començar les tasques de monitor i conversió de MCEBuddy
+Stop the MCEBuddy monitor and conversion tasks	Aturar les tasques de monitor i conversió de MCEBuddy
+There is a new version!	Hi ha una versió nova!
+High	Alta
+Low	Mínima
+Priority	Prioritat
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	Prioritat alta - convertir més ràpid però pot fer unes altres aplicacions que s'executen prioritat d'unresponsive\r\nLow - convertir-se en el fons però reduït interferència amb unes altres aplicacions que s'executen
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	Una tasca és una plantilla de conversió que conté un perfil de conversió i diversos altres parameters.\r\nEach de conversió fitxer afegit a la cua seran tractades i convertir-se per cada un d'aquests tasks.\r\nRefer a la guia de MCEBuddy per a més detalls sobre com treballar les tasques.
+Getting started	Introducció
+Click here for MCEBuddy guide	Feu clic aquí per a guia de MCEBuddy
+Logs	Registres
+Click to open log folder	Feu clic per obrir la carpeta de registre
+MCEBuddy Status	L'estat de MCEBuddy
+add	afegir
+delete	eliminar
+paypal-donate	PayPal-donar
+stop	Stop
+OUTPUT: ConsoleOuput received NULL data	Producció: ConsoleOuput rebut dades NULL
+hours	hores
+minutes	minuts
+second	segon
+seconds	Segons
+Starting	Començant
+Comskip advertisement scan - Pass 1	Comskip escannejar d'anunci - passar 1
+Comskip advertisement scan - Pass 2	Comskip escannejar d'anunci - passar 2
+Cutting commercials from video	Anuncis de tall de vídeo
+Cutting commercials from video - segment 	Anuncis de tall des de vídeo - segment 
+Merging commercial free segments into new video	Fusió comercials lliures segments en nou vídeo
+Moving converted file to destination	L'arxiu convertit en moviment a destinació
+Checking for disk space	S'estan comprovant espai de disc
+Getting show information and banner from Internet sources	Aconseguint informació de Mostra i Bandera de fonts d'Internet
+Copying source file to working directory	Copiar l'arxiu de font al guia laborable
+Remuxing recording	Remuxing gravació
+ShowAnalyzer advertisement scan	ShowAnalyzer exploració de publicitat
+Comskip advertisement scan	Comskip exploració de publicitat
+Analyzing video information	L'anàlisi d'informació de vídeo
+Converting	Convertint-se
+Removing commercials	L'eliminació d'anuncis
+Writing show information	Informació de Mostra de l'escriptura
+Renaming file using show information	Canviar el nom d'arxiu que utilitza Mostra informació
+Success - All done!	L'èxit - tot es fa!
+Muxing streams	Fluxos de Muxing
+Fallback remux	Fallback remux
+Correcting audio delay	Correcció de retard d'àudio
+Converting video file - Pass 1	Conversió d'arxiu de vídeo - passar 1
+Converting video file - Pass 2	Conversió d'arxiu de vídeo - passar 2
+Converting video file	Fitxer de vídeo que es converteix
+Audio Track	Pista d'àudio
+Impaired	Alteracions de la
+Channels	Canals
+Codec	Codec
+Video	Vídeo
+Duration	Durada
+Height	Alçada
+Width	Amplada
+Audio	Àudio
+Name	Nom
+Subtitle	Subtítol
+Volume	Volum
+Enable custom file renaming	Instal·lat rebateig d'arxiu de costum
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	Permetre això d'introduir un patró personalitzat per canviar el nom arxius convertits i carpetes. Introduïu el patró personalitzat a la caixa below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% # - S % temporada % ##E % episodi % #-% episodename % - %airyear%_%airmonth%_%airday%\r\n\r\nWill productes: \r\nTVShows\CSI\Season 1\CSI - S01E02 - millor de vegades - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill productes (per a pel. lícula) \r\n Recording\Movies\Star guerres-convertir-se. <ext>\r\nOR (per no pel lícules) \r\n Recording\TVShows\CSI\Season 1\CSI - S01E02 convertit.<ext>\r\n\r\nRefer a la MCEBuddy avançada documentació per obtenir una llista de totes les ordres del patró.
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	ShowAnalyzer no s'ha trobat. nSi descarregar i instal·lar ShowAnalyzer.
+ShowAnalyzer Missing	Falta ShowAnalyzer
+Invalid language code, reverting to <Default> language	Codi d'idioma no és vàlid, tornant a la llengua de <Default>
+Cut start	Tallar el començament
+Cut end	Tallada final
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	Això especifica el nombre de segons per tallar des del començament de la gravació (abans de treure els anuncis)
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	Això especifica el nombre de segons per tallar des del final de la gravació (abans de treure els anuncis)
+Send an eMail after each conversion.	Enviar un correu electrònic després de cada conversió.
+Send eMail	Enviar correu electrònic
+SMTP Server Name	Nom de servidor de SMTP
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	Introduïu el here\r\ne.g d'adreça de servidor de correu electrònic (SMTP) sortint. SMTP.gmail.com
+Port	Port
+Enter the SMTP server port	Introduïu el port de servidor de SMTP
+Use SSL	Utilitza SSL
+Check this if you SMTP server uses SSL	Seleccioneu aquesta opció si vostè SMTP server utilitza SSL
+e-Mail Settings	Configuració del correu electrònic
+From <e-Mail>	Des de <e-Mail>
+Enter the senders (From) eMail address here	Introduïu els remitents (des) adreça d'E-mail aquí
+To <e-Mails>	Per <e-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	Introduïu els destinataris (A) here.\r\nSeparate d'adreça d'E-mail múltiples destinataris amb una semicola (;)
+Send eMail on successful conversion	Enviar correu electrònic a conversió reeixida
+Send eMail on failed conversion	Enviar correu electrònic a conversió ha fallat
+Send eMail on cancelled conversion	Enviar correu electrònic a conversió cancel
+Send eMail on adding a conversion to the queue	Enviar correu electrònic en l'addició d'una conversió a la cua
+Please enter a valid server address	Introduïu una adreça de servidor vàlid
+Invalid SMTP Server	Servidor de SMTP no és vàlid
+Please enter a valid server port	Si us plau introdueixi un port de servidor vàlid
+Invalid SMTP Port	Port de SMTP no és vàlid
+Please enter a valid From eMail address	Si us plau entrar un vàlid D'adreça d'E-mail
+Invalid eMail Address	Adreça d'E-mail no és vàlid
+Please enter valid To eMail addresses	Si us plau introdueixi vàlid D'adreces de correu electrònic
+Username	Nom d'usuari
+<Optional> Enter the username for the eMail server authentication	<Optional>Introduir el nom d'usuari per a l'autenticació de servidor de correu electrònic
+<Optional> Enter the password for the eMail server authentication	<Optional>Entrar la contrasenya per a l'autenticació de servidor de correu electrònic
+MCEBuddy unable to download series information	Incapaç de descarregar informació de sèrie MCEBuddy
+MCEBuddy successfully converted a video	MCEBuddy ha convertit correctament un vídeo
+Source Video	Vídeo de font
+Converted Video	Vídeo convertit
+Converted At	Convertir-se a
+MCEBuddy failed to converted a video	MCEBuddy no ha pogut convertir un vídeo
+Failed At	No A
+MCEBuddy cancelled a video conversion	MCEBuddy cancel·leu una conversió de vídeo
+Cancelled At	Cancel·leu a les
+Working	Treballant
+Test	Prova
+Testing	Proves
+Click this button to test the eMail server settings	Feu clic a aquest botó per posar a prova les escenes de servidor de correu electrònic
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy s'enviarà un correu electrònic a provar el servidor settings.\r\nThis pot prendre fins a 60 seconds.\r\nMCEBuddy pot ser insensible durant aquest període.
+Test eMail	E-mail de prova
+MCEBuddy Test eMail	E-mail de prova de MCEBuddy
+MCEBuddy - Have a great day!	MCEBuddy - tenir un gran dia!
+Send eMail test successful	Enviament reeixit prova de correu electrònic
+Send eMail test failed! Please check your settings and internet connectivity	Enviar prova de correu electrònic ha fallat! Si us plau, comproveu la configuració i connectivitat d'internet
+Test eMail Success	L'èxit d'E-mail de prova
+Test eMail Failed	E-mail de prova fracassat
+Send eMail on start of conversion	Enviar correu electrònic a l'inici de conversió
+MCEBuddy started a video conversion	MCEBuddy va començar una conversió de vídeo
+Conversion Started At	Va començar a les de conversió
+Yes (Comskip)	Sí (Comskip)
+Yes (ShowAnalyzer)	Sí (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	Atleast que una tasca de conversió ha de ser permès
+Disable	Impossibiliti
+Enable	Instal·lat
+Rename	Canvia el nom
+Move	Moure's
+Up	Cap amunt
+Down	Avall
+Slow Remuxing	Lent Remuxing
+Extracting closed captions	Extracció de subtítols
+Validating closed captions	Validar subtítols
+Extracting subtitles	Extracció de subtítols
+Trimming closed captions	Llegendes retallada tancat
+Extract subtitles and closed captions	Extreure els subtítols i els subtítols
+Field	Camp
+Channel	Canal
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	Permetre això extreure Closed Captions, subtítols i Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV i altres files.\r\n\r\nIt admesos es guarda com un arxiu de subtítols (SRT).
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	Permetre que voleu establir opcions avançades per a extraction\r\nField de Closed Captions - 1 o 2\r\nChannel - 1 o 2\r\n\r\nDefault: camp 1, canal 1
+Subtitle offset	Subtítol òfset
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	Introduïu el número de segons (+ ve / - ve) per ajustar el sync de subtítols amb vídeo
+Re-ReMuxing due to audio error	Re-ReMuxing a causa d'error d'àudio
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	Salvar el cartell i mostrar informació (metadades) en un MC/XBMC compatible NFO fitxer (XML format)
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	Activeu aquesta casella per desar la informació de Mostra (metadades) a la file.\r\nThis convertit només funciona per a arxius que donen suport a les etiquetes com MP4, MKV, WTV etc.\r\n\r\nNOTE: Desmarqueu aquesta casella si vostè està enfrontant problemes amb alguns dispositius com la televisió més velles que tenen problemes de lectura metadades.
+Atleast one day of the week must be enabled	Atleast un dia de la setmana ha de ser permès
+Invalid Days of Week	No és vàlid dies de la setmana
+Invalid day of week found in configuration file	No és vàlid dia de setmana s'ha trobat en arxiu de configuració
+Scheduling	Programació
+Remuxing to	Remuxing a
+Part	Part
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	Resta ratolí sobre qualsevol botó, caixa o element per obtenir ajuda instantània en it.\n\nFor més informació sobre com utilitzar, solució d'errors o obtenir suport per a MCEBuddy feu clic a l'enllaç < Introducció a > a la corner.\n\nDonations dret superior són sempre benvinguts :) Gaudir! \n\n - Ramit, Derek & Oca
+Welcome to MCEBuddy	Benvingut a MCEBuddy
+Multichannel audio	Àudio multicanal
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	Registre d'entrada per permetre àudio multicanal, si el vídeo de la font és compatible amb l'àudio d'omissió de it.\r\nBy es limita a 2 canals (estèreo).
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	Rang dinàmic de compressió (República Democràtica del Congo) \r\nWhen l'origen és un àudio AC3, permetent la República Democràtica del Congo will\r\nreduce la diferència entre el fort i el soft\r\nsounds fent la pista d'àudio més even.\r\nIf que teniu un enregistrament d'àudio multicanal i you\r\nfeel que el volum és massa suau, podria ajudar a aquesta caixa de comprovació.
+FPS	FPS
+Logfile age (days)	Fitxer historial d'edat (dies)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	Nombre màxim de dies que es conservarà els fitxers de registre abans de suprimir them.\r\nSet a 0 per mantenir els registres per sempre.
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	Remuxing ràpid
+Byte stream remuxing	Remuxing de corrent de byte
+Disable cropping	Impossibiliti esquilada
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	Comprovi això impossibilitar el vídeo de cultiu d'automàticament durant conversion.\r\nCropping s'utilitza per eliminar les barres de"negres" en el vídeo (part superior, inferior, esquerra o right).\r\nUse aquesta opció si la imatge de vídeo està sent tallat en qualsevol lloc o si està buscant la imatge final s'estenia o distorsionat.
+Only detect Ads	Només detectar anuncis
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	Seleccioneu aquesta opció si voleu que MCEBuddy per detectar els anuncis (anuncis) però no tallar-los de la video.\r\nWhen que aquesta opció està activada, MCEBuddy crearà un arxiu d'EDL juntament amb l'arxiu convertit que especifica les ubicacions d'anuncis en el video.\r\nAlso convertit, per a MP4, M4V i arxius MKV MCEBuddy crearà capítols per marcar el final d'anuncis.
+Download information	Descarregar informació
+Correction	Correcció
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	Feu clic aquí per corregir la Mostra el títol i forçar l'ús d'un identificador de sèrie TVDB específic o IMDB pel·lícula id\r\nto cerca metadades addicionals des d'internet.
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	Comprovar-ho per baixar informació addicional d'internet sobre l'espectacle com un arxiu de banner, episodi, temporada etc
+Profile Error	Error de perfil
+Cannot find selected profile in profiles.conf	No puc trobar el perfil que heu triat a profiles.conf
+Invalid Profile	Perfil no és vàlid
+Please select a valid profile	Si us plau seleccioni un perfil vàlid
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	El motor de MCEBuddy s'ha estavellat. Si us plau enviï mcebuddy.log als desenvolupadors
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	Seleccioni l'arxiu de Comskip INI costum d'utilitzar per a aquest task\r\nLeave de conversió aquest buit per utilitzar l'arxiu d'INI de Comskip d'omissió per a la supressió de l'anunci
+Click to select custom Comskip INI file	Feu clic per seleccionar l'arxiu d'INI de Comskip de costum
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	Seleccioneu la carpeta per treballar amb fitxers temporals. Assegureu-vos que hi ha prou buida espai en la drive.\r\nLeave aquest buit d'utilitzar la carpeta de temp per defecte a la carpeta d'instal·lació.
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	Seleccioneu la carpeta per treballar amb arxius provisionals. Assegureu-vos que no hi ha que prou espai buit a la drive.\r\nThis invalida la carpeta de temp especificat a la configuració-> la pàgina de configuració de l'Expert.
+Click to select temp working folder	Feu clic per seleccionar la carpeta temp de treball
+Temp folder	Carpeta de temp
+Space check	Comprovació de l'espai
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	Quan permès MCEBuddy buscarà prou espai lliure per a la conversió (destinació i temp).\r\nUncheck això si teniu estan tenint problemes amb unitats de xarxa o tenir extraordinàriament grans arxius de vídeo.
+MCEBuddy Windows Event Logs	Registres d'esdeveniment de finestres de MCEBuddy
+Events	Esdeveniments
+Click here to open the MCEBuddy Windows Event Logs	Feu clic aquí per obrir els registres d'esdeveniment de finestres de MCEBuddy
+Enable UPnP	Instal·lat UPnP
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	Fes això per habilitar UPnP. Això permet l'accés al motor de MCEBuddy des de fora de el network.\r\nThis s'ha de comprovar si està utilitzant un client de MCEBuddy de mòbil/independent per accedir a MCEBuddy.
+Click here to connect to another MCEBuddy engine	Feu clic aquí per connectar-se a un altre motor de MCEBuddy
+MCEBuddy Remote Engine Connection	MCEBuddy remot connexió de motor
+Engine Name	Nom del motor
+Engine Port	Motor de Port
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	Escriviu el nom o adreça d'IP del motor que voleu connectar-vos a MCEBuddy
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	Introduïu el número de TCP Port del motor que voleu connectar-vos a MCEBuddy
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	Introduïu el número de TCP Port del motor MCEBuddy vol connectar-se a (1 a 63355)
+Invalid Name/Port	Nom/Port no és vàlid
+Please enter a valid Engine Name and Engine Port Number	Si us plau, introduïu un vàlid motor nom i número de Port de motor
+Error Stopping Engine	Motor d'aturar error
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	No es pot aturar el motor de MCEBuddy, escenes pot no desar. Voleu continuar?
+Unable to communicate with engine. Settings have NOT been saved.	No es pot comunicar-se amb motor. La configuració no s'han desat.
+Communication Error	Error de comunicació
+Engine not stopped. Settings have NOT been saved.	Motor no s'atura. La configuració no s'han desat.
+Unable To Save Settings	No es pot desar la configuració
+Unable to communicate with engine. UPnP settings have not been updated	No es pot comunicar-se amb motor. Configuració d'UPnP no s'han actualitzat
+Audio delay	Retard d'àudio
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	Introduïu un valor en segons (positius o negatius) aquí per canviar l'àudio en relació amb el video.\r\nUse això per resync l'àudio amb el vídeo, si són sense sincronització després conversion.\r\nA un valor positiu retardarà l'àudio (i.e. vídeo per davant d'àudio) i un valor negatiu es avançat l'àudio (i.e. àudio per davant de video).\r\nE.g. -1.5
+Media info	Informació multimèdia
+Click here to get media properties for selected files	Feu clic aquí per obtenir les propietats de mitjans de comunicació per a arxius seleccionats
+Save information	Guardar informació
+Add information	Afegir informació
+Shows a preview of the custom filename and path	Mostra una visualització prèvia del nom de fitxer personalitzada i camí
+Invalid Filename Pattern	Patró de nom de fitxer no és vàlid
+TVDB Series ID	Identificador de la sèrie TVDB
+IMDB Series ID	Identificador de la sèrie IMDB
+Original title	Títol original
+Corrected title	Corregit títol
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Introduïu l'ID de sèrie de TVDB que voleu utilitzar per descarregar Mostra el information.\r\nIf la caixa de títol Original és buit, això s'aplica a tots els espectacles seleccionats per aquesta tasca de conversió.
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Introduïu l'ID d'IMDB pel lícula que voleu utilitzar per descarregar pel lícula information.\r\nIf l'Original quadre títol és buit, això s'aplica a tots els espectacles seleccionats per aquesta tasca de conversió.
+Internet Lookup Title and Metadata Correction	Internet cerca títol i metadades correcció
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	Feu clic aquí per afegir una altra baralla per matx i corregir títols i sèries id.\r\nIf voleu utilitzar el mateix títol corregida o id de sèrie per a tots els espectacles convertits per aquesta tasca de conversió, \r\nleave el blanc de títol original a la primera fila i no cal afegir una segona fila.
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	Introduïu patró perquè coincideixi amb títols de la sèrie de demostració/correcció (p. ex. Simpson * substituiran tots els títols que tenen un títol Mostra el començant amb Simpson) \r\nPrefix patró amb ~ saltar-se el partit (p. ex. *. *; ~ Simpson * corregirà tot mostrar títols llevat dels que comencen amb Simpson) \r\nSeparate múltiple patrons amb; (p. ex. Simpson *;House*) o (p. ex. Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nNOTE: deixar buit si voleu aplicar el títol corregida o la identificació de sèrie a tots els expedients tramitats per aquest task.\r\nIf conversió deixant en blanc, es pot afegir un segon row.\r\n\r\nYou pot utilitzar una expressió regular perquè coincideixi amb el títol començant amb regex aquest quadre:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	Introduïu la nova/corregit títol que voleu utilitzar per descarregar informació addicional de la internet.\r\nIf l'Original quadre títol és buit, això s'aplica a tots els espectacles seleccionats per aquesta conversió task.\r\n\r\nYou pot utilitzar una expressió regular per corregir el títol començant amb regex:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	Per a cada fila, si us plau, introdueixi el títol Original perquè coincideixi amb el nom de Mostra i tampoc un corregides títol o un ID de sèrie TVDB/IMDB
+Please enter either a Corrected title or a TVDB/IMDB Series ID	Introduïu un títol corregides o un ID de sèrie TVDB/IMDB
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	Instal·lat això si vol MCEBuddy per posar el convertit l'arxiu en la directory\r\nif de la font el camí de destinació no està disponible. (p. ex la xarxa fracàs o el fracàs d'assignació)
+Fallback to source path	Fallback a camí d'origen
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	S'utilitza per augmentar o disminuir el volum de the\r\nrecording, mentre que converting.\r\n1 és normal, res per sota es reduirà, anything\r\nhigher s'incrementarà.
+Archive folder	Carpeta d'arxivament
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	Canviar la ubicació de l'arxiu folder.\r\nLeave buida d'utilitzar la carpeta d'omissió de "MCEBuddyArchive" al directori original.
+Monitor subdirectories	Monitor subdirectoris
+Check this box to also monitor all directories within the Monitor path	Activeu aquesta casella per controlar també tots els directoris en el camí de Monitor
+Click here to show MCEBuddy status	Feu clic aquí per mostrar l'estat MCEBuddy
+MCEBuddy service not connected	Servei de MCEBuddy no connectat
+MCEBuddy idle	MCEBuddy inactiu
+conversions in progress	conversions en curs
+MCEBuddy stopped	MCEBuddy es va aturar
+Sync converted files	Sincronitzar els arxius convertits
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	Marqueu aquesta opció si voleu que MCEBuddy per mantenir els arxius convertits en sincronia amb el files.\r\ni.e original. Quan els arxius originals són esborrats per l'usuari, els arxius convertits corresponents són també deleted.\r\n\r\nNOTE: MCEBuddy només controla arxius originals a les carpetes d'ubicacions de monitor i només mentre el motor és la running.\r\nMCEBuddy no serà capaç de rastrejar arxius d'usuari suprimit mentre el motor s'atura.
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	T'agradaria MCEBuddy de suprimir cada fitxer convertit quan s'ha suprimit el fitxer original?
+Confirm sync conversions?	Confirma les conversions de sincronització?
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	Esteu segur que no voleu treure anuncis de vídeo convertit i mantenir només l'arxiu d'EDL?
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer no està responent. Si us plau, torni a arrencar sistema o torneu a instal·lar el ShowAnalyzer.
+ShowAnalyzer Not Responding	ShowAnalyzer no respon
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	Assegureu-vos de prémer "Start" després de tancar aquesta finestra, en cas contrari planificació i estela no treballarà.
+Enabling Scheduling and Wake	Que permeten planificar i estela
+Passwords do not match	Les contrasenyes no coincideixen
+Password error	Error de la contrasenya
+Adding subtitles and chapters to file	Afegir subtítols i capítols de fitxer
+Send eMail if unable to download series information	Enviar correu electrònic si és incapaç de descarregar informació de sèrie
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	Activeu aquest quadre si voleu aquesta tasca de conversió a processar només arxius des de monitor concret locations.\r\nIf controla que cada tasca de la conversió processarà arxius des de totes les ubicacions de monitor (incloent-hi noves afegides posteriorment).
+Select Monitor Locations	Seleccioneu les ubicacions de Monitor
+Select atleast one Monitor Location name	Seleccioneu un nom de Monitor ubicació atleast
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	Heu seleccionat totes les actuals Monitor Locations.\r\nDo vol aquesta tasca de conversió per processar automàticament qualsevol noves ubicacions Monitor afegit en el futur?
+New monitor locations	Noves ubicacions de monitor
+Invalid selection	Selecció no és vàlida
+Channel name match	Partit de nom de canal
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Introduïu patró perquè coincideixi amb el nom de canal per a aquesta tasca (per exemple, ABC * convertirà tots els arxius que enregistrat en un nom de canal començant amb ABC) \r\nPrefix patró amb ~ saltar-se el partit (p. ex. *; ~ ABC * tractarà tots els canals, llevat dels que comencen amb ABC) \r\nSeparate múltiple patrons amb; (p. ex. ABC *;TBS*) o (p. ex. ABC *;Fox*; ~ Fox4 *) \r\n\r\nYou pot utilitzar expressions regulars perquè coincideixi amb el patró començant amb regex:
+Clear history	Neteja l'Historial
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	Feu clic a aquest botó per esborrar l'Historial de tots els files.\r\nThis convertit és causar MCEBuddy reconvertir tots els arxius estan sent monitoritzats.
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	Esteu segur que voleu esborrar l'Historial de totes les conversions? \r\nThis provocarà MCEBuddy reconvertir tots els arxius estan sent monitoritzats.
+Show history	Mostra l'Historial
+Click this button to show the history of all converted files.	Feu clic a aquest botó per mostrar la història de tots els arxius convertits.
+History of Converted Files	Història d'arxius convertits
+Unable to communicate with engine.	No es pot comunicar-se amb motor.
+Extracting streams	L'extracció de corrents
+Fallback muxing streams	Corrents de restricció muxing
+Remuxing TiVO file	L'arxiu de Remuxing TiVO
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	Introdueixi el seu número 10 clau de TiVO MAK per convertir i procés d'enregistraments de TiVO
+Invalid TiVO MAK Key	Clau invàlid TiVO MAK
+The TiVO MAK key should be 10 digits	La clau de TiVO MAK hauria de ser 10 dígits
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	La versió no coincideix. Si us plau, assegureu-vos que el client de MCEBuddy i el motor estan executant la mateixa versió.
+Error retrieving Event Logs	Error recuperar registres d'esdeveniment
+Unable to get Event Log Entries from the MCEBuddy engine.	Incapaç d'aconseguir les entrades del registre d'esdeveniments des del motor de MCEBuddy.
+PAUSED: Check conversion schedule	PAUSA: Horari de conversió de comprovació
+Logging	Connectar-se
+Folder Management	Gestió de carpeta
+Processor Management	Gestió de processador
+Expert Settings	Escenes d'experts
+System Settings	Configuració del sistema
+Click here to change additional settings (for experts only)	Feu clic aquí per canviar la configuració addicional (només per experts)
+Failed folder	Carpeta fallit
+Location of the folder that hold the original files for failed conversions.	Ubicació de la carpeta que contenen els arxius originals per conversions que han fallat.
+Move original file on failure	Moure l'arxiu original en fracàs
+Check this to move the original file to a separate folder if the conversion fails.	Marqueu aquesta opció per moure l'arxiu original en una carpeta separada, si falla la conversió.
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	Marqueu aquesta opció per limitar el nombre de processadors lògics que caixa de comprovació de use.\r\nEach de MCEBuddycan continuació correspon a un processador lògic disponible.
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Cada casella representa lògic processadors de 1 a 16 respectively.\r\nChecking una caixa permet MCEBuddy utilitzar aquest processador.
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Cada casella representa lògic processadors de 17 a 32 respectively.\r\nChecking una caixa permet MCEBuddy utilitzar aquest processador.
+Select atleast one processor to use	Seleccioneu almenys un processador d'utilitzar
+Invalid Configuration	Configuració no és vàlida
+Comskip path	Camí de Comskip
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	Si voleu utilitzar una versió personalitzada de Comkip (p. ex. la versió de donador) \r\nthen Ingressi al camí de la instal·lació de comskip here.\r\nLeave en blanc d'utilitzar el comskip d'omissió que ve amb MCEBuddy.
+Miscellaneous	Miscel·lània
+Ignore copy protection	Ignorar protecció de còpia
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	Marqueu aquesta opció per ignorar la bandera de protecció de còpia a arxiu de vídeo mentre converting.\r\nNOTE: MCEBuddy no pot prescindir de xifrat, això ajuda només si un fitxer és incorrectly\r\ntagged com còpia protegida quan no està xifrada.
+Use recycle bin	Ús Paperera de reciclatge
+Check this to use the recycle bin when files are deleted by MCEBuddy	Marqueu aquesta opció per utilitzar la Paperera de reciclatge quan els arxius són eliminats per MCEBuddy
+Poll period	Període d'enquesta
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	Aquesta és la freqüència amb què MCEBuddy analitza les ubicacions de les tasques de Monitor per a files.\r\nThe interval nou s'especifica en segons.
+Server port	Port del servidor
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	Això és el port TCP que mcebuddy utilitza per comunicar-se amb el engine.\r\nWhen remot està habilitat UPnP, MCEBuddy afegirà automàticament aquest port a la passarel·la d'UPnP de Firewall\r\nand de Windows per permetre l'accés d'internet en aquest port.
+Hang period	Penjar el període
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	Introduïu el nombre de segons que MCEBuddy esperarà una resposta de l'aplicació de the\r\nunderlying s'acaba abans l'aplicació com a hung.\r\nEnter 0 per impossibilitar descoberta de penjar.
+Subtitle commercial cut sync	Subtítol comercial tallar sincronització
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	Aquest paràmetre s'utilitza quan els subtítols progressivament de la sincronització després de cada segment comercial s'extreu de l'escena de video.\r\nThis se'n van s'utilitza per portar els subtítols de nou en sincronització amb el temps de video.\r\nEach que es va tallar el vídeo comercial, els subtítols són temps desplaçat per aquesta quantitat (+ ve o - ve en segons).
+Invalid poll period	Període d'enquesta no és vàlid
+Invalid server port	Port de servidor no és vàlid
+eMail Subject Customization	Tema de la personalització de l'E-mail
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	Ús aquesta secció per personalitzar el tema del correu electrònic enviat per MCEBuddy en els diversos esdeveniments de conversió que figuren below.\r\nRefer la documentació, d'ordres personalitzades a mida per a usuari definia variables.\r\ne.g. Mostrar èxit utilitzant tasca % taskname%\r\nNOTE % showname % per a la conversió de % d'arxius % nom fitxer original: no sempre totes les dades estaran disponibles en el costum commands.\r\nLeave en blanc d'utilitzar línies d'assumpte d'omissió.
+Success	Èxit
+Failed	Ha fallat
+Cancelled	Cancel. lat
+Download fail	Descarregar el suspens
+Limit processor utilization	Límit d'utilització de processador
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	Comprovi això per limitar el nombre de processadors lògics que MCEBuddy pot use.\r\nEach la casella de selecció següent correspon a un processador lògic disponible.
+Custom profile	Perfil personalitzat
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	Si teniu un fitxer de profiles.conf de costum que voleu utilitzar en comptes de the\r\none que ve amb MCEBuddy, ingressar al camí a l'arxiu here.\r\n\r\nNOTE: MCEBuddy constantment actualitzacions profiles.conf per proporcionar l'error arregla, millores \r\nenhancements i rendiment que es perdrà out\r\non si utilitza aquesta funció.
+Invalid custom profiles.conf	Profiles.conf personalitzat no vàlida
+Suspend on battery	Suspendre el bateria
+Suspend conversions when the computer switches to battery power	Suspendre les conversions quan l'ordinador canvia a l'energia de la bateria
+MCEBuddy added a video conversion to the queue	MCEBuddy afegit una conversió de vídeo a la cua
+Queue	Cua
+Refer to documentation on using custom commands in custom eMail subjects	Consulteu la documentació sobre l'ús d'ordres personalitzades a mida en assignatures d'electrònica personalitzada
+Could not copy information to Clipboard, please try again.	No pot copiar la informació al portapapers, si us plau provar una altra vegada.
+Error copying to Clipboard	Error de còpia al porta-retalls
+Copy to clipboard	Copiar al porta-retalls
+Reconvert files	Reconvertir arxius
+Are you sure you want to reconvert the selected files?	Esteu segur que voleu reconvertir els fitxers seleccionats?
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	Seleccionar els arxius que vol reconvertir i feu clic a d'aquesta button.\r\nIf que els arxius originals encara estan sent monitoritzats per MCEBuddy que en cua per a la reconversió.
+Time taken to convert	Temps dedicat a convertir
+Network authentication	Autenticació de la xarxa
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	Feu clic al botó d'entrar a l'autenticació credentials.\r\nThis xarxa de accions s'utilitza quan s'afegeixen arxius mitjançant l'afegir botó sobre la window\r\nor principal arrossegar i deixar anar des d'una porció de xarxa al quadre de l'estat de conversió a la finestra principal.
+Skip reconversion	Omet reconversió
+Do not reconvert the video if a converted file already exists in the destination directory.	No reconvertir el vídeo si un arxiu convertit ja existeix en el directori de destinació.
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	El filename prevista per a vídeo convertit (no el filename vídeo original) es compara amb els noms de fitxer en la destinació directory.\r\nIf l'arxiu convertit existeix, l'arxiu no es ser reconvertit i es presumirà per ser un èxit conversion.\r\nThis és útil si el mateix episodi Mostra el està sent enregistrades en diverses vegades i no vol reconvertir them.\r\n\r\nNOTE: Aquesta opció s'ignora per a vídeos que s'afegeixen manualment usant el botó Afegeix o arrossegant i deixant caure
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	Si està activat, Omet reconversió també comprovarà l'arxiu d'història per a conversions.\r\nThe passat espera filename per al vídeo convertit (no el filename vídeo original) es compara amb els noms de fitxer en la història file.\r\nIf el ser convertit filename (incloent-hi camí) coincideix amb qualsevol dels noms ja convertits (incloent-hi camins) a l'arxiu d'història de, l'arxiu de \r\nthe no es ser reconvertit i es presumirà que una conversió exitosa.
+Adding file to the iTunes library	Addició d'arxiu a la biblioteca d'iTunes
+Add to iTunes	Afegir a iTunes
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	Consultar aquest quadre per afegir automàticament els arxius convertits a l'iTunes library.\r\nThis només funciona amb iTunes arxius compatibles (p. ex. MP4, M4V, MP3 etc)
+Adding file to the WMP library	Addició d'arxiu a la biblioteca WMP
+Library Management	Gestió de la biblioteca
+Add to Windows Media Player	Afegir a Windows Media Player
+Check this box to automatically add the converted files to the WMP library.	Activeu aquest quadre per afegir automàticament els arxius convertits a la biblioteca de WMP.
+Renaming and Sorting	Canviar el nom i l'ordenació
+Selection Filters	Selecció de filtres
+Audio and Video	Àudio i vídeo
+Subtitles and Chapters	Subtítols i capítols
+Skip copying original files	Omet copiant els fitxers originals
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	CONSULTAR aquest quadre al seu propi RISK.\r\nDO no comprovar aquesta caixa llevat que vostè sap què ets DOING.\r\nCheck aquest quadre de saltar-se fent una còpia de seguretat del fitxer original (copiar) durant la conversió.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	CONSULTAR aquest quadre al seu propi RISK.\r\nDO no comprovar aquesta CASELLA llevat que sàpiga què estàs aquest quadre de saltar-se fent una còpia de seguretat del fitxer original (copiar) mentre converting.\r\nIf això és comprovat, l'arxiu original no es conservaran en cas d'un error.\r\nIt DOING.\r\nCheck pot conduir també fins i tot a fracassos de conversió o altres problemes imprevistos conversió.
+Are you sure you want to do this?	Esteu segur que voleu fer-ho?
+Media Information Management	Gestió de la informació dels mitjans de comunicació
+Force show type	Força Mostra el tipus
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	Estableix a forçar el tractament de la gravació com una pel·lícula de vídeo o TV Series.\r\nThis canviarà la manera informació addicional (metadades) sobre l'enregistrament és descarregat des de la internet.\r\nMovie - tractar la gravació com movie\r\nSeries - tractar la gravació com un Series\r\nSports de TV - tractar la gravació com un show\r\nDefault d'esports - ús de la informació per defecte disponible a les metadades d'enregistrament per determinar la pel·lícula o la sèrie de televisió
+Show type	Mostra el tipus
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	Seleccioneu-ho per filtrar el tipus d'enregistraments, sent converted.\r\n\r\nMovies - Seleccioneu-ho per convertir si el tipus de Mostra és Movie.\r\nShows - Seleccioneu-ho per convertir si la Mostra el tipus no és un Movie.\r\nSports - Seleccioneu-ho per convertir si el tipus de Mostra és Sports.\r\n\r\nNOTE: mostrar tipus es llegeix des de la gravació metadata.\r\nOnly donar suport a algunes gravacions Mostra el tipus de metadades com WTV and\r\nrecordings a donar suport a les metadades d'arxius (XML/ARG etc.).
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	Aquest quadre Mostra tots els arxius a la cua fitxers conversion.\r\nDrag i gota aquí o premeu el botó afegir per afegir fitxers a la cua de conversió
+Conversion	Conversió
+Files	Arxius
+Click this button to open or close the Advanced Settings section	Feu clic a aquest botó per obrir o tancar la secció de configuració avançada
+Running custom commands	Execució d'ordres personalitzades a mida
+Trimming video recording	Gravació de vídeo d'estiba
+Insert at top of queue	Insereix a la part superior de la cua
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	Per defecte, les conversions nous s'afegeixen al fons de la conversió queue.\r\nIf aquesta casella està marcada, qualsevol conversions de nous afegits per aquesta tasca serà afegit a la the\r\nbeginning (superior) de la cua de conversió (final).
+Add subtitles and chapters	Afegir subtítols i capítols
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	Habilitar aquesta opció afegir qualsevol subtitula extret i capítols al capítol convertit video.\r\nEach marca el final d'un comercial. Això només funciona amb formats suportats (per exemple, MKV, MP4).\r\n\r\nNOTE: alguns jugadors i TV majors no suporten incrustava subtitula i chapters.\r\nIf ets incapaç a de play back el vídeo convertit, provar de desactivar aquesta opció.
+Select best soundtrack	Seleccionar la millor banda sonora
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	Si el vídeo original té múltiples bandes sonores, aquesta opció li diu MCEBuddy per seleccionar el més adequat i primària soundtrack.\r\nIf vol una banda sonora de llenguatge específic, assegureu-vos entrar el nom de llengua o codi en l'idioma d'àudio box.\r\nCheck aquesta casella si que estan escoltant la banda sonora malament en el seu file.\r\n\r\nUncheck convertit aquesta casella si voleu MCEBuddy a conservar totes les bandes sonores des del vídeo original a l'arxiu convertit quan sigui possible. \r\nNOTE: uns perfils no suporten múltiples bandes sonores, en aquest cas aquesta configuració no té cap efecte.
+Enable remote access	Permetre l'accés remot
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	Això crea una excepció en el firewall de windows per a l'aplicació de MCEBuddy i el port.\r\nThis s'exigeix si teniu activat el tallafoc del windows i voleu utilitzar UPnP, l'accés remot client\r\nor el motor utilitzant un address.\r\n\r\nNOTE IP: si té un firewall personalitzat, això no pot funcionar, vostè haurà de crear manualment an\r\nexception pel servei de MCEBuddy i el port.
+Unable to communicate with engine. Firewall exception settings have not been updated.	No es pot comunicar-se amb motor. Configuració d'excepció de tallafoc no s'han actualitzat.
+Detect and optimize video quality	Detectar i optimitzar la qualitat de vídeo
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	En habilitar-lo, MCEBuddy optimitzarà les opcions de processament de vídeo intentant detectar la font de vídeo type.\r\nThis pot millorar la qualitat de vídeo convertida significativament si correctament detected.\r\n\r\nNOTE: fa això intentant detectar el tipus de font de vídeo (entrellaçades, progressista o telecine).\r\nIf és capaç de detectar el tipus de font de vídeo, invalidarà els paràmetres corresponents a la profile.\r\nTurn aquesta opció fora si s'enfronten a problemes amb la qualitat de vídeo convertida o voleu fer servir els paràmetres perfil per defecte.
+Are you sure you want to delete this task?	Esteu segur que voleu suprimir aquesta tasca?
+Delete Task	Suprimeix la tasca
+Enter the new task name	Introduïu el nom de tasca nova
+Rename Task	Canviar el nom de tasca
+MCEBuddy PAUSED	MCEBuddy PAUSAT
+idle	desocupat
+PAUSED	EN PAUSA
+Frame rate	Proporció d'estructura
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	Permetre això establir un costum framerate (FPS) per la video.\r\nYou convertit podríeu necessitar ajustar això durant la conversió de formats de vídeo (p. ex. PAL per NTSC) \r\nor per a dispositius que suporten només específiques framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001
+Skip remuxing files	Salti's arxius remuxing
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	CONSULTAR aquest quadre al seu propi RISK.\r\nDO no comprovar aquesta caixa llevat que sàpiga què ets DOING.\r\nCheck aquest quadre de saltar-se remuxing l'arxiu original a un arxiu de TS mentre converting.\r\nIf està marcada, algunes funcions com extracció subtítol o comskip pot no work.\r\nIt també fins i tot pot conduir a errors de conversió o altres problemes imprevistos conversió.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	CONSULTAR aquest quadre al seu propi RISK.\r\nDO no comprovar aquesta caixa llevat que vostè sap què ets DOING.\r\nCheck aquest quadre de saltar-se remuxing l'arxiu original a un arxiu de TS durant la conversió.
+Monitor converted videos	Monitor convertir vídeos
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	Per defecte Monitor localitzacions ignorarà fitxers que ja s'han converted.\r\nCheck aquesta casella si també voleu controlar arxius convertits en la Path.\r\nCAUTION Monitor: això pot conduir a un bucle infinit conversió d'arxius convertits si no configurat properly.\r\n\r\nThis pot ser útil quan els que especifica el directori de sortida d'una conversió task\r\n (arxiu convertit) com el camí de Monitor d'una ubicació de Monitor i vinculació the\r\nMonitor Ubicació a una altra tasca de conversió.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	CONSULTAR aquest quadre al seu propi RISK.\r\nDO no comprovar aquesta caixa llevat que vostè sap què ets DOING.\r\nBy Monitor ubicacions per omissió ignorarà fitxers que ja s'han converted.\r\nCheck aquesta casella si també voleu controlar arxius convertits en el camí de Monitor.
+Hardware encoding	Codificació de maquinari
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	Consultar aquest quadre per utilitzar maquinari codificació quan estigui disponible convertir videos.\r\nThis pot accelerar la conversió significativament i reduir la utilization\r\nbut CPU que pot provocar lleugerament més baixa qualitat videos.\r\n\r\nUncheck aquest quadre si vostè està enfrontant problemes de qualitat o conversió.
+Do not overwrite files	No sobrescriure els fitxers
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	Quan aquesta casella està marcada, el fitxer de destinació no se sobreescriurà si que ja es crearà un nou fitxer exists.\r\nInstead amb un número únic afegit a l'extrem del filename.
+Re-monitor recorded videos	Tornar a vigilar vídeos enregistrats
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	Per defecte, una vegada que un arxiu de font (Recorded vídeo) s'ha convertit, \r\nthe història de monitor seguiran el filename i no cua de la mateixa again.\r\n\r\nEnable arxius aquesta opció ignorar la història i controlar tots els fitxers i afegir-los to\r\nthe cua de conversió, fins i tot si ja han estat converted.\r\n\r\nThis pot ser útil a vegades, si el programari de gravació no genera a\r\nunique nom del fitxer per a cada episodi/espectacle. Es recomana utilitzar l'opció de fitxer original de the\r\nDelete a la pàgina de configuració quan s'utilitza aquesta opció al bucle infinit conversió de avoid\r\nan.
+Recommendation	Recomanació
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	Per evitar un bucle infinit conversió, es recomana configurar el seu patró de cerca Monitor de manera com per assegurar que els arxius convertits no estan sent monitoritzats per aquesta tasca de Monitor.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	CONSULTAR aquest quadre a la seva pròpia omissió DOING.\r\nBy RISK.\r\nDO no comprovar aquesta caixa llevat que vostè sap què ets que monitor localitzacions no es remonitor gravar vídeos que han estat processed.\r\nCheck aquest quadre si voleu remonitor i reconvertir els vídeos enregistrats.
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	Per evitar un bucle infinit conversió, és recomanable que tens suprimir opció de fitxer original a la pàgina de configuració.
+Prioritize air date matching	Prioritzar aire data es posin en venda
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy utilitza el nom de l'episodi d'igualar la sèrie information\r\nwhile buscant a internet. Si això falla llavors utilitza la data original de broadcast\r\nair perquè coincideixi amb la metadata.\r\n\r\nCheck aquest quadre per utilitzar la data d'emissió aire original primer i llavors the\r\nepisode nom perquè coincideixi amb la informació de sèrie de la internet.\r\nThis pot ser útil en alguns casos quan múltiples estacions tenen el nom de same\r\nepisode. Per exemple, Americal ídol, audició 1\r\n\r\nNOTE: Original data d'emissió d'aire no és sempre acurada conjunt per the\r\nbroadcaster i a vegades la informació a internet és incorrect.\r\nUse aquesta opció només si l'opció per defecte no està funcionant per vostè.
+Skip eMail body	Omet correu electrònic cos
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	Comprovar aquesta opció d'utilitzar un òrgan buit en la notificació eMail.\r\nThis pot ser útil si vostè està utilitzant una passarel·la SMS per a notificacions per correu electrònic.
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	Selecció basada en direcció dreta Digital (DRM) és available\r\nonly quan rebatejar sense convertir (rebatejar i moure només) opció és selected.\r\n\r\nAll - Selecciona tots els arxius per al processament, amb independència de la protecció de còpia status\r\nProtected - només seleccioni els arxius que són còpia protected\r\nUnprotected - només seleccioni arxius que no tenen protecció de còpia
+Download cover art	Descarregui portades
+Enable this to download the cover art from the original video and internet if available.	Permetre això descarregar les portades del vídeo original i internet si està disponible.
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	Esteu segur que voleu introduir un nom de domini? \r\n\r\nUse aquest només si esteu utilitzant un controlador de domini Windows per gestionar el teu authentication.\r\nDo no utilitzar això si ets part d'un Workgroup.\r\n\r\nIf estàs insegur clic no.
+Configuration Warning	Avís de configuració
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	Crea una carpeta anomenada "MCEBuddyArchive", on l'arxiu original és located\r\nand mou l'arxiu original en aquest directori després un èxit conversion.\r\n\r\nThis nom de la carpeta i ubicació ser canviat per sota.
+Monitoring	Monitorització
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	Si voleu convertir l'arxiu EDL en capítols, assegureu-vos que vostè comprovar l'opció "Afegir subtítols i capítols" escenes d'Expert.
+EDL to Chapters	EDL capítols

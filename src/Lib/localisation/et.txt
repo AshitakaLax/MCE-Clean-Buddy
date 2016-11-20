@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy kasutavad praegu sisse loginud kasutaja ühendamiseks võrguga aktsiate, mida ta kasutab oma konto.  Veenduge, et määrata kasutaja ühendusteabe (MCEBuddy peamiste ikooniga)
+Connection Reminder	Ühendus meeldetuletus
+Description	Kirjeldus
+Path	Tee
+is invalid	ei sobi
+Invalid Path	Sobimatu tee
+Please supply a task name	Palun sisestage tööülesande nimi
+No name supplied	Nime pole esitatud
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	Palun sisestage 3 kohaline keelekood pala või valige <Default>või <Original>
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	Veenduge, et see ühtib Algne recording.\r\nTo hankimine on salvestatud algfailis palad keeletähist helipalade jaoks keele tähis valitud language\r\nMake ISO kood 3 number lisada file\r\nto järjekorda ja paremale klõpsake seda. Nähtavale aken avaneb, mis näitab heli details\r\nwhich sisaldama iga helipala keelekoode.
+Invalid Language Code	Lubamatu keele tähis
+No destination directory provided, converted file will be placed in original video directory	Nr sihtkausta tingimusel, paigutatakse teisendatud faili algse video register
+A task name or section	Jaotises tööülesande nimi või
+already exists\n\rPlease use another name	juba exists\n\rPlease kasutage mõnda muud nime
+Duplicate Name	Duplikaatnimi
+Engine	Mootor
+Tasks	Ülesanded
+Profile	Profiili
+disposing	võõrandamine
+Task name	Toimingu nimi
+Give a unique name to this task	Selle ülesande anda kordumatu nimi
+Gives a short description for the selection conversion profile	Annab valiku teisendamise profiil lühike kirjeldus
+Click to select destination folder	Valige sihtkaust
+Destination	Sihtkoht
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	Valige kataloog, kui teisendatud faili saab hoida samas kaustas, kui originaalil teisendatud faili video sel tühja placed.\r\nLeave.
+Max width	Max laius
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	See piirab muundatud file.\r\nTIP video suurim laius (pikslites): ei kohaldata, kui algne fail on laiusega väiksem kui soovite säilitada algse video eraldusvõime liikuda liugurit paremale kogu tee selle number.\r\nIf.
+Quality	Kvaliteedi
+Ad remover	Reklaami remover
+None	Ükski
+Get series details from Internet	Sarja üksikasjade hankimine Internetist
+Download additional details about the movie or series from the internet	Filmi või seeria kohta täiendavaid üksikasju Internetist alla laadida
+File name match	Faili nimi vaste
+Recording title match	Salvestuse nimetus vaste
+Cancel	Loobu
+OK	Ok
+Rename without converting	Ühelahtrilisi ümbernimetamine
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	Kontrollige selle suvandi ainult nimetada ja kopeerida originaal failid sihtkohta folder.\r\nWhen kontrollida, muundamise, korrastamist, audio/video töötlemine ja kaubandusliku eemaldamist ei saa available.\r\n\r\nNOTE: muu toimib nagu vastavuses olevate filtrite, kaevandavad subtiitrid, salvestamist metaandmete ja kaubandusliku avastamine (EDL faili salvestamine) \r\nwill veel kasutada seda suvandit checked.\r\nIf teisaldatav asemel koopia, kontrollige kopeerimine Algne variant ekspert seaded selle lehe või select\r\nDelete algse faili põhiseaded lehe vahele.
+Rename and sort by video information	Ümber nimetada ja sortida video teave
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	Nimetab ümber teisendatud faili ja asetab ta uus kataloog, mis põhineb Näita/sarja teave kui available\r\n (nt ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	Sisestage kasutajanimi ja parool juurdepääs kaustadele, võrgudraivi või mõnes muus arvutis olevaid
+Organize by seasons	Aastaajad ja korraldamiseks
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	Korraldada kaustad poolt Showname ja periood Millal saadaval (Media Center/XBMC/Plex ühilduv nimetamistava) \r\n (nt Showname\\Season XX\\SXXEYY-episoodi nimi)
+Audio language	Heli keel
+Advanced Settings	Täpsemad sätted
+General Settings	Üldsätted
+Conversion Task	Muutmise ülesanne
+Password	Parool
+Confirm Password	Kinnita parool
+Domain / computer name	Domeen / arvuti nimi
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	<Optional>Enter kui võrgus kaugdraivi kasutab domeeni authentication.\r\nDo Sisesta siia tiimitöö. Jätke see tühjaks, kui te kasutate töörühmaga.
+User name	Kasutaja nimi
+Enter the username to access the remote computer or network drive	Sisestage kasutajanimi kaugabi arvuti või võrgu draivi avamiseks
+Enter the password to access the remote computer or network drive	Kaugabi arvuti või võrgu draivi avamiseks parooli sisestamine
+Network Connection User Credentials	Ühenduse kasutaja mandaat
+Password Mismatch	Parool ei ühti
+Passwords do not match, please reenter the passwords	Paroolid ei kattu, Palun sisestage paroolid
+Hour	Tund
+Minute	Minut
+Wake	Äratada
+Start	Start
+Resume	Jätka
+Pause	Paus
+Stop	Stopp
+Language	Keel
+Pause conversion tasks	Peata konverteerimise ülesanded
+Resume conversion tasks	CV muutmise ülesanded
+Please enter a valid time	Palun sisesta korrektne kellaaeg
+Invalid Time	Sobimatu aeg
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	Peatamisaeg on aeg. Eeldades, et lõppaeg on järgmise päeva jooksul, on see õige?
+Time Check	Aeg
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	Ainult valige see suvand, kui MCEBuddy on olnud teie failide teisendamine usaldusväärselt vastuvõetava aja jooksul. Kas soovite MCEBuddy iga originaalfaili pärast teisendamist kustutada?
+Confirm delete originals?	Kinnita kustutamine originaalid?
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy jälgib automaatselt teisendada videofailide puhul need kataloogid
+Conversion tasks	Teisenduse ülesanded
+Delete original file	Kustutage algne fail
+Deletes the original recording after a successful conversion	Kustutab pärast edukat teisendamist Algne registreerimine
+Min age before conversion (hours)	Enne teisendust min vanus (tundi)
+Minimum hours to wait before converting each file after the file is added to the queue	Minimaalne tundi enne iga faili teisendamine pärast faili lisada järjekorda
+Use this to change the language of the text on the screen	Selle abil saate muuta ekraanil teksti keel
+Concurrent conversions	Samaaegset teisendust
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	Samaaegne konversioonide MCEBuddy saab start\r\nNOTE: on väga suur vaba kõvaketta ruumi ja protsessori aja vajadus rohkem kui 2 üheaegse konverteerimine
+Logging level	Logimise taseme
+Error	Tõrge
+Warning	Hoiatus
+Information	Teave
+Debug	Silumine
+Log conversion jobs	Logi teisendamine töökohtade
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	Salvesta logifail iga tulemus on \'logs\ "kataloogi, kus siis, kui MCEBuddy on installed\r\n (nt C:\\Program Files\\MCEBuddy2x\\logs)
+Allow sleep	Luba unerežiimi
+If unchecked, it prevents the system from entering sleep while converting	Kui kontrollimata, see takistab sisenemist unerežiimi teisendamisel süsteem
+Stop at	Peatu
+No new conversions would be started after this time	Ühtegi uut ümberarvestuste oleks alustanud selle aja möödudes
+minute	minut
+hour	tund
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	Kui kontrollitud MCEBuddy äratab sleep\r\nat süsteemi määratud algusaeg ja lubatud nädalapäevadel.
+Start at	Alustatakse
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy uus konverteerimiste algusest käivitamiseks ja seiskamiseks time.\r\n\r\nThe algus aeg kasutatakse lubatud päeva nädalas, whereas\r\nthe lõpu aega saab kasutada kas samal päeval or\r\nfor järgmisel päeval kui lõpuaeg on hilisema lõpuaja.
+Delete	Kustuta
+Add	Lisamine
+Change	Muuda
+Archive original file	Algne arhiivifaili
+Domain name	Domeeni nimi
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	Monitor ja konversiooni ülesanded ja kordab avab lehe konfigureerida MCEBuddy
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	Loob kausta nimega \'MCEBuddyArchive\' kui algne fail on located\r\nand liigub orginal fail selles kaustas pärast edukat conversion.\r\n\r\nThis kausta nime ja asukohta muuta süsteemi seadete lehel.
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	Silumine - logisid, aitab jälgede teisendus problems\r\nInformation - logid põhiteavet conversion\r\nWarning - logi võimalikud probleemid või kriitilise rikete only\r\nError - ainult logi kriitiline rikete
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	Valige teisenduse profiil selle ülesandega seotud. Teisendamise profiil tähistab väljundi vormingu ja kvaliteedi ümberarvestuste kauem teisendamiseks teisendatud file.\r\nHigher kvaliteedi eest. Reccomended vaikimisi: MP4 kõrge kvaliteediga või AVI Normal.\r\n\r\nTIP: viitavad MCEBuddy saatekava täpsemalt parameetrite Nykäys teisendamine profiilid või luua oma teisendamine profiilid
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	Valige programm, MCEBuddy kasutada toidusedelist kõik kaubaautod teisendamisel pole jätta kaubaautod ümber video.\r\n\r\nTIP video.\r\nSet: Kasuta ShowAnalyzer asemel Comskip, laadige ja installige ShowAnalyzer.\r\nShow analüsaator versioon 1.0 ja suurem toetatud.
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	Muuta teisendatud failis, tavalise video kvaliteet on 1.\r\nA suurem arv kvaliteedi parandamiseks, kuid võtab rohkem aega conversion.\r\nA väiksema arvu vähendada kvaliteeti vaid speed up the conversion.
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Sisestage mustrit sobitada failinimesid selle ülesande (nt *.wtv teisendab kõik failid laiendiga .wtv)\r\nPrefix mustriga ~ vahele vaste (nt *. *; ~*.wtv töötleb kõiki faile välja arvatud lõpetades .wtv)\r\nSeparate mitme harjumuspärase; (nt *.wtv; ncis *; ~ ncis miami *) töötleb kõik failid .wtv ja kõik failid, alustades ncis, kuid mitte neid alustades ncis miami\r\n\r\nYou saate kasutada regulaaravaldisi alustades regex sobitada muster:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Sisestada muster Näita/sarja nimetusi (nt Simpson * teisendab kõik failid, mis on Näita pealkiri alustades Simpson) ülesandeks sobitada \r\nPrefix muster ~ vahele mängu (nt *; ~ Simpson * töötleb kõiki Näita tiitleid välja arvatud need, mis algavad Simpson) \r\nSeparate mitu mustrid koos; (nt Simpson *;House*) või (nt Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nYou saab kasutada regulaaravaldisi alustades regex sobitada muster:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	Seda saab kasutada alistada default helikeel on heli mitmekeelseid recording.\r\nTo saada nimekirja registreerimine, Audio keele faili järjekorda paremklõps ja vali MediaInfo.\r\n\r\n <Default>üritab hoida kõik audio palad kui toetatud või lasta valida vaikimisi heli track\r\n <Original>kodeerija, kui see on olemas, kasutab [dubleeritud] salvestus originaalkeeles
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	Sisestage "[video]" või teisendada kõik video files\r\nEnter muster failinimed selle asukoha sobitada tühjaks (nt *.wtv teisendab kõik failid .wtv)\r\nprefix mustrit, milles lõpeb ~ vaste juurde (nt *. *; ~*.wtv töötleb kõiki faile, välja arvatud .wtv)\r\nseparate lõpeb koos mitme mustrid; (nt *.wtv, ncis *; ~ ncis miami *) töötleb kõiki .wtv failid ja kõik failid, alustades ncis, kuid mitte nõudeid, alustades ncis miami
+MCEBuddy Settings	MCEBuddy sätted
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy kasutavad praegu sisse loginud kasutaja ühendamiseks võrguga aktsiate, mida ta kasutab oma konto.  Veenduge, et määrata kasutaja ühendusteabe [MCEBuddy peamiste ikooniga]
+Please supply a source name	Palun sisestage allika nimi
+Please supply a search path name	Palun esitage path otsingunime
+A source name or section	Andmeallika nimi või sektsiooni
+already exists. Please use another name	on juba olemas. Palun kasutage mõnda muud nime
+Monitor name	Kuvari nimi
+Give this a location a unique name	Anna see asukoht kordumatu nimi
+Monitor path	Kuvari tee
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	Valige kataloog, mis jälgib MCEBuddy uue videofailide teisendamine automaatselt taust
+Click to select the folder to monitor	Valige jälgimiseks kaust
+Search pattern	Otsimismall
+SourceForm	SourceForm
+Monitor Location	Kuvari asukoht
+Normal	Normaalne
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: pipeProxy mootori ühenduse tõrge
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: Ei saa luua MCEBuddy teenuse toru
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	MCEBuddy teenus pole saadaval. Palun käivitage Windowsi juhtpaneeli control panel või Kontrollige mootori.
+Announcement	Teadaanne
+New version 	Uus versioon 
+available	saadaval
+New BETA version 	Uus beeta versioon 
+Click here to download new version of MCEBuddy	MCEBuddy uue versiooni allalaadimiseks klõpsake siin
+Click here to open link	Vajuta siia, et avada link
+Idle	Jõudeolekus
+Closing	Sulgemine
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI: Ei saa värskendada ülesanded
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: MCEBuddy teenust ei saa käivitada
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: MCEBuddy teenust ei saa peatada
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI: Ei saa tühistada töö
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	Hoiatus: Võrgustatud faile näidatakse juurde MCEBuddy teenust, ei ole hetkel sisselogitud kasutaja sisselogimise mandaadi abil. MCEBuddy on võimalik määrata käsitsi võrgumandaadiga-> ekspert seadete lehel seaded.
+Credential Warning	Mandaat hoiatus
+Status	Olek
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI: Ei saa lisada töö
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: Ei saa tuua toru aktiivne olek
+The conversions must be stopped to change settings. Stop the conversions?	Ümberarvestuste peatada sätteid muuta. Peatus ümber?
+Stop Engine	Peata mootor
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI: Sätted klõpsake nuppu MCEBuddy teenust ei saa peatada
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: Ei saa Skanni uuesti failid
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: Ei saa avada link
+Close	Sulgege
+Close this window, MCEBuddy will keep running in the background	Sule see aken MCEBuddy on hoida taustal
+If you like MCEBuddy, please click here to Donate - THANKS	Kui soovite MCEBuddy, palun kliki siia, et Donate - tänu
+Click here to like MCEBuddy on facebook	Vajuta siia, et meeldib MCEBuddy Facebookis
+Click here to open MCEBuddy website	Klõpsake siin, et avada MCEBuddy veebileht
+Rescan	Skanni uuesti
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	Vägede MCEBuddy ülekontrollimiseks uue videofailide teisendamine monitori asukohad
+Monitor locations	Monitor asukohad
+Settings	Seaded
+Select the file(s) in the queue to delete	Vali fail(id) järjekorra kustutamine
+Manually add video file(s) to the queue to convert	Käsitsi lisada video failid teisendada järjekorda
+Start the MCEBuddy monitor and conversion tasks	Käivitage MCEBuddy kuvari ja ümberkorraldamise ülesanded
+Stop the MCEBuddy monitor and conversion tasks	Lõpeta MCEBuddy kuvari ja ümberkorraldamise ülesanded
+There is a new version!	See on uus versioon!
+High	Kõrge
+Low	Madala
+Priority	Prioriteet
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	Prioriteet - teisendamine kiiremini, kuid võib teha teiste avatud rakenduste unresponsive\r\nLow prioriteet - teisendamine taustal, kuid teiste avatud rakenduste vähendada häireid
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	Ülesanne on teisendamise mall, mis sisaldab teisenduse profiil ning eri teisendamine parameters.\r\nEach järjekorda lisada faili on töödeldud ja iga nende tasks.\r\nRefer kohta kuidas töötavad ülesannete MCEBuddy Guide ümber.
+Getting started	Alustamine
+Click here for MCEBuddy guide	Vajuta siia, et MCEBuddy juhend
+Logs	Palke
+Click to open log folder	Klõpsake, et avada logi kausta
+MCEBuddy Status	MCEBuddy olek
+add	lisamine
+delete	Kustuta
+paypal-donate	PayPal-Kingi
+stop	Stopp
+OUTPUT: ConsoleOuput received NULL data	VÄLJUND: ConsoleOuput saadud andmeid NULL
+hours	tundi
+minutes	minutit
+second	teine
+seconds	sekundit
+Starting	Alates
+Comskip advertisement scan - Pass 1	Comskip reklaam skannimine - 1 läbima
+Comskip advertisement scan - Pass 2	Comskip reklaam skannimine - 2 läbima
+Cutting commercials from video	Video lõikamine kaubaautod
+Cutting commercials from video - segment 	Lõikamine kaubaautod videost - segmendi 
+Merging commercial free segments into new video	Kaubandusliku vaba segmentide ühendamine Uues videos
+Moving converted file to destination	Liikuva teisendatud faili sihtkohta
+Checking for disk space	Kettaruumi kontrollimine
+Getting show information and banner from Internet sources	Näita teavet ja bänner saada Interneti allikatest
+Copying source file to working directory	Töökaust allikas faili kopeerimine
+Remuxing recording	Remuxing salvestamine
+ShowAnalyzer advertisement scan	ShowAnalyzer reklaam skannimine
+Comskip advertisement scan	Comskip reklaam skannimine
+Analyzing video information	Video teabe analüüsimine
+Converting	Teisendamine
+Removing commercials	Kaubaautod eemaldamine
+Writing show information	Kirjalik teave
+Renaming file using show information	Näita teavet faili ümbernimetamine
+Success - All done!	Edu - kõik valmis!
+Muxing streams	Muxing voogude
+Fallback remux	Varurežiimi remux
+Correcting audio delay	Millega parandatakse heli viivitus
+Converting video file - Pass 1	Videofaili - 1 läbima teisendamine
+Converting video file - Pass 2	Videofaili - 2 läbima teisendamine
+Converting video file	Videofailide teisendamine
+Audio Track	Helipala
+Impaired	Nägemispuudega
+Channels	Kanalid
+Codec	Kodek
+Video	Video
+Duration	Kestus
+Height	Kõrgus
+Width	Laius
+Audio	Heli
+Name	Nimi
+Subtitle	Alamtiitli
+Volume	Maht
+Enable custom file renaming	Lubada kohandatud faili ümbernimetamine
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	Lubage see sisestada kohandatud mustri ümber nimetada ümber faile ja kaustu. Sisestage kohandatud mustri kasti below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S % hooajal % ##E % episood % ##-% episodename % - %airyear%_%airmonth%_%airday%\r\n\r\nWill toodang: \r\nTVShows\CSI\Season 1\CSI - S01E02 - parematel aegadel - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill (filmi) toota \r\n Recording\Movies\Star sõdade ümber. <ext>\r\nOR (mitte filmide puhul) \r\n Recording\TVShows\CSI\Season 1\CSI - S01E02 ümber.<ext>\r\n\r\nRefer on MCEBuddy arenenud muster käskude loendi dokumentatsioonist.
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	Ei leia ShowAnalyzer. \nPlease alla laadida ja installida ShowAnalyzer.
+ShowAnalyzer Missing	ShowAnalyzer puuduvad
+Invalid language code, reverting to <Default> language	Lubamatu keele tähis, <Default>keel ennistamine
+Cut start	Start lõigatud
+Cut end	Lõigatud ots
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	See määrab sekundites (enne eemaldamist reklaame) salvestamise alustamist lõigata
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	See määrab sekundites (enne eemaldamist reklaame) salvestuse otsast lõigata
+Send an eMail after each conversion.	Saada eMail pärast iga teisendamist.
+Send eMail	Saada meilisõnum
+SMTP Server Name	SMTP-serveri nimi
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	Saate sisestada väljamineva e-posti (SMTP) server aadressil here\r\ne.g. SMTP.Gmail.com
+Port	Port
+Enter the SMTP server port	Sisestage SMTP-serveri port
+Use SSL	Kasuta SSL-I
+Check this if you SMTP server uses SSL	Märkige see, kui te SMTP server kasutab SSL-I
+e-Mail Settings	e-posti seaded
+From <e-Mail>	Alates <e-Mail>
+Enter the senders (From) eMail address here	Sisestage saatjad () e-posti aadress siia
+To <e-Mails>	-<E-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	Sisestage adressaatide (To) e-posti aadress here.\r\nSeparate mitmele adressaadile semikooloniga (;)
+Send eMail on successful conversion	Saada meilisõnum edukas teisendamise kohta
+Send eMail on failed conversion	Saada meilisõnum nurjus teisendamise kohta
+Send eMail on cancelled conversion	Saada meilisõnum tühistatud teisendamise kohta
+Send eMail on adding a conversion to the queue	Saata e-posti lisamise järjekorda muutmise kohta
+Please enter a valid server address	Palun sisestage sobiv severi aadress
+Invalid SMTP Server	Sobimatu SMTP-Server
+Please enter a valid server port	Palun sisestage kehtiv serveri port
+Invalid SMTP Port	Sobimatu SMTP-Port
+Please enter a valid From eMail address	Palun sisestage kehtiv e-posti aadress
+Invalid eMail Address	Lubamatu e-posti aadress
+Please enter valid To eMail addresses	Palun sisestage kehtiv e-posti aadressid
+Username	Kasutajanimi
+<Optional> Enter the username for the eMail server authentication	<Optional>Sisestage e-posti serveri autentimise kasutajanimi
+<Optional> Enter the password for the eMail server authentication	<Optional>Sisestage e-posti serveri autentimise jaoks parool
+MCEBuddy unable to download series information	MCEBuddy ei saa alla laadida sarja teave
+MCEBuddy successfully converted a video	MCEBuddy edukalt ümber video
+Source Video	Allika Video
+Converted Video	Teisendatud Video
+Converted At	Teisendatud
+MCEBuddy failed to converted a video	Teisendatud video ei suutnud MCEBuddy
+Failed At	Nurjus
+MCEBuddy cancelled a video conversion	MCEBuddy tühistatud video tulemus
+Cancelled At	Tühistada ning
+Working	Töötamine
+Test	Katse
+Testing	Katsetamine
+Click this button to test the eMail server settings	Klõpsake seda nuppu e-posti server sätete testimiseks
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy saab saata e-posti server settings.\r\nThis katse võib võtta kuni 60 seconds.\r\nMCEBuddy võib olla ei vasta kõnealuse ajavahemiku jooksul.
+Test eMail	Katse e-posti
+MCEBuddy Test eMail	MCEBuddy Test e-posti
+MCEBuddy - Have a great day!	MCEBuddy - on suur päev!
+Send eMail test successful	Saada e-posti katse edukaks
+Send eMail test failed! Please check your settings and internet connectivity	Saada e-posti katse nurjus! Palun kontrollige oma sätteid ja Interneti-ühendus
+Test eMail Success	Edu katse e-posti
+Test eMail Failed	Katse meilisõnum nurjus
+Send eMail on start of conversion	Saada meilisõnum teisendamise alustamist
+MCEBuddy started a video conversion	MCEBuddy alustas video tulemus
+Conversion Started At	Teisenduse käivitus
+Yes (Comskip)	Jah (Comskip)
+Yes (ShowAnalyzer)	Jah (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	Vähemalt üks muutmise ülesanne peab olema lubatud
+Disable	Keela
+Enable	Luba
+Rename	Nime muutmine
+Move	Teisalda
+Up	Üles
+Down	Alla
+Slow Remuxing	Aeglane, Remuxing
+Extracting closed captions	Taastan tiitrid
+Validating closed captions	Kinnitamise tiitrid
+Extracting subtitles	Taastan subtiitrid
+Trimming closed captions	Korrastamine suletud pealdised
+Extract subtitles and closed captions	Väljavõte subtiitrid ja tiitrid
+Field	Väli
+Channel	Kanal
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	Seda ekstrakti tiitrid, subtiitrid ja Teletekst from\r\nWTV, DVR-MS, TS, MP4, MKV ja muud toetatud files.\r\n\r\nIt alljaotise (SRT) failina salvestatud.
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	Selle saavutamiseks suletud pealdised extraction\r\nField - 1 või 2\r\nChannel - 1 või 2\r\n\r\nDefault täpsemate suvandite seadmiseks: väli 1, kanal 1
+Subtitle offset	Subtiitrite nihe
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	Sisestage sekundite arv (+ ve / - ve) kohandada subtiitrid sünkroonimise, video
+Re-ReMuxing due to audio error	Re-ReMuxing tingitud heli tõrge
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	Salvesta plakat ja näidata teabe (metaandmed) MC/XBMC ühilduv NFO faili (XML formaadis)
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	Märkige see ruut Salvesta Näita teabe (metaandmed) ümber file.\r\nThis ainult faile, mis toetavad metaandmete siltidele töötab nagu MP4, MKV, WTV etc.\r\n\r\nNOTE: siis tühjendage märkeruut kui oled silmitsi küsimustega mõningaid seadmeid nagu vanemate TV, mis on probleemi lugemine metaandmed.
+Atleast one day of the week must be enabled	Vähemalt ühe päeva nädalas peab olema lubatud
+Invalid Days of Week	Lubamatu nädalapäevade kaupa
+Invalid day of week found in configuration file	Sobimatu konfiguratsioon failis leiduvad nädala päev
+Scheduling	Planeerimine
+Remuxing to	Remuxing-
+Part	Osa
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	Ülejäänud hiire nupp, kasti või kauba saada kohest abi it.\n\nFor kohta rohkem infot, kuidas kasutada tõrkeotsingut või saada toetust MCEBuddy klõpsake ülemisel paremal corner.\n\nDonations lingil < Alustanud > on alati teretulnud :) Nautige! \n\n - Ramit, Derek & lagle
+Welcome to MCEBuddy	Tere tulemast MCEBuddy!
+Multichannel audio	Mitmekanalilist heli
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	Märgi, et audio multikanałowej kui allikas video toetab it.\r\nBy vaikimisi audio on piiratud 2 kanalit (stereo).
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	Dynamic Range Compression (Kongo DV) \r\nWhen allikas on AC3 audio, mis võimaldab Kongo Demokraatliku Vabariigi will\r\nreduce on tugev ja soft\r\nsounds, muutes heliriba on multi-channel audio salvestus ja you\r\nfeel maht on liiga pehme, kontroll võib aidata see, kui soovite rohkem even.\r\nIf vahe.
+FPS	ESIKAITSESÜSTEEMIGA
+Logfile age (days)	Logifaili vanus (päevades)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	Suurim lubatud kestus päevades hoida ka logifailidele enne kustutamist them.\r\nSet 0 palgid igavesti hoida.
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	Kiire Remuxing
+Byte stream remuxing	Bait oja remuxing
+Disable cropping	Keela kärpimine
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	Kontrollige seda keelata video kärpimine automaatselt conversion.\r\nCropping ajal kasutatakse eemaldamiseks "mustad ribad" Video (üles, alla, vasakule või right).\r\nUse see suvand video pildi saamine lõigatakse küljel otsib lõplik pilt venitatud või moonutatud.
+Only detect Ads	Ainult avastada reklaamid
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	Kontrollige seda, kui soovite avastada reklaame (kaubaautod) MCEBuddy, kuid ei ole neid lõigatud video.\r\nWhen see valik on sisse lülitatud, loob MCEBuddy EDL faili koos teisendatud faili, mis määrab reklaamide asukohad ümber video.\r\nAlso, MP4, M4V ja MKV faile MCEBuddy loob peatüki lõppu kaubaautod.
+Download information	Info allalaadimiseks
+Correction	Parandus
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	Vajuta siia, et parandada Näita pealkiri ja jõu kasutamisega konkreetse TVDB seeria id või IMDB filmi id\r\nto otsing täiendavad metaandmed Internetist.
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	Kontrollige seda näidata, nagu bänner faili, episood, hooaja jne kohta täiendavat teavet Internetist
+Profile Error	Keeleprofiili tõrge
+Cannot find selected profile in profiles.conf	Ei leia valitud profiili profiles.conf
+Invalid Profile	Lubamatu profiil
+Please select a valid profile	Valige kehtiv profiil
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	MCEBuddy mootor on kukkus. Palun saatke mcebuddy.log arendajatele
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	Valige kohandatud Comskip INI-faili kasutamiseks selle teisendamine task\r\nLeave see tühi vaikimisi Comskip INI-faili kasutamiseks reklaam eemaldamine
+Click to select custom Comskip INI file	Valige kohandatud Comskip INI-fail
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	Valige töötamiseks ajutiste failide kaust. Veenduge, et ei ole piisavalt tühja ruumi ning drive.\r\nLeave see tühi vaikimisi temp-kaustale kasutamise installi kataloogis.
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	Valige kaustas ajutist failidega töötamist. Veenduge, et seal on piisavalt tühja ruumi kui drive.\r\nThis alistab-> ekspert seadete lehel seaded määratud ajutiste failide kausta.
+Click to select temp working folder	Märkige temp töökausta
+Temp folder	Ajutiste failide kaust
+Space check	Ruumi sisse
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	Kui vaadata võimaldas MCEBuddy jaoks piisavalt vaba ruumi (sihtkohta ja temp).\r\nUncheck see kui sul on probleeme koos võrgudraividel või on erakordselt suured video failid.
+MCEBuddy Windows Event Logs	MCEBuddy Windows sündmuste logisse
+Events	Sündmused
+Click here to open the MCEBuddy Windows Event Logs	Vajuta siia, et avada MCEBuddy Windowsi sündmuste logisse
+Enable UPnP	Lubade kasutada UPnP
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	Kontrollige seda lubada UPnP. See võimaldab juurdepääsu MCEBuddy mootor väljaspool nende network.\r\nThis tuleb kontrollida, kas kasutate mobiil/standalone klient MCEBuddy juurdepääsu MCEBuddy.
+Click here to connect to another MCEBuddy engine	Vajuta siia, et ühendada teise MCEBuddy mootor
+MCEBuddy Remote Engine Connection	MCEBuddy puldiga mootori ühendus
+Engine Name	Mootori nimetus
+Engine Port	Mootori Port
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	Sisestage nimi või IP-aadressi te soovite ühenduda MCEBuddy mootor
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	Sisestage MCEBuddy mootor, mida soovite ühendada TCP-pordi number
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	Sisestage TCP Port number MCEBuddy mootori soovite ühendust luua (1 63355)
+Invalid Name/Port	Sobimatu nimi ja sadama
+Please enter a valid Engine Name and Engine Port Number	Palun sisestage kehtiv nimi mootori ja mootori pordi Number
+Error Stopping Engine	Tõrge peatusteta mootor
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	Ei saa peatada MCEBuddy mootor, seadeid ei salvestata. Kas soovite jätkata?
+Unable to communicate with engine. Settings have NOT been saved.	Ei saa suhelda mootor. Seaded pole salvestatud.
+Communication Error	Kommunikatsiooni viga
+Engine not stopped. Settings have NOT been saved.	Mootor ei peatunud. Seaded pole salvestatud.
+Unable To Save Settings	Sätteid ei saa salvestada
+Unable to communicate with engine. UPnP settings have not been updated	Ei saa suhelda mootor. UPnP seaded pole värskendatud
+Audio delay	Audio viivitust
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	Saate sisestada väärtuse sekundites (positiivne või negatiivne) siin suunata heli võrreldes on video.\r\nUse see resync audio ja video, kui nad on pärast conversion.\r\nA sünkroonis positiivne väärtus viivitus (st enne heli video) audio- ja negatiivne väärtus on täiustatud audio (st heli enne video).\r\nE.g. 1,5
+Media info	Meedia info
+Click here to get media properties for selected files	Vajuta siia, et saada meedia omadused valitud failid
+Save information	Salvesta andmed
+Add information	Teabe lisamine
+Shows a preview of the custom filename and path	Näitab eelvaade kohandatud faili nimi ja tee
+Invalid Filename Pattern	Lubamatu failinimi muster
+TVDB Series ID	TVDB seeria ID
+IMDB Series ID	IMDB ID.
+Original title	Originaali pealkiri
+Corrected title	Parandatud nimetus
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	TVDB seeria sisesta soovitud allalaadimise Näita information.\r\nIf Originaal pealkiri kast on tühi, kohaldatakse see kõik näitab valitud toimingu tulemus.
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Sisesta soovitud allalaadimine filmi information.\r\nIf originaal IMDB filmi pealkirja lahter on tühi, kohaldatakse see kõik näitab valitud toimingu tulemus.
+Internet Lookup Title and Metadata Correction	Interneti otsing pealkirja ja metaandmete parandus
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	Vajuta siia, et lisada teise ritta sobitada ja õige pealkirjad ja seeria id.\r\nIf soovitud samanimelise parandatud või seeria id ümber toimingu tulemus näitab \r\nleave Originaal pealkiri tühi esimesel real ja mitte lisage teises reas.
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	Sisestage mustrit sobitada Näita/seeria pealkirjad parandus (nt Simpson * asendab kõik pealkirjad, mis on Näita pealkiri alustades Simpson) \r\nPrefix mustriga ~ vahele vaste (nt *. *; ~ Simpson * õige näitavad kõik pealkirjad, välja arvatud need, mis algavad Simpson) \r\nSeparate mitu mustrid koos; (nt Simpson *;House*) või (nt Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nNOTE: jätke see ruut tühjaks, kui soovite rakendada parandatud nimetus või seeria id kõiki faile töötleb selle teisendamine task.\r\nIf jättes tühjaks, ei saa lisada teise row.\r\n\r\nYou saate kasutada regulaaravaldis pealkiri alustades regex sobitada:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	Sisestage soovitud lisateabe allalaadimiseks uue/parandatud nimetus internet.\r\nIf originaali tiitel on tühi, rakendatakse see kõik näitab valitud ümberarvutamine võib task.\r\n\r\nYou kasutage regulaaravaldis õige pealkiri alustades regex:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	Igale reale sisestama originaalpealkiri Näita nimi ja kas parandatud ja pealkiri või TVDB/IMDB seeria ID
+Please enter either a Corrected title or a TVDB/IMDB Series ID	Sisestage korrigeeritud tiitel või TVDB/IMDB seeria ID
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	Luba see, kui soovite MCEBuddy ümber panna faili allikas directory\r\nif antud sihttee pole saadaval. (nt võrgu rikke või rike kaardistamine)
+Fallback to source path	Asetäitja, et allika tee
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	Saab suurendada või vähendada the\r\nrecording samal ajal, kui converting.\r\n1 on normaalne, midagi alla seda vähendada, anything\r\nhigher seda suurendada.
+Archive folder	Arhiiv kausta
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	Arhiiv folder.\r\nLeave tühjaks jätta, kasutage oleva algse kataloogi "MCEBuddyArchive" kausta asukohta muuta.
+Monitor subdirectories	Monitor alamkaustad
+Check this box to also monitor all directories within the Monitor path	Märkige see ruut ka jälgida kõik kataloogid jooksul jälgida tee
+Click here to show MCEBuddy status	MCEBuddy oleku kuvamiseks klõpsake siin
+MCEBuddy service not connected	MCEBuddy teenus pole ühendatud
+MCEBuddy idle	MCEBuddy jõude
+conversions in progress	tulemusi on pooleli
+MCEBuddy stopped	MCEBuddy lõpetanud
+Sync converted files	Failide sünkroonimine ümber
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	Märkige see ruut, kui soovite hoida konverteerida failid sünkroonis originaal files.\r\ni.e MCEBuddy. Algsete failide kustutamisel kasutaja poolt vastava konverteerida failid on ka deleted.\r\n\r\nNOTE: MCEBuddy jälgib ainult originaal failid kaustades jälgida asukohti ja ainult siis, kui mootor on running.\r\nMCEBuddy ei ole võimalik jälgida kasutaja kustutatud failid, kui mootor on peatunud.
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	Kas soovite MCEBuddy kustutada iga teisendatud faili kustutamisel algse faili?
+Confirm sync conversions?	Sünkroonimise Failiteisenduste kinnitus?
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	Olete kindel, et te ei soovi eemaldada reklaamid ümber video ja hoida ainult EDL faili?
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer ei vasta. Palun taaskäivitage süsteem või uuesti ShowAnalyzer.
+ShowAnalyzer Not Responding	ShowAnalyzer ei reageeri
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	Veenduge, et sa vajuta "Start" pärast selle akna sulgemist, muidu plaanimine ja pärast ei tööta.
+Enabling Scheduling and Wake	Mis võimaldab planeerimise ja pärast
+Passwords do not match	Paroolid ei ühti
+Password error	Parooli tõrge
+Adding subtitles and chapters to file	Subtiitrid ja gruppidesse lisada faili
+Send eMail if unable to download series information	Kui ei saa alla laadida seeria info saata e-posti
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	Märkige see ruut, kui soovite selle konversiooni ülesanne ainult töötlemiseks faile konkreetsed monitor locations.\r\nIf kontrollimata iga konversiooni ülesanne töötleb faile kõigi monitor kohtades (sh hiljem lisada uusi).
+Select Monitor Locations	Valige monitori asukohad
+Select atleast one Monitor Location name	Valige atleast ühe monitori asukoha nime
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	Valitud kogu praegune kuvar Locations.\r\nDo Millal soovite automaatselt töödelda mis tahes uus Monitor asukohti lisada järgmistesse toimingu tulemus?
+New monitor locations	Uus monitor asukohad
+Invalid selection	Lubamatu valik
+Channel name match	Kanali nime vaste
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Sisestage kanali nimi (nt ABC * teisendab kõik failid, kus salvestatud kanali nimi alustades ABC) ülesandeks sobitada muster \r\nPrefix mustriga ~ vahele vaste (nt *; ~ ABC * töötleb kõiki kanaleid välja arvatud algama ABC) \r\nSeparate mitu mustrid koos; (nt ABC *;TBS*) või (nt ABC *;Fox*; ~ Fox4 *) \r\n\r\nYou saab kasutada regulaaravaldisi alustades regex sobitada muster:
+Clear history	Tühjenda ajalugu
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	Klõpsake seda nuppu, et kõik teisendatud files.\r\nThis ajaloo kustutamine on tekitada MCEBuddy teisendada kõiki faile jälgida.
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	Olete kindel, et soovite kõik teisendused ajaloo? \r\nThis paneb MCEBuddy teisendada kõiki faile jälgida.
+Show history	Näita ajalugu
+Click this button to show the history of all converted files.	Klõpsake seda nuppu, et näidata kõik teisendatud failide ajalugu.
+History of Converted Files	Ajalugu ümber faile
+Unable to communicate with engine.	Ei saa suhelda mootor.
+Extracting streams	Taastan ojad
+Fallback muxing streams	Varuvorm muxing ojad
+Remuxing TiVO file	Remuxing TiVO faili
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	Sisestage oma 10 numbrit muuta ja töödelda TiVO salvestisi TiVO MAK võti
+Invalid TiVO MAK Key	Sobimatu TiVO MAK võti
+The TiVO MAK key should be 10 digits	TiVO MAK võti peaks olema 10-kohaline
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	Versioonid ei ühti. Palun veenduge, et MCEBuddy klient ja mootor töötab sama versiooni.
+Error retrieving Event Logs	Sündmuselogide toomisel tõrge
+Unable to get Event Log Entries from the MCEBuddy engine.	Ei saa tuua sündmuselogi kirjeid MCEBuddy mootor.
+PAUSED: Check conversion schedule	PEATATUD: Sisse muutmise ajakava
+Logging	Metsaraie
+Folder Management	Kaustade haldus
+Processor Management	Protsessori juhtimine
+Expert Settings	Ekspert seaded
+System Settings	Süsteemi seaded
+Click here to change additional settings (for experts only)	Täiendavate sätete muutmiseks (ainult ekspertidele) kliki siia
+Failed folder	Kataloog
+Location of the folder that hold the original files for failed conversions.	Asukoht kausta, mis hoiavad nurjunud teisenduste originaalfaili.
+Move original file on failure	Liikuda ebaõnnestumise originaalfail
+Check this to move the original file to a separate folder if the conversion fails.	Kontrollige seda algset faili teisaldada eraldi kausta, kui teisendus nurjub.
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	Kontrollige seda piirata loogilist töötlejad, mis MCEBuddycan use.\r\nEach järgmine ruut vastab saadaval loogiline protsessor.
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Iga lahter tähistab loogilist töötlejad 1-16 respectively.\r\nChecking kasti võimaldab MCEBuddy kasutada selle töötleja.
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Iga lahter tähistab loogilist töötlejad 17 kuni 32 respectively.\r\nChecking kasti võimaldab MCEBuddy kasutada selle töötleja.
+Select atleast one processor to use	Atleast üks töötleja kasutamiseks valige
+Invalid Configuration	Sobimatu konfiguratsioon
+Comskip path	Comskip tee
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	Kui soovite kasutada kohandatud versiooni Comkip (nt annetaja versioon) sisestage \r\nthen comskip paigaldamine here.\r\nLeave kasutada vaikimisi comskip, mis on varustatud MCEBuddy tühi tee.
+Miscellaneous	Mitmesugused
+Ignore copy protection	Ignoreeri kopeerimiskaitse
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	Kontrollige seda ignoreerida kopeerimiskaitse lipu videofaili samal ajal converting.\r\nNOTE: MCEBuddy ei saa mööda hiilida krüpteerimist, see aitab ainult kui fail incorrectly\r\ntagged koopia kaitstud, kui see on krüpteeritud.
+Use recycle bin	Prügikasti kasutamine
+Check this to use the recycle bin when files are deleted by MCEBuddy	Kontrollige seda kasutada prügikasti, kui failid on kustutatud MCEBuddy
+Poll period	Küsitlus perioodi
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	See on, kui tihti MCEBuddy skaneerib Monitor ülesannete asukohad määratud uute files.\r\nThe intervall sekundites.
+Server port	Serveri port
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	See on MCEBuddy kasutab suhtlemiseks koduvõrku, Kaug engine.\r\nWhen MCEBuddy lisatakse automaatselt selle pordi Windowsi Firewall\r\nand UPnP Gateway lubada juurdepääsu sellele pordile Internetis TCP-port.
+Hang period	Riputada periood
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	Sisestage arv, mitu sekundit, et MCEBuddy ootama vastust the\r\nunderlying taotluse enne lõpetab taotluse hung.\r\nEnter 0 keelata riputada avastamine.
+Subtitle commercial cut sync	Alapealkiri kaubik lõigatud sünkroonimine
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	Seda parameetrit kasutatakse, kui minna järk-järgult välja sünkroniseerimine pärast iga äri segment eemaldatakse video.\r\nThis sätet kasutatakse tuua subtiitrid subtiitrid tagasi sünkroonis video kaubandus on lõigatud video.\r\nEach aeg, subtiitrid on aeg nihkunud selle summa (+ ve või - ve sekundit).
+Invalid poll period	Sobimatu küsitlus perioodi
+Invalid server port	Vigane serveri port
+eMail Subject Customization	e-posti teema kohandamine
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	Kasutavad käesoleva jao kohandada teema e-posti saata MCEBuddy konverteerimise ürituste kohta loetletud dokumendid, kohandatud käskude kasutaja määratletud variables.\r\ne.g below.\r\nRefer. Kuva edukas, kasutades tööülesande % taskname%\r\nNOTE % showname % % originalfilename % Failiteisenduse: ei ole alati kõik andmed on kättesaadavad tühja kasutada vaikimisi teemarea kohandatud commands.\r\nLeave.
+Success	Edu
+Failed	Nurjus
+Cancelled	Tühistatud
+Download fail	Lae fail
+Limit processor utilization	Limiit protsessori kasutamine
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	Kontrollige see loogiline et MCEBuddy saab use.\r\nEach ruut allpool protsessorite arvu piiramiseks vastab saadaval loogiline protsessor.
+Custom profile	Kohandatud profiili
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	Kui teil on kohandatud profiles.conf fail, mida soovite kasutada selle asemel, et the\r\none, mis on kaasas MCEBuddy, sisestage tee fail here.\r\n\r\nNOTE: MCEBuddy pidevalt värskendusi profiles.conf pakkuda bug-fikseerib, vahel, \r\nenhancements- ja jõudlusalaseid täiustusi, mis ei jää out\r\non, kui kasutate seda funktsiooni.
+Invalid custom profiles.conf	Ei sobi kohandatud profiles.conf
+Suspend on battery	Peatada aku
+Suspend conversions when the computer switches to battery power	Peatada konversioone kui arvuti lülitub ümber akutoitele
+MCEBuddy added a video conversion to the queue	MCEBuddy lisatud video konverteerimise järjekorda
+Queue	Järjekord
+Refer to documentation on using custom commands in custom eMail subjects	Lugege dokumentatsiooni kohta kohandatud käskude abil kohandatud e-posti teemadel
+Could not copy information to Clipboard, please try again.	Ei saanud teavet kopeerida lõikelauale, Palun proovige uuesti.
+Error copying to Clipboard	Tõrge kopeerimine lõikelauale
+Copy to clipboard	Kopeeri lõikelauale
+Reconvert files	Teisendada failid
+Are you sure you want to reconvert the selected files?	Kas olete kindel, et soovite valitud failid teisendada?
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	Valige failid, mida soovite teisendada, ja seejärel klõpsake selle button.\r\nIf algseid jälgitakse veel MCEBuddy neil sabas linnukasvatajatele.
+Time taken to convert	Kuluv aeg teisendada
+Network authentication	Võrgu autentimine
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	Klõpsake nuppu, et sisestada võrgu aktsiate credentials.\r\nThis autentimist kasutatakse failide lisamisel kaudu peamine window\r\nor nuppu Lisa pukseerimist ühiskasutusega võrgukohas põhiaknas väljale muutmise olek.
+Skip reconversion	Skip tagasiteisenduse
+Do not reconvert the video if a converted file already exists in the destination directory.	Tagasiteisendus video kui teisendatud faili kataloog, kuhu on juba olemas.
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	Eeldatav failinimi ümber video (ei ole originaal video failinime) võrreldakse sihtkoha directory.\r\nIf teisendatud failis olemas failinimesid, faili ei reconverted ja eeldatakse, olla edukas conversion.\r\nThis on kasulik, kui sama Näita/episood on salvestatud mitu korda ja soovite teisendada them.\r\n\r\nNOTE: Seda suvandit ignoreeritakse videod, mis lisatakse käsitsi kasutades nuppu Lisa või lohistades ja kukutades
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	Viimase conversions.\r\nThe eeldada failinimi ümber video (ei ole originaal video failinime) võrreldakse failinimesid ajalugu file.\r\nIf, kui lubatud, skip tagasiteisenduse ka kontrollida ajalugu faili ning olema teisendatud faili nimi (sealhulgas tee) vastab ükskõik millisele juba teisendatud failinimesid (sh tee) ajalugu faili \r\nthe faili ei reconverted ja see eeldatavalt olla edukas tulemus.
+Adding file to the iTunes library	Faili lisamine iTunes'i raamatukogu
+Add to iTunes	Lisa iTunes
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	Kontrollige selles lahtris automaatselt lisada ümber faile iTunes library.\r\nThis töötab ainult iTunes toetatud failid (nt MP4, M4V, MP3 jne)
+Adding file to the WMP library	Faili lisamine WMP Raamatukogu
+Library Management	Raamatukogu juhtimine
+Add to Windows Media Player	Lisamine Windows Media Playeri
+Check this box to automatically add the converted files to the WMP library.	Märkige see ruut teisendatud failide automaatseks lisamiseks WMP Raamatukogu.
+Renaming and Sorting	Ümbernimetamine ja sorteerimine
+Selection Filters	Valiku filtrid
+Audio and Video	Audio ja Video
+Subtitles and Chapters	Subtiitrid ja peatükkide
+Skip copying original files	Jäta originaal failide kopeerimine
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	CHECK THIS kasti kell ise RISK.\r\nDO ei saa kontrollida THIS kasti kui sa TEAD mida sa oled DOING.\r\nCheck ruudu vahele teha varukoopia algse faili (kopeerimine) teisendamisel.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	CHECK THIS kasti kell oma RISK.\r\nDO mitte sisse MÄRKERUUT kui te ei tea, mida sa oled DOING.\r\nCheck ruudu jäta originaal (kopeerimine) fail varukoopia tegemisega samal ajal converting.\r\nIf see on märgitud, ei säili algse faili korral on error.\r\nIt ka isegi võib kasvada või muude ettenägematute muutmise küsimused.
+Are you sure you want to do this?	Kas kindlasti seda teha?
+Media Information Management	Meediumi teabe haldamine
+Force show type	Jõudu näidata tüüp
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	See jõud ravivad filmina videosalvestuse või TV Series.\r\nThis muudab lisateabe saamiseks (metaandmete) salvestamist laetakse ka internet.\r\nMovie - ravida nagu movie\r\nSeries - ravida nagu TV Series\r\nSports salvestus salvestamine - ravida nii nagu Sport show\r\nDefault - kasutamiseks saadaval salvestamist metaandmete vaiketeabe filmi või teleseriaali salvestus
+Show type	Kuva tüüp
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	Valige see filtreerida salvestised on converted.\r\n\r\nMovies tüüp - valige see teisendada kui tüüp saade on Movie.\r\nShows-valige see, kui soovite teisendada kui Näita tüüp pole ka Movie.\r\nSports - Vali see teisendada kui tüüp saade on Sports.\r\n\r\nNOTE: Kuva tüüp on Loe mõndasid salvestusi toetada salvestus metadata.\r\nOnly Näita tüüp metaandmed, näiteks WTV and\r\nrecordings, mis toetab metaandmete faili ()XML/ARG jne).
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	Kuvatakse selles ruudus kõikide failide järjekorda conversion.\r\nDrag ja faile siia või vajutage Add nuppu failide lisamiseks teisendamise järjekorda
+Conversion	Teisendus
+Files	Failid
+Click this button to open or close the Advanced Settings section	Klõpsake sellel nupul, et avada või sulgeda jaotises Täpsemad sätted
+Running custom commands	Kohandatud käsud
+Trimming video recording	Korrastamine videosalvestus
+Insert at top of queue	Sisestage järjekorra ennem
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	Vaikimisi lisatakse see ruut on märgitud, lisada see toiming uue korralduse puudumisel lisandub teisendamise järjekorda the\r\nbeginning (top) teisendamine queue.\r\nIf alt (lõpuks) uue teisendused.
+Add subtitles and chapters	Lisada subtiitrid ja peatükkide
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	Lubage see suvand Lisa ekstraheeritud subtiitreid ja peatükkide teisendatud video.\r\nEach grupi lõppeb kaubik. See töötab ainult Toetatud vormingutes (nt MKV, MP4).\r\n\r\nNOTE: mõned mängijad ja vanemate TV ei toeta manustatud subtiitrid ja chapters.\r\nIf oled suutnud taasesitus ümber video, proovige see suvand välja lülitada.
+Select best soundtrack	Valige parim soundtrack
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	Kui originaal video on mitu filmimuusikat suvand ütleb MCEBuddy valida kõige sobivam ja esmase soundtrack.\r\nIf soovitud keele soundtrack, veenduge, et Sisesta keele nimi või kood helikeel box.\r\nCheck märgitakse see kui sa oled kohtuistungil vale soundtrack oma teisendatud file.\r\n\r\nUncheck see lahter kui soovite MCEBuddy säilitada algse video teisendatud faili võimalusel filmimuusikat. \r\nNOTE: mõned profiilid ei toeta mitut heli, siis sellel sättel mingit mõju.
+Enable remote access	Lubada kaugjuurdepääsu
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	See loob erandi MCEBuddy rakendus windows tulemüüri ja selle port.\r\nThis on vajalik, kui teil on Windowsi tulemüür lubatud ja kasutatav UPnP, remote client\r\nor juurdepääsu kasutades IP address.\r\n\r\nNOTE mootor: kui teil on kohandatud tulemüüri, see võib töötada, peate käsitsi luua an\r\nexception MCEBuddy teenusele ja sadama.
+Unable to communicate with engine. Firewall exception settings have not been updated.	Ei saa suhelda mootor. Tulemüüri erand seaded pole värskendatud.
+Detect and optimize video quality	Avastada ja optimeerida video kvaliteet
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	Kui lubatud, MCEBuddy optimeerivad video töötlemise võimalusi püüdes avastada video allikas type.\r\nThis saab ümber video kvaliteeti oluliselt parandada kui õigesti detected.\r\n\r\nNOTE: ta teeb seda üritab avastada video allika liik (interlaced, progressiivne või telecine).\r\nIf on võimalik avastada video allika liik, alistab see võimalus ära, kui teil on silmitsi küsimustega teisendatud video kvaliteet või soovitud profiili vaikeparameetrid profile.\r\nTurn vastavaid näitajaid.
+Are you sure you want to delete this task?	Kas kindlasti selle toimingu kustutada?
+Delete Task	Kustuta tööülesanne
+Enter the new task name	Sisestage uus nimi
+Rename Task	Nimeta tööülesanne
+MCEBuddy PAUSED	MCEBuddy PEATUS
+idle	jõudeolekus
+PAUSED	PEATATUD
+Frame rate	Kaadrisagedus
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	Seda määra kohandatud kaadrisagedus (FPS) ümber video.\r\nYou võib tekkida vajadus määrata teisendamisel video formaate (nt PAL to NTSC) \r\nor seadmetega, mis toetavad ainult kindlate framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001
+Skip remuxing files	Jäta remuxing failid
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	CHECK THIS kasti kell oma RISK.\r\nDO mitte sisse see kasti kui sa TEAD, mida sa oled DOING.\r\nCheck ruudu vahele remuxing originaalfaili TS faili samal ajal converting.\r\nIf see on kontrollitud, mõned funktsioonid nagu alapealkiri kaevandamise või comskip võib mitte work.\r\nIt ka isegi viia kasvada või muude ettenägematute muutmise küsimused.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	CHECK THIS kasti kell oma RISK.\r\nDO mitte kontrollida THIS kasti kui sa TEAD mida sa oled DOING.\r\nCheck ruudu vahele remuxing originaalfaili TS faili teisendamisel.
+Monitor converted videos	Jälgida ümber videod
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	Vaikimisi Monitor asukohad ignoreerivad faile, mis on juba converted.\r\nCheck see lahter kui soovite jälgida ümber faile kuvari Path.\r\nCAUTION: lõpmatu konverteerimise silmus ümber faile tulemuseks, kui ei ole konfigureeritud properly.\r\n\r\nThis võib olla kasulik, kui täpsustatakse ümberkorraldamise task\r\n (teisendatud faili) VΣljund monitori asukoha teena Monitor ja ühendab the\r\nMonitor Asukoha muutmise ülesandega.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	CHECK THIS kasti kell ise RISK.\r\nDO ei saa kontrollida THIS kasti kui sa TEAD mida sa oled DOING.\r\nBy Monitor vaikeasukohad ignoreerivad faile, mis on juba converted.\r\nCheck ruudu, kui soovite jälgida ümber faile kuvari teele.
+Hardware encoding	Riistvara kodeering
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	Kontrollige ruudu Kasuta riistvara kodeering võimalusel muuta videos.\r\nThis saab kiirendada muundamise oluliselt ja vähendab CPU utilization\r\nbut see võib põhjustada madalama kvaliteediga videos.\r\n\r\nUncheck seda kasti kui sa jääksid ümberehitus- ja kvaliteedi küsimusi.
+Do not overwrite files	Kirjuta faili
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	Kui see ruut on märgitud, kirjutatakse kui see juba exists.\r\nInstead uus fail luuakse kordumatu numbriga lisatud faili nime lõppu ei sihtfaili.
+Re-monitor recorded videos	Uuesti jälgida registreeritud videod
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	Vaikimisi, kui lähtefail (salvestatud video) ümber, \r\nthe monitor ajalugu jälitab failinimi ja järjekord sama faili again.\r\n\r\nEnable seda suvandit ignoreerida ajalugu ja jälgida kõiki faile ja lisage need to\r\nthe teisendamise järjekorda, isegi kui nad on juba converted.\r\n\r\nThis saab kasulik mõnikord, kui salvestamise tarkvara genereerida iga episood/Kuva a\r\nunique nimi. On soovitatav kasutada the\r\nDelete algne fail suvand seadete lehel selle valikuga avoid\r\nan lõpmatu konverteerimise silmus.
+Recommendation	Soovitus
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	Vältimaks infinite konverteerimise loop, on soovitatav setup teie Monitor konkordants selliselt, nagu näiteks tagada, et konverteerida failid ei kontrollita see Monitor toiming.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	CHECK THIS kasti kell ise RISK.\r\nDO ei saa kontrollida THIS kasti kui sa TEAD mida sa oled DOING.\r\nBy vaikimisi Monitor asukohad on remonitor salvestatud videoid, mis on olnud processed.\r\nCheck ruudu kui remonitor ja tagasiteisendus salvestatud videoid.
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	Vältimaks infinite konverteerimise loop, soovitatakse teil lubada Kustuta algne fail suvand seadete lehel.
+Prioritize air date matching	Esikohale air kuupäev sobitamine
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy kasutab episood nime mängu seeria information\r\nwhile otsida internetist. Kui sellest ei aita siis ta kasutab broadcast\r\nair Algkuupäev sobitada ka metadata.\r\n\r\nCheck selle märkimisel kasutada eetrisse õhu Algkuupäev kõigepealt ja siis the\r\nepisode nime mängu seeria saamiseks on internet.\r\nThis sel juhul mõnel juhul mitu aastaaega on same\r\nepisode nimi. Nt Americal Idol Audition 1\r\n\r\nNOTE: originaal eetrisse air kuupäev ei ole alati täpne määratud the\r\nbroadcaster ja mõnikord teave internetis on see võimalus ainult siis, kui vaikimisi valik on tööle panna incorrect.\r\nUse.
+Skip eMail body	Skip meilisõnumi keha
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	Kontrollige see suvand Kasuta tühja keha teate eMail.\r\nThis võib olla kasulik, kui kasutate SMS gateway e-postiga teateid.
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	Valiku aluseks on digitaalse õiguse halduse (DRM) on available\r\nonly kuna Nimeta ühelahtrilisi (nimetage ja liikuda ainult) variant on - valib kõigi failide töötlemist, sõltumata kopeerimiskaitse status\r\nProtected - selected.\r\n\r\nAll ainult Vali failid, mis on koopia protected\r\nUnprotected - valida ainult faile, mis on kopeerimiskaitse
+Download cover art	Lae kaanekujundus
+Enable this to download the cover art from the original video and internet if available.	Lubage see lae kaanekujundus originaal video ja Interneti olemasolu.
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	Kas sul kindlasti sisestada domeeninime? \r\n\r\nUse seda kui kasutate Windowsi domeenikontrollerit hallata oma authentication.\r\nDo mitte kasutada ainult seda kui sa kuulud ka Workgroup.\r\n\r\nIf olete kindel, klõpsake nuppu ei.
+Configuration Warning	Hoiatus
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	Loob kausta nimega kui algne fail on located\r\nand liigub orginal fail selles kaustas pärast edukat conversion.\r\n\r\nThis kausta nime ja asukohta muuta allpool MCEBuddyArchive.
+Monitoring	Järelevalve
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	Kui soovite teisendada faili EDL peatükkideks, kontrollige kindlasti lisada subtiitrid ja peatükkide variant ekspert seaded.
+EDL to Chapters	EDL peatükki

@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy maakt geen gebruik van de momenteel aangemelde gebruiker verbinding maken met netwerkshares, gebruikt het zijn eigen service-account.  Zorg dat de gebruiker verbindingsgegevens (MCEBuddy met een sleutelpictogram) opgeven
+Connection Reminder	Verbinding herinnering
+Description	Beschrijving
+Path	Pad
+is invalid	is ongeldig
+Invalid Path	Ongeldig pad
+Please supply a task name	Gelieve de naam van een taak
+No name supplied	Geen naam opgegeven
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	Voer de 3 cijferige taalcode van de Audio track of selecteer <Default>of <Original>
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	De 3 cijferige ISO-code voor de geselecteerde language\r\nMake ervoor dat dit overeenkomt met de taalcode van de voor de audiotrack in de oorspronkelijke recording.\r\nTo krijgen de taalcode voor de audiosporen in de oorspronkelijke opgenomen bestand, voeg de file\r\nto de wachtrij en klik met de rechtermuisknop op het. Een pop-up venster zal openen weergegeven: de audio details\r\nwhich omvatten de taalcodes voor elke audiotrack.
+Invalid Language Code	Ongeldige taalcode
+No destination directory provided, converted file will be placed in original video directory	No destination directory geboden, geconverteerde bestand zal worden geplaatst in de oorspronkelijke video directory
+A task name or section	Een taaknaam of sectie
+already exists\n\rPlease use another name	al exists\n\rPlease een andere naam gebruiken
+Duplicate Name	Dubbele naam
+Engine	Motor
+Tasks	Taken
+Profile	Profiel
+disposing	verwijdering
+Task name	Taaknaam
+Give a unique name to this task	Geef een unieke naam voor deze taak
+Gives a short description for the selection conversion profile	Geeft een korte beschrijving voor het conversieprofiel selectie
+Click to select destination folder	Selecteer doelmap
+Destination	Bestemming
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	Selecteer de map waar de geconverteerde bestand placed.\r\nLeave dit leeg te houden van het geconverteerde bestand in dezelfde map als de oorspronkelijke video zal worden.
+Max width	Maximale breedte
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	Hiermee beperkt u de maximale breedte (in pixels) van de video voor de geconverteerde file.\r\nTIP: niet van toepassing als het oorspronkelijke bestand heeft een breedte kleiner is dan deze number.\r\nIf u wilt bewaren uw originele videoresolutie move de schuifregelaar helemaal naar rechts.
+Quality	Kwaliteit
+Ad remover	AD remover
+None	Geen
+Get series details from Internet	Serie informatie ophalen van Internet
+Download additional details about the movie or series from the internet	Aanvullende details over de film of serie downloaden van het internet
+File name match	Bestand\'s naam vergelijking
+Recording title match	Opname titel vergelijk
+Cancel	Annuleren
+OK	OK
+Rename without converting	Naam wijzigen zonder te converteren
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	Controleer deze optie om alleen hernoemt en kopieert de originele bestanden naar de bestemming folder.\r\nWhen gecontroleerd, conversie, trimmen, audio/video-verwerking en commerciële verwijdering zal niet worden available.\r\n\r\nNOTE: andere functies als overeenkomende filters, winning van ondertitels, opslaan van metagegevens en commerciële detectie (EDL bestand op te slaan) \r\nwill nog steeds beschikbaar met deze optie checked.\r\nIf u wilt verplaatsen in plaats van kopiëren, Controleer de Skip oorspronkelijke optie in geavanceerde instellingen op deze pagina of select\r\nDelete originele bestand in de hoofdinstellingen pagina kopiëren.
+Rename and sort by video information	Naam wijzigen en sorteren op video-informatie
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	Wijzigt de naam van het geconverteerde bestand en plaatst u deze in een nieuwe map op basis van de informatie Toon/series als available\r\n (b.v. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	Voer de gebruikersnaam en het wachtwoord om toegang tot mappen die zich op een netwerkstation of een andere computer
+Organize by seasons	Gerangschikt op seizoenen
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	Organiseren van mappen door Showname en seizoen wanneer beschikbaar (Media Center/XBMC/Plex compatibel naamgevingsconventie) \r\n (b.v. Showname\\Season XX\\SXXEYY-aflevering naam)
+Audio language	Gesproken taal
+Advanced Settings	Geavanceerde instellingen
+General Settings	Algemene instellingen
+Conversion Task	Conversie taak
+Password	Wachtwoord
+Confirm Password	Bevestig wachtwoord
+Domain / computer name	Domein / computernaam
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	<Optional>Enter als externe computer of een netwerkstation gebruikmaakt van een domein voor authentication.\r\nDo invoeren niet uw werkgroep hier. Laat dit vak leeg als u van een werkgroep gebruikmaakt.
+User name	Gebruikersnaam
+Enter the username to access the remote computer or network drive	Vul de gebruikersnaam toegang tot de externe computer of een netwerkstation
+Enter the password to access the remote computer or network drive	Voer het wachtwoord om toegang tot de externe computer of een netwerkstation
+Network Connection User Credentials	Netwerk verbinding gebruikersreferenties
+Password Mismatch	Wachtwoord Mismatch
+Passwords do not match, please reenter the passwords	Wachtwoorden komen niet overeen, voer de wachtwoorden
+Hour	Uur
+Minute	Minuut
+Wake	Wekdienst
+Start	Start
+Resume	CV
+Pause	Pauze
+Stop	Stop
+Language	Taal
+Pause conversion tasks	Pauze conversie taken
+Resume conversion tasks	Conversie taken hervatten
+Please enter a valid time	Voer een geldige tijd
+Invalid Time	Ongeldige tijd
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	Stoptijd is na de begintijd. Ervan uitgaande dat de stoptijd is tijdens de volgende dag, is dat juist?
+Time Check	Tijd Check
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	Selecteer deze optie alleen als MCEBuddy al uw bestanden betrouwbaar converteerd sinds een aanvaardbare tijd. Moet MCEBuddy elk oorspronkelijke bestand verwijderen zodra het is geconverteerd?
+Confirm delete originals?	Bevestigen van verwijderen originelen?
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy zal toezicht houden op deze directories voor videobestanden automatisch converteren
+Conversion tasks	Conversie taken
+Delete original file	Oorspronkelijke bestand verwijderen
+Deletes the original recording after a successful conversion	Hiermee verwijdert u de originele opname na een succesvolle conversie
+Min age before conversion (hours)	Min. leeftijd vóór de conversie (uur)
+Minimum hours to wait before converting each file after the file is added to the queue	Minimale uur te wachten voordat het omzetten van elk bestand nadat het bestand is toegevoegd aan de wachtrij
+Use this to change the language of the text on the screen	Gebruik dit om de taal van de tekst op het scherm wijzigen
+Concurrent conversions	Gezamenlijke omzettingen
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	Aantal gelijktijdige conversies MCEBuddy kan start\r\nNOTE: moet u grote hoeveelheden vrije schijf ruimte en processor tijd voor meer dan 2 gelijktijdige conversies
+Logging level	Logboekregistratieniveau
+Error	Fout
+Warning	Waarschuwing
+Information	Informatie
+Debug	Debug
+Log conversion jobs	Meld conversie\'s
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	Een logboekbestand voor elke omzetting opslaan in de \'logs\' directory waar waar MCEBuddy installed\r\n (b.v. C:\\Program Files\\MCEBuddy2x\\logs is)
+Allow sleep	Slaap toestaan
+If unchecked, it prevents the system from entering sleep while converting	Als dit selectievakje is uitgeschakeld, verhindert het het systeem invoeren van slaap terwijl het omzetten
+Stop at	Halte
+No new conversions would be started after this time	Geen nieuwe conversies zou na deze tijd worden gestart
+minute	minuut
+hour	uur
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	Indien aangevinkt MCEBuddy het systeem van sleep\r\nat de opgegeven starttijd zal wakker en ingeschakeld dagen van de week.
+Start at	Beginnen bij
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy start nieuwe conversies tussen de Start en Stop time.\r\n\r\nThe Start tijd zal worden gebruikt voor de ingeschakelde dagen van de week, whereas\r\nthe eind tijd zal worden gebruikt voor de dezelfde dag or\r\nfor de volgende dag als de eindtijd is na de begintijd.
+Delete	Verwijderen
+Add	Toevoegen
+Change	Wijzigen
+Archive original file	Oorspronkelijke archiefbestand
+Domain name	Domeinnaam
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	Stopt de monitor en conversie taken en opent een pagina configureren MCEBuddy
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	Hiermee maakt u een map met de naam \'MCEBuddyArchive\' waar het oorspronkelijke bestand is located\r\nand beweegt het originele bestand in deze map nadat een succesvolle conversion.\r\n\r\nThis mapnaam en locatie op de pagina systeeminstellingen worden gewijzigd.
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	Debug - gedetailleerde logboeken, helpt trace problems\r\nInformation - logboeken basisinformatie over conversion\r\nWarning - log potentiële conversieproblemen of kritische mislukkingen only\r\nError - logboek alleen kritieke storingen
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	Selecteer het conversieprofiel deze taak is gekoppeld. Het conversieprofiel vertegenwoordigt de outputformaat en de kwaliteit voor de kwaliteit van de geconverteerde file.\r\nHigher conversies langer duren om te converteren. Aanbevolen standaard: Hoge kwaliteit MP4 of MP4 Normal.\r\n\r\nTIP: verwijzen naar de MCEBuddy gids voor geavanceerde parameters aan tweak conversie profielen of uw eigen conversie profielen maken
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	Selecteer het programma MCEBuddy wordt gebruikt om te strippen uit alle commercials tijdens het converteren van de video.\r\nSet op 'Geen' om het verlaten van de commercials in de geconverteerde video.\r\n\r\nTIP: te gebruiken ShowAnalyzer in plaats van Comskip, download en installeer ShowAnalyzer.\r\nShow Analyzer versie 1.0 en hoger ondersteund.
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	Gebruikt de video kwaliteit van het geconverteerde bestand, normale wijzigen is 1.\r\nA hoger getal kwaliteit zal verbeteren, maar zal meer tijd vergen voor conversion.\r\nA kleiner aantal zal de kwaliteit verminderen maar de conversie versnellen.
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Voer patroon zodat deze overeenkomen met de bestandsnamen voor deze taak (bijvoorbeeld *.wtv zal het omzetten van alle bestanden die eindigen met .wtv)\r\nprefix patroon met ~ overslaan van de wedstrijd (bijvoorbeeld *. *; ~*.wtv verwerkt alle bestanden behalve degenen die eindigde met .wtv)\r\nseparate op meerdere patronen met; (bijvoorbeeld *.wtv, ncis *; ~ ncis miami *) verwerkt alle WTV-bestanden en alle bestanden die beginnen met ncis maar niet die beginnen met ncis miami\r\n\r\nYou kunnen reguliere expressies gebruiken om overeenkomen met het patroon door te starten met regex:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Voer patroon zodat deze overeenkomen met Toon/serie titels voor deze taak (bijvoorbeeld Simpson * zal alle bestanden converteren die hebben een Toon titel beginnen met Simpson) \r\nPrefix patroon met ~ overslaan van de wedstrijd (bijvoorbeeld *; ~ Simpson * verwerkt alle Toon titels behalve degenen die met Simpson beginnen) \r\nSeparate meerdere patronen met; (bijvoorbeeld Simpson *;House*) of (bijvoorbeeld Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nYou kunt reguliere expressies overeenkomen met het patroon door te starten met regex:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	Dit kan worden gebruikt voor het overschrijven van de standaard audiotaal wanneer er meerdere gesproken talen in een recording.\r\nTo te krijgen de lijst van de gesproken talen in een opname, klik met de rechtermuisknop op het bestand in de wachtrij en selecteer MediaInfo.\r\n\r\n <Default>proberen zal te houden van alle audiosporen als ondersteund of laat het coderingsprogramma Kies de standaard audio-track\r\n <Original>, indien beschikbaar, zal de oorspronkelijke opname [niet-nagesynchroniseerde] taal gebruiken
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	Geef '[video]' of laat leeg om te converteren van alle video files\r\nEnter patroon zodat deze overeenkomen met de bestandsnamen voor deze locatie (bijvoorbeeld *.wtv zal het omzetten van alle bestanden die eindigen met .wtv)\r\nprefix patroon met ~ overslaan van de wedstrijd (bijvoorbeeld *. *; ~*.wtv verwerkt alle bestanden behalve degenen die eindigde met .wtv)\r\nseparate op meerdere patronen met; (bijvoorbeeld *.wtv, ncis *; ~ ncis miami *) verwerkt alle WTV-bestanden en alle bestanden die beginnen met ncis, maar niet die beginnen met ncis miami
+MCEBuddy Settings	MCEBuddy instellingen
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy maakt geen gebruik van de momenteel aangemelde gebruiker verbinding maken met netwerkshares, gebruikt het zijn eigen service-account.  Zorg dat de gebruiker verbindingsgegevens [MCEBuddy met een sleutelpictogram] opgeven
+Please supply a source name	Gelieve een bronnaam in te voeren
+Please supply a search path name	Gelieve een padnaam zoeken
+A source name or section	Een bronnaam of indeling
+already exists. Please use another name	bestaat al. Gebruik een andere naam
+Monitor name	Beeldscherm naam
+Give this a location a unique name	Dit een locatie een unieke naam geven
+Monitor path	Monitor pad
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	Selecteer de map die MCEBuddy zal toezicht houden op de achtergrond voor nieuwe video bestanden te converteren automatisch
+Click to select the folder to monitor	Klik op de map om te controleren
+Search pattern	Zoekpatroon
+SourceForm	SourceForm
+Monitor Location	Monitor locatie
+Normal	Normaal
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: pipeProxy motor verbindingsfout
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: Unable to create pijp naar MCEBuddy service
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	De MCEBuddy-service is niet beschikbaar. Gelieve te starten vanuit het Configuratiescherm van Windows of Controleer de verbinding van de motor.
+Announcement	Aankondiging
+New version 	Nieuwe versie 
+available	 required
+New BETA version 	Nieuwe BETA versie 
+Click here to download new version of MCEBuddy	Klik hier om te downloaden van de nieuwe versie van MCEBuddy
+Click here to open link	Klik hier om verbinding te openen
+Idle	Idle
+Closing	Sluiten
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI: Onvermogend voor taken bijwerken
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: Unable to start MCEBuddy service
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: Onvermogend voor MCEBuddy-service stoppen
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI: Onvermogend voor taak annuleren
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	Waarschuwing: Netwerk bestanden zullen worden geopend met behulp van de aanmeldingsreferenties van de MCEBuddy-Service, niet de momenteel aangemelde gebruiker. U kunt handmatig de netwerkreferenties van de instellingen-> Expert Settings pagina in MCEBuddy.
+Credential Warning	Referentie waarschuwing
+Status	Status
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI: Onvermogend voor taak toevoegen
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: Unable to get pijp actieve status
+The conversions must be stopped to change settings. Stop the conversions?	De conversies moeten worden gestopt om instellingen te wijzigen. Stop de conversies?
+Stop Engine	Stop motor
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI: Onvermogend voor stop MCEBuddy service van instellingen Klik
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: Onvermogend voor bestanden scannen
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: Unable to open link
+Close	Sluiten
+Close this window, MCEBuddy will keep running in the background	Sluit dit venster MCEBuddy zal blijven draaien in de achtergrond
+If you like MCEBuddy, please click here to Donate - THANKS	Als je MCEBuddy, klik hier om te doneren - Bedankt
+Click here to like MCEBuddy on facebook	Klik hier graag MCEBuddy op facebook
+Click here to open MCEBuddy website	Hier klikken voor kaarten MCEBuddy website
+Rescan	Opnieuw scannen
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	Dwingt de MCEBuddy naar het opnieuw controleren van de Monitor locaties voor nieuwe video bestanden te converteren
+Monitor locations	Monitor locaties
+Settings	Instellingen
+Select the file(s) in the queue to delete	Selecteer de bestanden in de wachtrij te verwijderen
+Manually add video file(s) to the queue to convert	Handmatig aan de wachtrij om te converteren video bestanden toevoegen
+Start the MCEBuddy monitor and conversion tasks	De MCEBuddy monitor en conversie taken starten
+Stop the MCEBuddy monitor and conversion tasks	De MCEBuddy monitor en conversie taken stoppen
+There is a new version!	Er is een nieuwe versie!
+High	Hoge
+Low	Lage
+Priority	Prioriteit
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	Hoge prioriteit - sneller converteren maar kan andere actieve toepassingen unresponsive\r\nLow prioriteit maken - in de achtergrond, maar verminderde interferentie met andere actieve toepassingen converteren
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	Een taak is een conversie sjabloon met een conversieprofiel en verschillende andere conversie-parameters.\r\nEach bestand toegevoegd aan de wachtrij zal worden verwerkt en omgezet door elk van deze tasks.\r\nRefer naar de MCEBuddy gids voor meer details over hoe taken werken.
+Getting started	Aan de slag
+Click here for MCEBuddy guide	Klik hier voor MCEBuddy gids
+Logs	Logboeken
+Click to open log folder	Klik op log map openen
+MCEBuddy Status	MCEBuddy Status
+add	toevoegen
+delete	verwijderen
+paypal-donate	PayPal-doneren
+stop	Stop
+OUTPUT: ConsoleOuput received NULL data	UITGANG: ConsoleOuput ontvangen NULL gegevens
+hours	uur
+minutes	minuten
+second	tweede
+seconds	seconden
+Starting	Starten
+Comskip advertisement scan - Pass 1	Comskip advertentie scan - Pass 1
+Comskip advertisement scan - Pass 2	Comskip advertentie scan - Pass 2
+Cutting commercials from video	Snijden reclamespots van video
+Cutting commercials from video - segment 	Snijden reclamespots van video - segment 
+Merging commercial free segments into new video	Reclame vrije segmenten aan het samenvoegen in de nieuwe video
+Moving converted file to destination	Geconverteerde bestand verplaatsen naar bestemming
+Checking for disk space	Schijfruimte controleren
+Getting show information and banner from Internet sources	Media informatie en banner krijgen van Internet-bronnen
+Copying source file to working directory	Bronbestand te kopiëren naar het werk folder
+Remuxing recording	Remuxing opname
+ShowAnalyzer advertisement scan	ShowAnalyzer advertentie scan
+Comskip advertisement scan	Comskip advertentie scan
+Analyzing video information	Video-informatie analyseren
+Converting	Converteren
+Removing commercials	Verwijderen van reclame
+Writing show information	Serie informatie wegschrijven
+Renaming file using show information	Hernoemen bestand met behulp van Toon informatie
+Success - All done!	Succes - alles gebeurt!
+Muxing streams	Muxing video
+Fallback remux	Fallback remux
+Correcting audio delay	Audio synchronisatie corrigeren
+Converting video file - Pass 1	Converteren van video bestand - Stap 1
+Converting video file - Pass 2	Converteren van video bestand - Stap 2
+Converting video file	Video-bestand converteren
+Audio Track	Audiotrack
+Impaired	Verminderde
+Channels	Kanalen
+Codec	Codec
+Video	Video
+Duration	Duur
+Height	Hoogte
+Width	Breedte
+Audio	Audio
+Name	Naam
+Subtitle	Ondertitel
+Volume	Volume
+Enable custom file renaming	Inschakelen aangepaste bestand hernoemen
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	Dit om een aangepast patroon om de naam van de geconverteerde bestanden en mappen te mogelijk te maken. Voert u het aangepaste patroon in het vak below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S % seizoen % ##E % aflevering % ##-% episodename % - %airyear%_%airmonth%_%airday%\r\n\r\nWill producten: \r\nTVShows\CSI\Season 1\CSI - S01E02 - beste tijden - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produceren (voor een film) \r\n Recording\Movies\Star oorlogen geconverteerd. <ext>\r\nOR (voor niet-films) \r\n Recording\TVShows\CSI\Season 1\CSI - S01E02-geconverteerd.<ext>\r\n\r\nRefer aan de MCEBuddy geavanceerde documentatie voor een lijst met alle opdrachten van de patroon.
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	ShowAnalyzer niet gevonden. \nKlik downloaden en installeren van ShowAnalyzer.
+ShowAnalyzer Missing	ShowAnalyzer ontbreekt
+Invalid language code, reverting to <Default> language	Ongeldige taalcode, terug te keren naar <Default>taal
+Cut start	Gesneden start
+Cut end	Einde knippen
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	Hiermee geeft u het aantal seconden te snijden uit het begin van de opname (vóór het verwijderen van de advertenties)
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	Hiermee geeft u het aantal seconden te snijden uit het einde van de opname (vóór het verwijderen van de advertenties)
+Send an eMail after each conversion.	Stuur een mailtje na elke omzetting.
+Send eMail	E-mail verzenden
+SMTP Server Name	SMTP-servernaam
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	Voer de uitgaande E-mail (SMTP) server adres here\r\ne.g. SMTP.Gmail.com
+Port	Poort
+Enter the SMTP server port	Geef de SMTP-serverpoort
+Use SSL	Gebruik SSL
+Check this if you SMTP server uses SSL	Schakel dit in als u SMTP server gebruikmaakt van SSL
+e-Mail Settings	e-mailinstellingen
+From <e-Mail>	Van <e-Mail>
+Enter the senders (From) eMail address here	De afzenders (uit) E-mailadres hier invoeren
+To <e-Mails>	Te <e-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	Voer de ontvangers (om) E-mail adres here.\r\nSeparate meerdere geadresseerden met een puntkomma (;)
+Send eMail on successful conversion	E-mail verzenden op succesvolle conversie
+Send eMail on failed conversion	E-mail verzenden op mislukte conversie
+Send eMail on cancelled conversion	E-mail verzenden op geannuleerde conversie
+Send eMail on adding a conversion to the queue	E-mail over het toevoegen van een conversie naar de wachtrij verzenden
+Please enter a valid server address	Voer een geldige serveradres
+Invalid SMTP Server	Ongeldige SMTP-Server
+Please enter a valid server port	Voer een geldige serverpoort
+Invalid SMTP Port	Ongeldige SMTP-poort
+Please enter a valid From eMail address	Geef een geldig E-mailadres
+Invalid eMail Address	Ongeldig E-mail adres
+Please enter valid To eMail addresses	Voer geldige naar E-mailadressen
+Username	Gebruikersnaam
+<Optional> Enter the username for the eMail server authentication	<Optional>Vul de gebruikersnaam voor de verificatie E-mail server
+<Optional> Enter the password for the eMail server authentication	<Optional>Enter het wachtwoord voor de E-mail server-verificatie
+MCEBuddy unable to download series information	MCEBuddy niet in staat serie informatie te downloaden
+MCEBuddy successfully converted a video	MCEBuddy met succes geconverteerd een video
+Source Video	Bronvideo
+Converted Video	Geconverteerde Video
+Converted At	Omgerekend tegen
+MCEBuddy failed to converted a video	MCEBuddy is een video geconverteerd is mislukt
+Failed At	Is mislukt op
+MCEBuddy cancelled a video conversion	MCEBuddy geannuleerd een video conversie
+Cancelled At	Op geannuleerd
+Working	Werken
+Test	Test
+Testing	Testen
+Click this button to test the eMail server settings	Klik op deze knop om de E-mail serverinstellingen te testen
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy stuurt een E-mail om te testen de settings.\r\nThis server kunt nemen upto 60 seconds.\r\nMCEBuddy mogelijk niet meer reageert tijdens deze periode.
+Test eMail	Test E-mail
+MCEBuddy Test eMail	MCEBuddy Test E-mail
+MCEBuddy - Have a great day!	MCEBuddy - hebben een geweldige dag!
+Send eMail test successful	Verzenden eMail test succesvol
+Send eMail test failed! Please check your settings and internet connectivity	Stuur E-mail test is mislukt! Controleer uw instellingen en internetconnectiviteit
+Test eMail Success	Test E-mail succes
+Test eMail Failed	Test E-mail mislukt
+Send eMail on start of conversion	E-mail verzenden op het begin van de conversie
+MCEBuddy started a video conversion	MCEBuddy begon een video conversie
+Conversion Started At	Conversie begonnen op
+Yes (Comskip)	Ja (Comskip)
+Yes (ShowAnalyzer)	Ja (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	Atleast een conversie taak moet worden ingeschakeld
+Disable	Uitschakelen
+Enable	Inschakelen
+Rename	Naam wijzigen
+Move	Verplaatsen
+Up	Omhoog
+Down	Down
+Slow Remuxing	Trage Remuxing
+Extracting closed captions	Winning van closed caption-ondertiteling
+Validating closed captions	Closed caption-ondertiteling valideren
+Extracting subtitles	Winning van ondertitels
+Trimming closed captions	Trimmen gesloten bijschriften
+Extract subtitles and closed captions	Extract ondertitels en closed caption-ondertiteling
+Field	Veld
+Channel	Kanaal
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	Dit om uit te pakken gesloten bijschriften toelaten, ondertitels en teletekst-from\r\nWTV, DVR-MS, RD, MP4, MKV en andere ondersteunde files.\r\n\r\nIt wordt opgeslagen als een bestand ondertitels (SRT).
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	Dit geavanceerde opties instellen voor gesloten bijschriften extraction\r\nField - 1 of 2\r\nChannel - 1 of 2\r\n\r\nDefault inschakelen: veld 1, kanaal 1
+Subtitle offset	Verschuiving ondertitel
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	Voer het aantal seconden (+ ve / - ve) aan te passen de sync ondertitels met video
+Re-ReMuxing due to audio error	Re-ReMuxing toe te schrijven aan audio fout
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	Sla de poster en informatie (metagegevens) weergeven in een MC/XBMC compatibel NFO bestand (XML-indeling)
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	Schakel dit selectievakje in als u wilt de informatie weergeven (metagegevens) opslaan in de geconverteerde file.\r\nThis alleen werken voor bestanden die ondersteuning bieden voor metadata-codes zoals MP4, MKV, WTV etc.\r\n\r\nNOTE: Schakel dit selectievakje Als u bent geconfronteerd met problemen met sommige apparaten zoals oudere TV hebben probleem lezing metagegevens.
+Atleast one day of the week must be enabled	Atleast moet een dag van de week worden ingeschakeld
+Invalid Days of Week	Ongeldige dagen van de Week
+Invalid day of week found in configuration file	Ongeldige dag van week gevonden in configuratiebestand
+Scheduling	Planning
+Remuxing to	Remuxing te
+Part	Deel
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	Rest uw muisklik op elke knop, doos of item dat moet worden Instant Help-informatie opvragen op it.\n\nFor meer informatie over het gebruik, oplossen of ophalen van steun voor MCEBuddy op de < Aan de Slag > link op de top van de juiste corner.\n\nDonations zijn altijd welkom :) Geniet van! \n\n - Ramit, Derek & Goose
+Welcome to MCEBuddy	Welkom bij MCEBuddy
+Multichannel audio	Audio via meerdere kanalen
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	Selectievakje om meerkanaals audio als de bronvideo it.\r\nBy standaard de audio ondersteunt is beperkt tot 2 kanalen (stereo).
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	Dynamic Range Compression (DRC) \r\nWhen de bron is een AC3 audio, DRC will\r\nreduce het verschil tussen de luid en de soft\r\nsounds maken van de audio track meer even.\r\nIf u hebt een meerkanaals audio-opname en you\r\nfeel die het volume te zacht, is controleren dat dit vak kunnen inschakelen.
+FPS	FPS
+Logfile age (days)	Logfile leeftijd (dagen)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	Maximum aantal dagen om te houden van de logbestanden voordat u verwijdert them.\r\nSet op 0 om de logboeken voor altijd houden.
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	Snelle Remuxing
+Byte stream remuxing	Byte stream remuxing
+Disable cropping	Uitschakelen bijsnijden
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	Controleer dit uit te schakelen de video automatisch bijsnijden tijdens conversion.\r\nCropping wordt gebruikt om de "zwarte balken" in de video (boven, onder, links of right).\r\nUse deze optie als de video-beeld is gesneden krijgen op elke zijde of als de laatste foto is op zoek uitgerekt of vervormd.
+Only detect Ads	Alleen detecteren advertenties
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	Schakel dit selectievakje in als u wilt MCEBuddy om te ontdekken de advertenties (commercials) maar niet snij ze uit de video.\r\nWhen die deze optie is ingeschakeld, maken MCEBuddy een EDL bestand samen met het geconverteerde bestand dat de locaties van advertenties in de geconverteerde video.\r\nAlso voor MP4, M4V aangeeft en MKV bestanden MCEBuddy hoofdstukken maakt ter gelegenheid van het einde van commercials.
+Download information	Download informatie
+Correction	Correctie
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	Klik hier om te corrigeren de Toon titel en gebruik van een specifieke TVDB serie id of IMDB film id\r\nto opzoeken aanvullende metagegevens van kracht vanaf het internet.
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	Controleer dit voor het downloaden van extra informatie van het internet over de show als een banner bestand, aflevering, seizoen enz
+Profile Error	Profiel fout
+Cannot find selected profile in profiles.conf	Geselecteerde profiel vindt niet in profiles.conf
+Invalid Profile	Ongeldige profiel
+Please select a valid profile	Selecteer een geldig profiel
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	De MCEBuddy-Engine is neergestort. Stuur de mcebuddy.log naar de ontwikkelaars
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	Selecteer de aangepaste Comskip INI-bestand te gebruiken voor deze omzetting task\r\nLeave deze leeg te gebruiken de standaard Comskip INI-bestand voor advertentie verwijderen
+Click to select custom Comskip INI file	Schakel het selectievakje Aangepaste Comskip INI-bestand
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	Selecteer de map voor het werken met tijdelijke bestanden. Zorg ervoor dat er voldoende lege ruimte op de drive.\r\nLeave deze leeg om te gebruiken de standaard tijdelijke map in de installatiemap.
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	Selecteer de map voor het werken met tijdelijke bestanden. Zorg ervoor dat er dat voldoende lege ruimte op de drive.\r\nThis heeft voorrang op de temp map die is opgegeven in de instellingen-> Expert Settings pagina.
+Click to select temp working folder	Schakel het selectievakje werkmap temp
+Temp folder	Tijdelijke map
+Space check	Ruimte selectievakje
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	Wanneer ingeschakeld MCEBuddy zal controleren voor voldoende vrije schijfruimte voor de conversie (bestemming en temp).\r\nUncheck dit als u zijn having zorg met netwerkstations of hebben buitengewoon grote videobestanden.
+MCEBuddy Windows Event Logs	MCEBuddy Windows-gebeurtenislogboeken
+Events	Evenementen
+Click here to open the MCEBuddy Windows Event Logs	Klik hier om de MCEBuddy Windows-gebeurtenislogboeken
+Enable UPnP	Inschakelen van UPnP
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	Dit om het inschakelen van UPnP controleren. Hierdoor is toegang tot de motor van de MCEBuddy van buiten de network.\r\nThis moet worden gecontroleerd als u een mobiele/standalone MCEBuddy client voor toegang tot MCEBuddy.
+Click here to connect to another MCEBuddy engine	Klik hier om te verbinden met een andere MCEBuddy motor
+MCEBuddy Remote Engine Connection	MCEBuddy Remote Engine Connection
+Engine Name	Naam van de motor
+Engine Port	Haven van de motor
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	Geef de naam of het IP-adres van de motor van de MCEBuddy die u verbinding wilt maken
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	Typ het TCP-poortnummer van de motor van de MCEBuddy u verbinding wilt maken
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	Voer het TCP-poortnummer van de motor van de MCEBuddy u verbinding wilt maken (1-63355)
+Invalid Name/Port	Ongeldige naam/Port
+Please enter a valid Engine Name and Engine Port Number	Voer een geldig motor naam en nummer van de poort van de motor
+Error Stopping Engine	Fout stoppen Engine
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	Unable to stop MCEBuddy motor, instellingen kunnen niet worden opgeslagen. Wilt u doorgaan?
+Unable to communicate with engine. Settings have NOT been saved.	Niet in staat om te communiceren met de motor. Instellingen zijn niet opgeslagen.
+Communication Error	Communicatiefout
+Engine not stopped. Settings have NOT been saved.	Motor niet gestopt. Instellingen zijn niet opgeslagen.
+Unable To Save Settings	Instellingen op te slaan
+Unable to communicate with engine. UPnP settings have not been updated	Niet in staat om te communiceren met de motor. UPnP-instellingen zijn niet bijgewerkt
+Audio delay	Audio delay
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	Voer een waarde in seconden (positief of negatief) hier te verschuiven van de audio ten opzichte van de video.\r\nUse hierop als u wilt synchroniseren met de video, audio als ze synchroon na conversion.\r\nA een positieve waarde zal vertragen de audio (dat wil zeggen video voor audio) en een negatieve waarde zal geavanceerde de audio (dat wil zeggen audio voor video).\r\nE.g. 1,5
+Media info	Media-info
+Click here to get media properties for selected files	Klik hier om media eigenschappen voor geselecteerde bestanden
+Save information	Gegevens opslaan
+Add information	Informatie toevoegen
+Shows a preview of the custom filename and path	Geeft een voorbeeld van de aangepaste bestandsnaam en het pad
+Invalid Filename Pattern	Ongeldige bestandsnaam patroon
+TVDB Series ID	TVDB serie ID
+IMDB Series ID	IMDB serie ID
+Original title	Originele titel
+Corrected title	Gecorrigeerde titel
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Voer de TVDB reeks-ID die u gebruiken wilt voor het downloaden van Toon information.\r\nIf het oorspronkelijke vak Titel leeg is, dit zal worden toegepast op alle shows geselecteerd door deze conversie taak.
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Voer de IMDB Movie-ID die u wilt gebruiken voor het downloaden van film information.\r\nIf het origineel vak Titel leeg is, dit zal worden toegepast op alle shows geselecteerd door deze conversie taak.
+Internet Lookup Title and Metadata Correction	Internet Lookup titel en metagegevens correctie
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	Klik hier als u wilt toevoegen een andere rij Combineer en corrigeren van titels en serie id.\r\nIf u wilt gebruiken de gecorrigeerde gelijknamige of een serie id voor alle shows geconverteerd door deze conversie taak, \r\nleave de oorspronkelijke titel leeg op de eerste rij en u moet niet een tweede rij toevoegen.
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	Voer patroon zodat deze overeenkomen met Toon/serie titels voor correctie (bijvoorbeeld Simpson * vervangt alle titels die hebben een Toon titel beginnen met Simpson) \r\nPrefix patroon met ~ overslaan van de wedstrijd (bijvoorbeeld *. *; ~ Simpson * zal corrigeren alle titels met uitzondering van degenen die met Simpson beginnen) \r\nSeparate meerdere patronen met; (bijvoorbeeld Simpson *;House*) of (bijvoorbeeld Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nNOTE: laat u dit vak leeg als u de gecorrigeerde titel of een serie id toepassen op alle bestanden worden verwerkt door deze conversie task.\r\nIf leeg laat wilt, kunt u geen toevoegen een tweede row.\r\n\r\nYou kunt een reguliere expressie overeenkomt met de titel door te starten met regex:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	Voer de nieuwe/gecorrigeerd titel u gebruiken wilt voor het downloaden van extra informatie uit de internet.\r\nIf de oorspronkelijke vak Titel leeg is, dit zal worden toegepast op alle shows geselecteerd door deze conversie kan task.\r\n\r\nYou een reguliere expressie gebruiken om te corrigeren de titel door te starten met regex:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	Voor elke rij, voer de oorspronkelijke titel zodat deze overeenkomen met de naam Toon en ofwel een Corrected titel of een TVDB/IMDB reeks-ID
+Please enter either a Corrected title or a TVDB/IMDB Series ID	Voer een titel gerectificeerd of een TVDB/IMDB serie ID
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	Dit inschakelen als u wilt MCEBuddy om te zetten het geconverteerde bestand in de bron directory\r\nif het doelpad niet beschikbaar is. (b.v. netwerk of toewijzing defect)
+Fallback to source path	Terugval naar bronpad
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	Gebruikt om te verhogen of te verlagen van het volume van the\r\nrecording, terwijl converting.\r\n1 normaal is, iets minder dan het zal verminderen, anything\r\nhigher zullen verhogen.
+Archive folder	Archiefmap
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	De locatie van de 'MCEBuddyArchive' de standaardmap in de oorspronkelijke map gebruiken leeg archief-folder.\r\nLeave wijzigen.
+Monitor subdirectories	Monitor submappen
+Check this box to also monitor all directories within the Monitor path	Schakel dit selectievakje in als u wilt ook alle mappen binnen het pad Monitor controleren
+Click here to show MCEBuddy status	Klik hier om MCEBuddy status te geven
+MCEBuddy service not connected	MCEBuddy dienst niet verbonden
+MCEBuddy idle	MCEBuddy inactief
+conversions in progress	conversies in uitvoering
+MCEBuddy stopped	MCEBuddy gestopt
+Sync converted files	Geconverteerde bestanden synchroniseren
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	Schakel deze optie in als u wilt dat MCEBuddy te houden van de geconverteerde bestanden in sync met de oorspronkelijke files.\r\ni.e. Wanneer de oorspronkelijke bestanden worden verwijderd door de gebruiker, de overeenkomstige geconverteerde bestanden zijn ook deleted.\r\n\r\nNOTE: MCEBuddy controleert alleen originele bestanden in de mappen monitor locaties en alleen terwijl de motor is running.\r\nMCEBuddy niet zal kunnen om bij te houden van de gebruiker verwijderd bestanden terwijl de motor stilstaat.
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	Wenst u MCEBuddy om te verwijderen elke geconverteerde bestand wanneer het oorspronkelijke bestand is verwijderd?
+Confirm sync conversions?	Sync conversies bevestigen?
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	Weet u zeker dat u niet wilt commercials van de geconverteerde video verwijderen en alleen het bestand EDL?
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer reageert niet. Gelieve het systeem opnieuw opstarten of opnieuw installeren van ShowAnalyzer.
+ShowAnalyzer Not Responding	ShowAnalyzer reageert niet
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	Zorg ervoor dat u druk op 'Start' na het sluiten van dit venster, anders planning en Wake zal niet werken.
+Enabling Scheduling and Wake	Inschakelen planning en Wake
+Passwords do not match	Wachtwoorden komen niet overeen
+Password error	Password error
+Adding subtitles and chapters to file	Ondertiteling en hoofdstukken toevoegen aan bestand
+Send eMail if unable to download series information	E-mail verzenden als niet downloaden serie informatie
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	Schakel dit selectievakje in als u wilt dat deze conversie taak om alleen bestanden te verwerken van specifieke monitor locations.\r\nIf ongecontroleerde die elke taak conversie bestanden van alle locaties van de monitor verwerkt (met inbegrip van nieuwe later toegevoegd).
+Select Monitor Locations	Selecteer Monitor locaties
+Select atleast one Monitor Location name	Selecteer ten minste één Monitor locatie naam
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	U hebt alle van de huidige Monitor Locations.\r\nDo u wilt dat de taak van deze conversie voor het automatisch verwerken van elke nieuwe Monitor locaties toegevoegd in de toekomst?
+New monitor locations	Nieuwe locaties van de monitor
+Invalid selection	Ongeldige selectie
+Channel name match	Kanaal naam wedstrijd
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Voer patroon zodat deze overeenkomen met de naam van het kanaal voor deze taak (bijvoorbeeld ABC * zal alle bestanden converteren die op de naam van een kanaal die beginnen met ABC opgenomen) \r\nPrefix patroon met ~ overslaan van de wedstrijd (bijvoorbeeld *; ~ ABC * verwerkt alle kanalen, behalve degenen die met ABC beginnen) \r\nSeparate meerdere patronen met; (bijvoorbeeld ABC *;TBS*) of (bijvoorbeeld ABC *;Fox*; ~ Fox4 *) \r\n\r\nYou kunt reguliere expressies overeenkomen met het patroon door te starten met regex:
+Clear history	Geschiedenis wissen
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	Klik op deze knop om de geschiedenis van alle geconverteerde files.\r\nThis te ontruimen is veroorzaken MCEBuddy te converteren van alle bestanden wordt gecontroleerd.
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	Weet u zeker dat u wilt wissen van de geschiedenis van alle conversies? \r\nThis zal leiden tot MCEBuddy te converteren van alle bestanden wordt gecontroleerd.
+Show history	Geschiedenis weergeven
+Click this button to show the history of all converted files.	Klik op deze knop om de geschiedenis van alle geconverteerde bestanden.
+History of Converted Files	Geschiedenis van geconverteerde bestanden
+Unable to communicate with engine.	Niet in staat om te communiceren met motor.
+Extracting streams	Extraheren streams
+Fallback muxing streams	Fallback muxing stromen
+Remuxing TiVO file	Remuxing TiVO bestand
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	Voer uw 10 cijferige TiVO MAK sleutel tot het converteren en TiVO opnames verwerken
+Invalid TiVO MAK Key	Ongeldige TiVO MAK sleutel
+The TiVO MAK key should be 10 digits	De TiVO MAK sleutel moet bestaan uit 10 cijfers
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	Version mismatch. Zorg ervoor dat de MCEBuddy client en motor dezelfde versie wordt uitgevoerd.
+Error retrieving Event Logs	Fout bij het ophalen van gebeurtenislogboeken
+Unable to get Event Log Entries from the MCEBuddy engine.	Unable to get logboekvermeldingen van de MCEBuddy motor.
+PAUSED: Check conversion schedule	ONDERBROKEN: Check conversieschema
+Logging	Logboekregistratie
+Folder Management	Beheer mappen
+Processor Management	Processor Management
+Expert Settings	Geavanceerde instellingen
+System Settings	Systeeminstellingen
+Click here to change additional settings (for experts only)	Klik hier als u aanvullende instellingen (van deskundigen slechts)
+Failed folder	Mislukte map
+Location of the folder that hold the original files for failed conversions.	Locatie van de map waarin de oorspronkelijke bestanden voor mislukte conversies.
+Move original file on failure	Oorspronkelijke bestand op mislukking verplaatsen
+Check this to move the original file to a separate folder if the conversion fails.	Controleer dit als u wilt het oorspronkelijke bestand verplaatsen naar een aparte map als de conversie is mislukt.
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	Dit om te beperken van het aantal logische processors die MCEBuddycan use.\r\nEach selectievakje hieronder overeenkomt met een beschikbare logische processor controleren.
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Elk vak vertegenwoordigt logische processors van 1 tot 16 respectively.\r\nChecking een doos kunt MCEBuddy gebruiken die processor.
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Elk vak vertegenwoordigt logische processors van 17 tot 32 respectively.\r\nChecking een doos kunt MCEBuddy gebruiken die processor.
+Select atleast one processor to use	Selecteer ten minste één processor te gebruiken
+Invalid Configuration	Ongeldige configuratie
+Comskip path	Comskip pad
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	Als u wilt gebruiken een aangepaste versie van Comkip (b.v. donateur versie) \r\nthen u het pad van de comskip installatie here.\r\nLeave leeg te gebruiken de standaard-comskip die wordt geleverd met MCEBuddy.
+Miscellaneous	Diversen
+Ignore copy protection	Kopieerbeveiliging negeren
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	Dit om te negeren de kopieerbeveiliging vlag op videobestand terwijl converting.\r\nNOTE controleren: MCEBuddy codering niet overslaan, hierdoor alleen als een bestand is incorrectly\r\ntagged als kopieerbeveiliging wanneer het niet is gecodeerd.
+Use recycle bin	Gebruik prullenbak
+Check this to use the recycle bin when files are deleted by MCEBuddy	Check this als u wilt de Prullenbak gebruiken wanneer bestanden worden verwijderd door MCEBuddy
+Poll period	Poll periode
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	Dit is hoe vaak MCEBuddy scant de Monitor taken locaties voor nieuwe files.\r\nThe interval is opgegeven in seconden.
+Server port	Serverpoort
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	Dit is de TCP-poort die mcebuddy gebruikt om te communiceren met de externe engine.\r\nWhen UPnP is ingeschakeld, MCEBuddy automatisch deze poort wilt toevoegen aan de Windows Firewall\r\nand UPnP-gateway toegang vanaf het internet op deze poort.
+Hang period	Hang periode
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	Geef het aantal seconden dat MCEBuddy op een reactie van the\r\nunderlying toepassing wachten zal beëindigd voordat de toepassing als hung.\r\nEnter 0 hang detectie uitschakelen.
+Subtitle commercial cut sync	Ondertitel commerciële gesneden sync
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	Deze parameter wordt gebruikt wanneer de ondertitels gaan geleidelijk synchroon nadat elke commerciële segment is verwijderd uit de video.\r\nThis-instelling wordt gebruikt om de ondertitels terug in sync met de video.\r\nEach tijd die de commerciële video is uitgesneden, de ondertitels zijn tijd verschoven door dit bedrag (+ ve of -ve in seconden).
+Invalid poll period	Ongeldige poll periode
+Invalid server port	Ongeldige serverpoort
+eMail Subject Customization	E-mail onderwerp Customization
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	Gebruik deze sectie voor het aanpassen van het onderwerp van E-mail verzonden door MCEBuddy over de diverse conversie gebeurtenissen vermeld below.\r\nRefer aan de documentatie, aangepaste opdrachten voor door de gebruiker gedefinieerde variables.\r\ne.g. % Showname % % originalfilename % bestandsconversie succesvol met behulp van taak % taskname%\r\nNOTE Toon: niet altijd alle gegevens beschikbaar zal zijn in de aangepaste commands.\r\nLeave leeg standaard onderwerp lijnen te gebruiken.
+Success	Succes
+Failed	Is mislukt
+Cancelled	Geannuleerd
+Download fail	Download fail
+Limit processor utilization	Processorgebruik beperken
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	Controleer dit te beperken van het aantal logische processors dat MCEBuddy kan use.\r\nEach selectievakje hieronder komt het overeen met een beschikbare logische processor.
+Custom profile	Aangepast profiel
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	Hebt u een aangepaste profiles.conf-bestand dat u wilt gebruiken in plaats van the\r\none die wordt geleverd met MCEBuddy, voer het pad naar het bestand here.\r\n\r\nNOTE: MCEBuddy voortdurend updates profiles.conf om bug fixes, \r\nenhancements en prestaties verbeteringen die u out\r\non zal missen als u deze functie gebruikt.
+Invalid custom profiles.conf	Ongeldige aangepaste profiles.conf
+Suspend on battery	Suspend op batterij
+Suspend conversions when the computer switches to battery power	Conversies opschorten wanneer de computer op accustroom overschakelt
+MCEBuddy added a video conversion to the queue	MCEBuddy toegevoegd aan de wachtrij een video conversie
+Queue	Wachtrij
+Refer to documentation on using custom commands in custom eMail subjects	Raadpleeg de documentatie over het gebruik van aangepaste opdrachten in aangepaste E-mail onderwerpen
+Could not copy information to Clipboard, please try again.	Kon niet informatie kopiëren naar Klembord, probeer het opnieuw.
+Error copying to Clipboard	Fout bij het kopiëren naar Klembord
+Copy to clipboard	Naar klembord kopiëren
+Reconvert files	Bestanden converteren
+Are you sure you want to reconvert the selected files?	Weet u zeker dat u wilt converteren van de geselecteerde bestanden?
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	Selecteer de bestanden die u wilt converteren en klik vervolgens op dit button.\r\nIf die zijn nog steeds de oorspronkelijke bestanden wordt gecontroleerd door MCEBuddy ze voor omschakeling wachtrij kunnen worden geplaatst.
+Time taken to convert	Tijd die nodig is om te zetten
+Network authentication	Netwerkverificatie
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	Klik op de knop om de netwerkverificatie aandelen credentials.\r\nThis wordt gebruikt wanneer bestanden worden toegevoegd via de knop toevoegen op de belangrijkste window\r\nor slepen en neerzetten vanaf een netwerkshare in het vak status conversie op het belangrijkste venster.
+Skip reconversion	Skip reconversie
+Do not reconvert the video if a converted file already exists in the destination directory.	Opnieuw de video niet converteren als een geconverteerde bestand al in de doelmap bestaat.
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	De verwachte bestandsnaam voor de geconverteerde video (niet de oorspronkelijke video filename) wordt vergeleken met de bestandsnamen in de bestemming directory.\r\nIf het geconverteerde bestand bestaat, het bestand zal niet opnieuw worden geconverteerd en het zal worden aangenomen als een succesvolle conversion.\r\nThis is handig als de dezelfde Toon/aflevering op meerdere keren wordt opgenomen en u niet wilt converteren them.\r\n\r\nNOTE: Deze optie wordt genegeerd voor video's die worden toegevoegd, handmatig met behulp van de knop toevoegen of slepen en neerzetten
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	Als ingeschakeld, overslaan reconversie ook het geschiedenisbestand wordt gecontroleerd voor afgelopen conversions.\r\nThe bestandsnaam voor de geconverteerde video (niet de oorspronkelijke video filename verwacht) wordt vergeleken met de bestandsnamen in de geschiedenis file.\r\nIf de als geconverteerde bestandsnaam (inclusief pad) overeenkomt met een van de al geconverteerde bestandsnamen (inclusief de paden) in het geschiedenisbestand, \r\nthe bestand zal niet opnieuw worden geconverteerd en het zal worden aangenomen dat een geslaagde conversie.
+Adding file to the iTunes library	Bestand toevoegen aan de iTunes-bibliotheek
+Add to iTunes	Voeg toe aan iTunes
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	Check deze box om toe te voegen automatisch de geconverteerde bestanden naar de iTunes library.\r\nThis alleen werkt met iTunes ondersteunde bestanden (b.v. MP4, M4V, MP3 etc)
+Adding file to the WMP library	Bestand toevoegen aan de bibliotheek van WMP
+Library Management	Bibliotheekbeheer
+Add to Windows Media Player	Toevoegen aan Windows Mediaplayer
+Check this box to automatically add the converted files to the WMP library.	Schakel dit selectievakje in als u wilt automatisch de geconverteerde bestanden toevoegen aan de bibliotheek van WMP.
+Renaming and Sorting	Hernoemen en sorteren
+Selection Filters	Selectiefilters
+Audio and Video	Audio en Video
+Subtitles and Chapters	Ondertiteling en hoofdstukken
+Skip copying original files	Skip oorspronkelijke bestanden kopiëren
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	CHECK deze BOX op uw eigen RISK.\r\nDO niet controleren dit vak tenzij je weet wat je bent DOING.\r\nCheck dit vak overslaan maken van een back-up van het originele bestand (kopiëren) terwijl het omzetten.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	Controleer deze doos op uw eigen RISK.\r\nDO niet CHECK dit vak kan tenzij je weet wat je bent DOING.\r\nCheck dit selectievakje overslaan maken van een back-up van het originele bestand (kopiëren) terwijl converting.\r\nIf dit is ingeschakeld, het oorspronkelijke bestand zal niet worden bewaard in het geval van een error.\r\nIt ook zelfs leiden tot conversie fouten of andere onvoorziene conversieproblemen.
+Are you sure you want to do this?	Weet u zeker dat u dit wilt doen?
+Media Information Management	Media informatiemanagement
+Force show type	Kracht type tonen
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	Stel dit te dwingen behandeling van de video-opname als een film of TV Series.\r\nThis zal veranderen de manier waarop extra informatie (metagegevens) over de opname is gedownload van de internet.\r\nMovie - behandelen de opname als movie\r\nSeries - behandelen de opname als een TV-Series\r\nSports - behandelen de opname als een sport-show\r\nDefault - gebruik de standaardgegevens die beschikbaar zijn in de opname metagegevens om film of TV-serie
+Show type	Type voorstelling
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	Selecteer deze optie om het filteren van het soort opnamen wordt converted.\r\n\r\nMovies - Kies deze instelling om te zetten als het type is Movie.\r\nShows - Kies deze instelling om te zetten als het type is niet een Movie.\r\nSports - Kies deze instelling om te zetten als het type is Sports.\r\n\r\nNOTE: Toon type wordt gelezen uit de opname metadata.\r\nOnly sommige opnamen ondersteunen Toon type metagegevens zoals WTV and\r\nrecordings met ondersteuning van metadata bestanden ()XML/ARG enz).
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	Dit vak bevat alle bestanden in de wachtrij voor conversion.\r\nDrag en neerzetten bestanden hier of druk op de knop toevoegen om toe te voegen bestanden naar de wachtrij voor documentconversie
+Conversion	Conversie
+Files	Bestanden
+Click this button to open or close the Advanced Settings section	Klik op deze knop te openen of te sluiten het gedeelte Advanced Settings
+Running custom commands	Aangepaste opdrachten uitvoeren
+Trimming video recording	Trimmen video-opname
+Insert at top of queue	Invoegen boven van wachtrij
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	Nieuwe conversies worden standaard toegevoegd aan de onderkant (eind) van de conversie queue.\r\nIf dit selectievakje is ingeschakeld, elke nieuwe conversies toegevoegd door deze taak zal worden toegevoegd aan the\r\nbeginning (boven) van de wachtrij voor documentconversie.
+Add subtitles and chapters	Ondertiteling en hoofdstukken toevoegen
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	Schakel deze optie in om toe te voegen van alle uitgepakte ondertiteling en hoofdstukken aan het geconverteerde video.\r\nEach hoofdstuk markeert het einde van een commerciële. Dit werkt alleen met ondersteunde formaten (bijvoorbeeld MKV, MP4).\r\n\r\nNOTE: sommige spelers en oudere TV's ondersteunen geen ingesloten ondertitels en chapters.\r\nIf je je niet kunt afspelen de geconverteerde video, probeer deze optie uitschakelen.
+Select best soundtrack	Selecteer beste soundtrack
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	Als de oorspronkelijke video meerdere soundtracks, deze optie vertelt MCEBuddy heeft de meest geschikte en primaire soundtrack.\r\nIf u een specifieke taal-soundtrack wilt selecteren, controleert u of u invoert van de naam van de taal of code in de gesproken taal box.\r\nCheck dit vak als u de verkeerde soundtrack in uw geconverteerde file.\r\n\r\nUncheck dit vak horen bent als u wilt dat MCEBuddy te behouden alle de soundtracks van de originele video in het geconverteerde bestand wanneer mogelijk. \r\nNOTE: aantal profielen bieden geen ondersteuning voor meerdere soundtracks, in welk geval heeft deze instelling geen effect.
+Enable remote access	Externe toegang inschakelen
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	Hiermee maakt u een uitzondering in windows firewall voor toepassing van de MCEBuddy en de port.\r\nThis is vereist als u windows firewall ingeschakeld en wilt gebruiken UPnP, de externe client\r\nor toegang de motor met behulp van een IP-address.\r\n\r\nNOTE: als u een aangepaste firewall hebt, dit kan niet werken, moet u handmatig maken an\r\nexception voor MCEBuddy service en de haven.
+Unable to communicate with engine. Firewall exception settings have not been updated.	Niet in staat om te communiceren met motor. Firewall uitzondering-instellingen zijn niet bijgewerkt.
+Detect and optimize video quality	Detecteren en videokwaliteit optimaliseren
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	Wanneer ingeschakeld, MCEBuddy de video-verwerkingopties zal optimaliseren door te proberen om te ontdekken de videobron type.\r\nThis kan de kwaliteit van de geconverteerde video aanzienlijk verbeteren als correct detected.\r\n\r\nNOTE: het doet dit door te proberen om te detecteren welke videobron (geïnterlinieerde, progressieve of telecine).\r\nIf is het kundig voor speurder welke videobron, de corresponderende parameters in de profile.\r\nTurn deze optie uit als u worden geconfronteerd met problemen met de geconverteerde video kwaliteit of wilt gebruiken de standaardparameters profiel wordt overschreven.
+Are you sure you want to delete this task?	Weet u zeker dat u wilt verwijderen van deze taak?
+Delete Task	Taak verwijderen
+Enter the new task name	Voer de naam van de nieuwe taak
+Rename Task	Naam taak wijzigen
+MCEBuddy PAUSED	MCEBuddy GEPAUZEERD
+idle	idle
+PAUSED	ONDERBROKEN
+Frame rate	Framesnelheid
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	Schakel dit in te stellen een aangepaste framesnelheid (FPS) voor de geconverteerde video.\r\nYou dit instellen wellicht tijdens het converteren van video formaten (bv PAL op NTSC) \r\nor voor apparaten die ondersteuning alleen specifieke framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001
+Skip remuxing files	Remuxing bestanden overslaan
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	CHECK deze BOX op uw eigen RISK.\r\nDO niet CHECK dit vak tenzij je weet wat je bent DOING.\r\nCheck dit vak remuxing het oorspronkelijke bestand overslaan en direct naar een TS bestand terwijl converting.\r\nIf dit selectievakje is ingeschakeld, sommige functies zoals ondertitel extractie of comskip kan niet work.\r\nIt kan ook zelfs leiden tot conversie fouten of andere onvoorziene conversieproblemen.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	CHECK deze BOX op uw eigen RISK.\r\nDO niet controleren dit vak tenzij je weet wat je bent DOING.\r\nCheck dit vak remuxing het oorspronkelijke bestand overslaan en direct naar een TS bestand terwijl het omzetten.
+Monitor converted videos	Controleren van de geconverteerde video 's
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	Standaard Monitor locaties zal Negeer bestanden die al converted.\r\nCheck zijn dit vak als u ook wilt controleren van de geconverteerde bestanden in de Monitor Path.\r\nCAUTION: als dit kan leiden tot een oneindige conversie lus van geconverteerde bestanden niet geconfigureerde properly.\r\n\r\nThis kunnen nuttig zijn wanneer u de uitvoermap van een conversie task\r\n (geconverteerde bestand) als het pad van de Monitor van een Monitor locatie opgeven en koppelen the\r\nMonitor Locatie aan een andere taak van de conversie.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	CHECK THIS BOX op uw eigen RISK.\r\nDO niet controleren dit vak tenzij je weet wat je bent DOING.\r\nBy Monitor standaardlocaties zal Negeer bestanden die al converted.\r\nCheck zijn dit vak als u ook wilt controleren van de geconverteerde bestanden in het pad van de Monitor.
+Hardware encoding	Hardware codering
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	Controleer dit vak om te gebruiken als beschikbaar om te converteren videos.\r\nThis-hardware codering kan de conversie aanzienlijk versnellen en verminderen het CPU-utilization\r\nbut dat kan het resulteren in iets lagere kwaliteit videos.\r\n\r\nUncheck dit vak als u bent geconfronteerd met conversie of kwaliteitsproblemen.
+Do not overwrite files	Niet overschrijven bestanden
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	Wanneer dit selectievakje is ingeschakeld, wordt het doelbestand niet overschreven als het al exists.\r\nInstead een nieuw bestand wordt gemaakt met een uniek nummer toegevoegd aan het einde van de bestandsnaam.
+Re-monitor recorded videos	Opnieuw controleren opgenomen video 's
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	Standaard, zodra een bronbestand (opgenomen video) is omgezet, \r\nthe monitor geschiedenis houdt de bestandsnaam en niet de dezelfde bestanden again.\r\n\r\nEnable wachtrij deze optie om te negeren de geschiedenis en controleren van alle bestanden en ze de wachtrij voor documentconversie to\r\nthe toevoegen, zelfs als ze al zijn converted.\r\n\r\nThis soms nuttig kan zijn, als de opnamesoftware geen a\r\nunique bestandsnaam voor elke aflevering/show genereert. Het wordt aanbevolen het gebruik van the\r\nDelete originele bestand optie in de pagina-instellingen wanneer u deze optie gebruikt om avoid\r\nan oneindige conversie lus.
+Recommendation	Aanbeveling
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	Om te voorkomen dat een lus oneindige conversie, is het aanbevolen om uw Monitor zoekpatroon op een manier zoals instellen om ervoor te zorgen dat de geconverteerde bestanden niet worden gecontroleerd door deze taak van de Monitor.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	CHECK deze BOX op uw eigen RISK.\r\nDO niet controleren dit vak tenzij je weet wat je bent DOING.\r\nBy standaard die monitor locaties zal niet afstemwijzigingen opgenomen video's die processed.\r\nCheck zijn geweest dit vak als u wilt afstemwijzigingen en converteren van de opgenomen video's.
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	Om te voorkomen dat een lus oneindige conversie, is het aanbevolen dat u het oorspronkelijke bestand optie verwijderen op de pagina met instellingen inschakelen.
+Prioritize air date matching	Prioriteren lucht datum matching
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy maakt gebruik van de aflevering naam aan de serie information\r\nwhile zoeken op het internet. Als dat niet lukt dan het gebruikt de oorspronkelijke datum van de broadcast\r\nair aan de metadata.\r\n\r\nCheck dit vak als u wilt gebruiken de oorspronkelijke uitzending lucht datum eerst en dan the\r\nepisode naam aan voor de informatie van de reeks van de internet.\r\nThis in sommige gevallen nuttig kan zijn bij meerdere seizoenen de naam same\r\nepisode hebben. Bijvoorbeeld Americal Idol, auditie 1\r\n\r\nNOTE: originele uitzending lucht datum is niet altijd accuraat set van the\r\nbroadcaster en soms de informatie op het internet is deze optie alleen als de standaardoptie niet werkt voor u incorrect.\r\nUse.
+Skip eMail body	Skip E-mail lichaam
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	Controleer deze optie te gebruiken een leeg lichaam in de kennisgeving eMail.\r\nThis kunnen nuttig zijn als u van een SMS gateway voor e-mailberichten gebruikmaakt.
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	Selectie gebaseerd op Digital recht Management (DRM) is available\r\nonly wanneer wijzigen zonder te converteren (hernoemen en verplaatsen alleen) optie is selected.\r\n\r\nAll - Hiermee selecteert u alle bestanden voor verwerking, ongeacht kopieerbeveiliging status\r\nProtected - alleen Selecteer bestanden die zijn kopie protected\r\nUnprotected - Selecteer alleen bestanden die niet kopieerbeveiliging hoeven
+Download cover art	Hoezen downloaden
+Enable this to download the cover art from the original video and internet if available.	Schakel dit aan de cover art van de oorspronkelijke video en internet downloaden, indien beschikbaar.
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	Weet u zeker dat u wilt invoeren van een domeinnaam? \r\n\r\nUse dit alleen als u een Windows-domeincontroller gebruikt voor het beheren van uw authentication.\r\nDo dit niet gebruiken als u deel uitmaakt van een Workgroup.\r\n\r\nIf u zijn onzeker Klik Nee.
+Configuration Warning	Configuratie waarschuwing
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	Hiermee maakt u een map met de naam 'MCEBuddyArchive' waar het oorspronkelijke bestand located\r\nand beweegt het originele bestand in deze map is nadat een succesvolle conversion.\r\n\r\nThis mapnaam en locatie hieronder worden gewijzigd.
+Monitoring	Toezicht op de
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	Als u het EDL-bestand converteren naar hoofdstukken wilt, zorg ervoor dat u de 'Toevoegen ondertiteling en hoofdstukken' optie in geavanceerde instellingen.
+EDL to Chapters	EDL naar hoofdstukken

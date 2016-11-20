@@ -1,0 +1,4 @@
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\DirectShowLib.NET\bin\Debug\MCEBuddy.DirectShowLib.Net.dll
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\DirectShowLib.NET\bin\Debug\MCEBuddy.DirectShowLib.Net.pdb
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\DirectShowLib.NET\obj\Debug\MCEBuddy.DirectShowLib.Net.dll
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\DirectShowLib.NET\obj\Debug\MCEBuddy.DirectShowLib.Net.pdb

@@ -1,0 +1,6 @@
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\TagLibSharp\obj\Debug\TagLibSharp.csprojResolveAssemblyReference.cache
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\TagLibSharp\bin\Debug\MCEBuddy.TagLibSharp.dll
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\TagLibSharp\bin\Debug\MCEBuddy.TagLibSharp.pdb
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\TagLibSharp\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\TagLibSharp\obj\Debug\MCEBuddy.TagLibSharp.dll
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\TagLibSharp\obj\Debug\MCEBuddy.TagLibSharp.pdb

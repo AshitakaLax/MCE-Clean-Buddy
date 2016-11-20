@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy tidak menggunakan pengguna sedang log masuk untuk menyambung ke rangkaian saham, ia menggunakan akaun perkhidmatan sendiri.  Pastikan untuk menentukan sambungan pengguna maklumat (MCEBuddy dengan ikon utama)
+Connection Reminder	Sambungan peringatan
+Description	Description/kawalan
+Path	Laluan
+is invalid	tidak sah
+Invalid Path	Laluan tidak sah
+Please supply a task name	Sila berikan nama tugas yang
+No name supplied	Tiada nama yang dibekalkan
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	Sila masukkan kod Bahasa 3 digit runut Audio, pilih <Default>atau <Original>
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	3 Digit kod ISO untuk language\r\nMake terpilih yang pasti ini sepadan dengan kod Bahasa untuk trek audio dalam mendapatkan recording.\r\nTo asal kod Bahasa untuk runut audio dalam fail rakaman asal, tambah file\r\nto baris gilir dan klik kanan padanya. Pop tetingkap akan terbuka memaparkan audio details\r\nwhich termasuk kod Bahasa untuk setiap trek audio.
+Invalid Language Code	Kod bahasa yang tidak sah
+No destination directory provided, converted file will be placed in original video directory	Direktori destinasi tidak disediakan, fail yang ditukar akan dimasukkan dalam direktori video yang asal
+A task name or section	Nama tugas atau Seksyen
+already exists\n\rPlease use another name	sudah exists\n\rPlease Guna nama lain
+Duplicate Name	Nama pendua
+Engine	Enjin
+Tasks	Tugas-tugas
+Profile	Profil
+disposing	melupuskan
+Task name	Nama tugas
+Give a unique name to this task	Memberi nama yang unik untuk tugas ini
+Gives a short description for the selection conversion profile	Memberikan Perihalan ringkas untuk pilihan penukaran profil
+Click to select destination folder	Klik untuk pilih destinasi folder
+Destination	Destinasi
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	Pilih direktori di mana fail yang ditukar akan placed.\r\nLeave ini kosong untuk menyimpan fail telah diubahsuai dalam direktori yang sama seperti yang asal video.
+Max width	Max lebar
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	Ini akan menghadkan lebar maksimum (dalam pixels) video untuk file.\r\nTIP ditukar: tidak digunakan jika fail asal mempunyai lebar yang lebih kecil daripada number.\r\nIf ini anda mahu mengekalkan langkah resolusi video asal anda penggelongsor ke kanan.
+Quality	Kualiti
+Ad remover	Peliharaan remover AD
+None	Tiada seorang pun
+Get series details from Internet	Dapatkan siri maklumat daripada Internet
+Download additional details about the movie or series from the internet	Muat turun maklumat tambahan mengenai filem atau siri dari internet
+File name match	Sepadan dengan nama fail
+Recording title match	Rakaman tajuk perlawanan
+Cancel	Batal
+OK	OK
+Rename without converting	Namakan semula tanpa menukar
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	Semak opsyen ini untuk hanya menamakan semula dan menyalin fail-fail yang asal untuk folder.\r\nWhen destinasi disemak, penukaran, mengurangkan, pemprosesan audio/video dan penyingkiran komersil tidak akan available.\r\n\r\nNOTE: fungsi-fungsi lain seperti sepadan penapis, mengekstrak sarikata, penjimatan metadata dan \r\nwill pengesanan komersial (simpanan fail EDL) masih boleh didapati dengan checked.\r\nIf opsyen ini anda mahu mengalih daripada salinan, semak Langkau yang menyalin opsyen asal dalam seting pakar pada fail asal ini Laman atau select\r\nDelete dalam halaman seting yang utama.
+Rename and sort by video information	Namakan semula dan menyusun mengikut maklumat video
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	Namakan fail yang telah diubahsuai dan meletakkan ia dalam direktori baru berdasarkan maklumat/siri apabila available\r\n (cth: ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	Masukkan nama pengguna dan kata laluan untuk capaian folder yang berada pada cakera rangkaian atau komputer lain
+Organize by seasons	Menguruskan mengikut musim
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	Menguruskan folder dengan Showname dan musim apabila disediakan (Pusat Media/XBMC/Plex serasi konvensyen penamaan) \r\n (contoh: Showname\\Season XX\\SXXEYY-episod nama)
+Audio language	Bahasa audio
+Advanced Settings	Seting lebih maju
+General Settings	Tetapan umum
+Conversion Task	Penukaran tugas
+Password	Kata laluan
+Confirm Password	Sahkan kata laluan
+Domain / computer name	Domain / nama komputer
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	Masukkan <Optional>jika memandu komputer atau rangkaian jauh menggunakan Domain untuk authentication.\r\nDo tidak masuk Kumpulan kerja anda di sini. Kosongkan ini jika anda menggunakan satu kumpulan kerja.
+User name	Nama pengguna
+Enter the username to access the remote computer or network drive	Masukkan nama pengguna untuk mengakses komputer atau rangkaian jauh pemacu
+Enter the password to access the remote computer or network drive	Masukkan kata laluan untuk mengakses komputer atau rangkaian jauh pemacu
+Network Connection User Credentials	Kelayakan pengguna sambungan rangkaian
+Password Mismatch	Kata laluan tidak sepadan
+Passwords do not match, please reenter the passwords	Kata laluan tidak padan, sila memasukkan semula kata laluan
+Hour	Jam
+Minute	Minit
+Wake	Bangun
+Start	Mula
+Resume	Sambung semula
+Pause	Tangguh
+Stop	Berhenti
+Language	Bahasa
+Pause conversion tasks	Tugas-tugas penukaran jeda
+Resume conversion tasks	Menyambung tugas-tugas penukaran
+Please enter a valid time	Sila masukkan masa sah
+Invalid Time	Masa tidak sah
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	Masa berhenti adalah selepas masa mula. Andaikan masa berhenti adalah pada hari berikutnya, Adakah itu benar?
+Time Check	Semak masa
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	Hanya Pilih opsyen ini jika MCEBuddy telah telah menukar fail anda dengan tepat untuk tempoh masa yang boleh diterima. Adakah anda ingin MCEBuddy untuk menghapuskan setiap fail asal sebaik sahaja ia telah diubah suai?
+Confirm delete originals?	Sahkan Hapus asal?
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy akan memantau direktori ini bagi fail video untuk menukar secara automatik
+Conversion tasks	Tugas-tugas penukaran
+Delete original file	Hapuskan fail asal
+Deletes the original recording after a successful conversion	Hapuskan rakaman asal selepas penukaran yang berjaya
+Min age before conversion (hours)	Umur min sebelum penukaran (jam)
+Minimum hours to wait before converting each file after the file is added to the queue	Minima jam untuk menunggu sebelum menukar fail setiap selepas fail ditambah baris gilir
+Use this to change the language of the text on the screen	Menggunakan ini untuk menukar bahasa teks pada skrin
+Concurrent conversions	Penukaran serentak
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	Bilangan serentak penukaran MCEBuddy boleh start\r\nNOTE: anda memerlukan jumlah yang besar masa ruang dan pemproses cakera untuk penukaran serentak lebih daripada 2
+Logging level	Tahap log
+Error	Ralat
+Warning	Amaran
+Information	Maklumat
+Debug	Nyahpepijat
+Log conversion jobs	Kerja-kerja penukaran log
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	Simpan fail log untuk setiap Pertukaran dalam \'logs\ dalam ' direktori di mana di mana MCEBuddy adalah installed\r\n (contoh: C:\\Program Files\\MCEBuddy2x\\logs)
+Allow sleep	Membolehkan tidur
+If unchecked, it prevents the system from entering sleep while converting	Jika tidak berdaftar, ia menghalang sistem daripada memasuki tidur semasa menukar
+Stop at	Berhenti di
+No new conversions would be started after this time	Tiada Penukaran baru dapat dimulakan selepas waktu ini
+minute	minit
+hour	jam
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	Jika disemak MCEBuddy akan membangunkan sistem dari sleep\r\nat masa mula ditetapkan dan membolehkan dalam seminggu.
+Start at	Bermula pada
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy akan bermula baru penukaran antara permulaan dan time.\r\n\r\nThe mula masa akan digunakan untuk hari-hari yang didayakan dalam seminggu, whereas\r\nthe akhir masa akan digunakan sama ada untuk or\r\nfor hari yang sama pada hari berikutnya jika masa tamat selepas masa mula.
+Delete	Menghapuskan
+Add	Tambah
+Change	Perubahan
+Archive original file	Arkib fail asal
+Domain name	Nama domain
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	Tugas-tugas memantau dan penukaran berhenti dan membuka sebuah laman untuk mengkonfigurasi MCEBuddy
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	Mencipta folder yang dipanggil \'MCEBuddyArchive\' di mana fail asal adalah located\r\nand bergerak asalnya fail dalam direktori ini selepas nama folder conversion.\r\n\r\nThis berjaya dan lokasi ditukar dalam halaman seting sistem.
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	Nyahpepijat - log terperinci, membantu log - log maklumat asas tentang conversion\r\nWarning - problems\r\nInformation penukaran mengesan isu atau kritikal kegagalan only\r\nError - log kegagalan kritikal sahaja
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	Pilih profil penukaran yang berkaitan dengan tugas ini. Profil penukaran merupakan output format dan kualiti bagi kualiti ditukar file.\r\nHigher penukaran mengambil masa yang lama untuk menukar. Lalai disarankan: Berkualiti tinggi MP4 atau MP4 Normal.\r\n\r\nTIP: rujuk panduan MCEBuddy untuk parameter yang lebih maju untuk mencubit penukaran profil atau mencipta profil penukaran anda sendiri
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	Pilih atur cara yang MCEBuddy akan menggunakan untuk mengambil keluar iklan apa-apa semasa menukar video.\r\nSet kepada 'Tiada' untuk meninggalkan iklan di dalam video.\r\n\r\nTIP ditukar: untuk menggunakan ShowAnalyzer bukan Comskip, sila muat turun dan memasang Analyzer ShowAnalyzer.\r\nShow versi 1.0 dan lebih disokong.
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	Digunakan untuk mengubah kualiti video file ditukar, biasa adalah lebih tinggi iaitu 1.\r\nA akan meningkatkan kualiti tetapi akan mengambil masa yang lebih untuk conversion.\r\nA nombor yang lebih kecil akan mengurangkan kualiti tetapi mempercepatkan penukaran.
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Masukkan corak sepadan dengan nama fail untuk tugas ini (contohnya *.wtv akan menukarkan semua fail yang berakhir dengan .wtv)\r\nPrefix corak dengan ~ untuk melangkau perlawanan (cth: *. *; ~*.wtv akan memproses semua fail kecuali orang-orang yang berakhir dengan .wtv)\r\nSeparate pelbagai corak dengan; (contoh: *.wtv; ncis *; ~ ncis miami *) akan memproses semua .wtv fail dan semua fail yang bermula dengan ncis tetapi tidak mereka yang bermula dengan ncis miami\r\n\r\nYou boleh menggunakan ekspressi biasa untuk menyesuaikan corak dengan memulakan dengan regex:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Masukkan corak untuk dipadankan dengan tajuk/siri untuk tugas ini (contohnya Simpson * akan menukar semua fail yang mempunyai tajuk Papar bermula dengan Simpson) \r\nPrefix corak dengan ~ untuk melangkau perlawanan (cth: *; ~ Simpson * akan memproses semua tajuk Papar kecuali orang-orang yang mula dengan Simpson) \r\nSeparate pelbagai pola; (contohnya Simpson *;House*) atau (contohnya Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nYou boleh menggunakan ekspressi biasa untuk menyesuaikan corak dengan memulakan dengan regex:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	Ini boleh digunakan untuk mengatasi lalai yang tahan apabila terdapat pelbagai bahasa audio di recording.\r\nTo dapatkan senarai bahasa Audio dalam rakaman, klik kanan pada fail dalam baris gilir dan pilih MediaInfo.\r\n\r\n <Default>akan cuba untuk menyimpan semua trek audio jika disokong atau biarkan pengekod yang memilih track\r\n audio lalai <Original>, jika ada, akan menggunakan bahasa asal rakaman [bebas digelar]
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	Masukkan '[video]' atau biarkan kosong untuk menukar corak video files\r\nEnter yang semua sepadan dengan nama fail untuk lokasi ini (contoh: *.wtv akan menukarkan semua fail yang berakhir dengan .wtv)\r\nPrefix corak dengan ~ untuk melangkau perlawanan (cth: *. *; ~*.wtv akan memproses semua fail kecuali orang-orang yang berakhir dengan .wtv)\r\nSeparate pelbagai corak dengan; (contoh: *.wtv; ncis *; ~ ncis miami *) akan memproses semua .wtv fail dan semua fail yang bermula dengan ncis tetapi tidak kepada yang bermula dengan ncis miami
+MCEBuddy Settings	Seting MCEBuddy
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy tidak menggunakan pengguna sedang log masuk untuk menyambung ke rangkaian saham, ia menggunakan akaun perkhidmatan sendiri.  Pastikan untuk menentukan sambungan pengguna maklumat [MCEBuddy dengan ikon utama]
+Please supply a source name	Sila berikan nama sumber yang
+Please supply a search path name	Sila berikan nama jalan Cari
+A source name or section	Nama sumber atau Seksyen
+already exists. Please use another name	telah wujud. Sila guna nama lain
+Monitor name	Nama pemantau
+Give this a location a unique name	Memberi ini di lokasi nama unik
+Monitor path	Memantau laluan
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	Pilih direktori yang MCEBuddy akan memantau dalam latar belakang bagi fail-fail video yang baru untuk menukar secara automatik
+Click to select the folder to monitor	Klik untuk pilih folder untuk memantau
+Search pattern	Pola carian
+SourceForm	SourceForm
+Monitor Location	Memantau lokasi
+Normal	Normal
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: ralat sambungan enjin pipeProxy
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: Tidak dapat mencipta paip Perkhidmatan MCEBuddy
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	Perkhidmatan MCEBuddy tidak tersedia. Sila mulakan dari panel kawalan Windows atau periksa sambungan enjin.
+Announcement	Pengumuman
+New version 	Versi baru 
+available	disediakan
+New BETA version 	Baru versi BETA 
+Click here to download new version of MCEBuddy	Klik di sini untuk muat turun versi baru MCEBuddy
+Click here to open link	Klik di sini untuk membuka pautan
+Idle	Terbiar
+Closing	Tutup
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI: Tidak dapat mengemaskini tugas
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: Tidak dapat memulakan perkhidmatan MCEBuddy
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: Tidak dapat menghentikan Perkhidmatan MCEBuddy
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI: Tidak dapat membatalkan kerja
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	Amaran: Fail rangkaian akan dicapai menggunakan bukti kelayakan log masuk Perkhidmatan MCEBuddy, tidak kepada pengguna yang sedang Lon. Secara manual, anda boleh menentukan kelayakan rangkaian daripada seting-> halaman seting pakar dalam MCEBuddy.
+Credential Warning	Amaran kelayakan
+Status	Status
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI: Dapat menambah kerja
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: Tidak dapat untuk mendapatkan status aktif paip
+The conversions must be stopped to change settings. Stop the conversions?	Penukaran mesti berhenti untuk menukar seting. Berhenti penukaran?
+Stop Engine	Hentikan enjin
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI: Tidak dapat menghentikan Perkhidmatan MCEBuddy dari klik seting
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: Tidak dapat mengimbas fail
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: Tidak dapat membuka link
+Close	Tutup
+Close this window, MCEBuddy will keep running in the background	Tutup tetingkap ini, MCEBuddy akan terus berjalan di latar belakang
+If you like MCEBuddy, please click here to Donate - THANKS	Jika anda ingin MCEBuddy, sila klik di sini untuk derma - terima kasih
+Click here to like MCEBuddy on facebook	Klik di sini untuk seperti MCEBuddy di facebook
+Click here to open MCEBuddy website	Klik di sini untuk membuka laman web MCEBuddy
+Rescan	Mengimbas
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	Tentera MCEBuddy untuk recheck lokasi Monitor bagi fail-fail video yang baru untuk menukar
+Monitor locations	Memantau lokasi
+Settings	Seting
+Select the file(s) in the queue to delete	Pilih fail dalam barisan yang menghapuskan
+Manually add video file(s) to the queue to convert	Menambah fail video baris gilir untuk menukar
+Start the MCEBuddy monitor and conversion tasks	Memulakan tugas memantau dan penukaran MCEBuddy
+Stop the MCEBuddy monitor and conversion tasks	Henti tugas memantau dan penukaran MCEBuddy
+There is a new version!	Ada versi baru!
+High	Tinggi
+Low	Rendah
+Priority	Keutamaan
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	Keutamaan yang tinggi - menukar lebih cepat tetapi boleh membuat lain-lain aplikasi yang dijalankan unresponsive\r\nLow keutamaan - ditukar dalam latar belakang tetapi mengurangkan gangguan dengan aplikasi lain sedang berjalan
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	Tugas ialah satu templat penukaran yang mengandungi profil penukaran dan pelbagai parameters.\r\nEach penukaran lain ditambah ke baris gilir fail akan diproses dan ditukar oleh setiap tasks.\r\nRefer ini untuk panduan MCEBuddy untuk maklumat lanjut mengenai bagaimana tugas-tugas kerja.
+Getting started	Bermula
+Click here for MCEBuddy guide	Klik di sini untuk panduan MCEBuddy
+Logs	Kayu balak
+Click to open log folder	Klik untuk membuka log folder
+MCEBuddy Status	MCEBuddy Status
+add	Tambah
+delete	menghapuskan
+paypal-donate	PayPal-menderma
+stop	berhenti
+OUTPUT: ConsoleOuput received NULL data	OUTPUT: ConsoleOuput menerima NULL data
+hours	jam
+minutes	minit
+second	kedua
+seconds	saat
+Starting	Bermula
+Comskip advertisement scan - Pass 1	Comskip iklan imbasan - 1 Pas
+Comskip advertisement scan - Pass 2	Comskip iklan imbasan - 2 Pas
+Cutting commercials from video	Keratan iklan dari video
+Cutting commercials from video - segment 	Keratan iklan dari video - segmen 
+Merging commercial free segments into new video	Penggabungan komersial segmen percuma kepada video terbaru
+Moving converted file to destination	Mengalih fail ditukar ke destinasi
+Checking for disk space	Menyemak ruang cakera
+Getting show information and banner from Internet sources	Mendapat maklumat persembahan dan banner dari sumber Internet
+Copying source file to working directory	Menyalin fail sumber ke direktori kerja
+Remuxing recording	Rakaman Remuxing
+ShowAnalyzer advertisement scan	Imbasan iklan ShowAnalyzer
+Comskip advertisement scan	Imbasan iklan Comskip
+Analyzing video information	Menganalisis maklumat video
+Converting	Menukar
+Removing commercials	Mengeluarkan iklan
+Writing show information	Penulisan menunjukkan maklumat
+Renaming file using show information	Menamakan semula fail menggunakan persembahan maklumat
+Success - All done!	Kejayaan - semua dilakukan!
+Muxing streams	Muxing aliran
+Fallback remux	Remux bertahan
+Correcting audio delay	Membetulkan kelewatan audio
+Converting video file - Pass 1	Menukar fail video - 1 Pas
+Converting video file - Pass 2	Menukar fail video - 2 Pas
+Converting video file	Menukar fail video
+Audio Track	Runut Audio
+Impaired	Cacat
+Channels	Saluran
+Codec	Codec
+Video	Video
+Duration	Tempoh
+Height	Ketinggian
+Width	Lebar
+Audio	Audio
+Name	Nama
+Subtitle	Sari kata
+Volume	Kelantangan
+Enable custom file renaming	Membolehkan menamakan semula fail tersuai
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	Membolehkan ini membuat corak tersuai untuk menamakan semula fail yang ditukar dan folder. Masukkan corak adat dalam Peti below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S % musim % ##E % episod % ##-% episodename % - %airyear%_%airmonth%_%airday%\r\n\r\nWill hasil: \r\nTVShows\CSI\Season 1\CSI - S01E02 - terbaik masa - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < %season%\%showname% Movie\%showname%,TVShows\%showname%\Season - S%season%##E%episode%##>-Converted\r\n\r\nWill \r\n Recording\Movies\Star hasil (bagi filem) ditukar peperangan. <ext>1\CSI \r\n Recording\TVShows\CSI\Season \r\nOR (untuk filem-filem bebas) - S01E02-ditukar.<ext>\r\n\r\nRefer untuk MCEBuddy yang maju dokumentasi untuk senarai semua perintah corak.
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	ShowAnalyzer yang tidak dijumpai. \nPlease memuat turun dan memasang ShowAnalyzer.
+ShowAnalyzer Missing	ShowAnalyzer hilang
+Invalid language code, reverting to <Default> language	Kod bahasa yang tidak sah, kembali kepada Bahasa <Default>
+Cut start	Mula potong
+Cut end	Potong hujung
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	Ini menentukan bilangan saat untuk mengurangkan dari mula rakaman (sebelum mengeluarkan iklan)
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	Ini menentukan bilangan saat untuk mengurangkan dari akhir rakaman (sebelum mengeluarkan iklan)
+Send an eMail after each conversion.	Menghantar e-mel selepas Pertukaran setiap.
+Send eMail	Menghantar e-mel
+SMTP Server Name	Nama pelayan SMTP
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	Masukkan here\r\ne.g alamat pelayan e-mel (SMTP) keluar. SMTP.Gmail.com
+Port	Pelabuhan
+Enter the SMTP server port	Masukkan port pelayan SMTP
+Use SSL	Penggunaan SSL
+Check this if you SMTP server uses SSL	Menyemak ini jika anda SMTP pelayan menggunakan SSL
+e-Mail Settings	Seting e-mel
+From <e-Mail>	Daripada <e-Mail>
+Enter the senders (From) eMail address here	Masukkan penghantar yang (dari) alamat e-mel di sini
+To <e-Mails>	Untuk <e-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	Masukkan penerima (kepada) e-mel alamat here.\r\nSeparate berbilang penerima dengan koma bertitik (;)
+Send eMail on successful conversion	Menghantar e-mel berjaya Tukar
+Send eMail on failed conversion	Menghantar e-mel gagal Tukar
+Send eMail on cancelled conversion	Menghantar e-mel Tukar dibatalkan
+Send eMail on adding a conversion to the queue	Menghantar e-mel menambah penukaran kepada baris
+Please enter a valid server address	Sila masukkan alamat pelayan yang sah yang
+Invalid SMTP Server	Pelayan SMTP yang tidak sah
+Please enter a valid server port	Sila masukkan satu port pelayan yang sah
+Invalid SMTP Port	Port SMTP tidak sah
+Please enter a valid From eMail address	Sila masukkan yang sah daripada alamat e-mel
+Invalid eMail Address	Alamat emel tidak sah
+Please enter valid To eMail addresses	Sila masukkan sah untuk alamat e-mel
+Username	Nama pengguna
+<Optional> Enter the username for the eMail server authentication	<Optional>Masukkan nama pengguna untuk pengesahan pelayan e-mel
+<Optional> Enter the password for the eMail server authentication	<Optional>Masukkan kata laluan untuk pengesahan pelayan e-mel
+MCEBuddy unable to download series information	Tidak dapat memuat turun maklumat siri MCEBuddy
+MCEBuddy successfully converted a video	MCEBuddy berjaya ditukar video
+Source Video	Sumber Video
+Converted Video	Video yang ditukar
+Converted At	Ditukar pada
+MCEBuddy failed to converted a video	MCEBuddy yang gagal ditukarkan video
+Failed At	Gagal pada
+MCEBuddy cancelled a video conversion	MCEBuddy dibatalkan penukaran video
+Cancelled At	Dibatalkan di
+Working	Bekerja
+Test	Ujian
+Testing	Ujian
+Click this button to test the eMail server settings	Klik butang ini untuk menguji seting pelayan e-mel
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy akan menghantar e-mel untuk menguji settings.\r\nThis pelayan boleh mengambil hamper 60 seconds.\r\nMCEBuddy mungkin menjadi tidak bertindak balas dalam tempoh ini.
+Test eMail	E-mel ujian
+MCEBuddy Test eMail	E-mel ujian MCEBuddy
+MCEBuddy - Have a great day!	MCEBuddy - mempunyai hari yang hebat!
+Send eMail test successful	Menghantar e-mel ujian berjaya
+Send eMail test failed! Please check your settings and internet connectivity	Menghantar ujian e-mel yang gagal! Sila semak seting dan sambungan internet anda
+Test eMail Success	E-mel ujian kejayaan
+Test eMail Failed	E-mel ujian gagal
+Send eMail on start of conversion	Menghantar e-mel pada mula penukaran
+MCEBuddy started a video conversion	MCEBuddy memulakan penukaran video
+Conversion Started At	Penukaran yang dimulakan pada
+Yes (Comskip)	Ya (Comskip)
+Yes (ShowAnalyzer)	Ya (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	Atleast satu penukaran tugas mesti diaktifkan
+Disable	Menyahdayakan
+Enable	Membolehkan
+Rename	Namakan semula
+Move	Langkah
+Up	Sehingga
+Down	Ke bawah
+Slow Remuxing	Lambat Remuxing
+Extracting closed captions	Mengekstrak Kapsyen Tertutup
+Validating closed captions	Mengesahkan Kapsyen Tertutup
+Extracting subtitles	Mengekstrak sarikata
+Trimming closed captions	Kapsyen ditutup mengurangkan
+Extract subtitles and closed captions	Ekstrak sarikata dan Kapsyen Tertutup
+Field	Bidang
+Channel	Saluran
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	Membolehkan untuk mengekstrak Kapsyen Tertutup, sari kata dan teleteks from\r\nWTV, DVR-MS, TS, MP4, MKV dan lain-lain files.\r\n\r\nIt disokong disimpan sebagai fail Subtitle (SRT).
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	Membolehkan ini untuk menetapkan opsyen lebih maju untuk Kapsyen Tertutup extraction\r\nField - 1 atau 2\r\nChannel - 1 atau 2\r\n\r\nDefault: 1 medan, saluran 1
+Subtitle offset	Ofset sarikata
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	Masukkan bilangan saat (+ ve / - ve) untuk segerak sari kata dengan video
+Re-ReMuxing due to audio error	Re-ReMuxing kerana ralat audio
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	Simpan poster tersebut dan menunjukkan maklumat (metadata) dalam fail NFO serasi MC/XBMC (XML format)
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	Semak kotak ini untuk menyimpan maklumat Papar (metadata) dalam file.\r\nThis ditukar sahaja kerja-kerja fail yang menyokong tag metadata seperti MP4, MKV, WTV etc.\r\n\r\nNOTE: nyahtanda kotak ini jika anda sedang menghadapi masalah dengan sesetengah peranti seperti TV lebih tua yang mempunyai masalah membaca metadata.
+Atleast one day of the week must be enabled	Atleast satu hari dalam seminggu mesti didayakan
+Invalid Days of Week	Hari-hari minggu yang tidak sah
+Invalid day of week found in configuration file	Hari minggu yang terdapat dalam fail konfigurasi tidak sah
+Scheduling	Penjadualan
+Remuxing to	Remuxing untuk
+Part	Sebahagian
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	Selebihnya tetikus anda pada mana-mana butang, kotak atau perkara untuk mendapatkan bantuan segera pada it.\n\nFor maklumat lanjut mengenai bagaimana untuk menggunakan, menyelesaikan masalah atau mendapatkan sokongan untuk MCEBuddy klik pada pautan < Bermula > pada corner.\n\nDonations kanan atas sentiasa dialu-alukan :) Menikmati! \n\n - Ramit, Azlina & angsa
+Welcome to MCEBuddy	Selamat datang ke MCEBuddy
+Multichannel audio	Format audio
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	Daftar untuk membolehkan pelbagai saluran audio jika video sumber menyokong lalai it.\r\nBy audio adalah terhad kepada 2 saluran (stereo).
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	Julat dinamik mampatan (di DRC) \r\nWhen sumber adalah satu audio AC3, membolehkan will\r\nreduce di DRC perbezaan di antara yang kuat dan soft\r\nsounds yang membuat trek audio lebih banyak even.\r\nIf anda mempunyai rakaman audio pelbagai saluran dan you\r\nfeel jumlah adalah terlalu lembut, menyemak kotak ini mungkin boleh membantu.
+FPS	FPS
+Logfile age (days)	Logfile umur (hari)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	Bilangan hari maksimum bagi memastikan logfiles tersebut sebelum menghapuskan them.\r\nSet 0 untuk menyimpan log selama-lamanya.
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	Cepat Remuxing
+Byte stream remuxing	Bait aliran remuxing
+Disable cropping	Menyahdayakan tanaman
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	Semak ini untuk membolehkan tanaman video secara automatik semasa conversion.\r\nCropping adalah digunakan untuk membuang "bar hitam" di dalam video (atas, bawah, kiri atau right).\r\nUse opsyen ini jika gambar video mendapat dipotong pada mana-mana bahagian atau jika gambar akhir sedang terbentang atau memutarbelitkan.
+Only detect Ads	Hanya mengesan iklan
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	Semak ini jika anda mahu MCEBuddy untuk mengesan iklan (iklan) tetapi tidak potong dari video.\r\nWhen opsyen ini diaktifkan, MCEBuddy akan cipta fail EDL bersama-sama dengan fail yang ditukar yang menentukan lokasi iklan di video.\r\nAlso telah diubahsuai, bagi MP4, M4V dan fail MKV MCEBuddy akan mencipta bab-bab untuk menandakan penghujung iklan.
+Download information	Muat turun maklumat
+Correction	Pembetulan
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	Klik di sini untuk membetulkan tajuk Papar dan memaksa penggunaan khusus TVDB siri id atau IMDB filem id\r\nto lookup metadata tambahan dari internet.
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	Semak ini untuk memuat turun maklumat daripada internet tentang rancangan tersebut seperti fail sepanduk, episod, musim dan lain-lain
+Profile Error	Kesilapan profil
+Cannot find selected profile in profiles.conf	Tidak dapat mencari profil terpilih dalam profiles.conf
+Invalid Profile	Profil tidak sah
+Please select a valid profile	Sila pilih profil yang sah
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	Enjin MCEBuddy telah merundum. Sila hantar mcebuddy.log ke pemaju
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	Pilih fail Comskip INI tersuai untuk digunakan untuk task\r\nLeave penukaran ini kosong ini untuk menggunakan lalai Comskip INI gambar untuk iklan penyingkiran
+Click to select custom Comskip INI file	Klik untuk memilih fail Comskip INI tersuai
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	Pilih folder untuk bekerja dengan fail-fail sementara. Pastikan ada ruang kosong cukup pada drive.\r\nLeave yang kosong ini untuk menggunakan folder temp lalai dalam folder pemasangan.
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	Pilih folder untuk bekerja dengan fail-fail sementara. Pastikan terdapat cukup ruang kosong pada drive.\r\nThis yang menindih folder temporer yang dinyatakan dalam seting-> halaman seting pakar.
+Click to select temp working folder	Klik untuk memilih folder kerja temp
+Temp folder	Temp folder
+Space check	Semak Ruang
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	Bilakah MCEBuddy didayakan akan menyemak ruang kosong yang cukup untuk penukaran (destinasi dan temp).\r\nUncheck ini jika ada yang mempunyai masalah dengan rangkaian pemacu atau mempunyai fail video amat besar.
+MCEBuddy Windows Event Logs	Log peristiwa MCEBuddy Windows
+Events	Acara-acara
+Click here to open the MCEBuddy Windows Event Logs	Klik di sini untuk membuka log peristiwa Windows MCEBuddy
+Enable UPnP	Membolehkan UPnP
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	Semak ini untuk membolehkan UPnP. Ini membolehkan akses kepada MCEBuddy enjin dari luar network.\r\nThis yang perlu disemak jika anda menggunakan pelanggan MCEBuddy mudah alih/berdiri untuk mencapai MCEBuddy.
+Click here to connect to another MCEBuddy engine	Klik di sini untuk menyambung ke lain MCEBuddy enjin
+MCEBuddy Remote Engine Connection	Jauh MCEBuddy enjin sambungan
+Engine Name	Nama enjin
+Engine Port	Enjin Port
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	Masukkan nama atau alamat IP enjin MCEBuddy yang anda ingin sambung ke
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	Masukkan nombor TCP Port enjin MCEBuddy yang anda ingin sambung ke
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	Masukkan nombor TCP Port enjin MCEBuddy yang anda ingin sambung ke (1-63355)
+Invalid Name/Port	Nama/Port tidak sah
+Please enter a valid Engine Name and Engine Port Number	Sila masukkan nama enjin dan enjin Nombor Port yang sah
+Error Stopping Engine	Enjin berhenti ralat
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	Tidak dapat menghentikan enjin MCEBuddy, seting mungkin tidak dapat disimpan. Adakah anda mahu meneruskan?
+Unable to communicate with engine. Settings have NOT been saved.	Tidak dapat berkomunikasi dengan enjin. Seting tidak disimpan.
+Communication Error	Ralat komunikasi
+Engine not stopped. Settings have NOT been saved.	Enjin tidak akan berhenti. Seting tidak disimpan.
+Unable To Save Settings	Tidak dapat menyimpan seting
+Unable to communicate with engine. UPnP settings have not been updated	Tidak dapat berkomunikasi dengan enjin. Seting UPnP belum dikemaskini
+Audio delay	Kelewatan audio
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	Masukkan nilai dalam saat (positif atau negatif) di sini untuk beralih audio berbanding dengan video.\r\nUse yang ini untuk resync audio dengan video, jika mereka keluar daripada selari selepas conversion.\r\nA positif akan melambatkan audio (iaitu video hadapan audio) dan nilai negatif yang akan maju audio (iaitu audio hadapan video).\r\nE.g. -1.5
+Media info	Maklumat media
+Click here to get media properties for selected files	Klik di sini untuk mendapatkan sifat-sifat media untuk fail terpilih
+Save information	Simpan maklumat
+Add information	Menambah maklumat
+Shows a preview of the custom filename and path	Menunjukkan pratonton adat nama fail dan laluan
+Invalid Filename Pattern	Corak nama fail tidak sah
+TVDB Series ID	TVDB siri ID
+IMDB Series ID	IMDB siri ID
+Original title	Tajuk asal
+Corrected title	Tajuk diperbetulkan
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Masukkan ID siri TVDB yang anda ingin gunakan untuk memuat turun persembahan information.\r\nIf kotak tajuk asal adalah kosong, ini akan digunakan untuk menunjukkan semua yang dipilih oleh tugas penukaran ini.
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Masukkan ID IMDB filem yang anda ingin gunakan untuk memuat turun filem information.\r\nIf asal tajuk kotak kosong, ini akan digunakan untuk menunjukkan semua yang dipilih oleh tugas penukaran ini.
+Internet Lookup Title and Metadata Correction	Tajuk carian Internet dan pembetulan Metadata
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	Klik di sini untuk menambah satu lagi baris untuk memadankan dan membetulkan tajuk dan siri id.\r\nIf anda mahu menggunakan tajuk diperbetulkan sama atau siri id untuk semua menunjukkan yang ditukarkan oleh tugas penukaran ini, \r\nleave kosong tajuk asal pada pertama berturut-turut dan anda perlu Tambah kedua berturut-turut.
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	Masukkan corak untuk dipadankan dengan tajuk/siri untuk pembetulan (contohnya Simpson * akan menggantikan semua tajuk yang mempunyai tajuk Papar bermula dengan Simpson) \r\nPrefix corak dengan ~ untuk melangkau perlawanan (cth: *. *; ~ Simpson * akan membetulkan semua menunjukkan tajuk kecuali orang-orang yang mula dengan Simpson) \r\nSeparate pelbagai pola; (contohnya Simpson *;House*) atau (contohnya Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nNOTE: Kosongkan kotak ini jika anda ingin menggunakan tajuk diperbetulkan atau siri id untuk semua fail yang sedang diproses oleh task.\r\nIf penukaran ini meninggalkan kosong, anda tidak boleh menambah row.\r\n\r\nYou kedua boleh menggunakan ekspresi biasa untuk padan dengan gelaran oleh bermula dengan regex:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	Masukkan tajuk baru/diperbetulkan yang hendak digunakan untuk memuat turun maklumat tambahan daripada internet.\r\nIf asal tajuk kotak kosong, ini akan digunakan untuk menunjukkan semua yang dipilih oleh penukaran ini task.\r\n\r\nYou boleh menggunakan ekspresi biasa untuk membetulkan tajuk dengan memulakan dengan regex:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	Untuk setiap baris, sila masukkan tajuk asal untuk dipadankan dengan nama Papar dan sama ada Corrected satu tajuk atau ID siri TVDB/IMDB
+Please enter either a Corrected title or a TVDB/IMDB Series ID	Sila masukkan tajuk Corrected atau ID siri TVDB/IMDB
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	Membolehkan ini jika anda mahu MCEBuddy untuk meletakkan mereka yang telah bertukar fail dalam directory\r\nif sumber laluan destinasi tidak tersedia. (contohnya rangkaian kegagalan atau kegagalan pemetaan)
+Fallback to source path	RV untuk laluan sumber
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	Digunakan untuk meningkatkan atau mengurangkan isipadu the\r\nrecording manakala converting.\r\n1 adalah perkara biasa, apa-apa di bawah akan mengurangkan, anything\r\nhigher akan meningkat.
+Archive folder	Folder Arkib
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	Menukar lokasi folder.\r\nLeave Arkib kosong untuk menggunakan folder 'MCEBuddyArchive' lalai di dalam direktori yang asal.
+Monitor subdirectories	Memantau subdirektori
+Check this box to also monitor all directories within the Monitor path	Semak kotak ini juga memantau semua direktori dalam laluan Monitor
+Click here to show MCEBuddy status	Klik di sini untuk menunjukkan MCEBuddy status
+MCEBuddy service not connected	MCEBuddy Perkhidmatan tidak disambung
+MCEBuddy idle	MCEBuddy yang terbiar
+conversions in progress	Penukaran sedang dijalankan
+MCEBuddy stopped	MCEBuddy berhenti
+Sync converted files	Segerakkan fail yang ditukar
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	Semak opsyen ini jika anda mahu MCEBuddy untuk menyegerakkan fail yang ditukar dengan files.\r\ni.e asal. Apabila fail asal akan dipadam oleh pengguna, fail yang sama ditukar akan juga deleted.\r\n\r\nNOTE: MCEBuddy hanya memantau fail asal dalam memantau lokasi folder dan hanya sementara enjin running.\r\nMCEBuddy tidak dapat mengesan fail pengguna yang dihapuskan manakala enjin berhenti.
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	Adakah anda ingin MCEBuddy untuk menghapuskan setiap fail ditukar apabila fail asal telah dihapuskan?
+Confirm sync conversions?	Mengesahkan penukaran penyegerakan?
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	Adakah anda pasti anda tidak mahu keluarkan iklan dari video ditukar dan hanya menyimpan fail EDL?
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer tidak bertindak balas. Sila but semula sistem atau memasang semula ShowAnalyzer.
+ShowAnalyzer Not Responding	ShowAnalyzer yang tidak bertindak balas
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	Pastikan anda tekan 'Start' selepas menutup tetingkap ini, sebaliknya penjadualan dan bangun tidak akan berfungsi.
+Enabling Scheduling and Wake	Membolehkan penjadualan dan bangun
+Passwords do not match	Kata laluan tidak sepadan
+Password error	Ralat kata laluan
+Adding subtitles and chapters to file	Menambah sarikata dan bab-bab untuk fail
+Send eMail if unable to download series information	Menghantar e-mel jika tidak dapat muat turun maklumat siri
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	Semak kotak ini jika anda mahu tugas penukaran ini hanya memproses fail dari monitor khusus locations.\r\nIf berdaftar setiap tugas penukaran akan memproses fail dari semua lokasi monitor (termasuk orang-orang baru yang ditambah).
+Select Monitor Locations	Pilih lokasi Monitor
+Select atleast one Monitor Location name	Atleast pilih satu lokasi Monitor nama
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	Anda telah memilih semua ini semasa Monitor Locations.\r\nDo anda mahu tugas penukaran ini secara automatik memproses sebarang lokasi Monitor baru yang ditambah pada masa akan datang?
+New monitor locations	Lokasi-lokasi monitor yang baru
+Invalid selection	Pemilihan tidak sah
+Channel name match	Saluran nama perlawanan
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Masukkan corak sama dengan nama saluran untuk tugas ini (contohnya ABC * akan menukarkan semua fail yang dicatatkan pada nama saluran yang bermula dengan ABC) \r\nPrefix corak dengan ~ untuk melangkau perlawanan (cth: *; ~ ABC * akan memproses semua saluran kecuali orang-orang yang mula dengan ABC) \r\nSeparate pelbagai pola; (contoh: ABC *;TBS*) atau (cth ABC *;Fox*; ~ Fox4 *) \r\n\r\nYou boleh menggunakan ekspressi biasa untuk menyesuaikan corak dengan memulakan dengan regex:
+Clear history	Kosongkan sejarah
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	Klik butang ini untuk mengosongkan sejarah semua ditukar files.\r\nThis menyebabkan MCEBuddy untuk reconvert semua fail yang sedang dipantau.
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	Adakah anda pasti anda mahu memadam sejarah penukaran semua? \r\nThis akan menyebabkan MCEBuddy untuk reconvert semua fail yang sedang dipantau.
+Show history	Menunjukkan sejarah
+Click this button to show the history of all converted files.	Klik butang ini untuk menunjukkan sejarah semua fail yang ditukar.
+History of Converted Files	Sejarah fail yang ditukar
+Unable to communicate with engine.	Tidak dapat berkomunikasi dengan enjin.
+Extracting streams	Mendapatkan aliran
+Fallback muxing streams	Aliran muxing bertahan
+Remuxing TiVO file	Fail Remuxing TiVO
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	Masukkan angka anda 10 kunci TiVO MAK untuk menukar dan memproses rakaman TiVO
+Invalid TiVO MAK Key	Kekunci tidak sah TiVO MAK
+The TiVO MAK key should be 10 digits	Kekunci TiVO MAK sepatutnya 10 digit
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	Versi tidak sepadan. Sila pastikan bahawa pelanggan MCEBuddy dan enjin sedang versi yang sama.
+Error retrieving Event Logs	Ralat mendapatkan semula log peristiwa
+Unable to get Event Log Entries from the MCEBuddy engine.	Tidak dapat mendapatkan penyertaan Log Peristiwa dari enjin MCEBuddy.
+PAUSED: Check conversion schedule	PAUSED: Jadual penukaran semak
+Logging	Pembalakan
+Folder Management	Pengurusan folder
+Processor Management	Pengurusan pemproses
+Expert Settings	Seting pakar
+System Settings	Seting sistem
+Click here to change additional settings (for experts only)	Klik di sini untuk menukar seting tambahan (untuk ahli sahaja)
+Failed folder	Folder yang gagal
+Location of the folder that hold the original files for failed conversions.	Lokasi folder yang memegang fail asal bagi penukaran gagal.
+Move original file on failure	Memindahkan fail asal dalam kegagalan
+Check this to move the original file to a separate folder if the conversion fails.	Semak ini untuk memindahkan fail asal ke folder yang berasingan jika penukaran gagal.
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	Semak ini menghadkan bilangan pemproses logik yang MCEBuddycan use.\r\nEach kotak semak di bawah sepadan dengan pemproses logik yang disediakan.
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Setiap kotak mewakili logik pemproses 1 respectively.\r\nChecking 16 kotak yang membolehkan MCEBuddy untuk menggunakan pemproses itu.
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Setiap kotak mewakili logik pemproses dari 17 respectively.\r\nChecking 32 kotak yang membolehkan MCEBuddy untuk menggunakan pemproses itu.
+Select atleast one processor to use	Pilih atleast satu pemproses untuk menggunakan
+Invalid Configuration	Konfigurasi tidak sah
+Comskip path	Laluan Comskip
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	Jika anda ingin menggunakan versi adat Comkip (contohnya donator versi) \r\nthen masukkan laluan pemasangan comskip here.\r\nLeave tempat kosong untuk menggunakan comskip lalai yang datang dengan MCEBuddy.
+Miscellaneous	Pelbagai
+Ignore copy protection	Mengabaikan perlindungan salinan
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	Menyemak ini mengabaikan bendera pelindung salinan pada fail video semasa converting.\r\nNOTE: MCEBuddy tidak boleh melangkau penyulitan, ini hanya membantu jika fail incorrectly\r\ntagged sebagai salinan yang dilindungi apabila ia tidak disulitkan.
+Use recycle bin	Penggunaan tong kitar semula
+Check this to use the recycle bin when files are deleted by MCEBuddy	Semak ini yang menggunakan tong kitar semula apabila fail akan dipadam oleh MCEBuddy
+Poll period	Tempoh tinjauan
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	Ini adalah berapa kerap MCEBuddy mengimbas lokasi tugas Monitor untuk selang files.\r\nThe baru ditentukan dalam saat.
+Server port	Port pelayan
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	Inilah port TCP yang menggunakan MCEBuddy untuk berkomunikasi dengan engine.\r\nWhen yang jauh UPnP didayakan, MCEBuddy akan secara automatik menambah port ini kepada pintu masuk Windows Firewall\r\nand UPnP untuk membenarkan akses dari internet di pelabuhan ini.
+Hang period	Hang tempoh
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	Masukkan nombor saat yang MCEBuddy akan menunggu jawapan daripada permohonan the\r\nunderlying sebelum tamat permohonan sebagai hung.\r\nEnter 0 untuk menyahdayakan pengesanan hang.
+Subtitle commercial cut sync	Perdagangan sarikata yang dipotong segerak
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	Parameter ini digunakan apabila sarikata yang pergi secara progresif keluar daripada segerak selepas setiap segmen komersial dikeluarkan dari persekitaran video.\r\nThis yang digunakan untuk membawa sarikata kembali ke segerak dengan masa video.\r\nEach video komersial cut, sarikata masa beralih dengan ini amaun (+ ve atau - ve dalam saat).
+Invalid poll period	Tempoh undian yang tidak sah
+Invalid server port	Port pelayan tidak sah
+eMail Subject Customization	e-mel subjek penyesuaian
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	Gunakan seksyen ini untuk menyesuaikan subjek e-mel yang dihantar oleh MCEBuddy pelbagai acara-acara penukaran disenaraikan below.\r\nRefer untuk dokumentasi, arahan tersuai bagi takrifan pengguna variables.\r\ne.g. Menunjukkan berjaya menggunakan tugas % taskname%\r\nNOTE % showname % bagi penukaran fail % originalfilename %: tidak semestinya semua data tersebut boleh didapati di dalam commands.\r\nLeave adat di tempat kosong untuk menggunakan baris subjek lalai.
+Success	Kejayaan
+Failed	Gagal
+Cancelled	Dibatalkan
+Download fail	Muat turun gagal
+Limit processor utilization	Had penggunaan pemproses
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	Semak ini menghadkan bilangan pemproses logik bahawa MCEBuddy boleh use.\r\nEach kotak semak di bawah sepadan dengan pemproses logik yang disediakan.
+Custom profile	Profil peribadi
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	Jika anda mempunyai fail profiles.conf tersuai yang anda ingin gunakan dan bukannya the\r\none yang datang dengan MCEBuddy, masukkan laluan untuk here.\r\n\r\nNOTE fail: MCEBuddy sentiasa kemas kini profiles.conf memberi bug membaiki, \r\nenhancements dan prestasi penambahbaikan yang anda akan terlepas out\r\non jika anda menggunakan ciri ini.
+Invalid custom profiles.conf	Profiles.conf adat yang tidak sah
+Suspend on battery	Menggantung bateri
+Suspend conversions when the computer switches to battery power	Menggantung penukaran apabila komputer bertukar kepada kuasa bateri
+MCEBuddy added a video conversion to the queue	MCEBuddy ditambah penukaran video untuk baris
+Queue	Giliran
+Refer to documentation on using custom commands in custom eMail subjects	Rujuk kepada dokumentasi menggunakan arahan tersuai dalam subjek e-mel adat
+Could not copy information to Clipboard, please try again.	Tidak dapat menyalin maklumat ke papan klip, sila cuba lagi.
+Error copying to Clipboard	Ralat menyalin ke papan klip
+Copy to clipboard	Salin ke papan Keratan
+Reconvert files	Reconvert fail
+Are you sure you want to reconvert the selected files?	Adakah anda pasti anda mahu untuk reconvert fail terpilih?
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	Pilih fail yang anda mahu untuk reconvert dan klik button.\r\nIf ini fail asal masih sedang dipantau oleh MCEBuddy mereka akan dibariskan untuk reconversion.
+Time taken to convert	Masa yang diambil untuk menukar
+Network authentication	Pengesahan rangkaian
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	Klik butang untuk masukkan pengesahan credentials.\r\nThis saham rangkaian digunakan apabila fail ditambah melalui butang Tambah pada window\r\nor utama diheret dan digugurkan dari perkongsian rangkaian ke dalam kotak status penukaran pada tetingkap utama.
+Skip reconversion	Reconversion Langkau
+Do not reconvert the video if a converted file already exists in the destination directory.	Reconvert video jika fail telah diubahsuai sudah wujud di dalam direktori destinasi.
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	Nama fail yang dijangka untuk video ditukar (nama tidak asal video fail) berbanding dengan nama fail di directory.\r\nIf destinasi fail ditukar wujud, fail tidak boleh reconverted dan ia akan memegang conversion.\r\nThis berjaya adalah berguna jika Papar/episod yang sama yang direkodkan pada beberapa kali dan anda tidak mahu reconvert them.\r\n\r\nNOTE: Opsyen ini diabaikan bagi video yang ditambah secara manual menggunakan butang Tambah atau menyeret dan melepaskan
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	Jika dibolehkan, Langkau reconversion juga akan menyemak fail sejarah untuk conversions.\r\nThe lepas dijangka nama fail video itu ditukar (nama tidak asal video fail) berbanding dengan nama fail di file.\r\nIf sejarah yang perlu ditukar nama fail yang (termasuk laluan) sepadan dengan mana-mana nama sudah ditukar fail (termasuk laluan) dalam fail sejarah, fail \r\nthe tidak akan reconverted dan ia akan dianggap sebagai berjaya ditukar.
+Adding file to the iTunes library	Menambah fail ke pustaka iTunes
+Add to iTunes	Tambah ke iTunes
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	Semak kotak ini untuk menambah fail yang ditukar secara automatik kepada iTunes library.\r\nThis hanya bekerja dengan iTunes fail-fail yang disokong (contohnya MP4, M4V, MP3 dan lain-lain)
+Adding file to the WMP library	Menambah fail ke pustaka DST
+Library Management	Pengurusan Perpustakaan
+Add to Windows Media Player	Tambah ke Pemain Media Windows
+Check this box to automatically add the converted files to the WMP library.	Semak kotak ini untuk menambah fail yang ditukar secara automatik kepada Perpustakaan DST.
+Renaming and Sorting	Menamakan semula dan menyusun
+Selection Filters	Penapis pilihan
+Audio and Video	Audio dan Video
+Subtitles and Chapters	Sarikata dan Bab
+Skip copying original files	Melangkau penyalinan fail asal
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	Semak ini Peti pada anda sendiri RISK.\r\nDO tidak menyemak ini Peti melainkan anda tahu apa anda akan DOING.\r\nCheck kotak ini untuk melangkau membuat sandaran fail asal (menyalin) semasa menukar.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	Semak ini Peti pada anda sendiri RISK.\r\nDO tidak semak kotak ini kecuali anda tahu apa yang anda akan DOING.\r\nCheck ini untuk melangkau membuat sandaran fail asal (menyalin) semasa converting.\r\nIf ini kotaknya, fail asal tidak dapat dikekalkan dalam kes error.\r\nIt yang boleh juga walaupun membawa kepada kegagalan penukaran atau lain-lain isu-isu penukaran yang tidak diduga.
+Are you sure you want to do this?	Adakah anda pasti hendak melakukannya?
+Media Information Management	Pengurusan maklumat media
+Force show type	Tentera menunjukkan jenis
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	Set ini untuk memaksa melayan video rakaman sebagai wayang atau TV Series.\r\nThis akan mengubah cara maklumat tambahan (metadata) tentang rakaman download dari internet.\r\nMovie yang melayan - melayan rakaman sebagai movie\r\nSeries - melayan rakaman sebagai TV Series\r\nSports - rakaman sebagai show\r\nDefault sukan - penggunaan maklumat lalai yang tersedia dalam metadata rakaman untuk menentukan filem atau siri TV
+Show type	Menunjukkan jenis
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	Pilih ini untuk menapis jenis rakaman yang sedang converted.\r\n\r\nMovies - Pilih ini untuk menukar jika jenis Papar Movie.\r\nShows - Pilih ini untuk menukar jika jenis persembahan yang tidak Movie.\r\nSports yang - Pilih ini untuk menukar jika jenis persembahan yang Sports.\r\n\r\nNOTE: menunjukkan jenis adalah membaca dari metadata.\r\nOnly rakaman rakaman beberapa sokongan menunjukkan jenis metadata seperti WTV and\r\nrecordings dengan menyokong metadata fail ()XML/ARG dan lain-lain).
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	Kotak ini menunjukkan semua fail dalam baris gilir fail conversion.\r\nDrag dan drop di sini atau tekan butang Tambah untuk menambah fail ke baris gilir penukaran
+Conversion	Penukaran
+Files	Fail-fail
+Click this button to open or close the Advanced Settings section	Klik butang ini untuk membuka atau menutup bahagian seting lanjutan
+Running custom commands	Menjalankan arahan tersuai
+Trimming video recording	Pemangkasan rakaman video
+Insert at top of queue	Masukkan di atas baris gilir
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	Secara lalai, penukaran baru ditambah ke bahagian bawah (akhir) queue.\r\nIf penukaran kotak ini disemak, apa-apa penukaran baru yang ditambah oleh tugas ini akan ditambah kepada the\r\nbeginning (atas) baris gilir penukaran.
+Add subtitles and chapters	Tambah sarikata dan Bab
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	Membolehkan opsyen ini untuk menambah mana-mana sarikata diekstrak dan Bab ke Bab video.\r\nEach ditukar markah akhir komersil. Ini hanya bekerja dengan format yang disokong (misalnya MKV, MP4).\r\n\r\nNOTE: beberapa pemain dan TV lebih tua tidak menyokong sarikata terbenam dan chapters.\r\nIf anda dapat Main video ditukar, cuba memadamkan opsyen ini.
+Select best soundtrack	Memilih runut bunyi terbaik
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	Jika video asal telah Runut Muzik yang pelbagai, pilihan ini memberitahu MCEBuddy Pilih soundtrack.\r\nIf paling sesuai dan utama sebuah soundtrack Bahasa-bahasa tertentu yang anda mahu, pastikan anda masukkan nama bahasa atau kod di box.\r\nCheck Bahasa Audio kotak ini jika anda mendengar soundtrack salah di file.\r\n\r\nUncheck anda ditukar kotak ini jika anda mahu MCEBuddy untuk mengekalkan semua runut muzik dari video asal dalam fail ditukar apabila mungkin. \r\nNOTE: profil beberapa tidak menyokong pelbagai runut muzik, di mana penetapan ini tidak mempunyai kesan.
+Enable remote access	Mendayakan capaian jauh
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	Ini mencipta pengecualian dalam firewall windows untuk aplikasi MCEBuddy dan port.\r\nThis yang diperlukan jika anda mempunyai firewall windows didayakan dan mahu menggunakan UPnP, akses jauh client\r\nor enjin yang menggunakan address.\r\n\r\nNOTE IP untuk: Jika anda mempunyai firewall adat, ini mungkin tidak berfungsi, anda akan perlu untuk manual cipta an\r\nexception Perkhidmatan MCEBuddy dan pelabuhan.
+Unable to communicate with engine. Firewall exception settings have not been updated.	Tidak dapat berkomunikasi dengan enjin. Pengecualian seting firewall telah dikemaskini.
+Detect and optimize video quality	Mengesan dan mengoptimumkan kualiti video
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	Apabila membolehkan, MCEBuddy akan mengoptimumkan pilihan pemprosesan video dengan cuba untuk mengesan type.\r\nThis sumber video boleh meningkatkan kualiti video ditukar dengan ketara jika dengan betul detected.\r\n\r\nNOTE: dengan cuba untuk mengesan jenis sumber video (jalinan, maju atau telecine).\r\nIf yang boleh mengesan jenis sumber video, ia akan mengatasi parameter yang berkaitan dalam profile.\r\nTurn ini pilihan off jika anda menghadapi masalah dengan kualiti video yang ditukar atau mahu menggunakan parameter profil lalai.
+Are you sure you want to delete this task?	Adakah anda pasti anda mahu menghapuskan tugas ini?
+Delete Task	Hapuskan tugasan
+Enter the new task name	Masukkan nama tugas baru
+Rename Task	Namakan semula tugas
+MCEBuddy PAUSED	MCEBuddy dihentikan SEKETIKA
+idle	terbiar
+PAUSED	DIHENTIKAN SEKETIKA
+Frame rate	Kadar bingkai
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	Membolehkan ini untuk menetapkan framerate adat (FPS) untuk video.\r\nYou ditukar mungkin perlu untuk menetapkan ini semasa menukar video format (contoh: PAL untuk NTSC) \r\nor untuk peranti yang menyokong hanya tertentu framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001
+Skip remuxing files	Langkau fail remuxing
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	Semak ini Peti pada anda sendiri RISK.\r\nDO tidak Daftar ini kotak melainkan anda tahu apa yang anda akan DOING.\r\nCheck kotak ini untuk melangkau remuxing fail asal ke TS fail semasa converting.\r\nIf ini adalah disemak, beberapa fungsi seperti pengekstrakan sarikata atau comskip mungkin tidak work.\r\nIt boleh juga bahkan membawa kepada kegagalan penukaran atau lain-lain isu-isu penukaran yang tidak disangka-sangka.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	Semak ini Peti pada anda sendiri RISK.\r\nDO tidak menyemak ini Peti melainkan anda tahu apa anda akan DOING.\r\nCheck kotak ini untuk melangkau remuxing fail asal ke fail TS semasa menukar.
+Monitor converted videos	Video monitor yang ditukar
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	Secara lalai memantau lokasi akan mengabaikan fail-fail yang telah converted.\r\nCheck kotak ini jika anda juga ingin memantau fail-fail yang telah diubahsuai di Monitor Path.\r\nCAUTION: ini boleh mengakibatkan gegelung tak terhingga penukaran untuk fail yang ditukar jika tidak dikonfigurasikan dengan betul properly.\r\n\r\nThis boleh menjadi berguna apabila anda menentukan direktori output task\r\n penukaran (ditukar fail) sebagai jalan memantau lokasi Monitor dan menghubungkan the\r\nMonitor Lokasi kepada tugas penukaran lain.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	Semak ini Peti pada anda sendiri RISK.\r\nDO tidak menyemak ini Peti melainkan anda tahu apa anda akan DOING.\r\nBy lalai memantau lokasi akan mengabaikan fail-fail yang telah converted.\r\nCheck kotak ini jika anda juga ingin memantau fail-fail yang telah diubahsuai di laluan Monitor.
+Hardware encoding	Pengekodan perkakasan
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	Semak kotak ini untuk menggunakan perkakasan pengekodan apabila disediakan untuk menukar videos.\r\nThis boleh mempercepatkan penukaran dengan ketara dan mengurangkan utilization\r\nbut CPU yang boleh mengakibatkan lebih rendah kualiti videos.\r\n\r\nUncheck ini kotak jika anda sedang menghadapi penukaran atau isu-isu kualiti.
+Do not overwrite files	Tulis ganti fail
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	Apabila kotak ini disemak, fail destinasi yang akan ditulis tidak ganti jika ia sudah exists.\r\nInstead fail baru akan diwujudkan dengan nombor yang unik ditambah pada penghujung nama fail.
+Re-monitor recorded videos	Memantau semula rakaman video
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	Secara lalai, apabila fail sumber (dirakam video) telah diubah suai, \r\nthe monitor sejarah akan mengesan nama fail dan tidak beratur again.\r\n\r\nEnable fail sama opsyen ini untuk mengabaikan sejarah dan memantau semua fail dan menambah mereka to\r\nthe penukaran barisan, walaupun mereka telah converted.\r\n\r\nThis boleh menjadi berguna kadang-kadang, jika perisian rakaman menghasilkan a\r\nunique nama fail bagi setiap episod /. Ianya disarankan untuk menggunakan the\r\nDelete asal fail Opsyen pada halaman seting bila menggunakan opsyen ini untuk avoid\r\nan tak terhingga penukaran gelung.
+Recommendation	Cadangan
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	Untuk mengelakkan gegelung penukaran yang tidak terhingga, adalah disyorkan untuk sediakan pola carian Monitor anda dengan cara yang seperti memastikan bahawa fail yang ditukar tidak dipantau oleh tugas Monitor ini.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	Semak ini Peti pada anda sendiri lalai RISK.\r\nDO tidak menyemak ini Peti melainkan jika anda tahu anda Apakah DOING.\r\nBy yang memantau lokasi akan remonitor merekod video yang telah processed.\r\nCheck kotak ini jika anda mahu untuk remonitor dan reconvert video yang dirakam.
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	Untuk mengelakkan gegelung penukaran yang tidak terhingga, adalah disyorkan bahawa anda membolehkan memadam opsyen fail asal dalam halaman seting.
+Prioritize air date matching	Mengutamakan padanan tarikh Penyaman
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy menggunakan nama episod untuk dipadankan dengan information\r\nwhile siri carian di internet. Jika gagal kemudian ia menggunakan tarikh broadcast\r\nair asal untuk menyesuaikan metadata.\r\n\r\nCheck dalam kotak ini menggunakan tarikh siaran penyiaran yang asal terlebih dahulu dan kemudian the\r\nepisode nama untuk menyesuaikan untuk maklumat siri dari internet.\r\nThis yang boleh menjadi berguna dalam kes-kes tertentu apabila beberapa musim mempunyai nama same\r\nepisode. Contohnya Americal Idol, ujibakat 1\r\n\r\nNOTE: asal tarikh siaran penyiaran bukan sentiasa tepat set oleh the\r\nbroadcaster dan kadang-kadang maklumat di Internet adalah incorrect.\r\nUse ini pilihan hanya jika pilihan lalai tidak bekerja untuk anda.
+Skip eMail body	Langkau e-mel badan
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	Semak opsyen ini untuk menggunakan satu badan kosong di eMail.\r\nThis pemberitahuan boleh menjadi berguna jika anda menggunakan gerbang SMS untuk pemberitahuan e-mel.
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	Pemilihan berdasarkan pada Pengurusan Hak Digital (DRM) adalah available\r\nonly Bilakah menamakan semula tanpa menukar (Namakan semula dan bergerak sahaja) pilihan selected.\r\n\r\nAll - Pilih semua fail untuk diproses, tidak kira status\r\nProtected salinan pelindung - hanya Pilih fail yang akan protected\r\nUnprotected salinan - hanya Pilih fail yang mempunyai salinan pelindung
+Download cover art	Muat turun kulit seni
+Enable this to download the cover art from the original video and internet if available.	Membolehkan ini untuk memuat turun seni perlindungan dari video asal dan internet jika ada.
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	Adakah anda pasti yang anda ingin untuk memasukkan Nama Domain? \r\n\r\nUse ini hanya jika anda menggunakan pengawal Domain Windows untuk menguruskan authentication.\r\nDo anda tidak menggunakan ini jika anda adalah sebahagian daripada Workgroup.\r\n\r\nIf yang anda akan pasti klik.
+Configuration Warning	Konfigurasi amaran
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	Mencipta folder yang dipanggil 'MCEBuddyArchive' di mana fail asal adalah located\r\nand bergerak asalnya fail dalam direktori ini selepas nama folder conversion.\r\n\r\nThis berjaya dan lokasi berubah di bawah.
+Monitoring	Pemantauan
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	Jika anda ingin menukar fail EDL itu ke dalam bab-bab, pastikan anda menyemak pilihan 'Tambah sarikata dan bab-bab' dalam tetapan pakar.
+EDL to Chapters	EDL untuk bab-bab

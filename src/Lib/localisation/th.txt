@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy ไม่ใช้ผู้ใช้อยู่ในระบบเพื่อการเชื่อมต่อกับเครือข่ายที่ใช้ร่วมกัน ใช้บัญชีผู้ใช้บริการของตนเอง  ให้แน่ใจว่าได้ระบุข้อมูลที่ผู้ใช้เชื่อมต่อ (MCEBuddy ด้วยไอคอนคีย์)
+Connection Reminder	การเชื่อมต่อจดหมายเตือนชำระเงิน
+Description	คำอธิบาย
+Path	เส้นทาง
+is invalid	ไม่ถูกต้อง
+Invalid Path	เส้นทางไม่ถูกต้อง
+Please supply a task name	กรุณาใส่ชื่องาน
+No name supplied	ไม่มีชื่อที่กำหนดให้
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	กรุณาใส่รหัสภาษา 3 หลักของแทร็กเสียง หรือเลือก <Default> หรือ <Original>
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	ตัวเลขรหัส ISO สำหรับ language\r\nMake เลือกที่แน่ใจว่า นี้ตรงกับรหัสภาษาสำหรับแทร็กเสียงในต้นฉบับ recording.\r\nTo รับรหัสภาษาสำหรับแทร็กในแฟ้มบันทึกต้นฉบับ 3 เพิ่ม file\r\nto คิว และคลิกขวาบน แบบป๊อปอัพหน้าต่างจะเปิดการแสดงเสียง details\r\nwhich มีรหัสภาษาสำหรับแต่ละแทร็กเสียง
+Invalid Language Code	รหัสภาษาที่ไม่ถูกต้อง
+No destination directory provided, converted file will be placed in original video directory	ไม่มีไดเรกทอรีปลายทางมา แปลงแฟ้มจะถูกวางลงในไดเรกทอรีวิดีโอต้นฉบับ
+A task name or section	ชื่องานหรือส่วน
+already exists\n\rPlease use another name	exists\n\rPlease แล้วใช้ชื่ออื่น
+Duplicate Name	ชื่อที่ซ้ำกัน
+Engine	เครื่องยนต์
+Tasks	งาน
+Profile	ส่วนกำหนดค่า
+disposing	ทำการขายทิ้ง
+Task name	ชื่องาน
+Give a unique name to this task	กำหนดชื่อให้กับเฉพาะงานนี้
+Gives a short description for the selection conversion profile	ให้คำอธิบายโดยย่อสำหรับโพรไฟล์การแปลงสิ่งที่เลือก
+Click to select destination folder	คลิกเพื่อเลือกโฟลเดอร์ปลายทาง
+Destination	ปลายทาง
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	เลือกไดเรกทอรีที่แฟ้มการแปลงจะ placed.\r\nLeave ว่างนี้เป็นการเก็บแฟ้มที่แปลงในไดเรกทอรีเดียวกันเป็นต้นฉบับวิดีโอ
+Max width	ความกว้างสูงสุด
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	นี้จะจำกัดความกว้างสูงสุด (พิกเซล) ของวิดีโอ file.\r\nTIP แปลงแล้ว: ใช้ไม่ได้หากแฟ้มต้นฉบับมีความกว้างน้อยกว่านี้ number.\r\nIf ที่คุณต้องการเก็บการเคลื่อนย้ายความละเอียดของภาพต้นฉบับของคุณตัวเลื่อนไปทางขวา
+Quality	คุณภาพ
+Ad remover	โฆษณากำจัด
+None	ไม่มี
+Get series details from Internet	รับรายละเอียดของชุดข้อมูลจากอินเทอร์เน็ต
+Download additional details about the movie or series from the internet	ดาวน์โหลดรายละเอียดเพิ่มเติมเกี่ยวกับภาพยนตร์หรือชุดข้อมูลจากอินเทอร์เน็ต
+File name match	ตรงกับชื่อแฟ้ม
+Recording title match	บันทึกชื่อเรื่องที่ตรงกัน
+Cancel	ยกเลิก
+OK	ตกลง, ได้
+Rename without converting	เปลี่ยนชื่อโดยไม่ต้องแปลง
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	ตรวจสอบการตรวจสอบตัวเลือกนี้เพื่อเปลี่ยนชื่อ และคัดลอกแฟ้มต้นฉบับเพื่อ folder.\r\nWhen ปลายทางเท่านั้น การแปลง ตัดแต่ง ประมวลผลวิดีโอเสียง และเอาเชิงพาณิชย์จะไม่ available.\r\n\r\nNOTE: อื่น ๆ หน้าที่เหมือนตรงกันตัวกรอง การแยกคำบรรยาย การบันทึกข้อมูลเมตาและยังคงตรวจสอบเชิงพาณิชย์ (บันทึกแฟ้มรอบ) \r\nwill จะมี checked.\r\nIf ตัวเลือกนี้คุณต้องการย้ายแทนที่จะคัดลอกตรวจสอบการข้ามการคัดลอกตัวเลือกเริ่มต้นในการตั้งค่าผู้เชี่ยวชาญในนี้หน้าหรือ select\r\nDelete แฟ้มต้นฉบับในหน้าการตั้งค่าหลักการ
+Rename and sort by video information	การเปลี่ยนชื่อ และเรียงลำดับข้อมูลวิดีโอ
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	เปลี่ยนชื่อแฟ้มที่แปลงแล้ว และวางในไดเรกทอรีใหม่ตามข้อมูลที่แสดง/ชุดเมื่อ available\r\n (เช่น ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	ป้อนชื่อผู้ใช้และรหัสผ่านในการเข้าถึงโฟลเดอร์ที่อยู่บนไดรฟ์เครือข่ายหรือคอมพิวเตอร์เครื่องอื่น
+Organize by seasons	จัดตามฤดูกาล
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	จัดระเบียบโฟลเดอร์ โดย Showname และฤดูกาลเมื่อว่าง (Media Center/XBMC/เพ ล็กซ์เข้าชื่อ) \r\n (เช่น Showname\\Season XX\\SXXEYY-ชื่อตอน)
+Audio language	เสียงภาษา
+Advanced Settings	การตั้งค่าขั้นสูง
+General Settings	การตั้งค่าทั่วไป
+Conversion Task	แปลงงาน
+Password	รหัสผ่าน
+Confirm Password	ยืนยันรหัสผ่าน
+Domain / computer name	โดเมน / ชื่อคอมพิวเตอร์
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	ป้อน <Optional>ถ้าไดรฟ์คอมพิวเตอร์หรือเครือข่ายระยะไกลใช้โดเมนสำหรับ authentication.\r\nDo ไม่ใส่ workgroup ของคุณ ปล่อยว่างไว้ถ้าคุณกำลังใช้เวิร์กกรุ๊ป
+User name	ชื่อผู้ใช้
+Enter the username to access the remote computer or network drive	ป้อนชื่อผู้ใช้เพื่อเข้าถึงไดรฟ์คอมพิวเตอร์หรือเครือข่ายระยะไกล
+Enter the password to access the remote computer or network drive	ป้อนรหัสผ่านเพื่อเข้าถึงไดรฟ์คอมพิวเตอร์หรือเครือข่ายระยะไกล
+Network Connection User Credentials	ข้อมูลประจำตัวของผู้ใช้เชื่อมต่อเครือข่าย
+Password Mismatch	รหัสผ่านไม่ตรงกัน
+Passwords do not match, please reenter the passwords	รหัสผ่านไม่ตรงกัน จึงป้อนอีกรหัสผ่านโปรด
+Hour	ชั่วโมง
+Minute	ใกล้วันเดินทาง
+Wake	ปลุก
+Start	เริ่มการทำงาน
+Resume	ดำเนินการต่อ
+Pause	หยุดชั่วคราว
+Stop	หยุด
+Language	ภาษา
+Pause conversion tasks	งานแปลงหยุดชั่วคราว
+Resume conversion tasks	สมัครงานงานแปลง
+Please enter a valid time	กรุณาใส่เวลาถูกต้อง
+Invalid Time	เวลาไม่ถูกต้อง
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	เวลาหยุดคือหลังจากเวลาเริ่มต้น สมมติว่า มีเวลาหยุดในวันถัดไป เป็นที่ถูกต้อง
+Time Check	ตรวจสอบเวลา
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	เลือกตัวเลือกนี้เฉพาะ ถ้า MCEBuddy ได้ถูกแปลงแฟ้มของคุณได้เป็นระยะเวลาที่ยอมรับได้ คุณต้องการให้ MCEBuddy การลบแฟ้มแต่ละแฟ้มต้นฉบับเมื่อถูกแปลงหรือไม่
+Confirm delete originals?	ยืนยันการลบต้นฉบับหรือไม่
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy จะตรวจสอบเหล่านี้ไดเรกทอรีสำหรับแฟ้มวิดีโอการแปลงโดยอัตโนมัติ
+Conversion tasks	แปลงงาน
+Delete original file	ลบแฟ้มต้นฉบับ
+Deletes the original recording after a successful conversion	ลบการบันทึกต้นฉบับหลังจากการแปลงที่ประสบความสำเร็จ
+Min age before conversion (hours)	นาทีอายุก่อนที่จะแปลง (ชั่วโมง)
+Minimum hours to wait before converting each file after the file is added to the queue	ขั้นต่ำชั่วโมงการรอก่อนที่จะแปลงไฟล์แต่ละไฟล์หลังจากแฟ้มจะถูกเพิ่มลงในคิว
+Use this to change the language of the text on the screen	ใช้ข้อมูลนี้เพื่อเปลี่ยนภาษาของข้อความบนหน้าจอ
+Concurrent conversions	แปลงพร้อมกัน
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	จำนวนแปลงพร้อมกัน MCEBuddy สามารถ start\r\nNOTE: คุณจำเป็นต้องขนาดใหญ่เวลาว่างและตัวประมวลผลที่ว่างบนดิสก์สำหรับการแปลงพร้อมกันมากกว่า 2
+Logging level	ระดับการบันทึก
+Error	ข้อผิดพลาด
+Warning	คำเตือน
+Information	ข้อมูล
+Debug	ตรวจแก้จุดบกพร่อง
+Log conversion jobs	ระบบงานการแปลง
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	บันทึกแฟ้มบันทึกสำหรับการแปลงแต่ละในการ \'logs\' ไดเรกทอรีที่ MCEBuddy installed\r\n (เช่น C:\\Program Files\\MCEBuddy2x\\logs)
+Allow sleep	อนุญาตให้ป
+If unchecked, it prevents the system from entering sleep while converting	ถ้าไม่ได้ตรวจสอบ เป็นป้องกันระบบจากการนอนในขณะที่แปลงการป้อน
+Stop at	หยุดเวลา
+No new conversions would be started after this time	ไม่มีการแปลงใหม่จะเริ่มต้นหลังจากครั้งนี้
+minute	ใกล้วันเดินทาง
+hour	ชั่วโมง
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	ถ้าเลือก MCEBuddy จะปลุกระบบจาก sleep\r\nat ระบุเวลาเริ่มต้น และวันที่เปิดใช้งาน
+Start at	เริ่มต้นที่
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy จะแปลงใหม่ระหว่างการเริ่มต้น และหยุดการ time.\r\n\r\nThe เริ่มต้นที่จะใช้เวลาสำหรับวันในสัปดาห์เปิดใช้งาน whereas\r\nthe สิ้นสุดที่เวลาจะใช้สำหรับ or\r\nfor วันเดียวกันในวันถัดไปหากหลังจากเวลาเริ่มต้นเวลาสิ้นสุด
+Delete	ลบ
+Add	เพิ่ม
+Change	การเปลี่ยนแปลง
+Archive original file	เก็บถาวรแฟ้มต้นฉบับ
+Domain name	ชื่อโดเมน
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	หยุดงานตรวจสอบและแปลง และเปิดหน้าการตั้งค่าคอนฟิก MCEBuddy
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	สร้างโฟลเดอร์ที่เรียกว่า \'MCEBuddyArchive\' แฟ้มต้นฉบับ located\r\nand ย้ายแฟ้มเดิมในไดเรกทอรีนี้หลังจากเปลี่ยนชื่อโฟลเดอร์ conversion.\r\n\r\nThis ประสบความสำเร็จและตำแหน่งในหน้าการตั้งค่าระบบ
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	ตรวจแก้จุดบกพร่อง - บันทึกรายละเอียด ช่วยติดตามแปลง problems\r\nInformation -บันทึกข้อมูลพื้นฐานเกี่ยวกับ conversion\r\nWarning - ล็อกอาจเกิดปัญหาหรือความล้มเหลวที่สำคัญ only\r\nError - บันทึกความผิดพลาดร้ายแรงเท่านั้น
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	เลือกโพรไฟล์การแปลงที่เกี่ยวข้องกับงานนี้ โพรไฟล์การแปลงแสดงรูปแบบของผลผลิตและคุณภาพสำหรับการแปลง file.\r\nHigher คุณภาพการแปลงที่ใช้เวลานานในการแปลง เริ่มต้น Reccomended: MP4 คุณภาพสูงหรือ MP4 Normal.\r\n\r\nTIP: อ้างถึง MCEBuddy คู่มือสำหรับพารามิเตอร์ขั้นสูง เพื่อปรับเปลี่ยนแปลงส่วนกำหนดค่า หรือ การสร้างโพรไฟล์การแปลงของคุณเอง
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	เลือกโปรแกรม MCEBuddy จะใช้ในการถอดเสื้อผ้าออกโฆษณาใด ๆ ในขณะแปลง video.\r\nSet 'ไม่มี' เพื่อออกจากการโฆษณาใน video.\r\n\r\nTIP แปลง: ใช้ ShowAnalyzer Comskip โปรดดาวน์โหลด และติดตั้ง ShowAnalyzer.\r\nShow Analyzer รุ่น 1.0 และค่าสนับสนุนการ
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	ใช้การเปลี่ยนแปลงคุณภาพวิดีโอของแฟ้มที่แปลง ปกติคือ 1.\r\nA เลขที่สูงกว่าจะมีการปรับปรุงคุณภาพ แต่จะใช้เวลามากขึ้นสำหรับ conversion.\r\nA เลขที่น้อยลงจะลดคุณภาพ แต่เร่งความเร็วการแปลง
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	ใส่ลวดลายให้ตรงกับชื่อแฟ้มสำหรับงานนี้ (เช่น *.wtv จะแปลงไฟล์ทั้งหมดที่ลงท้าย ด้วยรูปแบบ.wtv)\r\nPrefix ด้วย ~ ตรงข้าม (เช่น * การ *; ~*.wtv จะประมวลผลแฟ้มทั้งหมดยกเว้นที่ลงท้าย ด้วย.wtv)\r\nSeparate หลายรูปแบบด้วย (เช่น *.wtv; ncis *; ~ ncis ไม *) จะดำเนินการทั้งหมดแฟ้ม.wtv และแฟ้มทั้งหมดที่เริ่มต้นกับ ncis แต่ไม่ใช่เริ่มต้น ด้วย ncis miami\r\n\r\nYou สามารถใช้นิพจน์ทั่วไปเพื่อให้ตรงกับรูปแบบ โดยเริ่มต้นด้วย regex:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	ใส่ลวดลายให้ตรงกับชื่อเรื่องดู/ชุดสำหรับงานนี้ (เช่นซิมป์สัน * จะแปลงแฟ้มทั้งหมดที่มีชื่อแสดงเริ่มต้น ด้วยซิมป์สัน) ลาย \r\nPrefix ด้วย ~ ตรงข้าม (เช่น *; ~ ซิมป์สัน * จะดำเนินการทั้งหมดแสดงชื่อยกเว้นผู้ที่เริ่มต้น ด้วยซิมป์สัน) \r\nSeparate หลาย patterns ด้วย (เช่นซิมป์สัน *House*) หรือ (เช่นซิมป์สัน *NCIS*; ~ NCIS ไม *) \r\n\r\nYou สามารถใช้นิพจน์ทั่วไปเพื่อให้ตรงกับรูปแบบ โดยเริ่มต้นด้วย regex:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	นี้สามารถใช้แทนเสียงภาษาเมื่อมีหลายภาษาเสียงในรายการของภาษาเพลงในการบันทึก การรับ recording.\r\nTo คลิกขวาบนไฟล์ในคิว และเลือก MediaInfo.\r\n\r\n <Default>จะพยายามเก็บเสียงแทร็กทั้งหมดหากได้รับการสนับสนุน หรือให้ตัวเลือกการเริ่มต้นเสียง track\r\n <Original>เข้ารหัสค่าเริ่มต้นถ้ามี จะใช้ภาษา [ไม่ใช่-dubbed] บันทึกต้นฉบับ
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	ป้อน '[วิดีโอ]' หรือปล่อยว่างไว้เพื่อแปลงรูปแบบวิดีโอ files\r\nEnter ทั้งหมดเพื่อให้ตรงกับชื่อแฟ้มสำหรับตำแหน่งนี้ (เช่น *.wtv จะทำแปลงไฟล์ทั้งหมดที่ลงท้าย ด้วยรูปแบบ.wtv)\r\nPrefix ด้วย ~ ตรงข้าม (เช่น * . *; ~*.wtv จะประมวลผลไฟล์ทั้งหมดยกเว้นส่วนที่ลงท้าย ด้วย.wtv)\r\nSeparate หลายรูปแบบด้วย (ตัวอย่างเช่น *.wtv; ncis *; ~ ncis miami *) จะประมวลผลแฟ้ม.wtv ทั้งหมดและแฟ้มทั้งหมดที่เริ่มต้น ด้วย ncis แต่ไม่ผู้เริ่มต้นกับไมอามี ncis
+MCEBuddy Settings	การตั้งค่า MCEBuddy
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy ไม่ใช้ผู้ใช้อยู่ในระบบเพื่อการเชื่อมต่อกับเครือข่ายที่ใช้ร่วมกัน ใช้บัญชีผู้ใช้บริการของตนเอง  ให้แน่ใจว่าได้ระบุข้อมูลที่ผู้ใช้เชื่อมต่อ [MCEBuddy ด้วยไอคอนสำคัญ]
+Please supply a source name	กรุณาใส่ชื่อแหล่ง
+Please supply a search path name	โปรดใส่ชื่อเส้นทางการค้นหา
+A source name or section	ชื่อแหล่งหรือส่วน
+already exists. Please use another name	อยู่แล้ว กรุณาใช้ชื่ออื่น
+Monitor name	ตรวจสอบชื่อ
+Give this a location a unique name	ให้ตำแหน่งที่ตั้งชื่อที่ไม่ซ้ำ
+Monitor path	เส้นทางจอภาพ
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	เลือกไดเรกทอรีที่ MCEBuddy จะตรวจสอบในพื้นหลังสำหรับแฟ้มวิดีโอใหม่จะแปลงโดยอัตโนมัติ
+Click to select the folder to monitor	คลิกเพื่อเลือกโฟลเดอร์เพื่อตรวจสอบ
+Search pattern	รูปแบบการค้นหา
+SourceForm	SourceForm
+Monitor Location	ตำแหน่งของจอภาพ
+Normal	ปกติ
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: ข้อผิดพลาดการเชื่อมต่อโปรแกรม pipeProxy
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: ไม่สามารถสร้างไปป์การบริการ MCEBuddy
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	บริการ MCEBuddy ไม่พร้อมใช้งาน โปรดเริ่มต้นจาก'แผงควบคุม'ของ Windows หรือตรวจสอบการเชื่อมต่อเครื่องยนต์
+Announcement	ประกาศ
+New version 	รุ่นใหม่ 
+available	พร้อมใช้งาน
+New BETA version 	รุ่นเบต้าใหม่ 
+Click here to download new version of MCEBuddy	คลิกที่นี่เพื่อดาวน์โหลดรุ่นใหม่ของ MCEBuddy
+Click here to open link	คลิกที่นี่เพื่อเปิดการเชื่อมโยง
+Idle	ที่ไม่ได้ใช้
+Closing	ปิด
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI: ไม่สามารถปรับปรุงงาน
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: ไม่สามารถเริ่มบริการ MCEBuddy
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: ไม่สามารถหยุดบริการ MCEBuddy
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI: ไม่สามารถยกเลิกงาน
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	คำเตือน: แฟ้มบนเครือข่ายจะสามารถเข้าถึงโดยใช้ข้อมูลประจำตัวการเข้าสู่ระบบของ MCEBuddy บริการ ผู้ใช้เข้าสู่ระบบในขณะนี้ไม่ คุณสามารถระบุข้อมูลประจำตัวเครือข่ายจากการตั้งค่า->ค่าผู้เชี่ยวชาญใน MCEBuddy ด้วยตนเอง
+Credential Warning	คำเตือนเกี่ยวกับข้อมูลประจำตัว
+Status	สถานะ
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI: ไม่สามารถเพิ่มงาน
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: ไม่สามารถรับสถานะที่ใช้งานท่อ
+The conversions must be stopped to change settings. Stop the conversions?	แปลงต้องหยุดเพื่อเปลี่ยนการตั้งค่า หยุดแปลง
+Stop Engine	หยุดเครื่องยนต์
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI: ไม่สามารถหยุดบริการของ MCEBuddy จากการคลิกการตั้งค่า
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: rescan แฟ้มไม่สามารถ
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: ไม่สามารถเปิดการเชื่อมโยง
+Close	ปิด
+Close this window, MCEBuddy will keep running in the background	ปิดหน้าต่างนี้ MCEBuddy จะเก็บอยู่ในพื้น
+If you like MCEBuddy, please click here to Donate - THANKS	ถ้าคุณชอบ MCEBuddy, please click to Donate - ขอบคุณ
+Click here to like MCEBuddy on facebook	คลิกที่นี่ชอบ MCEBuddy บุ๊ค
+Click here to open MCEBuddy website	คลิกที่นี่เพื่อเปิดเว็บไซต์ MCEBuddy
+Rescan	การสแกนใหม่
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	บังคับการ MCEBuddy การตรวจสอบตรวจสอบตำแหน่งที่ตั้งสำหรับแฟ้มวิดีโอใหม่เมื่อต้องการแปลง
+Monitor locations	ตรวจสอบสถาน
+Settings	การตั้งค่า
+Select the file(s) in the queue to delete	เลือกแฟ้มในคิวการลบ
+Manually add video file(s) to the queue to convert	เพิ่มแฟ้มวิดีโอลงในคิวการแปลงด้วยตนเอง
+Start the MCEBuddy monitor and conversion tasks	เริ่มงานตรวจสอบและการแปลง MCEBuddy
+Stop the MCEBuddy monitor and conversion tasks	หยุดงานตรวจสอบและการแปลง MCEBuddy
+There is a new version!	มีรุ่นใหม่
+High	สูง
+Low	ต่ำ
+Priority	ระดับความสำคัญ
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	ลำดับความสำคัญสูง - แปลงเร็วขึ้น แต่อาจทำให้โปรแกรมประยุกต์อื่นกำลังทำงานสำคัญ unresponsive\r\nLow - แปลงในพื้นหลังแต่การลดสัญญาณรบกวนกับโปรแกรมประยุกต์อื่นกำลังทำงานอยู่
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	งานคือ แปลงแม่แบบที่ประกอบด้วยโพรไฟล์การแปลงและ parameters.\r\nEach แปลงอื่น ๆ ต่างๆ จะถูกประมวลผล และถูกแปลง โดยเหล่านี้ tasks.\r\nRefer ไป MCEBuddy คู่มือสำหรับรายละเอียดเพิ่มเติมวิธีการทำงานของงานแต่ละแฟ้มที่ถูกเพิ่มลงในคิว
+Getting started	การเริ่มต้น
+Click here for MCEBuddy guide	คลิกที่นี่สำหรับคำแนะนำของ MCEBuddy
+Logs	แฟ้มบันทึก
+Click to open log folder	คลิกเพื่อเปิดโฟลเดอร์บันทึก
+MCEBuddy Status	สถานะ MCEBuddy
+add	เพิ่ม
+delete	ลบ
+paypal-donate	paypal-บริจาค
+stop	หยุด
+OUTPUT: ConsoleOuput received NULL data	ผลผลิต: ConsoleOuput ได้รับข้อมูลที่เป็น NULL
+hours	ชั่วโมง
+minutes	นาที
+second	วินาที
+seconds	วินาที
+Starting	เริ่มต้น
+Comskip advertisement scan - Pass 1	การสแกน Comskip โฆษณา - ผ่าน 1
+Comskip advertisement scan - Pass 2	การสแกน Comskip โฆษณา - ผ่าน 2
+Cutting commercials from video	ตัดโฆษณาจากวิดีโอ
+Cutting commercials from video - segment 	ตัดโฆษณาจากวิดีโอ - การแบ่งเซ็กเมนต์ 
+Merging commercial free segments into new video	ผสานเชิงพาณิชย์ฟรีส่วนลงในวิดีโอใหม่
+Moving converted file to destination	การย้ายแฟ้มที่แปลงแล้วไปยังปลายทาง
+Checking for disk space	ตรวจสอบพื้นที่ดิสก์
+Getting show information and banner from Internet sources	การนำเสนอข้อมูลและแบนเนอร์จากแหล่งข้อมูลในอินเทอร์เน็ต
+Copying source file to working directory	การคัดลอกแฟ้มต้นฉบับไปยังไดเรกทอรีในการทำงาน
+Remuxing recording	Remuxing บันทึก
+ShowAnalyzer advertisement scan	ShowAnalyzer โฆษณาสแกน
+Comskip advertisement scan	Comskip โฆษณาสแกน
+Analyzing video information	การวิเคราะห์ข้อมูลวิดีโอ
+Converting	การแปลง
+Removing commercials	เอาโฆษณา
+Writing show information	แสดงรายละเอียดของการเขียน
+Renaming file using show information	การเปลี่ยนชื่อแฟ้มโดยใช้การนำเสนอข้อมูล
+Success - All done!	ความสำเร็จ - ทั้งหมด
+Muxing streams	กระแสข้อมูล Muxing
+Fallback remux	Fallback remux
+Correcting audio delay	การแก้ไขเสียงการหน่วงเวลา
+Converting video file - Pass 1	การแปลงแฟ้มวิดีโอ - ผ่าน 1
+Converting video file - Pass 2	การแปลงแฟ้มวิดีโอ - ผ่าน 2
+Converting video file	การแปลงแฟ้มวิดีโอ
+Audio Track	แทร็กเสียง
+Impaired	ความบกพร่องทางด้าน
+Channels	สถานี
+Codec	ตัวแปลงสัญญาณ
+Video	วิดีโอ
+Duration	ระยะเวลา
+Height	ความสูง
+Width	ความกว้าง
+Audio	เสียง
+Name	ชื่อ
+Subtitle	เรื่อง
+Volume	ระดับเสียง
+Enable custom file renaming	เปิดใช้งานการเปลี่ยนชื่อแฟ้มที่กำหนดเอง
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	เปิดใช้งานนี้เพื่อระบุรูปแบบกำหนดเองเพื่อเปลี่ยนแปลงแฟ้มและโฟลเดอร์ ใส่รูปแบบกำหนดเองในกล่อง below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S %ฤดูกาล% ##E %ตอน% # -% episodename % - %airyear%_%airmonth%_%airday%\r\n\r\nWill ผลิต: \r\nTVShows\CSI\Season 1\CSI - S01E02 - ดีที่สุดของเวลา - 2012_01_06<ext> \r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill ผลิต (ในภาพยนตร์) \r\n Recording\Movies\Star แปลงสงคราม. <ext>\r\nOR (สำหรับไม่ใช่ภาพยนตร์) \r\n Recording\TVShows\CSI\Season 1\CSI - S01E02 แปลง\r\n\r\nRefer <ext>กับ MCEBuddy ที่สูงเอกสารสำหรับรายการของคำสั่งรูปแบบ
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	ไม่พบ ShowAnalyzer. \nPlease ดาวน์โหลด และการติดตั้ง ShowAnalyzer
+ShowAnalyzer Missing	ShowAnalyzer ขาดหายไป
+Invalid language code, reverting to <Default> language	รหัสภาษาที่ไม่ถูกต้อง ย้อนกลับไปที่ภาษา <Default>
+Cut start	เริ่มตัด
+Cut end	ตัดสิ้น
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	ระบุจำนวนวินาทีที่จะตัดจากจุดเริ่มต้นของการบันทึก (ก่อนที่จะเอาโฆษณา)
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	ระบุจำนวนวินาทีที่จะตัดจากจุดสิ้นสุดของบันทึก (ก่อนที่จะเอาโฆษณา)
+Send an eMail after each conversion.	ส่งอีเมล์หลังจากแต่ละแปลง
+Send eMail	ส่งอีเมล์
+SMTP Server Name	ชื่อเซิร์ฟเวอร์ SMTP
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	ป้อน here\r\ne.g ที่อยู่เซิร์ฟเวอร์อีเมล์ (SMTP) ขาออก smtp.gmail.com
+Port	พอร์ต
+Enter the SMTP server port	ใส่ SMTP server port
+Use SSL	การใช้ SSL
+Check this if you SMTP server uses SSL	เครื่องหมายนี้ถ้าคุณ SMTP server ใช้ SSL
+e-Mail Settings	การตั้งค่าอีเมล
+From <e-Mail>	จาก <e-Mail>
+Enter the senders (From) eMail address here	ใส่ชื่อผู้ส่งที่ (จาก) อีเมล์ที่นี่
+To <e-Mails>	การ <e-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	ป้อนผู้รับ (การ) อี here.\r\nSeparate ที่อยู่ผู้รับหลายคน ด้วยเครื่องหมายอัฒภาค ()
+Send eMail on successful conversion	ส่งอีเมล์บนแปลงที่ประสบความสำเร็จ
+Send eMail on failed conversion	ส่งอีเมล์บนแปลงล้มเหลว
+Send eMail on cancelled conversion	ส่งอีเมล์บนแปลงถูกยกเลิก
+Send eMail on adding a conversion to the queue	ส่งอีเมล์ในการเพิ่มการแปลงไปยังคิว
+Please enter a valid server address	กรุณาใส่อยู่ของเซิร์ฟเวอร์ที่ถูกต้อง
+Invalid SMTP Server	เซิร์ฟเวอร์ SMTP ที่ไม่ถูกต้อง
+Please enter a valid server port	กรุณาใส่พอร์ตของเซิร์ฟเวอร์ที่ถูกต้อง
+Invalid SMTP Port	SMTP พอร์ตไม่ถูกต้อง
+Please enter a valid From eMail address	กรุณาใส่ถูกต้องจากที่อยู่อีเมล
+Invalid eMail Address	อีเมล์ไม่ถูกต้องอยู่
+Please enter valid To eMail addresses	กรุณาใส่ถูกต้องไปยังที่อยู่อีเม
+Username	ชื่อผู้ใช้
+<Optional> Enter the username for the eMail server authentication	Enter <Optional>ชื่อผู้ใช้สำหรับการรับรองความถูกต้องเซิร์ฟเวอร์ของอีเมล์
+<Optional> Enter the password for the eMail server authentication	Enter <Optional>รหัสผ่านสำหรับการรับรองความถูกต้องเซิร์ฟเวอร์ของอีเมล์
+MCEBuddy unable to download series information	MCEBuddy ไม่สามารถดาวน์โหลดข้อมูลชุด
+MCEBuddy successfully converted a video	MCEBuddy แปลงวิดีโอได้สำเร็จ
+Source Video	แหล่งวิดีโอ
+Converted Video	แปลงวิดีโอ
+Converted At	แปลง
+MCEBuddy failed to converted a video	MCEBuddy ล้มเหลวในการแปลงวิดีโอ
+Failed At	ล้มเหลวใน
+MCEBuddy cancelled a video conversion	MCEBuddy การยกเลิกการแปลงวิดีโอ
+Cancelled At	การยกเลิกที่
+Working	การทำงาน
+Test	ทดสอบ
+Testing	การทดสอบ
+Click this button to test the eMail server settings	คลิกปุ่มนี้เพื่อทดสอบการตั้งค่าเซิร์ฟเวอร์อีเมล
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy จะส่งอีเมล์เพื่อทดสอบ settings.\r\nThis เซิร์ฟเวอร์สามารถใช้สำหรับ 60 seconds.\r\nMCEBuddy อาจไม่ตอบสนองในระหว่างรอบระยะเวลานี้
+Test eMail	ทดสอบอีเมล์
+MCEBuddy Test eMail	อีเมล์ MCEBuddy ทดสอบ
+MCEBuddy - Have a great day!	MCEBuddy - มีวันดี
+Send eMail test successful	ส่งอีเมล์ทดสอบประสบความสำเร็จ
+Send eMail test failed! Please check your settings and internet connectivity	ส่งอีเมล์การทดสอบล้มเหลว กรุณาตรวจสอบการตั้งค่าและการเชื่อมต่ออินเทอร์เน็ต
+Test eMail Success	ทดสอบความสำเร็จของอีเมล์
+Test eMail Failed	อีเมล์การทดสอบล้มเหลว
+Send eMail on start of conversion	ส่งอีเมล์บนจุดเริ่มต้นของการแปลง
+MCEBuddy started a video conversion	MCEBuddy เริ่มต้นการแปลงวิดีโอ
+Conversion Started At	เริ่มต้นที่การแปลง
+Yes (Comskip)	ใช่ (Comskip)
+Yes (ShowAnalyzer)	ใช่ (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	อย่างน้อยหนึ่งแปลงงานต้องถูกเปิดใช้งาน
+Disable	ปิดการใช้งาน
+Enable	เปิดการใช้งาน
+Rename	เปลี่ยนชื่อ
+Move	ย้าย
+Up	ค่า
+Down	ลง
+Slow Remuxing	ช้า Remuxing
+Extracting closed captions	แยกคำบรรยาย
+Validating closed captions	ตรวจสอบคำบรรยาย
+Extracting subtitles	แยกคำบรรยาย
+Trimming closed captions	อธิบายการตัดแต่งที่ปิด
+Extract subtitles and closed captions	สารสกัดจากคำบรรยายและคำบรรยาย
+Field	เขตข้อมูล
+Channel	สถานี
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	เปิดใช้งานการแยกบรรยาย คำบรรยาย และโทรภาพสาร from\r\nWTV, DVR MS, TS, MP4, MKV และอื่น ๆ files.\r\n\r\nIt สนับสนุนจะถูกบันทึกเป็นแฟ้มคำบรรยาย (SRT)
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	เปิดการใช้งานนี้เพื่อตั้งค่าตัวเลือกขั้นสูงสำหรับคำอธิบายเฉพาะที่ปิด extraction\r\nField - 1 หรือ 2\r\nChannel - 1 หรือ 2\r\n\r\nDefault: เขตข้อมูล 1, Channel 1
+Subtitle offset	ตรงข้ามคำบรรยาย
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	ป้อนหมายเลขของวินาที (+ ve / - ve) เพื่อปรับการซิงค์คำบรรยาย ด้วยวิดีโอ
+Re-ReMuxing due to audio error	เรื่อง-ReMuxing เนื่องจากข้อผิดพลาดที่เสียงไป
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	โปสเตอร์การบันทึก และแสดงข้อมูล (metadata) ใน MC/XBMC ได้ NFO แฟ้ม (รูปแบบ XML)
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	เลือกกล่องนี้เพื่อบันทึกแสดงข้อมูล (metadata) ใน file.\r\nThis แปลงเฉพาะงานสำหรับแฟ้มที่สนับสนุนข้อมูลเมตาแท็กเช่น MP4, MKV, WTV etc.\r\n\r\nNOTE: ยกเลิกเลือกกล่องนี้ถ้าคุณกำลังเผชิญปัญหากับอุปกรณ์บางอย่างเช่นโทรทัศน์รุ่นเก่าที่มีปัญหาอ่านตา
+Atleast one day of the week must be enabled	อย่างน้อยหนึ่งวันของสัปดาห์ต้องถูกเปิดใช้งาน
+Invalid Days of Week	วันของสัปดาห์ที่ไม่ถูกต้อง
+Invalid day of week found in configuration file	วันของสัปดาห์ที่พบในแฟ้มการกำหนดค่าที่ไม่ถูกต้อง
+Scheduling	การจัดกำหนดการ
+Remuxing to	Remuxing การ
+Part	ส่วนหนึ่ง
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	เมาส์บนปุ่มใด ๆ กล่อง หรือสินค้าที่ได้รับการช่วยเหลือทันทีใน it.\n\nFor ข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ การแก้ไขปัญหา หรือได้รับการสนับสนุนสำหรับ MCEBuddy คลิกที่ลิงค์ <ม่ > บน corner.\n\nDonations ขวาสุดเหลือยินดี:) เพลิดเพลินกับ! \n\n - Ramit ดีเร็กค์ & ห่าน
+Welcome to MCEBuddy	ยินดีต้อนรับสู่ MCEBuddy
+Multichannel audio	เสียงแบบมัลติแชเนล
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	เครื่องให้เสียง multi-channel ถ้าวิดีโอแหล่งสนับสนุนเริ่มต้น it.\r\nBy เสียงจะจำกัด 2 ช่อง (สเตอริโอ)
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	ช่วงไดนามิกบีบอัด (DRC) \r\nWhen แหล่งเสียง AC3 เปิดใช้งาน DRC will\r\nreduce ความแตกต่างระหว่างเสียงดังและ soft\r\nsounds ทำให้แทร็กเสียงเพิ่มเติม even.\r\nIf คุณมีการบันทึกเสียง multi-channel และ you\r\nfeel วอลุ่มเบาเกินไป มีการตรวจสอบกล่องนี้อาจช่วยได้
+FPS	อัตราเฟรม
+Logfile age (days)	Logfile อายุ (วัน)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	จำนวนวันการเก็บ logfiles ก่อนที่จะลบ them.\r\nSet เป็น 0 เพื่อเก็บบันทึกการตลอดไป
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	Remuxing อย่างรวดเร็ว
+Byte stream remuxing	Remuxing กระแสข้อมูลไบต์
+Disable cropping	การปิดใช้งานการครอบตัด
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	ตรวจสอบการยกเลิกการครอบตัดภาพวิดีโอโดยอัตโนมัติในระหว่างการ conversion.\r\nCropping ใช้เพื่อเอา "แถบสีดำ" ในวิดีโอ (ด้านบน ด้านล่าง ด้านซ้าย หรือ right).\r\nUse ตัวเลือกนี้ ถ้ามีการตัดรูปภาพวิดีโอบนด้านใดด้านหนึ่ง หรือภาพสุดท้ายคือการค้นหายืด หรือการผิดเพี้ยน
+Only detect Ads	ตรวจสอบโฆษณาเท่านั้น
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	เครื่องนี้ถ้าคุณต้อง MCEBuddy ตรวจสอบโฆษณา (commercials) แต่ไม่ตัดออกจาก video.\r\nWhen เปิดใช้งานตัวเลือกนี้ MCEBuddy จะสร้าง EDL แฟ้มรวมทั้งแฟ้มแปลงแล้วที่ระบุตำแหน่งของโฆษณาใน video.\r\nAlso แปลง สำหรับ MP4, M4V และยกเลิกแฟ้ม MCEBuddy จะสร้างบทเพื่อทำเครื่องหมายท้าย commercials
+Download information	ดาวน์โหลดข้อมูล
+Correction	การแก้ไข
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	คลิกที่นี่เพื่อดูชื่อเรื่องที่ถูกต้อง และบังคับใช้เฉพาะรหัสชุด TVDB หรือภาพยนตร์ภาพยนตร์ id\r\nto ค้นหาเพิ่มเติม metadata จากอินเทอร์เน็ต
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	การตรวจสอบนี้เพื่อดาวน์โหลดข้อมูลเพิ่มเติมจาก internet เกี่ยวกับการนำเสนอเช่นแฟ้มแบนเนอร์ ตอนที่ ฤดูกาลฯลฯ
+Profile Error	ข้อผิดพลาดของโพรไฟล์
+Cannot find selected profile in profiles.conf	ไม่สามารถค้นหาโพรไฟล์ที่เลือกใน profiles.conf
+Invalid Profile	ส่วนกำหนดค่าไม่ถูกต้อง
+Please select a valid profile	กรุณาเลือกส่วนกำหนดค่าที่ถูกต้อง
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	เครื่องยนต์ MCEBuddy ล้มเหลว กรุณาส่ง mcebuddy.log เพื่อพัฒนา
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	เลือกแฟ้ม Comskip INI กำหนดเองเพื่อใช้สำหรับ task\r\nLeave นี้แปลงว่างนี้เพื่อใช้เป็นค่าเริ่มต้นแฟ้ม Comskip INI สำหรับการเอาออกการโฆษณา
+Click to select custom Comskip INI file	คลิกเพื่อเลือกแฟ้ม Comskip INI ที่กำหนดเอง
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	เลือกโฟลเดอร์สำหรับทำงานกับแฟ้มชั่วคราว ทำให้แน่ใจว่า มีว่างเพียงพอสำหรับพื้นที่บน drive.\r\nLeave ว่างนี้เพื่อใช้เป็นค่าเริ่มต้นโฟลเดอร์ชั่วคราวในโฟลเดอร์การติดตั้ง
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	เลือกโฟลเดอร์การทำงานกับแฟ้มชั่วคราว ตรวจสอบให้แน่ใจว่า มีเนื้อที่ว่างเพียงพอบน drive.\r\nThis แทนโฟลเดอร์ชั่วคราวที่ระบุในการตั้งค่า->ค่าผู้เชี่ยวชาญ
+Click to select temp working folder	คลิกเพื่อเลือกโฟลเดอร์ใช้งานชั่วคราว
+Temp folder	โฟลเดอร์ชั่วคราว
+Space check	ตรวจสอบพื้นที่
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	เมื่อเปิดใช้งาน MCEBuddy จะตรวจสอบเนื้อที่ว่างเพียงพอสำหรับการแปลง (ปลายทางและ temp).\r\nUncheck นี้ถ้าคุณกำลังมีปัญหากับไดรฟ์เครือข่าย หรือมีแฟ้มวิดีโอขนาดใหญ่โคตร
+MCEBuddy Windows Event Logs	แฟ้มบันทึกเหตุการณ์ของ MCEBuddy Windows
+Events	เหตุการณ์
+Click here to open the MCEBuddy Windows Event Logs	คลิกที่นี่เพื่อเปิดแฟ้มบันทึกเหตุการณ์ Windows MCEBuddy
+Enable UPnP	เปิดใช้งาน UPnP
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	การตรวจสอบนี้เพื่อเปิดใช้งาน UPnP ช่วยให้การเข้าถึงโปรแกรม MCEBuddy จากภายนอก network.\r\nThis จำเป็นต้องมีการตรวจสอบว่า คุณกำลังใช้ไคลเอนต์ MCEBuddy มือถือเป็นแบบสแตนด์อโลนในการเข้าถึง MCEBuddy
+Click here to connect to another MCEBuddy engine	คลิกที่นี่เพื่อเชื่อมต่อกับเครื่องยนต์ MCEBuddy อื่น
+MCEBuddy Remote Engine Connection	การเชื่อมต่อระยะไกล MCEBuddy Engine
+Engine Name	ชื่อโปรแกรม
+Engine Port	พอร์ต engine
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	ป้อนชื่อหรืออยู่ IP ของเครื่องยนต์ MCEBuddy ที่คุณต้องการเชื่อมต่อ
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	ป้อนหมายเลขพอร์ต TCP ของเครื่องยนต์ MCEBuddy ที่คุณต้องการเชื่อมต่อ
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	ป้อนหมายเลขพอร์ต TCP ของเครื่องยนต์ MCEBuddy ที่คุณต้องการเชื่อมต่อ (1 การ 63355)
+Invalid Name/Port	ชื่อ/พอร์ตไม่ถูกต้อง
+Please enter a valid Engine Name and Engine Port Number	กรุณาใส่ชื่อ Engine และ Engine การหมายเลขพอร์ตที่ถูกต้อง
+Error Stopping Engine	เครื่องยนต์หยุดข้อผิดพลาด
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	ไม่สามารถหยุดเครื่องยนต์ MCEBuddy การตั้งค่าอาจไม่ถูกบันทึก คุณต้องการดำเนินการต่อไปหรือไม่
+Unable to communicate with engine. Settings have NOT been saved.	ไม่สามารถสื่อสารกับเครื่องยนต์ ไม่มีการถูกบันทึกการตั้งค่า
+Communication Error	ข้อผิดพลาดในการสื่อสาร
+Engine not stopped. Settings have NOT been saved.	เครื่องยนต์ไม่หยุด ไม่มีการถูกบันทึกการตั้งค่า
+Unable To Save Settings	ไม่สามารถบันทึกการตั้งค่า
+Unable to communicate with engine. UPnP settings have not been updated	ไม่สามารถสื่อสารกับเครื่องยนต์ ปรับปรุงการตั้งค่า UPnP ไม่
+Audio delay	เสียงช้า
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	ป้อนค่าในหน่วยวินาที (ค่าบวก หรือค่าลบ) ที่นี่เลื่อนเสียงเทียบ video.\r\nUse นี้ resync เสียงกับวิดีโอ ถ้าจะออกสอดหลัง conversion.\r\nA ค่าบวกจะหน่วงเสียง (เช่นวิดีโอเสียงก่อนหน้า) และค่าลบจะขั้นสูงเสียง (เช่นเสียงก่อนหน้า video).\r\nE.g -1.5
+Media info	ข้อมูลสื่อ
+Click here to get media properties for selected files	คลิกที่นี่เพื่อขอรับสื่อคุณสมบัติสำหรับแฟ้มที่เลือก
+Save information	บันทึกข้อมูล
+Add information	เพิ่มข้อมูล
+Shows a preview of the custom filename and path	แสดงตัวอย่างของชื่อแฟ้มที่กำหนดเองและเส้นทาง
+Invalid Filename Pattern	รูปแบบของชื่อแฟ้มไม่ถูกต้อง
+TVDB Series ID	รหัสชุด TVDB
+IMDB Series ID	ID ของชุดข้อมูล IMDB
+Original title	ชื่อเดิม
+Corrected title	แก้ไขชื่อเรื่อง
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	ป้อนรหัสชุด TVDB ที่คุณต้องการใช้สำหรับดาวน์โหลดดู information.\r\nIf เดิมชื่อกล่องเปล่า นี้จะใช้กับรายการทั้งหมดที่เลือก โดยงานนี้แปลง
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	ป้อนรหัสภาพยนตร์ภาพยนตร์ที่คุณต้องการใช้สำหรับการดาวน์โหลดภาพยนตร์ information.\r\nIf เดิมชื่อกล่องเปล่า นี้จะใช้กับรายการทั้งหมดที่เลือก โดยงานนี้แปลง
+Internet Lookup Title and Metadata Correction	ชื่อเรื่องค้นหาอินเทอร์เน็ตและการแก้ไขเมตาดาต้า
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	คลิกที่นี่เพื่อเพิ่มแถวอื่นไปตรง และแก้ไขชื่อและคุณต้องการใช้แก้ไขชื่อเดียวกันหรือรหัสชุดสำหรับแปลงนี้แปลงงาน แสดงทั้งหมด id.\r\nIf ชุด \r\nleave ว่างชื่อเดิมมา แถวและคุณไม่ควรเพิ่มแถวที่สอง
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	ใส่ลวดลายให้ตรงกับชื่อเรื่องดู/ชุดสำหรับการแก้ไข (เช่นซิมป์สัน * จะเปลี่ยนชื่อทั้งหมดที่มีชื่อแสดงเริ่มต้น ด้วยซิมป์สัน) ลาย \r\nPrefix ด้วย ~ ตรงข้าม (เช่น * การ *; ~ ซิมป์สัน * จะแก้ไขทั้งหมดแสดงชื่อยกเว้นผู้ที่เริ่มต้น ด้วยซิมป์สัน) \r\nSeparate หลาย patterns ด้วย (เช่นซิมป์สัน *House*) หรือ (เช่นซิมป์สัน *NCIS*; ~ NCIS ไม *) \r\n\r\nNOTE: ปล่อยกล่องนี้ว่างเปล่าถ้าคุณต้องการแก้ไขชื่อหรือรหัสชุดข้อมูลแฟ้มทั้งหมดที่ถูกประมวลผล โดย task.\r\nIf แปลงนี้ปล่อยว่าง คุณไม่สามารถเพิ่ม row.\r\n\r\nYou ที่สองสามารถใช้นิพจน์ทั่วไปเพื่อให้ตรงกับชื่อเรื่อง โดยเริ่มต้นด้วย regex:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	ป้อนชื่อใหม่/แก้ไขที่คุณต้องการใช้สำหรับดาวน์โหลดข้อมูลเพิ่มเติมจาก internet.\r\nIf เดิม ชื่อเปล่า นี้จะใช้การแสดงทั้งหมดที่เลือก โดยแปลงนี้ task.\r\n\r\nYou สามารถใช้นิพจน์ทั่วไปเพื่อแก้ไขชื่อ โดยเริ่มต้นด้วย regex:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	สำหรับแต่ละแถว โปรดป้อนชื่อเรื่องต้นฉบับให้ตรงกับชื่อดู Corrected ทั้งชื่อหรือรหัสการชุด TVDB/ภาพ ยนตร์
+Please enter either a Corrected title or a TVDB/IMDB Series ID	กรุณาใส่ชื่อ Corrected หรือรหัสชุด TVDB/ภาพ ยนตร์
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	เปิดการใช้งานนี้ถ้าคุณต้องการ MCEBuddy ทำให้การแปลงแฟ้มในแหล่ง directory\r\nif เส้นทางปลายทางไม่พร้อมใช้งาน (เช่นเครือข่ายล้มเหลวหรือความล้มเหลวของการแม็ป)
+Fallback to source path	Fallback การเส้นทางแหล่งข้อมูล
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	ใช้ในการเพิ่ม หรือลดระดับเสียงของ the\r\nrecording ในขณะที่ converting.\r\n1 เป็นปกติ สิ่งที่อยู่ด้านล่างจะลด anything\r\nhigher จะเพิ่มขึ้น
+Archive folder	โฟลเดอร์เก็บถาวร
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	เปลี่ยนตำแหน่งของ folder.\r\nLeave เก็บว่างการใช้โฟลเดอร์ 'MCEBuddyArchive' ค่าเริ่มต้นในไดเรกทอรีต้นฉบับ
+Monitor subdirectories	จอแสดงผลย่อย
+Check this box to also monitor all directories within the Monitor path	กาเครื่องหมายนี้ยัง ตรวจสอบไดเรกทอรีทั้งหมดภายในเส้นทางจอภาพ
+Click here to show MCEBuddy status	คลิกที่นี่เพื่อแสดงสถานะ MCEBuddy
+MCEBuddy service not connected	บริการ MCEBuddy ไม่ได้เชื่อมต่อ
+MCEBuddy idle	MCEBuddy ไม่ทำงาน
+conversions in progress	แปลงในระหว่างดำเนินการ
+MCEBuddy stopped	MCEBuddy หยุดการทำงาน
+Sync converted files	ทำแปลงแฟ้ม
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	เครื่องหมายตัวเลือกนี้ถ้าคุณต้อง MCEBuddy ให้แปลงแฟ้มให้ตรงกันกับ files.\r\ni.e ต้นฉบับ เมื่อแฟ้มต้นฉบับจะถูกลบ โดยผู้ใช้ แปลงแฟ้มที่สอดคล้องกันจะยัง deleted.\r\n\r\nNOTE: MCEBuddy ตรวจสอบแฟ้มต้นฉบับในการตรวจสอบตำแหน่งที่ตั้งโฟลเดอร์เท่านั้น และเท่านั้นขณะโปรแกรม running.\r\nMCEBuddy จะไม่สามารถติดตามผู้ใช้ลบแฟ้มในขณะที่เครื่องยนต์จะหยุดทำงาน
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	ต้อง MCEBuddy ลบแฟ้มแต่ละแปลงเมื่อแฟ้มต้นฉบับถูกลบหรือไม่
+Confirm sync conversions?	ยืนยันการแปลงข้อมูลให้ตรงกันหรือไม่
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	คุณแน่ใจหรือไม่ว่าคุณไม่ต้องการเอาโฆษณาออกจากวิดีโอแปลง และเก็บเฉพาะ แฟ้ม EDL
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer ไม่มีการตอบสนอง กรุณาเริ่มระบบ หรือติดตั้ง ShowAnalyzer
+ShowAnalyzer Not Responding	ShowAnalyzer ที่ไม่ตอบสนอง
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	ทำให้แน่ใจว่าคุณกด 'เริ่ม' หลังจากที่ปิดหน้าต่างนี้ หรือ กำหนดตารางเวลาและการปลุกจะไม่ทำงาน
+Enabling Scheduling and Wake	การจัดกำหนดการเปิดใช้และปลุก
+Passwords do not match	รหัสผ่านไม่ตรงกับ
+Password error	ข้อผิดพลาดของรหัสผ่าน
+Adding subtitles and chapters to file	การเพิ่มคำบรรยายและบทแฟ้ม
+Send eMail if unable to download series information	ส่งอีเมล์ถ้าไม่สามารถดาวน์โหลดข้อมูลชุด
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	เลือกกล่องนี้ถ้าคุณต้องการงานนี้แปลงเท่า ประมวลผลแฟ้มเฉพาะจอ locations.\r\nIf ไม่ได้ตรวจสอบงานแต่ละแปลงจะประมวลผลแฟ้มจากตำแหน่งหน้าจอทั้งหมด (รวมถึงคนใหม่ที่ถูกเพิ่มในภายหลัง)
+Select Monitor Locations	เลือกตำแหน่งที่ตั้งของจอภาพ
+Select atleast one Monitor Location name	เลือก atleast หนึ่งจอภาพตั้งชื่อ
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	คุณได้เลือกทั้งหมดในปัจจุบันจอภาพ Locations.\r\nDo คุณต้องการให้ประมวลผลโดยอัตโนมัติที่ตั้งจอภาพใด ๆ ใหม่เพิ่มในอนาคตงานแปลงนี้หรือไม่
+New monitor locations	ตำแหน่งตรวจสอบใหม่
+Invalid selection	เลือกไม่ถูกต้อง
+Channel name match	ตรงตามชื่อสถานี
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	ใส่ลวดลายให้ตรงกับชื่อช่องสำหรับงานนี้ (เช่น ABC * จะแปลงแฟ้มทั้งหมดที่บันทึกไว้ในช่องชื่อเริ่มต้น ด้วย ABC) ลาย \r\nPrefix ด้วย ~ ตรงข้าม (เช่น *; ~ ABC * จะประมวลผลช่องสัญญาณทั้งหมดยกเว้นผู้ที่เริ่มต้น ด้วย ABC) \r\nSeparate หลาย patterns ด้วย (เช่น ABC *TBS*) หรือ (เช่น ABC *Fox*; ~ Fox4 *) \r\n\r\nYou สามารถใช้นิพจน์ทั่วไปเพื่อให้ตรงกับรูปแบบ โดยเริ่มต้นด้วย regex:
+Clear history	ล้างประวัติ
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	คลิกที่ปุ่มนี้เมื่อต้องล้างประวัติของทั้งหมด files.\r\nThis แปลงไม่ทำ MCEBuddy เมื่อต้องแปลงแฟ้มทั้งหมดที่กำลังถูกตรวจสอบ
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	คุณแน่ใจว่าคุณต้องการล้างประวัติของการแปลงทั้งหมดได้อย่างไร \r\nThis จะทำให้เกิด MCEBuddy เมื่อต้องแปลงแฟ้มทั้งหมดที่กำลังถูกตรวจสอบ
+Show history	แสดงประวัติ
+Click this button to show the history of all converted files.	คลิกปุ่มนี้เพื่อแสดงประวัติของการแปลงไฟล์ทั้งหมด
+History of Converted Files	ประวัติของแฟ้มที่แปลงแล้ว
+Unable to communicate with engine.	ไม่สามารถสื่อสารกับเครื่องยนต์
+Extracting streams	ดึงข้อมูลกระแสข้อมูล
+Fallback muxing streams	กระแสข้อมูล fallback muxing
+Remuxing TiVO file	Remuxing TiVO แฟ้ม
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	ป้อนของคุณ 10 หลักคีย์หมาก TiVO แปลง และประมวลผลบันทึก TiVO
+Invalid TiVO MAK Key	คีย์ไม่ถูกต้อง TiVO หมาก
+The TiVO MAK key should be 10 digits	คีย์ TiVO หมากควรเป็น 10 หลัก
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	รุ่นไม่ตรงกัน โปรดตรวจสอบว่า ไคลเอนต์ MCEBuddy และเครื่องยนต์กำลังทำงานอยู่รุ่นเดียวกัน
+Error retrieving Event Logs	ข้อผิดพลาดในการดึงข้อมูลบันทึกเหตุการณ์
+Unable to get Event Log Entries from the MCEBuddy engine.	ไม่สามารถหารายการแฟ้มบันทึกเหตุการณ์จากเครื่องยนต์ MCEBuddy
+PAUSED: Check conversion schedule	PAUSED: กำหนดการเครื่องแปลง
+Logging	เข้าสู่ระบบ
+Folder Management	โฟลเดอร์การจัดการ
+Processor Management	การจัดการตัวประมวลผล
+Expert Settings	การตั้งค่าผู้เชี่ยวชาญ
+System Settings	การตั้งค่าระบบ
+Click here to change additional settings (for experts only)	คลิกที่นี่เพื่อเปลี่ยนการตั้งค่าเพิ่มเติม (สำหรับผู้เชี่ยวชาญเท่านั้น)
+Failed folder	โฟลเดอร์ล้มเหลว
+Location of the folder that hold the original files for failed conversions.	ตำแหน่งที่ตั้งของโฟลเดอร์ที่เก็บแฟ้มต้นฉบับสำหรับการแปลงล้มเหลว
+Move original file on failure	ย้ายแฟ้มล้มเหลว
+Check this to move the original file to a separate folder if the conversion fails.	ตรวจสอบนี้เพื่อย้ายแฟ้มต้นฉบับไปยังโฟลเดอร์แยกต่างหากถ้าการแปลงล้มเหลว
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	ตรวจสอบนี้เพื่อจำกัดจำนวนของตัวประมวลผลแบบลอจิคัลที่ MCEBuddycan use.\r\nEach กล่องกาเครื่องหมายด้านล่างสอดคล้องกับตัวประมวลผลแบบลอจิคัลที่ว่าง
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	แต่ละกล่องแสดงตรรกะโปรเซสเซอร์ 1 เพื่อ respectively.\r\nChecking 16 กล่องแบบ MCEBuddy จะใช้ตัวประมวลผลที่ได้
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	แต่ละกล่องแสดงตรรกะโปรเซสเซอร์จาก 17 การ respectively.\r\nChecking 32 กล่องแบบ MCEBuddy จะใช้ตัวประมวลผลที่ได้
+Select atleast one processor to use	เลือกอย่างน้อยหนึ่งตัวประมวลผลการใช้
+Invalid Configuration	ตั้งค่าคอนฟิกไม่ถูกต้อง
+Comskip path	เส้นทาง Comskip
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	ถ้าคุณต้องการใช้แบบ Comkip (เช่นรุ่นวัดป่าขันติธรรม 084.8252348) \r\nthen ป้อนพาธของ comskip ติดตั้ง here.\r\nLeave เปล่าใช้ comskip เริ่มต้นที่มาพร้อมกับ MCEBuddy
+Miscellaneous	เบ็ดเตล็ด
+Ignore copy protection	ละเว้นการป้องกันการคัดลอก
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	ตรวจสอบนี้เพื่อละเว้นสถานะป้องกันการคัดลอกแฟ้มวิดีโอในขณะที่ converting.\r\nNOTE: MCEBuddy ไม่สามารถหลีกเลี่ยงการเข้ารหัสลับ นี้ช่วยเฉพาะถ้าแฟ้มคือ incorrectly\r\ntagged เป็นสำเนาที่ได้รับการป้องกันเมื่อถูกเข้ารหัสไม่
+Use recycle bin	ใช้ถังรีไซเคิล
+Check this to use the recycle bin when files are deleted by MCEBuddy	ตรวจสอบการใช้ถังรีไซเคิลเมื่อแฟ้มถูกลบ โดย MCEBuddy
+Poll period	ระยะเวลาสำรวจ
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	บ่อย MCEBuddy สแกนงานตรวจสอบสถานที่เก็บสำหรับช่วง files.\r\nThe ใหม่ไว้ในวินาทีนั้น
+Server port	พอร์ตเซิร์ฟเวอร์
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	นี่คือพอร์ต TCP ที่ใช้ MCEBuddy เพื่อสื่อสารกับ engine.\r\nWhen ระยะไกลเปิดใช้งาน UPnP, MCEBuddy จะเพิ่มพอร์ตนี้ไปเกตเวย์ Windows Firewall\r\nand UPnP เพื่ออนุญาตการเข้าถึงจากอินเทอร์เน็ตบนพอร์ตนี้
+Hang period	วางรอบระยะเวลา
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	ป้อนจำนวนวินาทีที่ MCEBuddy จะรอคำตอบจากโปรแกรมประยุกต์ the\r\nunderlying ยุติก่อนกำหนดโปรแกรมประยุกต์ hung.\r\nEnter 0 เพื่อปิดใช้งานการตรวจหาหาง
+Subtitle commercial cut sync	พาณิชย์เรื่องตัดซิงค์
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	พารามิเตอร์นี้ถูกใช้เมื่อใช้ไปทุกทีตรงหลังจากแต่ละกลุ่มธุรกิจจะถูกเอาออกจากการตั้งค่า video.\r\nThis เพื่อนำคำบรรยายคำบรรยายกลับมาอยู่ในซิงค์กับเวลา video.\r\nEach วิดีโอเชิงพาณิชย์ที่ถูกตัดออก คำบรรยาย เวลาเปลี่ยนตามนี้ยอด (+ ve หรือ - ve วินาที)
+Invalid poll period	ระยะเวลาในการสำรวจความคิดเห็นที่ไม่ถูกต้อง
+Invalid server port	พอร์ตเซิร์ฟเวอร์ไม่ถูกต้อง
+eMail Subject Customization	อีเมล์หัวข้อกำหนดเอง
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	ใช้ส่วนนี้เพื่อกำหนดหัวเรื่องของอีเมล์ที่ส่ง โดย MCEBuddy บนแปลงเหตุการณ์ต่าง ๆ แสดง below.\r\nRefer เอกสาร คำสั่งที่กำหนดเองสำหรับผู้ใช้ที่กำหนด variables.\r\ne.g แสดงประสบความสำเร็จใช้งาน% taskname%\r\nNOTE % showname %สำหรับการแปลงแฟ้ม% originalfilename %: ไม่ข้อมูลจะใช้ใน commands.\r\nLeave เองเปล่าใช้บรรทัดหัวเรื่องเริ่มต้น
+Success	ประสบความสำเร็จ
+Failed	ล้มเหลว
+Cancelled	ยกเลิก
+Download fail	ดาวน์โหลดล้มเหลว
+Limit processor utilization	ใช้ตัวประมวลผลจำกัด
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	กาเครื่องหมาย นี้เพื่อจำกัดจำนวนของตัวประมวลผลแบบลอจิคัลที่ MCEBuddy สามารถ use.\r\nEach ข้างล่างตรงกับตัวประมวลผลแบบลอจิคัลที่ว่าง
+Custom profile	ส่วนกำหนดค่าแบบกำหนดเอง
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	ถ้าคุณมีแฟ้ม profiles.conf ที่กำหนดเองที่คุณต้องการใช้ the\r\none ที่มาพร้อมกับ MCEBuddy ป้อนพาธไปไฟล์ here.\r\n\r\nNOTE: MCEBuddy ตลอดเวลาปรับปรุง profiles.conf ให้ปัญหาแก้ไข ปรับปรุงประสิทธิภาพและ \r\nenhancements ที่คุณจะพลาด out\r\non ถ้าคุณใช้คุณลักษณะนี้
+Invalid custom profiles.conf	Profiles.conf ไม่ถูกต้องแบบกำหนดเอง
+Suspend on battery	หยุดชั่วคราวบนแบตเตอรี่
+Suspend conversions when the computer switches to battery power	ระงับแปลงเมื่อคอมพิวเตอร์สลับไปใช้พลังงานจากแบตเตอรี
+MCEBuddy added a video conversion to the queue	MCEBuddy เพิ่มการแปลงวิดีโอไปยังคิว
+Queue	คิว
+Refer to documentation on using custom commands in custom eMail subjects	อ้างอิงถึงเอกสารเกี่ยวกับการใช้คำสั่งกำหนดเองในหัวข้ออีเมล์ที่กำหนดเอง
+Could not copy information to Clipboard, please try again.	สามารถคัดลอกข้อมูลไปยังคลิปบอร์ด โปรดลองอีกครั้ง
+Error copying to Clipboard	ข้อผิดพลาดที่คัดลอกไปยังคลิปบอร์ด
+Copy to clipboard	คัดลอกลงคลิปบอร์ด
+Reconvert files	แปลงกลับไฟล์
+Are you sure you want to reconvert the selected files?	คุณแน่ใจคุณต้องการแปลงกลับแฟ้มที่เลือกหรือไม่
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	เลือกแฟ้มที่คุณต้อง การแปลงกลับแล้ว คลิ button.\r\nIf นี้แฟ้มต้นฉบับจะยังคงมีการตรวจสอบ โดย MCEBuddy จะถูกจัดคิวสำหรับแปลงกลับ
+Time taken to convert	เวลาที่ใช้ในการแปลง
+Network authentication	การรับรองความถูกต้องของเครือข่าย
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	คลิกปุ่มเพื่อป้อนเครือข่ายหุ้น credentials.\r\nThis รับรองความถูกต้องใช้เมื่อมีเพิ่มไฟล์ผ่านปุ่มเพิ่มใน window\r\nor หลักลาก และหลุดจากการแชร์เครือข่ายลงในกล่องสถานะแปลงบนหน้าต่างหลัก
+Skip reconversion	ข้ามการแปลงกลับ
+Do not reconvert the video if a converted file already exists in the destination directory.	แปลงกลับวิดีโอถ้าแฟ้มที่แปลงแล้วในไดเรกทอรีปลายทาง
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	ชื่อแฟ้มที่คาดไว้สำหรับการแปลงวิดีโอ (ไม่ในฉบับวิดีโอชื่อ) เปรียบเทียบกับชื่อแฟ้มใน directory.\r\nIf ปลายทางมีอยู่แฟ้มถูกแปลง ไฟล์จะไม่สามารถ reconverted และจะถือเป็น conversion.\r\nThis ประสบความสำเร็จมีประโยชน์ถ้าการบันทึกแสดง/ตอนเหมือนกันในหลายครั้ง และคุณต้องการแปลงกลับ them.\r\n\r\nNOTE: ตัวเลือกนี้จะถูกละเว้นสำหรับวิดีโอที่เพิ่มด้วยตนเองโดยใช้ปุ่มเพิ่ม หรือลาก และวาง
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	ถ้าเปิดใช้งาน ข้ามแปลงกลับจะตรวจสอบแฟ้มประวัติสำหรับ conversions.\r\nThe ผ่านมาคาดว่า ชื่อไฟล์สำหรับวิดีโอแปลง(ชื่อไม่เดิมวิดีโอแฟ้ม) เปรียบเทียบกับชื่อแฟ้มใน file.\r\nIf ประวัติที่จะ แปลงแฟ้ม (รวมถึงเส้นทาง) ตรงกับชื่อถูกแปลงแล้วแฟ้ม (รวมถึงเส้นทาง) ในแฟ้มประวัติใด ๆ แฟ้ม \r\nthe จะไม่สามารถ reconverted และจะถือว่าเป็น การแปลงที่ประสบความสำเร็จ
+Adding file to the iTunes library	การเพิ่มแฟ้มในไลบรารีของ iTunes
+Add to iTunes	เพิ่มลงใน iTunes
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	กาเครื่องหมายที่กล่องนี้เพื่อเพิ่มไฟล์ที่แปลง iTunes library.\r\nThis โดยอัตโนมัติทำงานร่วมกับ iTunes เท่านั้นสนับสนุนแฟ้ม (เช่น MP4, M4V, MP3 ฯลฯ)
+Adding file to the WMP library	เพิ่มแฟ้มในไลบรารี WMP
+Library Management	การจัดการห้องสมุด
+Add to Windows Media Player	เพิ่มโปรแกรมเล่นสื่อ Windows
+Check this box to automatically add the converted files to the WMP library.	เลือกกล่องนี้เพื่อเพิ่มไฟล์ที่แปลงใน WMP ไลบรารีโดยอัตโนมัติ
+Renaming and Sorting	เปลี่ยนชื่อและเรียงลำดับ
+Selection Filters	ตัวกรองการเลือก
+Audio and Video	เสียงและวิดีโอ
+Subtitles and Chapters	คำบรรยายและบท
+Skip copying original files	ข้ามการคัดลอกแฟ้มต้นฉบับ
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	ตรวจสอบนี้กล่องที่ของคุณเอง RISK.\r\nDO ไม่ตรวจสอบนี้กล่องยกเว้นว่าคุณทราบว่าสิ่งที่คุณกำลัง DOING.\r\nCheck กล่องนี้จะข้ามการทำสำเนาสำรองของแฟ้มต้นฉบับ (คัดลอก) ในขณะที่แปลง
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	ตรวจสอบนี้กล่องที่ของคุณเอง RISK.\r\nDO นี้กล่องกาเครื่องหมายยกเว้นว่าคุณทราบว่าสิ่งที่คุณจะเลือกกล่องนี้เพื่อข้ามการทำสำเนาสำรองของแฟ้มต้นฉบับ (คัดลอก) ในขณะที่ converting.\r\nIf นี้แล้ว จะไม่เก็บแฟ้มต้นฉบับในกรณี error.\r\nIt DOING.\r\nCheck สามารถยังได้นำการแปลงล้มเหลวหรือปัญหาอื่น ๆ แปลงที่ไม่คาดฝัน
+Are you sure you want to do this?	คุณต้องการทำเช่นนี้แน่ใจหรือไม่
+Media Information Management	การจัดการข้อมูลสื่อ
+Force show type	กำลังแสดงชนิด
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	เซ็ตนี้บังคับรักษาวิดีโอบันทึกเป็นภาพยนตร์ หรือโทรทัศน์ Series.\r\nThis จะเปลี่ยนวิธีการเพิ่มเติมข้อมูล (metadata) เกี่ยวกับการบันทึกจะถูกดาวน์โหลดจาก internet.\r\nMovie การรักษา -รักษาบันทึกเป็น movie\r\nSeries - รักษาบันทึกเป็น TV Series\r\nSports - บันทึกเป็นการกีฬา show\r\nDefault - ใช้ข้อมูลเริ่มต้นที่ใช้บันทึกข้อมูลเมตาการกำหนดภาพยนตร์หรือสารคดี
+Show type	แสดงชนิด
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	เลือกตัวเลือกนี้เพื่อกรองชนิดของบันทึกที่ถูก converted.\r\n\r\nMovies - เลือกตัวเลือกนี้เพื่อแปลงถ้าดูชนิด Movie.\r\nShows - เลือกตัวเลือกนี้เพื่อแปลงถ้าชนิดดูไม่ Movie.\r\nSports การ - เลือกตัวเลือกนี้เพื่อแปลงถ้าดูชนิด Sports.\r\n\r\nNOTE: แสดงชนิดคืออ่านจาก metadata.\r\nOnly บันทึกสนับสนุนบางบันทึกแสดงชนิดข้อมูลเมตาเช่น WTV and\r\nrecordings ด้วยการสนับสนุนข้อมูลเมตาไฟล์(XML/ARG เป็นต้น)
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	กล่องนี้แสดงแฟ้มทั้งหมดในคิวสำหรับ conversion.\r\nDrag และวางแฟ้มที่นี่หรือกดปุ่ม Add เพื่อเพิ่มแฟ้มลงในคิวแปลง
+Conversion	แปลง
+Files	แฟ้ม
+Click this button to open or close the Advanced Settings section	คลิกปุ่มนี้เพื่อเปิด หรือปิดส่วนการตั้งค่าขั้นสูง
+Running custom commands	เรียกใช้คำสั่งแบบกำหนดเอง
+Trimming video recording	บันทึกวิดีโอตัดแต่ง
+Insert at top of queue	แทรกที่ด้านบนของคิว
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	โดยค่าเริ่มต้น แปลงใหม่ถูกเพิ่มเข้าไปก้น (ตอนจบ) queue.\r\nIf แปลงนี้เลือกกล่อง แปลงใหม่ใด ๆ ที่เพิ่ม โดยงานนี้จะเพิ่มเป็น the\r\nbeginning (บน) คิวแปลง
+Add subtitles and chapters	เพิ่มคำบรรยายและบท
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	เปิดใช้งานตัวเลือกนี้เพื่อเพิ่มคำบรรยายใด ๆ แยก และสิ้นค้าทำเครื่องหมายบทบท video.\r\nEach แปลงไป นี้ทำงานเฉพาะกับรูปแบบที่สนับสนุน (เช่น MKV, MP4).\r\n\r\nNOTE: เครื่องเล่นและทีวีรุ่นเก่าบางอย่างไม่สนับสนุนคำบรรยายที่ฝังตัว และ chapters.\r\nIf คุณไม่สามารถเล่นวิดีโอแปลงของ ลองปิดตัวเลือกนี้
+Select best soundtrack	เลือกเพลงที่ดีที่สุด
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	ถ้าภาพวิดีโอต้นฉบับหลาย soundtracks, MCEBuddy บอกตัวเลือกนี้เลือก soundtrack.\r\nIf หลัก และความเหมาะสมมากที่สุดก็เพลงภาษา ให้แน่ใจว่า คุณป้อนชื่อภาษา หรือรหัสใน box.\r\nCheck เสียงภาษากล่องนี้ถ้าคุณกำลังฟังกล่องนี้เพลงไม่ถูกต้องใน file.\r\n\r\nUncheck ของคุณแปลงคุณ MCEBuddy รักษา soundtracks ทั้งหมดจากวิดีโอต้นฉบับในแฟ้มแปลงแล้วเมื่อไป \r\nNOTE: ส่วนกำหนดค่าบางอย่างไม่สนับสนุน soundtracks หลาย ซึ่ง การตั้งค่านี้ไม่มีผล
+Enable remote access	เปิดใช้งานการเข้าถึงระยะไกล
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	นี้สร้างข้อยกเว้นใน windows firewall สำหรับ MCEBuddy และ port.\r\nThis ที่จำเป็นถ้าคุณเปิดใช้ windows firewall และต้องการใช้ UPnP การเข้าถึงระยะไกล client\r\nor เครื่องยนต์ที่ใช้เป็น address.\r\n\r\nNOTE IP: ถ้าคุณมีไฟร์วอลล์ที่กำหนดเอง นี้อาจไม่ทำงาน คุณจะต้องสร้าง an\r\nexception สำหรับบริการ MCEBuddy และท่าเรือด้วยตนเอง
+Unable to communicate with engine. Firewall exception settings have not been updated.	ไม่สามารถสื่อสารกับเครื่องยนต์ การตั้งค่าข้อยกเว้นของไฟร์วอลล์ไม่ได้รับการปรับปรุง
+Detect and optimize video quality	ตรวจสอบ และปรับปรุงคุณภาพของวิดีโอ
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	เมื่อเปิดใช้งาน MCEBuddy จะปรับปรุงตัวเลือกการประมวลผลวิดีโอ โดยพยายามตรวจหา type.\r\nThis แหล่งวิดีโอสามารถปรับปรุงคุณภาพของวิดีโอที่แปลงมากถ้าถูก detected.\r\n\r\nNOTE: มันไม่นี้ โดยการพยายามตรวจหาชนิดแหล่งที่มาวิดีโอ (กราฟิก โปรเกรสซีหรือ telecine).\r\nIf สามารถตรวจหาชนิดของวิดีโอต้นฉบับมันจะแทนพารามิเตอร์ที่สอดคล้องกันใน profile.\r\nTurn นี้ตัวเลือกปิดถ้าคุณกำลังเผชิญกับปัญหาคุณภาพของวิดีโอแปลง หรือต้องการใช้การกำหนดค่าพารามิเตอร์
+Are you sure you want to delete this task?	คุณต้องการลบงานนี้แน่ใจหรือไม่
+Delete Task	ลบงาน
+Enter the new task name	ใส่ชื่องานใหม่
+Rename Task	เปลี่ยนชื่องาน
+MCEBuddy PAUSED	MCEBuddy หยุดชั่วคราว
+idle	ไม่ได้ใช้งาน
+PAUSED	หยุดชั่วคราว
+Frame rate	อัตราเฟรม
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	เปิดใช้งานการตั้ง framerate เอง (FPS) สำหรับ video.\r\nYou แปลงอาจต้องตั้งค่านี้ในขณะที่แปลงรูปแบบวิดีโอ (เช่น PAL กับ NTSC) \r\nor สำหรับอุปกรณ์ซึ่งสนับสนุนเฉพาะเท่านั้น framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001
+Skip remuxing files	ข้ามแฟ้ม remuxing
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	ตรวจสอบนี้กล่องที่ของคุณเอง RISK.\r\nDO กาเครื่องหมายที่กล่องนี้ถ้าคุณรู้สิ่งที่คุณมีบางฟังก์ชันเช่นคำบรรยายแยกหรือ comskip, DOING.\r\nCheck กล่องนี้เพื่อข้าม remuxing แฟ้มต้นฉบับไปยังแฟ้ม TS ขณะ converting.\r\nIf นี้มีการตรวจสอบอาจไม่ work.\r\nIt สามารถยังได้นำการแปลงล้มเหลวหรือปัญหาอื่น ๆ แปลงที่ไม่คาดฝัน
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	ตรวจสอบนี้กล่องที่ของคุณเอง RISK.\r\nDO ไม่ตรวจสอบนี้กล่องยกเว้นว่าคุณทราบว่าสิ่งที่คุณกำลัง DOING.\r\nCheck กล่องนี้เพื่อข้าม remuxing แฟ้มต้นฉบับไปยังแฟ้ม TS ในขณะที่แปลง
+Monitor converted videos	ตรวจสอบวิดีโอแปลง
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	โดยค่าเริ่มต้น ตำแหน่งจอจะละเว้นแฟ้มที่มีอยู่แล้ว converted.\r\nCheck กล่องนี้ถ้าคุณต้องการตรวจสอบแฟ้มที่แปลงแล้วใน Path.\r\nCAUTION ตรวจสอบ: การวนการแปลงไม่แปลงแฟ้มถ้า ไม่กำหนดค่า properly.\r\n\r\nThis จะมีประโยชน์เมื่อคุณระบุไดเรกทอรีผลลัพธ์ของ task\r\n แปลง (แปลงไฟล์) เป็นเส้นทางตรวจสอบสถานที่การตรวจสอบ และเชื่อมโยง the\r\nMonitor ตำแหน่งงานแปลงอื่น
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	ตรวจสอบนี้กล่องที่ของคุณเอง RISK.\r\nDO ไม่ตรวจสอบนี้กล่องยกเว้นว่าคุณทราบว่าสิ่งที่คุณกำลัง DOING.\r\nBy เริ่มต้นตรวจสอบตำแหน่งจะละเว้นแฟ้มที่มีอยู่แล้ว converted.\r\nCheck กล่องนี้ถ้าคุณต้องการตรวจสอบแปลงแฟ้มในเส้นทางจอภาพ
+Hardware encoding	การเข้ารหัสฮาร์ดแวร์
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	ตรวจสอบกล่องนี้ใช้ฮาร์ดแวร์ที่เข้ารหัสเมื่อมีการแปลง videos.\r\nThis สามารถเร่งความเร็วการแปลงอย่างมีนัยสำคัญ และลด utilization\r\nbut CPU นั้นสามารถส่งผล videos.\r\n\r\nUncheck คุณภาพต่ำเล็กน้อยกล่องนี้ถ้าคุณกำลังเผชิญปัญหาคุณภาพหรือแปลง
+Do not overwrite files	ไม่บันทึกทับไฟล์
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	เมื่อมีเลือกกล่องนี้ แฟ้มปลายทางจะไม่ถูกเขียนทับถ้ามันแล้ว exists.\r\nInstead แฟ้มใหม่จะถูกสร้างขึ้น ด้วยหมายเลขเฉพาะที่เพิ่มลงในส่วนท้ายของชื่อแฟ้ม
+Re-monitor recorded videos	การตรวจสอบบันทึกวิดีโอ
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	โดยค่าเริ่มต้น เมื่อมีการแปลงแฟ้มต้นฉบับ (บันทึกวีดีโอ) \r\nthe ตรวจสอบประวัติจะติดตามชื่อและคิวไม่ again.\r\n\r\nEnable แฟ้มเดียวกันตัวเลือกนี้เพื่อละเว้นประวัติ และตรวจสอบแฟ้มทั้งหมด และเพิ่มลงในคิวแปลง to\r\nthe แม้ว่าพวกเขามีอยู่แล้ว converted.\r\n\r\nThis จะมีประโยชน์บางครั้งถ้าซอฟต์แวร์การบันทึกสร้างชื่อแฟ้ม a\r\nunique สำหรับแต่ละที่ตอนดู Reccomended ใช้ the\r\nDelete เลือกไฟล์ต้นฉบับในหน้าการตั้งค่าเมื่อใช้ตัวเลือกนี้เพื่อ avoid\r\nan แปลงอนันต์วนได้
+Recommendation	คำแนะนำ
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	เพื่อหลีกเลี่ยงการวนแปลงอนันต์ แนะนำการตั้งค่ารูปแบบค้นหาของคุณตรวจสอบในลักษณะเช่นเพื่อให้แน่ใจว่า ไฟล์ที่แปลงจะไม่ถูกตรวจสอบ โดยงานนี้ตรวจสอบ
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	เริ่มต้น RISK.\r\nDO ไม่ตรวจสอบนี้กล่องยกเว้นว่าคุณทราบว่าสิ่งที่คุณกำลัง DOING.\r\nBy ตรวจสอบนี้กล่องที่ของคุณเองที่ตั้งจอจะไม่ remonitor บันทึกวิดีโอที่มี processed.\r\nCheck กล่องนี้ถ้าคุณต้องการ remonitor และแปลงกลับวิดีโอบันทึกไว้
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	เพื่อหลีกเลี่ยงการวนแปลงอนันต์ มันจะแนะนำให้ คุณเปิดใช้งานลบต้นฉบับแฟ้มตัวเลือกในหน้าการตั้งค่า
+Prioritize air date matching	สำคัญตรงกับวันอากาศ
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy ใช้ชื่อตอนให้ตรงกับ information\r\nwhile ชุดค้นหาอินเทอร์เน็ต ถ้าไม่ แล้วจะใช้วัน broadcast\r\nair ต้นฉบับให้ตรงกับ metadata.\r\n\r\nCheck กล่องนี้จะใช้วันอากาศออกอากาศฉบับแรกแล้ว ชื่อ the\r\nepisode เพื่อให้ตรงกับข้อมูลชุดจาก internet.\r\nThis จะเป็นประโยชน์ในบางกรณีเมื่อหลายซีซั่นมีชื่อ same\r\nepisode เช่น Americal ไอดอล Audition 1\r\n\r\nNOTE: เดิมอากาศออกอากาศวันมักจะไม่ตั้งค่าอย่างถูกต้อง โดย the\r\nbroadcaster และบางครั้งข้อมูลบนอินเทอร์เน็ตเป็นการ incorrect.\r\nUse ตัวเลือกเท่านั้นถ้าไม่มีการทำงานตัวเลือกเริ่มต้นสำหรับคุณ
+Skip eMail body	ข้ามเนื้อหาอีเมล์
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	ตรวจสอบตัวเลือกนี้จะใช้ร่างกายว่างเปล่าใน eMail.\r\nThis แจ้งให้ทราบจะเป็นประโยชน์ถ้าคุณกำลังใช้เกตเวย์ SMS แจ้งเตือนอีเมล์
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	เลือกใช้ในดิจิทัลสิทธิ์จัดการ (DRM) คือ available\r\nonly เมื่อเปลี่ยนชื่อโดยไม่ต้องแปลง (เปลี่ยนชื่อ และย้ายเท่านั้น) ตัวเลือกเป็น selected.\r\n\r\nAll -เลือกแฟ้มทั้งหมดสำหรับการประมวลผล ไม่ป้องกันการคัดลอก status\r\nProtected - เดียวเลือกแฟ้มที่จะคัดลอก protected\r\nUnprotected - เลือกเฉพาะ แฟ้มที่มีการป้องกันการคัดลอก
+Download cover art	ดาวน์โหลดปก
+Enable this to download the cover art from the original video and internet if available.	เปิดให้ดาวน์โหลดภาพหน้าปกจากวิดีโอต้นฉบับและอินเทอร์เน็ตถ้ามี
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	คุณต้องป้อนชื่อโดเมนหรือไม่ \r\n\r\nUse นี้เท่านั้นถ้าคุณใช้ตัวควบคุมโดเมน Windows จัดการ authentication.\r\nDo ของคุณไม่ได้ใช้นี้ถ้าคุณเป็นส่วนหนึ่งของ Workgroup.\r\n\r\nIf คุณจะคลิกแน่หมายเลข
+Configuration Warning	คำเตือนการกำหนดค่า
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	สร้างโฟลเดอร์ที่เรียกว่า 'MCEBuddyArchive' แฟ้มต้นฉบับ located\r\nand ย้ายแฟ้มเดิมในไดเรกทอรีนี้หลังจากเปลี่ยนชื่อโฟลเดอร์ conversion.\r\n\r\nThis ประสบความสำเร็จและตำแหน่งด้านล่าง
+Monitoring	การตรวจสอบ
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	ถ้าคุณต้องการแปลงไฟล์รอบบท ให้แน่ใจว่า คุณตรวจสอบตัวเลือก 'เพิ่มคำบรรยายและบท' ในการตั้งค่าผู้เชี่ยวชาญ
+EDL to Chapters	รอบกับบท

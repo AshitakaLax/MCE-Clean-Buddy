@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	مسيبودي لا يستخدم المستخدم تم تسجيل دخوله حاليا للاتصال بمشاركات شبكة الاتصال, فإنه يستخدم حساب الخدمة الخاص به.  تأكد من تحديد معلومات الاتصال المستخدم (مسيبودي مع رمز مفتاح)
+Connection Reminder	تذكير الاتصال
+Description	وصف
+Path	مسار
+is invalid	غير صحيح
+Invalid Path	مسار غير صالح
+Please supply a task name	يرجى ذكر اسم مهمة
+No name supplied	لا يوجد اسم الموفر
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	الرجاء إدخال رمز لغة الرقم 3 للمسار الصوتي أو حدد <Default>أو <Original>
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	الرقم 3 رمز ISO ل language\r\nMake المحدد بالتأكيد وهذا يطابق رمز اللغة لمسار الصوت في الحصول على recording.\r\nTo الأصلي رمز اللغة للمسارات الصوتية في ملف مسجل الأصلي، إضافة file\r\nto قائمة الانتظار والحق انقر فوقه. ألف المنبثقة النافذة سوف تفتح تظهر الصوت details\r\nwhich تضمين رموز اللغة لكل مسار الصوت.
+Invalid Language Code	رمز اللغة غير صالح
+No destination directory provided, converted file will be placed in original video directory	قدمت لا دليل الوجهة، سيتم وضع الملفات المحولة في دليل الفيديو الأصلي
+A task name or section	اسم المهمة أو قسم
+already exists\n\rPlease use another name	exists\n\rPlease بالفعل استخدام اسم آخر
+Duplicate Name	اسم مكرر
+Engine	مشغل
+Tasks	المهام
+Profile	التشكيل الجانبي
+disposing	التخلص منها
+Task name	اسم المهمة
+Give a unique name to this task	إعطاء اسم فريد لهذه المهمة
+Gives a short description for the selection conversion profile	يعطي وصفاً موجزاً للتشكيل الجانبي تحويل التحديد
+Click to select destination folder	انقر لتحديد المجلد الوجهة
+Destination	الوجهة
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	حدد الدليل حيث سيتم تحويل الملف placed.\r\nLeave هذا فارغاً للاحتفاظ الملف الذي تم تحويله في نفس الدليل كالاصلي الفيديو.
+Max width	عرض ماكس
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	وهذا سيحد من العرض الأقصى (بالبكسل) للفيديو لتحويل file.\r\nTIP: لا ينطبق إذا كان الملف الأصلي بعرض أصغر من هذا number.\r\nIf تريد أن تبقى الخطوة دقة الفيديو الأصلي الخاص بك مربع التمرير طوال الطريق إلى اليمين.
+Quality	نوعية
+Ad remover	مزيل الإعلانية
+None	لا شيء
+Get series details from Internet	للحصول على تفاصيل سلسلة من الإنترنت
+Download additional details about the movie or series from the internet	تحميل تفاصيل إضافية حول الفيلم أو سلسلة من الإنترنت
+File name match	تطابق اسم الملف
+Recording title match	تسجيل عنوان المباراة
+Cancel	إلغاء الأمر
+OK	موافق
+Rename without converting	إعادة تسمية بدون تحويل
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	تحقق من تحديد هذا الخيار فقط إعادة تسمية، ونسخ الملفات الأصلية إلى folder.\r\nWhen الوجهة، التحويل، والتشذيب ومعالجة الصوت/الفيديو وإزالة التجاري لن يكون available.\r\n\r\nNOTE: وظائف أخرى مثل مطابقة المرشحات، استخراج ترجمات، حفظ بيانات التعريف والكشف التجاري (حفظ ملف مؤسسة كهرباء لبنان) \r\nwill لا يزال تكون متوفرة مع هذا checked.\r\nIf الخيار الذي تريد نقل بدلاً من النسخ، تحقق من تخطي نسخ الخيار الأصلي في "إعدادات الخبراء" على هذه الصفحة أو select\r\nDelete الملف الأصلي في صفحة الإعدادات الرئيسية.
+Rename and sort by video information	إعادة تسمية ثم الفرز حسب معلومات الفيديو
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	إعادة تسمية الملف الذي تم تحويله ووضعه في دليل جديد استناداً إلى المعلومات سلسلة وثائق تظهر عند available\r\n (مثل ShowName\\ShowName-SXXEYY-ابيسودينامي-ريكورداتي)
+Enter the username and password to access folders that are on a network drive or a different computer	قم بإدخال اسم المستخدم وكلمة المرور للوصول إلى المجلدات الموجودة على محرك أقراص شبكة أو كمبيوتر آخر
+Organize by seasons	تنظيم حسب المواسم
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	تنظيم المجلدات عن طريق شوونامي والموسم عندما المتاحة (Media Center/XBMC/من نوع Plex متوافق مع اصطلاح التسمية) \r\n (مثل "اسم" الحلقة XX\\SXXEYY Showname\\Season)
+Audio language	لغة الصوت بالفيديو
+Advanced Settings	إعدادات متقدمة
+General Settings	الإعدادات العامة
+Conversion Task	مهمة تحويل
+Password	كلمة المرور
+Confirm Password	تأكيد كلمة المرور
+Domain / computer name	المجال/اسم الكمبيوتر
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	عدم إدخال Enter <Optional>إذا كان يستخدم محرك الأقراص البعيد على الكمبيوتر أو شبكة الاتصال مجال ل authentication.\r\nDo مجموعة العمل الخاصة بك هنا. ترك هذا المربع فارغاً إذا كنت تستخدم مجموعة عمل.
+User name	اسم المستخدم
+Enter the username to access the remote computer or network drive	أدخل اسم المستخدم الوصول إلى محرك الأقراص الكمبيوتر أو شبكة الاتصال البعيدة
+Enter the password to access the remote computer or network drive	أدخل كلمة مرور للوصول إلى محرك الأقراص الكمبيوتر أو شبكة الاتصال البعيدة
+Network Connection User Credentials	أوراق اعتماد شبكة اتصال المستخدم
+Password Mismatch	عدم تطابق كلمة المرور
+Passwords do not match, please reenter the passwords	لا تتطابق كلمات المرور، الرجاء إعادة إدخال كلمات المرور
+Hour	ساعة
+Minute	دقيقة
+Wake	تنبيه
+Start	بدء تشغيل
+Resume	السيرة الذاتية
+Pause	إيقاف مؤقت
+Stop	إيقاف
+Language	لغة
+Pause conversion tasks	وقفه التحويل المهام
+Resume conversion tasks	استئناف مهام التحويل
+Please enter a valid time	الرجاء إدخال وقت صحيح
+Invalid Time	الوقت غير صالح
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	وقت الإيقاف بعد وقت البدء. على افتراض وقت الإيقاف خلال اليوم التالي، هل هذا صحيح؟
+Time Check	وقت الاختيار
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	حدد هذا الخيار فقط إذا كان مسيبودي وقد تم تحويل الملفات الخاصة بك أدلة موثوق بها لفترة زمنية مقبولة. هل تريد مسيبودي لحذف كل ملف الأصلي بعد أن تم تحويله؟
+Confirm delete originals?	تأكيد حذف النسخ الأصلية؟
+MCEBuddy will monitor these directories for video files to convert automatically	وسترصد مسيبودي هذه الدلائل لملفات الفيديو لتحويل تلقائياً
+Conversion tasks	تحويل المهام
+Delete original file	قم بحذف الملف الأصلي
+Deletes the original recording after a successful conversion	حذف التسجيل الأصلي بعد تحويل الناجحة
+Min age before conversion (hours)	العمر دقيقة قبل التحويل (ساعات)
+Minimum hours to wait before converting each file after the file is added to the queue	الحد الأدنى من ساعات الانتظار قبل تحويل كل ملف بعد يتم إضافة الملف إلى قائمة الانتظار
+Use this to change the language of the text on the screen	استخدم هذا لتغيير لغة النص على الشاشة
+Concurrent conversions	التحويلات المتزامنة
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	عدد التحويلات الفورية مسيبودي يمكن start\r\nNOTE: تحتاج إلى كميات كبيرة من وقت القرص الحرة الفضائية والمعالج للتحويلات المتزامنة أكثر من 2
+Logging level	مستوى تسجيل الدخول
+Error	خطأ
+Warning	تحذير
+Information	معلومات
+Debug	التصحيح
+Log conversion jobs	سجل تحويل الوظائف
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	حفظ ملف سجل لكل تحويل في \'logs\ ' الدليل حيث فيها هو مسيبودي installed\r\n (مثل C:\\Program Files\\MCEBuddy2x\\logs)
+Allow sleep	السماح للنوم
+If unchecked, it prevents the system from entering sleep while converting	لم يتم كبحها، يمنع النظام من دخول النوم أثناء تحويل
+Stop at	تتوقف عند
+No new conversions would be started after this time	أن بدأت لا تحويلات جديدة بعد هذا الوقت
+minute	دقيقة
+hour	ساعة
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	إذا راجعت مسيبودي سيتم تنبيه النظام من sleep\r\nat وقت البدء المحدد وتمكين أيام الأسبوع.
+Start at	تبدأ في الساعة
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	مسيبودي سوف تبدأ تحويلات جديدة بين البدء ووقف time.\r\n\r\nThe ابدأ الوقت ستستخدم لتمكين أيام الأسبوع، whereas\r\nthe نهاية الوقت سوف يكون استخدامها أما ل or\r\nfor يوم نفس في اليوم التالي إذا كان الوقت نهاية بعد وقت البدء.
+Delete	حذف
+Add	إضافة
+Change	التغيير
+Archive original file	أرشيف الملف الأصلي
+Domain name	اسم المجال
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	توقف عن مهام مراقبة والتحويل وفتح صفحة لتكوين مسيبودي
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	يقوم بإنشاء مجلد يسمى \'MCEBuddyArchive\ 'حيث الملف الأصلي located\r\nand تحريك الملف الأصلي في هذا الدليل بعد تغيير اسم المجلد conversion.\r\n\r\nThis ناجحة ومكان في الصفحة"إعدادات النظام".
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	تصحيح-سجلات مفصلة، يساعد على تتبع التحويل problems\r\nInformation-سجلات المعلومات الأساسية حول conversion\r\nWarning-سجل القضايا المحتملة أو الإخفاقات الحرجة only\r\nError-سجل الإخفاقات الحرجة فقط
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	حدد التشكيل الجانبي التحويل المرتبطة بهذه المهمة. ويمثل التشكيل الجانبي لتحويل تنسيق الإخراج ونوعية لجودة file.\r\nHigher المحولة تحويلات يستغرق وقتاً أطول لتحويل. ريككومينديد الافتراضية: MP4 عالي الجودة أو MP4 Normal.\r\n\r\nTIP: ارجع إلى دليل مسيبودي للمعلمات المتقدمة لقرص التشكيلات الجانبية للتحويل أو لإنشاء التشكيلات الجانبية الخاصة بك لتحويل
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	حدد البرنامج سوف يستخدم مسيبودي علامات خارج أي الإعلانات التجارية أثناء تحويل video.\r\nSet إلى 'بلا' إجازة الإعلانات التجارية في video.\r\n\r\nTIP المحولة: إلى استخدام شوواناليزير بدلاً من كومسكيب، يرجى تحميل وتثبيت محلل ShowAnalyzer.\r\nShow الإصدار 1.0 وزيادة الدعم.
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	المستخدمة لتغيير نوعية الفيديو الملف المحول، العادي ارتفاع عدد 1.\r\nA يؤدي إلى تحسين نوعية ولكن سوف تستغرق وقتاً طويلاً لعدد أصغر conversion.\r\nA سوف يقلل من الجودة لكن الإسراع بالتحويل.
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	أدخل نمط تتطابق مع أسماء الملفات لهذه المهمة (مثلاً *.wtv سيتم تحويل جميع الملفات التي تنتهي بنمط.wtv)\r\nPrefix مع ~ تخطي المباراة (مثل *. *؛ ~*.wtv سيقوم بمعالجة كافة الملفات باستثناء تلك التي تنتهي ب.wtv)\r\nSeparate أنماط متعددة مع؛ (على سبيل المثال *.wtv؛ ncis *؛ ~ ncis ميامي *) سيقوم بمعالجة كافة ملفات.wtv وكافة الملفات التي تبدأ مع ncis ولكن ليست تلك التي بدأت مع ncis miami\r\n\r\nYou استخدام تعبيرات عادية لمطابقة النقش بالبدء باستخدام التعابير المنطقية:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	أدخل نمط لمطابقة سلسلة وثائق تظهر العناوين لهذه المهمة (مثل سمبسون * سيتم تحويل كافة الملفات التي لها عنوان معرض بدءاً من سيمبسون) نمط \r\nPrefix مع ~ تخطي المباراة (مثلاً *؛ ~ سيمبسون * سوف عملية العناوين إظهار كافة ما عدا تلك التي تبدأ مع سيمبسون) \r\nSeparate أنماط متعددة مع؛ (مثل سمبسون *؛House*) أو (مثل سمبسون *؛NCIS*؛ ~ NCIS ميامي *) \r\n\r\nYou يمكن استخدام تعبيرات عادية لمطابقة النقش بالبدء باستخدام التعابير المنطقية:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	وهذا يمكن استخدامها لتجاوز الإعداد الافتراضي "لغة الصوت" عندما يكون هناك لغات متعددة الصوت في recording.\r\nTo الحصول على قائمة "اللغات الصوتية" في تسجيل، حق انقر على الملف في قائمة انتظار وحدد MediaInfo.\r\n\r\n <Default>سيحاول إبقاء جميع المسارات الصوتية إذا كان يؤيد أو السماح للتشفير اختر track\r\n الصوت الافتراضي <Original>، إذا كانت متوفرة، سيتم استخدام اللغة [غير يطلق عليها اسم] التسجيل الأصلي
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	أدخل '[الفيديو]' أو اترك المساحة فارغة لتحويل جميع الفيديو files\r\nEnter نمط بحيث تتطابق مع أسماء الملفات لهذا الموقع (مثلاً *.wtv سيتم تحويل جميع الملفات التي تنتهي بنمط.wtv)\r\nprefix مع~ لتخطي المباراة (مثل *. *؛~*.wtv سيقوم بمعالجة كافة الملفات باستثناء تلك التي تنتهي ب.wtv)\r\nseparate أنماط متعددة مع؛ (على سبيل المثال *.wtv؛ ncis *؛~ ميامي ncis *) سيقوم بمعالجة كافة ملفات.wtv وجميع الملفات بدءاً من ncis ولكن ليست تلك التي بدأت مع ميامي ncis
+MCEBuddy Settings	إعدادات مسيبودي
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	مسيبودي لا يستخدم المستخدم تم تسجيل دخوله حاليا للاتصال بمشاركات شبكة الاتصال, فإنه يستخدم حساب الخدمة الخاص به.  تأكد من تحديد معلومات الاتصال المستخدم [مسيبودي مع رمز مفتاح]
+Please supply a source name	يرجى ذكر اسم المصدر
+Please supply a search path name	يرجى ذكر اسم مسار البحث
+A source name or section	اسم المصدر أو قسم
+already exists. Please use another name	يوجد بالفعل. الرجاء استخدام اسم آخر
+Monitor name	اسم العرض
+Give this a location a unique name	يعطي هذا موقع اسم فريد
+Monitor path	رصد مسار
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	حدد الدليل الذي سيتم رصد مسيبودي في الخلفية لملفات الفيديو الجديدة لتحويل تلقائياً
+Click to select the folder to monitor	انقر لتحديد المجلد الذي تريد رصد
+Search pattern	نمط البحث
+SourceForm	سورسيفورم
+Monitor Location	موقع مراقبة
+Normal	عادي
+MCEBuddy GUI: pipeProxy engine connection error	مسيبودي واجهة المستخدم الرسومية: خطأ في الاتصال بمشغل بيبيبروكسي
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	مسيبودي واجهة المستخدم الرسومية: غير قادر على إنشاء أنبوب لخدمة مسيبودي
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	مسيبودي الخدمة غير متوفرة. الرجاء بدء تشغيل من "لوحة تحكم Windows"، أو تحقق من اتصال محرك.
+Announcement	إعلان
+New version 	الإصدار الجديد 
+available	المتاحة
+New BETA version 	النسخة التجريبية الجديدة 
+Click here to download new version of MCEBuddy	انقر هنا لتحميل نسخة جديدة من مسيبودي
+Click here to open link	انقر هنا لفتح الرابط
+Idle	خامل
+Closing	إغلاق
+MCEBuddy GUI: Unable to update tasks	مسيبودي واجهة المستخدم الرسومية: غير قادر على تحديث المهام
+MCEBuddy GUI: Unable to start MCEBuddy service	مسيبودي واجهة المستخدم الرسومية: غير قادر على بدء تشغيل خدمة مسيبودي
+MCEBuddy GUI: Unable to stop MCEBuddy service	مسيبودي واجهة المستخدم الرسومية: غير قادر على إيقاف خدمة مسيبودي
+MCEBuddy GUI: Unable to cancel job	مسيبودي واجهة المستخدم الرسومية: غير قادر على إلغاء مهمة
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	تحذير: الملفات ضمن شبكة اتصال سيتم الوصول إليها باستخدام بيانات اعتماد تسجيل الدخول لخدمة مسيبودي، لا المستخدم دخوله حاليا. يمكنك يدوياً تحديد بيانات اعتماد الشبكة من الإعدادات-> صفحة "إعدادات الخبير" في مسيبودي.
+Credential Warning	تحذير الاعتماد
+Status	مركز
+MCEBuddy GUI: Unable to add job	مسيبودي واجهة المستخدم الرسومية: غير قادر على إضافة مهمة
+MCEBuddy GUI: Unable to get pipe active status	مسيبودي واجهة المستخدم الرسومية: غير قادر على الحصول على حالة توجيه الإخراج النشطة
+The conversions must be stopped to change settings. Stop the conversions?	يجب أن توقف التحويلات تغيير الإعدادات. وقف التحويلات؟
+Stop Engine	إيقاف المحرك
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	مسيبودي واجهة المستخدم الرسومية: غير قادر على إيقاف خدمة مسيبودي من انقر فوق إعدادات
+MCEBuddy GUI: Unable to rescan files	مسيبودي واجهة المستخدم الرسومية: غير قادر على إعادة تفحص الملفات
+MCEBuddy GUI: Unable to open link	مسيبودي واجهة المستخدم الرسومية: غير قادر على فتح الارتباط
+Close	قم بإغلاق
+Close this window, MCEBuddy will keep running in the background	إغلاق هذا الإطار، مسيبودي وسوف يبقى التشغيل في الخلفية
+If you like MCEBuddy, please click here to Donate - THANKS	إذا كنت تحب مسيبودي، الرجاء النقر هنا للتبرع-بفضل
+Click here to like MCEBuddy on facebook	انقر هنا لمثل مسيبودي على ألفيس بوك
+Click here to open MCEBuddy website	انقر هنا لفتح الموقع مسيبودي
+Rescan	إعادة تفحص
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	القوات مسيبودي إلى إعادة فحص مواقع مراقبة ملفات فيديو جديدة لتحويل
+Monitor locations	رصد مواقع
+Settings	إعدادات
+Select the file(s) in the queue to delete	حدد الملفات في قائمة الانتظار لحذف
+Manually add video file(s) to the queue to convert	يدوياً إضافة ملفات الفيديو إلى قائمة الانتظار لتحويل
+Start the MCEBuddy monitor and conversion tasks	بدء تشغيل مهام مراقبة وتحويل مسيبودي
+Stop the MCEBuddy monitor and conversion tasks	إيقاف مهام مراقبة وتحويل مسيبودي
+There is a new version!	وهناك نسخة جديدة!
+High	ارتفاع
+Low	منخفضة
+Priority	الأولوية
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	أولوية عالية-تحويل أسرع ولكن قد جعل التطبيقات قيد التشغيل الأخرى ذات الأولوية unresponsive\r\nLow-تحويل في الخلفية ولكن التدخل المخفض مع التطبيقات الأخرى التي قيد التشغيل
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	مهمة هو تحويل قالب يحتوي على ملف تعريف تحويل ومختلف parameters.\r\nEach التحويل الأخرى سيتم معالجة الملف إضافة إلى قائمة الانتظار وتحويل كل من هذه tasks.\r\nRefer إلى الدليل مسيبودي لمزيد من التفاصيل عن كيفية عمل المهام.
+Getting started	الشروع في العمل
+Click here for MCEBuddy guide	انقر هنا لدليل مسيبودي
+Logs	سجلات
+Click to open log folder	انقر لفتح مجلد السجل
+MCEBuddy Status	مركز مسيبودي
+add	إضافة
+delete	حذف
+paypal-donate	بأي بال--التبرع
+stop	إيقاف
+OUTPUT: ConsoleOuput received NULL data	إخراج: كونسوليوبوت تلقي بيانات فارغة (null)
+hours	ساعة
+minutes	دقائق
+second	الثانية
+seconds	ثانية
+Starting	ابتداء
+Comskip advertisement scan - Pass 1	كومسكيب الإعلان المسح الضوئي-1 تمرير
+Comskip advertisement scan - Pass 2	كومسكيب الإعلان المسح الضوئي-2 تمرير
+Cutting commercials from video	قطع الإعلانات التجارية من الفيديو
+Cutting commercials from video - segment 	إعلانات قطع من فيديو-الجزء 
+Merging commercial free segments into new video	دمج التجارية الحرة مقاطع فيديو جديدة
+Moving converted file to destination	نقل الملف الذي تم تحويله إلى الوجهة
+Checking for disk space	التحقق من مساحة القرص
+Getting show information and banner from Internet sources	الحصول على عرض المعلومات والشعار من مصادر الإنترنت
+Copying source file to working directory	نسخ الملف المصدر إلى دليل العمل
+Remuxing recording	تسجيل Remuxing
+ShowAnalyzer advertisement scan	مسح الإعلان شوواناليزير
+Comskip advertisement scan	مسح الإعلان كومسكيب
+Analyzing video information	تحليل معلومات الفيديو
+Converting	تحويل
+Removing commercials	إزالة الإعلانات التجارية
+Writing show information	كتابة إظهار المعلومات
+Renaming file using show information	إعادة تسمية الملف باستخدام المعلومات تظهر
+Success - All done!	النجاح--كل ذلك!
+Muxing streams	تيارات موكسينج
+Fallback remux	ريم الاحتياطية
+Correcting audio delay	تصحيح تأخير الصوت
+Converting video file - Pass 1	تحويل ملف الفيديو-1 تمرير
+Converting video file - Pass 2	تحويل ملف الفيديو-2 تمرير
+Converting video file	تحويل ملف الفيديو
+Audio Track	المسار الصوتي
+Impaired	البصر
+Channels	قنوات
+Codec	برنامج الترميز
+Video	فيديو
+Duration	المدة
+Height	الارتفاع
+Width	عرض
+Audio	الصوت
+Name	اسم
+Subtitle	العنوان الفرعي
+Volume	وحدة التخزين
+Enable custom file renaming	تمكين إعادة تسمية ملف مخصص
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	تمكين هذا إدخال نمط مخصص لإعادة تسمية الملفات التي تم تحويلها والمجلدات. أدخل نمط مخصص في مربع below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% #-S % موسم % ##E % الحلقة % #-% ابيسودينامي %-%airyear%_%airmonth%_%airday%\r\n\r\nWill إنتاج: \r\nTVShows\CSI\Season 1\CSI--S01E02--أفضل الأوقات-2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname%-S%season%##E%episode%##>-Converted\r\n\r\nWill \r\n Recording\Movies\Star المنتجات (لفيلم) تحويل الحروب. <ext>1\CSI \r\n Recording\TVShows\CSI\Season \r\nOR (بالنسبة للأفلام غير)--S01E02--تحويل.\r\n\r\nRefer <ext>مسيبودي المتقدم الوثائق للحصول على قائمة من كافة الأوامر نمط.
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	لم يتم العثور على شوواناليزير-\nPlease قم بتحميل وتثبيت شوواناليزير.
+ShowAnalyzer Missing	شوواناليزير مفقود
+Invalid language code, reverting to <Default> language	رمز اللغة غير صالحة، العودة إلى اللغة <Default>
+Cut start	قص ابدأ
+Cut end	قص نهاية
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	وهذا يحدد عدد الثواني قطع من بداية التسجيل (قبل إزالة الإعلانات)
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	وهذا يحدد عدد الثواني قطع من نهاية التسجيل (قبل إزالة الإعلانات)
+Send an eMail after each conversion.	إرسال رسالة بريد إلكتروني بعد كل تحويل.
+Send eMail	إرسال بريد إلكتروني
+SMTP Server Name	اسم ملقم SMTP
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	أدخل here\r\ne.g عنوان خادم البريد الإلكتروني (SMTP) الرسائل الصادرة. smtp.gmail.com
+Port	منفذ
+Enter the SMTP server port	أدخل منفذ ملقم SMTP
+Use SSL	استخدام SSL
+Check this if you SMTP server uses SSL	التحقق من ذلك إذا كان ملقم SMTP الذي يستخدم SSL
+e-Mail Settings	إعدادات البريد الإلكتروني
+From <e-Mail>	من <e-Mail>
+Enter the senders (From) eMail address here	أدخل المرسلين (من) عنوان بريدك الإلكتروني هنا
+To <e-Mails>	إلى <e-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	أدخل المستلمين (إلى) بريد إلكتروني عنوان here.\r\nSeparate عدة مستلمين باستخدام فاصلة منقوطة (;)
+Send eMail on successful conversion	إرسال بريد إلكتروني على التحويل الناجحة
+Send eMail on failed conversion	إرسال بريد إلكتروني على تحويل الفاشلة
+Send eMail on cancelled conversion	إرسال بريد إلكتروني على تحويل الملغاة
+Send eMail on adding a conversion to the queue	إرسال البريد الإلكتروني على إضافة تحويل إلى قائمة الانتظار
+Please enter a valid server address	الرجاء إدخال عنوان ملقم صالح
+Invalid SMTP Server	ملقم SMTP غير صالح
+Please enter a valid server port	الرجاء إدخال منفذ ملقم صالح
+Invalid SMTP Port	منفذ SMTP صالح
+Please enter a valid From eMail address	الرجاء إدخال صالحة من عنوان بريدك الإلكتروني
+Invalid eMail Address	البريد الإلكتروني غير صالح معالجة
+Please enter valid To eMail addresses	الرجاء إدخال صالحة لعناوين البريد الإلكتروني
+Username	اسم المستخدم
+<Optional> Enter the username for the eMail server authentication	أدخل اسم المستخدم لمصادقة ملقم البريد الإلكتروني <Optional>
+<Optional> Enter the password for the eMail server authentication	أدخل كلمة المرور لمصادقة ملقم البريد الإلكتروني <Optional>
+MCEBuddy unable to download series information	غير قادر على تحميل معلومات سلسلة مسيبودي
+MCEBuddy successfully converted a video	مسيبودي بنجاح تحويل ملف فيديو
+Source Video	مصدر الفيديو
+Converted Video	تحويل الفيديو
+Converted At	تحويل في
+MCEBuddy failed to converted a video	مسيبودي فشل في تحويل فيديو
+Failed At	فشل في
+MCEBuddy cancelled a video conversion	مسيبودي إلغاء تحويل الفيديو
+Cancelled At	ألغى في
+Working	وتعمل
+Test	اختبار
+Testing	اختبار
+Click this button to test the eMail server settings	انقر فوق هذا الزر لاختبار إعدادات ملقم البريد الإلكتروني
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	مسيبودي سيتم إرسال بريد إلكتروني لاختبار settings.\r\nThis ملقم يمكن أن تصل إلى 60 seconds.\r\nMCEBuddy قد لا يستجيب خلال هذه الفترة.
+Test eMail	اختبار البريد الإلكتروني
+MCEBuddy Test eMail	اختبار مسيبودي البريد الإلكتروني
+MCEBuddy - Have a great day!	مسيبودي--لقد يوم عظيم!
+Send eMail test successful	إرسال البريد الإلكتروني التجارب الناجحة
+Send eMail test failed! Please check your settings and internet connectivity	إرسال البريد الإلكتروني الاختبار فشل! الرجاء التحقق من الإعدادات الخاصة بك والربط بشبكة الإنترنت
+Test eMail Success	اختبار البريد الإلكتروني النجاح
+Test eMail Failed	اختبار البريد الإلكتروني فشل
+Send eMail on start of conversion	إرسال بريد إلكتروني على بدء التحويل
+MCEBuddy started a video conversion	مسيبودي بدأ تحويل الفيديو
+Conversion Started At	بدأت في تحويل
+Yes (Comskip)	نعم (كومسكيب)
+Yes (ShowAnalyzer)	نعم (شوواناليزير)
+Atleast one Conversion Task must be enabled	يجب تمكين "مهمة تحويل" واحدة Atleast
+Disable	تعطيل
+Enable	تمكين
+Rename	إعادة تسمية
+Move	نقل
+Up	حتى
+Down	إلى أسفل
+Slow Remuxing	Remuxing بطيء
+Extracting closed captions	استخراج التسميات التوضيحية المغلقة
+Validating closed captions	التحقق من صحة التسميات التوضيحية المغلقة
+Extracting subtitles	استخراج الترجمة
+Trimming closed captions	تسميات توضيحية مغلقة التشذيب
+Extract subtitles and closed captions	استخراج الترجمة والتسميات التوضيحية المغلقة
+Field	حقل
+Channel	قناة
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	تمكين هذا استخراج "تسميات توضيحية مغلقة"، وترجمات والسوفت وير from\r\nWTV، DVR-MS، إتس، MP4، مكف وغيرها files.\r\n\r\nIt معتمدة يتم حفظها كملف الترجمة (SRT).
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	تمكين هذا لتعيين خيارات متقدمة "التسميات التوضيحية مغلقة" extraction\r\nField-1 أو 2\r\nChannel-1 أو 2\r\n\r\nDefault: حقل 1، 1 قناة
+Subtitle offset	إزاحة الترجمة
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	أدخل عدد الثواني (+ ve/-ve) لضبط تزامن ترجمات بالفيديو
+Re-ReMuxing due to audio error	ريموكسينج إعادة يرجع إلى خطأ في الصوت
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	حفظ الملصق وإظهار المعلومات (بيانات التعريف) في ملف NFO متوافقة MC/XBMC (تنسيق XML)
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	حدد خانة الاختيار هذه حفظ عرض معلومات (بيانات التعريف) في file.\r\nThis المحولة فقط يعمل للملفات التي تدعم علامات بيانات التعريف مثل MP4، مكف، WTV etc.\r\n\r\nNOTE: قم بإلغاء تحديد هذا المربع إذا كنت تواجه القضايا مع بعض الأجهزة مثل التلفزيون القديمة التي لديها مشكلة قراءة بيانات التعريف.
+Atleast one day of the week must be enabled	Atleast يجب تمكين يوم واحد في الأسبوع
+Invalid Days of Week	غير صالح أيام الأسبوع
+Invalid day of week found in configuration file	يوم الأسبوع الموجودة في ملف تكوين غير صالح
+Scheduling	جدولة
+Remuxing to	ريموكسينج إلى
+Part	جزء
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	بقية الماوس على أي زر أو مربع أو عنصر للحصول على "المساعدة الفورية" في it.\n\nFor مزيد من المعلومات حول كيفية استخدام استكشاف الأخطاء وإصلاحها أو الحصول على دعم لمسيبودي اضغط على الرابط < الابتداء > في corner.\n\nDonations الأيمن العلوي دائماً موضع ترحيب:) استمتع! \n\n-راميت، ديريك آند أوزة
+Welcome to MCEBuddy	مرحبا بك مسيبودي
+Multichannel audio	الصوت متعدد القنوات
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	يقتصر الاختيار السماح الصوت متعدد القنوات إذا كان مصدر الفيديو يدعم الافتراضية it.\r\nBy الصوت للقنوات 2 (ستيريو).
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	المدى الديناميكي ضغط (جمهورية الكونغو الديمقراطية) \r\nWhen المصدر هو صوت AC3، تمكين جمهورية الكونغو الديمقراطية will\r\nreduce الفرق بين صوت عال و soft\r\nsounds مما يجعل مسار الصوت أكثر even.\r\nIf لديك تسجيل صوتي متعدد القنوات و you\r\nfeel وحدة التخزين لينة جداً، التحقق من هذا المربع قد يساعد.
+FPS	FPS
+Logfile age (days)	ملف السجل في السن (أيام)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	الحد الأقصى لعدد الأيام الاحتفاظ logfiles قبل حذف them.\r\nSet إلى 0 للاحتفاظ السجلات إلى الأبد.
+DVRMS Remuxing	Remuxing دفرمس
+Fast Remuxing	Remuxing بسرعة
+Byte stream remuxing	Remuxing دفق البايت
+Disable cropping	تعطيل الاقتصاص
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	تحقق هذا تعطيل الاقتصاص الفيديو تلقائياً أثناء conversion.\r\nCropping يستخدم لإزالة "أشرطة سوداء" في الفيديو (أعلى، أسفل، يسار أو right).\r\nUse هذا الخيار إذا تم الحصول على قطع صورة الفيديو على أي جانب أو إذا كان يبحث صورة نهائية امتدت أو مشوهة.
+Only detect Ads	الكشف عن إعلان فقط
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	التحقق من ذلك إذا كنت تريد مسيبودي للكشف عن إعلان (إعلانات) ولكن لا قطع منها من video.\r\nWhen يتم تمكين هذا الخيار، مسيبودي سيتم إنشاء ملف مؤسسة كهرباء لبنان جنبا إلى جنب مع الملف المحول الذي يحدد مواقع الإعلانات في video.\r\nAlso المحولة، ل MP4, M4V وملفات مكف مسيبودي سيتم إنشاء فصول للاحتفال بنهاية من الإعلانات التجارية.
+Download information	تنزيل المعلومات
+Correction	تصحيح
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	انقر هنا تصحيح عنوان المعرض وفرض استخدام معرف سلسلة TVDB محددة أو IMDB الفيلم id\r\nto البحث عن بيانات تعريف إضافية من الإنترنت.
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	تحقق من هذا تحميل معلومات إضافية من الإنترنت حول المعرض مثل ملف الشعار، الحلقة، الموسم إلخ
+Profile Error	خطأ في التشكيل الجانبي
+Cannot find selected profile in profiles.conf	لا يمكن العثور على ملف التعريف المحدد في profiles.conf
+Invalid Profile	الشخصية غير صالحة
+Please select a valid profile	الرجاء تحديد تشكيل جانبي صالح
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	وقد تحطمت المحرك مسيبودي. الرجاء إرسال mcebuddy.log للمطورين
+Comskip INI	INI كومسكيب
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	حدد الملف INI كومسكيب مخصصة لاستخدام لهذا التحويل task\r\nLeave هذه الفارغة لاستخدام الافتراضي ملف INI كومسكيب لإزالة الإعلان
+Click to select custom Comskip INI file	انقر فوق لتحديد ملف INI كومسكيب مخصصة
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	حدد المجلد للعمل مع الملفات المؤقتة. تأكد من أن هناك مساحة فارغة كافية على drive.\r\nLeave هذه الفارغة استخدام مجلد temp الافتراضي في مجلد التثبيت.
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	حدد المجلد للعمل مع الملفات المؤقتة. تأكد من أن هناك هو كافية مساحة فارغة على drive.\r\nThis يتجاوز المجلد المؤقت المحدد في الإعدادات-> صفحة "إعدادات الخبراء".
+Click to select temp working folder	انقر فوق لتحديد مجلد عمل مؤقت
+Temp folder	مجلد temp
+Space check	مساحة الاختيار
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	عند تمكين مسيبودي سوف تحقق لمساحة حرة كافية للتحويل (الوجهة و temp).\r\nUncheck هذا إذا كان لديك وجود مشكلة مع محركات أقراص الشبكة أو ملفات الفيديو كبير غير عادي.
+MCEBuddy Windows Event Logs	سجلات أحداث Windows مسيبودي
+Events	الأحداث
+Click here to open the MCEBuddy Windows Event Logs	انقر هنا لفتح "سجلات أحداث Windows مسيبودي"
+Enable UPnP	تمكين UPnP
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	التحقق من هذا لتمكين UPnP. يسمح هذا الوصول إلى محرك مسيبودي من خارج network.\r\nThis يحتاج إلى مراجعة إذا كنت تستخدم عميل مسيبودي موبايل/مستقل للوصول إلى مسيبودي.
+Click here to connect to another MCEBuddy engine	انقر هنا للاتصال بمشغل آخر مسيبودي
+MCEBuddy Remote Engine Connection	الاتصال بمحرك البعيد مسيبودي
+Engine Name	اسم المشغل
+Engine Port	منفذ محرك
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	أدخل الاسم أو عنوان ip الخاص بمحرك مسيبودي الذي تريد الاتصال إلى
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	أدخل رقم منفذ TCP من محرك مسيبودي الذي تريد الاتصال إلى
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	أدخل رقم منفذ TCP من محرك مسيبودي الذي تريد الاتصال إلى (1 إلى 63355)
+Invalid Name/Port	الاسم/منفذ غير صالحة
+Please enter a valid Engine Name and Engine Port Number	الرجاء إدخال اسم محرك والمحرك رقم منفذ صالح
+Error Stopping Engine	خطأ توقف المحرك
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	غير قادر على إيقاف محرك مسيبودي، قد لا يتم حفظ الإعدادات. هل تريد الاستمرار؟
+Unable to communicate with engine. Settings have NOT been saved.	غير قادر على الاتصال مع المحرك. لم يتم حفظ الإعدادات.
+Communication Error	خطأ في الاتصال
+Engine not stopped. Settings have NOT been saved.	لا توقف المحرك. لم يتم حفظ الإعدادات.
+Unable To Save Settings	غير قادر على حفظ إعدادات
+Unable to communicate with engine. UPnP settings have not been updated	غير قادر على الاتصال مع المحرك. لم يتم تحديث إعدادات UPnP
+Audio delay	تأخير الصوت
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	قم بإدخال قيمة بالثواني (الإيجابية أو السلبية) هنا لتحويل الصوت بالنسبة إلى video.\r\nUse هذا تتم إعادة مزامنة الصوت مع الفيديو، إذا لم تكن متزامنة بعد conversion.\r\nA قيمة إيجابية سيتم تأخير الصوت (أي قبل الصوت الفيديو) وقيمة سالبة سوف متقدمة الصوت (أي الصوت قبل video).\r\nE.g. -1.5
+Media info	معلومات الوسائط
+Click here to get media properties for selected files	انقر هنا للحصول على خصائص الوسائط للملفات المحددة
+Save information	حفظ المعلومات
+Add information	إضافة معلومات
+Shows a preview of the custom filename and path	تظهر معاينة مخصصة اسم الملف والمسار
+Invalid Filename Pattern	نقش اسم الملف غير صالح
+TVDB Series ID	معرف سلسلة تفدب
+IMDB Series ID	معرف سلسلة IMDB
+Original title	العنوان الأصلي
+Corrected title	تصحيح العنوان
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	أدخل "معرف سلسلة تفدب" التي تريد استخدامها لتحميل عرض فارغ information.\r\nIf مربع العنوان الأصلي، وهذا سيتم تطبيقها على كافة العروض المحددة بهذه المهمة التحويل.
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	أدخل معرف IMDB الفيلم الذي تريد استخدامه لتحميل الفيلم information.\r\nIf الأصلي المربع العنوان فارغاً، وسيتم تطبيق هذا على كافة العروض المحددة بهذه المهمة تحويل.
+Internet Lookup Title and Metadata Correction	عنوان البحث في الإنترنت، وتصحيح البيانات الوصفية
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	انقر هنا لإضافة صف آخر المباراة، وتصحيح العناوين وسلسلة id.\r\nIf الذي تريد استخدام نفس العنوان تم تصحيحه أو معرف سلسلة لجميع عروض تحويل بواسطة هذه المهمة التحويل، \r\nleave فارغة العنوان الأصلي في الأول صف، وينبغي أن لا إضافة صف ثاني.
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	أدخل نمط لمطابقة سلسلة وثائق تظهر العناوين لتصحيح (مثلاً سيمبسون * سيتم استبدال كافة العناوين التي لها عنوان معرض بدءاً من سيمبسون) نمط \r\nPrefix مع ~ تخطي المباراة (مثلاً *. *؛ ~ سيمبسون * تصحيح سوف تظهر جميع الألقاب باستثناء تلك التي تبدأ مع سيمبسون) \r\nSeparate أنماط متعددة مع؛ (مثل سمبسون *؛House*) أو (مثل سمبسون *؛NCIS*؛ ~ NCIS ميامي *) \r\n\r\nNOTE: اترك هذا المربع فارغاً إذا كنت ترغب في تطبيق تصحيح العنوان أو سلسلة معرف لكافة الملفات التي تتم معالجتها بواسطة هذا task.\r\nIf التحويل ترك فارغة، لا يمكنك إضافة row.\r\n\r\nYou ثانية يمكن استخدام تعبير عادي بحيث تتطابق مع العنوان بالبدء باستخدام التعابير المنطقية:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	إدخال جديد أو تصحيح العنوان الذي تريد استخدامه لتحميل معلومات إضافية المربع العنوان فارغاً من internet.\r\nIf الأصلي، وهذا سيتم تطبيقها على كافة العروض التي اختارها هذا التحويل task.\r\n\r\nYou يمكن استخدام تعبير عادي لتصحيح العنوان بواسطة بدءاً regex:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	لكل صف، الرجاء إدخال العنوان الأصلي تطابق اسم المعرض وأما المصوبة عنوان أو "معرف سلسلة" تفدب/شجونه
+Please enter either a Corrected title or a TVDB/IMDB Series ID	الرجاء إدخال أما عنوان المصوبة أو "معرف سلسلة" تفدب/شجونه
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	تمكين هذا إذا كنت تريد مسيبودي لوضع تحويل الملف في directory\r\nif مصدر مسار الوجهة غير متوفرة. (مثل شبكة الفشل أو فشل في تعيين)
+Fallback to source path	الرجوع إلى مسار المصدر
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	تستخدم لزيادة أو إنقاص حجم the\r\nrecording حين converting.\r\n1 أمر طبيعي، أي شيء أدناه سوف يقلل ذلك، anything\r\nhigher سيتم زيادته.
+Archive folder	مجلد الأرشيف
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	تغيير موقع الأرشيف folder.\r\nLeave فارغة لاستخدام المجلد الافتراضي 'مسيبوديارتشيفي' في الدليل الأصلي.
+Monitor subdirectories	رصد الدلائل الفرعية
+Check this box to also monitor all directories within the Monitor path	حدد خانة الاختيار هذه أيضا رصد كافة الدلائل ضمن مسار العرض
+Click here to show MCEBuddy status	انقر هنا لإظهار حالة مسيبودي
+MCEBuddy service not connected	خدمة مسيبودي غير متصل
+MCEBuddy idle	مسيبودي الخمول
+conversions in progress	تحويلات في التقدم
+MCEBuddy stopped	توقف مسيبودي
+Sync converted files	مزامنة الملفات المحولة
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	حدد هذا الخيار إذا كنت تريد مسيبودي إبقاء الملفات المحولة في تزامن مع files.\r\ni.e الأصلي. عندما يتم حذف الملفات الأصلية بواسطة المستخدم, الملفات المحولة المناظرة هي أيضا deleted.\r\n\r\nNOTE: مسيبودي ترصد فقط الملفات الأصلية في مراقبة مواقع المجلدات وفقط في حين المحرك running.\r\nMCEBuddy لن تكون قادرة على تعقب المستخدم حذف الملفات أثناء إيقاف المحرك.
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	هل ترغب في أن مسيبودي لحذف كل الملفات المحولة عندما تم حذف الملف الأصلي؟
+Confirm sync conversions?	تؤكد المزامنة التحويلات؟
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	هل أنت متأكد من أنك لا تريد إزالة الإعلانات التجارية من تحويل الفيديو والاحتفاظ فقط بملف مؤسسة كهرباء لبنان؟
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	شوواناليزير لا يستجيب. الرجاء إعادة تشغيل النظام أو إعادة تثبيت شوواناليزير.
+ShowAnalyzer Not Responding	شوواناليزير لا يستجيب
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	تأكد كنت اضغط على 'ابدأ' بعد إغلاق هذه النافذة، وإلا الجدولة واعقاب لن يعمل.
+Enabling Scheduling and Wake	جدولة تمكينية واعقاب
+Passwords do not match	لا تتطابق كلمات المرور
+Password error	خطأ في كلمة المرور
+Adding subtitles and chapters to file	إضافة ترجمات والفصول للملف
+Send eMail if unable to download series information	إرسال البريد الإلكتروني إذا كان غير قادر على تحميل معلومات سلسلة
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	حدد خانة الاختيار إذا كنت تريد هذه المهمة التحويل فقط معالجة الملفات من دون رادع locations.\r\nIf مراقبة محددة سيتم معالجة كل مهمة تحويل الملفات من جميع مواقع رصد (بما في ذلك جديدة تمت إضافتها لاحقاً).
+Select Monitor Locations	حدد مواقع مراقبة
+Select atleast one Monitor Location name	حدد اسم "الموقع مراقب" واحد اتلست
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	قمت بتحديد جميع Locations.\r\nDo مراقب الحالية تريد هذه المهمة التحويل تلقائياً عملية أي "مواقع رصد" جديدة تضاف في المستقبل؟
+New monitor locations	مواقع مراقبة جديدة
+Invalid selection	التحديد غير صحيح
+Channel name match	تطابق اسم القناة
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	نقش يطابق اسم القناة لهذه المهمة (مثل أي بي سي * سيتم تحويل كافة الملفات التي سجلت على اسم قناة بدءاً من أي بي سي) بإدخال نمط \r\nPrefix مع ~ تخطي المباراة (مثلاً *؛ ~ ABC * سوف عملية كل القنوات ما عدا تلك التي تبدأ مع أي بي سي) \r\nSeparate أنماط متعددة مع؛ (مثل أي بي سي *؛TBS*) أو (مثل أي بي سي *؛Fox*؛ ~ Fox4 *) \r\n\r\nYou يمكن استخدام تعبيرات عادية لمطابقة النقش بالبدء باستخدام التعابير المنطقية:
+Clear history	مسح المحفوظات
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	انقر فوق هذا الزر لمسح المحفوظات من جميع files.\r\nThis المحولة يسبب مسيبودي لإعادة تحويل جميع الملفات التي يجري رصدها.
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	هل أنت متأكد من أنك تريد مسح المحفوظات من جميع التحويلات؟ سوف يسبب \r\nThis مسيبودي لإعادة تحويل جميع الملفات التي يجري رصدها.
+Show history	إظهار التاريخ
+Click this button to show the history of all converted files.	انقر فوق هذا الزر لإظهار تاريخ جميع الملفات التي تم تحويلها.
+History of Converted Files	التاريخ لتحويل الملفات
+Unable to communicate with engine.	غير قادر على الاتصال مع المحرك.
+Extracting streams	استخراج الجداول
+Fallback muxing streams	تيارات muxing الاحتياطي
+Remuxing TiVO file	ملف تيفو Remuxing
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	قم بإدخال الرقم 10 الخاص بك مفتاح MAK تيفو تحويل ومعالجة التسجيلات تيفو
+Invalid TiVO MAK Key	المفتاح غير صالح تيفو MAK
+The TiVO MAK key should be 10 digits	يجب أن يكون المفتاح MAK تيفو 10 أرقام
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	عدم تطابق إصدار. الرجاء التأكد من أن العميل مسيبودي والمحرك تقوم بتشغيل نفس الإصدار.
+Error retrieving Event Logs	حدث خطأ أثناء استرداد سجلات الأحداث
+Unable to get Event Log Entries from the MCEBuddy engine.	غير قادر على الحصول على "إدخالات سجل الأحداث" من محرك مسيبودي.
+PAUSED: Check conversion schedule	إيقاف مؤقت: جدول التحويل الاختيار
+Logging	تسجيل الدخول
+Folder Management	إدارة المجلدات
+Processor Management	إدارة المعالج
+Expert Settings	إعدادات الخبراء
+System Settings	إعدادات النظام
+Click here to change additional settings (for experts only)	انقر هنا لتغيير إعدادات إضافية (للخبراء فقط)
+Failed folder	مجلد الفاشلة
+Location of the folder that hold the original files for failed conversions.	موقع المجلد الذي عقد الملفات الأصلية للتحويلات الفاشلة.
+Move original file on failure	نقل الملف الأصلي على الفشل
+Check this to move the original file to a separate folder if the conversion fails.	التحقق من هذا الخيار بنقل الملف الأصلي إلى مجلد منفصل إذا فشل التحويل.
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	تحقق من هذا الحد من عدد المعالجات المنطقية الذي يتوافق مع مسيبوديكان use.\r\nEach خانة الاختيار أدناه إلى معالج منطقية متوفرة.
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	كل مربع يمثل المعالجات المنطقية من 1 إلى 16 respectively.\r\nChecking مربع يسمح مسيبودي استخدام هذا المعالج.
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	كل مربع يمثل المعالجات المنطقية من 17 إلى 32 respectively.\r\nChecking مربع يسمح مسيبودي استخدام هذا المعالج.
+Select atleast one processor to use	حدد معالج واحد atleast لاستخدام
+Invalid Configuration	تكوين غير صالح
+Comskip path	مسار كومسكيب
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	إذا كنت ترغب في استخدام إصدار مخصص من كومكيب (مثل إصدار متبرعا) \r\nthen أدخل مسار here.\r\nLeave التثبيت كومسكيب فارغاً لاستخدام كومسكيب الافتراضية التي تأتي مع مسيبودي.
+Miscellaneous	المتنوعة
+Ignore copy protection	تجاهل حماية النسخ
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	تحقق من هذا تجاهل العلم نسخة حماية على ملف الفيديو أثناء converting.\r\nNOTE: مسيبودي لا يمكن تجاوز التشفير، ويساعد هذا فقط إذا كان ملف incorrectly\r\ntagged كنسخة محمية عندما لا يتم تشفير.
+Use recycle bin	استخدام سلة المحذوفات
+Check this to use the recycle bin when files are deleted by MCEBuddy	التحقق من ذلك استخدام سلة المحذوفات عندما يتم حذف الملفات بواسطة مسيبودي
+Poll period	استطلاع للرأي في الفترة
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	هذا كيف في كثير من الأحيان مسيبودي بمسح "مواقع مهام مراقب" لجديدة files.\r\nThe الفاصل الزمني المحدد بالثواني.
+Server port	منفذ الملقم
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	يشير هذا إلى منفذ TCP مسيبودي يستخدم للاتصال مع engine.\r\nWhen البعيد هو تمكين UPnP، مسيبودي سيتم تلقائياً إضافة هذا المنفذ إلى العبارة بنب Firewall\r\nand Windows السماح بالوصول من إنترنت على هذا المنفذ.
+Hang period	شنق في الفترة
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	أدخل عدد الثواني التي مسيبودي سوف تنتظر ردا من التطبيق the\r\nunderlying قبل إنهاء التطبيق ك hung.\r\nEnter 0 تعطيل الكشف عن شنق.
+Subtitle commercial cut sync	الترجمة التجارية قطع المزامنة
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	يتم استخدام هذه المعلمة عند ترجمات الذهاب تدريجيا متزامنة بعد إزالة كل قطعة تجارية من إعداد video.\r\nThis يستخدم لجلب الترجمة مرة أخرى إلى تزامن مع الوقت video.\r\nEach هو قطع الفيديو التجارية، والترجمة هي الوقت إزاحة بواسطة هذا المبلغ (+ ve أو-ve في ثانية).
+Invalid poll period	فترة الاستطلاع غير صالحة
+Invalid server port	منفذ ملقم غير صالح
+eMail Subject Customization	البريد الإلكتروني "موضوع التخصيص"
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	استخدام هذا المقطع لتخصيص موضوع البريد الإلكتروني إرسال مسيبودي في مختلف المناسبات التحويل المذكورة below.\r\nRefer إلى الوثائق، أوامر مخصصة ل variables.\r\ne.g المعرفة من قبل المستخدم. إظهار % شوونامي % لملف % أوريجينالفيلينامي % التحويل الناجحة باستخدام المهمة % taskname%\r\nNOTE: ليس دائماً ستكون جميع البيانات المتاحة في commands.\r\nLeave المخصص فارغاً لاستخدام خطوط الموضوع الافتراضي.
+Success	النجاح
+Failed	فشل
+Cancelled	ألغى
+Download fail	فشل تحميل
+Limit processor utilization	استخدام المعالج الحد الأقصى
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	تحقق هذا الحد من عدد المعالجات المنطقية يمكن أن مسيبودي use.\r\nEach خانة الاختيار أدناه يقابل إلى معالج منطقية متوفرة.
+Custom profile	التشكيل الجانبي المخصص
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	إذا كان لديك ملف profiles.conf مخصصة التي تريد استخدامها بدلاً من the\r\none التي تأتي مع مسيبودي، أدخل المسار إلى here.\r\n\r\nNOTE الملف: مسيبودي باستمرار profiles.conf التحديثات توفر علة إصلاحات، تحسينات \r\nenhancements والأداء الذي سوف تفوت out\r\non إذا قمت باستخدام هذه الميزة.
+Invalid custom profiles.conf	Profiles.conf مخصص غير صحيح
+Suspend on battery	تعليق على البطارية
+Suspend conversions when the computer switches to battery power	تعليق التحويلات عندما يبدل الكمبيوتر إلى طاقة البطارية
+MCEBuddy added a video conversion to the queue	وأضاف مسيبودي تحويل فيديو إلى قائمة الانتظار
+Queue	قائمة الانتظار
+Refer to documentation on using custom commands in custom eMail subjects	الرجوع إلى الوثائق المتعلقة باستخدام أوامر مخصصة في مواضيع البريد الإلكتروني المخصص
+Could not copy information to Clipboard, please try again.	تعذر نسخ المعلومات إلى "الحافظة"، الرجاء إعادة المحاولة مرة أخرى.
+Error copying to Clipboard	حدث خطأ أثناء نسخ إلى الحافظة
+Copy to clipboard	نسخ إلى الحافظة
+Reconvert files	إعادة تحويل الملفات
+Are you sure you want to reconvert the selected files?	هل أنت متأكد من أنك تريد إعادة تحويل الملفات المحددة؟
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	حدد الملفات التي تريد إعادة تحويل ومن ثم انقر فوق button.\r\nIf هذا لا يزال يجري رصد الملفات الأصلية قبل مسيبودي سوف يكون في قائمة الانتظار للتحويل.
+Time taken to convert	الوقت الذي يستغرقه لتحويل
+Network authentication	مصادقة شبكة الاتصال
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	انقر فوق يستخدم الزر لإدخال مصادقة credentials.\r\nThis مشاركات شبكة الاتصال عندما تتم إضافة الملفات عن طريق الزر إضافة في window\r\nor الرئيسي سحب وإسقاط من مشاركة شبكة اتصال في المربع مركز التحويل في الإطار الرئيسي.
+Skip reconversion	تخطي إعادة التحويل
+Do not reconvert the video if a converted file already exists in the destination directory.	عدم إعادة تحويل الفيديو إذا كان يوجد بالفعل ملف محولة في الدليل الوجهة.
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	اسم الملف المتوقعة لتحويل الفيديو (لا اسم الفيديو الأصلي) مقارنة مع أسماء الملفات في directory.\r\nIf الوجهة موجود بالملف الذي تم تحويله، الملف سوف لا يمكن إعادة تحويلها وسوف يفترض أن تكون conversion.\r\nThis نجاح مفيدة إذا كان يجري تسجيلها نفس العرض/الحلقة على عدة مرات، وكنت لا ترغب في إعادة تحويل them.\r\n\r\nNOTE: هذا الخيار هو تجاهل لملفات الفيديو التي تمت إضافتها يدوياً باستخدام الزر إضافة أو سحب وإسقاط
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	إذا تم تمكين، تخطي إعادة التحويل أيضا سوف تحقق من ملف التاريخ للماضي conversions.\r\nThe المتوقع هو اسم الملف لتحويل الفيديو (لا اسم الفيديو الأصلي) بالمقارنة مع أسماء الملفات في file.\r\nIf التاريخ أن يكون تحويل اسم الملف (بما في ذلك المسار) تطابق أي من أسماء الملفات المحولة مسبقاً (بما في ذلك مسارات) في ملف التاريخ وملف \r\nthe سوف لا يتم إعادة تحويلها فإنه سوف يفترض أن يكون تحويل نجاح.
+Adding file to the iTunes library	إضافة ملف إلى مكتبة أي تيونز
+Add to iTunes	إضافة إلى أي تيونز
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	التحقق من هذا المربع لإضافة الملفات المحولة إلى library.\r\nThis أي تيونز تلقائياً يعمل فقط مع أي تيونز الملفات المعتمدة (مثل MP4, M4V, MP3 إلخ)
+Adding file to the WMP library	إضافة ملف إلى مكتبة WMP
+Library Management	إدارة المكتبة
+Add to Windows Media Player	إضافة إلى ويندوز ميديا بلاير
+Check this box to automatically add the converted files to the WMP library.	حدد هذا المربع لإضافة الملفات التي تم تحويلها تلقائياً إلى ومب المكتبة.
+Renaming and Sorting	إعادة تسمية والفرز
+Selection Filters	اختيار المرشحات
+Audio and Video	الصوت والفيديو
+Subtitles and Chapters	ترجمات والفصول
+Skip copying original files	تخطي نسخ الملفات الأصلية
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	التحقق من هذا المربع في الخاص بك RISK.\r\nDO لم تحقق هذا مربع إلا إذا كنت تعرف ما كنت DOING.\r\nCheck هذا المربع تخطي إجراء نسخة احتياطية ملف الأصلي (نسخ) أثناء تحويل.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	التحقق من هذا المربع في الخاص بك RISK.\r\nDO لا هذا خانة الاختيار إلا إذا كنت تعرف ما هي DOING.\r\nCheck يتم التحقق من هذا المربع تخطي إجراء نسخة احتياطية ملف الأصلي (نسخ) بينما converting.\r\nIf هذا، لن يتم الاحتفاظ بالملف الأصلي في حالة error.\r\nIt يمكن أيضا حتى تؤدي إلى فشل التحويل أو غيرها من المسائل التحويل غير المنظورة.
+Are you sure you want to do this?	هل أنت متأكد من أنك تريد القيام بهذا؟
+Media Information Management	إدارة معلومات وسائط الإعلام
+Force show type	إظهار نوع من القوة
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	قم بتعيين هذا قوة معالجة تسجيل كفيلم الفيديو أو التلفزيون Series.\r\nThis سوف تغيير الطريقة التي يتم تحميلها (بيانات التعريف) على معلومات إضافية حول التسجيل من internet.\r\nMovie علاج-علاج التسجيل ك movie\r\nSeries-علاج التسجيل Series\r\nSports التلفزيون-التسجيل show\r\nDefault رياضية--استخدام المعلومات الافتراضية المتوفرة في تسجيل بيانات التعريف لتحديد فيلم أو مسلسل تلفزيوني
+Show type	إظهار نوع
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	حدد هذا الخيار لتصفية النوع التسجيلات التي يجري converted.\r\n\r\nMovies--حدد هذا الخيار لتحويل إذا كان نوع المعرض Movie.\r\nShows--حدد هذا الخيار لتحويل إذا لم يكن إظهار نوع Movie.\r\nSports--حدد هذا الخيار لتحويل إذا كان نوع إظهار Sports.\r\n\r\nNOTE: إظهار القراءة نوع من metadata.\r\nOnly تسجيل بعض التسجيلات تدعم ملفات إظهار نوع بيانات التعريف مثل and\r\nrecordings WTV مع دعم بيانات التعريف (XML/ARG إلخ).
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	يعرض هذا المربع كافة الملفات في قائمة الانتظار للملفات conversion.\r\nDrag والإسقاط هنا أو اضغط الزر "إضافة" لإضافة ملفات إلى قائمة انتظار التحويل
+Conversion	التحويل
+Files	الملفات
+Click this button to open or close the Advanced Settings section	انقر فوق هذا الزر فتح أو إغلاق القسم "إعدادات متقدمة"
+Running custom commands	تشغيل أوامر مخصصة
+Trimming video recording	تسجيل الفيديو التشذيب
+Insert at top of queue	إدراج في أعلى قائمة الانتظار
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	بشكل افتراضي، تتم إضافة تحويلات جديدة إلى الأسفل (نهاية) queue.\r\nIf التحويل يتم اختيار هذا المربع، أي تحويلات جديدة يضيفها إلى هذه المهمة سوف تضاف إلى the\r\nbeginning (أعلى) من قائمة انتظار التحويل.
+Add subtitles and chapters	إضافة إلى ترجمات والفصول
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	تمكين هذا الخيار لإضافة أي ترجمات المستخرجة والفصول للفصل video.\r\nEach المحولة يصادف نهاية تجاري. وهذا يعمل فقط مع التنسيقات المعتمدة (مثل مكف، MP4).\r\n\r\nNOTE: بعض اللاعبين والتلفزيون القديمة لا تدعم جزءا لا يتجزأ من ترجمات و chapters.\r\nIf فأنت غير قادر على تشغيل الفيديو المحولة، حاول إيقاف تشغيل هذا الخيار.
+Select best soundtrack	حدد أفضل الموسيقى التصويرية
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	إذا كان الفيديو الأصلي الموسيقى التصويرية متعددة، يخبر هذا الخيار مسيبودي لتحديد soundtrack.\r\nIf الأكثر ملائمة والابتدائي تريد الصوت لغة معينة، تأكد من إدخال اسم اللغة أو رمز في box.\r\nCheck "لغة الصوت" هذا المربع إذا كنت تسمع الصوت خاطئ في file.\r\n\r\nUncheck المحول الخاص بك هذا المربع إذا كنت تريد مسيبودي الاحتفاظ بجميع الموسيقى التصويرية من الفيديو الأصلي في الملف المحول عند الإمكان. \r\nNOTE: لا تدعم بعض ملامح الموسيقى التصويرية متعددة، في هذه الحالة هذا الإعداد ليس له أي تأثير.
+Enable remote access	تمكين الوصول البعيد
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	يؤدي هذا إلى إنشاء استثناء في جدار حماية windows لتطبيق مسيبودي و port.\r\nThis مطلوب إذا كنت قد تم تمكين جدار حماية windows وأردت استخدام UPnP، الوصول البعيد client\r\nor المحرك باستخدام address.\r\n\r\nNOTE الملكية الفكرية: إذا كان لديك جدار حماية مخصص، قد لا يعمل هذا، سوف تحتاج إلى إنشاء an\r\nexception لخدمة مسيبودي والمنفذ يدوياً.
+Unable to communicate with engine. Firewall exception settings have not been updated.	غير قادر على الاتصال مع المحرك. لم يتم تحديث الإعدادات استثناء جدار الحماية.
+Detect and optimize video quality	كشف وتحسين جودة الفيديو
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	عند تمكين، مسيبودي سوف تحسين خيارات معالجة الفيديو بمحاولة للكشف عن type.\r\nThis مصدر الفيديو يمكن تحسين النوعية لتحويل الفيديو إلى حد كبير إذا كان بشكل صحيح detected.\r\n\r\nNOTE: وهي تفعل ذلك بمحاولة للكشف عن نوع مصدر الفيديو (المتداخلة، التقدمي أو telecine).\r\nIf أنها قادرة على الكشف عن نوع مصدر الفيديو، فإنه سيتجاوز المعلمات المقابلة في profile.\r\nTurn هذا الخيار إيقاف إذا كنت تواجه القضايا مع جودة الفيديو المحولة أو تريد استخدام المحددات الشخصية الافتراضية.
+Are you sure you want to delete this task?	هل أنت متأكد من أنك تريد حذف هذه المهمة؟
+Delete Task	حذف المهمة
+Enter the new task name	أدخل اسم المهمة الجديدة
+Rename Task	إعادة تسمية مهمة
+MCEBuddy PAUSED	مسيبودي مؤقتاً
+idle	الخمول
+PAUSED	الإيقاف المؤقت
+Frame rate	معدل الإطار
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	تمكين هذا تعيين معدل الإطارات مخصصة (FPS) بالنسبة video.\r\nYou المحولة قد تحتاج إلى تعيين هذا أثناء تحويل تنسيقات الفيديو (مثل PAL إلى NTSC) \r\nor للأجهزة التي تدعم framerates.\r\n\r\nE.g محددة فقط.: 25\r\nE.g.: 30000/1001
+Skip remuxing files	تخطي الملفات remuxing
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	التحقق من هذا المربع في الخاص بك RISK.\r\nDO لا الاختيار هذا المربع إلا إذا كنت تعرف ما كنت DOING.\r\nCheck هذا المربع تخطي remuxing الملف الأصلي إلى ملف إتس بينما converting.\r\nIf يتم التحقق من هذا، وبعض المهام مثل استخراج الترجمة أو كومسكيب قد لا work.\r\nIt يمكن أيضا حتى تؤدي إلى فشل التحويل أو غيرها من المسائل التحويل غير المنظورة.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	التحقق من هذا المربع في الخاص بك RISK.\r\nDO لم تحقق هذا مربع إلا إذا كنت تعرف ما كنت DOING.\r\nCheck هذا المربع تخطي remuxing الملف الأصلي إلى ملف إتس أثناء تحويل.
+Monitor converted videos	مراقبة تحويل أشرطة الفيديو
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	بشكل افتراضي "مواقع مراقبة" سيتم تجاهل الملفات التي قد تم بالفعل converted.\r\nCheck هذا المربع إذا كنت ترغب أيضا في رصد الملفات المحولة في Path.\r\nCAUTION مراقب: وهذا يمكن أن يؤدي إلى حلقة لانهائية تحويل لتحويل الملفات إذا لم يكن properly.\r\n\r\nThis المكونة يمكن أن تكون مفيدة عند تعيين الدليل الإخراج من task\r\n التحويل (تحويل الملف) "رصد مسار" "موقع رصد" وربط the\r\nMonitor موقع لمهمة تحويل أخرى.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	التحقق من هذا المربع في الخاص بك RISK.\r\nDO لم تحقق هذا مربع إلا إذا كنت تعرف ما كنت DOING.\r\nBy "رصد المواقع" الافتراضية سيتم تجاهل الملفات التي قد تم بالفعل converted.\r\nCheck هذا المربع إذا كنت ترغب أيضا في رصد الملفات المحولة في "مسار رصد".
+Hardware encoding	ترميز الأجهزة
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	التحقق من هذا المربع استخدام ترميز الأجهزة عندما تكون متاحة تحويل videos.\r\nThis يمكن تسريع عملية التحويل إلى حد كبير، والحد من utilization\r\nbut وحدة المعالجة المركزية فإنه يمكن أن ينتج videos.\r\n\r\nUncheck جودة أقل بشكل طفيف هذا المربع إذا كنت تواجه قضايا الجودة أو التحويل.
+Do not overwrite files	عدم الكتابة فوق الملفات
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	عندما يتم اختيار هذا المربع، الملف الوجهة لا ستتم الكتابة فوق إذا كان ذلك بالفعل سيتم إنشاء ملف جديد exists.\r\nInstead مع رقم فريد يضاف إلى نهاية اسم الملف.
+Re-monitor recorded videos	إعادة رصد مسجل أشرطة الفيديو
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	بشكل افتراضي، عندما تم تحويل ملف مصدر (مسجل الفيديو)، سوف تتبع تاريخ رصد \r\nthe اسم الملف وعدم انتظار again.\r\n\r\nEnable الملفات نفس هذا الخيار تجاهل التاريخ ورصد كافة الملفات وإضافتها إلى قائمة انتظار تحويل to\r\nthe، حتى ولو كانوا قد تم بالفعل converted.\r\n\r\nThis يمكن أن تكون مفيدة في بعض الأحيان، إذا كان برنامج التسجيل لا تقوم بإنشاء اسم الملف a\r\nunique لإظهار كل الحلقة/. فمن الموصى بها استخدام the\r\nDelete الخيار الملف الأصلي في صفحة الإعدادات عند استخدام هذا الخيار إلى حلقة لانهائية تحويل avoid\r\nan.
+Recommendation	التوصية
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	لتجنب وجود حلقة لانهائية تحويل، من المستحسن لإعداد نمط البحث جهاز العرض الخاص بك في طريقة كما هو الحال ضمان أن لا يجري رصد الملفات المحولة بهذه المهمة مراقبة.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	التحقق من هذا المربع في الخاص بك الافتراضي RISK.\r\nDO لا DOING.\r\nBy "تحقق هذا مربع إلا إذا كنت تعرف ما كنت" سوف لا المراقبة "رصد مواقع" مسجل أشرطة الفيديو التي تم processed.\r\nCheck هذا المربع إذا كنت ترغب في المراقبة وإعادة تحويل أشرطة الفيديو المسجلة.
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	لتجنب حلقة لانهائية تحويل، من المستحسن أن تقوم بتمكين الخيار حذف الملف الأصلي في صفحة الإعدادات.
+Prioritize air date matching	إعطاء الأولوية لمطابقة تاريخ الهواء
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	مسيبودي يستخدم اسم الحلقة لمطابقة information\r\nwhile سلسلة البحث في شبكة الإنترنت. إذا فشل ذلك فإنه يستخدم التاريخ broadcast\r\nair الأصلي للمباراة metadata.\r\n\r\nCheck هذا المربع استخدام تاريخ بث الهواء الأصلي أولاً ثم ثم اسم the\r\nepisode لمطابقة للمعلومات سلسلة من internet.\r\nThis يمكن أن تكون مفيدة في بعض الحالات عندما يكون اسم same\r\nepisode لمواسم متعددة. مثل "أميريكال المعبود"، 1\r\n\r\nNOTE الاختبار: الأصلي تاريخ البث الجوية ليست دائماً دقيقة مجموعة من the\r\nbroadcaster، وفي بعض الأحيان معلومات على شبكة الإنترنت هو incorrect.\r\nUse هذا الخيار فقط إذا كان الخيار الافتراضي لا يعمل بالنسبة لك.
+Skip eMail body	تخطي هيئة البريد الإلكتروني
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	التحقق من هذا الخيار استخدام هيئة فارغة في eMail.\r\nThis الإعلام يمكن أن تكون مفيدة إذا كنت تستخدم بوابة الرسائل قصيرة للحصول على إعلامات البريد الإلكتروني.
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	يتم الاختيار على أساس في إدارة حق الرقمية (DRM) available\r\nonly عند إعادة تسمية دون تحويل (إعادة تسمية ونقل فقط) هو الخيار selected.\r\n\r\nAll-تحديد كافة الملفات للمعالجة، بغض النظر عن حماية النسخة status\r\nProtected--فقط قم بتحديد الملفات التي يتم نسخ protected\r\nUnprotected--فقط حدد الملفات التي لم يتم حماية النسخ
+Download cover art	تحميل تغطية الفن
+Enable this to download the cover art from the original video and internet if available.	تمكين هذا تحميل تغطية الفن من الفيديو الأصلي والإنترنت إذا كان متوفراً.
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	هل أنت متأكد من أنك تريد إدخال "اسم المجال"؟ \r\n\r\nUse هذا فقط إذا كنت تستخدم وحدة تحكم المجال Windows لإدارة authentication.\r\nDo الخاص بك لا تستخدم هذا إذا كنت جزءا من Workgroup.\r\n\r\nIf أنت غير متأكد اضغط لا
+Configuration Warning	تحذير تكوين
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	يقوم بإنشاء مجلد يسمى 'مسيبوديارتشيفي' حيث الملف الأصلي located\r\nand تحريك الملف الأصلي في هذا الدليل بعد تغيير اسم المجلد conversion.\r\n\r\nThis ناجحة، والموقع أدناه.
+Monitoring	رصد
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	إذا كنت ترغب في تحويل ملف مؤسسة كهرباء لبنان إلى فصول، تأكد من التحقق من الخيار 'إضافة ترجمات وفصول' في "إعدادات الخبراء".
+EDL to Chapters	مؤسسة كهرباء لبنان إلى فصول

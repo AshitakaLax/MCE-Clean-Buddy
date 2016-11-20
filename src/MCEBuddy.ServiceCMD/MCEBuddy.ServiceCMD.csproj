@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4FE920D5-ED36-45A6-B1EE-82F40C62B151}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MCEBuddy.ServiceCMD</RootNamespace>
+    <AssemblyName>MCEBuddy.ServiceCMD</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\MCEBuddy.ServiceCMD.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\MCEBuddy.ServiceCMD.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>MCEBuddy2-HP.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MCEBuddy.ServiceCMD.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>MCEBuddyIcon_32x32.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>MCEBuddy.ServiceCMD.exe.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MCEBuddy.Configuration\MCEBuddy.Configuration.csproj">
+      <Project>{EA3FAF4F-610D-4394-9BF6-75798AA17541}</Project>
+      <Name>MCEBuddy.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MCEBuddy.Engine\MCEBuddy.Engine.csproj">
+      <Project>{BAD042C9-4BF3-4906-ACED-FFCA708C3157}</Project>
+      <Name>MCEBuddy.Engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MCEBuddy.Globals\MCEBuddy.Globals.csproj">
+      <Project>{582764CD-025E-4CB1-B2C4-0C52A59BE74E}</Project>
+      <Name>MCEBuddy.Globals</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MCEBuddy.GUI\MCEBuddy.GUI.csproj">
+      <Project>{7E8D78E7-1A6F-4D60-A25E-246CEAECBFD0}</Project>
+      <Name>MCEBuddy.GUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MCEBuddy.RemuxTiVOStreams\MCEBuddy.RemuxTiVOStreams.csproj">
+      <Project>{FA2243B2-460B-4E08-B53C-8C95E51ABD82}</Project>
+      <Name>MCEBuddy.RemuxTiVOStreams</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MCEBuddy.UserCLI\MCEBuddy.UserCLI.csproj">
+      <Project>{B273B770-A1F7-46B8-980D-F06314CF5BDB}</Project>
+      <Name>MCEBuddy.UserCLI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MCEBuddy.Util\MCEBuddy.Util.csproj">
+      <Project>{0D324A60-A350-422E-B522-12B9EAEFDAEC}</Project>
+      <Name>MCEBuddy.Util</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MCEBuddy.ProgressODoom\MCEBuddy.ProgressODoom.csproj">
+      <Project>{8DD1E84B-0B03-4C0B-9B42-1E49F75E7CB1}</Project>
+      <Name>MCEBuddy.ProgressODoom</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MCEBuddy.ServiceCMD.exe.manifest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="MCEBuddy2-HP.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MCEBuddyIcon_32x32.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>robocopy "$(SolutionDir)Lib\." "$(TargetDir)." /s /e
+set rce=%25errorlevel%25
+if %25rce%25==8 exit %25rce%25
+if %25rce%25==16 exit %25rce%25
+copy /y "$(SolutionDir)Lib\mediainfo.x86\MediaInfo.dll" "$(TargetDir)MediaInfo32.dll"
+if $(Platform)==x64 copy /y "$(SolutionDir)Lib\mediainfo.x64\MediaInfo.dll" "$(TargetDir)MediaInfo64.dll"
+xcopy "$(SolutionDir)Lib\ffmpeg.$(Platform)\*" "$(TargetDir)ffmpeg\" /e /y
+xcopy "$(SolutionDir)Lib\avidemux.$(Platform)\*" "$(TargetDir)\avidemux\" /e /y
+xcopy "$(SolutionDir)Lib\handbrake.$(Platform)\*" "$(TargetDir)\handbrake\" /e /y
+xcopy "$(SolutionDir)Lib\mp4box.$(Platform)\*" "$(TargetDir)\mp4box\" /e /y
+xcopy "$(SolutionDir)Lib\mkvmerge.$(Platform)\*" "$(TargetDir)\mkvmerge\" /e /y
+attrib -r "$(TargetDir)\*.*" /S
+del /F /Q "$(TargetDir)cache\*"
+del "$(TargetDir)config\history"
+del "$(TargetDir)config\manualqueue"
+exit 0
+</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

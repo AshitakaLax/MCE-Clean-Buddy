@@ -1,0 +1,7 @@
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\ManagedUPnP\bin\Release\MCEBuddy.ManagedUPnP.xml
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\ManagedUPnP\bin\Release\MCEBuddy.ManagedUPnP.dll
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\ManagedUPnP\bin\Release\MCEBuddy.ManagedUPnP.pdb
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\ManagedUPnP\obj\Release\Interop.UPNPLib.dll
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\ManagedUPnP\obj\Release\ManagedUPnP.csproj.ResolveComReference.cache
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\ManagedUPnP\obj\Release\MCEBuddy.ManagedUPnP.dll
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\ManagedUPnP\obj\Release\MCEBuddy.ManagedUPnP.pdb

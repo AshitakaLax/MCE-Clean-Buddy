@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy nu utilizează utilizatorul conectat în prezent să se conecteze la reţea acțiuni, se utilizează serviciul propriu.  Asiguraţi-vă că pentru a specifica informaţiile de conectare utilizator (MCEBuddy cu o pictogramă cheie)
+Connection Reminder	Conexiune memento
+Description	Descriere
+Path	Calea
+is invalid	nu este valid
+Invalid Path	Cale nevalidă
+Please supply a task name	Vă rugăm să furnizați un nume de activitate
+No name supplied	Nici un nume furnizate
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	Vă rugăm să introduceţi codul de limbă 3 cifre pista Audio sau selectaţi <Default>sau <Original>
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	3 Cifre cod ISO pentru language\r\nMake selectat-vă că aceasta corespunde codul de limbă pentru pista audio în original recording.\r\nTo get codul de limbă pentru piese audio în fişierul înregistrat iniţial, adăugaţi file\r\nto coada de aşteptare şi faceţi clic dreapta pe ea. Se va deschide un pop sus fereastră care prezintă audio details\r\nwhich includ codurile de limbă pentru fiecare pista audio.
+Invalid Language Code	Codul de limbă incorectă
+No destination directory provided, converted file will be placed in original video directory	Nici un director de destinație prevăzut, fişierul convertit va fi plasat în directorul video original
+A task name or section	Un nume de activitate sau o secţiune
+already exists\n\rPlease use another name	deja exists\n\rPlease a utiliza un alt nume
+Duplicate Name	Dublare nume
+Engine	Motor
+Tasks	Sarcini
+Profile	Profil
+disposing	Eliminare
+Task name	Numele de activitate
+Give a unique name to this task	Daţi un nume unic de această activitate
+Gives a short description for the selection conversion profile	Oferă o scurtă descriere pentru profilul de conversie selecţie
+Click to select destination folder	Faceţi clic pentru a selecta folderul destinaţie
+Destination	Destinaţie
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	Selectaţi directorul unde fişierul convertit va fi placed.\r\nLeave acest gol a păstra fişierul convertit în același director ca și originalul vizual.
+Max width	Lăţimea
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	Acest lucru limitează lățimea maximă (în pixeli) a video de convertit file.\r\nTIP: nu se aplică dacă fişierul original are o lăţime mai mică decât această number.\r\nIf doriţi să păstraţi dumneavoastră mutare de rezoluţia video original glisorul tot drumul spre dreapta.
+Quality	Calitate
+Ad remover	Anunţ remover
+None	Nici unul
+Get series details from Internet	Obţine detalii serie de Internet
+Download additional details about the movie or series from the internet	Descărcaţi detalii suplimentare despre filmul sau seria de pe internet
+File name match	Meci de nume de fişier
+Recording title match	Înregistrare titlu meci
+Cancel	Revocare
+OK	ok
+Rename without converting	Redenumiţi fără conversia
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	Verificaţi această opţiune doar redenumiţi şi copia fişierele originale de destinaţie folder.\r\nWhen verificat, conversie, fasonare, procesare audio/vizual şi îndepărtarea comerciale nu va fi available.\r\n\r\nNOTE: alte funcţii ca potrivire filtre, extragerea subtitrari, economisind metadate şi \r\nwill detectarea comerciale (EDL dosar de economisire) încă fi disponibile cu această opţiune checked.\r\nIf doriţi să mutaţi în loc de copiere, verifica Skip Copiere original opţiune în setările de Expert pe această pagină sau select\r\nDelete fişierul original în pagina de Setări principale.
+Rename and sort by video information	Redenumiţi şi sortaţi informaţiile video
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	Redenumeşte fişierul convertit şi îl plasează într-un nou director, pe baza informaţiilor Arată/serie atunci când available\r\n (ex. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	Introduceţi numele de utilizator şi parola de acces folderele care sunt pe o unitate din reţea sau pe un alt computer
+Organize by seasons	Organizaţi sezoane
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	Organiza dosarele de Showname şi atunci când sezonul disponibile (XBMC/Media Center/Plex compatibil convenţie de denumire) \r\n (de ex. Showname\\Season nume de XX\\SXXEYY-episod)
+Audio language	Limba audio
+Advanced Settings	Setările complexe
+General Settings	Setări generale
+Conversion Task	Activitate de conversie
+Password	Parola
+Confirm Password	Confirmare parolă
+Domain / computer name	Domeniu / nume computer
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	Introduceţi <Optional>dacă la distanţă cu maşina de computer sau reţea utilizează un domeniu pentru authentication.\r\nDo introduceţi grupul de lucru aici. Lasi aceasta necompletat dacă folosiţi un grup de lucru.
+User name	Numele de utilizator
+Enter the username to access the remote computer or network drive	Introduceţi numele de utilizator pentru a accesa unitatea de computer sau în reţea la distanţă
+Enter the password to access the remote computer or network drive	Introduceţi parola pentru a accesa unitatea de computer sau în reţea la distanţă
+Network Connection User Credentials	Acreditările utilizatorului de conexiune reţea
+Password Mismatch	Nepotrivire de parola
+Passwords do not match, please reenter the passwords	Parolele nu se potrivesc, vă rugăm să Reintroduceți parolele
+Hour	Oră
+Minute	Minute
+Wake	Wake
+Start	Start
+Resume	CV-ul
+Pause	Pauză
+Stop	opreşte-te
+Language	Limba
+Pause conversion tasks	Sarcini de conversie pauză
+Resume conversion tasks	Sarcini de conversie CV
+Please enter a valid time	Introduceţi un valabil timp
+Invalid Time	Timp nevalid
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	Timpul de oprire este după ora de începere. Presupunând că timpul de oprire este în timpul a doua zi, este corect?
+Time Check	Selectare timp
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	Selectaţi această opţiune dacă MCEBuddy a fost conversia fişierelor fiabil pentru o perioadă acceptabilă de timp. Doriţi ca MCEBuddy pentru a şterge fiecare fişier original, după ce acesta a fost convertit?
+Confirm delete originals?	Confirmare ştergere originale?
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy va monitoriza aceste directoare pentru fişiere video pentru a converti automat
+Conversion tasks	Sarcinile de conversie
+Delete original file	Ştergeţi fişierul original
+Deletes the original recording after a successful conversion	Şterge înregistrarea originală după o conversie de succes
+Min age before conversion (hours)	Min vârsta înainte de conversie (ore)
+Minimum hours to wait before converting each file after the file is added to the queue	Minim de ore să aştepte înainte de a converti fiecare fişier după ce fişierul este adăugată la coadă
+Use this to change the language of the text on the screen	Folosi aceasta pentru a schimba limba textului pe ecran
+Concurrent conversions	Conversii concurente
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	Numărul de conversii simultană MCEBuddy poate start\r\nNOTE: aveţi nevoie de cantităţi mari de timp spaţiu şi procesor de disc pentru mai mult de 2 conversii simultană
+Logging level	Nivel de logare
+Error	Eroare
+Warning	AVERTISMENT
+Information	Informaţii
+Debug	Depanare
+Log conversion jobs	Jurnal de conversie de locuri de muncă
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	Salvaţi un fişier jurnal pentru fiecare conversie în \'logs\' Director în cazul în care, în cazul în care MCEBuddy este installed\r\n (de exemplu, C:\\Program Files\\MCEBuddy2x\\logs)
+Allow sleep	Permite somn
+If unchecked, it prevents the system from entering sleep while converting	Dacă este debifată, previne sistemul la intrarea somn în timpul conversiei
+Stop at	Opri la
+No new conversions would be started after this time	Nu conversii noi ar fi început după acest timp
+minute	minute
+hour	oră
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	Dacă verificat MCEBuddy va readuce sistemul la sleep\r\nat ora de începere specificat şi activat zilele săptămânii.
+Start at	Începe la
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy va începe noi conversii între începutul şi opri time.\r\n\r\nThe Start timp vor fi folosite pentru activat zile ale săptămânii, whereas\r\nthe sfârşitul timp va fi folosit pentru acelasi or\r\nfor de zi a doua zi în cazul în care ora de terminare este după ora de începere.
+Delete	Ştergere
+Add	Adăuga
+Change	Schimbarea
+Archive original file	Fişier arhivă original
+Domain name	Nume de domeniu
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	Opreşte monitor şi conversie sarcinile şi se deschide o pagină pentru a configura MCEBuddy
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	Creează un folder numit \'MCEBuddyArchive\ "în cazul în care fişierul original este located\r\nand mută fişierul original în acest director, după un succes conversion.\r\n\r\nThis pliant nume şi o locaţie fi schimbat în pagina de setări de sistem.
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	Debug - jurnalele de detaliate, ajută urme de conversie problems\r\nInformation - jurnalele de informaţii de bază despre conversion\r\nWarning - jurnal potențialele probleme sau erori critice only\r\nError - jurnal erori critice numai
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	Selectaţi profilul de conversie asociate cu această sarcină. Profilul de conversie reprezintă formatul de ieşire şi calitate pentru calitatea file.\r\nHigher convertit conversii dura mai mult pentru a face conversia. Recomandat implicit: Calitate MP4 sau MP4 Normal.\r\n\r\nTIP: consultaţi Ghidul MCEBuddy pentru parametrii avansate pentru a tweak profiluri de conversie sau pentru a crea propriile profiluri de conversie
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	Selectaţi programul MCEBuddy va folosi benzi afară orice reclame în timpul conversiei video.\r\nSet nici unul să părăsească reclame în video.\r\n\r\nTIP convertit: să utilizaţi ShowAnalyzer în loc de Comskip, vă rugăm să descărcaţi şi să instalaţi ShowAnalyzer.\r\nShow Analyzer versiunea 1.0 şi mai mare sprijinite.
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	Utilizat pentru a modifica video de calitate din fişierul convertit, normală este 1.\r\nA număr mai mare va îmbunătăţi calitatea, dar va dura mai mult pentru conversion.\r\nA număr mai mic va reduce calitatea dar cuvîntare sus conversia.
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Introduceţi model pentru a se potrivi numele de fişiere pentru această sarcină (ex. *.wtv va converti toate fişierele care se termină cu .wtv)\r\nprefix model cu ~ a sări peste meciul (ex. *. *; ~*.wtv va procesa toate fişierele, cu excepţia celor care se termină cu .wtv)\r\nseparate mai multe modele cu; (ex. *.wtv; ncis *; ~ ncis miami *) va procesa toate fişierele .wtv şi toate incepand cu ncis dar nu cei incepand cu ncis miami\r\n\r\nYou pot folosi expresii regulate pentru a se potrivi modelului de incepand cu regex:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Introduceţi model pentru a se potrivi Arată/serie de titluri pentru această sarcină (ex. Simpson * va converti toate fişierele care au un titlu de Arată incepand cu Simpson) \r\nPrefix model cu ~ a sări peste meciul (ex. *; ~ Simpson * va procesa toate titlurile Arată cu excepţia celor care încep cu Simpson) \r\nSeparate mai multe modele cu; (ex. Simpson *;House*) sau (ex. Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nYou pot folosi expresii regulate pentru a se potrivi modelului de incepand cu regex:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	Acest lucru poate fi folosit pentru a trece peste implicit limba Audio atunci când există mai multe limbi audio într-o recording.\r\nTo obţine lista de limbi Audio într-o înregistrare, faceţi clic dreapta pe fişierul în coadă şi selectaţi MediaInfo.\r\n\r\n <Default>va încerca să păstreze toate pistele audio dacă acceptă sau lasa encoder alege implicit audio track\r\n <Original>, dacă este disponibil, va folosi limba [non-poreclit] înregistrarea originală
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	Introduceţi '[video]' sau lăsaţi necompletat pentru a converti toate files\r\nEnter vizual model pentru a se potrivi numele fişierelor pentru această amplasare (ex. *.wtv voinţă a voi convertizor toate fişierele care se termină cu .wtv)\r\nprefix model cu ~ pentru a sări peste meciul (ex. *. *; ~*.wtv va procesa toate fişierele cu excepția celor care se încheie cu .wtv)\r\nseparate mai multe modele cu; (ex. *.wtv; ncis * ~ ncis miami *) va procesa toate fişierele .wtv şi toate fişierele incepand cu ncis dar nu cele incepand cu ncis miami
+MCEBuddy Settings	Setări de MCEBuddy
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy nu utilizează utilizatorul conectat în prezent să se conecteze la reţea acțiuni, se utilizează serviciul propriu.  Asiguraţi-vă că specificaţi informaţiile despre utilizator conexiune [MCEBuddy cu o pictogramă cheie]
+Please supply a source name	Vă rugăm să furnizați un nume de sursă
+Please supply a search path name	Vă rugăm să furnizați un nume de cale de căutare
+A source name or section	Un nume de sursă sau o secţiune
+already exists. Please use another name	există deja. Vă rugăm să folosiţi un alt nume
+Monitor name	Nume monitor
+Give this a location a unique name	Aceasta oferă o locaţie un nume unic
+Monitor path	Calea monitor
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	Selectaţi directorul care va monitoriza MCEBuddy în fundal pentru fișiere video noi pentru a converti automat
+Click to select the folder to monitor	Faceţi clic pentru a selecta folderul pentru a monitoriza
+Search pattern	Model de căutare
+SourceForm	SourceForm
+Monitor Location	Poziţia monitor
+Normal	Normală
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: pipeProxy motor de eroare de conexiune
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: Imposibil de creat pipe la serviciul de MCEBuddy
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	Serviciul MCEBuddy este indisponibil. Vă rugăm să începeţi din panoul de control Windows sau Verificați conexiunea la motorul.
+Announcement	Anunţ
+New version 	Noua versiune 
+available	disponibile
+New BETA version 	Noua versiune BETA 
+Click here to download new version of MCEBuddy	Faceţi clic aici pentru a descărca noua versiune de MCEBuddy
+Click here to open link	Click aici pentru a deschide link-ul
+Idle	Inactiv
+Closing	Închidere
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI: Incapabil la spre update sarcini
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: Imposibil de pornit serviciul MCEBuddy
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: Imposibilitatea de a opri serviciul MCEBuddy
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI: Imposibilitatea de a anula locuri de muncă
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	Avertisment: Fişiere în reţea va fi accesat utilizând acreditările de log on de MCEBuddy Service, nu în prezent înregistrate pe utilizator. Se poate specifica manual acreditări de rețea din setările-> pagina setări Expert în MCEBuddy.
+Credential Warning	Avertizare de acreditare
+Status	Statutul
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI: Imposibil de adăugat locuri de muncă
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: Imposibilitatea de a obţine stare activă ţeavă
+The conversions must be stopped to change settings. Stop the conversions?	Conversii trebuie să fie oprit pentru a schimba setările. Opri conversii?
+Stop Engine	Opri motorul
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI: Imposibilitatea de a opri serviciul MCEBuddy la faceţi clic pe Setări
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: Imposibilitatea de a rescan fişiere
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: Imposibil de deschis link
+Close	Închide
+Close this window, MCEBuddy will keep running in the background	Închideţi această fereastră, MCEBuddy va continua să fie difuzate în fundal
+If you like MCEBuddy, please click here to Donate - THANKS	Dacă vă place MCEBuddy, vă rugăm să click aici pentru Donate - THANKS
+Click here to like MCEBuddy on facebook	Click aici pentru a dori MCEBuddy pe facebook
+Click here to open MCEBuddy website	Faceţi clic aici pentru a deschide site-ul MCEBuddy
+Rescan	Rescan
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	Forțele MCEBuddy să verificaţi din nou locurile Monitor pentru noi fişiere video la conversie
+Monitor locations	Monitor locatii
+Settings	Setări
+Select the file(s) in the queue to delete	Selectaţi fișier(e) în coada de aşteptare pentru a şterge
+Manually add video file(s) to the queue to convert	Adăugaţi manual fișierele video la coada de aşteptare pentru a converti
+Start the MCEBuddy monitor and conversion tasks	Începe MCEBuddy monitor şi conversie sarcinile
+Stop the MCEBuddy monitor and conversion tasks	Stop MCEBuddy monitor şi conversie sarcinile
+There is a new version!	Există o nouă versiune!
+High	Ridicat
+Low	Low
+Priority	Prioritate
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	Prioritate - conversia mai repede, dar poate face alte aplicaţii rulează unresponsive\r\nLow prioritate - conversia în fundal, dar redusă interferenţe cu alte aplicaţii rulează
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	O activitate este un şablon de conversie care conţine un profil de conversie şi diverse alte parameters.\r\nEach de conversie Fişier adăugat la coadă vor fi prelucrate şi conversia de fiecare dintre aceste tasks.\r\nRefer Ghidul MCEBuddy pentru mai multe detalii despre cum sarcinile de lucru.
+Getting started	Noţiuni de bază
+Click here for MCEBuddy guide	Faceţi clic aici pentru MCEBuddy ghid
+Logs	Jurnalele
+Click to open log folder	Faceţi clic pentru a deschide folderul jurnal
+MCEBuddy Status	Starea MCEBuddy
+add	adăuga
+delete	Ştergere
+paypal-donate	PayPal-dona
+stop	opreşte-te
+OUTPUT: ConsoleOuput received NULL data	IEŞIRE: ConsoleOuput primit date NULL
+hours	ore
+minutes	minute
+second	al doilea
+seconds	secunde
+Starting	Incepand
+Comskip advertisement scan - Pass 1	Comskip publicitate scan - trece 1
+Comskip advertisement scan - Pass 2	Comskip publicitate scan - 2 trece
+Cutting commercials from video	Tăiere reclame de la pagina
+Cutting commercials from video - segment 	Tăiere reclame la video - segment 
+Merging commercial free segments into new video	Segmente de drum liber comerciale care fuzionează în noi video
+Moving converted file to destination	Mutarea fişierului convertit la destinație
+Checking for disk space	Verificarea pentru spaţiu-disc
+Getting show information and banner from Internet sources	Noţiuni de bază Arată informaţii şi banner-ul din surse Internet
+Copying source file to working directory	Copierea fişierul sursă la director de lucru
+Remuxing recording	Remuxing înregistrare
+ShowAnalyzer advertisement scan	Scanare de publicitate ShowAnalyzer
+Comskip advertisement scan	Scanare de publicitate Comskip
+Analyzing video information	Analizând-video
+Converting	Conversia
+Removing commercials	Eliminarea reclame
+Writing show information	Scris afişează informaţii
+Renaming file using show information	Redenumirea dosar folosire Afişare informaţii
+Success - All done!	Succesul - toate făcut!
+Muxing streams	Fluxuri Muxing
+Fallback remux	Rezervă remux
+Correcting audio delay	Corectarea întârziere audio
+Converting video file - Pass 1	Conversie Fişier video - trece 1
+Converting video file - Pass 2	Fişier video - 2 trece de conversie
+Converting video file	Conversie Fişier video
+Audio Track	Pistă audio
+Impaired	Deficienţe de vedere
+Channels	Canale
+Codec	Codec
+Video	Video
+Duration	Durata
+Height	Înălţime
+Width	Lăţime
+Audio	Audio
+Name	nume
+Subtitle	Subtitrare
+Volume	Volumul
+Enable custom file renaming	Permite fişier particularizate redenumirea
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	Permit acest lucru pentru a introduce un model personalizat pentru a redenumi fişierele convertite şi foldere. Introduceţi șablonul particularizat în caseta below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S % sezonul % ##E % episod % ##-% episodename % - %airyear%_%airmonth%_%airday%\r\n\r\nWill produs: \r\nTVShows\CSI\Season 1\CSI - S01E02 - cele mai bune de ori - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (pentru un film) \r\n Recording\Movies\Star Wars-convertit. <ext>\r\nOR (pentru filme nu) \r\n Recording\TVShows\CSI\Season 1\CSI - S01E02-convertit.<ext>\r\n\r\nRefer a MCEBuddy avansate documentaţia pentru o listă a tuturor comenzilor de model.
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	ShowAnalyzer nu a fost găsit. \nIntroduceți descărcaţi şi instalaţi ShowAnalyzer.
+ShowAnalyzer Missing	ShowAnalyzer lipsă
+Invalid language code, reverting to <Default> language	Codul de limbă incorectă, revenirea la limba <Default>
+Cut start	Taie începe
+Cut end	Tăiat final
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	Aceasta specifică numărul de secunde pentru a reduce din start de înregistrare (înainte de a scoate anunturi)
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	Aceasta specifică numărul de secunde pentru a tăiat de la sfârşitul de înregistrare (înainte de a scoate anunturi)
+Send an eMail after each conversion.	Trimite un E-mail după fiecare conversie.
+Send eMail	Trimite E-mail
+SMTP Server Name	Numele serverului SMTP
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	Introduceţi expediere poştă electronică (SMTP) server adresa here\r\ne.g. SMTP.gmail.com
+Port	Port
+Enter the SMTP server port	Introduce portul serverului SMTP
+Use SSL	Utilizarea SSL
+Check this if you SMTP server uses SSL	Acest lucru a verifica dacă aveţi SMTP server utilizează SSL
+e-Mail Settings	Setări de poştă electronică
+From <e-Mail>	De <e-Mail>
+Enter the senders (From) eMail address here	Introduceţi expeditorii (de la) adresa de E-mail aici
+To <e-Mails>	De <e-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	Introduceţi beneficiarilor () here.\r\nSeparate adresa de E-mail mai multor destinatari cu punct şi virgulă (;)
+Send eMail on successful conversion	Trimite E-mail pe conversie de succes
+Send eMail on failed conversion	Trimite E-mail nu a reuşit de conversie
+Send eMail on cancelled conversion	Trimite E-mail la convertirea anulate
+Send eMail on adding a conversion to the queue	Trimite eMail la adăugarea de o conversie de la coadă
+Please enter a valid server address	Introduceţi un valid server adresă
+Invalid SMTP Server	Serverul SMTP nevalid
+Please enter a valid server port	Introduceţi un valid server port
+Invalid SMTP Port	Invalid SMTP Port
+Please enter a valid From eMail address	Vă rugăm să introduceţi un valid adresă de E-mail
+Invalid eMail Address	Valid poştă electronică adresă
+Please enter valid To eMail addresses	Vă rugăm să introduceţi valabil la adresele de eMail
+Username	Numele de utilizator
+<Optional> Enter the username for the eMail server authentication	Enter <Optional>numele de utilizator pentru Autentificare server E-mail
+<Optional> Enter the password for the eMail server authentication	Enter <Optional>parola pentru Autentificare server E-mail
+MCEBuddy unable to download series information	Imposibilitatea de a descărca informaţii de serie MCEBuddy
+MCEBuddy successfully converted a video	MCEBuddy cu succes conversia o video
+Source Video	Sursa Video
+Converted Video	Video convertite
+Converted At	Convertit la
+MCEBuddy failed to converted a video	MCEBuddy nu a reușit conversia o video
+Failed At	Nu a reuşit la
+MCEBuddy cancelled a video conversion	MCEBuddy anulat un conversie video
+Cancelled At	Anulată la
+Working	De lucru
+Test	Test
+Testing	Testarea
+Click this button to test the eMail server settings	Faceţi clic pe acest buton pentru a testa setările de server de poştă electronică
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy va trimite un E-mail pentru a testa server settings.\r\nThis poate iau pana la 60 seconds.\r\nMCEBuddy poate fi unresponsive în această perioadă.
+Test eMail	Test eMail
+MCEBuddy Test eMail	MCEBuddy Test eMail
+MCEBuddy - Have a great day!	MCEBuddy - au o zi mare!
+Send eMail test successful	Trimite E-mail test de succes
+Send eMail test failed! Please check your settings and internet connectivity	Trimite E-mail test nu a reuşit! Vă rugăm să verificaţi setările şi conectivitate la internet
+Test eMail Success	Test de E-mail succes
+Test eMail Failed	Test de E-mail nu a reuşit
+Send eMail on start of conversion	Trimite E-mail pe start de conversie
+MCEBuddy started a video conversion	MCEBuddy a început o conversie video
+Conversion Started At	Conversie a început la
+Yes (Comskip)	Da (Comskip)
+Yes (ShowAnalyzer)	Da (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	Atleast o sarcină de conversie trebuie să fie activată
+Disable	Nu fi de acord
+Enable	Permite
+Rename	Redenumire
+Move	Muta
+Up	Sus
+Down	În jos
+Slow Remuxing	Lent Remuxing
+Extracting closed captions	Extragerea subtitrărilor
+Validating closed captions	Validarea subtitrărilor
+Extracting subtitles	Extragerea subtitrari
+Trimming closed captions	Tunderea închis legende
+Extract subtitles and closed captions	Extract de subtitrari şi subtitrărilor
+Field	Câmp
+Channel	Canal
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	Permite acest lucru pentru a extrage legende închise, subtitrare şi Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV şi alte files.\r\n\r\nIt acceptate este salvat ca un fisier de subtitrare (SRT).
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	Permite să setaţi opţiuni avansate pentru legende închis extraction\r\nField - 1 sau 2\r\nChannel - 1 sau 2\r\n\r\nDefault: 1 câmp, Channel 1
+Subtitle offset	Subtitrare offset
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	Introduceţi numărul de secunde (+ ve / - ve) pentru a regla la sincronizare de subtitrari cu video
+Re-ReMuxing due to audio error	Re-ReMuxing datorită eroare audio
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	Salveze posterului şi afişa informaţii (metadata) într-un MC/XBMC compatibil NFO dosar (XML format)
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	Bifați această casetă pentru a salva informaţiile Arată (metadata) în file.\r\nThis convertit doar lucrări pentru fişiere care acceptă Tag-uri metadate ca MP4, MKV, WTV etc.\r\n\r\nNOTE: Debifaţi această casetă dacă sunteţi confruntă cu probleme cu unele dispozitive, cum ar fi TV vechi, care au problema lectură metadate.
+Atleast one day of the week must be enabled	Atleast o zi a săptămânii trebuie să fie activată
+Invalid Days of Week	Invalid zile ale săptămânii
+Invalid day of week found in configuration file	Invalid zi a săptămânii found in configuration file
+Scheduling	Programare
+Remuxing to	Remuxing la
+Part	Parte
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	Restul mouse-ul pe orice buton, cutie sau element pentru a obţine ajutor Instant pe it.\n\nFor mai multe informaţii despre cum să utilizaţi, depanaţi sau obţine sprijin pentru MCEBuddy faceţi clic pe link-ul < Noţiuni > pe corner.\n\nDonations dreapta sus sunt întotdeauna binevenite :) Bucuraţi-vă! \n\n - Dita, Derek & gâscă
+Welcome to MCEBuddy	Bine ati venit la MCEBuddy
+Multichannel audio	Audio multicanal
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	Verificaţi pentru a permite audio multi-canal, în cazul în care sursa video acceptă it.\r\nBy implicit audio este limitat la 2 canale (stereo).
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	Dynamic Range Compression (RDC) \r\nWhen sursa este un audio AC3, care să permită RDC will\r\nreduce diferenţa dintre tare şi soft\r\nsounds a face piesa audio even.\r\nIf mai ai o înregistrare audio multi-canal şi you\r\nfeel volumul este prea moale, verificarea această casetă s-ar putea ajuta.
+FPS	FPS
+Logfile age (days)	Logfile vârsta (zile)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	Numărul maxim de zile cât păstraţi fişiere de jurnal înainte de a şterge them.\r\nSet la 0 pentru a păstra jurnalele pentru totdeauna.
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	Remuxing rapid
+Byte stream remuxing	Remuxing de fluxul octet
+Disable cropping	Dezactivaţi trunchiere
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	Verificaţi acest lucru să dezactivaţi trunchierea înregistrării video automat în timpul conversion.\r\nCropping este utilizat pentru a elimina barele de"negru" în clipul video (sus, jos, stânga sau right).\r\nUse această opţiune dacă imaginea vizual este obtinerea tăiat pe orice parte sau dacă imaginea finală este în căutarea întins sau distorsionat.
+Only detect Ads	Numai detecta anunţuri
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	Verifica acest lucru, dacă doriţi MCEBuddy pentru a detecta ads (reclame), dar nu le tai din video.\r\nWhen această opţiune este activată, MCEBuddy va crea un fişier EDL împreună cu fişierul convertit care specifică locatii de anunţuri în video.\r\nAlso convertit, pentru MP4, M4V si MKV fişiere MCEBuddy va crea capitole pentru a marca sfârşitul reclame.
+Download information	Descărcaţi informaţii
+Correction	Corectarea
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	Click aici pentru a corecta titlul Arată şi forţa utilizarea unui speciale TVDB seria id sau IMDB filmul id\r\nto căutare metadate suplimentare de pe internet.
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	Verificaţi acest lucru pentru a descărca informații suplimentare din internet despre spectacol ca un fişier banner-ului, episod, sezonul etc
+Profile Error	Eroare de profil
+Cannot find selected profile in profiles.conf	Imposibil de găsit profilul selectat în profiles.conf
+Invalid Profile	Profil nevalid
+Please select a valid profile	Vă rugăm să selectaţi un profil valabile
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	S-a prefăcut motor MCEBuddy. Vă rugăm să trimiteţi mcebuddy.log la dezvoltatorii
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	Selectaţi fişierul Comskip INI particularizată să utilizaţi pentru această conversie task\r\nLeave acest vid pentru a utiliza fişierul Comskip INI implicit pentru îndepărtarea de publicitate
+Click to select custom Comskip INI file	Faceţi clic pentru a selecta particularizată a fişierului Comskip INI
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	Selectaţi folderul pentru lucrul cu fişiere temporare. Asiguraţi-vă că există suficient goale spaţiu pe drive.\r\nLeave acest vid pentru a utiliza implicit temp pliant în dosarul de instalare.
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	Selectaţi folderul de lucru cu fişiere temporare. Asiguraţi-vă că există suficient spațiu gol drive.\r\nThis suprascrie folderul temp specificată în setările-> pagina setări Expert.
+Click to select temp working folder	Faceţi clic pentru a selecta temp pliant de lucru
+Temp folder	TEMP pliant
+Space check	Selectare spaţiu
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	Când MCEBuddy activat va verifica pentru suficient spațiu liber pentru conversie (destinaţie şi temp).\r\nUncheck acest lucru dacă aveţi sunt probleme cu unităţile de reţea sau au fişiere video extraordinar de mari.
+MCEBuddy Windows Event Logs	Jurnalele de evenimente MCEBuddy Windows
+Events	Evenimente
+Click here to open the MCEBuddy Windows Event Logs	Click aici pentru a deschide jurnalele de evenimente Windows MCEBuddy
+Enable UPnP	Activare UPnP
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	Verifica acest lucru pentru a activa UPnP. Acest lucru permite accesul la MCEBuddy motor din afara network.\r\nThis trebuie să fie verificat dacă utilizaţi un mobil/standalone MCEBuddy client pentru a accesa MCEBuddy.
+Click here to connect to another MCEBuddy engine	Click aici pentru a vă conecta la un alt motor de MCEBuddy
+MCEBuddy Remote Engine Connection	MCEBuddy telecomanda motor de conexiune
+Engine Name	Numele de motor
+Engine Port	Motor de Port
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	Introduceţi numele sau adresa IP a motorului MCEBuddy doriți să se conecteze la
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	Introduceţi numărul de TCP Port a motorului MCEBuddy doriți să se conecteze la
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	Introduceţi numărul de TCP Port a motorului MCEBuddy doriţi să vă conectaţi la 1 (la 63355)
+Invalid Name/Port	Nume/Port nevalide
+Please enter a valid Engine Name and Engine Port Number	Vă rugăm să introduceţi un valabil motor numele şi numărul de Port motor
+Error Stopping Engine	Eroare de oprire motor
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	Imposibil de oprit motor MCEBuddy, setările nu se pot salva. Doriţi să continuaţi?
+Unable to communicate with engine. Settings have NOT been saved.	Imposibil de comunicat cu motor. Setări nu au fost salvate.
+Communication Error	Eroare de comunicare
+Engine not stopped. Settings have NOT been saved.	Motorul nu a oprit. Setări nu au fost salvate.
+Unable To Save Settings	Imposibil de salvat setările
+Unable to communicate with engine. UPnP settings have not been updated	Imposibil de comunicat cu motor. Nu s-au actualizat setările UPnP
+Audio delay	Întârziere audio
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	Introduceţi o valoare în secunde (pozitiv sau negativ) aici să transfere audio în raport cu video.\r\nUse pentru a resync audio cu video, dacă acestea sunt de sincronizare după conversion.\r\nA o valoare pozitivă va întârzia audio (adică pagina inaintea audio) şi o valoare negativă va advanced audio (adică audio înainte de video).\r\nE.g. -1.5
+Media info	Mass-media info
+Click here to get media properties for selected files	Click aici pentru a obţine proprietăţile mass-media pentru fișierele selectate
+Save information	Salvaţi informaţiile despre
+Add information	Adauga informaţii
+Shows a preview of the custom filename and path	Afişează o previzualizare a personalizat de nume de fişier şi calea
+Invalid Filename Pattern	Model nume de fișier nevalid
+TVDB Series ID	ID de serie TVDB
+IMDB Series ID	IMDB seria ID
+Original title	Titlul original
+Corrected title	Corectat titlu
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Introduceţi ID-ul TVDB seria doriţi să utilizaţi pentru a descărca Arată information.\r\nIf caseta titlu Original este gol, acest lucru se va aplica la toate programele selectate de această activitate de conversie.
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Introduceţi ID-ul IMDB filmul doriţi să utilizaţi pentru a descărca film information.\r\nIf Original titlu caseta este gol, acest lucru se va aplica la toate programele selectate de această activitate de conversie.
+Internet Lookup Title and Metadata Correction	Titlul de căutare Internet şi metadate de corecţie
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	Click aici pentru a adăuga un alt rând pentru a se potrivi şi corectarea titluri şi seria id.\r\nIf doriţi să utilizaţi acelaşi titlu corectate sau ID-ul de serie pentru toate Arată transformată de această sarcină de conversie, \r\nleave titlul original gol pe primul rând şi vă ar trebui să adăugaţi un al doilea rând.
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	Introduceţi model pentru a se potrivi Arată/serie de titluri pentru corectarea (ex. Simpson * va înlocui toate titlurile care au un titlu de Arată incepand cu Simpson) model \r\nPrefix cu ~ pentru a sări peste meciul (ex. *. *; ~ Simpson * va corecta toate Arată titluri cu excepţia celor care încep cu Simpson) \r\nSeparate mai multe modele cu; (ex. Simpson *;House*) sau (ex. Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nNOTE: lăsaţi necompletat dacă doriţi să aplicaţi corectate titlu sau ID-ul seriei toate dosarele prelucrate de această conversie task.\r\nIf lăsând gol, nu puteţi adăuga un al doilea row.\r\n\r\nYou puteţi utiliza o expresie regulată pentru a se potrivi titlul de incepand cu regex această casetă:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	Introduceţi titlul nou/corectate doriţi să utilizaţi pentru a descărca informaţii suplimentare la internet.\r\nIf Original titlu caseta este gol, acest lucru va fi aplicat la toate programele selectate de această conversie task.\r\n\r\nYou poate utiliza o expresie regulată pentru a corecta titlul de incepand cu regex:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	Pentru fiecare rând, vă rugăm să introduceţi titlul Original pentru a se potrivi Arată numele şi fie rectificat un titlu sau un ID de seria TVDB/IMDB
+Please enter either a Corrected title or a TVDB/IMDB Series ID	Vă rugăm să introduceţi un titlu de rectificat sau un ID de seria TVDB/IMDB
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	Activaţi acest lucru dacă doriţi MCEBuddy a pune convertite fişier în sursa directory\r\nif calea destinație nu este disponibil. (ex. reţea eşecul sau eşecul de mapare)
+Fallback to source path	Rezervă la sursa calea
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	Utilizat pentru a mări sau a micşora volumul de the\r\nrecording, în timp ce converting.\r\n1 este normal, nimic mai jos va reduce, anything\r\nhigher va creşte.
+Archive folder	Folder arhivă
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	Schimbarea locaţiei folder.\r\nLeave Arhiva gol să utilizaţi folderul implicit "MCEBuddyArchive" în directorul original.
+Monitor subdirectories	Monitor subdirectoare
+Check this box to also monitor all directories within the Monitor path	Bifați această casetă pentru a monitoriza, de asemenea, toate directoarele din calea Monitor
+Click here to show MCEBuddy status	Click aici pentru a afişa starea MCEBuddy
+MCEBuddy service not connected	MCEBuddy serviciu nu conectat
+MCEBuddy idle	MCEBuddy inactiv
+conversions in progress	conversii în desfășurare
+MCEBuddy stopped	MCEBuddy oprit
+Sync converted files	Sincronizează fişierele convertite
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	Verificaţi această opţiune dacă doriţi MCEBuddy pentru a păstra fişierele convertite în sincronizare cu files.\r\ni.e originale. Atunci când fişierele originale sunt şterse de către utilizator, fişierele convertite corespunzătoare sunt, de asemenea, deleted.\r\n\r\nNOTE: MCEBuddy monitorizează numai fişierele originale în folderele de locaţii de monitor şi doar în timp ce motorul este running.\r\nMCEBuddy nu va fi capabil de a urmări fișierele de utilizator șters în timp ce motorul este oprit.
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	Doriţi ca MCEBuddy a şterge fiecare fişier convertit atunci când fişierul original a fost sters?
+Confirm sync conversions?	Confirmare conversii de sincronizare?
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	Sunteţi sigur că nu doriţi să eliminaţi reclamele de convertit video şi păstraţi doar fişierul EDL?
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer nu răspunde. Vă rugăm să reporniţi sistemul sau reinstalaţi ShowAnalyzer.
+ShowAnalyzer Not Responding	ShowAnalyzer nu răspunde
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	Asiguraţi-vă să apăsaţi "Start" după ce închideți această fereastră, altfel programarea şi Wake nu va funcţiona.
+Enabling Scheduling and Wake	Care să permită planificarea şi Wake
+Passwords do not match	Parolele nu se potrivesc
+Password error	Eroare de parola
+Adding subtitles and chapters to file	Adăugarea de subtitrari şi capitole la fişier
+Send eMail if unable to download series information	Trimite E-mail dacă imposibilitatea de a descărca informaţii de serie
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	Bifează această casetă dacă doriţi această sarcină de conversie pentru a procesa doar fişierele din specifice monitorul locations.\r\nIf unchecked fiecare sarcină de conversie va procesa fişierele din toate locaţiile de monitor (inclusiv unele noi adăugate mai târziu).
+Select Monitor Locations	Selectaţi monitorul locatii
+Select atleast one Monitor Location name	Selectaţi atleast un singur Monitor locație nume
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	Aţi selectat toate curent Monitor Locations.\r\nDo doriţi această sarcină de conversie pentru a procesa automat orice noi locatii Monitor adăugate în viitor?
+New monitor locations	Noul monitor locatii
+Invalid selection	Selecție nevalidă
+Channel name match	Meci de numele canalului
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Introduceţi model pentru a se potrivi numele canalului pentru această sarcină (ex. ABC * va converti toate fişierele care înregistrează un nume de canal incepand cu ABC) model \r\nPrefix cu ~ pentru a sări peste meciul (ex. *; ~ ABC * va procesa toate canalele cu excepţia celor care încep cu ABC) \r\nSeparate mai multe modele cu; (ex. ABC *;TBS*) sau (ex. ABC *;Fox*; ~ Fox4 *) \r\n\r\nYou pot folosi expresii regulate pentru a se potrivi modelului de incepand cu regex:
+Clear history	Golire istoric
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	Faceţi clic pe acest buton pentru a şterge istoria toate convertit files.\r\nThis este cauza MCEBuddy la reconversia toate fişierele monitorizate.
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	Sigur doriţi să goliţi istoricul de toate conversii? \r\nThis va provoca MCEBuddy la reconversia toate fişierele monitorizate.
+Show history	Istoria Arată
+Click this button to show the history of all converted files.	Faceţi clic pe acest buton pentru a arata istoria toate fişierele convertite.
+History of Converted Files	Istoria fişierele convertite
+Unable to communicate with engine.	Imposibilitatea de a comunica cu motor.
+Extracting streams	Extragerea fluxuri
+Fallback muxing streams	Fluxuri de rezervă pentru muxing
+Remuxing TiVO file	Remuxing TiVO fişier
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	Introduceţi ta 10 cifre TiVO MAK-cheie pentru a converti şi a procesului de TiVO inregistrari
+Invalid TiVO MAK Key	Cheie nevalidă TiVO MAK
+The TiVO MAK key should be 10 digits	TiVO MAK cheie ar trebui să fie 10 cifre
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	Nepotrivire de versiune. Asiguraţi-vă că MCEBuddy client şi motor se execută aceeaşi versiune.
+Error retrieving Event Logs	Eroare recuperare jurnalele de evenimente
+Unable to get Event Log Entries from the MCEBuddy engine.	Imposibilitatea de a obţine intrări jurnal de evenimente la motorul MCEBuddy.
+PAUSED: Check conversion schedule	ÎNTRERUPTE: Programul de conversie selectare
+Logging	Logare
+Folder Management	Pliant conducere
+Processor Management	Procesor de Management
+Expert Settings	Setări expert
+System Settings	Setări de sistem
+Click here to change additional settings (for experts only)	Click aici pentru a schimba setările suplimentare (pentru experţi numai)
+Failed folder	Dosarul nu a reuşit
+Location of the folder that hold the original files for failed conversions.	Locaţia folderului care deţin fişierele originale pentru conversii nu a reuşit.
+Move original file on failure	Mutaţi fişierul original eşec
+Check this to move the original file to a separate folder if the conversion fails.	Verifica acest lucru pentru a muta fişierul original într-un folder separat, în cazul în care conversia eşuează.
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	Verifica acest lucru pentru a limita numărul de procesoare logice care caseta de selectare de mai jos de MCEBuddycan use.\r\nEach corespunde unui procesor logice disponibile.
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Fiecare cutie cu un procesoare logice care durează reprezintă de la 1 la 16 respectively.\r\nChecking o cutie permite MCEBuddy să folosească acest procesor.
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Fiecare cutie cu un procesoare logice care durează reprezintă de la 17 la 32 respectively.\r\nChecking o cutie permite MCEBuddy să folosească acest procesor.
+Select atleast one processor to use	Selectaţi atleast un singur procesor pentru a utiliza
+Invalid Configuration	Configurare nevalidă
+Comskip path	Calea Comskip
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	Dacă doriţi să utilizaţi o versiune personalizată a Comkip (de exemplu, versiunea de donator) \r\nthen introduceţi calea de instalare comskip here.\r\nLeave necompletat pentru a utiliza comskip implicite, care vine cu MCEBuddy.
+Miscellaneous	Diverse
+Ignore copy protection	Ignora copie de protecţie
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	Verifica acest lucru pentru a ignora pavilion copie de protecţie pe fişierul video în timp ce converting.\r\nNOTE: MCEBuddy nu poate ocoli criptare, acest lucru ajută doar dacă un fişier este incorrectly\r\ntagged ca copie protejate atunci când acesta nu este criptat.
+Use recycle bin	Utilizarea recycle cutie
+Check this to use the recycle bin when files are deleted by MCEBuddy	Verifica acest lucru pentru a utiliza coşul de gunoi când fişierele sunt şterse de MCEBuddy
+Poll period	Perioada de sondaj
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	Acest lucru este cât de des MCEBuddy scanează Monitor sarcini locatii pentru noi files.\r\nThe intervalul este specificat in secunde.
+Server port	Portul serverului
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	Acesta este port TCP MCEBuddy utilizează pentru a comunica cu engine.\r\nWhen la distanţă este activată UPnP, MCEBuddy va adăuga automat acest port la Windows Firewall\r\nand UPnP poarta de acces pentru a permite accesul la internet pe acest port.
+Hang period	Atârna perioada
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	Introduceţi numărul de secunde care MCEBuddy va aştepta un răspuns de la aplicarea the\r\nunderlying se termină înainte de aplicarea ca hung.\r\nEnter 0 pentru a dezactiva detectarea atârna.
+Subtitle commercial cut sync	Subtitrare comerciale taie sincronizare
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	Acest parametru este utilizat atunci când subtitrari du-te progresiv de sincronizare după fiecare segment comerciale este eliminat din setarea video.\r\nThis este folosit pentru a aduce subtitrari înapoi în sincronizare cu timpul video.\r\nEach video comerciale este tăiată, subtitrari dată deplasată de această sumă (+ ve sau - ve în câteva secunde).
+Invalid poll period	Perioada de sondaj nevalid
+Invalid server port	Portul serverului nevalid
+eMail Subject Customization	E-mail subiect personalizare
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	Utilizaţi această secţiune pentru a personaliza subiectul E-mail trimis de MCEBuddy pe la diverse evenimente de conversie enumerate below.\r\nRefer documente, comenzi particularizate pentru definite de utilizator variables.\r\ne.g. Arată % showname % pentru fişierul % originalfilename % conversie de succes folosind sarcina % taskname%\r\nNOTE: nu întotdeauna va toate datele fie disponibile în commands.\r\nLeave personalizat necompletat pentru a utiliza linii de subiect implicit.
+Success	Succesul
+Failed	Nu a reușit
+Cancelled	Anulat
+Download fail	Descarca eşua
+Limit processor utilization	Limita de utilizare procesor
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	Verifica acest lucru pentru a limita numărul de procesoare logice că MCEBuddy poate use.\r\nEach caseta de selectare mai jos corespunde la un procesor logice disponibile.
+Custom profile	Profil personalizat
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	Dacă aveţi un fişier de profiles.conf particularizate pe care doriţi să utilizaţi în loc de the\r\none care vine cu MCEBuddy, introduceţi calea către fişierul here.\r\n\r\nNOTE: MCEBuddy de constant actualizări profiles.conf pentru a oferi bug-ul o stabileşte, \r\nenhancements şi performanţă îmbunătăţiri care vă va fi dor out\r\non dacă utilizaţi această caracteristică.
+Invalid custom profiles.conf	Profiles.conf particularizată nevalidă
+Suspend on battery	Suspenda pe baterie
+Suspend conversions when the computer switches to battery power	Suspenda conversii atunci când calculatorul trece de la baterie
+MCEBuddy added a video conversion to the queue	MCEBuddy adaugă o conversie video la coadă
+Queue	Coadă
+Refer to documentation on using custom commands in custom eMail subjects	Consultaţi documentaţia pe folosind comenzile particularizate în subiecte de E-mail personalizat
+Could not copy information to Clipboard, please try again.	Ar putea copia informaţii Clipboard, vă rugăm să încercaţi din nou.
+Error copying to Clipboard	Eroare de copiere în Clipboard
+Copy to clipboard	Copiaţi în clipboard
+Reconvert files	Reconversia fişiere
+Are you sure you want to reconvert the selected files?	Sunteţi sigur că doriţi să reconversia fişierele selectate?
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	Selectaţi fişierele pe care doriţi să reconversie şi apoi faceţi clic pe acest button.\r\nIf fişierele originale încă sunt monitorizate de către MCEBuddy ei va fi coadă de reconversie.
+Time taken to convert	Timpul necesar pentru a converti
+Network authentication	Autentificare în reţea
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	Faceţi clic pe butonul pentru reţea acţiuni credentials.\r\nThis autentificare este utilizat atunci când fişierele sunt adăugate prin intermediul butonul Add pe window\r\nor principal târât şi a scăzut la o partajare de reţea în caseta de stare de conversie pe fereastra principală.
+Skip reconversion	Skip reconversia
+Do not reconvert the video if a converted file already exists in the destination directory.	Reconversia video în cazul în care un fişierul convertite există deja în directorul de destinaţie.
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	Numele fişierului aşteptat pentru video convertite (nu original pagina filename) este comparat cu nume de fişiere în directory.\r\nIf destinatie fişierul convertite există, fişierul nu va fi reconvertit şi se va considera a fi un succes conversion.\r\nThis este util dacă arată acelaşi/episod este fiind înregistrate pe mai multe ori şi nu doriţi să reconversia them.\r\n\r\nNOTE: Aceasta optiune este ignorat pentru videoclipuri care sunt adăugate manual folosind butonul add sau glisare şi fixare
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	Dacă este activat, treci reconversia va verifica, de asemenea, dosarul cu istoricul pentru ultimii conversions.\r\nThe aşteptat nume de fişier pentru video convertite (nu original pagina filename) este comparat cu nume de fişiere în istoria file.\r\nIf a fi convertit filename (inclusiv calea) se potriveşte orice de la filenames deja convertit (inclusiv căi) în fişierul istoria, \r\nthe fişier nu va fi reconvertit şi se va considera a fi o conversie de succes.
+Adding file to the iTunes library	Adăugarea fişierului iTunes bibliotecă
+Add to iTunes	Adauga la iTunes
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	Verificaţi această casetă pentru a adăuga automat fişierele convertite la iTunes library.\r\nThis functioneaza doar cu iTunes fişiere acceptate (de exemplu, MP4, M4V, MP3 etc)
+Adding file to the WMP library	Adăugarea file la Biblioteca WMP
+Library Management	Management de bibliotecă
+Add to Windows Media Player	Adăugaţi la Windows Media Player
+Check this box to automatically add the converted files to the WMP library.	Bifați această casetă pentru a adăuga automat fişierele convertite la Biblioteca WMP.
+Renaming and Sorting	Redenumirea şi sortare
+Selection Filters	Filtre selectie
+Audio and Video	Audio şi Video
+Subtitles and Chapters	Subtitrari şi capitolele
+Skip copying original files	Skip copierea fişierelor originale
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	Verificaţi acest caseta de la propriul dvs RISK.\r\nDO nu verifica acest caseta dacă nu ştiu ce tu esti DOING.\r\nCheck această casetă pentru a sări peste face un backup al fisierului original (copierea) în timpul conversiei.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	Verificaţi acest caseta de la propriul dvs RISK.\r\nDO nu verifica această casetă dacă nu ştii ce sunteţi DOING.\r\nCheck această casetă pentru a sări peste face un backup al fisierului original (copierea) în timp ce converting.\r\nIf acest lucru este verificat, fişierul original nu vor fi păstrate în cazul în care o error.\r\nIt, de asemenea, chiar poate duce la eşecuri de conversie sau alte probleme neprevăzute conversia.
+Are you sure you want to do this?	Sunteţi sigur că doriţi să faceţi acest lucru?
+Media Information Management	Gestionarea de informaţii media
+Force show type	Vigoare arată tipul
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	Seta acest lucru pentru a forţa tratarea video de înregistrare ca un film sau TV Series.\r\nThis va schimba modul în care informaţii suplimentare (metadata) despre înregistrarea este descărcat de pe internet.\r\nMovie - tratament înregistrarea ca movie\r\nSeries - trata înregistrarea ca un Series\r\nSports de TV - trata înregistrarea ca un sport show\r\nDefault - utilizare implicit informațiile disponibile în metadate de înregistrare pentru a determina film sau TV serie
+Show type	Arată tipul
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	Selectaţi această opţiune pentru a filtra tipul de înregistrări fiind converted.\r\n\r\nMovies - selectaţi această opţiune pentru a converti dacă tipul Arată este Movie.\r\nShows - selectaţi această opţiune pentru a converti dacă tipul Arată nu este un Movie.\r\nSports - selectaţi această opţiune pentru a converti dacă tipul Arată este Sports.\r\n\r\nNOTE: arată tipul se citeste de la înregistrare metadata.\r\nOnly câteva înregistrări de sprijin Arată tip metadate, precum WTV and\r\nrecordings cu sprijinirea metadate fişiere ()XML/ARG etc).
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	Această casetă afişează toate fişierele în coada de aşteptare pentru fişierele conversion.\r\nDrag şi drop aici sau apăsaţi butonul Adăugare pentru a adăuga fişiere la coadă de conversie
+Conversion	Conversie
+Files	Fişiere
+Click this button to open or close the Advanced Settings section	Faceţi clic pe acest buton pentru a deschide sau a închide secţiunea Setări complexe
+Running custom commands	Execută comenzile particularizate
+Trimming video recording	Tunderea de înregistrare video
+Insert at top of queue	Introduceţi partea de sus a cozii
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	Implicit, conversii noi sunt adăugate la partea de jos (sfârşitul) de conversie queue.\r\nIf această casetă este bifată, orice conversii noi adăugate de această sarcină va fi adăugat la the\r\nbeginning (sus) de coada de conversie.
+Add subtitles and chapters	Adauga subtitrari şi capitolele
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	Activaţi această opţiune pentru a adăuga orice subtitrari extrase şi capitole la capitolul convertit video.\r\nEach marcheaza sfarsitul un comercial. Aceasta funcţionează numai cu formate acceptate (ex. MKV, MP4).\r\n\r\nNOTE: unele playere şi TV mai vechi nu acceptă subtitrari încorporate şi chapters.\r\nIf sunteţi în imposibilitatea de a redare video convertite, încercaţi să dezactivaţi această opţiune.
+Select best soundtrack	Selectaţi cea mai bună coloană sonoră
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	Dacă original video a mai multor coloane sonore, această opţiune spune MCEBuddy pentru a selecta cele mai adecvate şi primar soundtrack.\r\nIf doriţi o anumită limbă sonoră, asiguraţi-vă că introduceţi numele de limbă sau de cod în limbă Audio box.\r\nCheck această casetă dacă sunteţi şedinţei coloana sonora greşit în dumneavoastră file.\r\n\r\nUncheck convertit această casetă dacă doriți MCEBuddy să păstreze toate coloanele sonore ale video original în fişierul convertite atunci când este posibil. \r\nNOTE: unele profiluri nu acceptă mai multe coloane sonore, caz în care această setare nu are efect.
+Enable remote access	Permite accesul de la distanţă
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	Acest lucru creează o excepţie în paravanul de protecţie windows pentru aplicarea MCEBuddy şi port.\r\nThis este necesară dacă aveţi Paravanul de protecţie windows activat şi doriţi să utilizaţi UPnP, acces de la distanţă client\r\nor motorul folosind un address.\r\n\r\nNOTE IP: dacă aveţi un firewall personalizat, acest lucru poate să nu funcţioneze, va trebui să creaţi manual an\r\nexception pentru serviciul de MCEBuddy şi de port.
+Unable to communicate with engine. Firewall exception settings have not been updated.	Imposibilitatea de a comunica cu motor. Setările de excepţie firewall-ul nu au fost actualizate.
+Detect and optimize video quality	Detecta şi optimiza video de calitate
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	Când este activată, MCEBuddy va optimiza opţiunile de procesare video încercarea de a detecta sursa video type.\r\nThis poate îmbunătăţi calitatea video convertite în mod semnificativ dacă corect detected.\r\n\r\nNOTE: ea face acest lucru prin încercarea de a detecta sursa video tip (întreţesut, progresivă sau telecine).\r\nIf este capabil de a detecta sursa video tip, acesta va suprascrie parametrii corespunzătoare în profile.\r\nTurn această opţiune off, dacă se confruntă cu probleme cu calitatea video convertite sau utilizaţi parametrii de profil implicit.
+Are you sure you want to delete this task?	Sigur ștergeți această sarcină?
+Delete Task	Ștergere activitate
+Enter the new task name	Introduceţi noul nume de sarcina
+Rename Task	Redenumiţi sarcina
+MCEBuddy PAUSED	MCEBuddy întreruptă
+idle	inactiv
+PAUSED	ÎN PAUZĂ
+Frame rate	Rata de cadru
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	Permite acest lucru pentru a seta un framerate personalizate (FPS) pentru convertit video.\r\nYou poate fi necesar să stabiliţi acest lucru în timp ce conversie formate video (de exemplu, PAL la NTSC) \r\nor pentru dispozitivele care acceptă numai specifice framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001
+Skip remuxing files	Treci fişiere de remuxing
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	VERIFICA acest BOX la YOUR OWN RISK.\r\nDO nu verifica această casetă dacă tu KNOW ce esti DOING.\r\nCheck această casetă pentru a trece remuxing fişierul original un fişiere TS în timp ce converting.\r\nIf acest lucru este verificat, unele funcţii cum ar fi extragerea subtitrare sau comskip poate nu work.\r\nIt poate duce, de asemenea, chiar la conversie eşecuri sau alte probleme neprevăzute conversia.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	Verificaţi acest caseta de la propriul dvs RISK.\r\nDO nu verifica acest caseta dacă nu ştiu ce tu esti DOING.\r\nCheck această casetă pentru a trece remuxing fişierul original un TS fişier în timpul conversiei.
+Monitor converted videos	Monitor convertit videoclipuri
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	Implicit Monitor locatii va ignora fișierele care au fost deja converted.\r\nCheck această casetă dacă doriţi pentru a monitoriza fişierele convertite în Monitor Path.\r\nCAUTION: acest lucru poate duce la o buclă infinită de conversie de fişierele convertite dacă nu configurat properly.\r\n\r\nThis poate fi utilă atunci când sunt specifica directorul de ieşire de o task\r\n de conversie (convertit fişier) ca calea Monitor o locaţie Monitor şi legarea the\r\nMonitor Locaţie pentru o altă activitate de conversie.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	VERIFICA acest BOX la YOUR OWN RISK.\r\nDO nu verifica acest caseta dacă nu ştiu ce tu esti DOING.\r\nBy Monitor amplasările implicite va ignora fișierele care au fost deja converted.\r\nCheck această casetă dacă doriţi pentru a monitoriza fişierele convertite în calea de Monitor.
+Hardware encoding	Hardware-ul de codificare
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	Verificaţi această casetă pentru a utiliza hardware codare atunci când sunt disponibile pentru a converti videos.\r\nThis poate accelera de conversie semnificativ şi de a reduce utilization\r\nbut CPU acesta poate duce la uşor mai scăzute de calitate videos.\r\n\r\nUncheck aceasta caseta dacă sunteţi confruntă cu conversie sau probleme de calitate.
+Do not overwrite files	Nu suprascrie fişierele
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	Când această casetă este bifată, fişierul destinaţie a nu vor fi suprascrise dacă ea deja exists.\r\nInstead un nou fişier va fi creat cu un număr unic de adăugat la sfârşitul fişierului.
+Re-monitor recorded videos	Re-monitoriza înregistrate videoclipuri
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	În mod implicit, o dată un fişier sursă (înregistrate pagina) a fost convertit, istoricul de monitor \r\nthe va urmări nume de fişier şi nu coadă acelaşi again.\r\n\r\nEnable fişierele această opţiune pentru a ignora istoria şi monitoriza toate fişierele şi adăugaţi-le de coada de conversie to\r\nthe, chiar dacă acestea au fost deja converted.\r\n\r\nThis poate fi util uneori, în cazul în care software-ul de înregistrare nu generează a\r\nunique nume de fişier pentru fiecare episod/spectacol. Este recomandat să utilizaţi opţiunea de fişier original the\r\nDelete în pagina de setări atunci când utilizaţi această opţiune pentru a buclei de infinit de conversie avoid\r\nan.
+Recommendation	Recomandare
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	Pentru a evita o buclă infinită de conversie, este recomandat să vă model de căutare Monitor într-un mod cum ar fi de configurare pentru a se asigura că fişierele convertite nu sunt monitorizate de către această sarcină de Monitor.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	Verificaţi acest caseta de la propriul dvs RISK.\r\nDO nu verifica acest caseta dacă nu vă ştiu ceea ce sunt DOING.\r\nBy implicit monitorul locaţii nu va remonitor înregistrate videoclipuri care au fost processed.\r\nCheck această casetă dacă doriţi să remonitor şi reconversia videoclipurile înregistrate.
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	Pentru a evita o buclă infinită de conversie, este recomandat ca activaţi ştergere originale file opţiune în pagina de setări.
+Prioritize air date matching	Prioritiza aer data de potrivire
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy utilizează numele episod pentru a se potrivi information\r\nwhile seria căutarea pe internet. Dacă care nu reuşeşte atunci foloseste cu data broadcast\r\nair la meci metadata.\r\n\r\nCheck această casetă pentru a utiliza data de difuzare aer original primul şi apoi numele the\r\nepisode pentru a se potrivi pentru serie informaţii din internet.\r\nThis poate fi util în unele cazuri atunci când mai multe sezoane au nume same\r\nepisode. Ex. Americal Idol, auditie 1\r\n\r\nNOTE: Original data de difuzare aer nu este întotdeauna corecte stabilite de the\r\nbroadcaster şi, uneori, informaţii pe internet este incorrect.\r\nUse această opţiune numai dacă opţiunea implicită nu este de lucru pentru tine.
+Skip eMail body	Corpul de E-mail skip
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	Verificaţi această opţiune pentru a utiliza un corp gol în eMail.\r\nThis notificări poate fi util dacă sunteţi folosind un gateway SMS pentru notificări E-mail.
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	Bazat pe Management de dreapta digitale (DRM) de selecţie este available\r\nonly când redenumiţi fără convertirea (redenumi şi muta numai) opţiune este selected.\r\n\r\nAll - Selectează toate fişierele pentru prelucrare, indiferent de copie de protecţie status\r\nProtected - doar selectaţi fişierele care sunt copia protected\r\nUnprotected - selectaţi numai fişierele care nu au copie de protecţie
+Download cover art	Descărcaţi coperta
+Enable this to download the cover art from the original video and internet if available.	Permite acest lucru să descărcaţi coperta original video şi internet, dacă sunt disponibile.
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	Sunteţi sigur că doriţi să introduceţi un nume de domeniu? \r\n\r\nUse aceasta numai dacă utilizaţi un controler de domeniu Windows pentru a gestiona dumneavoastră authentication.\r\nDo nu folos this dacă sunteţi parte dintr-un Workgroup.\r\n\r\nIf sunteţi sigur faceţi clic pe nr.
+Configuration Warning	Avertizare de configurare
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	Creează un folder numit "MCEBuddyArchive" în cazul în care fişierul original este located\r\nand mută fişierul original în acest director, după un succes conversion.\r\n\r\nThis pliant nume şi o locaţie fi schimbat de mai jos.
+Monitoring	Monitorizarea
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	Dacă doriţi să convertiţi fişierul EDL în capitole, asiguraţi-vă că vă verificaţi opţiunea "Adauga subtitrari şi capitolele" din setările de Expert.
+EDL to Chapters	EDL capitolele

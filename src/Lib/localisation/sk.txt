@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy nepoužíva aktuálne prihlásený používateľ na pripojenie k sieti akcií, používa svoj vlastný účet služby.  Nezabudnite zadať informácie o používateľovi pripojenia (MCEBuddy s ikonou kľúča)
+Connection Reminder	Pripojenie upomienky
+Description	Popis
+Path	Cesta
+is invalid	je neplatný
+Invalid Path	Neplatná cesta
+Please supply a task name	Prosím uveďte názov úlohy
+No name supplied	Zadaný názov
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	Zadajte kód jazyka 3 číslice na zvukovej stope alebo vyberte <Default>alebo <Original>
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	3 Číselný kód ISO pre vybraté language\r\nMake, či sa táto zhoduje kód jazyka pre zvukovú stopu v pôvodnom recording.\r\nTo získať kód jazyka pre skladby v pôvodnom nahratý súbor pridať file\r\nto fronte a right click on it. Pop up okno sa otvorí zobrazujúci audio details\r\nwhich obsahuje kódy jazykov pre každý zvukovej stopy.
+Invalid Language Code	Neplatný kód jazyka
+No destination directory provided, converted file will be placed in original video directory	Žiadny cieľový adresár poskytnuté, prevedený súbor budú umiestnené ako pôvodné video adresári
+A task name or section	Názov úlohy alebo sekcie
+already exists\n\rPlease use another name	už exists\n\rPlease použiť iný názov
+Duplicate Name	Duplicitný názov
+Engine	Motor
+Tasks	Úlohy
+Profile	Profil
+disposing	likvidácia
+Task name	Názov úlohy
+Give a unique name to this task	Jednoznačný názov dať túto úlohu
+Gives a short description for the selection conversion profile	Dáva krátky popis pre výber konverzie profil
+Click to select destination folder	Kliknutím vyberte cieľový priečinok
+Destination	Miesto určenia
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	Vyberte adresár, kde prevedený súbor bude placed.\r\nLeave this blank, aby prevedený súbor v tom istom adresári ako pôvodné video.
+Max width	Maximálna šírka
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	To obmedzí maximálnu šírku (v pixeloch) video pre konvertované file.\r\nTIP: sa neuplatňuje, ak pôvodný súbor má šírku menšiu ako tento number.\r\nIf chcete zachovať pôvodné rozlíšenia videa presunúť jazdca celú cestu k pravej.
+Quality	Kvalita
+Ad remover	Ad remover
+None	Žiadna
+Get series details from Internet	Získanie podrobností série z internetu
+Download additional details about the movie or series from the internet	Ďalšie podrobnosti o film alebo série na prevzatie z internetu
+File name match	Zápas názov súboru
+Recording title match	Zaznamenávanie titulu zápas
+Cancel	Zrušiť
+OK	ok
+Rename without converting	Premenovať bez konverzie
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	Skontrolovať túto možnosť len premenovanie a kopírovanie pôvodné súbory do cieľového folder.\r\nWhen skontrolovať, konverziu, strihanie, spracovanie audio a video a komerčné odstránenie nebude available.\r\n\r\nNOTE: Ostatné funkcie, ako zodpovedajúce filtre, extrahovanie titulky, ukladanie metaúdajov a komerčné detekcie (uloženie súboru EDL) \r\nwill stále k dispozícii s checked.\r\nIf túto možnosť chcete presunúť miesto kopírovanie, skontrolujte preskočiť kopírovanie pôvodný možnosť Expert nastavenia na tejto stránke alebo select\r\nDelete pôvodný súbor hlavné nastavenia stránky.
+Rename and sort by video information	Premenovať a zoradiť informácie o ovládači videa
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	Premenuje skonvertovaný súbor a umiestni do nového adresára na základe Zobraziť/séria informácií pri available\r\n (napríklad ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	Zadajte užívateľské meno a heslo na prístup priečinky, ktoré sú na sieťovú jednotku alebo iný počítač
+Organize by seasons	Usporiadať podľa ročných období
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	Usporiadať zložky podľa Showname a keď sezóna dostupné (Media Center/XBMC Plex kompatibilný konvencia) \r\n (napr. Showname\\Season XX\\SXXEYY-epizóda meno)
+Audio language	Audio jazyk
+Advanced Settings	Rozšírené nastavenia
+General Settings	Všeobecné nastavenia
+Conversion Task	Konverzia úlohy
+Password	Heslo
+Confirm Password	Potvrdiť heslo
+Domain / computer name	Domény / názov počítača
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	<Optional>Enter Ak vzdialený počítač alebo sieťovú jednotku používa doménu pre authentication.\r\nDo nevstúpi pracovnej tu. Nechať to prázdne, ak používate pracovnú skupinu.
+User name	Meno používateľa
+Enter the username to access the remote computer or network drive	Zadajte meno používateľa pre prístup k vzdialenému počítaču alebo sieťovú jednotku
+Enter the password to access the remote computer or network drive	Zadajte heslo pre prístup k vzdialenému počítaču alebo sieťovú jednotku
+Network Connection User Credentials	Sieťové pripojenie používateľské poverenia
+Password Mismatch	Nezhoda hesiel
+Passwords do not match, please reenter the passwords	Heslá sa nezhodujú, zadajte ho znova heslá
+Hour	Hodiny
+Minute	Minúta
+Wake	Zobudiť
+Start	Štart
+Resume	Životopis
+Pause	Pauza
+Stop	zastaviť
+Language	Jazyk
+Pause conversion tasks	Pauza Konverzia úlohy
+Resume conversion tasks	Obnovenie úlohy konverzie
+Please enter a valid time	Prosím zadajte platný čas
+Invalid Time	Neplatný čas
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	Doba prestoja je po spustení. Za predpokladu, že doba prestoja počas budúceho dňa, je to správne?
+Time Check	Kontrola doby
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	Túto možnosť vyberte len, ak MCEBuddy má boli konvertuje súbory spoľahlivo prijateľnú dobu. Chcete MCEBuddy chcete odstrániť každý pôvodný súbor raz bol skonvertovaný?
+Confirm delete originals?	Potvrdiť odstránenie originály?
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy bude sledovať tieto adresáre pre video súbory automaticky konvertovať
+Conversion tasks	Konverzia úlohy
+Delete original file	Odstráňte pôvodný súbor
+Deletes the original recording after a successful conversion	Odstráni nahrávka po úspešnú konverziu
+Min age before conversion (hours)	Min veku pred konverzie (hodiny)
+Minimum hours to wait before converting each file after the file is added to the queue	Minimálny počet hodín čakať pred konvertovaním každý súbor, po pridaní súborov do frontu
+Use this to change the language of the text on the screen	Použiť tento jazyk textu na obrazovke
+Concurrent conversions	Súbežná konverzia
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	Počet simultánnych konverzií MCEBuddy môžete start\r\nNOTE: potreba veľkého množstva voľného priestoru a procesor čas viac než 2 simultánne konverzie
+Logging level	Úroveň zapisovania
+Error	Chyba
+Warning	Upozornenie
+Information	Informácie
+Debug	Ladenie
+Log conversion jobs	Denník konverzie miest
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	Uloženie súboru denníka pre každý prevod v \'logs\ "kde kde je MCEBuddy installed\r\n (napr. C:\\Program Files\\MCEBuddy2x\\logs)
+Allow sleep	Povoliť režim spánku
+If unchecked, it prevents the system from entering sleep while converting	Ak nezapísanú, bráni systému vstupovali do režimu spánku počas konverzie
+Stop at	Stop na
+No new conversions would be started after this time	Žiadne nové prepočty by začal po tomto čase
+minute	minúta
+hour	hodiny
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	Ak kontrolovaná MCEBuddy bude zadaný počiatočný čas prebudenia systému z sleep\r\nat a povolené dni v týždni.
+Start at	ZaΦne
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy začne nový konverzie medzi Štart a Stop time.\r\n\r\nThe Štart čas budú použité pre povolené dni v týždni, whereas\r\nthe koniec času bude buď za rovnaký deň or\r\nfor nasledujúci deň použité ak čas ukončenia je po spustení.
+Delete	Odstrániť
+Add	Pridať
+Change	Zmena
+Archive original file	Pôvodný súbor Archív
+Domain name	Názov domény
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	Zastaví monitor a konverzia úlohy a otvorí stránku na konfiguráciu MCEBuddy
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	Vytvorí priečinok s názvom \'MCEBuddyArchive\ "kde je pôvodný súbor located\r\nand pohybuje pôvodný súbor v tomto adresári, po úspešných conversion.\r\n\r\nThis priečinok názov a umiestnenie sa zmení na stránke nastavenia systému.
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	Ladenie - podrobné protokoly, pomáha sledovania konverzie problems\r\nInformation - denníky základné informácie o conversion\r\nWarning - denník potenciálne problémy alebo kritické zlyhanie only\r\nError - denník kritické zlyhanie iba
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	Vyberte profil konverzie spojené s touto úlohou. Konverzia profil predstavuje výstupný formát a kvality prevedený file.\r\nHigher kvalitu konverzie trvať dlhšie, ak chcete konvertovať. Odporúčané predvolené: MP4 vysokej kvality alebo MP4 Normal.\r\n\r\nTIP: MCEBuddy príručku pre pokročilých parametre vyladit konverzie profily, alebo vytvoriť svoj vlastný konverzie profily
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	Vyberte program MCEBuddy použije na pás, žiadne reklamy počas konverzie video.\r\nSet k "Žiadny" opustiť reklamy v prevedený video.\r\n\r\nTIP: pomocou ShowAnalyzer namiesto Comskip, prosím stiahnuť a nainštalovať ShowAnalyzer.\r\nShow analyzátor verzie 1.0 a vyššej podporujú.
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	Použiť na zmenu kvality videa prevedený súbor normálne je vyšší počet 1.\r\nA zlepší kvalitu, ale bude trvať dlhšie conversion.\r\nA menšie číslo zni ujú kvalitu ale speed up the conversion.
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Zadajte vzor zápas názvov pre túto úlohu (napríklad *.wtv bude konvertovať všetky súbory s príponou s .wtv)\r\nPrefix vzorom s ~ preskočiť zápas (napr *. *; ~*.wtv bude spracovávať všetky súbory okrem tých končí .wtv)\r\nSeparate viacero modelov s; (napr. *.wtv, ncis *; ~ ncis miami *) bude spracovávať všetky súbory .wtv a všetci počnúc ncis, ale nie tých, počnúc ncis miami\r\n\r\nYou použiť regulárne výrazy zodpovedať vzoru s regex:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Zadajte vzor zápas Zobraziť/radu titulov pre túto úlohu (napríklad Simpson * bude konvertovať všetky súbory Zobraziť Nadpis počnúc Simpson) \r\nPrefix vzor s ~ preskočiť zápas (napr *; ~ Simpson * spracuje všetky Zobraziť tituly s výnimkou tých, ktoré začínajú s Simpson) \r\nSeparate viacero modelov; (napríklad Simpson *;House*) alebo (napríklad Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nYou môžu použiť regulárne výrazy zodpovedať vzoru s regex:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	To môže byť použitý na prepísanie predvoleného jazyka zvuku pri viacerých jazykov zvuku v recording.\r\nTo si zoznam jazykov audia v zázname, kliknite pravým tlačidlom myši na súbor vo fronte a vyberte MediaInfo.\r\n\r\n <Default>bude snažiť udržať všetky zvukové stopy či podporované nech kódovač vybrať predvolený audio track\r\n <Original>, ak sú dostupné, použije pôvodný jazyk [daboval] nahrávanie
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	Zadajte "[video]", alebo ponechajte prázdne previesť všetky video files\r\nEnter vzor prispôsobiť názvy pre toto umiestnenie (napr *.wtv skonvertuje všetky súbory, ktoré sa končí .wtv)\r\nprefix typu s ~ preskočiť zápas (napr *. *; ~*.wtv spracuje všetky súbory, okrem tých, ktoré sa končí .wtv)\r\nseparate viacero modelov s; (napr. *.wtv, ncis **; ~ ncis miami *) spracuje všetky .wtv súbory a všetky súbory, počnúc ncis, ale nie tie, ktoré počnúc ncis miami
+MCEBuddy Settings	MCEBuddy nastavenia
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy nepoužíva aktuálne prihlásený používateľ na pripojenie k sieti akcií, používa svoj vlastný účet služby.  Nezabudnite zadať informácie o používateľovi pripojenie [MCEBuddy s ikonou kľúča]
+Please supply a source name	Prosím uveďte názov zdroja
+Please supply a search path name	Prosím dodanie vyhľadávací názov cesty
+A source name or section	Názov zdroja alebo sekcie
+already exists. Please use another name	už existuje. Prosím použite iný názov
+Monitor name	Monitor name
+Give this a location a unique name	Dať miesto jednoznačný názov
+Monitor path	Sledovanie cesty
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	Vyberte adresár, ktorý bude monitorovať MCEBuddy na pozadí pre nové video súbory automaticky konvertovať
+Click to select the folder to monitor	Kliknite na položku Vybrať priečinok na sledovanie
+Search pattern	V²raz
+SourceForm	SourceForm
+Monitor Location	Sledovanie umiestnenia
+Normal	Normálny
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: pipeProxy motor pripojenie chybu
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: Nepodarilo vytvoriť kanál MCEBuddy služby
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	MCEBuddy služba je nedostupná. Štart z ovládacieho panela systému Windows alebo skontrolujte pripojenie motora.
+Announcement	Oznámenie
+New version 	Nová verzia 
+available	k dispozícii
+New BETA version 	Nová BETA verzia 
+Click here to download new version of MCEBuddy	Kliknite tu pre stiahnutie nová verzia MCEBuddy
+Click here to open link	Kliknutím sem otvorte odkaz
+Idle	Doba nečinnosti:
+Closing	Zatváranie
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI: Nie je možné aktualizovať úlohy
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: Nedá sa spustiť službu MCEBuddy
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: Schopní zastaviť MCEBuddy služby
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI: Nedá sa zrušiť prácu
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	Upozornenie: Sieťové súbory bude prístupná pomocou prihlasovacích poverení služby MCEBuddy, nie aktuálne prihláseného používateľa. Môžete manuálne určiť sieťové poverenia z nastavení-> Expert nastavenia stránky v MCEBuddy.
+Credential Warning	Poverenie upozornenie
+Status	Stav
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI: Nepodarilo pridať úlohy
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: Nepodarilo získať potrubia aktívnym stave
+The conversions must be stopped to change settings. Stop the conversions?	Konverzie musí byť zastavený na zmenu nastavenia. Zastaviť konverzie?
+Stop Engine	Zastavenie motora
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI: Schopní zastaviť MCEBuddy služby od nastavenia kliknite
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: Prehľadanie súborov sa nedá
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: Nedá sa otvoriť odkaz
+Close	Zavrieť
+Close this window, MCEBuddy will keep running in the background	Zavrieť toto okno MCEBuddy bude držať beží na pozadí
+If you like MCEBuddy, please click here to Donate - THANKS	Ak chcete MCEBuddy, prosím, kliknite tu pre Darujte - vďaka
+Click here to like MCEBuddy on facebook	Tu sa radi MCEBuddy na facebook
+Click here to open MCEBuddy website	Kliknite tu pre otvorenie webovej stránky MCEBuddy
+Rescan	Skenovať znova
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	Sily MCEBuddy prekontrolovať Monitor miesta pre nové video Převádené soubory
+Monitor locations	Umiestnenie monitora
+Settings	Nastavenia
+Select the file(s) in the queue to delete	Vyberte súbory vo fronte na odstránenie
+Manually add video file(s) to the queue to convert	Manuálne pridanie videa súbor(y) do frontu na konverziu
+Start the MCEBuddy monitor and conversion tasks	Štart MCEBuddy monitora a konverzia úlohy
+Stop the MCEBuddy monitor and conversion tasks	Zastaviť MCEBuddy monitora a konverzia úlohy
+There is a new version!	K dispozícii je nová verzia!
+High	Vysoká
+Low	Nízka
+Priority	Prioritou
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	Vysokú prioritu - konvertovať rýchlejšie, ale môže urobiť iných spustených aplikácií unresponsive\r\nLow prioritu - previesť v pozadí, ale znížená rušeniu iných spustených aplikácií
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	Úlohou je konverzia šablóna, ktorá obsahuje konverzie profil a rôzne iné parameters.\r\nEach konverzie súboru pridané do frontu budú spracované a konvertovať každou z týchto tasks.\r\nRefer MCEBuddy príručka pre viac informácií o ako pracovné úlohy.
+Getting started	Začíname
+Click here for MCEBuddy guide	Kliknite tu pre MCEBuddy Sprievodca
+Logs	Denníky
+Click to open log folder	Kliknutím otvorte priečinok denník
+MCEBuddy Status	MCEBuddy stav
+add	pridať
+delete	odstrániť
+paypal-donate	PayPal-darovať
+stop	zastaviť
+OUTPUT: ConsoleOuput received NULL data	VÝSTUP: ConsoleOuput dostal NULL údajov
+hours	hodiny
+minutes	minút
+second	druhý
+seconds	sekúnd
+Starting	Začína
+Comskip advertisement scan - Pass 1	Comskip reklama skenovanie - priechod 1
+Comskip advertisement scan - Pass 2	Comskip reklama skenovanie - priechod 2
+Cutting commercials from video	Rezanie reklamy z videa
+Cutting commercials from video - segment 	Porciovanie reklám z video - segmentu 
+Merging commercial free segments into new video	Zlúčenie obchodné voľný segmenty do nové video
+Moving converted file to destination	Pohyblivé prevedený súbor na miesto určenia
+Checking for disk space	Kontrola disku
+Getting show information and banner from Internet sources	Získanie zobraziť informácie a banner z internetových zdrojov
+Copying source file to working directory	Kopírovanie zdrojovom súbore na pracovný adresár
+Remuxing recording	Remuxing nahrávanie
+ShowAnalyzer advertisement scan	ShowAnalyzer reklama skenovanie
+Comskip advertisement scan	Comskip reklama skenovanie
+Analyzing video information	Analyzuje informácie o ovládači videa
+Converting	Konverzia
+Removing commercials	Odstránenie reklám
+Writing show information	Písanie zobraziť informácie o
+Renaming file using show information	Premenovanie súboru pomocou zobraziť informácie
+Success - All done!	Úspech - všetci hotovo!
+Muxing streams	Muxing prúdov
+Fallback remux	Používanie nezabezpečenej komunikácie remux
+Correcting audio delay	Ktorým sa opravuje zvukové oneskorenie
+Converting video file - Pass 1	Konverzie video súboru - priechod 1
+Converting video file - Pass 2	Konverzie video súboru - priechod 2
+Converting video file	Konvertovanie video súborov
+Audio Track	Zvukovú stopu
+Impaired	Poruchou
+Channels	Kanálov
+Codec	Kodek
+Video	Videa
+Duration	Trvanie
+Height	Výška
+Width	Šírka
+Audio	Zvuk
+Name	meno
+Subtitle	Titulkov
+Volume	Zväzok
+Enable custom file renaming	Umožniť premenovanie súboru
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	Umožní to Zadajte vlastnú vzorku premenovať konvertovaných súborov a priečinkov. Zadajte vlastnú vzorku v krabici below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S % sezóny % ##E % epizóda % ##-% episodename % - produkovať %airyear%_%airmonth%_%airday%\r\n\r\nWill: \r\nTVShows\CSI\Season 1\CSI - S01E02 - najlepšie časy - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill plodiny (na film) \r\n Recording\Movies\Star vojen-premenené. <ext>1\CSI \r\n Recording\TVShows\CSI\Season \r\nOR (pre nefajčiarske filmy) - S01E02 prevedený.<ext>\r\n\r\nRefer na MCEBuddy pokročilé dokumentácie zoznam všetkých príkazov vzor.
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	ShowAnalyzer nebol nájdený. \nProsφm stiahnuť a nainštalovať ShowAnalyzer.
+ShowAnalyzer Missing	ShowAnalyzer chýba
+Invalid language code, reverting to <Default> language	Neplatný jazyk kódu, návrat k <Default>jazyk
+Cut start	Rez Štart
+Cut end	Rez konca
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	Určuje počet sekúnd rezať od začiatku nahrávania (pred odstránením reklamy)
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	Určuje počet sekúnd rezať od konca nahrávania (pred odstránením reklamy)
+Send an eMail after each conversion.	Pošlite E-mail po každej konverzii.
+Send eMail	Pošlite e-mailom
+SMTP Server Name	SMTP Server Name
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	Zadajte odchádzajúcej pošty (SMTP) servera adresu here\r\ne.g. SMTP.Gmail.com
+Port	Prístav
+Enter the SMTP server port	Zadajte port v├í┼ího SMTP servera
+Use SSL	Použitím protokolu SSL
+Check this if you SMTP server uses SSL	Pozrite sa na Ak ste SMTP server využíva SSL
+e-Mail Settings	Nastavenie e-mailu
+From <e-Mail>	Od <e-Mail>
+Enter the senders (From) eMail address here	Zadajte odosielateľov (Z) e-mailovej adresy tu.
+To <e-Mails>	Na <e-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	Zadajte príjemcov (na) eMail adresa here.\r\nSeparate viacerým prijímateåom oddeľte bodkočiarkou (;)
+Send eMail on successful conversion	Poslať E-mail na úspešnú konverziu
+Send eMail on failed conversion	Poslať E-mail na zlyhala konverzia
+Send eMail on cancelled conversion	Poslať E-mail na zrušené konverzie
+Send eMail on adding a conversion to the queue	Poslať E-mail na pridanie konverzie do frontu
+Please enter a valid server address	Zadajte platný server adresu
+Invalid SMTP Server	Neplatný SMTP servera
+Please enter a valid server port	Zadajte platný server port
+Invalid SMTP Port	Port SMTP neplatné
+Please enter a valid From eMail address	Prosím zadajte platnú e-mailovú adresu
+Invalid eMail Address	Neplatný E-mail adresa
+Please enter valid To eMail addresses	Prosím zadajte platnú e-mailovej adresy
+Username	Username
+<Optional> Enter the username for the eMail server authentication	<Optional>Zadajte používateľské meno pre overenie databázovým serverom e-mailu
+<Optional> Enter the password for the eMail server authentication	<Optional>Zadajte heslo pre overenie databázovým serverom e-mailu
+MCEBuddy unable to download series information	MCEBuddy sa nedá stiahnuť série informácie
+MCEBuddy successfully converted a video	MCEBuddy úspešne konvertoval video
+Source Video	Zdroj Video
+Converted Video	Prevedený Video
+Converted At	Prepočítava
+MCEBuddy failed to converted a video	MCEBuddy sa nepodarilo konvertovať video
+Failed At	Nepodarilo sa v
+MCEBuddy cancelled a video conversion	MCEBuddy zrušené video konverzie
+Cancelled At	Zrušené na
+Working	Práca
+Test	Skúška
+Testing	Testovanie
+Click this button to test the eMail server settings	Kliknutím na toto tlačidlo, ak chcete otestovať nastavenie e-mailu servera
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy vám pošleme E-mail ak chcete otestovať server settings.\r\nThis môže trvať až 60 seconds.\r\nMCEBuddy môžu byť reagovať počas tohto obdobia.
+Test eMail	Test eMail
+MCEBuddy Test eMail	MCEBuddy Test eMail
+MCEBuddy - Have a great day!	MCEBuddy - Have a great day!
+Send eMail test successful	Poslať E-mail teste úspešné
+Send eMail test failed! Please check your settings and internet connectivity	Poslať e-mailom testu zlyhalo! Skontrolujte nastavenie a pripojenie k internetu
+Test eMail Success	Test eMail úspech
+Test eMail Failed	Test eMail zlyhala
+Send eMail on start of conversion	Poslať E-mail na Štart konverzie
+MCEBuddy started a video conversion	MCEBuddy začali video konverzie
+Conversion Started At	Konverzia začal v
+Yes (Comskip)	Áno (Comskip)
+Yes (ShowAnalyzer)	Áno (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	Atleast jeden konverzia úlohy musí byť zapnutá
+Disable	Vypnúť
+Enable	Zapnúť
+Rename	Premenovať
+Move	Presunúť
+Up	Hore
+Down	Nadol
+Slow Remuxing	Pomaly Remuxing
+Extracting closed captions	Extrahujú skryté titulky
+Validating closed captions	Overovanie titulky
+Extracting subtitles	Extrahovanie titulky
+Trimming closed captions	Orezávanie uzavreté titulky
+Extract subtitles and closed captions	Extrahovať titulky a titulky
+Field	Pole
+Channel	Kanál
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	Umožňujú extrahovať skryté špeciálne titulky, titulky a Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV a ďalších podporovaných files.\r\n\r\nIt je uložený ako súbor titulkov (SRT).
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	Umožniť sem, ak chcete nastaviť rozšírené možnosti pre skryté titulky extraction\r\nField - 1 alebo 2\r\nChannel - 1 alebo 2\r\n\r\nDefault: pole 1, kanál 1
+Subtitle offset	Posun titulkov
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	Zadajte počet sekúnd (+ ve / - ve) prispôsobiť titulky synchronizácie s video
+Re-ReMuxing due to audio error	Re-ReMuxing kvôli chyba zvuku
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	Uložiť plagát a informácie (metaúdaje) Zobraziť v MC/XBMC kompatibilný NFO súbor (XML formát)
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	Začiarknutím tohto políčka Zobraziť informácie (metaúdaje) Okrem prevedený file.\r\nThis len pracuje pre súbory, ktoré podporujú metaúdaje Tagy ako MP4, MKV, WTV etc.\r\n\r\nNOTE: zrušte začiarknutie tohto políčka, ak ste čelia problémy s niektorými zariadeniami ako staršie TV, ktoré majú problém čítanie metaúdajov.
+Atleast one day of the week must be enabled	Atleast jeden deň v týždni, musí byť zapnutá
+Invalid Days of Week	Neplatný dni týždňa
+Invalid day of week found in configuration file	Neplatný deň týždňa našiel v konfiguračnom súbore
+Scheduling	Plánovanie
+Remuxing to	Remuxing na
+Part	Časť
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	Zvyšok myšou na tlačidlo, pole alebo položku získať okamžitú pomoc na it.\n\nFor viac informácií o tom, ako použiť, riešenie, alebo získať podporu pre MCEBuddy kliknite na < Začíname > odkaz v hornej pravom corner.\n\nDonations sú vždy vítané :) Užite si! \n\n - Ramit, Derek & hus
+Welcome to MCEBuddy	Vitajte na MCEBuddy
+Multichannel audio	Multikanálové audio
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	Kontrola umožniť viackanálový audio či video zdroj podporuje it.\r\nBy predvolený zvuk je obmedzený len na 2 (stereo).
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	Dynamic Range kompresie (DRC) \r\nWhen zdroj je AC3 audio, umožňujúce KDR will\r\nreduce rozdiel medzi hlasnými a soft\r\nsounds tvorby zvukovej stopy viac even.\r\nIf máte multi-kanálové nahrávanie zvuku a you\r\nfeel zväzku je príliš mäkké, kontrola, toto políčko by mohlo pomôcť.
+FPS	FPS
+Logfile age (days)	Logfile veku (dni)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	Maximálny počet dní aby záznamy pred odstránením them.\r\nSet 0 aby protokoly navždy.
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	Rýchle Remuxing
+Byte stream remuxing	Byte stream remuxing
+Disable cropping	Vypnúť orezanie
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	Skontrolujte to vypnúť, orezanie videa automaticky počas conversion.\r\nCropping sa používa na odstránenie "čierne" vo videu (horný, dolný, ľavý alebo right).\r\nUse, túto možnosť video obraz je ako sa znížila na ktorejkoľvek strane konečný obraz hľadá natáhl alebo skreslené.
+Only detect Ads	Len zistiť reklamy
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	Pozrite sa na to Ak chcete MCEBuddy na detekciu reklám (reklama) ale nie nakrájať z video.\r\nWhen je táto možnosť povolená, MCEBuddy vytvorí súbor EDL spolu s prevedený súbor, ktorý určuje umiestnenie reklamy v prevedený video.\r\nAlso, MP4, M4V a MKV súbory MCEBuddy vytvorí kapitol označiť na konci reklamy.
+Download information	Informácie na stiahnutie
+Correction	Korekcia
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	Kliknite sem a opravte názov Show a vynútiť použitie špecifických TVDB séria id alebo IMDB film id\r\nto vyhľadávaním ďalšie metaúdaje z internetu.
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	Pozrite sa na stiahnutie dodatočné informácie z internetu o show ako súbor banner, epizóda, sezóny atď
+Profile Error	Profil chyba
+Cannot find selected profile in profiles.conf	Vybratý profil sa nedá nájsť v profiles.conf
+Invalid Profile	Neplatný profil
+Please select a valid profile	Prosím vyberte platný profil
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	MCEBuddy motora sa zrútil. Pošlite mcebuddy.log na vývojári
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	Vyberte vlastný Comskip INI súbor pre tento prepočet task\r\nLeave tejto prázdne to use predvolený súbor Comskip INI pre odstránenie reklamy
+Click to select custom Comskip INI file	Začiarknite Comskip INI súboru
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	Vyberte priečinok pre prácu s dočasné súbory. Uistite sa, že existuje dostatok prázdne miesta na drive.\r\nLeave tejto slepej použiť predvolený priečinok temp v priečinku inštalácie.
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	Vyberte priečinok pre prácu s dočasnými súbormi. Uistite sa, že tam je dosť prázdny priestor na drive.\r\nThis prepíše temp priečinok zadaný v nastavení-> Expert nastavenia stránky.
+Click to select temp working folder	Kliknutím vyberte priečinok temp pracovných
+Temp folder	Dočasný priečinok
+Space check	Kontrola priestoru
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	Kedy bude kontrolovať zapnutého MCEBuddy dostatok voľného miesta pre konverziu (určenia a temp).\r\nUncheck to ak máte sú má problémy s sieťové disky alebo majú mimoriadne veľké videosúbory.
+MCEBuddy Windows Event Logs	Denníky udalostí systému Windows MCEBuddy
+Events	Udalosti
+Click here to open the MCEBuddy Windows Event Logs	Kliknite tu pre otvorenie denníka udalostí systému Windows MCEBuddy
+Enable UPnP	Povoliť UPnP
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	Začiarknite túto možnosť povoliť UPnP. To umožňuje prístup k MCEBuddy motor od mimo network.\r\nThis potrebné skontrolovať, ak používate mobilný/samostatný MCEBuddy klient prístup k MCEBuddy.
+Click here to connect to another MCEBuddy engine	Kliknite tu pripojiť k inej MCEBuddy motora
+MCEBuddy Remote Engine Connection	MCEBuddy diaľkové motora spojenie
+Engine Name	Názov motora
+Engine Port	Motor Port
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	Zadajte názov alebo adresu IP MCEBuddy engine, ktorý chcete pripojiť k
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	Zadajte číslo portu TCP MCEBuddy engine, ktorý chcete pripojiť k
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	Zadajte číslo portu TCP MCEBuddy motora, budete sa chcete pripojiť (1 k 63355)
+Invalid Name/Port	Neplatný názov portu
+Please enter a valid Engine Name and Engine Port Number	Prosím zadajte platnú motora meno a číslo portu motora
+Error Stopping Engine	Chyba zastavenia motora
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	Nemožno zastaviť MCEBuddy motora, nastavenie môže neuložia. Chcete pokračovať?
+Unable to communicate with engine. Settings have NOT been saved.	Nie je možné komunikovať s motorom. Nastavenia sa neuložili.
+Communication Error	Chyba komunikácie
+Engine not stopped. Settings have NOT been saved.	Motor nezastavil. Nastavenia sa neuložili.
+Unable To Save Settings	Nepodarilo sa uložiť nastavenia
+Unable to communicate with engine. UPnP settings have not been updated	Nie je možné komunikovať s motorom. UPnP nastavenia neboli aktualizované
+Audio delay	Oneskorenia zvuku
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	Zadajte hodnotu v sekundách (pozitívne alebo negatívne) tu posun zvuku voči video.\r\nUse to opakovane synchronizovaný zvuk s videom, ak sú mimo rozsah synchronizácie po conversion.\r\nA Kladná hodnota bude oneskorenie zvuku (t. j. video pred audio) a zápornou hodnotou bude advanced audio (t.j. audio pred video).\r\nE.g. -1,5
+Media info	Media info
+Click here to get media properties for selected files	Kliknite tu pre získanie multimediálne vlastnosti pre vybraté súbory
+Save information	Uloženie informácií
+Add information	Pridanie informácií
+Shows a preview of the custom filename and path	Zobrazí ukážku vlastné meno súboru a cestu
+Invalid Filename Pattern	Neplatný názov súboru vzor
+TVDB Series ID	TVDB séria ID
+IMDB Series ID	IMDB séria ID
+Original title	Pôvodný názov
+Corrected title	Názov opravený
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Zadajte identifikáciu série TVDB chcete použiť pre sťahovanie Zobraziť information.\r\nIf poľa pôvodný názov je prázdny, to sa použije pre všetky prehliadky vybraných tejto úlohy konverzie.
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Zadajte identifikáciu IMDB film chcete použiť pre stiahnutie filmu information.\r\nIf pôvodný názov je prázdny, to sa použije pre všetky prehliadky vybraných tejto úlohy konverzie.
+Internet Lookup Title and Metadata Correction	Internetový vyhľadávací názov a metadáta korekciu
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	Kliknutím sem pridajte ďalší riadok a opravovala tituly a série id.\r\nIf chcete používať rovnaké opravené názov alebo identifikácia radu pre všetky ukazuje prevedený Táto úloha konverzie, \r\nleave pôvodný názov prázdne na prvý riadok a by nemali pridať druhý riadok.
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	Zadajte vzor zápas Zobraziť/série tituly pre opravu (napríklad Simpson * sa nahradiť všetky tituly, ktoré majú Zobraziť Nadpis počnúc Simpson) \r\nPrefix vzor s ~ preskočiť zápas (napr *. *; ~ Simpson * opraví všetky výstavné okrem tých, ktoré začínajú Simpson) \r\nSeparate viacero modelov; (napríklad Simpson *;House*) alebo (napríklad Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nNOTE: nechajte toto pole prázdne, ak chcete opraviť názov alebo identifikácia radu na všetky súbory spracovávané podľa tejto konverzie task.\r\nIf opustenie prázdne, nemôžete pridať druhý row.\r\n\r\nYou môžete použiť regulárne výrazy na zápas názov začína s regex:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	Zadajte nové/opraviť názov, ktorý chcete použiť pre stiahnutie dodatočných informácií od internet.\r\nIf Original je vyplnené pole Názov, použije sa to všetko ukazuje vybrala tento prepočet task.\r\n\r\nYou môžete použiť regulárny výraz správny názov začína s regex:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	Pre každý riadok, zadajte pôvodný názov zápas Zobraziť názov a buď opravené názov alebo identifikácia radu TVDB/IMDB
+Please enter either a Corrected title or a TVDB/IMDB Series ID	Zadajte názov opravené alebo TVDB/IMDB séria ID
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	Zapnúť, ak chcete MCEBuddy dať prevedený súbor v source directory\r\nif cieľová cesta je nedostupná. (napr. sieťové zlyhanie alebo neúspech mapovanie)
+Fallback to source path	Záložný zdroj cestu
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	Používa sa zväčší alebo zmenší objem the\r\nrecording, kým converting.\r\n1 je normálne, nič pod to zníži, anything\r\nhigher zvýši to.
+Archive folder	Zlo¾ka Archív
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	Zmeniť umiestnenie Archív folder.\r\nLeave prázdny použiť predvolený priečinok "MCEBuddyArchive" v pôvodného adresára.
+Monitor subdirectories	Monitor podadresáre
+Check this box to also monitor all directories within the Monitor path	Začiarknutím tohto políčka tiež monitorovať všetky adresáre v cestu Monitor
+Click here to show MCEBuddy status	Kliknutím sem zobrazíte stav MCEBuddy
+MCEBuddy service not connected	MCEBuddy služba nie je pripojený
+MCEBuddy idle	MCEBuddy nečinnosti
+conversions in progress	konverzia prebieha
+MCEBuddy stopped	MCEBuddy prestal
+Sync converted files	Synchronizovať konvertovaných súborov
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	Začiarknite túto možnosť, ak chcete MCEBuddy aby boli prevedené súbory synchronizované s pôvodných files.\r\ni.e. Po odstránení pôvodných súborov používateľom zodpovedajúce prevedené súbory sú tiež deleted.\r\n\r\nNOTE: MCEBuddy len sleduje pôvodné súbory v priečinkoch miestach monitor a iba vtedy, keď je motor running.\r\nMCEBuddy nebude schopný sledovať používateľské zmazané súbory, keď je motor zastavený.
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	Prajete si MCEBuddy zmazať každý prevedený súbor, keď pôvodný súbor bol odstránený?
+Confirm sync conversions?	-Potvrdiť konverzie synchronizácie?
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	Naozaj nemáte chcete odstrániť reklamy z prevedené video a len držať EDL súbor?
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer neodpovedá. Prosím reštart systému alebo preinštalovať ShowAnalyzer.
+ShowAnalyzer Not Responding	ShowAnalyzer nereaguje
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	Skontrolujte, či ste stlačte tlačidlo "Štart" po zatvorení tohto okna, inak plánovanie a Wake nebude fungovať.
+Enabling Scheduling and Wake	Umožňuje plánovanie a prebudiť
+Passwords do not match	Heslá sa nezhodujú
+Password error	Heslo chybu
+Adding subtitles and chapters to file	Pridanie titulkov a kapitol do súboru
+Send eMail if unable to download series information	Poslať E-mail, ak nie je možné stiahnuť série informácie
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	Začiarknite toto políčko, ak chcete túto konverziu úlohu spracovať len súbory špecifické monitor locations.\r\nIf slepé každej úlohy konverzie bude spracovávať súbory zo všetkých miest monitora (vrátane nové pridané neskôr).
+Select Monitor Locations	Vyberte Monitor umiestnenia
+Select atleast one Monitor Location name	Vyberte aspoň jeden Monitor umiestnenie názov
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	Ste vybrali všetky aktuálne Monitor Locations.\r\nDo úlohy konverzie automaticky spracovať akékoľvek nové Monitor lokality pridané v budúcnosti?
+New monitor locations	Nový monitor miestach
+Invalid selection	Neplatný výber
+Channel name match	Kanál meno zápas
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Zadajte vzor zápas názov kanála pre túto úlohu (napríklad ABC * bude konvertovať všetky súbory, ktoré zaznamenávajú na názov kanála počnúc ABC) \r\nPrefix vzor s ~ preskočiť zápas (napr *; ~ ABC * spracuje všetky kanály s výnimkou tých, ktoré začínajú s ABC) \r\nSeparate viacero modelov; (napríklad ABC *;TBS*) alebo (napríklad ABC;Fox*; ~ Fox4 *) \r\n\r\nYou môžu použiť regulárne výrazy zodpovedať vzoru s regex:
+Clear history	Vymazať históriu
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	Kliknite na toto tlačidlo Vymazať históriu všetkých prevedený files.\r\nThis je príčinou MCEBuddy znova konvertovať všetky súbory sledované.
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	Naozaj chcete vymazať históriu všetky prepočty? \r\nThis spôsobí MCEBuddy znova konvertovať všetky súbory sledované.
+Show history	Zobraziť históriu
+Click this button to show the history of all converted files.	Kliknite na toto tlačidlo môžete zobraziť históriu všetkých prevedených súborov.
+History of Converted Files	História konvertovaných súborov
+Unable to communicate with engine.	Schopní komunikovať s motorom.
+Extracting streams	Extrahovanie prúdy
+Fallback muxing streams	Núdzové multiplex prúdy
+Remuxing TiVO file	Remuxing TiVO súboru
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	Zadajte svoje 10 číslic TiVO MAK kľúč previesť a spracovanie nahrávok TiVO
+Invalid TiVO MAK Key	Kľúčom neplatná TiVO MAK
+The TiVO MAK key should be 10 digits	TiVO MAK kľúč by mal byť 10 číslic
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	Nezhoda verzie. Uistite sa, že MCEBuddy klienta a motor beží rovnakú verziu.
+Error retrieving Event Logs	Chyba pri získavaní denníkov udalostí
+Unable to get Event Log Entries from the MCEBuddy engine.	Nepodarilo sa získať položky denníka udalostí z MCEBuddy motora.
+PAUSED: Check conversion schedule	POZASTAVENÉ: Kontrola plán konverzie
+Logging	Zapisovanie do denníka
+Folder Management	Zložku riadenia
+Processor Management	Správa procesora
+Expert Settings	Expertné nastavenia
+System Settings	Nastavenie systému
+Click here to change additional settings (for experts only)	Kliknite sem, ak chcete zmeniť ďalšie nastavenia (pre odborníkov)
+Failed folder	Priečinok
+Location of the folder that hold the original files for failed conversions.	Umiestnenie priečinka, ktoré držia pôvodné súbory pre neúspešných konverzií.
+Move original file on failure	Presunúť pôvodný súbor na zlyhanie
+Check this to move the original file to a separate folder if the conversion fails.	Pozrite sa na to presunúť pôvodný súbor do samostatného priečinka, ak prevod zlyhá.
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	Začiarknite túto možnosť obmedziť počet logických procesorov, zodpovedajúci MCEBuddycan use.\r\nEach políčko nižšie k dispozícii logických procesorov.
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Každý blok reprezentuje logických procesorov od 1 na 16 respectively.\r\nChecking box umožňuje MCEBuddy používať daný procesor.
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Každý blok predstavuje logických procesorov od 17 až 32 respectively.\r\nChecking box umožňuje MCEBuddy používať daný procesor.
+Select atleast one processor to use	Vyberte aspoň jeden procesor použiť
+Invalid Configuration	Neplatná konfigurácia
+Comskip path	Comskip cesta
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	Ak chcete použiť vlastnú verziu Comkip (napr. donátora verzia) \r\nthen zadajte cestu k comskip Inštalácia here.\r\nLeave prázdne použiť predvolený comskip, ktorý je dodávaný s MCEBuddy.
+Miscellaneous	Rôzne
+Ignore copy protection	Ignorovať ochranu proti kopírovaniu
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	Začiarknite túto možnosť ignorovať ochranu proti kopírovaniu vlajky na videosúbor pri converting.\r\nNOTE: MCEBuddy nemôže obísť šifrovanie, to len pomáha, ak súbor je incorrectly\r\ntagged ako kopírovať chránené, ak nie je šifrovaný.
+Use recycle bin	Používanie koša
+Check this to use the recycle bin when files are deleted by MCEBuddy	Skontrolujte toto použitie odpadkového koša, keď sú odstránené súbory MCEBuddy
+Poll period	Ankiet lehote
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	To je, ako často MCEBuddy kontroluje Monitor úlohy miest nový files.\r\nThe interval je zadaný v sekundách.
+Server port	Port servera
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	To je MCEBuddy používa na komunikáciu s vzdialenej engine.\r\nWhen UPnP zapnutá, MCEBuddy sa automaticky pridá tento port na bránu Windows Firewall\r\nand UPnP umožniť prístup z internetu na tento port TCP port.
+Hang period	Zavesiť obdobie
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	Zadajte počet sekúnd, ktorý MCEBuddy bude čakať na odpoveď od the\r\nunderlying aplikácia predtým ukončí aplikáciu ako hung.\r\nEnter 0 vypnúť odhaľovanie kĺb.
+Subtitle commercial cut sync	Podtitul komerčné rez synchronizácie
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	Tento parameter sa používa pri ísť postupne synchronizovaný po každý obchodný segment je odstránený z video.\r\nThis nastavenie sa používa tak, aby titulky titulky späť do synchronizácie s časom video.\r\nEach komerčné videa je ako stvorený, titulky sú časovo posunuté o túto sumu (+ ve alebo - ve v sekundách).
+Invalid poll period	Neplatný ankiet lehote
+Invalid server port	Neplatný server port
+eMail Subject Customization	eMail predmet úpravy
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	Využívaním tejto časti prispôsobiť predmet e-mailu poslal MCEBuddy na rôzne udalosti konverzie uvedené below.\r\nRefer dokumentáciu, vlastné príkazy pre používateľom definovaný variables.\r\ne.g. Zobraziť % showname % % konverzie súborov % originalfilename úspešné použitie úlohy % taskname%\r\nNOTE: nie vždy všetky údaje budú k dispozícii vo vlastných commands.\r\nLeave prázdne používať predvolený predmet linky.
+Success	Úspech
+Failed	Zlyhalo
+Cancelled	Zrušená
+Download fail	Stiahnuť fail
+Limit processor utilization	Limit využitie procesora
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	Skontrolujte to obmedziť počet logických procesorov, že MCEBuddy môže use.\r\nEach políčko nižšie zodpovedá k dispozícii logických procesorov.
+Custom profile	Vlastný profil
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	Ak máte vlastné profiles.conf súbor, ktorý chcete použiť namiesto the\r\none, ktorý je dodávaný s MCEBuddy, zadajte cestu k súboru here.\r\n\r\nNOTE: MCEBuddy neustále aktualizácie profiles.conf poskytnúť chybu opravuje, \r\nenhancements a výkonom vylepšenia, ktoré vám bude chýbať out\r\non, ak chcete použiť túto funkciu.
+Invalid custom profiles.conf	Neplatné vlastné profiles.conf
+Suspend on battery	Pozastaviť na batérie
+Suspend conversions when the computer switches to battery power	Pozastaviť konverzie, keď počítač prejde na napájanie z batérií
+MCEBuddy added a video conversion to the queue	MCEBuddy pridané video konverzie do frontu
+Queue	Frontu
+Refer to documentation on using custom commands in custom eMail subjects	Dokumentácii o použití vlastných príkazov v predmetoch vlastnú e-mailovú
+Could not copy information to Clipboard, please try again.	Mohol nie kopírovanie informácií do schránky, skúste to prosím znova.
+Error copying to Clipboard	Chyba pri kopírovaní do schránky
+Copy to clipboard	Kopírovať do schránky
+Reconvert files	Konvertovať súbory
+Are you sure you want to reconvert the selected files?	Naozaj chcete konvertovať vybraté súbory?
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	Vyberte súbory, ktoré chcete konvertovať a potom kliknite na tento button.\r\nIf pôvodné súbory sú stále sledovaná MCEBuddy sa zaradiť do frontu pre konverziu.
+Time taken to convert	Čas potrebný k previesť
+Network authentication	Overovanie v sieti
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	Kliknite na tlačidlo zadať sieťové akcie credentials.\r\nThis overenie sa používa, keď sú pridané súbory cez tlačidlo Pridať na hlavnej window\r\nor preťahovať zo siete do poľa Stav konverzie v hlavnom okne.
+Skip reconversion	Preskočiť rekonverzia
+Do not reconvert the video if a converted file already exists in the destination directory.	Nie konvertovať video Ak prevedený súbor už existuje v cieľovom adresári.
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	Očakávaný názov súboru pre prevedené video (nie pôvodné video súboru) je v porovnaní s názvov v cieľovej directory.\r\nIf prevedený súbor existuje, súbor bude nie možné opätovne konvertovať a predpokladá sa byť úspešný conversion.\r\nThis je užitočné v prípade rovnakej show/epizódy sa zaznamenáva na viackrát a nechcete konvertovať them.\r\n\r\nNOTE: Táto možnosť je ignorovaná pre videá, ktoré sú pridané ručne pomocou tlačidla Pridať alebo pretiahnutím
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	Ak je povolené, preskočiť prebudovania bude tiež kontrolovať históriu súboru pre posledných conversions.\r\nThe očakáva, že názov súboru pre prevedené video (nie pôvodné video súboru) je v porovnaní s názvy súborov v histórii file.\r\nIf byť prevedený súboru (vrátane cesty) zhoduje s niektorým z už prevedený súborov (vrátane cesty) v súbore histórie, \r\nthe súbor bude nie možné opätovne konvertovať a to bude považovať za úspešnú konverziu.
+Adding file to the iTunes library	Pridanie súboru do knižnice iTunes
+Add to iTunes	Pridať do iTunes
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	Začiarknutie tohto políčka automaticky pridať prevedené súbory do iTunes library.\r\nThis funguje iba s iTunes podporované súbory (napr. MP4, M4V, MP3 atď)
+Adding file to the WMP library	Pridanie súboru do knižnice WMP
+Library Management	Knižnica Management
+Add to Windows Media Player	Pridať Windows Media Player
+Check this box to automatically add the converted files to the WMP library.	Začiarknutím tohto políčka automaticky pridať prevedené súbory na WMP obsahuje knižnicu.
+Renaming and Sorting	Premenovanie a triedenie
+Selection Filters	Výber filtrov
+Audio and Video	Audio a Video
+Subtitles and Chapters	Titulky a kapitol
+Skip copying original files	Preskočiť kopírovanie pôvodné súbory
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	Skontrolujte tento BOX na svoj vlastný RISK.\r\nDO nie SKONTROLOVAŤ tento BOX pokiaľ vám vedieť, čo ste DOING.\r\nCheck toto políčko Ak chcete preskočiť robiť zálohu pôvodných súborov (kopírovaní) počas konverzie.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	SKONTROLOVAŤ tento BOX na svoj vlastný RISK.\r\nDO ZAČIARKNUTIE tohto políčka Pokiaľ viete čo ste DOING.\r\nCheck toto chcete preskočiť robiť záložnú kópiu pôvodného súboru (kopírovanie) pri converting.\r\nIf to je zaškrtnuté, pôvodného súboru nebudú zachované v prípade error.\r\nIt môže tiež ešte nevedie k zlyhaní konverzie alebo iné nepredvídané konverzie.
+Are you sure you want to do this?	Naozaj chcete urobiť?
+Media Information Management	Media informačný manažment
+Force show type	Sila Zobraziť typ
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	Nastavte platnosť liečbe Videozáznam ako film alebo TV Series.\r\nThis zmenia ďalšie informácie (metaúdaje) o nahrávke je stiahnuté z internet.\r\nMovie - Treat nahrávanie ako movie\r\nSeries - liečiť nahrávanie ako TV Series\r\nSports - liečiť nahrávanie ako šport show\r\nDefault - použiť predvolené dostupných informácií v záznam metaúdajov na určenie film alebo televízny seriál
+Show type	Zobraziť typ
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	Vyberte filter typu nahrávky sa converted.\r\n\r\nMovies – Zvoľte túto možnosť na konverzia Ak je ukázať typ Movie.\r\nShows - vyberte konvertovať Ak typ prezentácie nie je Movie.\r\nSports-voľba pre pretvorenie ak je ukázať typ Sports.\r\n\r\nNOTE: ukázať typ je čítanie z nahrávania metadata.\r\nOnly niektoré nahrávky podporu Zobraziť typ metadát ako WTV and\r\nrecordings s podporou metadát súborov (XML/ARG atď).
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	Toto okno zobrazuje všetky súbory vo fronte pre conversion.\r\nDrag a drop súborov tu alebo stlačte tlačidlo Pridať pridať súbory do frontu na konverziu
+Conversion	Konverzia
+Files	Súbory
+Click this button to open or close the Advanced Settings section	Kliknutím na toto tlačidlo otvoríte alebo zatvoríte časti Rozšírené nastavenia
+Running custom commands	Systémom vlastných príkazov
+Trimming video recording	Orezávanie Videozáznam
+Insert at top of queue	Vložiť hornej frontu
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	V predvolenom nastavení nové prepočty sú pridané až na dno (koniec) konverzie queue.\r\nIf je toto políčko začiarknuté, žiadne nové prepočty pridáva táto úloha sa pridá do the\r\nbeginning (hore) z frontu na konverziu.
+Add subtitles and chapters	Pridať titulky a kapitol
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	Povoľte túto možnosť pridať všetky extrahované titulky a kapitolami kapitole prevedený video.\r\nEach označuje koniec komerčné. To funguje len s podporovaných formátov (napríklad MKV, MP4).\r\n\r\nNOTE: niektoré hráčov a staršie TV nepodporujú vložené titulky a chapters.\r\nIf ste schopní prehrávanie previesť video, skúste túto voľbu vypnúť.
+Select best soundtrack	Vyberte najlepší soundtrack
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	Ak pôvodné video má viac soundtracky, táto voľba povie MCEBuddy vybrať najvhodnejšie a primárne soundtrack.\r\nIf chcete konkrétny jazyk soundtrack, uistite sa, že zadáte názov jazyka alebo kódu v Audio jazyk box.\r\nCheck toto políčko Ak počujete zlý soundtrack v prevedený file.\r\n\r\nUncheck toto políčko Ak chcete MCEBuddy zachovať všetky soundtracky z pôvodného videa v prevedený súbor možností. \r\nNOTE: niektoré profily nepodporuje viacero soundtracky, v takom prípade toto nastavenie nemá žiadny účinok.
+Enable remote access	Povoliť vzdialený prístup
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	To vytvorí výnimku brány windows firewall pre MCEBuddy aplikácie a port.\r\nThis je potrebné, ak máte zapnutú bránu firewall systému windows a chcete použiť UPnP, prístup vzdialený client\r\nor motora pomocou IP address.\r\n\r\nNOTE: Ak máte vlastné firewall, to môže fungovať, budete musieť ručne vytvoriť an\r\nexception pre MCEBuddy službu a do prístavu.
+Unable to communicate with engine. Firewall exception settings have not been updated.	Schopní komunikovať s motorom. Nastavenia brány firewall výnimky neboli aktualizované.
+Detect and optimize video quality	Detekovať a optimalizáciu kvality videa
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	Ak je povolené, MCEBuddy bude optimalizovať možnosti spracovanie videa a snaží sa zistiť zdroj videa type.\r\nThis môžete zlepšiť kvalitu prevedený video výrazne Ak správne detected.\r\n\r\nNOTE: je to tým snaží zistiť typ video zdroja (prekladané, progresívne alebo telecine).\r\nIf je schopný zistiť typ video zdroja, prepíše príslušných parametrov v profile.\r\nTurn túto možnosť vypnúť, ak ste sa stretávajú s problémami s prevedené video kvalita alebo chcete používať predvolené profily parametre.
+Are you sure you want to delete this task?	Naozaj chcete odstrániť túto úlohu?
+Delete Task	Odstrániť úlohu
+Enter the new task name	Zadajte názov novej úlohy
+Rename Task	Premenovanie úlohy
+MCEBuddy PAUSED	MCEBuddy POZASTAVENÉ
+idle	nečinný
+PAUSED	POZASTAVENÉ
+Frame rate	Snímkov
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	Povoliť toto nastavenie vlastné framerate (FPS) pre prevedený video.\r\nYou musieť nastaviť počas konverzie video formátov (napríklad PAL na NTSC) \r\nor pre zariadenia, ktoré podporujú iba špecifické framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001
+Skip remuxing files	Preskočiť súbory remuxing
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	SKONTROLOVAŤ tento BOX na svoj vlastný RISK.\r\nDO kontrola toto políčko, ak viete, čo ste DOING.\r\nCheck toto políčko Ak chcete preskočiť remuxing pôvodný súbor TS súborov pri converting.\r\nIf to je kontrolovaná, niektorých funkcií ako titulkov ťažby alebo comskip možno nie work.\r\nIt môžete tiež ešte nevedie k zlyhaní konverzie alebo iné nepredvídané konverzie.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	Skontrolujte, či tento BOX na svoj vlastný RISK.\r\nDO nie SKONTROLOVAŤ tento BOX pokiaľ vám vedieť, čo ste DOING.\r\nCheck tento box preskočiť remuxing pôvodný súbor do súboru TS počas konverzie.
+Monitor converted videos	Monitorovať konvertované videonahrávky
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	Štandardne Monitor miestach bude ignorovať súbory, ktoré už boli converted.\r\nCheck toto políčko Ak chcete sledovať prevedené súbory v Monitor Path.\r\nCAUTION: to môže viesť k nekonečnej konverzie vedeniu konvertovaných súborov ak nie je nakonfigurovaný properly.\r\n\r\nThis môžu byť užitočné, keď ste zadanie výstupného adresára konverzie task\r\n (prevedený súbor) ako cestu Monitor Monitor umiestnenie a prepojenie the\r\nMonitor Umiestnenie na inú úlohu konverzie.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	Skontrolujte tento BOX na svoj vlastný RISK.\r\nDO nie SKONTROLOVAŤ tento BOX pokiaľ vám vedieť, čo ste DOING.\r\nBy predvolené sledovanie umiestnenia bude ignorovať súbory, ktoré už boli converted.\r\nCheck toto políčko Ak chcete sledovať prevedené súbory v ceste k Monitor.
+Hardware encoding	Hardvéru kódovanie
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	Skontrolujte toto políčko použiť hardvér kódovanie podľa dostupnosti previesť videos.\r\nThis môžete výrazne urýchliť konverzie a znížiť CPU utilization\r\nbut to môže viesť k mierne nižšej kvality videos.\r\n\r\nUncheck toto políčko Ak ste čelia konverzie alebo problémami s kvalitou.
+Do not overwrite files	Neprepísali súbory
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	Ak je toto políčko začiarknuté, cieľový súbor sa neprepíšu ak to už exists.\r\nInstead nový súbor bude vytvorený s jedinečným číslom pridaná na koniec názvu súboru.
+Re-monitor recorded videos	Re-sledovať nahraté videá
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	V predvolenom nastavení, keď zdrojový súbor (nahrané video) bol konvertovaný, História \r\nthe monitor bude sledovať názov súboru a nie frontu rovnaké súbory again.\r\n\r\nEnable tejto možnosti sa ignorujú históriu a sledovať všetky súbory a pridať ich to\r\nthe prevodov, aj keď už boli converted.\r\n\r\nThis môžu byť užitočné niekedy, ak nahrávacie softvér nevytvára a\r\nunique súboru pre každý diel/Zobraziť. Je Odporúčané použiť možnosť pôvodný súbor the\r\nDelete na stránke nastavení pri použití tejto možnosti na avoid\r\nan nekonečné konverzie slučky.
+Recommendation	Odporúčanie
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	Vyhnúť sa nekonečné konverzie slučky, odporúča sa nastaviť parametre vyhľadávania Monitor spôsobom, ako zabezpečiť, že prevedené súbory nie sú monitorované Táto úloha Monitor.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	Skontrolujte tento BOX na svoj vlastný RISK.\r\nDO nie SKONTROLOVAŤ tento BOX pokiaľ vám vedieť, čo ste DOING.\r\nBy predvolený Monitor miestach sa nie remonitor nahraté videá, ktoré boli processed.\r\nCheck toto políčko Ak chcete remonitor a prebudovania nahratého videá.
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	Vyhnúť nekonečné konverzie slučky, odporúčame povolíte pôvodný súbor možnosť odstrániť na stránke nastavení.
+Prioritize air date matching	Uprednostňovať leteckej dátum zodpovedajúci
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy používa názov epizódy zápas série information\r\nwhile hľadanie na internete. Ak sa to nepodarí potom využíva pôvodný dátum broadcast\r\nair zápas metadata.\r\n\r\nCheck toto políčko použiť pôvodný dátum vysielania vzduchom najprv a potom the\r\nepisode názov zápas série informácie z internet.\r\nThis môže byť užitočné v niektorých prípadoch až niekoľko sezón mať názov same\r\nepisode. Napríklad Americal Idol konkurz 1\r\n\r\nNOTE: pôvodný dátum vysielania vzduch nie je vždy presné stanovenej the\r\nbroadcaster a niekedy informácií na internete je incorrect.\r\nUse túto možnosť iba vtedy, ak predvolená možnosť nie je práca pre vás.
+Skip eMail body	Preskočiť mailu
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	Skontrolovať túto možnosť použiť prázdny orgánom v oznámení eMail.\r\nThis môžu byť užitočné, ak používate SMS bránu pre upozornenia e-mailom.
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	Výber založený na digitálne práva Management (DRM) je available\r\nonly keď premenovať bez konverzie (premenovať a premiestniť iba) možnosť selected.\r\n\r\nAll - vyberie všetky súbory na spracovanie, bez ohľadu na ochranu proti kopírovaniu status\r\nProtected - len vybrať súbory, ktoré sú kópie protected\r\nUnprotected - len vybrať súbory, ktoré nemajú ochranu proti kopírovaniu
+Download cover art	Stiahnuť obal albumu
+Enable this to download the cover art from the original video and internet if available.	Povoliť toto prevzatie pokrytie umenie z pôvodného videa a internet, ak sú k dispozícii.
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	Naozaj chcete zadať názov domény? \r\n\r\nUse to len ak používate radič domény Windows na spravovanie vášho authentication.\r\nDo používať Ak ste súčasťou Workgroup.\r\n\r\nIf ste istí, kliknite na tlačidlo nie.
+Configuration Warning	Upozornenie pre konfiguráciu
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	Vytvorí priečinok s názvom "MCEBuddyArchive" kde je pôvodný súbor located\r\nand pohybuje pôvodný súbor v tomto adresári, po úspešných conversion.\r\n\r\nThis názov priečinka a umiestnenie zmeniť nižšie.
+Monitoring	Monitorovanie
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	Ak chcete súbor konvertovať na EDL kapitol, uistite sa, že zvolíte možnosť "Pridať titulky a kapitol" Expert nastavenia.
+EDL to Chapters	EDL kapitoly

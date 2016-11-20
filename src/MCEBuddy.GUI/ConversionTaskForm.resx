@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>180, 17</value>
+  </metadata>
+  <data name="conversionLabel.ToolTip" xml:space="preserve">
+    <value>Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.
+Higher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.
+
+TIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles</value>
+  </data>
+  <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="removeAdsLabel.ToolTip" xml:space="preserve">
+    <value>Select the program MCEBuddy will use to strip out any commercials while converting the video.
+Set to 'None' to leave the commercials in the converted video.
+
+TIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.
+Show Analyzer version 1.0 and greater supported.</value>
+  </data>
+  <data name="qualityLabel.ToolTip" xml:space="preserve">
+    <value>Used to change the video quality of the converted file, normal is 1.
+A higher number will improve quality but will take more time for conversion.
+A smaller number will reduce the quality but speed up the conversion.</value>
+  </data>
+  <data name="maxWidthLabel.ToolTip" xml:space="preserve">
+    <value>This will limit the maximum width (in pixels) of the video for the converted file.
+TIP: Does not apply if the original file has a width smaller than this number.
+If you want to keep your original video resolution move the slider all the way to the right.</value>
+  </data>
+  <data name="metaShowMatchLabel.ToolTip" xml:space="preserve">
+    <value>Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)
+Prefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)
+Separate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)
+
+You can use regular expressions to match the pattern by starting with regex:</value>
+  </data>
+  <data name="fileMatchLabel.ToolTip" xml:space="preserve">
+    <value>Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)
+Prefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)
+Separate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami
+
+You can use regular expressions to match the pattern by starting with regex:</value>
+  </data>
+  <data name="langCode.ToolTip" xml:space="preserve">
+    <value>The 3 digit ISO code for the selected language
+Make sure this matches the language code for the audio track in the original recording.
+To get the language code for the audio tracks in the original recorded file, add the file
+to the queue and right click on it. A pop up window will open showing the audio details
+which include the language codes for each audio track.</value>
+  </data>
+  <data name="langLbl.ToolTip" xml:space="preserve">
+    <value>This can be used to override the default Audio Language when there are multiple audio languages in a recording.
+To get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.
+
+&lt;Default&gt; will try to keep all audio tracks if supported or let the encoder choose the default audio track
+&lt;Original&gt;, if available, will use the original [non-dubbed] recording language</value>
+  </data>
+  <data name="customReNamingChk.ToolTip" xml:space="preserve">
+    <value>Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.
+
+Example:
+TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%
+
+Will produce:
+TVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.&lt;ext&gt;
+
+Example:
+Recording\%ismovie%&lt;Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##&gt;-Converted
+
+Will produce (for a movie)
+    Recording\Movies\Star Wars-Converted.&lt;ext&gt;
+OR (for non movies)
+    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.&lt;ext&gt;
+
+Refer to the MCEBuddy advanced documentation for a list of all the pattern commands.</value>
+  </data>
+  <data name="renameOnlyChk.ToolTip" xml:space="preserve">
+    <value>Check this option to only rename and copy the original files to the destination folder.
+When checked, conversion, trimming, audio/video processing and commercial removal will not be available.
+
+NOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)
+will still be available with this option checked.
+If you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select
+Delete original file in the main settings page.</value>
+  </data>
+  <data name="metaNetworkMatchLbl.ToolTip" xml:space="preserve">
+    <value>Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)
+Prefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)
+Separate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)
+
+You can use regular expressions to match the pattern by starting with regex:</value>
+  </data>
+  <data name="metadataShowTypeMatchLbl.ToolTip" xml:space="preserve">
+    <value>Select this to filter the type of recordings being converted.
+
+Movies - select this to convert if the show type is Movie.
+Shows - select this to convert if the show type is NOT a Movie.
+Sports - select this to convert if the show type is Sports.
+
+NOTE: Show type is read from the recording metadata.
+Only some recordings support show type metadata such as WTV and
+recordings with supporting metadata files (XML/ARG etc).</value>
+  </data>
+  <data name="singleAudioTrackChk.ToolTip" xml:space="preserve">
+    <value>If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.
+If you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.
+Check this box if you're hearing the wrong soundtrack in your converted file.
+
+Uncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.
+NOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.</value>
+  </data>
+  <data name="autoDeinterlaceChk.ToolTip" xml:space="preserve">
+    <value>When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.
+This can improve the quality of the converted video significantly if correctly detected.
+
+NOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).
+If it is able to detect the video source type, it will override the corresponding parameters in the profile.
+Turn this option off if you are facing issues with converted video quality or want to use the default profile parameters.</value>
+  </data>
+  <data name="commercialSkipCutChk.ToolTip" xml:space="preserve">
+    <value>Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.
+When this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.
+Also, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.</value>
+  </data>
+  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>270, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>41</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAABMLAAATCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAEAAAAHAAAAFAAAACQAAAA5AAAATgAAAGAAAABwAAAAfAAAAIgAAACVAAAAoAAA
+        AKsAAACyAAAAuAAAALoAAAC5AAAAtQAAAK8AAAClAAAAmQAAAIoAAAB4AAAAZgAAAFEAAAA5AAAAJAAA
+        ABQAAAAHAAAAAQAAAAAAAAABAAAACgAAACwAAABbDg4Ogx8fH5oqKiqsNTU1vjQ0NNEwMDDiJiYm7xsb
+        JPUUFDT2Dg5G9gkJXfYFBW73AgJ9+AEBhPkAAIj5AACI+QAAgvYAAHbtAABo2wAAVcIAADmnAAAWmgAA
+        AJQAAAB+AAAAWgAAADIAAAAUAAAAAAAAAAQVFRUxNTU1nUtLS+JXV1f+X19f/2BgYP9bW1v/RUVJ/yQk
+        V/8PD4L/AQGa/wkPp/8SHbH/GCq9/x8ywv8jOMr/JDvL/yM5y/8iN8n/IDTG/xsrvf8VI7f/Dxmt/wYJ
+        of8AAJv+AACU3wAAUasAAAudAAAAhgAAAE4AAAAAPj4+GEtLS95oaGj/gYGB/4SEhP9/f3//eXl5/1RU
+        cv8NDYr/ChCn/wcKov8eMcT/Jz/Q/yZAz/8nQND/J0DO/yc/zv8lPc7/JD3L/yQ5y/8hN8f/IDTF/x4x
+        w/8dMMH/DRWr/w4Xrf8SHLD/Bgqi/wAAlfIAAEOmAAAAfQAAAABRUVFFW1tb/5SUlP+JiYn/g4OD/35+
+        fv98fHz/ERGN/xcluf8nQM//CQ2k/yE2xv8oQtD/KULR/ypE0v8qRdP/KkXT/ypE0v8oQtH/J0DP/yU8
+        zP8jOcn/IDXG/x8zxf8JDaT/ERyx/xYkt/8RHrP/DRWr/wAAk/IAAACEAAAAADg4OAVXV1exYmJi/n19
+        ff+IiIj/hISE/3Fxcf8EBJH/JDnK/yZAzv8IDaT/JT7N/ytH1f8tSdb/LkvY/y5M2f8uTNn/LkvY/yxJ
+        1v8rRtT/KELR/yY+zv8jOsr/ITjJ/xMes/8ZKbv/FiS4/xQgs/8PGa//AACK5gAAAHoAAAAAAAAAAAAA
+        AAVOTk5XVFRUtWBgYPRsbGz/YGBg/wYGkv8lPs3/Jz/Q/yxG1f8tStj/MEzZ/zFP3P8yUd//M1Tg/zNU
+        4P8yUd//ME/c/y5M2f8sSNb/KUPS/yY+zv8kOcn/IDTH/x0vwf8YKLv/FiO3/w4Yrv8AAH3RAAAAaAAA
+        AAAAAAAAAAAAEwkJCVQNDQ2JERERlyQkJKdOTk7eDAyO/yY+zv8qRdL/LEjW/y9N2v8yUt7/NFXh/zZY
+        4/83WeT/N1nk/zZY4/80VeH/MlHe/y9N2v8sSNb/KULR/yU9zP8hN8f/HjHC/xorvf8XKLr/DBOp/wAA
+        ZrcAAABRAAAAAAAAAAQ7Ozt3QUFB+EFBQf8/QED/Ojw+/zU5PP8MDHr/ITbG/y1J1v8vTNn/MlPe/zVY
+        4v84W+b/Ol7q/ztg6v87YOr/Ol7q/zhb5v81VuL/MlHe/y5M2f8rRtT/J0DP/yM6yv8fM8X/Gy2//xsq
+        vf8IDaT/AABFmwAAADYAAAAAKioqFUNDQ/VxcXH/UVFS/1NPS/9qSSn/b0gi/zMgXv8VI7b/ME7c/zFP
+        3P80VeH/OFvm/ztg6v8+Zu//P2fx/z9n8f8+ZO//O2Dq/zhc5v80VeH/MU/c/y1J1/8pQtH/JTzM/yE1
+        xv8eMML/Gy6+/wAAmv0AABt2AAAAHgAAAAA5OTlATU1N/3Jycv9PUE//j1oi/+a8f//wyY3/tJeK/wYI
+        nf80VOH/MlPf/zZY4/86YOn/P2bv/0Fr8/9Fb/b/RG/2/0Jr8/8/ZO//Ol7o/zZZ4/8yUd7/LkzY/ypE
+        0/8mPc3/ITfH/x4zxf8THrP/AACHxgAAAEUAAAAMAAAAAEBAQGJTU1P/b3Fy/15KOv/LnF//78WI/+rB
+        g//pv4T/KCGL/yY+zf82V+L/N1vm/zxg6v9CavP/SXn+/1GC//9Pgf//S3n//0Nu9f88Y+3/N1rk/zNS
+        4P8uTdn/KkXT/yY+zv8jOMn/IjXH/wIBnf0AAEd5AAAAHQAAAAIAAAAAREREgllZWf9wcnX/Y0cs/+Kz
+        cf/qunv/57h5/+e5ef+hgor/BQag/zhc5v85XOb/PWPt/z9o8v8EEK7/AACK/wAAiv8AAJ3/FyzG/z1j
+        7v86X+n/NFPg/y5N2f8qRdP/Jz/P/yc9zv8ME6r/AACBsAAAACwAAAAHAAAAAAAAAAFFRUWiYWFh/21w
+        dP9uSSb/7rt2/+Syb//ksm//5LJw/+Wzcf9aR5H/Dxit/z1i7f9BafH/BxGx/2Nft////+/////v/8fG
+        2v9XVLT/AACX/yM6zv82WOP/L0va/yxH1P8rRdP/Dxmu/wAAhdUAABs3AAAACQAAAAAAAAAAAAAAAUhI
+        SMFra2v/bXBz/4daKv/rtG3/4qxm/+KrZv/irGf/461o/96ra/9GNoz/DBKr/0Fp9/8AAKL/qqmm/2ho
+        ZP9AQED/OTkz/1ZWSP+em6P/DAOY/x8yxf8zVN//Jz/O/wYKo/8AAHDhAAAfTQAAAAoAAAABAAAAAAAA
+        AAAAAAACSkpK4HR0df9samr/mmgx/+asYP/gpVz/4KVc/+ClXf/hpl7/4ahh/+CqZf9yV4n/Bwac/xAQ
+        Gf8ODQb/FRUV/xkZGf8WFhb/CQkI/wAAAP9akNj/AACX/woMpf8KBoP/CApI9wAAApUAAAAxAAAABQAA
+        AAAAAAAAAAAAAC8vLwxISEj4fn6A/2ljW/+rdzr/46NX/96eUv/enlH/3p9R/96gU//folf/4KRc/9yk
+        Xv9bRyn/JiUf/yclIv8RCQH/DQEA/wwDAP8UEhD/DAQA/yhtqP8wmP7/Tkdd/y8fE/8OEBHyAAAAmwAA
+        AFIAAAAVAAAACgAAAA0AAAAEOTk5J05OTv+DhYb/ZFhP/7t/Of/emEf/3p1R/+CkX//iqWb/4qlm/+Gl
+        X//fnlH/yJdX/y8uJ/8uKyr/HSAh/2fG//9y3v//Yrz//xQSEP8QCAL/OGWM/1C1//9El9j/Ix0X/w0N
+        DvRJMjLKAAAAjQAAAEcAAAA9AAAAOwAAABE/Pz9FVlZW/4WGiP9dT0D/16Rr/+7Gmv/rx5z/7cab/+zG
+        nP/sxpz/7ced/+vGnP+Usq//LUto/yslIP8kISD/Hhwa/xkUEP8XDgj/GRUS/w0AAP9GfrH/Xrn//0Ki
+        //8qWH3/a0U9+KBvb/sEAwOzJRoalGVJSaECAABiAAAAGERERGBfX1//iYuM/1dFNP/tv43/7cWb/+vD
+        mP/rw5j/68OY/+vEmf/rxJn/6cSY/2S44v9erO//IxkP/ycfGP8nHxn/IRkS/xkPB/8eHh3/RXKY/2nE
+        //9gtf//XLL//yaY/f+7hIH/snx7/6Bxce+qd3f/lWhoywAAAE0AAAAPR0dHeWxsbP+PkpT/WUMs//fO
+        n//rxJr/68Sb/+vEm//rxZv/68Wb/+vFm//iw53/R637/3bH//9ywf//YJS//1uOtv9gmcb/brjy/3rR
+        //9zxv//ab3//2O4//9htv//NaP//4OMs//Wm5f/4K2t/7eFhf9lR0eMAAAAJAAAAARHR0ePenp6/5KV
+        l/9mSS3/99Gm/+vGnv/rxp7/68ae/+vGnv/sxp7/7Mee/9fEp/9Jrv//esT//3rH//9+y///gM7//4DM
+        //99yf//dsT//3LA//9tvf//aLr//2S4//9Hqv//c6fr///RyP/MmZn/mm9vwwkEBC0AAAAIAAAAAExM
+        TKSKior/kpSX/25RNP/30qr/7Mii/+zIov/syKL/7Mii/+zIov/syaL/1cWs/02z//+AyP//fsf//4PL
+        //+DzP//g8r//4DJ//9+xv//ecP//3LB//9svv//Zr3//0+2//9Envr/0pKL/al6erZNNTUmAAAABwAA
+        AAEAAAAATU1Nt5ycnP+Mjo//eF1B//fTr//tyqb/7cqm/+3Kp//ty6f/7cun/+3Lp//gyqz/RLr//3/R
+        //+C0f//iNP//4rT//+K0///h9L//4HQ//95zf//ccz//2+///99ocz/i4GY/4NaXfgRDAytAAAANAAA
+        AAIAAAAAAAAAAAAAAABPT0/JsLCw/4OFg/+Ga1D/99az/+7OrP/uzaz/7s2s/+7Orv/uzq3/7s6s/+3M
+        q/+4gH3/qZGb/5+ku/+btNH/mL7g/5bC5v+Vudv/lqrG/5uUp/+keXz/rGpi/69xa/+qcW3/f1lZ8AAA
+        AJkAAAAnAAAAAAAAAAAAAAAAAAAAAFNTU9i/wMD/e3t6/5F6Y//42rf/8NK0//DTtf/w07b/8NO2//DT
+        tP/v0bL/79Cv/9CgmP/KkY//0JWS/8yPi//HioX/xYeC/8SHg//Fiob/x4+M/8iSkf/EkZH/u4iI/6t3
+        d/9hR0jkAAAAfgAAABoAAAAAAAAAAAAAAAAAAAAAWlpa6MjIyP93d3b/nIhx//ndv//x2Lz/8trA//Lb
+        wv/y2sD/8de9//DVt//w07T/58Ou/8WPjv/ntLT/7Lm5/++8vP/uu7v/6LW1/+Gurv/Zpqb/zpub/8aT
+        k/+/jIz/qHNz/zAnKc4AAABdAAAADgAAAAAAAAAAAAAAAAAAAABXV1ftysrK/4+Pkf9eTkD//uHD//7m
+        y///6dH//urV//zn0P/64cj/993C//fbvf/22bj/2ayj/9GenP/0wcH/9sPD//TBwf/subn/4q+v/9mm
+        pv/Rnp7/ypeX/7eCgv+EYmX/DQ0NqAAAADoAAAAGAAAAAAAAAAAAAAAAAAAAAGNjY4pzc3P/oaGh/4KD
+        g/9TT0z/bGNc/3twZP+LfW7/mYh1/6OPev+tln//s5qA/7ecgP+3m3//w5SM/9aioP//zc3//crK//G+
+        vv/lsrL/3aqq/9Shof/Dj47/n3By/z87PP0ODg5oAAAAFgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAWdn
+        Z2FeXl7SYmJi/nFxcv97fH3/fn+B/35+gP96enn/dnV1/3Jwbv9ubGf/a2hj/2llYP9qY2H/qYmG/8uW
+        lP/fq6v/7Lm5/+m1tf/ZpaT/vouJ/5txcP9NRUj3NDQ0gQAAABUAAAAEAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABdXV0gVlZWV1FRUYNRUVGhT09Pt05OTshOTk7XTE1N3kpLS+NJSkvjSUlK40hJ
+        SuBHR0jdYVpc4Y9xc+6qfoD4sYKD/aF4efN9YmTLPjo9dBwcHCMAAAAGAAAAAQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/+AA//gAAA/gAAABwAAAAcAAAADAAAAB8AAAAfAAAAHgAAABwAAAA8AA
+        AAPAAAAHgAAAB4AAAA+AAAAfgAAAH4AAAB+AAAAPgAAAA4AAAAOAAAADAAAABwAAAA8AAAAfAAAAHwAA
+        AD8AAAA/AAAAPwAAAH/AAAB/+AAD//////8=
+</value>
+  </data>
+</root>

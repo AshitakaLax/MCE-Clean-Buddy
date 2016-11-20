@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy şu anda oturum açmış olan kullanıcının ağ paylaşımlarına bağlanmaya kullanmaz, kendi hizmeti hesabını kullanır.  Bağlantı kullanıcı bilgilerini (bir anahtar simgesi ile MCEBuddy) belirlediğinizden emin olun
+Connection Reminder	Bağlantı anımsatıcı
+Description	Açıklama
+Path	Yolu
+is invalid	geçersiz.
+Invalid Path	Geçersiz yol
+Please supply a task name	Lütfen bir görev adı girin
+No name supplied	Adı sağlanmadı
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	Ses kaydı veya Seç <Default>ya da <Original>3 rakamlı dil kodunu giriniz
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	3 Rakamlı bu özgün recording.\r\nTo olsun ses parçaları orijinal kaydedilen dosya için dil kodunu ses parça için dil kodunu eşleştiğinden emin seçilen language\r\nMake ISO kodu file\r\nto sıra ekleyin ve doğru tıkırtı üstünde o. Pop pencere-ecek açık ses gösterilen details\r\nwhich her ses tam dil kodlarını içerir.
+Invalid Language Code	Geçersiz dil kodu
+No destination directory provided, converted file will be placed in original video directory	Hedef dizin sağlanan, dönüştürülen dosya özgün video dizininde yer alacaktır
+A task name or section	Bir görev adı veya bölüm
+already exists\n\rPlease use another name	zaten başka bir ad kullanın exists\n\rPlease
+Duplicate Name	Yinelenen ad
+Engine	Motoru
+Tasks	Görevleri
+Profile	Profil
+disposing	atılması
+Task name	Görev adı
+Give a unique name to this task	Bu görev için benzersiz bir ad verin
+Gives a short description for the selection conversion profile	Seçim Dönüşüm profil için kısa bir açıklama verir
+Click to select destination folder	Hedef klasörü seçmek için tıklatın
+Destination	Hedef
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	Nereye dönüştürülen dosya-ecek var olmak placed.\r\nLeave orijinalle aynı dizinde dönüştürülen dosya video saklamak için bu boş dizini seçin.
+Max width	Maks Genişlik
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	Bu video için dönüştürülmüş file.\r\nTIP maksimum genişliği (piksel cinsinden) sınırlar: Özgün dosya genişliği özgün video çözünürlüğü taşımak kaydırıcıyı sağa tüm yol tutmak istiyorsanız bu number.\r\nIf daha küçük olan uygulanmaz.
+Quality	Kalite
+Ad remover	Ad remover
+None	Hiçbiri
+Get series details from Internet	İnternetten serisi ayrıntıları öğrenin
+Download additional details about the movie or series from the internet	İnternetten film veya dizi hakkında ek ayrıntılar
+File name match	Dosya adını Eşleştir
+Recording title match	Kayıt Başlık Eşleme
+Cancel	İptal
+OK	Tamam
+Rename without converting	Dönüştürme olmadan yeniden adlandırma
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	Sadece yeniden adlandırmak ve hedef folder.\r\nWhen özgün dosyaları kopyalamak için bu seçeneği kontrol ettim, dönüştürme, kesme, ses/görüntü işleme ve ticari kaldırma available.\r\n\r\nNOTE olmayacaktır kontrol: eşleşen süzgeçleri, altyazı, meta veriler ve ticari algılama (EDL dosya kaydetme) \r\nwill hala tasarruf ayıklanması ile bu seçeneği checked.\r\nIf kopyası yerine taşımak gibi diğer fonksiyonlar, orijinal seçeneği Ana Ayarlar sayfası Bu sayfa veya select\r\nDelete orijinal dosyayı uzman ayarlar kopyalama atla denetleyin.
+Rename and sort by video information	Yeniden adlandırma ve video bilgiye göre sıralama
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	Dönüştürülen dosyayı yeniden adlandırır ve gösteri/dizi bilgileri temel alarak yeni bir dizine yerleştirir ne zaman available\r\n (örneğin ShowName\\ShowName-sxxeyy-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	Bir ağ sürücüsüne veya farklı bir bilgisayara erişim klasörleri kullanıcı adı ve parola girin
+Organize by seasons	Mevsim tarafından organize
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	Showname klasörleri düzenlemek ve ne zaman sezon kullanılabilir (Media Center-XBMC-Plex uyumlu adlandırma kuralı) \r\n (e.g. Showname\\Season XX\\SXXEYY-bölüm adı)
+Audio language	Ses dili
+Advanced Settings	Gelişmiş ayarlar
+General Settings	Genel ayarlar
+Conversion Task	Dönüştürme görevi
+Password	Parola
+Confirm Password	Parolayı Onayla
+Domain / computer name	Etki alanı / bilgisayar adı
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	Uzak bilgisayar veya ağ sürücüsünü authentication.\r\nDo için bir etki alanı kullanıyorsa <Optional>Enter değil çalışma grubunuza girin. Bu bir çalışma grubu kullanıyorsanız, bu alanı boş bırakın.
+User name	Kullanıcı adı
+Enter the username to access the remote computer or network drive	Uzak bilgisayar veya ağ sürücüsüne erişmek için kullanıcı adınızı giriniz
+Enter the password to access the remote computer or network drive	Uzak bilgisayar veya ağ sürücüsüne erişmek için parola girin
+Network Connection User Credentials	Ağ bağlantısı kullanıcı kimlik bilgileri
+Password Mismatch	Parola uyuşmazlığı
+Passwords do not match, please reenter the passwords	Şifreler eşleşmiyor, lütfen parolaları yeniden girin
+Hour	Saat
+Minute	Dakika
+Wake	Uyku modundan çıkarma
+Start	Başlat
+Resume	Özgeçmiş
+Pause	Duraklat
+Stop	Durdur
+Language	Dil
+Pause conversion tasks	Duraklama dönüştürme görevleri
+Resume conversion tasks	Dönüşüm görevleri sürdürme
+Please enter a valid time	Lütfen geçerli bir saat girin
+Invalid Time	Geçersiz zaman
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	Durdurma saati, sonra başlangıç zamanı. Durma zamanı sırasında ertesi gün olduğunu düşünürsek, bu doğru mu?
+Time Check	Zaman onay
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	Sadece MCEBuddy dosyalarınızı dönüştürme güvenilir kabul edilebilir bir süre için bu seçeneği seçin. O dönüştürüldükten sonra her özgün dosyayı silmek için MCEBuddy istiyor musunuz?
+Confirm delete originals?	Sil orijinalleri onaylamak?
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy bu dizinler için otomatik olarak dönüştürmek video dosyalarını izleyecek
+Conversion tasks	Dönüşüm görevleri
+Delete original file	Özgün dosyayı silme
+Deletes the original recording after a successful conversion	Sonra başarılı bir dönüşüm özgün kaydı siler
+Min age before conversion (hours)	Min yaş dönüştürmeden önce (Saat)
+Minimum hours to wait before converting each file after the file is added to the queue	Dosya sıraya ekledikten sonra her dosyayı dönüştürmeden önce beklenecek en az Saat
+Use this to change the language of the text on the screen	Ekrandaki metnin dilini değiştirmek için bunu kullanın
+Concurrent conversions	Eşzamanlı dönüşümleri
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	Eşzamanlı dönüşümlerin MCEBuddy olabilir start\r\nNOTE: büyük miktarda boş disk alanı ve işlemci süresi 2'den fazla eşzamanlı dönüşümleri için ihtiyacınız
+Logging level	Günlük düzeyi
+Error	Hata
+Warning	Uyarı
+Information	Bilgi
+Debug	Hata ayıklama
+Log conversion jobs	Günlük dönüşüm işleri
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	\'Logs\ içinde her bir dönüşüm için bir günlük dosyası kaydetmek ' nerede nerede MCEBuddy installed\r\n (örneğin C:\\Program Files\\MCEBuddy2x\\logs) dizini
+Allow sleep	Uyku izin
+If unchecked, it prevents the system from entering sleep while converting	Seçilmezse, o sistemi dönüştürme sırasında uyku girişini engeller
+Stop at	Dur
+No new conversions would be started after this time	Hiçbir yeni dönüşümler bu saatten sonra başlamış
+minute	dakika
+hour	Saat
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	Eğer MCEBuddy sleep\r\nat sistemden olacak sonrasında belirtilen başlangıç saati ve haftanın günlerini etkin kontrol.
+Start at	Başlangıç
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy başlaması arasında yeni dönüşüm başlatmak ve durdurmak için haftanın günlerini etkin kullanılacak başlangıç time.\r\n\r\nThe, bitiş saati başlangıç saat sonra ise whereas\r\nthe son zaman-ecek var olmak için aynı gün or\r\nfor ertesi gün kullanılır.
+Delete	Sil
+Add	Ekle
+Change	Değiştir
+Archive original file	Arşiv özgün dosya
+Domain name	Etki alanı adı
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	Monitör ve dönüştürme görevlerini durdurur ve MCEBuddy yapılandırmak için bir sayfa açılır
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	\'MCEBuddyArchive\ adlı bir klasör oluşturur ' orijinal dosyanın yeri located\r\nand başarılı conversion.\r\n\r\nThis klasör adı ve konumu ve sistem ayarları sayfasında değiştirilebilir sonra orginal dosyasını bu dizine taşır.
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	Hata ayıklama - ayrıntılı günlük izleme dönüştürme problems\r\nInformation - günlüklerini temel bilgiler conversion\r\nWarning - günlük olası sorunları veya kritik hataları only\r\nError - günlük kritik hataları yalnızca yardımcı olur
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	Bu görevle ilişkili dönüşüm profili seçin. Dönüştürme profilini kaliteli dönüştürmeler dönüştürmek için uzun sürer dönüştürülmüş file.\r\nHigher kalitesi ve çıkış biçimi temsil eder. Kurumlarda varsayılan: Yüksek kaliteli MP4 veya MP4 Normal.\r\n\r\nTIP: MCEBuddy Kılavuzu Gelişmiş parametreleri için dönüşüm profilleri tweak ya da kendi dönüşüm profilleri oluşturmak için
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	MCEBuddy video.\r\nSet 'None' reklam içinde dönüştürülmüş video.\r\n\r\nTIP bırakmak için dönüştürme sırasında herhangi bir reklam şerit için kullanmak istediğiniz programı seçin: Comskip yerine ShowAnalyzer kullanın, lütfen download ve install ShowAnalyzer.\r\nShow Analyzer sürüm 1.0 ve daha sonraki sürümleri için desteklenir.
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	Dönüştürülen dosya, normal video kalitesini değiştirmek için kullanılan 1.\r\nA yüksek sayı kalitesini artıracaktır ama conversion.\r\nA daha az sayıda kalitesini azaltır ancak dönüşüm hızı için daha fazla zaman alacak değildir.
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Bu görev için dosya adları eşleşen deseni girin (örneğin *.wtv .wtv)\r\nPrefix deseni ile biten tüm dosyaları dönüştürmek ~ eşleşme atlamak için (örneğin *. *; ~*.wtv .wtv)\r\nSeparate ile olan birden çok desen bitiş; dışındaki tüm dosyaları işlemek (örneğin *.wtv; NCIS *; ~ NCIS miami *) tüm .wtv dosyaları ve NCIS ile başlayan tüm dosyaları işleyecek ama o NCIS miami\r\n\r\nYou ile başlayan regex ile başlatarak desen eşleşmesi için normal ifadeleri kullanma:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Gösteri/seri başlıkları (e.g. Simpson * dönüştürmek olacak bir gösteri başlık Simpson ile başlayan tüm dosyaları) Bu görev için uygun deseni girin ile \r\nPrefix desen ~ eşleşme atlamak için (örneğin *; ~ Simpson * Simpson ile başlayan dışındaki tüm gösteri başlık işlemek) \r\nSeparate çoklu desenleri ile; (e.g. Simpson *;House*) veya (örneğin Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nYou düzenli ifade ile başlatarak eşleşen için normal ifadeleri kullanabilirsiniz:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	Bu ses bir recording.\r\nTo olsun bir kayıt ses dilleri listesini birden fazla ses dilleri sıra dosya üzerinde sağ tıklayın ve MediaInfo.\r\n\r\n <Default>olduğunda dil desteklenen veya varsayılan ses track\r\n <Original>tercih encoder izin tüm ses parçaları tutmak için çalışacağız varsayılan geçersiz kılmak için kullanılabilir, varsa, özgün kayıt [dubbed-] dil kullanır
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	'[Video]' girin veya dosya bu konum için uygun şekilde tüm video files\r\nEnter deseni dönüştürmek için boş bırakın (örneğin *.wtv .wtv)\r\nprefix modeli ile biten tüm dosyaları dönüştürür ~ eşleşme atlamak için (örneğin *. *; ~*.wtv .wtv)\r\nseparate ile birden çok desen ile biten; dışındaki tüm dosyaları işlemek (örneğin *.wtv; NCIS *; ~ NCIS miami *) tüm .wtv dosya ve tüm dosyalar, NCIS ama o NCIS miami ile başlayan başlayarak işleme
+MCEBuddy Settings	MCEBuddy ayarları
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy şu anda oturum açmış olan kullanıcının ağ paylaşımlarına bağlanmaya kullanmaz, kendi hizmeti hesabını kullanır.  Bağlantı kullanıcı bilgilerini [bir anahtar simgesi ile MCEBuddy] belirttiğinizden emin olun
+Please supply a source name	Lütfen bir kaynak adı girin
+Please supply a search path name	Lütfen bir ara yol adı girin
+A source name or section	Bir kaynak adı veya bölüm
+already exists. Please use another name	zaten var. Lütfen başka bir ad kullanabilirsiniz
+Monitor name	Monitör adı
+Give this a location a unique name	Bu bir konumu benzersiz bir ad vermek
+Monitor path	Monitör yolu
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	Arka planda otomatik olarak dönüştürmek yeni video dosyaları için MCEBuddy izleyeceğiniz dizini seçin
+Click to select the folder to monitor	İzlenecek klasör seçmek için tıklatın
+Search pattern	Arama deseni
+SourceForm	SourceForm
+Monitor Location	Ekran konumu
+Normal	Normal
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: pipeProxy motor bağlantı hatası
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: Boru MCEBuddy hizmeti oluşturulamıyor
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	MCEBuddy hizmeti kullanılamıyor. Windows Denetim Masası'ndan başlamak ya da motor bağlantısını kontrol edin.
+Announcement	Duyuru
+New version 	Yeni sürüm 
+available	kullanılabilir
+New BETA version 	Yeni beta sürümü 
+Click here to download new version of MCEBuddy	MCEBuddy yeni sürümü indirmek için tıklayınız
+Click here to open link	Bağlantıyı açmak için tıklayınız
+Idle	Boşta
+Closing	Kapanış
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI: Görevler güncelleştirilemiyor
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: MCEBuddy hizmeti başlatılamıyor
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: MCEBuddy hizmeti durdurulamıyor
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI: İşlem iptal edilemiyor
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	Uyarı: MCEBuddy hizmet, oturum açmış geçerli kullanıcının oturum açma kimlik bilgilerini kullanarak ağ bağlantılı dosyaları erişilebilir olacak. MCEBuddy içinde-> uzman ayarlar sayfa ayarları ağ kimlik bilgileri el ile belirtebilirsiniz.
+Credential Warning	Kimlik bilgisi Uyarısı
+Status	Durumu
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI: İş eklenemiyor
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: Boru etkin durumu alınamıyor
+The conversions must be stopped to change settings. Stop the conversions?	Dönüştürme ayarlarını değiştirmek için durdurulmalı. Dönüştürmeleri durdurmak?
+Stop Engine	Motoru durdur
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI: Ayarlar'ı tıklatın MCEBuddy hizmeti durdurulamıyor
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: Dosyaları taramak için
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: Yapamaz-e doğru açık bağlantı
+Close	Kapat
+Close this window, MCEBuddy will keep running in the background	Kapatmak bu pencere MCEBuddy arka planda çalışan tutmak
+If you like MCEBuddy, please click here to Donate - THANKS	Eğer MCEBuddy gibi bağış için - teşekkür tıklayınız
+Click here to like MCEBuddy on facebook	Tıklayınız facebook üzerinde MCEBuddy gibi
+Click here to open MCEBuddy website	MCEBuddy Web sitesi açmak için burayı tıklatın
+Rescan	Yeniden Tara
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	MCEBuddy yeni video dosyalarını dönüştürmek için monitör konumları denetle için zorlar
+Monitor locations	Monitör Mekanlar
+Settings	Ayarlar
+Select the file(s) in the queue to delete	Dosyaları silmek için sıradaki seçin
+Manually add video file(s) to the queue to convert	El ile video dosyalarını dönüştürmek için sıraya eklemek
+Start the MCEBuddy monitor and conversion tasks	MCEBuddy monitör ve dönüşüm görevleri başlatma
+Stop the MCEBuddy monitor and conversion tasks	MCEBuddy monitör ve dönüşüm görevleri durdurma
+There is a new version!	Orada yeni bir yorum!
+High	Yüksek
+Low	Düşük
+Priority	Öncelik
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	Yüksek öncelikli - hızlı dönüştürme ama unresponsive\r\nLow öncelik çalışan diğer uygulamaları yapmak - arka plan ancak çalışan diğer uygulamaları ile sınırlı girişim dönüştürmek
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	Dönüştürme profilini ve çeşitli diğer dönüşüm parameters.\r\nEach içeren bir dönüşüm şablonu bir görevdir sıraya eklenen dosya işlenir ve her biri bu tasks.\r\nRefer nasıl iş görevleri hakkında daha fazla bilgi için MCEBuddy kılavuzuna göre dönüştürülür.
+Getting started	Başlarken
+Click here for MCEBuddy guide	MCEBuddy Kılavuzu için tıklayınız
+Logs	Günlükleri
+Click to open log folder	Günlük klasörü açmak için tıklatın
+MCEBuddy Status	MCEBuddy durumu
+add	Ekle
+delete	Sil
+paypal-donate	PayPal-bağış
+stop	Durdur
+OUTPUT: ConsoleOuput received NULL data	Çıkış: ConsoleOuput null veri alma
+hours	Saat
+minutes	dakika
+second	ikinci
+seconds	saniye
+Starting	Başlangıç
+Comskip advertisement scan - Pass 1	Comskip reklam tarama - Pass 1
+Comskip advertisement scan - Pass 2	Comskip reklam tarama - Pass 2
+Cutting commercials from video	Kesme ticari video
+Cutting commercials from video - segment 	Kesme reklam video - segment 
+Merging commercial free segments into new video	Yeni bir video ticari ücretsiz parçaları birleştirme
+Moving converted file to destination	Dönüştürülen dosya hedef konuma taşıma
+Checking for disk space	Disk alanı denetleniyor
+Getting show information and banner from Internet sources	Bilgiyi göster ve afiş Internet kaynaklarından elde
+Copying source file to working directory	Kaynak dosyasını çalışma dizinine kopyalanıyor
+Remuxing recording	Remuxing kayıt
+ShowAnalyzer advertisement scan	ShowAnalyzer reklam tarama
+Comskip advertisement scan	Comskip reklam tarama
+Analyzing video information	Video bilgileri analiz
+Converting	Dönüştürme
+Removing commercials	Reklamları kaldırma
+Writing show information	Yazılı bilgileri göster
+Renaming file using show information	Haritayı bilgilerini kullanarak yeniden adlandırma
+Success - All done!	Başarı - All done!
+Muxing streams	Muxing akarsu
+Fallback remux	Geri dönüş remux
+Correcting audio delay	Ses gecikme düzeltme
+Converting video file - Pass 1	Video dosyası - 1 Pass dönüştürme
+Converting video file - Pass 2	Pass 2 - video dosyasını dönüştürme
+Converting video file	Video dosyasını dönüştürme
+Audio Track	Ses kaydı
+Impaired	Engelliler
+Channels	Kanal
+Codec	Codec bileşeni
+Video	Video
+Duration	Süre
+Height	Yükseklik
+Width	Genişlik
+Audio	Ses
+Name	Adı
+Subtitle	Altyazı
+Volume	Birim
+Enable custom file renaming	Özel dosya yeniden adlandırma etkinleştir
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	Bu dönüştürülen dosyaları ve klasörleri yeniden adlandırmak için özel bir desen girmek etkinleştirin. Özel desen kutusuna below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S % sezon % ##E % bölüm % ##-% episodename % - %airyear%_%airmonth%_%airday%\r\n\r\nWill üretmek: \r\nTVShows\CSI\Season 1\CSI - S01E02 - girin kez - 2012_01_06 en iyi.<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill (için bir film) üretmek \r\n Recording\Movies\Star savaşları dönüştürülür. <ext>(olmayan filmler için) \r\nOR \r\n Recording\TVShows\CSI\Season 1\CSI - S01E02 dönüştürülür.<ext>\r\n\r\nRefer MCEBuddy için desen komutların listesi için belgelerini gelişmiş.
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	ShowAnalyzer bulunamadı. \nLütfen karşıdan yükleyip ShowAnalyzer.
+ShowAnalyzer Missing	ShowAnalyzer eksik
+Invalid language code, reverting to <Default> language	Geçersiz dil kodu, <Default>Dil dönüştürme
+Cut start	Başlangıç kesmek
+Cut end	Sonunda kesti
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	Bu (daha önce reklamları kaldırma) kayıt başlar, kesmek için saniye sayısını belirtir
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	Bu (daha önce reklamları kaldırma) kayıt sonu kesilen süreyi belirtir
+Send an eMail after each conversion.	Her dönüştürmeden sonra bir e-posta gönderin.
+Send eMail	E-posta gönder
+SMTP Server Name	smtp sunucusu adı
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	Giden e-posta (smtp) sunucu adresini here\r\ne.g girin. SMTP.gmail.com
+Port	Bağlantı noktası
+Enter the SMTP server port	smtp sunucu portunuzu girin
+Use SSL	ssl kullan
+Check this if you SMTP server uses SSL	Eğer smtp sunucu ssl kullanıyorsa bu kontrol
+e-Mail Settings	e-posta ayarları
+From <e-Mail>	<E-Mail>
+Enter the senders (From) eMail address here	Gönderenler e-posta adresinden () buraya girin
+To <e-Mails>	<E-Mails> için
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	(Noktalı virgül (;) ile birden çok alıcı adresi here.\r\nSeparate e-posta için) alıcıları girin
+Send eMail on successful conversion	Başarılı dönüşüm üzerinde e-posta gönder
+Send eMail on failed conversion	E-posta göndermek başarısız dönüştürmeyi
+Send eMail on cancelled conversion	İptal edilen dönüşüm üzerinde e-posta gönder
+Send eMail on adding a conversion to the queue	Bir dönüştürme kuyruğuna ekleme e-posta Gönder
+Please enter a valid server address	Lütfen geçerli bir sunucu adresi girin
+Invalid SMTP Server	Geçersiz smtp sunucusu
+Please enter a valid server port	Geçerli sunucu bağlantı noktası giriniz
+Invalid SMTP Port	Geçersiz smtp bağlantı noktası
+Please enter a valid From eMail address	Lütfen geçerli bir e-posta adresi girin
+Invalid eMail Address	Geçersiz e-posta adresi
+Please enter valid To eMail addresses	Lütfen e-posta adresleri için geçerli girin
+Username	Kullanıcı adı
+<Optional> Enter the username for the eMail server authentication	<Optional>Enter e-posta sunucusu kimlik doğrulaması için kullanıcı adı
+<Optional> Enter the password for the eMail server authentication	<Optional>E-posta sunucusu kimlik parolasını girin
+MCEBuddy unable to download series information	MCEBuddy seri bilgilerini karşıdan yüklenemediğini
+MCEBuddy successfully converted a video	MCEBuddy başarıyla dönüştürülen video
+Source Video	Kaynak Video
+Converted Video	Dönüştürülen Video
+Converted At	Dönüştürülmesi
+MCEBuddy failed to converted a video	Dönüştürülen video başarısız MCEBuddy
+Failed At	Başarısız
+MCEBuddy cancelled a video conversion	MCEBuddy bir video dönüştürme iptal edildi.
+Cancelled At	Yapılması
+Working	Çalışma
+Test	Sınama
+Testing	Test
+Click this button to test the eMail server settings	E-posta sunucusu ayarlarını sınamak için bu düğmeyi tıklatın
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy sunucu settings.\r\nThis test etmek için bir e-posta göndereceğiz çekmek upto 60 seconds.\r\nMCEBuddy bu dönemde vermeyebilir.
+Test eMail	Sınama e-posta
+MCEBuddy Test eMail	MCEBuddy sınama e-posta
+MCEBuddy - Have a great day!	MCEBuddy - Have a great day!
+Send eMail test successful	E-posta sınama başarılı Gönder
+Send eMail test failed! Please check your settings and internet connectivity	E-posta sınaması başarısız oldu gönderin! Lütfen ayarlarınızı ve Internet bağlantısını kontrol edin
+Test eMail Success	Sınama e-posta başarı
+Test eMail Failed	Sınama e-posta başarısız
+Send eMail on start of conversion	Başlat dönüşüm'e-posta gönder
+MCEBuddy started a video conversion	MCEBuddy bir video dönüşüm başladı
+Conversion Started At	Dönüşüm başladı
+Yes (Comskip)	Evet (Comskip)
+Yes (ShowAnalyzer)	Evet (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	Atleast bir dönüşüm görev etkinleştirilmelidir
+Disable	Devre dışı bırakma
+Enable	Etkinleştir
+Rename	Yeniden adlandırma
+Move	Hareket
+Up	Yukarı
+Down	Aşağı
+Slow Remuxing	Yavaş Remuxing
+Extracting closed captions	Açılan kapalı açıklamalı alt yazılar
+Validating closed captions	Kapalı açıklamalı alt yazıları doğrulanıyor
+Extracting subtitles	Ayıklanan Altyazılar
+Trimming closed captions	Kırpma kapalı açıklamalı alt yazılar
+Extract subtitles and closed captions	Hulâsa subtitles ve kapalı açıklamalı alt yazılar
+Field	Alan
+Channel	Kanal
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	Kapalı açıklamalı alt yazılar ayıklamak için etkinleştirmek için altyazı ve Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV ve diğer desteklenen files.\r\n\r\nIt altyazı (SRT) dosyası olarak kaydedilir.
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	Kapalı açıklamalı alt yazılar extraction\r\nField - 1 ya da 2\r\nChannel - 1 ya da 2\r\n\r\nDefault için Gelişmiş seçenekleri ayarlamak için etkinleştir: alanını 1, Kanal 1
+Subtitle offset	Altyazı kaydırma
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	Saniye sayısını girin (+ ve / ve-) video ile Altyazılar senkron ayarlamak için
+Re-ReMuxing due to audio error	Re-ReMuxing ses hatası nedeniyle
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	Poster Kaydet ve bilgi (metadata) bir MC/XBMC uyumlu NFO dosyasında (XML biçiminde) göster
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	Gibi çalışır meta Etiketler destek dosyaları için MP4, MKV, sadece show bilgi (metadata) dönüştürülmüş file.\r\nThis kaydetmek için bu kutuyu işaretleyin WTV etc.\r\n\r\nNOTE: Eğer sorun okuma meta verilere sahip büyük TV gibi bazı aygıtlarla sorunları karşılaştığınız bu kutunun işaretini kaldırın.
+Atleast one day of the week must be enabled	Atleast haftanın bir günü etkinleştirilmelidir
+Invalid Days of Week	Geçersiz günlerin
+Invalid day of week found in configuration file	Geçersiz yapılandırma dosyasında bulunan haftanın gününü
+Scheduling	Zamanlama
+Remuxing to	Remuxing için
+Part	Bölümü
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	Üst sağ corner.\n\nDonations < Başlarken > linkine tıklayan fare düğmesi, kutu veya anında yardım it.\n\nFor sorun giderme veya MCEBuddy için destek hakkında daha fazla bilgi almak için öğeyi geri kalanlar her zaman hoş geldiniz :) Enjoy! \n\n - hain, Derek & kaz
+Welcome to MCEBuddy	MCEBuddy Hoş Geldiniz
+Multichannel audio	Çok kanallı ses
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	Kaynak video it.\r\nBy varsayılan ses destekliyorsa, çok kanallı ses izin vermek için onay (stereo) 2 kanal için sınırlıdır.
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	Dinamik Aralık sıkıştırma (drc) \r\nWhen kaynak, AC3 ses etkinleştirme drc will\r\nreduce yüksek ve soft\r\nsounds daha even.\r\nIf bir çok kanallı ses kayıt ve ses çok yumuşak, you\r\nfeel bu kutu-ebilmek yardım etmek kontrol var ses yapma arasındaki fark, ' dir.
+FPS	FPS
+Logfile age (days)	Günlük geçerlilik süresi (gün)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	0 Günlükleri sonsuza kadar devam them.\r\nSet silmeden önce logfiles tutulacağı gün sayısı.
+DVRMS Remuxing	dvrms Remuxing
+Fast Remuxing	Hızlı Remuxing
+Byte stream remuxing	Bayt akışı remuxing
+Disable cropping	Kırpma devre dışı bırakma
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	Bu video otomatik olarak conversion.\r\nCropping sırasında kırpma devre dışı bırakmak için "" siyah çubuklar kaldırmak için kullanılan kontrol video (üst, alt, sol veya bu seçenek herhangi bir tarafta video resim kesilir veya son resmi seyir gergin veya bozuk right).\r\nUse.
+Only detect Ads	Sadece Ads tespit
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	Kontrol bu reklamlar (reklam) tespit etmek için MCEBuddy istiyorum ama değilse bu seçenek etkin video.\r\nWhen doğra, MCEBuddy için MP4, M4V dönüştürülmüş video.\r\nAlso reklam konumlarını belirten dönüştürülmüş dosyası ile birlikte bir EDL dosyasını oluşturur ve MKV dosyaları MCEBuddy reklam sonuna işaretlemek için bölümleri oluşturur.
+Download information	Yükleme bilgileri
+Correction	Düzeltme
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	Show başlığı düzeltin ve internetten belirli TVDB seri numarası veya IMDB film id\r\nto arama ek meta veri kullanımını zorlamak için burayı tıklatın.
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	Bu ek bilgileri göstermek gibi bir başlık dosyası, bölüm, sezon vb hakkında internetten indirmek için kontrol
+Profile Error	Profil hatası
+Cannot find selected profile in profiles.conf	Seçili profil içinde profiles.conf bulamıyorum
+Invalid Profile	Geçersiz profil
+Please select a valid profile	Lütfen geçerli bir profili seçin
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	MCEBuddy motoru bozuldu. Mcebuddy.log geliştiriciler için gönderin
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	Bu dönüşüm task\r\nLeave için bu boş Comskip INI dosyası varsayılan reklam kaldırma için to use özel Comskip INI dosyası seçin
+Click to select custom Comskip INI file	Özel Comskip INI dosyası seçmek için tıklatın
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	Geçici dosyalarla çalışmak için klasörü seçin. Yeterli boş alan drive.\r\nLeave üzerinde yükleme klasöründe varsayılan geçici klasör kullanmak için bu boş olduğundan emin olun.
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	Geçici dosyaları ile çalışmak için klasörü seçin. Drive.\r\nThis üzerinde yeterli boş alan-> uzman Ayarlar sayfası ayarlarında belirtilen temp klasörü geçersiz kılar emin olun.
+Click to select temp working folder	Geçici çalışma klasörünü seçin
+Temp folder	Temp klasörü
+Space check	Alanı denetimi
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	Ne zaman etkin MCEBuddy-ecek kontrol için yeterli boş alan için değişme-e doğru (hedef ve ağ sürücüleri ya da olağanüstü büyük video dosyalarını var bu eğer sen-si olmak are having üzmek ile temp).\r\nUncheck.
+MCEBuddy Windows Event Logs	MCEBuddy Windows olay günlükleri
+Events	Olaylar
+Click here to open the MCEBuddy Windows Event Logs	MCEBuddy Windows olay günlükleri açmak için burayı tıklatın
+Enable UPnP	UPnP etkinleştir
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	UPnP sağlamak için bunu işaretleyin. Böylece, MCEBuddy motoru network.\r\nThis dışında cep/bağımsız MCEBuddy MCEBuddy erişmek için kullandığınız istemci Eğer denetlenecek erişmesi.
+Click here to connect to another MCEBuddy engine	Başka bir MCEBuddy Altyapısı bağlanmak için burayı tıklatın
+MCEBuddy Remote Engine Connection	MCEBuddy uzaktan motor bağlantı
+Engine Name	Motor adı
+Engine Port	Motor bağlantı noktası
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	Adı ya da IP adresi MCEBuddy Engine bağlanmak istediğiniz girin
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	Bağlanmak istediğiniz MCEBuddy Engine tcp bağlantı noktası numarasını girin
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	MCEBuddy (1 için 63355 için) bağlanmak istediğiniz motoru tcp bağlantı noktası numarasını girin
+Invalid Name/Port	Geçersiz ad/Port
+Please enter a valid Engine Name and Engine Port Number	Lütfen geçerli bir motor adı ve motor bağlantı noktası numarasını girin
+Error Stopping Engine	Hata durdurma motoru
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	MCEBuddy motoru başlatılamıyor, ayarları kaydedilemeyebilir. Devam etmek istiyor musunuz?
+Unable to communicate with engine. Settings have NOT been saved.	Motoru ile iletişim kurulamıyor. Ayarlar kaydedilmedi.
+Communication Error	İletişim hatası
+Engine not stopped. Settings have NOT been saved.	Motoru değil durdu. Ayarlar kaydedilmedi.
+Unable To Save Settings	Ayarlar kaydedilemedi
+Unable to communicate with engine. UPnP settings have not been updated	Motoru ile iletişim kurulamıyor. UPnP ayarları güncelleştirilmedi
+Audio delay	Ses gecikmesi
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	Bir değeri saniye olarak (pozitif veya negatif) girin burada ses video.\r\nUse göre conversion.\r\nA sonra senkronizasyon dışında olduklarında ses video ile resync aşağıdakine geçiş için pozitif bir değer (yani ses video) ses gecikme olacak ve gelişmiş ses (yani video).\r\nE.g ses. negatif bir değer olacaktır 1,5
+Media info	Ortam bilgisi
+Click here to get media properties for selected files	Seçili dosyalar için medya özellikleri almak için buraya tıklayın
+Save information	Bilgileri kaydetme
+Add information	Bilgi Ekle
+Shows a preview of the custom filename and path	Özel dosya adının ve yolunun önizlemesi gösterilir
+Invalid Filename Pattern	Geçersiz dosya adı deseni
+TVDB Series ID	tvdb seri numarası
+IMDB Series ID	IMDB seri numarası
+Original title	Orijinal adı
+Corrected title	Düzeltilen başlığı
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	TVDB serisi göstermek indirmek için kullanmak istediğiniz kimliği'ni girin information.\r\nIf orijinal başlığı kutusunu boş, bu bu dönüşüm görev tarafından seçilen tüm programları uygulanacak.
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Film information.\r\nIf orijinal indirmek için kullanmak istediğiniz film IMDB kimliği'ni girin başlık kutusu boş, bu bu dönüşüm görev tarafından seçilen tüm programları uygulanacak.
+Internet Lookup Title and Metadata Correction	Internet arama başlık ve meta verileri düzeltme
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	Maç ve başlıklar ve seri id.\r\nIf aynı düzeltilen başlığı veya serisi kimliği bu dönüşüm görev tarafından dönüştürülmüş tüm gösteriler için kullanmak istediğiniz düzeltmek için başka bir satır eklemek için burayı tıklatın \r\nleave orijinal başlığı boş ilk satır ve ikinci bir satır eklemeyin.
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	Gösteri/seri başlıkları (e.g. Simpson * yerini alacak Simpson ile başlayan bir gösteri başlık tüm başlıkları) düzeltme eşleşen deseni girin ile \r\nPrefix desen ~ eşleşme atlamak için (örneğin *. *; ~ Simpson * düzeltmek tüm Simpson ile başlayan dışındaki başlıkları göster) \r\nSeparate çoklu desenleri ile; (e.g. Simpson *;House*) veya (örneğin Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nNOTE: Bu kutuyu boş düzeltilen başlığı veya seri numarası boş bırakarak bu dönüşüm task.\r\nIf tarafından işlem gören tüm dosyalara uygulamak istiyorsanız, ekleyemezsiniz ikinci row.\r\n\r\nYou-ebilmek kullanma normal ifade başlığı regex ile başlatarak eşleştirmek için bırakın:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	Daha fazla bilgi indirmek için kullanmak istediğiniz yeni/düzeltilmiş bir başlık girin internet.\r\nIf orijinal başlığı kutusunu boş, bu-ecek var tatbikî bu dönüşüm tarafından seçilen bütün gösterilere task.\r\n\r\nYou normal ifade başlığı regex ile başlayarak düzeltmek için kullanabilirsiniz:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	Her satır için lütfen adını göster ve ya bir düzeltilmiş eşleştirmek için orijinal başlığı girin başlık ya da bir TVDB/IMDB seri numarası
+Please enter either a Corrected title or a TVDB/IMDB Series ID	Düzeltilmiş başlık ya da bir TVDB/IMDB seri numarası giriniz
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	MCEBuddy dönüştürülen koymak istiyorsanız bu etkin kaynak directory\r\nif hedef yolu dosyada kullanılamaz. (e.g. ağ hatası veya eşleme hatası)
+Fallback to source path	Geri dönüş için kaynak yolu
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	Converting.\r\n1 normaldir iken the\r\nrecording hacmi azaltmak veya artırmak için kullanılan, bunun altında bir şey azaltır, anything\r\nhigher o artacak.
+Archive folder	Arşiv klasörü
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	Arşiv folder.\r\nLeave orijinal dizinin varsayılan 'MCEBuddyArchive' klasör kullanmak için boş yerini değiştirin.
+Monitor subdirectories	İzleme dizinleri
+Check this box to also monitor all directories within the Monitor path	Ayrıca monitör monitör yolundaki tüm dizinler için bu kutuyu işaretleyin
+Click here to show MCEBuddy status	MCEBuddy durumunu göstermek için burayı tıklatın.
+MCEBuddy service not connected	MCEBuddy hizmet bağlı değil
+MCEBuddy idle	MCEBuddy boşta
+conversions in progress	dönüşüm devam ediyor
+MCEBuddy stopped	Durdu MCEBuddy
+Sync converted files	Dönüştürülen dosyaları eşitleme
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	MCEBuddy dönüştürülen dosyaları orijinal files.\r\ni.e ile eşitlenmiş tutmak istiyorsanız, bu seçeneği işaretleyin. Kullanıcı tarafından özgün dosyaları silindiğinde, karşılık gelen dönüştürülen dosyaları deleted.\r\n\r\nNOTE de vardır: MCEBuddy sadece Klasörleri İzle konumları özgün dosyaları izler ve motor ise running.\r\nMCEBuddy motor durdurulduğunda, silinen kullanıcı dosyalarını izlemek mümkün olmayacaktır.
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	Özgün dosya silindiğinde, her dönüştürülen dosyayı silmek için MCEBuddy istiyor musunuz?
+Confirm sync conversions?	Eşitleme dönüşümleri onayla?
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	Eğer sen yapmak değil dönüştürülen video reklamları kaldırmak ve yalnızca edl dosya tutmak istiyor musunuz?
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer vermiyor. Lütfen yeniden doğmuş gibi sistem veya yeniden ShowAnalyzer.
+ShowAnalyzer Not Responding	Vermiyor ShowAnalyzer
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	Eğer "Start" tuşuna basın, bu pencereyi kapattıktan sonra emin olun, aksi taktirde zamanlama ve ardından çalışmaz.
+Enabling Scheduling and Wake	Etkinleştirme zamanlama ve uyku modundan çıkarma
+Passwords do not match	Parolalar uyuşmuyor
+Password error	Parola hatası
+Adding subtitles and chapters to file	Altyazılar ve bölüm dosyasına ekleme
+Send eMail if unable to download series information	%1 Seri bilgilerini indirmek e-posta göndermek
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	Yalnızca belirli monitör locations.\r\nIf denetlenmeyen her dönüşüm görev-ecek oluşum (daha sonra eklenen yeni olanlar da dahil olmak üzere) tüm monitör konumlardaki dosyaları dosyaları işlemek için bu dönüştürme görevi istiyorsanız bu kutuyu işaretleyin.
+Select Monitor Locations	Ekran konumu seçin
+Select atleast one Monitor Location name	Atleast bir monitör konum adı seçin
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	Tüm geçerli monitör gelecekte yeni ekran konumlara otomatik olarak işlemek için bu dönüştürme görevi istediğiniz Locations.\r\nDo seçtiniz?
+New monitor locations	Yeni monitör Mekanlar
+Invalid selection	Geçersiz seçim
+Channel name match	Kanal adı maç
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Kanal adı (e.g. ABC * dönüştürmek olacak ABC ile başlayan bir kanal adı kayıtlı tüm dosyaları) Bu görev için aynı deseni girin ile \r\nPrefix desen ~ eşleşme atlamak için (örneğin *; ~ ABC * ABC ile başlayan dışındaki tüm kanalları işlemek) \r\nSeparate çoklu desenleri ile; (e.g. ABC *;TBS*) veya (e.g. ABC *;Fox*; ~ Fox4 *) \r\n\r\nYou düzenli ifade ile başlatarak eşleşen için normal ifadeleri kullanabilirsiniz:
+Clear history	Geçmişi Temizle
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	Tüm dönüştürülmüş files.\r\nThis geçmişini temizlemek için bu butonu tıklayın neden varlık sınıf başkanı tüm dosyaları yeniden dönüştürme MCEBuddy.
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	Eğer tüm dönüşümler geçmişini silme istedi≡inize emin misiniz? \r\nThis izlenen tüm dosyaları yeniden dönüştürme MCEBuddy neden olur.
+Show history	Tarihi göster
+Click this button to show the history of all converted files.	Tüm dönüştürülen dosyalar geçmişini görüntülemek için bu düğmeyi tıklatın.
+History of Converted Files	Dönüştürülen dosyaların tarihçesi
+Unable to communicate with engine.	Motor ile iletişim kurulamıyor.
+Extracting streams	Akarsu ayıklanıyor
+Fallback muxing streams	Geri dönüş muxing akarsu
+Remuxing TiVO file	Remuxing TiVO dosya
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	Senin 10 haneli dönüştürmek ve TiVO kayıtları işlemek için TiVO MAK anahtar girin
+Invalid TiVO MAK Key	Geçersiz TiVO MAK anahtar
+The TiVO MAK key should be 10 digits	TiVO MAK anahtar 10 haneli olmalıdır
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	Sürüm uyuşmazlığı. Lütfen MCEBuddy istemci ve motor aynı sürüm çalışmadığından emin olun.
+Error retrieving Event Logs	Olay günlüklerini alınırken hata oluştu
+Unable to get Event Log Entries from the MCEBuddy engine.	MCEBuddy motoru olay günlük girdilerini alınamıyor.
+PAUSED: Check conversion schedule	DURAKLATILDI: Onay dönüştürme programı
+Logging	Günlüğe kaydetme
+Folder Management	Klasör yönetimi
+Processor Management	İşlemci yönetimi
+Expert Settings	Uzman Ayarlar
+System Settings	Sistem ayarları
+Click here to change additional settings (for experts only)	(İçin sadece uzmanlar) ek ayarlarını değiştirmek için burayı tıklatın
+Failed folder	Başarısız klasör
+Location of the folder that hold the original files for failed conversions.	Özgün dosyaları tutmak klasörün konumunu dönüştürme başarısız oldu.
+Move original file on failure	Başarısızlık özgün dosyasını taşıma
+Check this to move the original file to a separate folder if the conversion fails.	Dönüştürme başarısız olursa özgün dosyayı ayrı bir klasöre taşımak için bunu işaretleyin.
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	MCEBuddycan use.\r\nEach onay kutusunu kullanılabilir bir mantıksal işlemci ile karşılık gelen mantıksal işlemci sayısını sınırlamak için bunu işaretleyin.
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Her kutusunu temsil mantıksal işlemciler 1 16 respectively.\r\nChecking bir kutu MCEBuddy bu çok işlemci kullanmasına izin verir.
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Her kutusunu temsil mantıksal işlemcilerle 17 32 respectively.\r\nChecking bir kutu MCEBuddy bu çok işlemci kullanmasına izin verir.
+Select atleast one processor to use	Atleast bir işlemci kullanmak için seçin
+Invalid Configuration	Geçersiz yapılandırma
+Comskip path	Comskip yol
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	Comkip (örneğin donator sürüm) özel bir sürümünü kullanmak istiyorsanız \r\nthen comskip yükleme here.\r\nLeave MCEBuddy ile gelen varsayılan comskip kullanmak için boş yolunu girin.
+Miscellaneous	Çeşitli
+Ignore copy protection	Kopya koruma yoksay
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	Video dosyası ise converting.\r\nNOTE kopya koruma bayrak yok saymak için bu onay: MCEBuddy şifreleme bypass edemez, yalnızca bir dosya korumalı bir şifreli değil kopya olarak incorrectly\r\ntagged ise bu yardımcı olur.
+Use recycle bin	Kullanım dönüşüm
+Check this to use the recycle bin when files are deleted by MCEBuddy	Bu MCEBuddy tarafından silinen dosyaları geri dönüşüm için kontrol edin
+Poll period	Anket süresi
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	Bu yeni files.\r\nThe aralığı saniye cinsinden belirtilen için MCEBuddy Monitörü görev yerleri ne sıklıkta tarar olduğunu.
+Server port	Sunucu bağlantı noktası
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	Bu iletişim kurmak için UPnP etkindir, uzaktan engine.\r\nWhen ile MCEBuddy otomatik olarak bu bağlantı noktası bu noktasında Internet'ten erişime izin vermek için Windows Firewall\r\nand UPnP ağ geçidi katacak MCEBuddy kullandığı TCP bağlantı noktasıdır.
+Hang period	Dönem asmak
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	MCEBuddy the\r\nunderlying uygulama yanıt bekleyeceği saniye sayısını girin önce asmak algılamayı devre dışı bırakmak için uygulama hung.\r\nEnter 0 olarak sona erer.
+Subtitle commercial cut sync	Sync subtitle ticari kesmek
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	Ne zaman gitmek giderek her ticari segment video.\r\nThis ayarını kaldırıldıktan sonra eşitlenmemiş Altyazılar getirmek için kullanılan Altyazılar ticari video kesip video.\r\nEach saat eşitlemeyi geri Bu parametre için kullanılan, altyazı bu miktar (+ ve veya - ve saniye) tarafından kaydırılacağı uzaklık süre mi.
+Invalid poll period	Geçersiz anket süresi
+Invalid server port	Geçersiz sunucu bağlantı noktası
+eMail Subject Customization	e-posta konu özelleştirme
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	MCEBuddy e-posta konusu özelleştirmek için bu bölümü gönderilen kullandığı çeşitli dönüşüm olayları below.\r\nRefer belgelere, kullanıcı tanımlı variables.\r\ne.g için özel komutları listelenmiştir. % Showname % % originalfilename % dönüşüm dosyası başarılı görev % taskname%\r\nNOTE kullanarak göster: her zaman tüm veri-ecek var olmak özel commands.\r\nLeave varsayılan konu başlıkları kullanmak için boş kullanılabilir.
+Success	Başarı
+Failed	Başarısız oldu
+Cancelled	İptal
+Download fail	Başarısız yükleme
+Limit processor utilization	Sınır işlemci kullanımı
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	Kontrol MCEBuddy use.\r\nEach onay kutusunu da mantıksal işlemci sayısını sınırlamak için bir kullanılabilir mantıksal işlemci ile karşılık gelir.
+Custom profile	Özel profil
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	MCEBuddy ile birlikte the\r\none yerine kullanmak istediğiniz bir özel profiles.conf dosyanız varsa, dosyayı here.\r\n\r\nNOTE için yolunu girin: MCEBuddy sürekli hata sağlamak için güncelleştirmeleri profiles.conf giderir, bu özelliği kullanırsanız, out\r\non özleyeceğim \r\nenhancements ve performans geliştirmeleri.
+Invalid custom profiles.conf	Geçersiz özel profiles.conf
+Suspend on battery	Aküyle askıya alma
+Suspend conversions when the computer switches to battery power	Bilgisayar pil gücüne geçiş yaparken dönüşümler askıya alma
+MCEBuddy added a video conversion to the queue	MCEBuddy bir video dönüştürme kuyruğuna eklendi
+Queue	Sıra
+Refer to documentation on using custom commands in custom eMail subjects	Özel e-posta Konu özel komutlar kullanarak belgelere başvurun
+Could not copy information to Clipboard, please try again.	-Ebil değil bilgi Panosu'na, lütfen yeniden deneyin.
+Error copying to Clipboard	Pano'ya kopyalanırken hata oluştu
+Copy to clipboard	Panoya kopyala
+Reconvert files	Dosyaları yeniden Dönüştür
+Are you sure you want to reconvert the selected files?	Seçili dosyaları yeniden yüklemek istediğinizden emin misiniz?
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	Yeniden dönüştürme ve orijinal dosyalar hala onlar gözden geçirme için kuyruğa alınacaktır MCEBuddy tarafından izlenmektedir bu button.\r\nIf'yi tıklatın istediğiniz dosyaları seçin.
+Time taken to convert	Dönüştürmek için geçen süre
+Network authentication	Ağ kimlik doğrulaması
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	Ana window\r\nor çubuğunda Ekle ile dosyalar eklendiğinde ağ paylaşımları credentials.\r\nThis kimlik doğrulama girmek için düğme kullanılır tıklayın sürükledi ve dönüşüm durum kutusuna ana penceresinde bir ağ paylaşımından düştü.
+Skip reconversion	Skip yeniden dönüştürme
+Do not reconvert the video if a converted file already exists in the destination directory.	Dönüştürülen dosya zaten hedef dizini varsa videoyu yeniden dönüştürme değil.
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	Beklenen dosya adını değiştirmek video (değil orijinal video dosya) dönüştürülmüş dosyanın varlığını hedef directory.\r\nIf adlarında ile karşılaştırıldığında, dosya değil reconverted ve başarılı conversion.\r\nThis için yararlı aynı gösteri/bölüm üzerinde birden çok kez kaydedilir ve them.\r\n\r\nNOTE yeniden dönüştürmek istemiyorsanız kabul edilir: El ile Ekle düğmesini kullanarak veya sürükle ve bırak ekledi videoları için bu seçenek yoksayılır
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	Dönüştürülen video (değil orijinal video dosya) için dosya adı ile geçmiş file.\r\nIf adlarında ile karşılaştırıldığında son conversions.\r\nThe beklenen etkinleştirilirse, atla geçirme da geçmiş dosyası adlı dönüştürülen dosya adı (yol dahil) için herhangi bir geçmiş dosyası zaten dönüştürülmüş adlarında (yol dahil) maçları, \r\nthe dosyası değil reconverted ve başarılı bir dönüşüm olarak kabul.
+Adding file to the iTunes library	İTunes kitaplığa dosya ekleme
+Add to iTunes	İTunes Ekle
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	Sadece işleri iTunes ile desteklenen dosyaları (örneğin, MP4, M4V, MP3 vb) otomatik olarak dönüştürülen dosyaları iTunes library.\r\nThis eklemek için bu kutuyu kontrol edin
+Adding file to the WMP library	WMP kitaplığa dosya ekleme
+Library Management	Kütüphane Yönetimi
+Add to Windows Media Player	Windows Media Player'a ekleme
+Check this box to automatically add the converted files to the WMP library.	Dönüştürülen dosyaları WMP Kitaplığı'na otomatik olarak eklemek için bu onay kutusunu işaretleyin.
+Renaming and Sorting	Yeniden adlandırma ve sıralama
+Selection Filters	Seçim filtreleri
+Audio and Video	Ses ve görüntü
+Subtitles and Chapters	Altyazılar ve bölümler
+Skip copying original files	Özgün dosya kopyalama atla
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	(Kopyalama) özgün dosyanın bir yedeğini hale dönüştürme sırasında atlamak için kontrol bu KUTUYU AT YOUR OWN RISK.\r\nDO değil kontrol bu kutu sürece sen biliyor OLDUĞUN DOING.\r\nCheck bu kutu.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	(Kopyalama) özgün dosyanın bir yedeğini converting.\r\nIf bu hale geçmek için bu kutuyu kontrol, özgün dosyanın bir error.\r\nIt korunmayacak DOING.\r\nCheck nesin biliyor sürece kontrol bu KUTUYU AT YOUR OWN RISK.\r\nDO değil bu KUTUNUN işaretini de bile dönüştürme hataları veya diğer beklenmedik dönüştürme sorunları neden olabilir.
+Are you sure you want to do this?	Bunu yapmak istediğinden emin misin?
+Media Information Management	Medya bilgi yönetimi
+Force show type	Güç gösterisi türü
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	Bu video film olarak kayıt tedavi zorlamak için veya TV Series.\r\nThis spor show\r\nDefault - film veya TV dizisi belirlemek için kullanım kayıt meta verilerde kullanılabilen varsayılan bilgi olarak kayıt kaydetme hakkında ek bilgi (metadata)--dan internet.\r\nMovie - tedavi movie\r\nSeries - ikram olarak bir TV Series\r\nSports kayıt olarak kayıt - tedavi indirilir şekilde değişecektir
+Show type	Gösteri türü
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	Bu filtre kayıtları converted.\r\n\r\nMovies varlık türü için seçin - gösteri türü Movie.\r\nShows ise dönüştürme - gösteri türü bir Movie.\r\nSports yoksa dönüştürme - gösteri türü Sports.\r\n\r\nNOTE ise dönüştürmek için seçer için seçer için bunu seçin: türü gösteri türü meta veriler meta veriler destekleyici WTV and\r\nrecordings gibi dosyaları () bazı kayıtları destek kayıt metadata.\r\nOnly okumak olduğunu göstermekXML/ARG vb).
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	Bu kutu, conversion.\r\nDrag ve bırak dosyaları veya dosya dönüştürme kuyruğuna eklemek için Ekle düğmesine basın için sıradaki tüm dosyaları gösterir.
+Conversion	Dönüştürme
+Files	Dosyaları
+Click this button to open or close the Advanced Settings section	Açmak veya Gelişmiş Ayarlar bölümünde kapatmak için bu düğmeyi tıklatın
+Running custom commands	Özel komutları çalıştırma
+Trimming video recording	Kırpma video kaydı
+Insert at top of queue	Sıra ekleyebilir
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	Varsayılan olarak, yeni dönüşümler bu kutuyu kontrol edilir, bu görev tarafından eklenen herhangi bir yeni dönüşümler-ecek var olmak mülhak the\r\nbeginning (üst) dönüşüm sırası dönüşüm queue.\r\nIf (end) alt eklenir.
+Add subtitles and chapters	Eklemek Subtitles ve bölümler
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	Ayıklanan altyazı eklemek için bu seçeneği etkinleştirin ve dönüştürülmüş video.\r\nEach bölüm için bölüm ticari bir sonu olacak. Bu biricik inşaat ile desteklenen formatlar (örneğin MKV, MP4).\r\n\r\nNOTE: bazı oyuncular ve büyük TV gömülü altyazıları desteklemeyen ve chapters.\r\nIf kayıttan yürütme için belgili tanımlık değiştirmek video's yapamaz, bu seçeneği kapatmayı deneyin.
+Select best soundtrack	En iyi film müziği seçin
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	Orijinal video birden çok dizi müzikleri, bu seçenek MCEBuddy söyler istediğiniz belirli bir dil soundtrack en uygun ve birincil soundtrack.\r\nIf seçmek için dil adı girin veya bu kutuyu dönüştürülmüş file.\r\n\r\nUncheck içinde yanlış film müziği dinliyorsanız MCEBuddy dönüştürülen dosyayı mümkün olduğunca özgün video üzerinden tüm müzikleri korumak istiyorsanız bu kutuyu ses dili box.\r\nCheck kod emin olun. \r\nNOTE: bazı profilleri, birden çok dizi müzikleri, bu durumda bu ayarın hiçbir etkisi desteklemez.
+Enable remote access	Uzaktan erişimi etkinleştir
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	Bu MCEBuddy uygulama için windows güvenlik duvarı bir özel durum oluşturur ve windows Güvenlik Duvarı etkindir ve UPnP, client\r\nor uzaktan erişim IP address.\r\n\r\nNOTE kullanarak motoru kullanmak istiyorsanız, port.\r\nThis gerek yoktur: özel bir güvenlik duvarınız varsa, bu-ebilmek değil iş, an\r\nexception MCEBuddy hizmet ve bağlantı noktasını el ile oluşturmanız gerekir.
+Unable to communicate with engine. Firewall exception settings have not been updated.	Motor ile iletişim kurulamıyor. Güvenlik Duvarı özel durum ayarları güncelleştirilmedi.
+Detect and optimize video quality	Algılamak ve video kalitesini optimize
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	Etkin olduğunda, MCEBuddy video işleme seçenekleri video kaynağı type.\r\nThis geliştirebilir dönüştürülen video kalitesini önemli ölçüde Eğer doğru şekilde algılamaya çalışarak optimize eder detected.\r\n\r\nNOTE: video kaynak türü (geçmeli, ilerici veya video kaynak türünü tespit etmek mümkün telecine).\r\nIf algılamaya çalışarak bunu yapar, bu seçenek kapalı dönüştürülen video kalitesi sorunlarıyla karşı karşıya veya varsayılan profil parametreleri kullanmak istiyorsanız profile.\r\nTurn ilgili parametreler geçersiz kılar.
+Are you sure you want to delete this task?	Bu görevi silmek istediğinizden emin misiniz?
+Delete Task	Görev silme
+Enter the new task name	Yeni görevin adını girin
+Rename Task	Görevi yeniden adlandırma
+MCEBuddy PAUSED	MCEBuddy DURAKLATILDI
+idle	boşta
+PAUSED	DURAKLATILDI
+Frame rate	Kare hızı
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	Dönüştürülmüş video.\r\nYou bu video formatlarını (e.g. PAL NTSC) \r\nor yalnızca belirli framerates.\r\n\r\nE.g. destekleyen aygıtlar için dönüştürme sırasında ayarlamanız gerekebilir için özel framerate (FPS) ayarlamak için etkinleştir: 25\r\nE.g.: 30000/1001
+Skip remuxing files	Remuxing dosyaları atla
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	KONTROL bu KUTUYU AT YOUR OWN RISK.\r\nDO değil bu boks değil work.\r\nIt nesin remuxing özgün dosyanın converting.\r\nIf bu kontrol edilir bir TS dosyayı atlamak için bu kutuyu DOING.\r\nCheck, altyazı çekme ya da comskip gibi bazı işlevleri biliyor musun olabilir sürece onay da bile dönüştürme hataları veya diğer beklenmedik dönüştürme sorunları açabilir.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	Remuxing özgün dosya dönüştürülürken bir TS dosyaya atlamak için kontrol bu KUTUYU AT YOUR OWN RISK.\r\nDO değil kontrol bu kutu sürece sen biliyor OLDUĞUN DOING.\r\nCheck bu kutu.
+Monitor converted videos	Dönüştürülen videoları izlemek
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	Ayrıca monitör Path.\r\nCAUTION dönüştürülen dosyaları izlemek istiyorsanız, varsayılan ekran konumlara converted.\r\nCheck olan dosyaları bu kutuyu sayacaktır: ne zaman bir dönüşüm task\r\n (dönüştürülen dosya) çıkış dizinini bir monitör konum monitör yolunu belirten ve the\r\nMonitor bağlama yapılandırılmış properly.\r\n\r\nThis yararlı olabilir değilse bu bir sonsuz dönüşüm döngü dönüştürülen dosyaları açabilir Konum için başka bir dönüştürme görevi.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	Ayrıca monitör yolundaki dönüştürülen dosyaları izlemek istiyorsanız kontrol bu KUTUYU AT YOUR OWN RISK.\r\nDO değil kontrol bu kutu sürece sen biliyor OLDUĞUN DOING.\r\nBy varsayılan monitör Mekanlar bu kutuyu converted.\r\nCheck olan dosyaları göz ardı eder.
+Hardware encoding	Donanım kodlama
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	Donanım videos.\r\nThis dönüştürmek kullanılabilir ne zaman kodlama kullanmak için bu kutuyu dönüşüm önemli ölçüde hızlandırmak ve bu kutu dönüşüm veya kalite sorunlarına karşı karşıya iseniz biraz daha düşük kalite videos.\r\n\r\nUncheck yol açabilir CPU utilization\r\nbut azaltmak denetleyin.
+Do not overwrite files	Dosyaların üzerine yazmayın
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	Bu kutu seçiliyse, eğer o zaten exists.\r\nInstead a yeni eğe-ecek var olmak mahluk ile benzersiz bir numara dosya adının sonuna eklenen hedef dosyaya yazılmaz.
+Re-monitor recorded videos	Yeniden kaydedilen videoları izlemek
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	Varsayılan olarak, kaynak dosya (kaydedilmiş video) dönüştürüldü, \r\nthe monitör geçmiş tarihini yoksay ve tüm dosyaları izlemek ve onları to\r\nthe dönüşüm sırası eklemek için bu seçeneği dosya adını ve sıra aynı dosyaları again.\r\n\r\nEnable izler, onlar zaten olmuştur bile converted.\r\n\r\nThis bazen yararlı olabilir bir kez, Eğer kayıt yazılımı a\r\nunique dosya her bölüm/programın adı oluşturmaz. Bu tavsiye avoid\r\nan sonsuz dönüşüm döngüsü için bu seçeneği kullanırken ayarları sayfasında the\r\nDelete özgün dosya seçeneğini kullanın.
+Recommendation	Öneri
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	Bir dönüşüm sonsuz döngüye önlemek için monitör arama deseni gibi bir şekilde dönüştürülmüş dosyalar bu monitörü görev tarafından izlenmektedir değil emin olmak için kurulum için önerilir.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	Yeniden sınamanız ve yeniden kaydedilen videoları dönüştürmek istiyorsanız, kontrol bu KUTUYU AT YOUR OWN RISK.\r\nDO değil kontrol bu kutu sürece sen biliyor OLDUĞUN DOING.\r\nBy varsayılan ekran konumlara değil yeniden sınamanız bu kutuyu processed.\r\nCheck edilmiş videoları kaydedildi.
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	Bir dönüşüm sonsuz döngüye önlemek için Sil orijinal dosya seçeneği ayarları sayfasında etkinleştirmeniz önerilir.
+Prioritize air date matching	Hava tarih eşleştirme öncelik
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy, internet arama serisi information\r\nwhile maç için bölüm adını kullanır. Başarısız olursa bu broadcast\r\nair tarihten metadata.\r\n\r\nCheck eşleşecek şekilde yayın hava tarihten önce kullanmak için bu kutuyu kullanır ve birden çok mevsim same\r\nepisode adı var, sonra the\r\nepisode adı internet.\r\nThis serisi bilgileri için maç için bazı durumlarda yararlı olabilir. Örneğin Americal Idol Audition 1\r\n\r\nNOTE: Orijinal yayın hava Tarih her zaman doğru the\r\nbroadcaster belirlediği değildir ve bazen internette bilgi yalnızca varsayılan seçenek sizin için çalışmıyor durumunda bu seçeneği incorrect.\r\nUse.
+Skip eMail body	Skip e-posta gövdesi
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	Boş bir beden içinde bildirim eMail.\r\nThis kullanmak için bu seçeneği e-posta bildirimleri için SMS gateway kullanıyorsanız yararlı olabilir kontrol edin.
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	Digital doğru yönetim (DRM) temelli seçim olduğunu available\r\nonly zaman dönüştürme olmadan yeniden adlandırın (yeniden adlandırma ve taşıma sadece) seçenek - seçer işleme, kopya koruma status\r\nProtected bakılmaksızın tüm dosyaları - selected.\r\n\r\nAll kopya protected\r\nUnprotected olan select files sadece - sadece kopya koruması olmayan dosyaları seçin
+Download cover art	Kapak resmi indir
+Enable this to download the cover art from the original video and internet if available.	Bu kapak resmi varsa orijinal video ve internet indirmek olanak sağlar.
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	Bir etki alanı adı girmek istiyor musunuz? \r\n\r\nUse bu sadece bir Workgroup.\r\n\r\nIf bir parçası iseniz bu yönetmek için Windows etki alanı denetleyicisi kullanıyorsanız, sizin authentication.\r\nDo değil kullanmak emin değilseniz tıklayın No vardır
+Configuration Warning	Yapılandırma Uyarısı
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	Located\r\nand orjinal dosyasını bu dizine taşır aşağıda başarılı conversion.\r\n\r\nThis klasörün adını ve konumunu değiştirdikten sonra özgün dosyanın nerede'MCEBuddyArchive ' adlı bir klasör oluşturur.
+Monitoring	İzleme
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	Bölümler halinde Edi dosya dönüştürmek istiyorsanız, uzman ayarlar 'Eklemek Subtitles ve Bölüm' seçeneğini kontrol edin.
+EDL to Chapters	Bölüm Edi

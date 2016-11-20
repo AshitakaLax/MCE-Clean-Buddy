@@ -1,0 +1,2001 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading;
+using Microsoft.Win32;
+
+using MCEBuddy.CommercialScan;
+using MCEBuddy.Globals;
+using MCEBuddy.MetaData;
+using MCEBuddy.RemuxMediaCenter;
+using MCEBuddy.VideoProperties;
+using MCEBuddy.Util;
+using MCEBuddy.Transcode;
+using MCEBuddy.Configuration;
+using MCEBuddy.AppWrapper;
+
+namespace MCEBuddy.Engine
+{
+    public class ConversionJob
+    {
+        #region Variables
+
+        private ConversionJobOptions _conversionOptions;
+        private MonitorJobOptions _monitorOptions;
+        private string _originalFileNameBackup = ""; // Backup for the original source file
+        private string _remuxedVideo = "";
+        private MetaData.VideoMetaData _metaData;
+        private CommercialScan.Scanner _commercialScan = null;
+        private CommercialScan.Remover _commercialRemover = null;
+        private VideoInfo _videoFile;
+        private CCandSubtitles _cc;
+        private string _convertedFile = "";
+        private bool _saveEDLFile = false;
+        private bool _deleteSRTFile = false;
+        private bool _copyLOGFile = false;
+        private bool _copyPropertiesFile = false;
+        private bool _spaceCheck = true;
+        private bool _autoDeinterlace = false;
+        private bool _workingVideoRecoded = false;
+
+        private bool _commercialSkipCut = false; // do commercial scan keep EDL file but skip cutting the commercials
+        private int _maxConcurrentJobs = 1;
+        private bool _zeroChannelAudio = false;
+        private bool _preConversionCommercialRemover = false;
+        private string _srtFile = ""; // location of SRT file
+        private double _subtitleSegmentOffset = 0; // compensation for each segment cut
+        private float _initialRemuxSkipSeconds = 0; // Number of seconds cut from the file while remuxing, this difference is required when using a saved EDL file and SRT files
+
+        private DateTime _startConversionTime = GlobalDefs.NO_BROADCAST_TIME; // Start time for the conversion, default
+        private DateTime _endConversionTime = GlobalDefs.NO_BROADCAST_TIME; // End time for the conversion, default
+        private Dictionary<DateTime, string> _performanceMetrics = new Dictionary<DateTime, string>();
+        private JobStatus _jobStatus;
+        private Thread _conversionThread;
+
+        #endregion
+
+        public ConversionJob(ConversionJobOptions conversionJobOptions, MonitorJobOptions monitorJobOptions, VideoMetaData metaData)
+        {
+            _conversionOptions = conversionJobOptions; // First thing to do and save for reference
+            _monitorOptions = monitorJobOptions; // Save it for reference
+            _metaData = metaData; // Save the metadata if present
+
+            _originalFileNameBackup = _conversionOptions.sourceVideo; // This is what we use to report to the world what we're working on, _sourceVideo may change under certain conditions below
+            if (String.IsNullOrEmpty(_conversionOptions.destinationPath))
+                _conversionOptions.destinationPath = Path.GetDirectoryName(_conversionOptions.sourceVideo); // No dest path = convert in place
+
+            // Check and set the Parent SubFolder Path Relative to monitoring root
+            if (_monitorOptions == null) // Manual file, relative path is the source directory path
+                _conversionOptions.relativeSourcePath = Path.GetDirectoryName(_conversionOptions.sourceVideo);
+            //else
+            //    _conversionOptions.relativeSourcePath = FilePaths.GetRelativePath(Path.GetDirectoryName(_conversionOptions.sourceVideo), _monitorOptions.searchPath); // Get the relative path
+
+            _jobStatus = new JobStatus();
+            _jobStatus.SourceFile = _conversionOptions.sourceVideo;
+            _jobStatus.TaskName = _conversionOptions.taskName;
+
+            // Read various engine parameters
+            _maxConcurrentJobs = MCEBuddyConf.GlobalMCEConfig.GeneralOptions.maxConcurrentJobs;
+            _spaceCheck = MCEBuddyConf.GlobalMCEConfig.GeneralOptions.spaceCheck;
+            _subtitleSegmentOffset = MCEBuddyConf.GlobalMCEConfig.GeneralOptions.subtitleSegmentOffset;
+
+            // Read various profile parameters
+            Ini configProfileIni = new Ini(GlobalDefs.ProfileFile);
+
+            // Profile only parameters 
+            _preConversionCommercialRemover = configProfileIni.ReadBoolean(_conversionOptions.profile, "PreConversionCommercialRemover", false); // Check if the user wants to remove commercials before the actual conversion in which case we always return false - i.e. remove commercial during remux stage
+            _copyLOGFile = configProfileIni.ReadBoolean(_conversionOptions.profile, "CopyLogFile", false); // Check if the user wants to save the log file generated by Comskip
+            _copyPropertiesFile = configProfileIni.ReadBoolean(_conversionOptions.profile, "CopyPropertiesFile", false); // Check if the user wants to save the properties file for SageTV metadata
+
+            if (configProfileIni.ReadString(_conversionOptions.profile, "AutoDeinterlace", "default") == "default")
+                _autoDeinterlace = _conversionOptions.autoDeInterlace;
+            else
+                _autoDeinterlace = configProfileIni.ReadBoolean(_conversionOptions.profile, "AutoDeinterlace", false);
+
+            if (_conversionOptions.renameOnly)
+                _commercialSkipCut = true; //no cutting if we are renaming only
+            else if (configProfileIni.ReadString(_conversionOptions.profile, "CommercialSkipCut", "default") == "default")
+                _commercialSkipCut = _conversionOptions.commercialSkipCut;
+            else _commercialSkipCut = configProfileIni.ReadBoolean(_conversionOptions.profile, "CommercialSkipCut", false);
+        }
+
+        #region DerivedVariables
+        /// <summary>
+        /// Gets the start time for the conversion
+        /// </summary>
+        public DateTime ConversionStartTime
+        {
+            get { return _startConversionTime; }
+        }
+
+        /// <summary>
+        /// Gets the end time for the conversion
+        /// </summary>
+        public DateTime ConversionEndTime
+        {
+            get { return _endConversionTime; }
+        }
+
+        /// <summary>
+        /// Name of the conversion task
+        /// </summary>
+        public string TaskName
+        {
+            get { return _conversionOptions.taskName; }
+        }
+
+        /// <summary>
+        /// Path to converted file if the conversion is successful
+        /// </summary>
+        public string ConvertedFile
+        {
+            get { return _convertedFile; }
+        }
+
+        /// <summary>
+        /// If the conversion has completed
+        /// </summary>
+        public bool Completed
+        {
+            get { return _jobStatus.Completed; }
+        }
+
+        /// <summary>
+        /// Current job status for the conversion
+        /// </summary>
+        public JobStatus Status
+        {
+            get { return _jobStatus; }
+        }
+
+        /// <summary>
+        /// The original source file for the conversion
+        /// </summary>
+        public string OriginalFileName
+        {
+            get { return _originalFileNameBackup; }
+        }
+
+        /// <summary>
+        /// Temp working path for conversion
+        /// </summary>
+        public string WorkingPath
+        {
+            get { return _conversionOptions.workingPath; }
+            set { _conversionOptions.workingPath = value; }
+        }
+
+        /// <summary>
+        /// If the conversion is active
+        /// </summary>
+        public bool Active
+        {
+            get { return _jobStatus.Active; }
+        }
+
+        /// <summary>
+        /// The VideoTags metadata for the file
+        /// </summary>
+        public VideoTags MetaData
+        {
+            get
+            {
+                if (_metaData != null)
+                    return _metaData.MetaData;
+                else
+                    return null;
+            }
+        }
+
+        /// <summary>
+        /// Profile being used
+        /// </summary>
+        public string Profile
+        {
+            get { return _conversionOptions.profile; }
+        }
+
+        /// <summary>
+        /// Original Conversion Job Options used
+        /// </summary>
+        public ConversionJobOptions ConversionJobOptions
+        {
+            get { return _conversionOptions; }
+        }
+
+        /// <summary>
+        /// Original Monitor Job Options used to schedule conversion
+        /// </summary>
+        public MonitorJobOptions MonitorJobOptions
+        {
+            get { return _monitorOptions; }
+        }
+
+        /// <summary>
+        /// Current video file being worked upon, either original or remuxed file if it exists
+        /// </summary>
+        private string WorkingVideo
+        {
+            get
+            {
+                if (!String.IsNullOrWhiteSpace(_remuxedVideo))
+                    return _remuxedVideo;
+                else
+                    return _conversionOptions.sourceVideo;
+            }
+
+            set { _remuxedVideo = value; }
+        }
+
+        #endregion
+
+        /// <summary>
+        /// Check for sufficient disk space for conversion, source, target and temp
+        /// </summary>
+        /// <param name="jobLog">joblog</param>
+        /// <returns>True is there is sufficient space in all places</returns>
+        private bool SufficientSpace( Log jobLog)
+        {
+            if (!_jobStatus.Cancelled)
+            {
+                double videoFileSpace = 0;
+                long fiSize = -1;
+                long workingSpace = -1;
+                long destinationSpace = -1;
+
+                double spaceMultiplier = GlobalDefs.SPACE_REQUIRED_MULTIPLIER * (1 + ((_maxConcurrentJobs - 1) * GlobalDefs.MAX_CONCURRENT_SPACE_REQUIRED_MULTIPLIER)); // for each simultaneous conversion we need enough free space (each incremental conversion we allocate space - statistically significnat space reuqired for probabalistic simultaneous reuqirements)
+
+                try
+                {
+                    FileInfo fi = new FileInfo(_conversionOptions.sourceVideo);
+                    fiSize = fi.Length;
+                    videoFileSpace = fiSize * spaceMultiplier;
+                    workingSpace = FileIO.GetFreeDiskSpace(_conversionOptions.workingPath);
+                    destinationSpace = FileIO.GetFreeDiskSpace(_conversionOptions.destinationPath);
+                }
+                catch (Exception e)
+                {
+                    string errMsg = ("Error: Unable to obtain available disk space");
+                    jobLog.WriteEntry(this, errMsg + "\r\nError : " + e.ToString(), Log.LogEntryType.Warning);
+                    return true;
+                }
+
+                if (destinationSpace < 0)
+                {
+                    string errMsg = ("Unable to obtain available disk space in ") + " " + _conversionOptions.destinationPath;
+                    jobLog.WriteEntry(this, errMsg, Log.LogEntryType.Warning);
+                    return true;
+                }
+
+                if (workingSpace < 0)
+                {
+
+                    string errorMsg = ("Unable to obtain available disk space in ") + " " + _conversionOptions.workingPath;
+                    jobLog.WriteEntry(this, errorMsg, Log.LogEntryType.Warning);
+                    return true;
+                }
+
+                jobLog.WriteEntry(this, "File size -> " + (((float)fiSize) / 1024 / 1024 / 1024).ToString(CultureInfo.InvariantCulture) + " GB", Log.LogEntryType.Debug);
+                jobLog.WriteEntry(this, "Destination space -> " + (((float)destinationSpace)/1024/1024/1024).ToString(CultureInfo.InvariantCulture) + " GB", Log.LogEntryType.Debug);
+                jobLog.WriteEntry(this, "Working space -> " + (((float)workingSpace)/1024/1024/1024).ToString(CultureInfo.InvariantCulture) + " GB", Log.LogEntryType.Debug);
+
+                if (!_spaceCheck) // skip space check
+                {
+                    jobLog.WriteEntry(this, "SKIPPING FREE SPACE CHECK", Log.LogEntryType.Warning);
+                    return true;
+                }
+
+                jobLog.WriteEntry(this, "Required free space -> " + (((float)videoFileSpace)/1024/1024/1024).ToString(CultureInfo.InvariantCulture) + " GB", Log.LogEntryType.Debug);
+                jobLog.WriteEntry(this, "Max concurrent conversion jobs -> " + _maxConcurrentJobs.ToString(), Log.LogEntryType.Debug);
+
+                if (destinationSpace < videoFileSpace/spaceMultiplier) // For destination we just need to check enough space for each conversion
+                {
+                    string errorMsg = ("Insufficient destination disk space avalable in") + " " + _conversionOptions.destinationPath + ". " +
+                                            destinationSpace.ToString() + " " + ("available, required") + " " +
+                                            (videoFileSpace/spaceMultiplier).ToString(CultureInfo.InvariantCulture);
+                    if (destinationSpace < 0)
+                        errorMsg += "\n" +
+                                    ("Most likely cause is insufficient premissions for the MCEBuddy engine at") + " " +
+                                    _conversionOptions.destinationPath + " " + ("Please check connection credentials.");
+                    jobLog.WriteEntry(this, errorMsg, Log.LogEntryType.Error);
+                    _jobStatus.ErrorMsg = errorMsg;
+                    return false;
+                }
+
+                if (workingSpace < videoFileSpace) // for working space we need a multipler for each file and for each conversion queue
+                {
+                    string errorMsg = ("Insufficient temp working disk space avalable in") + " " +
+                                        _conversionOptions.workingPath + ". " +
+                                        workingSpace.ToString() + " " + ("available, required") + " " + videoFileSpace.ToString(CultureInfo.InvariantCulture);
+                    
+                    if (_maxConcurrentJobs > 1)
+                        errorMsg += "\r\n" + "Try reducing the number of simultaneous conversions to reduce free disk space requirements.";
+
+                    if (destinationSpace < 0)
+                        errorMsg += "\r\n" +
+                                    ("Most likely cause is insufficient premissions for the MCEBuddy engine at") + " " +
+                                    _conversionOptions.destinationPath + " " + ("Please check connection credentials.");
+                    jobLog.WriteEntry(this, errorMsg, Log.LogEntryType.Error);
+                    _jobStatus.ErrorMsg = errorMsg;
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        /// <summary>
+        /// Start the conversion task
+        /// </summary>
+        public void StartConversionThread()
+        {
+            Log.AppLog.WriteEntry(this, "Starting Conversion Thread", Log.LogEntryType.Debug, true);
+            _conversionThread = new Thread(this.Convert);
+            _conversionThread.CurrentCulture = _conversionThread.CurrentUICulture = Localise.MCEBuddyCulture;
+            _jobStatus.Active = true; // Mark it here before the thread starts otherwise it leads to race conditions since the thread takes time to start and the same job is assigned to another queue
+            _conversionThread.Start();
+            _startConversionTime = DateTime.Now; // Start time for the conversion
+        }
+
+        /// <summary>
+        /// Stop the conversion task
+        /// </summary>
+        public void StopConversionThread()
+        {
+            if (_conversionThread != null)
+            {
+                Log.AppLog.WriteEntry(this, "Marking conversion thread cancelled and waiting for " + (GlobalDefs.MAX_SHUTDOWN_WAIT / 1000).ToString(CultureInfo.InvariantCulture) + " seconds to terminate running processes", Log.LogEntryType.Debug, true);
+
+                _jobStatus.Cancelled = true; // Give a chance to kill any spawned processes
+
+                int totalSleep = 0;
+                while (_jobStatus.Active && (totalSleep < GlobalDefs.MAX_SHUTDOWN_WAIT))
+                {
+                    Thread.Sleep(200); // Wait for running processes to be terminated
+                    totalSleep += 200;
+                }
+
+                if (_jobStatus.Active)
+                {
+                    Log.AppLog.WriteEntry(this, "Aborting conversion thread", Log.LogEntryType.Debug, true);
+                    _conversionThread.Abort();
+                }
+            }
+        }
+
+        /// <summary>
+        /// Create a log file for the conversion job
+        /// </summary>
+        /// <param name="videoFileName">Name of file being converted</param>
+        /// <returns>Log object</returns>
+        private Log CreateLog(string videoFileName)
+        {
+            Log newLog = new Log(Log.LogDestination.Null);
+
+            if (MCEBuddyConf.GlobalMCEConfig.GeneralOptions.logJobs)
+            {
+                //Delay for a random time to avoid log creation problem for 2 threads started simultaneously for same profile causing logfile not be created
+                Thread.Sleep(GlobalDefs.random.Next(100)); //generate a Random number to sleep for upto 100ms
+
+                string logFile = Path.Combine(GlobalDefs.LogPath,
+                                              Path.GetFileName(videoFileName) + "-" +
+                                              FilePaths.RemoveIllegalFileNameChars(_conversionOptions.taskName) + "-" +
+                                              DateTime.Now.ToString("o", CultureInfo.InvariantCulture).Replace(':', '-') +
+                                              ".log");
+                try
+                {
+
+                    Log.AppLog.WriteEntry(this, Localise.GetPhrase("Creating log file") + " : " + logFile, Log.LogEntryType.Information);
+                    newLog = new Log(logFile);
+                }
+                catch (Exception e)
+                {
+                    Log.AppLog.WriteEntry(this, Localise.GetPhrase("Error creating log file") + " : " + logFile, Log.LogEntryType.Error);
+                    Log.AppLog.WriteEntry(this, "Error : " + e.ToString(), Log.LogEntryType.Debug);
+                }
+            }
+
+            return newLog;
+        }
+
+        /// <summary>
+        /// Clean up the temp folder and ready to close job on a failed or completed conversions
+        /// </summary>
+        /// <param name="jobLog">KpbLog</param>
+        private void Cleanup(Log jobLog)
+        {
+            // These files may outside the temp working directory if the source wasn't copied - only we if created them (i.e. commercial scanning done)
+            if (_commercialScan != null)
+            {
+                if (!_saveEDLFile && (_conversionOptions.commercialRemoval == CommercialRemovalOptions.ShowAnalyzer) && (String.Compare(Path.GetDirectoryName(OriginalFileName), Path.GetDirectoryName(WorkingVideo), true) == 0)) // Delete these files only if we ran commercial detection, comskip always puts the output to temp folder, only for shownanalyzer and if we are working on the original file
+                {
+                    FileIO.TryFileDelete(FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".log"); // Delete the .log file created by Comskip
+                    FileIO.TryFileDelete(FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".logo.txt"); // Delete the .logo.txt file created by Comskip
+                    FileIO.TryFileDelete(FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".txt"); // Delete the txt file created by Comskip
+
+                    // If the was with the original recording it would be saved, so if we didn't save it then it needs to be deleted unless the destination file and source file are in the same directory
+                    if (String.Compare((FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".edl"), (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".edl"), true) != 0) // Don't delete if they are the same file, e.g. TS to TS in same directory
+                        FileIO.TryFileDelete(FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".edl"); // Delete the edl file - check if it existed
+                    if (String.Compare((FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".edlp"), (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".edlp"), true) != 0) // Don't delete if they are the same file, e.g. TS to TS in same directory
+                        FileIO.TryFileDelete(FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".edlp"); // Delete the edlp file - check if it existed
+                }
+            }
+
+            if (_deleteSRTFile) // If the was with the original recording it would be saved, so if we didn't save it then it needs to be deleted unless the destination file and source file are in the same directory
+                if (String.Compare((FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".srt"), (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".srt"), true) != 0) // Don't delete if they are the same file, e.g. TS to TS in same directory
+                    FileIO.TryFileDelete(FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".srt"); // Delete the srt file - check if it existed
+
+            FileIO.ClearFolder(_conversionOptions.workingPath); // Clean up the temp working directory
+            
+            LogStatus("", jobLog); // clear the output on the screen
+            _jobStatus.PercentageComplete = 0; //Reset the counter
+            _jobStatus.ETA = "";
+
+            DisplayPerformanceMetrics(jobLog); // Dump performance metrics
+
+            jobLog.Close();
+            _conversionOptions.sourceVideo = _originalFileNameBackup; // Restore the original file path
+            _jobStatus.Completed = true; // mark it completed only after an exit to indicate thread is finished
+            _jobStatus.Active = false; // mark active false only after completed true to avoid race condition with monitor thread
+            _endConversionTime = DateTime.Now; // end of conversion
+        }
+
+        /// <summary>
+        /// Write current activity to log and update current action
+        /// </summary>
+        /// <param name="activity">Status/Activity</param>
+        /// <param name="jobLog">JobLog</param>
+        private void LogStatus(string activity, Log jobLog)
+        {
+            _jobStatus.PercentageComplete = 0; // Reset counter
+            _jobStatus.CurrentAction = activity;
+            jobLog.WriteEntry(this, activity, Log.LogEntryType.Information, true);
+
+            // Performance Counter Metrics for each activity
+            DateTime now = DateTime.Now;
+            while (_performanceMetrics.ContainsKey(now)) // Cannot have 2 keys with same timestamp (happens in fast computers/situations)
+            {
+                Thread.Sleep(1); // Increment the DateTime Counter
+                now = DateTime.Now;
+            }
+
+            _performanceMetrics.Add(now, activity);
+        }
+
+        /// <summary>
+        /// Dumps the performance metrics for the conversion job
+        /// </summary>
+        /// <param name="jobLog"></param>
+        private void DisplayPerformanceMetrics(Log jobLog)
+        {
+            jobLog.WriteEntry("Performance Metrics for the Current Conversion", Log.LogEntryType.Debug);
+            jobLog.WriteEntry("\r\n", Log.LogEntryType.Debug);
+            
+            if (_videoFile != null)
+            {
+                if (_videoFile.OriginalVideoFFMPEGStreamInfo != null)
+                {
+                    jobLog.WriteEntry("Source video duration (hh:mm:ss) -> " + (new TimeSpan(0, 0, (int)_videoFile.OriginalVideoFFMPEGStreamInfo.MediaInfo.VideoInfo.Duration)).Hours.ToString("00") + ":" + (new TimeSpan(0, 0, (int)_videoFile.Duration)).Minutes.ToString("00") + ":" + (new TimeSpan(0, 0, (int)_videoFile.Duration)).Seconds.ToString("00"), Log.LogEntryType.Debug);
+                    jobLog.WriteEntry("Source video codec -> " + _videoFile.OriginalVideoFFMPEGStreamInfo.MediaInfo.VideoInfo.VideoCodec, Log.LogEntryType.Debug);
+                    jobLog.WriteEntry("Source video height -> " + _videoFile.OriginalVideoFFMPEGStreamInfo.MediaInfo.VideoInfo.Height.ToString(), Log.LogEntryType.Debug);
+                    jobLog.WriteEntry("Source video width -> " + _videoFile.OriginalVideoFFMPEGStreamInfo.MediaInfo.VideoInfo.Width.ToString(), Log.LogEntryType.Debug);
+                }
+
+                if (_videoFile.FFMPEGStreamInfo != null)
+                    jobLog.WriteEntry("Pre-conversion video duration (hh:mm:ss) -> " + (new TimeSpan(0, 0, (int)_videoFile.FFMPEGStreamInfo.MediaInfo.VideoInfo.Duration)).Hours.ToString("00") + ":" + (new TimeSpan(0, 0, (int)_videoFile.Duration)).Minutes.ToString("00") + ":" + (new TimeSpan(0, 0, (int)_videoFile.Duration)).Seconds.ToString("00"), Log.LogEntryType.Debug);
+            }
+
+            jobLog.WriteEntry("\r\n", Log.LogEntryType.Debug);
+            jobLog.WriteEntry("<Start At Date/Time>\t<Duration (hh:mm:ss)>\t\t<Activity>", Log.LogEntryType.Debug);
+
+            DateTime last = GlobalDefs.NO_BROADCAST_TIME;
+            TimeSpan total = new TimeSpan();
+            foreach (DateTime key in _performanceMetrics.Keys)
+            {
+                if (last != GlobalDefs.NO_BROADCAST_TIME)
+                {
+                    total += (key - last);
+                    jobLog.WriteEntry("<" + last.ToString(CultureInfo.InvariantCulture) + ">\t<" + (key - last).Hours.ToString("00") + ":" + (key - last).Minutes.ToString("00") + ":" + (key - last).Seconds.ToString("00") + ">\t\t<" + _performanceMetrics[last] + ">", Log.LogEntryType.Debug);
+                }
+
+                last = key;
+            }
+
+            jobLog.WriteEntry("\r\n", Log.LogEntryType.Debug);
+            jobLog.WriteEntry("Total time taken by conversion (hh:mm:ss) -> " + total.Hours.ToString("00") + ":" + total.Minutes.ToString("00") + ":" + total.Seconds.ToString("00"), Log.LogEntryType.Information);
+        }
+
+        /// <summary>
+        /// Renames the converted file to destination file name (in the working folder, does NOT move it)
+        /// </summary>
+        /// <param name="subDestinationPath">Destination sub directory relative folder path for moving the renamed file</param>
+        private void RenameConvertedFile(out string subDestinationPath, Log jobLog)
+        {
+            string newFileName;
+
+            // Check if renaming is required, if so rename the converted file
+            if (CustomRename.GetRenameByMetadata(_conversionOptions, _metaData, OriginalFileName, FilePaths.CleanExt(_convertedFile), out newFileName, out subDestinationPath, jobLog)) // Get the new filename and path
+            {
+                //Try to rename the converted file with the new filename without moving it
+                try
+                {
+                    newFileName = Path.Combine(Path.GetDirectoryName(_convertedFile), newFileName);
+                    if (String.Compare(_convertedFile, newFileName, true) != 0) // If the filename are the same else FileIO.MoveAndInheritPermissions throws an error
+                    {
+                        jobLog.WriteEntry(Localise.GetPhrase("Rename file to") + " " + newFileName, Log.LogEntryType.Information);
+                        FileIO.TryFileDelete(newFileName);
+                        FileIO.MoveAndInheritPermissions(_convertedFile, newFileName);
+                        _convertedFile = newFileName; //point to the new file at the end
+                    }
+                }
+                catch (Exception e)
+                {
+                    jobLog.WriteEntry(Localise.GetPhrase("Unable to rename file") + " " + _convertedFile + " " + Localise.GetPhrase("to") + " " + newFileName, Log.LogEntryType.Warning); //not an error since we can continue with origianl filename also
+                    jobLog.WriteEntry("Error : " + e.ToString(), Log.LogEntryType.Debug);
+                }
+            }
+
+            // Get the rename file extension if required
+            string renameExt = GetRenameFileExtension(_conversionOptions.profile);
+            if (!String.IsNullOrWhiteSpace(renameExt))
+            {
+                jobLog.WriteEntry("Rename file ext to " + FilePaths.GetFullPathWithoutExtension(_convertedFile) + renameExt.ToLower(), Log.LogEntryType.Information);
+
+                try
+                {
+                    FileIO.TryFileDelete(FilePaths.GetFullPathWithoutExtension(_convertedFile) + renameExt); // First delete incase it exists
+                    FileIO.MoveAndInheritPermissions(_convertedFile, FilePaths.GetFullPathWithoutExtension(_convertedFile) + renameExt);
+                    _convertedFile = FilePaths.GetFullPathWithoutExtension(_convertedFile) + renameExt; // point to the new file at the end
+                }
+                catch (Exception e)
+                {
+                    jobLog.WriteEntry("Unable to rename file " + _convertedFile + " to " + FilePaths.GetFullPathWithoutExtension(_convertedFile) + renameExt + ".\r\nError :" + e.ToString(), Log.LogEntryType.Error);
+                }
+            }
+        }
+
+        /// <summary>
+        /// Moves the final file to destination directory (and creates a sub directory if required)
+        /// </summary>
+        /// <param name="subDestinationPath">The sub directory path to create in the destination directory before moving the final file</param>
+        /// <returns>True if successful</returns>
+        private bool MoveConvertedFile(string subDestinationPath, Log jobLog)
+        {            
+            // Move the file to the destination
+            try
+            {
+                FilePaths.CreateDir(Path.Combine(_conversionOptions.destinationPath, subDestinationPath)); // Create the destination directory path
+                string _destinationFile = Path.Combine(_conversionOptions.destinationPath, subDestinationPath, Path.GetFileName(_convertedFile));
+                // If we are asked to auto increment, check if the destination file exists and if so, then auto increment the name
+                if (_conversionOptions.autoIncrementFilename)
+                {
+                    jobLog.WriteEntry(this, "Auto filename increment check enabled, checking if destination file " + _destinationFile + " exists and incrementing filename accordingly", Log.LogEntryType.Information);
+                    int incrementNo = 1; // Start with 1
+                    string tempFilename = _destinationFile;
+                    while (File.Exists(tempFilename))
+                    {
+                        jobLog.WriteEntry(this, "Filename " + tempFilename + " exists. Incrementing filename", Log.LogEntryType.Debug);
+                        tempFilename = FilePaths.GetFullPathWithoutExtension(_destinationFile) + " (" + incrementNo++.ToString() + ")" + FilePaths.CleanExt(_destinationFile); // Add (<no>) to the filename and increment the number for next round of checking
+                    }
+                    _destinationFile = tempFilename; // This it the name to use
+                }
+                else if (String.Compare(_destinationFile, _convertedFile, true) != 0) // If they are the same file, don't delete accidentally (TS to TS conversions in same directory are example)
+                    FileIO.TryFileDelete(_destinationFile); // Delete file in destination if it already exists
+                jobLog.WriteEntry(this, "Moving converted file " + _convertedFile + " to " + _destinationFile, Log.LogEntryType.Information);
+                FileIO.MoveAndInheritPermissions(_convertedFile, _destinationFile); // move the file to the destination
+
+                _convertedFile = _destinationFile; // update on success
+
+                return true; // home free...
+            }
+            catch (Exception e)
+            {
+                jobLog.WriteEntry("Unable to move file " + _convertedFile + " to " + _conversionOptions.destinationPath + "\r\nError :" + e.ToString(), Log.LogEntryType.Error);
+
+                if (_conversionOptions.fallbackToSourcePath)
+                {
+                    try
+                    {
+                        LogStatus(Localise.GetPhrase("Fallback to source path"), jobLog);
+                        jobLog.WriteEntry("Fallback to Source Path is enabled, trying to move directory to source path -> " + Path.GetDirectoryName(_conversionOptions.sourceVideo), Log.LogEntryType.Warning);
+
+                        _conversionOptions.destinationPath = Path.GetDirectoryName(_conversionOptions.sourceVideo); // update the Destination Path to Source Path
+
+                        FilePaths.CreateDir(Path.Combine(_conversionOptions.destinationPath, subDestinationPath)); // Create the destination directory path
+                        string _destinationFile = Path.Combine(_conversionOptions.destinationPath, subDestinationPath, Path.GetFileName(_convertedFile));
+                        if (String.Compare(_destinationFile, _convertedFile, true) != 0) // If they are the same file, don't delete accidentally (TS to TS conversions in same directory are example)
+                            FileIO.TryFileDelete(_destinationFile); // Delete file in destination if it already exists
+                        jobLog.WriteEntry(this, "Moving converted file " + _convertedFile + "  to " + _destinationFile, Log.LogEntryType.Information);
+                        FileIO.MoveAndInheritPermissions(_convertedFile, _destinationFile); // move the file to the destination
+
+                        _convertedFile = _destinationFile; // update on success
+                        
+                        return true; // home free...
+                    }
+                    catch
+                    {
+                        jobLog.WriteEntry("Unable to move file " + _convertedFile + "  to " + _conversionOptions.destinationPath + "\r\nError :" + e.ToString(), Log.LogEntryType.Error);
+                        return false;
+                    }
+                }
+                else
+                    return false;
+            }
+        }
+
+        /// <summary>
+        /// Returns the extension of the RenameExt command for the profile used
+        /// </summary>
+        /// <param name="profile">Name of the profile to check</param>
+        /// <returns>Extension as indicated by the profile or an empty string if none exists</returns>
+        private static string GetRenameFileExtension(string profile)
+        {
+            Ini profileIni = new Ini(GlobalDefs.ProfileFile);
+            string renameExt = profileIni.ReadString(profile, "RenameExt", "");
+
+            if (String.IsNullOrEmpty(renameExt)) return "";
+            
+            if (renameExt[0] != '.') renameExt = "." + renameExt;  // Just in case someone does something dumb like forget the leading "."
+
+            return renameExt; // return the extension
+        }
+
+        /// <summary>
+        /// Gets the name of the destination (expected) conversion file along with full path after checking for renaming options
+        /// </summary>
+        /// <param name="conversionOptions">Conversion Options</param>
+        /// <param name="metaData">Video MetaData</param>
+        /// <param name="originalFileName">Original filename and Path</param>
+        /// <returns>Destination (expected converted) filename and path</returns>
+        public static string GetDestinationFilename(ConversionJobOptions conversionOptions, VideoMetaData metaData, string originalFileName, Log jobLog)
+        {
+            string newFileName, subDestinationPath;
+            // TODO: Do we need to ignore filename auto increment here?
+
+            if (!CustomRename.GetRenameByMetadata(conversionOptions, metaData, originalFileName, Transcode.Convert.GetConversionExtension(conversionOptions), out newFileName, out subDestinationPath, jobLog)) // Get the new filename and path
+            {
+                // If there is no renaming occuring then the converted video will have the same name as the original video, but the extension may be different
+                newFileName = Path.GetFileNameWithoutExtension(originalFileName) + Transcode.Convert.GetConversionExtension(conversionOptions); // Original Filename + extension of the converted file
+            }
+
+            // Check if there is a File Rename command in the profile and adjust the filename accordingly
+            string renameExt = GetRenameFileExtension(conversionOptions.profile);
+            if (!String.IsNullOrWhiteSpace(renameExt))
+                newFileName = Path.GetFileNameWithoutExtension(newFileName) + renameExt; // Original Filename + new renamed extension of the converted file
+
+            return Path.Combine(conversionOptions.destinationPath, subDestinationPath, newFileName);
+        }
+
+        /// <summary>
+        /// Main conversion routine
+        /// </summary>
+        public void Convert()
+        {
+            _jobStatus.ErrorMsg = ""; //start clean
+            _jobStatus.SuccessfulConversion = false; //no successful conversion yet
+            _jobStatus.Completed = false;
+
+            Log jobLog = CreateLog(_conversionOptions.sourceVideo);
+
+            //Debug, dump all the conversion parameter before starting to help with debugging
+            jobLog.WriteEntry("Starting conversion - DEBUG MESSAGES", Log.LogEntryType.Debug);
+            jobLog.WriteEntry("Windows OS Version -> " + OSVersion.TrueOSVersion.ToString() + " (" + OSVersion.GetOSVersion().ToString() + ", " + OSVersion.GetOSProductType() + ")", Log.LogEntryType.Information);
+            jobLog.WriteEntry("Windows Platform -> " + (Environment.Is64BitOperatingSystem ? "64 Bit" : "32 Bit"), Log.LogEntryType.Information);
+            jobLog.WriteEntry("MCEBuddy Build Platform -> " + ((IntPtr.Size == 4) ? "32 Bit" : "64 Bit"), Log.LogEntryType.Information);
+            string currentVersion = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            jobLog.WriteEntry("MCEBuddy Build Version : " + currentVersion, Log.LogEntryType.Information);
+            jobLog.WriteEntry("MCEBuddy Build Date : " + File.GetLastWriteTime(System.Reflection.Assembly.GetExecutingAssembly().Location).ToString(CultureInfo.InvariantCulture), Log.LogEntryType.Information);
+            jobLog.WriteEntry("MCEBuddy Running as Service : " + GlobalDefs.IsEngineRunningAsService.ToString(), Log.LogEntryType.Information);
+            jobLog.WriteEntry(MCEBuddyConf.GlobalMCEConfig.GeneralOptions.ToString(), Log.LogEntryType.Debug);
+            jobLog.WriteEntry(_conversionOptions.ToString(), Log.LogEntryType.Debug);
+            jobLog.WriteEntry("Max Concurrent Jobs -> " + _maxConcurrentJobs.ToString(CultureInfo.InvariantCulture), Log.LogEntryType.Debug);
+            jobLog.WriteEntry("Monitor Root Relative SubFolder Path -> " + _conversionOptions.relativeSourcePath, Log.LogEntryType.Debug);
+            jobLog.WriteEntry("Commercial Skip Cut (profile (CommercialSkipCut) + task) -> " + _commercialSkipCut.ToString(), Log.LogEntryType.Debug);
+            jobLog.WriteEntry("Auto DeInterlacing (profile (AutoDeinterlace) + task) -> " + _autoDeinterlace.ToString(), Log.LogEntryType.Debug);
+            jobLog.WriteEntry("Pre-Conversion Commercial Remover (PreConversionCommercialRemover) -> " + _preConversionCommercialRemover.ToString(), Log.LogEntryType.Debug);
+            jobLog.WriteEntry("Copy LOG File (CopyLogFile) -> " + _copyLOGFile.ToString(), Log.LogEntryType.Debug);
+            jobLog.WriteEntry("Copy PROPERTIES file (CopyPropertiesFile) -> " + _copyPropertiesFile.ToString(), Log.LogEntryType.Debug);
+            jobLog.WriteEntry("Free Space Check -> " + _spaceCheck.ToString(), Log.LogEntryType.Debug);
+            jobLog.WriteEntry("Subtitle Cut Segment Incremental Offset -> " + _subtitleSegmentOffset.ToString(CultureInfo.InvariantCulture), Log.LogEntryType.Debug);
+            jobLog.WriteEntry("Locale Language -> " + Localise.ThreeLetterISO().ToUpper(), Log.LogEntryType.Debug);
+            
+            try
+            {
+                RegistryKey installed_versions = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\NET Framework Setup\NDP");
+                string[] version_names = installed_versions.GetSubKeyNames();
+                //version names start with 'v', eg, 'v3.5' which needs to be trimmed off before conversion
+                string Framework = version_names[version_names.Length - 1].Remove(0, 1);
+                string SP = (string)installed_versions.OpenSubKey(version_names[version_names.Length - 1]).GetValue("SP", 0).ToString();
+                jobLog.WriteEntry(".NET Framework Version -> " + Framework + ", Service Pack -> " + SP, Log.LogEntryType.Debug);
+            }
+            catch
+            {
+                jobLog.WriteEntry("Cannot get .NET Framework version from Registry", Log.LogEntryType.Warning);
+            }
+
+            try // the entire conversion process, incase of an abort signal
+            {
+                jobLog.WriteEntry(this, "Current System language is " + CultureInfo.CurrentCulture.DisplayName + " (" + CultureInfo.CurrentCulture.ThreeLetterISOLanguageName.ToString() + ")", Log.LogEntryType.Information);
+                jobLog.WriteEntry(this, "Converting file -> " + _conversionOptions.sourceVideo, Log.LogEntryType.Information);
+
+                // Create and clear the contents of the working folder
+                FilePaths.CreateDir(_conversionOptions.workingPath);
+                FileIO.ClearFolder(_conversionOptions.workingPath);
+                if (!Directory.Exists(_conversionOptions.workingPath)) // Check if it exists, possible the folder isn't accesible or user put a bogus value here
+                {
+                    jobLog.WriteEntry(this, "Unable to create temp directory " + _conversionOptions.workingPath + ". Conversion will fail.", Log.LogEntryType.Error);
+                    _jobStatus.ErrorMsg = "Unable to create temp directory";
+                    Cleanup(jobLog);
+                    return; // serious problem
+                }
+
+                // Print the vesion of FFMPEG or FFProbe being used (since FFProbe runs in silent mode) and dump file information
+                if (!_jobStatus.Cancelled)
+                    FFmpegMediaInfo.DumpFileInformation(OriginalFileName, _jobStatus, jobLog); // Dump the media information for debugging purposes
+
+                // Run the pre metadata custom command from the user if configured
+                if (!_jobStatus.Cancelled)
+                {
+                    LogStatus(Localise.GetPhrase("Running custom commands"), jobLog);
+
+                    string tmpSrt, tmpEdl;
+                    tmpEdl = (File.Exists(FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".edl") ? FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".edl" : "");
+                    tmpSrt = (File.Exists(FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".srt") ? FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".srt" : "");
+                    CustomCommand customCommand = new CustomCommand(
+                      "PreMetaCustomCommand", 
+                      _conversionOptions.profile,
+                      _conversionOptions.taskName, 
+                      _conversionOptions.workingPath, 
+                      "", //destination path
+                      _convertedFile, // converted file
+                      OriginalFileName, //sourceFile
+                      _remuxedVideo, // remux file
+                      tmpEdl, // edl file
+                      tmpSrt, // srt file
+                      //_conversionOptions.relativeSourcePath, //Video Tags
+                      null,  //Job status
+                      _jobStatus, //job log
+                      jobLog); // EDl and SRT file may lie with the source video
+                    if (!customCommand.Run())
+                    {
+                        jobLog.WriteEntry(this, ("Pre metadata Custom command failed to run, critical failure"), Log.LogEntryType.Error);
+                        _jobStatus.ErrorMsg = ("Pre metadata Custom command failed to run, critical failure");
+                        Cleanup(jobLog);
+                        return; // serious problem
+                    }
+
+                    // Check if the source file has been tampered with
+                    if (!File.Exists(_conversionOptions.sourceVideo))
+                    {
+                        jobLog.WriteEntry(this, ("PreMeta Source file has been renamed or deleted by custom command") + " -> " + _conversionOptions.sourceVideo, Log.LogEntryType.Error);
+                        _jobStatus.ErrorMsg = ("PreMeta Source file has been renamed or deleted by custom command");
+                        Cleanup(jobLog);
+                        return; // serious problem
+                    }
+                    else
+                        jobLog.WriteEntry(this, ("Finished pre metadata custom command, source file size [KB]") + " " + (FileIO.FileSize(_conversionOptions.sourceVideo) / 1024).ToString("N", CultureInfo.InvariantCulture), Log.LogEntryType.Debug);
+                }
+
+                // Get and process Metadata
+                if (!_jobStatus.Cancelled)
+                {
+                    // Download/extract the video metadata first
+                    LogStatus(Localise.GetPhrase("Getting show information and banner from Internet sources"), jobLog);
+                    _metaData = new VideoMetaData(_conversionOptions, _jobStatus, jobLog);
+                    _metaData.Extract();
+
+                    // Check metadata for Copy Protection
+                    if (_metaData.MetaData.CopyProtected && !_conversionOptions.renameOnly) // If it's copy protected fail the conversion here with the right message and status, if we are renaming only then skip the check
+                    {
+                        if (_conversionOptions.ignoreCopyProtection) // If we are asked to ignore copy protection, we will just continue
+                            jobLog.WriteEntry(this, ("ERROR: VIDEO IS COPYPROTECTED. CONVERSION WILL FAIL, BUT TRYING ANYWAYS."), Log.LogEntryType.Warning);
+                        else
+                        {
+                            jobLog.WriteEntry(this, ("ERROR: VIDEO IS COPYPROTECTED. CONVERSION WILL FAIL, STOPPING CONVERSION"), Log.LogEntryType.Error);
+                            _jobStatus.ErrorMsg = ("ERROR: VIDEO IS COPYPROTECTED. CONVERSION WILL FAIL");
+                            Cleanup(jobLog);
+                            return;
+                        }
+                    }
+                }
+
+                // DO THIS HERE and NOT in in the queue manager because you need ALL METADATA before you can Generate Filename to compare with history file.
+                // By now you have downloaded additional metadata which can be used to generate the filename
+                // Now that we have metadata, figure out if we need to process the file
+                // Check if the destination file exists (after calculating destination name and path) and check if are required to reprocess files that exist
+                if (!_jobStatus.Cancelled)
+                {
+                    // Check if we need to check for destination file reprocessing
+                    if (_conversionOptions.skipReprocessing)
+                    {
+                        jobLog.WriteEntry(this, "Checking for destination file skip reprocessing", Log.LogEntryType.Information);
+
+                        string destinationFile = GetDestinationFilename(_conversionOptions, _metaData, OriginalFileName, jobLog);
+
+                        // Check if we need to skip reprocessing this file
+                        bool skipReprocessing = false;
+                        if (File.Exists(destinationFile)) // Check if the destination file exists
+                        {
+                            jobLog.WriteEntry(this, "Destination file " + destinationFile + " EXISTS, skipping conversion - SUCCESSFUL processing", Log.LogEntryType.Warning);
+                            skipReprocessing = true;
+                        }
+
+                        if (!skipReprocessing && _conversionOptions.checkReprocessingHistory) // If we aren't already skipping reprocessig (save disk IO/CPU), do we need to check the history file for reprocessing?
+                        {
+                            if (QueueManager.DoesConvertedFileExistCheckHistory(destinationFile))
+                            {
+                                jobLog.WriteEntry(this, "Destination file " + destinationFile + " found converted in HISTORY, skipping re-conversion - SUCCESSFUL processing", Log.LogEntryType.Warning);
+                                skipReprocessing = true;
+                            }
+                        }
+                        
+                        // Check if the destination file exists
+                        if (skipReprocessing)
+                        {
+                            // SPECIAL CONDITION, THIS IS A SUCCESSFUL EXIT - Let exit here since we don't need to process it
+                            _convertedFile = destinationFile; // Update the link to the converted file as it will be required for post processing
+                            _jobStatus.ErrorMsg = ""; // all done, no error here, skipping processing but successful
+                            _jobStatus.SuccessfulConversion = _jobStatus.SuccessfulSkipConversion = true; // now the original file can be deleted if required
+                            Cleanup(jobLog);
+                            return;
+                        }
+                        else
+                        {
+                            jobLog.WriteEntry(this, "Destination file " + destinationFile + " does not exist, continuing with conversion", Log.LogEntryType.Information);
+                        }
+                    }
+                }
+
+                // Run the pre remuxing custom command from the user if configured
+                if (!_jobStatus.Cancelled)
+                {
+                    LogStatus(Localise.GetPhrase("Running custom commands"), jobLog);
+
+                    string tmpSrt, tmpEdl;
+                    tmpEdl = (File.Exists(FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".edl") ? FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".edl" : "");
+                    tmpSrt = (File.Exists(FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".srt") ? FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".srt" : "");
+                    CustomCommand customCommand = new CustomCommand(
+                      "PreCustomCommand", 
+                      _conversionOptions.profile, 
+                      _conversionOptions.taskName, 
+                      _conversionOptions.workingPath, 
+                      Path.GetDirectoryName(GetDestinationFilename(_conversionOptions, _metaData, OriginalFileName, jobLog)), 
+                      _convertedFile, 
+                      OriginalFileName, 
+                      _remuxedVideo, 
+                      tmpEdl, 
+                      tmpSrt, 
+                      //_conversionOptions.relativeSourcePath, 
+                      _metaData.MetaData, 
+                      _jobStatus, 
+                      jobLog); // EDL and SRT file may lie with the source video
+                    if (!customCommand.Run())
+                    {
+                        jobLog.WriteEntry(this, ("Pre remuxing Custom command failed to run, critical failure"), Log.LogEntryType.Error);
+                        _jobStatus.ErrorMsg = ("Pre remuxing Custom command failed to run, critical failure");
+                        Cleanup(jobLog);
+                        return; // serious problem
+                    }
+
+                    // Check if the source file has been tampered with
+                    if (!File.Exists(WorkingVideo))
+                    {
+                        jobLog.WriteEntry(this, ("Pre remuxing Source file has been renamed or deleted by custom command") + " -> " + _conversionOptions.sourceVideo, Log.LogEntryType.Error);
+                        _jobStatus.ErrorMsg = ("Pre rexmuing Source file has been renamed or deleted by custom command");
+                        Cleanup(jobLog);
+                        return; // serious problem
+                    }
+                    else
+                        jobLog.WriteEntry(this, ("Finished pre remuxing custom command, source file size [KB]") + " " + (FileIO.FileSize(_conversionOptions.sourceVideo) / 1024).ToString("N", CultureInfo.InvariantCulture), Log.LogEntryType.Debug);
+                }
+
+                //Check for available disk space
+                LogStatus(Localise.GetPhrase("Checking for disk space"), jobLog);
+                if (!SufficientSpace(jobLog))
+                {
+                    jobLog.WriteEntry(this, ("Insufficient disk space"), Log.LogEntryType.Error);
+                    _jobStatus.ErrorMsg = "Insufficient disk space";
+                    Cleanup(jobLog); // close the joblog and clean up
+                    return;
+                }
+
+                // Check for small invalid files - too small means bad recordings
+                if (FileIO.FileSize(_conversionOptions.sourceVideo) < 1000000) // Minimum 1MB file
+                {
+                    _jobStatus.ErrorMsg = "Too small or invalid source file, " + (FileIO.FileSize(_conversionOptions.sourceVideo) / 1024).ToString("N", CultureInfo.InvariantCulture) + " [KB]";
+                    jobLog.WriteEntry(this, _jobStatus.ErrorMsg, Log.LogEntryType.Error);
+                    Cleanup(jobLog); // close the joblog and clean up
+                    return;
+                }
+
+#if DEBUG
+                // Check for small test files ;) - ONLY in DEBUG mode, in release we process all files
+                if (FileIO.FileSize(_conversionOptions.sourceVideo) < 100000000) // 100MB minimum
+                {
+                    jobLog.WriteEntry(this, ("DEBUG MODE DETECTED: This is a small video file less than 100MB. Advertisement removal will not occur"), Log.LogEntryType.Warning);
+                    _conversionOptions.commercialRemoval = CommercialRemovalOptions.None;
+                }
+#endif
+
+                // Copy support files over
+                if (!_jobStatus.Cancelled)
+                {
+                    // If the SRT File exists, copy it
+                    jobLog.WriteEntry(this, ("Checking for SRT File"), Log.LogEntryType.Information);
+                    {
+                        string srtFile;
+                        srtFile = FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".srt"; // SRT file along with original source video
+
+                        if (File.Exists(srtFile) && (FileIO.FileSize(srtFile) > 0)) // Exist and non empty
+                        {
+                            string srtDest;
+                            if (Text.ContainsUnicode(OriginalFileName) && !_conversionOptions.renameOnly) // Unicode test, not all underlying apps and functions currently support UNICODE filenames, so use a ASCII name for now
+                                srtDest = Path.Combine(_conversionOptions.workingPath, GlobalDefs.UNICODE_TEMPNAME + ".srt");
+                            else
+                                srtDest = Path.Combine(_conversionOptions.workingPath, Path.GetFileName(srtFile));
+
+                            try
+                            {
+                                File.Copy(srtFile, srtDest);
+                                _srtFile = srtDest;
+                                jobLog.WriteEntry(this, ("Found existing SRT file and saved it"), Log.LogEntryType.Information);
+                            }
+                            catch (Exception e)
+                            {
+                                jobLog.WriteEntry(this, ("Found existing SRT file but unable to save it") + "\r\nError : " + e.ToString(), Log.LogEntryType.Warning);
+                            }
+                        }
+                    }
+
+                    //If the EDL/EDLP/VPRJ/DTBXML/Playlater file exists, copy it to working directory. Copy and convert VPRJ (videoRedo) files to EDL files
+                    jobLog.WriteEntry(this, ("Checking for EDL, EDLP, VPRJ or DTB XML files"), Log.LogEntryType.Information);
+                    {
+                        string edlFile, edlpFile, vprjFile, dtbXMLFile;
+                        edlFile = FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".edl";
+                        vprjFile = FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".vprj";
+                        dtbXMLFile = FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".xml";
+                        edlpFile = FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".edlp";
+
+                        string edlDest;
+                        if (Text.ContainsUnicode(OriginalFileName) && !_conversionOptions.renameOnly) // Unicode test, not all underlying apps and functions currently support UNICODE filenames, so use a ASCII name for now
+                            edlDest = Path.Combine(_conversionOptions.workingPath, GlobalDefs.UNICODE_TEMPNAME + ".edl");
+                        else
+                            edlDest = Path.Combine(_conversionOptions.workingPath, Path.GetFileName(edlFile));
+
+                        if (File.Exists(edlFile)) // EDL File
+                        {
+                            try
+                            {
+                                File.Copy(edlFile, edlDest);
+                                _saveEDLFile = true;
+                                jobLog.WriteEntry(this, ("Found existing EDL file and saved it"), Log.LogEntryType.Information);
+                            }
+                            catch (Exception e)
+                            {
+                                jobLog.WriteEntry(this, ("Found existing EDL file but unable to save it") + "\r\nError : " + e.ToString(), Log.LogEntryType.Warning);
+                            }
+                        }
+                        else if (File.Exists(vprjFile)) // VPRJ file, convert to EDL and save it
+                        {
+                            if (EDL.ConvertVPRJtoEDL(vprjFile, edlDest, jobLog) && File.Exists(edlDest)) // check if it was created
+                            {
+                                _saveEDLFile = true;
+                                jobLog.WriteEntry(this, ("Found existing VPRJ file and saved it to EDL"), Log.LogEntryType.Information);
+                            }
+                            else
+                                jobLog.WriteEntry(this, ("Found existing VPRJ file but unable to save it as EDL"), Log.LogEntryType.Warning);
+                        }
+                        else if (File.Exists(dtbXMLFile)) // DTB XML file, convert to EDL and save it
+                        {
+                            //if (EDL.ConvertXMLtoEDL(dtbXMLFile, edlDest, jobLog) && File.Exists(edlDest)) // check if it was created
+                            //{
+                            //    _saveEDLFile = true;
+                            //    jobLog.WriteEntry(this, ("Found existing DTB XML file and saved it to EDL"), Log.LogEntryType.Information);
+                            //}
+                            //else
+                                jobLog.WriteEntry(this, ("Found existing DTB XML file but unable to save it as EDL"), Log.LogEntryType.Warning);
+                        }
+                        else if (File.Exists(edlpFile)) // EDLP file
+                        {
+                            string edlpDest;
+                            if (Text.ContainsUnicode(OriginalFileName) && !_conversionOptions.renameOnly) // Unicode test, not all underlying apps and functions currently support UNICODE filenames, so use a ASCII name for now
+                                edlpDest = Path.Combine(_conversionOptions.workingPath, GlobalDefs.UNICODE_TEMPNAME + ".edlp");
+                            else
+                                edlpDest = Path.Combine(_conversionOptions.workingPath, Path.GetFileName(edlpFile));
+
+                            try
+                            {
+                                File.Copy(edlpFile, edlpDest);
+                                _saveEDLFile = true;
+                                jobLog.WriteEntry(this, ("Found existing EDLP file and saved it"), Log.LogEntryType.Information);
+                            }
+                            catch (Exception e)
+                            {
+                                jobLog.WriteEntry(this, ("Found existing EDLP file but unable to save it") + "\r\nError : " + e.ToString(), Log.LogEntryType.Warning);
+                            }
+                        }
+                        else if (_conversionOptions.extractAdsFromChapters && (new string[] { ".mp4" }.Any(s => FilePaths.CleanExt(OriginalFileName) == s))) // If there is no EDL file then check for a Playlater Advertisement Chapters and extract it if checking of ad markers is enabled
+                        {
+                            jobLog.WriteEntry(this, ("Checking for Playlater Advertisement Markers"), Log.LogEntryType.Information);
+                            {
+                                FFmpegMediaInfo ffmpegStreamInfo = new FFmpegMediaInfo(_conversionOptions.sourceVideo, _jobStatus, jobLog);
+                                if (ffmpegStreamInfo.Success && !ffmpegStreamInfo.ParseError)
+                                {
+                                    //if (EDL.ConvertPlaylaterAdMarkerstoEDL(ffmpegStreamInfo.MediaInfo.ChapterInfo, edlDest, jobLog) && File.Exists(edlDest))
+                                    //{
+                                    //    _saveEDLFile = true;
+                                    //    jobLog.WriteEntry(this, ("Found valid Advertisement chapter markers in Playlater file and saved it to EDL"), Log.LogEntryType.Information);
+                                    //}
+                                    //else
+                                        jobLog.WriteEntry(this, ("No valid advertisement chapters found"), Log.LogEntryType.Debug);
+                                }
+                                else
+                                    jobLog.WriteEntry(this, "Unable to read media info, skipping checking for Playlater advertisement chapter markers", Log.LogEntryType.Warning);
+                            }
+                        }
+                    }
+                }
+
+                if (!_jobStatus.Cancelled)
+                {
+                    // DO this last before starting the analysis/conversion process after copying SRT, EDL, NFO etc files
+                    // If Commerical removal is set for TS files copy them to the temp directory (During Commercial removal, files (except TS) are remuxed later into their own temp working directories)
+                    // We need exclusive access to each copy of the file in their respective temp working directories otherwise commercial skipping gets messed up when we have multiple simultaneous tasks for the same file (they all share/overwrite the same EDL file) which casuses a failure
+                    // Check if the TS file (or any file if we are skipping remuxing) has any Zero Channel Audio tracks, in which case it needs to be remuxed to remove/compensate for them, remuxing will overwrite the original file if it's a TS file, so make a local copy
+                    string sourceExt = FilePaths.CleanExt(_conversionOptions.sourceVideo);
+                    if ((sourceExt == ".ts") || _conversionOptions.skipRemuxing)
+                    {
+                        FFmpegMediaInfo ffmpegStreamInfo = new FFmpegMediaInfo(_conversionOptions.sourceVideo, _jobStatus, jobLog);
+                        if (ffmpegStreamInfo.Success && !ffmpegStreamInfo.ParseError)
+                        {
+                            if ((ffmpegStreamInfo.ZeroChannelAudioTrackCount > 0)) // TODO: Do we need to check for Imparied Audio tracks here when not Remuxing? (imparied audio tracks are sometimes empty - can they cause the encoders to fail?)
+                                _zeroChannelAudio = true;
+                        }
+                        else
+                        {
+                            jobLog.WriteEntry(this, ("Unable to read FFMPEG MediaInfo to verify remuxsupp audio streams"), Log.LogEntryType.Warning);
+                        }
+                    }
+
+                    if (_conversionOptions.skipCopyBackup)
+                        jobLog.WriteEntry(this, "DANGER: Skip copying original files (skip original backup) is enabled. This could lead to conversion failures or unpredictable outcomes. Please DISABLE this option unless absolutely necessary.", Log.LogEntryType.Warning);
+
+                    // Make a local copy only if we are renaming or skipping remuxing for non-TS or is a TS file with some conditions met (like commercial removal, etc where the original file may be modified or locked and accessed simultaneously)
+                    // If the sourcefile has a Unicode name, always copy it since underlying programs cannot handle unicode names and then rename the local copy
+                    if ((Text.ContainsUnicode(_conversionOptions.sourceVideo) && !_conversionOptions.renameOnly) || (!_conversionOptions.skipCopyBackup && (_conversionOptions.renameOnly || (((sourceExt == ".ts") || ((sourceExt != ".ts") && _conversionOptions.skipRemuxing)) && (_conversionOptions.commercialRemoval != CommercialRemovalOptions.None)))))
+                    {
+                        string newSource;
+                        if (Text.ContainsUnicode(_conversionOptions.sourceVideo) && !_conversionOptions.renameOnly) // Unicode test, not all underlying apps and functions currently support UNICODE filenames, so use a ASCII name for now
+                            newSource = Path.Combine(_conversionOptions.workingPath, GlobalDefs.UNICODE_TEMPNAME + FilePaths.CleanExt(_conversionOptions.sourceVideo));
+                        else
+                            newSource = Path.Combine(_conversionOptions.workingPath, Path.GetFileName(_conversionOptions.sourceVideo));
+
+                        LogStatus(Localise.GetPhrase("Copying source file to working directory"), jobLog);
+                        try
+                        {
+                            jobLog.WriteEntry(this, ("Copying source video to working directory") + " Source:" + _conversionOptions.sourceVideo + ", Target:" + newSource, Log.LogEntryType.Information);
+                            File.Copy(_conversionOptions.sourceVideo, newSource, true); // Copy the file, overwrite if required
+                            
+                            _conversionOptions.sourceVideo = newSource; // replace the source file that we will work on going forward on success
+                        }
+                        catch (Exception e)
+                        {
+                            jobLog.WriteEntry(this, ("Unable to copy source video to working directory") + " Source:" + _conversionOptions.sourceVideo + ", Target:" + newSource + " Error : " + e.ToString(), Log.LogEntryType.Error);
+                            _jobStatus.ErrorMsg = ("Unable to copy source video to working directory");
+                            Cleanup(jobLog);
+                            return;
+                        }
+                    }
+                }
+
+                // If we are ONLY renaming NOT using free Comskip AND WITHOUT extracting subtitles, we skip the video processing, removal etc (i.e. no Remuxing)
+                // If detecting commercials while only renaming, Showanalyzer and donator comskip support all formats, so no remuxing required
+                if (!(_conversionOptions.renameOnly && !(_conversionOptions.commercialRemoval == CommercialRemovalOptions.Comskip && !(new Comskip(MCEBuddyConf.GlobalMCEConfig.GeneralOptions.comskipPath, jobLog).IsDonator)) && String.IsNullOrEmpty(_conversionOptions.extractCC)))
+                {
+                    if (!_jobStatus.Cancelled)
+                    {
+                        // Remux media center recordings for any video to TS (except TS unless TS required remuxing by configuration) and we are not asked to skip remuxing
+                        // Unless TS tracks have zero channel audio in them, then remux them to remove the zero audio channel tracks, otherwise future functions fails (like trim) - NOTE while 0 TS channel audio is remuxed, it ends up replacing the original file
+                        string sourceExt = FilePaths.CleanExt(_conversionOptions.sourceVideo);
+
+                        RemuxMediaCenter.RemuxMCERecording remux = new RemuxMCERecording(_conversionOptions, _jobStatus, jobLog); // Setup the remux
+
+                        if (((sourceExt != ".ts") && !_conversionOptions.skipRemuxing) || ((sourceExt == ".ts") && remux.SlowRemuxRequired()) || _zeroChannelAudio)
+                        {
+                            LogStatus(Localise.GetPhrase("Remuxing recording"), jobLog);
+                            bool res = remux.Remux(); // Remux it
+                            jobLog.WriteEntry(this, ("Remuxing: Percentage Complete") + " " + _jobStatus.PercentageComplete.ToString(CultureInfo.InvariantCulture), Log.LogEntryType.Debug);
+                            if (!res)
+                            {
+                                // Remux failed
+                                _jobStatus.ErrorMsg = ("Remux failed");
+                                jobLog.WriteEntry(this, _jobStatus.ErrorMsg, Log.LogEntryType.Error);
+                                Cleanup(jobLog);
+                                return;
+                            }
+                            WorkingVideo = remux.RemuxedFile;
+                            _workingVideoRecoded = remux.VideoStreamRecoded; // Was the original video recoded? We lost CC data in remued file
+                            _initialRemuxSkipSeconds = remux.SkipInitialSeconds; // We need to compensate for any seconds that were trimmed while remuxing in saved EDL and SRT files
+                            jobLog.WriteEntry(this, "Was remuxed video recoded : " + _workingVideoRecoded.ToString(CultureInfo.InvariantCulture), Log.LogEntryType.Debug);
+                            jobLog.WriteEntry(this, "Remuxed video file : " + WorkingVideo, Log.LogEntryType.Debug);
+                            jobLog.WriteEntry(this, Localise.GetPhrase("Finished Remuxing, file size [KB]") + " " + (FileIO.FileSize(WorkingVideo) / 1024).ToString("N", CultureInfo.InvariantCulture), Log.LogEntryType.Debug);
+                        }
+                        else if (_conversionOptions.skipRemuxing)
+                            jobLog.WriteEntry(this, "SKIPPING REMUXING, this may lead to conversion failure since all underlying apps may not support all file formats.\r\nWTV commercial detection is only supported by donator version of Comskip (http://www.kaashoek.com/comskip/).", Log.LogEntryType.Warning);
+                    }
+                }
+
+                // If we are ONLY renaming, we skip the video processing, trimming, removal etc
+                if (!_conversionOptions.renameOnly)
+                {
+                    // Get the video properties
+                    if (!_jobStatus.Cancelled)
+                    {
+                        // Create the Video File object and get the container + stream information
+                        LogStatus(Localise.GetPhrase("Analyzing video information"), jobLog);
+
+                        _videoFile = new VideoInfo(true, false, _conversionOptions.sourceVideo, _remuxedVideo, "", _conversionOptions.audioLanguage, _jobStatus, jobLog); // Skip cropping information for now, we'll get that later before conversion
+                        if (_videoFile.Error)
+                        {
+                            _jobStatus.ErrorMsg = "Analyzing video information failed";
+                            jobLog.WriteEntry(this, (_jobStatus.ErrorMsg), Log.LogEntryType.Error);
+                            Cleanup(jobLog);
+                            return;
+                        }
+                    }
+
+                    // If we are trimming the video, try to do it here, if it fails then try to do it during the conversion
+                    if (!_jobStatus.Cancelled)
+                    {
+                        LogStatus(Localise.GetPhrase("Trimming video recording"), jobLog);
+                        TrimVideo trimVideo = new TrimVideo(_conversionOptions.profile, _jobStatus, jobLog);
+                        if (!trimVideo.Trim(WorkingVideo, _conversionOptions.workingPath, _conversionOptions.startTrim, _conversionOptions.endTrim))
+                        {
+                            // Trimming failed - just log the error here, we'll try to pick it up during conversion
+                            jobLog.WriteEntry(this, "Trimming failed, will retry during conversion", Log.LogEntryType.Warning);
+                        }
+                        else
+                        {
+                            jobLog.WriteEntry(this, "Trimming successful, setting trim parameters to 0 to avoid retrimming", Log.LogEntryType.Debug);
+                            _videoFile.TrimmingDone = true; // Indicate that trimming is complete so we don't redo it later
+                            WorkingVideo = trimVideo.TrimmedVideo; // Update the working video path with the new trimmed video
+                        }
+                    }
+                }
+
+                // Do commercial detection if there is not metadata copy protection since this can be run for rename only option also
+                if (!_jobStatus.Cancelled && (!_metaData.MetaData.CopyProtected || _conversionOptions.ignoreCopyProtection))
+                {
+                    // Get Working Video media information - _videoFile doesn't exist in RenameOnly mode
+                    FFmpegMediaInfo workingVideoStreamInfo = new FFmpegMediaInfo(WorkingVideo, _jobStatus, jobLog);
+                    if (!workingVideoStreamInfo.Success || workingVideoStreamInfo.ParseError)
+                    {
+                        // Getting Video Duration failed
+                        _jobStatus.ErrorMsg = Localise.GetPhrase("Unable to get Video Duration");
+                        jobLog.WriteEntry(this, _jobStatus.ErrorMsg, Log.LogEntryType.Error);
+                        Cleanup(jobLog);
+                        return;
+                    }
+
+                    // Get the Video duration separately - _videoFile doesn't exist in RenameOnly mode so can't get _videoFile.Duration
+                    float workingDuration = VideoParams.VideoDuration(WorkingVideo);
+                    if (workingDuration <= 0)
+                        workingDuration = workingVideoStreamInfo.MediaInfo.VideoInfo.Duration;
+
+                    // If we are using ShowAnalyzer, do it here
+                    jobLog.WriteEntry(this, "Checking for ShowAnalyzer", Log.LogEntryType.Information);
+                    if (_conversionOptions.commercialRemoval == CommercialRemovalOptions.ShowAnalyzer)
+                    {
+                        LogStatus(Localise.GetPhrase("ShowAnalyzer advertisement scan"), jobLog);
+                        _commercialScan = new Scanner(
+                          _conversionOptions, 
+                          WorkingVideo, 
+                          true, 
+                          workingDuration, 
+                          //workingVideoStreamInfo, 
+                          _jobStatus, 
+                          jobLog);
+                        if (!_commercialScan.Scan())
+                        {
+                            _jobStatus.ErrorMsg = Localise.GetPhrase("ShowAnalyzer failed");
+                            jobLog.WriteEntry(this, _jobStatus.ErrorMsg, Log.LogEntryType.Error);
+                            Cleanup(jobLog);
+                            return;
+                        }
+                    }
+
+                    // If we are using comskip, do it here
+                    jobLog.WriteEntry(this, "Checking for Comskip", Log.LogEntryType.Information);
+                    if (_conversionOptions.commercialRemoval == CommercialRemovalOptions.Comskip)
+                    {
+                        LogStatus(Localise.GetPhrase("Comskip advertisement scan"), jobLog);
+                        _commercialScan = new Scanner(
+                          _conversionOptions, 
+                          WorkingVideo, 
+                          false, 
+                          workingDuration, 
+                          //workingVideoStreamInfo, 
+                          _jobStatus, 
+                          jobLog);
+                        if (!_commercialScan.Scan())
+                        {
+                            _jobStatus.ErrorMsg = "Comskip failed";
+                            jobLog.WriteEntry(this, (_jobStatus.ErrorMsg), Log.LogEntryType.Error);
+                            Cleanup(jobLog);
+                            return;
+                        }
+                    }
+
+                    // We extract the closed captions after the commerical scanning, trimming and video info is complete
+                    // We check if the SRT file alread exists and needs to be adjusted for EDL commercials
+                    // If not we check if commerical removal is enabled, if so we need to create a temp file which we will cut to compensate for EDL and THEN extract the CC (this helps keep the audio in sync with the CC due to cutting on non KeyFrames issues)
+                    // If no commercial removal we just extract the CC from the remuxed file (TS)
+                    if (!_jobStatus.Cancelled)
+                    {
+                        // Setup closed captions for extraction
+                        _cc = new CCandSubtitles(_conversionOptions.profile, _jobStatus, jobLog);
+
+                        if (!(String.IsNullOrWhiteSpace(_srtFile))) // We already have a SRT file to work with
+                        {
+                            jobLog.WriteEntry(this, "Found saved SRT file -> " + _srtFile, Log.LogEntryType.Debug);
+
+                            if (!_conversionOptions.renameOnly) // Only trim and validate if we are processing the file and not just renaming
+                            {
+                                LogStatus(Localise.GetPhrase("Validating closed captions"), jobLog);
+
+                                // Trim the file if required
+                                // NOTE: Duration here will refer to original file since we are using the existing subtitles from the original file
+                                if (!_cc.TrimSubtitle(_srtFile, _conversionOptions.workingPath, _conversionOptions.startTrim + (int)_initialRemuxSkipSeconds, _conversionOptions.endTrim, _videoFile.Duration, 0))
+                                {
+                                    // Trimming CC failed
+                                    _jobStatus.ErrorMsg = ("Trimming closed captions failed");
+                                    jobLog.WriteEntry(this, _jobStatus.ErrorMsg, Log.LogEntryType.Error);
+                                    Cleanup(jobLog);
+                                    return;
+                                }
+
+                                // We need to validate the clean up the SRT file and compensate for the Offsets
+                                if (!_cc.SRTValidateAndClean(_srtFile, (_conversionOptions.ccOffset))) // Adjust to inital number of second teh remuxed file was skipped
+                                {
+                                    // Validating CC failed
+                                    _jobStatus.ErrorMsg = ("Validating closed captions failed");
+                                    jobLog.WriteEntry(this, _jobStatus.ErrorMsg, Log.LogEntryType.Error);
+                                    Cleanup(jobLog);
+                                    return;
+                                }
+                            }
+                        }
+                        else if (!String.IsNullOrEmpty(_conversionOptions.extractCC)) // We need to extract subtitles into a SRT file
+                        {
+                            LogStatus(Localise.GetPhrase("Extracting closed captions"), jobLog);
+
+                            // CC Extractor only works if source is MPG (SageTV) TS, WTV/DVRMS and TIVO (which are streams extracted and remuxed into a TS) files
+                            // All other files try to extract subtiles (not closed captions)
+                            if (!(new string[] { ".ts", ".wtv", ".dvr-ms", ".tivo", ".mpg" }.Any(s => FilePaths.CleanExt(_conversionOptions.sourceVideo) == s)))
+                            {
+                                // We need to extract subtitle and also trim since we are working on original file and not remuxed
+                                LogStatus(Localise.GetPhrase("Extracting subtitles"), jobLog);
+                                // TODO: We need to check how to handle multiple subtitle track extraction and language handling here
+                                if (!_cc.ExtractSubtitles(_conversionOptions.sourceVideo, _conversionOptions.workingPath, (_conversionOptions.renameOnly ? 0 : _conversionOptions.startTrim) + (_conversionOptions.renameOnly ? 0 : (int)_initialRemuxSkipSeconds), (_conversionOptions.renameOnly ? 0 : _conversionOptions.endTrim), 0, true, null)) // Adjust trim and initial seconds skipped while remuxing if we not in rename only mode
+                                {
+                                    // Extracting CC failed
+                                    _jobStatus.ErrorMsg = ("Extracting subtitles failed");
+                                    jobLog.WriteEntry(this, _jobStatus.ErrorMsg, Log.LogEntryType.Error);
+                                    Cleanup(jobLog);
+                                    return;
+                                }
+                            }
+
+                            if (String.IsNullOrWhiteSpace(_cc.SRTFile)) // If we don't have a SRT file, fallback to CCExtractor
+                            {
+                                string tempCCFile = "";
+                                tempCCFile = WorkingVideo; // If there are no commercials to remove, we can work directly on the remuxed file
+
+                                // If the source is MPG, TS, WTV or DVR-MS , we can directly extract subtitles from the source for better results on unicode closed caption
+                                if (new string[] { ".ts", ".wtv", ".dvr-ms", ".mpg" }.Any(s => FilePaths.CleanExt(_conversionOptions.sourceVideo) == s))
+                                    tempCCFile = _conversionOptions.sourceVideo;
+
+                                // Trimming is to be done if we are working with the remuxed file
+                                // NOTE: Do not use ccOffset with ExtractCC since it does not work reliably, leave it 0 and compensate later
+                                LogStatus(Localise.GetPhrase("Extracting closed captions"), jobLog);
+                                if (!_cc.ExtractCC(tempCCFile, _conversionOptions.workingPath, _conversionOptions.extractCC, (_conversionOptions.renameOnly ? 0 : (String.Compare(tempCCFile, WorkingVideo, true) == 0 ? 0 : _conversionOptions.startTrim + (int)(tempCCFile == _conversionOptions.sourceVideo ? _initialRemuxSkipSeconds : 0))), (_conversionOptions.renameOnly ? 0 : (String.Compare(tempCCFile, WorkingVideo, true) == 0 ? 0 : _conversionOptions.endTrim)), 0)) // Adjust for remuxing skipping first few seconds if we are working on original source (remuxed files already have it cut), if we are in rename only mode, than no trimming
+                                {
+                                    // Extracting CC failed
+                                    _jobStatus.ErrorMsg = ("Extracting closed captions failed");
+                                    jobLog.WriteEntry(this, _jobStatus.ErrorMsg, Log.LogEntryType.Error);
+                                    Cleanup(jobLog);
+                                    return;
+                                }
+
+                                // Check if we don't have a valid SRT file and if we're working on the original video and if remuxed video is not recoded, try to extract the CC from the remuxed video
+                                if ((FileIO.FileSize(_cc.SRTFile) <= GlobalDefs.SRT_FILE_MINIMUM_SIZE) && (String.Compare(tempCCFile, _conversionOptions.sourceVideo, true) == 0) && !_workingVideoRecoded)
+                                {
+                                    jobLog.WriteEntry(this, "Extracting closed captions failed from original file, trying to extract closed captions from the remuxed file", Log.LogEntryType.Warning);
+                                    tempCCFile = WorkingVideo; // Work on the remuxed video
+                                    if (!_cc.ExtractCC(tempCCFile, _conversionOptions.workingPath, _conversionOptions.extractCC, (_conversionOptions.renameOnly ? 0 : (String.Compare(tempCCFile, WorkingVideo, true) == 0 ? 0 : _conversionOptions.startTrim + (int)(tempCCFile == _conversionOptions.sourceVideo ? _initialRemuxSkipSeconds : 0))), (_conversionOptions.renameOnly ? 0 : (String.Compare(tempCCFile, WorkingVideo, true) == 0 ? 0 : _conversionOptions.endTrim)), 0)) // Adjust for remuxing skipping first few seconds if we are working on original source (remuxed files already have it cut), if we are in rename only mode, then no trimming
+                                    {
+                                        // Extracting CC failed
+                                        _jobStatus.ErrorMsg = ("Extracting closed captions failed");
+                                        jobLog.WriteEntry(this, _jobStatus.ErrorMsg, Log.LogEntryType.Error);
+                                        Cleanup(jobLog);
+                                        return;
+                                    }
+                                }
+                            }
+
+                            if (!String.IsNullOrWhiteSpace(_cc.SRTFile)) // If we have a valid SRT file
+                            {
+                                // We need to validate the clean up the SRT file 
+                                _deleteSRTFile = true; // We are extracting a SRT file, delete it incase it's along with the original file
+                                LogStatus(Localise.GetPhrase("Validating closed captions"), jobLog);
+                                if (!_cc.SRTValidateAndClean(_cc.SRTFile, _conversionOptions.ccOffset)) // Compensate for Offset even in rename only mode since we are being asked to extract the subtitles
+                                {
+                                    // Validating CC failed
+                                    _jobStatus.ErrorMsg = ("Validating closed captions failed");
+                                    jobLog.WriteEntry(this, _jobStatus.ErrorMsg, Log.LogEntryType.Error);
+                                    Cleanup(jobLog);
+                                    return;
+                                }
+
+                                if (FileIO.FileSize(_cc.SRTFile) > GlobalDefs.SRT_FILE_MINIMUM_SIZE)
+                                {
+                                    _srtFile = _cc.SRTFile; // Save the SRT file location
+                                    jobLog.WriteEntry(this, "SRT file -> " + _srtFile, Log.LogEntryType.Debug);
+                                }
+                                else
+                                    jobLog.WriteEntry(this, "Empty or no SRT file found after extraction", Log.LogEntryType.Warning);
+                            }
+                            else
+                                jobLog.WriteEntry(this, "No SRT file found after extraction", Log.LogEntryType.Warning);
+                        }
+                    }
+                }
+
+                // If we are ONLY renaming, we skip the video processing, trimming, removal etc
+                if (!_conversionOptions.renameOnly)
+                {
+                    // Run the pre commercial removal custom command from the user if configured
+                    if (!_jobStatus.Cancelled)
+                    {
+                        LogStatus(Localise.GetPhrase("Running custom commands"), jobLog);
+
+                        CustomCommand customCommand = new CustomCommand(
+                          "PreCommercialRemovalCustomCommand", 
+                          _conversionOptions.profile, 
+                          _conversionOptions.taskName, 
+                          _conversionOptions.workingPath, 
+                          Path.GetDirectoryName(GetDestinationFilename(_conversionOptions, _metaData, OriginalFileName, jobLog)), 
+                          _convertedFile, 
+                          OriginalFileName, 
+                          _remuxedVideo, 
+                          (_commercialScan == null ? "" : _commercialScan.EDLFile), 
+                          _srtFile, 
+                          //_conversionOptions.relativeSourcePath, 
+                          _metaData.MetaData, 
+                          _jobStatus, 
+                          jobLog); // EDL and SRT file may lie with the source video
+                        if (!customCommand.Run())
+                        {
+                            jobLog.WriteEntry(this, Localise.GetPhrase("Pre commercial removal Custom command failed to run, critical failure"), Log.LogEntryType.Error);
+                            _jobStatus.ErrorMsg = Localise.GetPhrase("Pre commercial removal Custom command failed to run, critical failure");
+                            Cleanup(jobLog);
+                            return; // serious problem
+                        }
+
+                        // Check if the working file has been tampered with
+                        if (!File.Exists(WorkingVideo))
+                        {
+                            jobLog.WriteEntry(this, Localise.GetPhrase("Pre commercial removal working file has been renamed or deleted by custom command") + " -> " + WorkingVideo, Log.LogEntryType.Error);
+                            _jobStatus.ErrorMsg = Localise.GetPhrase("Pre commercial removal working file has been renamed or deleted by custom command");
+                            Cleanup(jobLog);
+                            return; // serious problem
+                        }
+                        else
+                            jobLog.WriteEntry(this, Localise.GetPhrase("Finished pre commercial removal  custom command, source file size [KB]") + " " + (FileIO.FileSize(_conversionOptions.sourceVideo) / 1024).ToString("N", CultureInfo.InvariantCulture), Log.LogEntryType.Debug);
+                    }
+
+                    // Remove the commercials incase they aren't supported format for after conversion for commercial removal
+                    if (!_jobStatus.Cancelled)
+                    {
+                        if (_commercialScan != null)
+                        {
+                            // Check if the final conversion extension has a format that's supported by the commercial remover, else remove the commercials here itself during the TS file stage
+                            // Check if the profile dicates to remove commercials before the actual conversion
+                            if (_preConversionCommercialRemover || (!Remover.IsSupportedExtension(Transcode.Convert.GetConversionExtension(_conversionOptions), _conversionOptions.profile)))
+                            {
+                                jobLog.WriteEntry(this, "PRE-Removing commercials for Ext -> " + Transcode.Convert.GetConversionExtension(_conversionOptions), Log.LogEntryType.Information);
+                                jobLog.WriteEntry(this, "Checking if commercials were found", Log.LogEntryType.Information);
+                                if ((_commercialScan.CommercialsFound) && (!_videoFile.AdsRemoved)) //commercials might be stripped
+                                {
+                                    if (!_commercialSkipCut)
+                                    {
+                                        LogStatus(Localise.GetPhrase("Removing commercials"), jobLog);
+                                        _commercialRemover = new Remover(_conversionOptions.profile, WorkingVideo, _conversionOptions.workingPath, _commercialScan.EDLFile, (_saveEDLFile ? _initialRemuxSkipSeconds : 0), _videoFile, _jobStatus, jobLog); // If we are using a saved EDL File, we need to compensate for any seconds that were trimmed while remuxing to compensate for EDL later
+                                        _commercialRemover.StripCommercials(true); // we need to select the language while stripping the TS file else we lose the language information
+
+                                        //We dont' check for % completion here since some files are very short and % isn't reliable
+                                        if (_videoFile.AdsRemoved) // for Commercial Stripping success, this is true
+                                        {
+                                            WorkingVideo = _commercialRemover.CommercialFreeVideo; // Since we have a new commercial free video, this will be our new source (remuxed) video
+                                            jobLog.WriteEntry(this, Localise.GetPhrase("Finished removing commercials, file size [KB]") + " " + (FileIO.FileSize(WorkingVideo) / 1024).ToString("N", CultureInfo.InvariantCulture), Log.LogEntryType.Debug);
+                                            
+                                            // Cut the SRT file also if it exists
+                                            if (!String.IsNullOrWhiteSpace(_srtFile))
+                                            {
+                                                LogStatus(Localise.GetPhrase("Trimming closed captions"), jobLog);
+                                                if (!_cc.CutWithEDL(_commercialScan.EDLFile, _srtFile, 0, _subtitleSegmentOffset)) // Offset is already compensated for while extraction
+                                                {
+                                                    // Trimming CC failed
+                                                    _jobStatus.ErrorMsg = Localise.GetPhrase("Trimming closed captions failed");
+                                                    jobLog.WriteEntry(this, _jobStatus.ErrorMsg, Log.LogEntryType.Error);
+                                                    Cleanup(jobLog);
+                                                    return;
+                                                }
+                                            }
+
+                                            // After removing commercials it's possible that the Audio/Video streams properties have changed - this is due to MEncoder and cutting TS, it only keeps 1 audio stream, so rescan
+                                            // Create the Video File object and get the container + stream information
+                                            jobLog.WriteEntry(this, "ReAnalyzing video information post commercial removal before video conversion", Log.LogEntryType.Information);
+                                            LogStatus(Localise.GetPhrase("Analyzing video information"), jobLog);
+
+                                            // While updating we don't need to pass EDL file anymore since the ad's have been removed and no cropping information here
+                                            _videoFile.UpdateVideoInfo(true, false, _conversionOptions.sourceVideo, _remuxedVideo, "", _conversionOptions.audioLanguage, _jobStatus, jobLog);
+                                            if (_videoFile.Error)
+                                            {
+                                                _jobStatus.ErrorMsg = "Analyzing video information failed";
+                                                jobLog.WriteEntry(this, (_jobStatus.ErrorMsg), Log.LogEntryType.Error);
+                                                Cleanup(jobLog);
+                                                return;
+                                            }
+                                        }
+                                        else
+                                            jobLog.WriteEntry(this, "Not able to remove commercials, will try again after conversion using unsupported format cutter", Log.LogEntryType.Warning);
+                                    }
+                                    else
+                                        jobLog.WriteEntry(this, Localise.GetPhrase("Skipping commercial cutting, preserving EDL file"), Log.LogEntryType.Information);
+                                }
+                                else
+                                    jobLog.WriteEntry(this, Localise.GetPhrase("Commercials not found or cutting already completed"), Log.LogEntryType.Information);
+                            }
+                        }
+                    }
+
+                    // Get the updated video information
+                    if (!_jobStatus.Cancelled)
+                    {
+                        // Get information before/after removing commercials if required
+                        // After removing commercials it's possible that the Audio/Video streams properties have changed - this is due to MEncoder and cutting TS, it only keeps 1 audio stream, so rescan
+                        // Create the Video File object and get the container + stream information
+                        LogStatus(Localise.GetPhrase("Analyzing video information"), jobLog);
+
+                        // Get the updated video information, skip cropping for now (it will be handled during the conversion)
+                        _videoFile.UpdateVideoInfo(true, _autoDeinterlace, _conversionOptions.sourceVideo, _remuxedVideo, (_videoFile.AdsRemoved ? "" : (_commercialScan != null ? _commercialScan.EDLFile : "")), _conversionOptions.audioLanguage, _jobStatus, jobLog); // Check if ad's have not been removed, if we have scanned for commercial pass along the EDL file to speed up the crop detect
+                        if (_videoFile.Error)
+                        {
+                            _jobStatus.ErrorMsg = "Analyzing video information failed";
+                            jobLog.WriteEntry(this, (_jobStatus.ErrorMsg), Log.LogEntryType.Error);
+                            Cleanup(jobLog);
+                            return;
+                        }
+                    }
+
+                    // Convert the video
+                    if (!_jobStatus.Cancelled)
+                    {
+                        // Convert the file
+                        Transcode.Convert convertFile = new Transcode.Convert(_jobStatus, jobLog);
+                        LogStatus(Localise.GetPhrase("Converting"), jobLog);
+                        bool res = convertFile.Run(_conversionOptions, _videoFile, _commercialScan, _srtFile); // if we're using MEncoder, then we will complete the commercial stripping here itself
+                        if (!res)
+                        {
+                            _jobStatus.ErrorMsg = Localise.GetPhrase("Conversion failed");
+                            jobLog.WriteEntry(this, (_jobStatus.ErrorMsg), Log.LogEntryType.Error);
+                            // Conversion failed
+                            Cleanup(jobLog);
+                            return;
+                        }
+
+                        // If we burned the subtitles into the file, then delete the SRT file since it's no longer required
+                        if (convertFile.SubtitleBurned)
+                        {
+                            jobLog.WriteEntry(this, "Subtitles were burned into the video while converting, deleting the SRT file", Log.LogEntryType.Information);
+                            FileIO.TryFileDelete(_srtFile); // Delete the SRT
+                            _srtFile = ""; // Point to nothing
+                        }
+
+                        _convertedFile = convertFile.ConvertedFile;
+                        jobLog.WriteEntry(this, "Converted File : " + _convertedFile, Log.LogEntryType.Information);
+                        jobLog.WriteEntry(this, Localise.GetPhrase("Finished conversion, file size [KB]") + " " + (FileIO.FileSize(_convertedFile) / 1024).ToString("N", CultureInfo.InvariantCulture), Log.LogEntryType.Debug);
+                    }
+
+                    // Remove the commercials incase they weren't removed earlier
+                    if (!_jobStatus.Cancelled)
+                    {
+                        if (_commercialScan != null)
+                        {
+                            jobLog.WriteEntry(this, "Checking if commercials were found", Log.LogEntryType.Information);
+                            if ((_commercialScan.CommercialsFound) && (!_videoFile.AdsRemoved)) //commercials might be stripped during conversion or before conversion
+                            {
+                                if (!_commercialSkipCut)
+                                {
+                                    LogStatus(Localise.GetPhrase("Removing commercials"), jobLog);
+                                    _commercialRemover = new Remover(_conversionOptions.profile, _convertedFile, _conversionOptions.workingPath, _commercialScan.EDLFile, (_saveEDLFile ? _initialRemuxSkipSeconds : 0), _videoFile, _jobStatus, jobLog); // If we are using a saved EDL File, we need to compensate for any seconds that were trimmed while remuxing to compensate for EDL later
+                                    _commercialRemover.StripCommercials();
+
+                                    //We dont' check for % completion here since some files are very short and % isn't reliable
+                                    if (!_videoFile.AdsRemoved) // Commercial Stripping failure
+                                    {
+                                        _jobStatus.ErrorMsg = Localise.GetPhrase("Removing commercials failed");
+                                        jobLog.WriteEntry(this, (_jobStatus.ErrorMsg), Log.LogEntryType.Error);
+                                        Cleanup(jobLog);
+                                        return;
+                                    }
+                                    
+                                    _convertedFile = _commercialRemover.CommercialFreeVideo;
+                                    jobLog.WriteEntry(this, Localise.GetPhrase("Finished removing commercials, file size [KB]") + " " + (FileIO.FileSize(_convertedFile) / 1024).ToString("N", CultureInfo.InvariantCulture), Log.LogEntryType.Debug);
+
+                                    // Cut the SRT file also if it exists (since commercials not were not cut earlier, the SRT wasn't cut earlier either
+                                    if (!String.IsNullOrWhiteSpace(_srtFile))
+                                    {
+                                        LogStatus(Localise.GetPhrase("Trimming closed captions"), jobLog);
+                                        if (!_cc.CutWithEDL(_commercialScan.EDLFile, _srtFile, 0, _subtitleSegmentOffset)) // Offset is already compensated for while extraction
+                                        {
+                                            // Trimming CC failed
+                                            _jobStatus.ErrorMsg = Localise.GetPhrase("Trimming closed captions failed");
+                                            jobLog.WriteEntry(this, _jobStatus.ErrorMsg, Log.LogEntryType.Error);
+                                            Cleanup(jobLog);
+                                            return;
+                                        }
+                                    }
+                                }
+                                else
+                                    jobLog.WriteEntry(this, Localise.GetPhrase("Skipping commercial cutting, preserving EDL file"), Log.LogEntryType.Information);
+                            }
+                            else
+                                jobLog.WriteEntry(this, Localise.GetPhrase("Commercials not found or cutting already completed"), Log.LogEntryType.Information);
+                        }
+                    }
+
+                    // Add the subtitles and chapters to the container if asked
+                    if (!_jobStatus.Cancelled)
+                    {
+                        if (_conversionOptions.embedSubtitlesChapters)
+                        {
+                            string chapFile = ""; // Nero Chapter file
+                            string xmlChapFile = ""; // iTunes Chapter file
+                            bool success = false;
+
+                            EDL edl = new EDL(_conversionOptions.profile, _convertedFile, _videoFile.Duration, (_commercialScan != null ? _commercialScan.EDLFile : ""), (_saveEDLFile ? _initialRemuxSkipSeconds : 0), _jobStatus, jobLog); // If we are using a saved EDL File, we need to compensate for any seconds that were trimmed while remuxing to compensate for EDL later
+
+                            // Convert the EDL file to Chapters (EDLToChapter will adjust chapters based on whether the video is cut with the EDL file or not, i.e. CommercialSkipCut)
+                            // If there are no EDL file and no commercials then check if the source file has chapters and then save them
+                            if (_commercialScan != null)
+                            {
+                                if (edl.ConvertEDLToChapters(!_commercialSkipCut))
+                                    success = true;
+                            }
+                            else
+                            {
+                                jobLog.WriteEntry(this, ("Checking for Chapter information in Source File to preserve"), Log.LogEntryType.Information);
+                                FFmpegMediaInfo ffmpegStreamInfo = new FFmpegMediaInfo(_conversionOptions.sourceVideo, _jobStatus, jobLog);
+                                //if (ffmpegStreamInfo.Success && !ffmpegStreamInfo.ParseError)
+                                //{
+                                //    if (edl.SaveChaptersToFile(ffmpegStreamInfo.MediaInfo.ChapterInfo))
+                                //        success = true;
+                                //}
+                                //else
+                                    jobLog.WriteEntry(this, ("Unable to read chapter information from source file, skipping chapter extraction"), Log.LogEntryType.Warning);
+                            }
+
+                            // If we were successful in creating the chapter files save it
+                            if (success)
+                            {
+                                chapFile = edl.CHAPFile; // Get the Nero chapter file
+                                xmlChapFile = edl.XMLCHAPFile; // Get the iTunes chapter file
+                            }
+
+                            LogStatus(Localise.GetPhrase("Adding subtitles and chapters to file"), jobLog);
+                            if (!_metaData.AddSubtitlesAndChaptersToFile(_srtFile, chapFile, xmlChapFile, _convertedFile))
+                            {
+                                _jobStatus.ErrorMsg = Localise.GetPhrase("Adding subtitles and chapters failed");
+                                jobLog.WriteEntry(this, (_jobStatus.ErrorMsg), Log.LogEntryType.Error);
+                                Cleanup(jobLog);
+                                return;
+                            }
+                            jobLog.WriteEntry(this, Localise.GetPhrase("Finished adding subtitles and chapters to file, file size [KB]") + " " + (FileIO.FileSize(_convertedFile) / 1024).ToString("N", CultureInfo.InvariantCulture), Log.LogEntryType.Debug);
+                        }
+                    }
+
+                    // This point onward there is not ETA or % so set ETA to working
+                    _jobStatus.ETA = "Working...";
+
+                    // Write the meta data
+                    if (!_jobStatus.Cancelled)
+                    {
+                        if (_conversionOptions.writeMetadata)
+                        {
+                            LogStatus(Localise.GetPhrase("Writing show information"), jobLog);
+                            _metaData.WriteTags(_convertedFile); // we can ignore failure of writing meta data, not critical
+                            jobLog.WriteEntry(this, Localise.GetPhrase("Finished writing tags, file size [KB]") + " " + (FileIO.FileSize(_convertedFile) / 1024).ToString("N", CultureInfo.InvariantCulture), Log.LogEntryType.Debug);
+                        }
+                    }
+                }
+                else // If we are ONLY RENAMING, then we are working direcly on the original file (ignore the remuxed video which was used to extract EDL, XML, NFO and SRT files)
+                {
+                    WorkingVideo = ""; // Disregard the remuxed file completely, we are working on the original video
+
+                    // Get the video properties
+                    if (!_jobStatus.Cancelled)
+                    {
+                        // Create the Video File object and get the container + stream information
+                        LogStatus(Localise.GetPhrase("Analyzing video information"), jobLog);
+
+                        _videoFile = new VideoInfo(true, false, _conversionOptions.sourceVideo, "", "", "", _jobStatus, jobLog); // No work done here just get basic properties
+
+                        // Dont' need to worrk about errors/failues here since this is only used if we are extracting MC information
+                    }
+
+                    _jobStatus.ETA = "Working...";
+                    _convertedFile = _conversionOptions.sourceVideo; // We are working directly on the source file here (copied)
+                }
+
+                // Create the XML file with Source video information for WTV and DVRMS file (XBMC compliant NFO file, http://wiki.xbmc.org/index.php?title=Import_-_Export_Library)
+                if (!_jobStatus.Cancelled)
+                {
+                    if (_conversionOptions.extractXML)
+                        _metaData.WriteXBMCXMLTags(OriginalFileName, WorkingVideo, _conversionOptions.workingPath, _videoFile);
+                }
+
+                // Processing complete, now rename the file based upon meta data
+                string subDestinationPath = "";
+                if (!_jobStatus.Cancelled)
+                {
+                    // Before renaming get the MediaInformation once to dump into the Log File for debugging purposes.
+                    FFmpegMediaInfo.DumpFileInformation(_convertedFile, _jobStatus, jobLog);
+
+                    LogStatus(Localise.GetPhrase("Renaming file using show information"), jobLog);
+                    // Check if we are using a Unicode Temp file name and restore it before renaming it
+                    if (Text.ContainsUnicode(OriginalFileName) && !_conversionOptions.renameOnly) // Unicode test, not all underlying apps and functions currently support UNICODE filenames, so use a ASCII name for now
+                    {
+                        try
+                        {
+                            string orgConvFile = Path.Combine(_conversionOptions.workingPath, Path.GetFileNameWithoutExtension(OriginalFileName) + FilePaths.CleanExt(_convertedFile));
+                            jobLog.WriteEntry(this, "Restoring temporary Unicode file to original filename -> " + orgConvFile, Log.LogEntryType.Debug);
+                            FileIO.TryFileDelete(orgConvFile);
+                            FileIO.MoveAndInheritPermissions(_convertedFile, orgConvFile); // Restore original filename
+                            _convertedFile = orgConvFile; // Restore the name
+                        }
+                        catch (Exception e)
+                        {
+                            jobLog.WriteEntry(this, "Unable to rename temporary Unicode file to original filename.\r\nError -> " + e.ToString(), Log.LogEntryType.Warning);
+                        }
+                    }
+
+                    RenameConvertedFile(out subDestinationPath, jobLog); // Rename the file
+                }
+
+                // Now run the post conversion custom command on the final file before it is moved
+                if (!_jobStatus.Cancelled)
+                {
+                    LogStatus(Localise.GetPhrase("Running custom commands"), jobLog);
+
+                    CustomCommand customCommand = new CustomCommand(
+                      "CustomCommand", 
+                      _conversionOptions.profile, 
+                      _conversionOptions.taskName, 
+                      _conversionOptions.workingPath, 
+                      Path.GetDirectoryName(GetDestinationFilename(_conversionOptions, _metaData, OriginalFileName, jobLog)), 
+                      _convertedFile, 
+                      OriginalFileName, 
+                      _remuxedVideo, 
+                      (_commercialScan == null ? "" : _commercialScan.EDLFile), 
+                      _srtFile, 
+                      //_conversionOptions.relativeSourcePath, 
+                      _metaData.MetaData, 
+                      _jobStatus, 
+                      jobLog);
+                    if (!customCommand.Run())
+                    {
+                        jobLog.WriteEntry(this, Localise.GetPhrase("Custom command failed to run, critical failure"), Log.LogEntryType.Error);
+                        _jobStatus.ErrorMsg = Localise.GetPhrase("Custom command failed to run, critical failure");
+                        Cleanup(jobLog);
+                        return; // serious problem
+                    }
+
+                    // Check if the converted file has been tampered with
+                    if (!File.Exists(_convertedFile))
+                    {
+                        jobLog.WriteEntry(this, Localise.GetPhrase("Converted file has been renamed or deleted by custom command") + " -> " + _convertedFile, Log.LogEntryType.Error);
+                        _jobStatus.ErrorMsg = Localise.GetPhrase("Converted file has been renamed or deleted by custom command");
+                        Cleanup(jobLog);
+                        return; // serious problem
+                    }
+                    else
+                        jobLog.WriteEntry(this, Localise.GetPhrase("Finished custom command, file size [KB]") + " " + (FileIO.FileSize(_convertedFile) / 1024).ToString("N", CultureInfo.InvariantCulture), Log.LogEntryType.Debug);
+                }
+
+                // Finally move the file
+                if (!_jobStatus.Cancelled)
+                {
+                    LogStatus(Localise.GetPhrase("Moving converted file to destination"), jobLog);
+                    if (!MoveConvertedFile(subDestinationPath, jobLog))
+                    {
+                        _jobStatus.ErrorMsg = Localise.GetPhrase("Moving converted file to destination failed"); // don't set this unless you want to indicate failure up the chain and kill the conversion process
+                        jobLog.WriteEntry(this, (_jobStatus.ErrorMsg), Log.LogEntryType.Error);
+                        Cleanup(jobLog);
+                        return;
+                    }
+                }
+
+                // After moving, now add the destination file to the iTunes/WMP library if required
+                if (!_jobStatus.Cancelled)
+                {
+                    if (_conversionOptions.addToiTunes)
+                    {
+                      //LogStatus(Localise.GetPhrase("Adding file to the iTunes library"), jobLog);
+                      LogStatus(Localise.GetPhrase("iTunes Library not supported here"), jobLog);
+                      //VideoMetaData.AddFileToiTunesLibrary(_convertedFile, jobLog);
+                    }
+
+                    if (_conversionOptions.addToWMP)
+                    {
+                        LogStatus(Localise.GetPhrase("Adding file to the WMP library"), jobLog);
+                        VideoMetaData.AddFileToWMPLibrary(_convertedFile, jobLog);
+                    }
+                }
+
+                // Finally - Move the remaining files file
+                if (!_jobStatus.Cancelled)
+                {
+                    // XML FILE (generated by Comskip or any other program)
+                    string xmlFile = Path.Combine(_conversionOptions.workingPath, (Path.GetFileNameWithoutExtension(WorkingVideo) + ".xml")); // XML file created by 3rd Party in temp working directory
+                    try
+                    {
+                        if (File.Exists(xmlFile))
+                        {
+                            if (String.Compare(xmlFile, (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".xml"), true) != 0) // Don't delete if they are the same file, e.g. TS to TS in same directory
+                            {
+                                jobLog.WriteEntry(this, Localise.GetPhrase("Found XML file, moving to destination") + " XML:" + xmlFile + " Destination:" + Path.GetDirectoryName(_convertedFile), Log.LogEntryType.Information);
+                                FileIO.TryFileDelete((FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".xml"));
+                                FileIO.MoveAndInheritPermissions(xmlFile, (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".xml")); //rename to match destination file
+                            }
+                        }
+                    }
+                    catch (Exception e) // Not critial to be unable to move SRT File
+                    {
+                        jobLog.WriteEntry(this, Localise.GetPhrase("Unable to move XML file to destination") + " XML:" + xmlFile + " Destination:" + Path.GetDirectoryName(_convertedFile) + " Error -> " + e.ToString(), Log.LogEntryType.Warning);
+                    }
+
+                    // SRT FILE
+                    try
+                    {
+                        if (File.Exists(_srtFile))
+                        {
+                            if (String.Compare(_srtFile, (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".srt"), true) != 0) // Don't delete if they are the same file, e.g. TS to TS in same directory
+                            {
+                                jobLog.WriteEntry(this, Localise.GetPhrase("Found SRT file, moving to destination") + " SRT:" + _srtFile + " Destination:" + Path.GetDirectoryName(_convertedFile), Log.LogEntryType.Information);
+                                FileIO.TryFileDelete((FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".srt"));
+                                FileIO.MoveAndInheritPermissions(_srtFile, (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".srt")); //rename to match destination file
+                            }
+                        }
+                    }
+                    catch (Exception e) // Not critial to be unable to move SRT File
+                    {
+                        jobLog.WriteEntry(this, Localise.GetPhrase("Unable to move SRT file to destination") + " SRT:" + _srtFile + " Destination:" + Path.GetDirectoryName(_convertedFile) + " Error -> " + e.ToString(), Log.LogEntryType.Warning);
+                    }
+
+                    // EDL FILE
+                    if (_commercialScan != null)
+                    {
+                        try
+                        {
+                            if (File.Exists(_commercialScan.EDLFile) && _commercialSkipCut) // if we are asked to keep EDL file, we copy it out to output
+                            {
+                                if (String.Compare(_commercialScan.EDLFile, (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".edl"), true) != 0) // don't delete the same file, e.g. TS to TS in same directory
+                                {
+                                    jobLog.WriteEntry(this, Localise.GetPhrase("Found EDL file, request to move to destination") + " EDL:" + _commercialScan.EDLFile + " Destination:" + Path.GetDirectoryName(_convertedFile), Log.LogEntryType.Information);
+                                    FileIO.TryFileDelete((FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".edl"));
+                                    FileIO.MoveAndInheritPermissions(_commercialScan.EDLFile, (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".edl"));
+                                }
+                            }
+                        }
+                        catch (Exception e)
+                        {
+                            jobLog.WriteEntry(this, Localise.GetPhrase("Unable to move EDL file to destination") + " EDL:" + _commercialScan.EDLFile + " Destination:" + Path.GetDirectoryName(_convertedFile) + " Error -> " + e.ToString(), Log.LogEntryType.Warning);
+                        }
+                    }
+                    else if (_saveEDLFile) // no commercial scan but we still found an EDL file with the source, we copy it to the output
+                    {
+                        // EDL File
+                        string edlFile = Path.Combine(_conversionOptions.workingPath, (Path.GetFileNameWithoutExtension(WorkingVideo) + ".edl")); // Saved EDL file
+                        try
+                        {
+                            if (File.Exists(edlFile))
+                            {
+                                if (String.Compare(edlFile, (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".edl"), true) != 0) // Don't delete if they are the same file, e.g. TS to TS in same directory
+                                {
+                                    jobLog.WriteEntry(this, Localise.GetPhrase("Found EDL file, moving to destination") + " EDL:" + edlFile + " Destination:" + Path.GetDirectoryName(_convertedFile), Log.LogEntryType.Information);
+                                    FileIO.TryFileDelete((FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".edl"));
+                                    FileIO.MoveAndInheritPermissions(edlFile, (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".edl")); //rename to match destination file
+                                }
+                            }
+                        }
+                        catch (Exception e) // Not critial to be unable to move EDL File
+                        {
+                            jobLog.WriteEntry(this, Localise.GetPhrase("Unable to move EDL file to destination") + " EDL:" + edlFile + " Destination:" + Path.GetDirectoryName(_convertedFile) + " Error -> " + e.ToString(), Log.LogEntryType.Warning);
+                        }
+
+                        //EDLP File
+                        string edlpFile = Path.Combine(_conversionOptions.workingPath, (Path.GetFileNameWithoutExtension(WorkingVideo) + ".edlp")); // Saved EDLP file
+                        try
+                        {
+                            if (File.Exists(edlpFile))
+                            {
+                                if (String.Compare(edlpFile, (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".edlp"), true) != 0) // Don't delete if they are the same file, e.g. TS to TS in same directory
+                                {
+                                    jobLog.WriteEntry(this, Localise.GetPhrase("Found EDLP file, moving to destination") + " EDLP:" + edlpFile + " Destination:" + Path.GetDirectoryName(_convertedFile), Log.LogEntryType.Information);
+                                    FileIO.TryFileDelete((FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".edlp"));
+                                    FileIO.MoveAndInheritPermissions(edlpFile, (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".edlp")); //rename to match destination file
+                                }
+                            }
+                        }
+                        catch (Exception e) // Not critial to be unable to move EDL File
+                        {
+                            jobLog.WriteEntry(this, Localise.GetPhrase("Unable to move EDLP file to destination") + " EDLP:" + edlpFile + " Destination:" + Path.GetDirectoryName(_convertedFile) + " Error -> " + e.ToString(), Log.LogEntryType.Warning);
+                        }
+                    }
+
+                    // NFO FILE
+                    string nfoFile = Path.Combine(_conversionOptions.workingPath, Path.GetFileNameWithoutExtension(WorkingVideo) + ".nfo"); // Path\FileName.nfo
+                    try
+                    {
+                        if (File.Exists(nfoFile))
+                        {
+                            if (String.Compare(nfoFile, (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".nfo"), true) != 0) // Don't delete if they are the same file, e.g. TS to TS in same directory
+                            {
+                                jobLog.WriteEntry(this, Localise.GetPhrase("Found NFO file, moving to destination") + " NFO:" + nfoFile + " Destination:" + Path.GetDirectoryName(_convertedFile), Log.LogEntryType.Information);
+                                FileIO.TryFileDelete((FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".nfo"));
+                                FileIO.MoveAndInheritPermissions(nfoFile, (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".nfo")); //rename to match destination file
+                            }
+                        }
+                    }
+                    catch (Exception e) // Not critial to be unable to move NFO File
+                    {
+                        jobLog.WriteEntry(this, Localise.GetPhrase("Unable to move NFO file to destination") + " NFO:" + nfoFile + " Destination:" + Path.GetDirectoryName(_convertedFile) + " Error -> " + e.ToString(), Log.LogEntryType.Warning);
+                    }
+
+                    // COVER ART
+                    if (_conversionOptions.extractXML) // Only if asked to save the information
+                    {
+                        string coverArt = _metaData.MetaData.BannerFile; // Path to cover art
+                        try
+                        {
+                            if (File.Exists(coverArt))
+                            {
+                                if (String.Compare(coverArt, (FilePaths.GetFullPathWithoutExtension(_convertedFile) + FilePaths.CleanExt(coverArt)), true) != 0) // Don't delete if they are the same file, e.g. TS to TS in same directory
+                                {
+                                    jobLog.WriteEntry(this, ("Found Cover Art file, copying to destination") + " CoverArt:" + coverArt + " Destination:" + Path.GetDirectoryName(_convertedFile), Log.LogEntryType.Information);
+                                    FileIO.TryFileDelete((FilePaths.GetFullPathWithoutExtension(_convertedFile) + FilePaths.CleanExt(coverArt)));
+                                    File.Copy(coverArt, (FilePaths.GetFullPathWithoutExtension(_convertedFile) + FilePaths.CleanExt(coverArt))); // Copy (NOT move since it may be used by other conversions and we don't keep downloading cover art) and rename to match destination file
+                                }
+                            }
+                        }
+                        catch (Exception e) // Not critial to be unable to move Cover Art File
+                        {
+                            jobLog.WriteEntry(this, ("Unable to copy Cover Art file to destination") + " CoverArt:" + coverArt + " Destination:" + Path.GetDirectoryName(_convertedFile) + " Error -> " + e.ToString(), Log.LogEntryType.Warning);
+                        }
+
+                    }
+
+                    // LOG FILE
+                    if (_copyLOGFile)
+                    {
+                        string logFile = Path.Combine(_conversionOptions.workingPath, Path.GetFileNameWithoutExtension(WorkingVideo) + ".log"); // Path\FileName.log
+                        try
+                        {
+                            if (File.Exists(logFile))
+                            {
+                                if (String.Compare(logFile, (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".log"), true) != 0) // Don't delete if they are the same file, e.g. TS to TS in same directory
+                                {
+                                    jobLog.WriteEntry(this, Localise.GetPhrase("Found LOG file, moving to destination") + " LOG:" + logFile + " Destination:" + Path.GetDirectoryName(_convertedFile), Log.LogEntryType.Information);
+                                    FileIO.TryFileDelete((FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".log"));
+                                    FileIO.MoveAndInheritPermissions(logFile, (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".log")); //rename to match destination file
+                                }
+                            }
+                        }
+                        catch (Exception e) // Not critial to be unable to move LOG File
+                        {
+                            jobLog.WriteEntry(this, Localise.GetPhrase("Unable to move LOG file to destination") + " LOG:" + logFile + " Destination:" + Path.GetDirectoryName(_convertedFile) + " Error -> " + e.ToString(), Log.LogEntryType.Warning);
+                        }
+                    }
+
+                    // PROPERTIES FILE
+                    if (_copyPropertiesFile)
+                    {
+                        string propertiesFile = FilePaths.GetFullPathWithoutExtension(OriginalFileName) + ".properties"; // The properties file lies with the original file
+                        try
+                        {
+                            if (File.Exists(propertiesFile))
+                            {
+                                if (String.Compare(propertiesFile, (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".properties"), true) != 0) // Don't delete if they are the same file, e.g. TS to TS in same directory
+                                {
+                                    jobLog.WriteEntry(this, Localise.GetPhrase("Found SageTV Properties file, moving to destination") + " PROPERTIES:" + propertiesFile + " Destination:" + Path.GetDirectoryName(_convertedFile), Log.LogEntryType.Information);
+                                    FileIO.TryFileDelete((FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".properties"));
+                                    FileIO.MoveAndInheritPermissions(propertiesFile, (FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".properties")); //rename to match destination file
+                                }
+                            }
+                        }
+                        catch (Exception e) // Not critial to be unable to move LOG File
+                        {
+                            jobLog.WriteEntry(this, Localise.GetPhrase("Unable to move LOG file to destination") + " PROPERTIES:" + propertiesFile + " Destination:" + Path.GetDirectoryName(_convertedFile) + " Error -> " + e.ToString(), Log.LogEntryType.Warning);
+                        }
+                    }
+
+                    // Last things - Run the end of conversion post rename and move custom command from the user if configured
+                    if (!_jobStatus.Cancelled)
+                    {
+                        LogStatus(Localise.GetPhrase("Running custom commands"), jobLog);
+
+                        string tmpSrt, tmpEdl;
+                        tmpEdl = (File.Exists(FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".edl") ? FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".edl" : "");
+                        tmpSrt = (File.Exists(FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".srt") ? FilePaths.GetFullPathWithoutExtension(_convertedFile) + ".srt" : "");
+                        CustomCommand customCommand = new CustomCommand(
+                          "PostCustomCommand", 
+                          _conversionOptions.profile, 
+                          _conversionOptions.taskName, 
+                          _conversionOptions.workingPath, 
+                          Path.GetDirectoryName(GetDestinationFilename(_conversionOptions, _metaData, OriginalFileName, jobLog)), 
+                          _convertedFile, 
+                          OriginalFileName, 
+                          _remuxedVideo, 
+                          tmpEdl, 
+                          tmpSrt, 
+                          //_conversionOptions.relativeSourcePath, 
+                          _metaData.MetaData, 
+                          _jobStatus, 
+                          jobLog);
+                        if (!customCommand.Run())
+                        {
+                            jobLog.WriteEntry(this, Localise.GetPhrase("End of Conversion Custom command failed to run, critical failure"), Log.LogEntryType.Error);
+                            _jobStatus.ErrorMsg = Localise.GetPhrase("End of Conversion Custom command failed to run, critical failure");
+                            Cleanup(jobLog);
+                            return; // serious problem
+                        }
+
+                        // Check if the converted file has been tampered with
+                        if (!File.Exists(_convertedFile))
+                        {
+                            // WE WILL NOTE THIS AS AN SERIOUS ERROR BUT IT ISN'T A DEALBREAKER SINCE WE ARE ALL DONE HERE AND THE FILE HAS BEEN MOVED.
+                            jobLog.WriteEntry(this, Localise.GetPhrase("Destination file has been renamed or deleted by post custom command") + " -> " + _convertedFile, Log.LogEntryType.Error);
+                        }
+                        else
+                            jobLog.WriteEntry(this, Localise.GetPhrase("Finished end of conversion custom command, file size [KB]") + " " + (FileIO.FileSize(_convertedFile) / 1024).ToString("N", CultureInfo.InvariantCulture), Log.LogEntryType.Debug);
+                    }
+
+                    _jobStatus.ErrorMsg = ""; // all done, we are in the clear, success
+                    _jobStatus.SuccessfulConversion = true; //now the original file can be deleted if required
+                    LogStatus(Localise.GetPhrase("Success - All done!"), jobLog);
+                }
+
+                Cleanup(jobLog); // all done, clean it up, close jobLog and mark it inactive
+            }
+            catch(ThreadAbortException)
+            {
+                //incase the conversion thread is stopped due to the GUI stopping/cancelling, then release the logfile locks
+                _jobStatus.ErrorMsg = "Conversion thread aborted, conversion cancelled";
+                jobLog.WriteEntry(this, (_jobStatus.ErrorMsg), Log.LogEntryType.Error);
+                Cleanup(jobLog);
+            }
+            catch (Exception e)
+            {
+                // Unhandled error, clean up and log error
+                _jobStatus.ErrorMsg = "Unhanded error during conversion, conversion cancelled";
+                jobLog.WriteEntry(this, _jobStatus.ErrorMsg + "\r\n" + e.ToString(), Log.LogEntryType.Error);
+                Cleanup(jobLog);
+            }
+        }
+    }
+}

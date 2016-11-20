@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy वर्तमान में लॉगिन उपयोक्ता नेटवर्क शेयर करने के लिए कनेक्ट करने के लिए उपयोग नहीं है, यह स्वयं सेवा खाते का उपयोग करता है।  कनेक्शन उपयोगकर्ता जानकारी (एक चाबी आइकन के साथ MCEBuddy) निर्दिष्ट करना सुनिश्चित करें
+Connection Reminder	कनेक्शन अनुस्मारक
+Description	वर्णन
+Path	पथ
+is invalid	अमान्य है
+Invalid Path	अमान्य पथ
+Please supply a task name	कृपया किसी कार्य का नाम की आपूर्ति
+No name supplied	कोई नाम नहीं दिया गया
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	कृपया ऑडियो ट्रैक या चयन <Default>या <Original>का 3 अंक भाषा कोड दर्ज करें
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	3 डिजिट चयनित language\r\nMake यकीन है कि यह मूल recording.\r\nTo जाओ मूल रिकॉर्ड की गई फ़ाइल में ऑडियो पटरियों के लिए भाषा कोड में एक ऐसा ऑडियो ट्रैक के लिए भाषा कोड से मेल खाने के लिए आईएसओ कोड file\r\nto कतार में जोड़ें और पर दायाँ क्लिक करें। एक पॉप अप विंडो खुल जाएगा ऑडियो पृष्ठ details\r\nwhich में एक ऐसा ऑडियो ट्रैक के लिए भाषा कोड शामिल हैं।
+Invalid Language Code	अमान्य भाषा कोड
+No destination directory provided, converted file will be placed in original video directory	कोई गंतव्य निर्देशिका प्रदान की, कनवर्ट की गई फ़ाइल मूल वीडियो निर्देशिका में रखा जाएगा
+A task name or section	किसी कार्य का नाम या अनुभाग
+already exists\n\rPlease use another name	पहले से ही exists\n\rPlease किसी अन्य नाम का उपयोग करें
+Duplicate Name	डुप्लिकेट नाम
+Engine	इंजन
+Tasks	कार्य
+Profile	प्रोफ़ाइल
+disposing	निपटान
+Task name	कार्य का नाम
+Give a unique name to this task	इस कार्य के लिए कोई अनन्य नाम दे
+Gives a short description for the selection conversion profile	चयन रूपांतरण प्रोफ़ाइल के लिए एक संक्षिप्त विवरण देता है
+Click to select destination folder	गंतव्य फ़ोल्डर का चयन करने के लिए क्लिक करें
+Destination	गंतव्य
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	जहां कनवर्ट की गई फ़ाइल placed.\r\nLeave इस मूल के रूप में एक ही निर्देशिका में कनवर्ट की गई फ़ाइल वीडियो रखने के लिए खाली हो जाएगा निर्देशिका का चयन करें।
+Max width	अधिकतम चौड़ाई
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	यह कनवर्ट किए गए file.\r\nTIP के लिए वीडियो की (पिक्सेल में) अधिकतम चौड़ाई तक सीमित कर देगा: यदि मूल फ़ाइल चौड़ाई इस number.\r\nIf आप अपने मूल वीडियो रिज़ॉल्यूशन कदम स्लाइडर का अधिकार के लिए सभी तरह रखने के लिए चाहता हूँ से छोटा है पर लागू नहीं होता।
+Quality	गुणवत्ता
+Ad remover	विज्ञापन हटानेवाला
+None	कोई नहीं
+Get series details from Internet	श्रृंखला जानकारी इंटरनेट से प्राप्त
+Download additional details about the movie or series from the internet	फिल्म या श्रृंखला के बारे में अतिरिक्त जानकारी इंटरनेट से डाउनलोड करें
+File name match	फ़ाइल का नाम मैच
+Recording title match	रिकॉर्डिंग शीर्षक मैच
+Cancel	रद्द करें
+OK	ठीक है
+Rename without converting	नाम बदलने परिवर्तित करने के बिना
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	केवल नाम बदलने और गंतव्य folder.\r\nWhen करने के लिए मूल फ़ाइलों की प्रतिलिपि करने के लिए इस विकल्प की जाँच की, रूपांतरण, trimming, ऑडियो/वीडियो प्रसंस्करण और वाणिज्यिक को हटाने नहीं available.\r\n\r\nNOTE किया जाएगा जाँच करें: दूसरे के कार्य करता है जैसे फिल्टर, उपशीर्षक, मेटाडाटा और वाणिज्यिक डिटेक्शन (EDL फाइल बचत) \r\nwill अभी भी बचत एक्स्ट्रेक्टिंग मिलान इस विकल्प checked.\r\nIf आप ले जाने के बजाय प्रतिलिपि करना चाहते हैं के साथ उपलब्ध हो, विशेषज्ञ इस पृष्ठ या select\r\nDelete मूल फ़ाइल में मुख्य सेटिंग्स पृष्ठ पर सेटिंग्स में मूल विकल्प प्रतिलिपि छोड़ें चेक करें।
+Rename and sort by video information	नाम बदलें और वीडियो जानकारी के द्वारा सॉर्ट करें
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	कनवर्ट की गई फ़ाइल का नाम बदलता है और उसे एक नया शो/श्रृंखला जानकारी पर आधारित निर्देशिका में रखता है जब available\r\n (उदाहरण के लिए ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	पहुँच फ़ोल्डर्स है कि एक नेटवर्क ड्राइव या किसी भिन्न कंप्यूटर पर कर रहे हैं के लिए उपयोगकर्ता नाम और पासवर्ड दर्ज करें
+Organize by seasons	मौसमों द्वारा व्यवस्थित करें
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	Showname द्वारा फ़ोल्डरों को व्यवस्थित और जब मौसम उपलब्ध (मीडिया केंद्र/XBMC/Plex संगत नेमिंग कन्वेंशन) \r\n (उदा Showname\\Season XX\\SXXEYY-प्रकरण नाम)
+Audio language	ऑडियो भाषा
+Advanced Settings	उन्नत सेटिंग्स
+General Settings	सामान्य सेटिंग्स
+Conversion Task	रूपांतरण कार्य
+Password	पासवर्ड
+Confirm Password	पासवर्ड की पुष्टि करें
+Domain / computer name	डोमेन / कंप्यूटर का नाम
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	यदि दूरस्थ कंप्यूटर या नेटवर्क ड्राइव का उपयोग करता है एक डोमेन के लिए authentication.\r\nDo <Optional>Enter नहीं आपके कार्यसमूह यहाँ दर्ज करें। यह अगर तुम एक कार्यसमूह का उपयोग कर रहे हैं रिक्त छोड़ दें।
+User name	उपयोगकर्ता नाम
+Enter the username to access the remote computer or network drive	दूरस्थ कंप्यूटर या नेटवर्क ड्राइव तक नहीं पहुँच के लिए उपयोगकर्ता नाम दर्ज करें
+Enter the password to access the remote computer or network drive	दूरस्थ कंप्यूटर या नेटवर्क ड्राइव तक नहीं पहुँच के लिए पासवर्ड दर्ज करें
+Network Connection User Credentials	नेटवर्क कनेक्शन उपयोगकर्ता क्रेडेंशियल्स
+Password Mismatch	पासवर्ड बेमेल
+Passwords do not match, please reenter the passwords	पासवर्ड मेल नहीं खाते, कृपया पासवर्ड फिर से दर्ज करें
+Hour	घंटे
+Minute	मिनट
+Wake	जागो
+Start	प्रारंभ करें
+Resume	फिर से शुरू
+Pause	विराम दें
+Stop	रुको
+Language	भाषा
+Pause conversion tasks	ठहराव रूपांतरण कार्य
+Resume conversion tasks	रूपांतरण कार्य फिर से शुरू
+Please enter a valid time	कृपया कोई मान्य समय दर्ज करें
+Invalid Time	अमान्य समय
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	समाप्ति समय प्रारंभ समय के बाद है। मान रोकें समय अगले दिन के दौरान है, क्या यह सही है?
+Time Check	समय चेक
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	यदि MCEBuddy अपनी फ़ाइलें मज़बूती से समय का एक स्वीकार्य अवधि के लिए परिवर्तित किया गया है केवल इस विकल्प का चयन करें। क्या आप MCEBuddy एक बार इसे परिवर्तित कर दिया गया है प्रत्येक मूल फ़ाइल हटाना चाहते हैं?
+Confirm delete originals?	हटाएँ मूल पुष्टि करते हैं?
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy वीडियो फ़ाइलों को स्वचालित रूप से कनवर्ट करने के लिए इन निर्देशिका निगरानी करेंगे
+Conversion tasks	रूपांतरण कार्य
+Delete original file	मूल फ़ाइल हटाएँ
+Deletes the original recording after a successful conversion	एक सफल रूपांतरण के बाद मूल रिकॉर्डिंग हटाता है
+Min age before conversion (hours)	न्यूनतम उम्र रूपांतरण से पहले (घंटे)
+Minimum hours to wait before converting each file after the file is added to the queue	कम से कम घंटे के बाद फ़ाइल को कतार में जोड़ा जाता है प्रत्येक फ़ाइल कनवर्ट करने से पहले प्रतीक्षा करने के लिए
+Use this to change the language of the text on the screen	इस स्क्रीन पर पाठ की भाषा बदलने के लिए का उपयोग करें
+Concurrent conversions	समानांतर कनवर्ज़न
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	युगपत रूपांतरण MCEBuddy की संख्या start\r\nNOTE कर सकते हैं: आप 2 से भी अधिक युगपत रूपांतरण के लिए मुक्त डिस्क स्थान है और प्रोसेसर समय की बड़ी मात्रा की जरूरत
+Logging level	लॉगिंग स्तर
+Error	त्रुटि
+Warning	चेतावनी
+Information	जानकारी
+Debug	डीबग करें
+Log conversion jobs	लॉग रूपांतरण नौकरियां
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	प्रत्येक रूपांतरण के लिए एक लॉग फ़ाइल में \'logs\ सहेजें ' निर्देशिका जहाँ जहाँ MCEBuddy installed\r\n (उदा C:\\Program Files\\MCEBuddy2x\\logs) है
+Allow sleep	स्लीप की अनुमति दें
+If unchecked, it prevents the system from entering sleep while converting	यदि अनियंत्रित, यह सिस्टम स्लीप कनवर्ट करते समय में प्रवेश करने से रोकता
+Stop at	पर रोक
+No new conversions would be started after this time	कोई नया रूपांतरणों इस समय के बाद शुरू कर दिया जाएगा
+minute	मिनट
+hour	घंटे
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	यदि MCEBuddy sleep\r\nat से सिस्टम निर्दिष्ट प्रारंभ समय जाग जाएगा और सप्ताह के दिन सक्षम की जाँच की।
+Start at	पर प्रारंभ करें
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy शुरू के बीच नए रूपांतरण शुरू करेंगे और time.\r\n\r\nThe प्रारंभ समय सक्षम सप्ताह के दिनों के लिए इस्तेमाल किया जाएगा बंद करो, whereas\r\nthe अंत समय हो जाएगा या तो एक ही दिन or\r\nfor के लिए अगले दिन इस्तेमाल किया यदि समाप्ति समय के बाद शुरू समय है।
+Delete	हटाएँ
+Add	जोड़ें
+Change	बदलें
+Archive original file	पुरालेख मूल फ़ाइल
+Domain name	डोमेन नाम
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	मॉनिटर और रूपांतरण कार्य रुक जाता है और MCEBuddy को कॉन्फ़िगर करने के लिए एक पृष्ठ को खोलता है
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	\'MCEBuddyArchive\ नामक एक फ़ोल्डर बनाता है ' जहाँ मूल फ़ाइल है located\r\nand इस निर्देशिका में मूल फ़ाइल चालें करने के बाद एक सफल conversion.\r\n\r\nThis फ़ोल्डर का नाम और स्थान सिस्टम सेटिंग्स पृष्ठ में बदल गया हो।
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	ट्रेस रूपांतरण problems\r\nInformation - लॉग conversion\r\nWarning के बारे में मूल जानकारी - लॉग इन संभावित समस्याओं या महत्वपूर्ण विफलताओं only\r\nError - लॉग महत्वपूर्ण विफलताओं केवल डीबग - विस्तृत लॉग करता है, मदद करता है
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	इस कार्य के साथ संबद्ध रूपांतरण प्रोफ़ाइल का चयन करें। रूपांतरण प्रोफ़ाइल आउटपुट स्वरूप और कनवर्ट की गई file.\r\nHigher गुणवत्ता रूपांतरण कन्वर्ट करने के लिए अब लेने के लिए गुणवत्ता का प्रतिनिधित्व करता है। अनुशंसित डिफ़ॉल्ट: MP4 उच्च गुणवत्ता या MP4 Normal.\r\n\r\nTIP: MCEBuddy गाइड करने के लिए उन्नत मापदंडों के लिए रूपांतरण प्रोफाइल tweak करने के लिए या अपने रूपांतरण प्रोफाइल बनाने के लिए देखें
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	MCEBuddy 'कोई भी' इश्तेहार में कनवर्ट की गई video.\r\n\r\nTIP को छोड़ करने के लिए video.\r\nSet परिवर्तित करते समय कोई इश्तेहार बाहर पट्टी करने के लिए उपयोग करेगा प्रोग्राम का चयन करें: ShowAnalyzer Comskip के बजाय का उपयोग करें, डाउनलोड कृपया और ShowAnalyzer.\r\nShow विश्लेषक 1.0 और अधिक से अधिक संस्करण को स्थापित करने के लिए समर्थित।
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	कनवर्ट की गई फ़ाइल, सामान्य के वीडियो की गुणवत्ता को बदलने के लिए इस्तेमाल किया 1.\r\nA उच्च संख्या की गुणवत्ता में सुधार होगा, लेकिन के लिए conversion.\r\nA छोटे संख्या गुणवत्ता कम हो जाएगा लेकिन ऊपर रूपांतरण की गति और समय लगेगा है।
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	पैटर्न इस कार्य के लिए filenames से मेल करने के लिए दर्ज करें (उदा *.wtv .wtv)\r\nPrefix पैटर्न के साथ के साथ समाप्त सभी फ़ाइलों को परिवर्तित करेगा ~ मैच को छोड़ करने के लिए (उदाहरण के लिए *. *; ~*.wtv जाएगा प्रक्रिया को सभी फ़ाइलों को छोड़कर उन लोगों के साथ .wtv)\r\nSeparate के साथ एकाधिक पैटर्न समाप्त; (उदा *.wtv; ncis *; ~ ncis मियामी *) सभी .wtv फ़ाइलें और ncis के साथ शुरू सभी फ़ाइलों को संसाधित करेंगे, लेकिन नहीं उन ncis miami\r\n\r\nYou के साथ शुरू नियमित अभिव्यक्ति regex के साथ प्रारंभ करके पैटर्न मिलान करने के लिए उपयोग कर सकते हैं:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	पैटर्न (उदा सिम्पसन * जाएगा कनवर्ट सभी फ़ाइलें है कि एक शो सिम्पसन के साथ शुरू शीर्षक है) इस कार्य के लिए शो/श्रृंखला शीर्षकों से मेल करने के लिए दर्ज करें \r\nPrefix पैटर्न के साथ ~ मैच को छोड़ करने के लिए (उदाहरण के लिए *; ~ सिम्पसन * जाएगा प्रक्रिया सिम्पसन के साथ प्रारंभ होने वाले उन लोगों को छोड़कर सभी शो शीर्षक) \r\nSeparate एकाधिक पैटर्न के साथ; (उदाहरण के लिए सिम्पसन *;House*) या (जैसे सिम्पसन *;NCIS*; ~ NCIS मियामी *) \r\n\r\nYou regex के साथ प्रारंभ करके पैटर्न मिलान करने के लिए नियमित अभिव्यक्तियाँ का उपयोग कर सकते हैं:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	यह ऑडियो रहे हैं जब एक recording.\r\nTo प्राप्त कोई रिकॉर्डिंग में ऑडियो भाषाओं की सूची में एकाधिक ऑडियो भाषा कतार में फ़ाइल पर राइट क्लिक करें और MediaInfo.\r\n\r\n <Default>का चयन करें भाषा समर्थित या डिफ़ॉल्ट ऑडियो track\r\n <Original>चुनें एनकोडर देना सभी ऑडियो ट्रैक रखने के लिए कोशिश करेंगे डिफ़ॉल्ट ओवरराइड करने के लिए इस्तेमाल किया जा सकता, यदि उपलब्ध हो, मूल रिकॉर्डिंग [गैर डब] भाषा का उपयोग करेगा
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	'[वीडियो]' दर्ज करें या सभी वीडियो files\r\nEnter पैटर्न इस स्थान के लिए filenames से मेल करने के लिए कन्वर्ट करने के लिए खाली छोड़ दें (उदाहरण के लिए *.wtv सभी फ़ाइलें .wtv)\r\nprefix पैटर्न के साथ के साथ समाप्त बदल जाएगा ~ मैच को छोड़ करने के लिए (उदाहरण के लिए *. *; ~*.wtv उन लोगों के साथ .wtv)\r\nseparate के साथ एकाधिक पैटर्न समाप्त; को छोड़कर सभी फ़ाइलों को संसाधित होगा (उदाहरण के लिए *.wtv; ncis *; ~ ncis मियामी *) सभी .wtv फ़ाइलें और सभी फ़ाइलें ncis लेकिन नहीं ncis मियामी के साथ शुरू करने वालों के साथ शुरू करने की प्रक्रिया होगी
+MCEBuddy Settings	MCEBuddy सेटिंग्स
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy वर्तमान में लॉगिन उपयोक्ता नेटवर्क शेयर करने के लिए कनेक्ट करने के लिए उपयोग नहीं है, यह स्वयं सेवा खाते का उपयोग करता है।  कनेक्शन उपयोगकर्ता जानकारी [एक चाबी आइकन के साथ MCEBuddy] निर्दिष्ट करने के लिए सुनिश्चित हो
+Please supply a source name	कृपया एक स्रोत नाम की आपूर्ति
+Please supply a search path name	कृपया कोई खोज पथ नाम की आपूर्ति
+A source name or section	एक स्रोत का नाम या अनुभाग
+already exists. Please use another name	पहले से ही मौजूद है। कृपया कोई अन्य नाम का उपयोग करें
+Monitor name	मॉनिटर का नाम
+Give this a location a unique name	यह एक स्थान पर एक अद्वितीय नाम दे
+Monitor path	मॉनिटर पथ
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	नई वीडियो फ़ाइलों को स्वचालित रूप से कनवर्ट करने के लिए पृष्ठभूमि में MCEBuddy की निगरानी करेगा निर्देशिका का चयन करें
+Click to select the folder to monitor	पर नजर रखने के लिए फ़ोल्डर का चयन करने के लिए क्लिक करें
+Search pattern	खोज प्रतिमान
+SourceForm	SourceForm
+Monitor Location	मॉनिटर स्थान
+Normal	सामान्य
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: pipeProxy इंजन कनेक्शन त्रुटि
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: पाइप MCEBuddy सेवा को बनाने में असमर्थ
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	MCEBuddy सेवा उपलब्ध नहीं है। कृपया Windows नियंत्रण कक्ष से प्रारंभ करें या इंजन कनेक्शन की जाँच करें।
+Announcement	घोषणा
+New version 	नया संस्करण 
+available	उपलब्ध
+New BETA version 	नई बीटा संस्करण 
+Click here to download new version of MCEBuddy	MCEBuddy का नया संस्करण डाउनलोड के लिए यहाँ क्लिक करें
+Click here to open link	लिंक को खोलने के लिए यहाँ क्लिक करें
+Idle	निष्क्रिय
+Closing	बंद करना
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI: कार्यों का अद्यतन करने में असमर्थ
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: MCEBuddy सेवा प्रारंभ करने में असमर्थ
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: MCEBuddy सेवा रोकने में असमर्थ
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI: कार्य रद्द करने में अक्षम
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	चेतावनी: नेटवर्क फ़ाइलों MCEBuddy सेवा, नहीं वर्तमान में लॉग ऑन उपयोगकर्ता के लॉग ऑन क्रेडेंशियल्स का उपयोग कर पहुँचा जा जाएगा। आप मैन्युअल रूप से MCEBuddy में विशेषज्ञ सेटिंग्स पृष्ठ-> सेटिंग्स से नेटवर्क क्रेडेंशियल्स निर्दिष्ट कर सकते हैं।
+Credential Warning	क्रेडेंशियल चेतावनी
+Status	स्थिति
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI: नौकरी जोड़ने में असमर्थ
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: पाइप सक्रिय स्थिति प्राप्त करने में असमर्थ
+The conversions must be stopped to change settings. Stop the conversions?	रूपांतरणों सेटिंग्स परिवर्तित करने के लिए बंद कर दिया जाना चाहिए। रूपांतरणों को रोकने?
+Stop Engine	इंजन बंद करो
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI: सेटिंग्स पर क्लिक करें से MCEBuddy सेवा रोकने में असमर्थ
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: फ़ाइलें पुन: स्कैन करने में असमर्थ
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: लिंक को खोलने में असमर्थ
+Close	बंद करें
+Close this window, MCEBuddy will keep running in the background	बंद इस विंडो को पृष्ठभूमि में MCEBuddy चालू रखने देंगे
+If you like MCEBuddy, please click here to Donate - THANKS	यदि आप MCEBuddy की तरह, कृपया यहाँ दान करने के लिए - धन्यवाद क्लिक
+Click here to like MCEBuddy on facebook	MCEBuddy फेसबुक पर पसंद करने के लिए यहाँ क्लिक करें
+Click here to open MCEBuddy website	MCEBuddy वेबसाइट को खोलने के लिए यहाँ क्लिक करें
+Rescan	पुन: स्कैन
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	बलों MCEBuddy मॉनिटर स्थानों नया वीडियो फ़ाइलों को कनवर्ट करने के लिए पुनः जाँच करने के लिए
+Monitor locations	मॉनिटर स्थान
+Settings	सेटिंग्स
+Select the file(s) in the queue to delete	हटाने के लिए कतार में फ़ाइल (फ़ाइलें) का चयन करें
+Manually add video file(s) to the queue to convert	मैन्युअल रूप से कन्वर्ट करने के लिए कतार में वीडियो फ़ाइल (फ़ाइलें) जोड़ें
+Start the MCEBuddy monitor and conversion tasks	MCEBuddy मॉनिटर और रूपांतरण कार्य प्रारंभ करें
+Stop the MCEBuddy monitor and conversion tasks	MCEBuddy मॉनिटर और रूपांतरण कार्य रोकें
+There is a new version!	वहाँ एक नया संस्करण है!
+High	उच्च
+Low	कम
+Priority	प्राथमिकता
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	उच्च प्राथमिकता - तेजी से कनवर्ट करना, लेकिन कर सकते हैं अन्य चल रहे अनुप्रयोग unresponsive\r\nLow प्राथमिकता बनाओ - पृष्ठभूमि, लेकिन अन्य चल रहे अनुप्रयोग के साथ कम हस्तक्षेप में कनवर्ट करें
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	एक कार्य है जिसमें एक रूपांतरण प्रोफ़ाइल और विभिन्न अन्य रूपांतरण parameters.\r\nEach रूपांतरण टेम्पलेट फ़ाइल को कतार में जोड़ा संसाधित जाएगा और प्रत्येक कैसे कार्य कार्य पर अधिक जानकारी के लिए MCEBuddy गाइड करने के लिए इन tasks.\r\nRefer के द्वारा बदल दिया।
+Getting started	शुरू हो रही है
+Click here for MCEBuddy guide	MCEBuddy गाइड के लिए यहां क्लिक करें
+Logs	लॉग
+Click to open log folder	लॉग इन फ़ोल्डर खोलने के लिए क्लिक करें
+MCEBuddy Status	MCEBuddy स्थिति
+add	जोड़ें
+delete	हटाएँ
+paypal-donate	पेपैल-दान
+stop	रुको
+OUTPUT: ConsoleOuput received NULL data	निर्गम: NULL डेटा ConsoleOuput प्राप्त हुआ
+hours	घंटे
+minutes	मिनट
+second	दूसरा
+seconds	सेकंड
+Starting	शुरू
+Comskip advertisement scan - Pass 1	Comskip विज्ञापन स्कैन - 1 से गुजारें
+Comskip advertisement scan - Pass 2	Comskip विज्ञापन स्कैन - 2 से गुजारें
+Cutting commercials from video	वीडियो से काटना इश्तेहार
+Cutting commercials from video - segment 	वीडियो - से काटने इश्तेहार खंड 
+Merging commercial free segments into new video	वाणिज्यिक नि: शुल्क क्षेत्रों नए वीडियो में मर्ज करना
+Moving converted file to destination	कनवर्ट की गई फ़ाइल के लिए गंतव्य चलती
+Checking for disk space	जाँच के लिए डिस्क स्थान
+Getting show information and banner from Internet sources	इंटरनेट स्रोतों से हो रही है शो जानकारी और बैनर
+Copying source file to working directory	कार्यशील निर्देशिका को स्रोत फ़ाइल की प्रतिलिपि बनाना
+Remuxing recording	Remuxing रिकॉर्डिंग
+ShowAnalyzer advertisement scan	ShowAnalyzer विज्ञापन स्कैन
+Comskip advertisement scan	Comskip विज्ञापन स्कैन
+Analyzing video information	वीडियो जानकारी का विश्लेषण
+Converting	कनवर्ट करना
+Removing commercials	विज्ञापनों को दूर
+Writing show information	लेखन जानकारी दिखाएँ
+Renaming file using show information	शो जानकारी का उपयोग कर फ़ाइल का नाम बदलना
+Success - All done!	सफलता - सब किया!
+Muxing streams	Muxing धाराओं
+Fallback remux	Fallback remux
+Correcting audio delay	ऑडियो देरी सुधारना
+Converting video file - Pass 1	वीडियो फ़ाइल - 1 से गुजारें कनवर्ट करना
+Converting video file - Pass 2	वीडियो फ़ाइल - 2 से गुजारें कनवर्ट करना
+Converting video file	वीडियो फ़ाइल कनवर्ट करना
+Audio Track	ऑडियो ट्रैक
+Impaired	बिगड़ा
+Channels	चैनल
+Codec	कोडेक
+Video	वीडियो
+Duration	अवधि
+Height	ऊँचाई
+Width	चौड़ाई
+Audio	ऑडियो
+Name	नाम
+Subtitle	उपशीर्षक
+Volume	वॉल्यूम
+Enable custom file renaming	कस्टम फ़ाइल का नाम बदलने के सक्षम करें
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	इस परिवर्तित फ़ाइलों और फ़ोल्डरों का नाम बदलने के लिए एक कस्टम स्वरूप दर्ज करें करने के लिए सक्षम करें। बॉक्स below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% # - S % मौसम % ##E % प्रकरण % #-% episodename % में - %airyear%_%airmonth%_%airday%\r\n\r\nWill उपज: \r\nTVShows\CSI\Season 1\CSI - S01E02 - कस्टम स्वरूप दर्ज करें बार - 2012_01_06 का सबसे अच्छा।<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill (एक फिल्म) के लिए उत्पादन \r\n Recording\Movies\Star युद्धों में कनवर्ट. <ext>(के लिए गैर फिल्मों) \r\nOR \r\n Recording\TVShows\CSI\Season 1\CSI - S01E02 में परिवर्तित।<ext>\r\n\r\nRefer MCEBuddy करने के लिए सभी पैटर्न आदेशों की एक सूची के लिए प्रलेखन उन्नत।
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	नहीं मिला ShowAnalyzer. \nPlease और डाउनलोड ShowAnalyzer स्थापित करें।
+ShowAnalyzer Missing	ShowAnalyzer याद आ रही है
+Invalid language code, reverting to <Default> language	अमान्य भाषा कोड, <Default>भाषा के लिए की ओर लौटना
+Cut start	प्रारंभ में कटौती
+Cut end	अंत में कटौती
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	यह रिकॉर्डिंग (पहले विज्ञापनों को हटाने) के शुरू से कटौती करने के लिए सेकंड की संख्या निर्दिष्ट करता है
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	यह रिकॉर्डिंग (पहले विज्ञापनों को हटाने के) के अंत से कटौती करने के लिए सेकंड की संख्या निर्दिष्ट करता है
+Send an eMail after each conversion.	प्रत्येक परिवर्तन के बाद एक ईमेल भेजें।
+Send eMail	ईमेल भेजें
+SMTP Server Name	SMTP सर्वर नाम
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	निवर्तमान ईमेल (SMTP) सर्वर पता here\r\ne.g दर्ज करें। smtp.gmail.com
+Port	पोर्ट
+Enter the SMTP server port	SMTP सर्वर पोर्ट दर्ज करें
+Use SSL	SSL का उपयोग करें
+Check this if you SMTP server uses SSL	यदि आप SMTP सर्वर SSL का उपयोग करता है इस की जाँच करें
+e-Mail Settings	ई-मेल सेटिंग्स
+From <e-Mail>	<E-Mail> से
+Enter the senders (From) eMail address here	प्रेषक (से) ईमेल पता यहाँ दर्ज करें
+To <e-Mails>	<E-Mails> करने के लिए
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	प्राप्तकर्ता (अर्धविराम (;) के साथ एकाधिक प्राप्तकर्ता पते here.\r\nSeparate ईमेल करने के लिए) दर्ज करें
+Send eMail on successful conversion	सफल रूपांतरण पर ईमेल भेजें
+Send eMail on failed conversion	असफल रूपांतरण पर ईमेल भेजें
+Send eMail on cancelled conversion	रद्द रूपांतरण पर ईमेल भेजें
+Send eMail on adding a conversion to the queue	क्यू के लिए एक रूपांतरण जोड़ने पर ईमेल भेजें
+Please enter a valid server address	कृपया कोई मान्य सर्वर पता दर्ज करें
+Invalid SMTP Server	अमान्य SMTP सर्वर
+Please enter a valid server port	कृपया कोई मान्य सर्वर पोर्ट दर्ज करें
+Invalid SMTP Port	अमान्य SMTP पोर्ट
+Please enter a valid From eMail address	कृपया कोई मान्य ईमेल पते से प्रवेश
+Invalid eMail Address	अमान्य ईमेल पते
+Please enter valid To eMail addresses	कृपया मान्य ईमेल पते के लिए दर्ज करें
+Username	उपयोगकर्ता नाम
+<Optional> Enter the username for the eMail server authentication	<Optional>ईमेल सर्वर प्रमाणीकरण के लिए उपयोगकर्ता नाम दर्ज करें
+<Optional> Enter the password for the eMail server authentication	<Optional>ईमेल सर्वर प्रमाणीकरण के लिए पासवर्ड दर्ज करें
+MCEBuddy unable to download series information	MCEBuddy श्रृंखला जानकारी डाउनलोड करने में असमर्थ
+MCEBuddy successfully converted a video	MCEBuddy सफलतापूर्वक एक वीडियो में कनवर्ट किया
+Source Video	स्रोत वीडियो
+Converted Video	वीडियो परिवर्तित
+Converted At	में परिवर्तित कर दिया
+MCEBuddy failed to converted a video	MCEBuddy एक वीडियो परिवर्तित करने में विफल रहा
+Failed At	में विफल रहा
+MCEBuddy cancelled a video conversion	MCEBuddy एक वीडियो रूपांतरण रद्द कर दिया
+Cancelled At	में रद्द कर दिया
+Working	कार्य करना
+Test	टेस्ट
+Testing	परीक्षण
+Click this button to test the eMail server settings	ईमेल सर्वर सेटिंग्स का परीक्षण करने के लिए इस बटन पर क्लिक करें
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy सर्वर settings.\r\nThis का परीक्षण करने के लिए एक ईमेल भेज देंगे ले upto 60 seconds.\r\nMCEBuddy की इस अवधि के दौरान अनुत्तरदायी हो सकता कर सकते हैं।
+Test eMail	ईमेल का परीक्षण
+MCEBuddy Test eMail	MCEBuddy टेस्ट ईमेल
+MCEBuddy - Have a great day!	MCEBuddy - एक महान दिन है!
+Send eMail test successful	ईमेल परीक्षण सफल भेजें
+Send eMail test failed! Please check your settings and internet connectivity	ईमेल परीक्षण में विफल भेज दो! कृपया अपनी सेटिंग्स और इंटरनेट कनेक्टिविटी की जाँच करें
+Test eMail Success	ईमेल सफलता का परीक्षण
+Test eMail Failed	ईमेल असफल टेस्ट
+Send eMail on start of conversion	रूपांतरण की शुरुआत पर ईमेल भेजें
+MCEBuddy started a video conversion	MCEBuddy एक वीडियो रूपांतरण शुरू कर दिया
+Conversion Started At	रूपांतरण पर शुरू कर दिया
+Yes (Comskip)	हाँ (Comskip)
+Yes (ShowAnalyzer)	हाँ (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	कम से कम एक रूपांतरण कार्य सक्षम होना चाहिए
+Disable	अक्षम करें
+Enable	सक्षम करें
+Rename	का नाम बदलें
+Move	ले जाएँ
+Up	अप
+Down	नीचे
+Slow Remuxing	धीमी गति से Remuxing
+Extracting closed captions	बंद कैप्शन एक्स्ट्रेक्टिंग
+Validating closed captions	बंद कैप्शन मान्य करना
+Extracting subtitles	उपशीर्षक एक्स्ट्रेक्टिंग
+Trimming closed captions	Trimming बंद कैप्शन
+Extract subtitles and closed captions	निकालने के उपशीर्षक और बंद कैप्शन
+Field	फ़ील्ड
+Channel	चैनल
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	इस बंद अनुशीर्षन निकालने के लिए सक्षम है, उपशीर्षक और Teletext from\r\nWTV, DVR-MS, टीएस, MP4, MKV और अन्य समर्थित files.\r\n\r\nIt एक उपशीर्षक (SRT) फ़ाइल के रूप में सहेजी जाती है।
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	यह बंद कैप्शन extraction\r\nField - 1 या 2\r\nChannel - 1 या 2\r\n\r\nDefault के लिए उन्नत विकल्पों को सेट करने के लिए सक्षम: क्षेत्र 1, 1 चैनल
+Subtitle offset	उपशीर्षक ऑफ़सेट
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	सेकंड की संख्या दर्ज करें (+ ve / - ve) वीडियो के साथ subtitles सिंक को समायोजित करने के लिए
+Re-ReMuxing due to audio error	पुनः-ReMuxing ऑडियो त्रुटि के कारण
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	पोस्टर को बचाने और एक MC/XBMC संगत NFO फ़ाइल में (XML स्वरूप) जानकारी (मेटाडेटा) दिखाएँ
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	केवल MP4, MKV, फ़ाइलें कि मेटाडेटा टैग का समर्थन के लिए काम करता है की तरह शो जानकारी (मेटाडेटा) में कनवर्ट की गई file.\r\nThis को बचाने के लिए इस बॉक्स की जाँच करें WTV etc.\r\n\r\nNOTE: इस बॉक्स को अनचेक करें अगर आप पुराने टीवी जो समस्या पढ़ना मेटाडेटा है जैसे कि कुछ उपकरणों के साथ मुद्दों का सामना कर रहे हैं।
+Atleast one day of the week must be enabled	कम से कम एक सप्ताह के दिन सक्षम होना चाहिए
+Invalid Days of Week	सप्ताह के दिनों के अमान्य
+Invalid day of week found in configuration file	अमान्य कॉन्फ़िगरेशन फ़ाइल में मिल सप्ताह का दिन
+Scheduling	शेड्यूलिंग
+Remuxing to	Remuxing करने के लिए
+Part	हिस्सा
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	बाकी किसी भी बटन, बॉक्स या त्वरित मदद पर it.\n\nFor का उपयोग करें, समस्या निवारण या MCEBuddy के लिए समर्थन प्राप्त करने के लिए कैसे पर अधिक जानकारी प्राप्त करने के लिए आइटम पर अपना माउस क्लिक करें < हो रही शुरू कर दिया > लिंक शीर्ष सही corner.\n\nDonations पर हमेशा से रहे हैं स्वागत है :) आनंद! \n\n - Ramit, डेरेक & हंस
+Welcome to MCEBuddy	MCEBuddy में आपका स्वागत है
+Multichannel audio	Multichannel ऑडियो
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	यदि स्रोत वीडियो it.\r\nBy डिफ़ॉल्ट ऑडियो का समर्थन करता है, तो मल्टी चैनल ऑडियो की अनुमति के लिए जाँच करें 2 चैनलों (स्टीरियो) करने के लिए सीमित है।
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	गतिशील रेंज संपीड़न (DRC) \r\nWhen स्रोत एक AC3 ऑडियो, DRC will\r\nreduce और ज़ोर से soft\r\nsounds ऑडियो ट्रैक बनाने और अधिक even.\r\nIf आपको एक मल्टी चैनल ऑडियो रिकॉर्डिंग और you\r\nfeel की मात्रा बहुत नरम है, है इस बॉक्स मदद कर सकता है जाँच कर रहा है के बीच अंतर को सक्षम करने से है।
+FPS	एफपीएस
+Logfile age (days)	Logfile की उम्र (दिनों)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	Logfiles लॉग हमेशा के लिए रखने के लिए 0 करने के लिए them.\r\nSet को हटाने से पहले रखने के दिनों की अधिकतम संख्या।
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	तेज Remuxing
+Byte stream remuxing	बाइट स्ट्रीम remuxing
+Disable cropping	काट-छाँट को अक्षम करें
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	इस वीडियो स्वचालित रूप से conversion.\r\nCropping के दौरान काट-छाँट करने को अक्षम करने के लिए "काले सलाखों के" को दूर करने के लिए प्रयोग किया जाता है (ऊपर, नीचे, बाएँ या यह विकल्प अगर वीडियो चित्र किसी भी पक्ष पर काट रहा है या अंतिम चित्र देख रहा है फैला या विकृत right).\r\nUse. में वीडियो की जाँच करें
+Only detect Ads	केवल विज्ञापन का पता लगा
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	यह जाँच करें यदि आप विज्ञापनों (विज्ञापनों) का पता लगाने के लिए MCEBuddy चाहते हैं लेकिन नहीं उन्हें यह विकल्प सक्षम किया गया है video.\r\nWhen से काटा, MCEBuddy परिवर्तित video.\r\nAlso में, विज्ञापन के स्थान को निर्दिष्ट करता है के लिए MP4, M4V कनवर्ट की गई फ़ाइल साथ एक EDL फ़ाइल बनाएगा और MKV फ़ाइलें MCEBuddy अध्याय इश्तेहार के अंत को चिह्नित करने के लिए बनाने जाएगा।
+Download information	जानकारी डाउनलोड करें
+Correction	सुधार
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	शो के शीर्षक को सही और इंटरनेट से एक विशिष्ट TVDB श्रृंखला id या IMDB चलचित्र id\r\nto लुकअप अतिरिक्त मेटाडेटा का उपयोग मजबूर करने के लिए यहाँ क्लिक करें।
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	यह एक बैनर फ़ाइल, प्रकरण, मौसम आदि जैसे इस शो के बारे में इंटरनेट से अतिरिक्त जानकारी डाउनलोड करने के लिए जाँचें
+Profile Error	प्रोफ़ाइल त्रुटि
+Cannot find selected profile in profiles.conf	चयनित प्रोफ़ाइल में profiles.conf नहीं ढूँढ सकता
+Invalid Profile	अमान्य प्रोफ़ाइल
+Please select a valid profile	कृपया कोई मान्य प्रोफ़ाइल का चयन करें
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	MCEBuddy इंजन दुर्घटनाग्रस्त हो गया है। कृपया डेवलपर्स के लिए mcebuddy.log भेजें
+Comskip INI	Comskip पहल
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	इस रूपांतरण task\r\nLeave के लिए विज्ञापन हटाने के लिए डिफ़ॉल्ट Comskip INI फ़ाइल का उपयोग करने के लिए इस रिक्त स्थान का उपयोग करने के लिए कस्टम Comskip INI फ़ाइल का चयन करें
+Click to select custom Comskip INI file	कस्टम Comskip INI फ़ाइल चुनने के लिए क्लिक करें
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	अस्थायी फ़ाइल के साथ कार्य करने के लिए फ़ोल्डर का चयन करें। सुनिश्चित करें कि पर्याप्त खाली स्थान पर drive.\r\nLeave स्थापना फ़ोल्डर में डिफ़ॉल्ट अस्थायी फ़ोल्डर का उपयोग करने के लिए इस खाली है।
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	अस्थाई फ़ाइलों के साथ काम करने के लिए फ़ोल्डर का चयन करें। सुनिश्चित करें कि वहाँ है पर्याप्त खाली स्थान drive.\r\nThis पर विशेषज्ञ सेटिंग्स पृष्ठ-> सेटिंग्स में निर्दिष्ट अस्थायी फ़ोल्डर को ओवरराइड करता है।
+Click to select temp working folder	अस्थायी कार्यशील फ़ोल्डर को चुनने के लिए क्लिक करें
+Temp folder	अस्थायी फ़ोल्डर
+Space check	अंतरिक्ष की जांच
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	जब सक्षम MCEBuddy (गंतव्य और नेटवर्क ड्राइव या असाधारण बड़े वीडियो फ़ाइलों हैं यह अगर आप कर रहे हैं के साथ मुसीबत होने temp).\r\nUncheck। कनवर्ज़न के लिए पर्याप्त मुक्त स्थान के लिए जाँच करेगा
+MCEBuddy Windows Event Logs	MCEBuddy Windows ईवेंट लॉग
+Events	घटनाक्रम
+Click here to open the MCEBuddy Windows Event Logs	MCEBuddy Windows इवेंट लॉग को खोलने के लिए यहाँ क्लिक करें
+Enable UPnP	UPnP सक्षम करें
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	UPnP सक्षम करने के लिए इस की जाँच करें। यह अनुमति देता है MCEBuddy इंजन से बाहर network.\r\nThis के लिए उपयोग की जरूरत है अगर आप एक मोबाइल/स्वसंपूर्ण MCEBuddy क्लाइंट का उपयोग MCEBuddy का उपयोग करने के लिए कर रहे हैं की जाँच की जाए।
+Click here to connect to another MCEBuddy engine	एक अन्य MCEBuddy इंजिन से कनेक्ट करने के लिए यहाँ क्लिक करें
+MCEBuddy Remote Engine Connection	MCEBuddy रिमोट इंजन कनेक्शन
+Engine Name	इंजन का नाम
+Engine Port	इंजन बंदरगाह
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	जिस नाम या MCEBuddy इंजन आप कनेक्ट करना चाहते हैं का IP पता दर्ज करें
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	MCEBuddy इंजिन से कनेक्ट करने के लिए इच्छित का TCP पोर्ट क्रमांक दर्ज करें
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	MCEBuddy इंजन (1 करने के लिए 63355 करने के लिए) से कनेक्ट करने के लिए इच्छित की TCP पोर्ट क्रमांक दर्ज करें
+Invalid Name/Port	अमान्य नाम/पोर्ट
+Please enter a valid Engine Name and Engine Port Number	कृपया कोई मान्य इंजन नाम और इंजन पोर्ट क्रमांक दर्ज करें
+Error Stopping Engine	त्रुटि रोक इंजन
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	MCEBuddy इंजन को रोकने में असमर्थ, सेटिंग नहीं सहेजा जा सकता। क्या आप जारी रखना चाहते हैं?
+Unable to communicate with engine. Settings have NOT been saved.	इंजन के साथ संवाद करने में असमर्थ। सेटिंग्स सहेजे नहीं गए हैं।
+Communication Error	संचार त्रुटि
+Engine not stopped. Settings have NOT been saved.	इंजन नहीं बंद कर दिया। सेटिंग्स सहेजे नहीं गए हैं।
+Unable To Save Settings	सेटिंग्स सहेजने में असमर्थ
+Unable to communicate with engine. UPnP settings have not been updated	इंजन के साथ संवाद करने में असमर्थ। UPnP सेटिंग अद्यतन नहीं किया गया है
+Audio delay	ऑडियो विलंब
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	(सकारात्मक या नकारात्मक) सेकंड में एक मान दर्ज करें यहाँ video.\r\nUse के सापेक्ष ऑडियो अगर वे सिंक के conversion.\r\nA के बाद कर रहे हैं ऑडियो वीडियो, के साथ फिर से सिंक्रनाइज़ करने के लिए यह परिवर्तन करने के लिए कोई धनात्मक मान (यानी ऑडियो से आगे वीडियो) ऑडियो विलंब करेगा और कोई ऋणात्मक मान जाएगा उन्नत ऑडियो (यानी ऑडियो आगे video).\r\nE.g. -1.5
+Media info	मीडिया जानकारी
+Click here to get media properties for selected files	चयनित फ़ाइलों के लिए मीडिया गुण प्राप्त करने के लिए यहाँ क्लिक करें
+Save information	जानकारी सहेजें
+Add information	जानकारी जोड़ें
+Shows a preview of the custom filename and path	कस्टम फ़ाइल नाम और पथ का एक पूर्वावलोकन दिखाता है
+Invalid Filename Pattern	अमान्य फ़ाइल नाम प्रतिमान
+TVDB Series ID	TVDB श्रृंखला ID
+IMDB Series ID	IMDB श्रृंखला ID
+Original title	मूल शीर्षक
+Corrected title	सही शीर्षक
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	TVDB श्रृंखला आप शो डाउनलोड करने के लिए उपयोग करना चाहते हैं ID दर्ज करें information.\r\nIf में मूल शीर्षक बॉक्स खाली है, यह सभी से पता चलता है इस रूपांतरण कार्य द्वारा चयनित करने के लिए लागू किया जाएगा।
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	IMDB मूवी आप चलचित्र information.\r\nIf मूल डाउनलोड करने के लिए उपयोग करना चाहते हैं ID दर्ज करें शीर्षक बॉक्स रिक्त है, यह सभी से पता चलता है इस रूपांतरण कार्य द्वारा चयनित करने के लिए लागू किया जाएगा।
+Internet Lookup Title and Metadata Correction	इंटरनेट लुकअप शीर्षक और मेटाडेटा सुधार
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	मैच और शीर्षक और श्रृंखला id.\r\nIf आप का उपयोग एक ही सही शीर्षक या श्रृंखला आईडी सभी शो के द्वारा इस रूपांतरण कार्य, में कनवर्ट करना चाहते हैं को सही करने के लिए एक और पंक्ति जोड़ने के लिए यहाँ क्लिक करें मूल शीर्षक रिक्त \r\nleave पर पहली पंक्ति और आप एक दूसरी पंक्ति जोड़ नहीं होना चाहिए।
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	पैटर्न सुधार (उदा सिम्पसन * बदल देंगे सब टाइटल कि कोई शो सिम्पसन के साथ शुरू शीर्षक है) के लिए शो/श्रृंखला शीर्षकों से मेल करने के लिए दर्ज करें \r\nPrefix पैटर्न के साथ ~ मैच को छोड़ करने के लिए (उदाहरण के लिए *. *; ~ सिम्पसन * होगी को सही सब को छोड़कर उन है कि सिम्पसन के साथ शुरू शीर्षक दिखाएँ) \r\nSeparate एकाधिक पैटर्न के साथ; (उदाहरण के लिए सिम्पसन *;House*) या (जैसे सिम्पसन *;NCIS*; ~ NCIS मियामी *) \r\n\r\nNOTE: इस बॉक्स रिक्त यदि आप सभी फ़ाइलों को रिक्त छोड़ इस रूपांतरण task.\r\nIf द्वारा संसाधित किया जा रहा करने के लिए सही शीर्षक या श्रृंखला आईडी लागू करना चाहते हैं, तो आप जोड़ एक दूसरा row.\r\n\r\nYou regex के साथ प्रारंभ करके शीर्षक मैच के लिए एक नियमित अभिव्यक्ति का उपयोग कर सकते हैं नहीं कर सकता छोड़ें:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	नई/सही शीर्षक आप अतिरिक्त जानकारी डाउनलोड करने के लिए उपयोग करना चाहते हैं दर्ज करें internet.\r\nIf से मूल शीर्षक बॉक्स रिक्त है, यह लागू हो जाएगा इस रूपांतरण द्वारा चयनित सभी से पता चलता है task.\r\n\r\nYou एक नियमित अभिव्यक्ति regex के साथ प्रारंभ करके शीर्षक को सही करने के लिए उपयोग कर सकते हैं:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	प्रत्येक पंक्ति के लिए, कृपया शो का नाम और या तो एक Corrected मिलान करने के लिए मूल शीर्षक दर्ज करें शीर्षक या एक TVDB/IMDB श्रृंखला ID
+Please enter either a Corrected title or a TVDB/IMDB Series ID	कृपया या तो एक Corrected शीर्षक या एक TVDB/IMDB श्रृंखला ID दर्ज करें
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	यदि आप MCEBuddy परिवर्तित करना चाहते हैं यह सक्षम स्रोत directory\r\nif गंतव्य पथ में फ़ाइल अनुपलब्ध है। (उदाहरण के लिए नेटवर्क विफलता या मैपिंग विफलता)
+Fallback to source path	स्रोत पथ करने के लिए fallback
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	Converting.\r\n1 सामान्य है, जबकि the\r\nrecording की मात्रा घटाने या बढ़ाने के लिए इस्तेमाल किया, नीचे कुछ भी इसे कम हो जाएगा, anything\r\nhigher यह वृद्धि होगी।
+Archive folder	संग्रह फ़ोल्डर
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	मूल निर्देशिका में डिफ़ॉल्ट 'MCEBuddyArchive' फ़ोल्डर का उपयोग करने के लिए खाली संग्रह folder.\r\nLeave का स्थान परिवर्तित करें।
+Monitor subdirectories	मॉनिटर subdirectories
+Check this box to also monitor all directories within the Monitor path	भी मॉनिटर पथ के भीतर सभी निर्देशिका की निगरानी करने के लिए इस बॉक्स को चेक करें
+Click here to show MCEBuddy status	MCEBuddy स्थिति दिखाने के लिए यहाँ क्लिक करें
+MCEBuddy service not connected	MCEBuddy सेवा कनेक्ट नहीं
+MCEBuddy idle	MCEBuddy निष्क्रिय
+conversions in progress	प्रगति में रूपांतरण
+MCEBuddy stopped	MCEBuddy बंद कर दिया
+Sync converted files	कनवर्ट की गई फ़ाइलों को सिंक्रनाइज़
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	यदि आप MCEBuddy कनवर्ट की गई फ़ाइलें मूल files.\r\ni.e के साथ सिंक में रखने के लिए चाहते हैं, तो इस विकल्प की जाँच करें। जब मूल फ़ाइलें उपयोगकर्ता के द्वारा नष्ट हो जाती हैं, इसी कनवर्ट की गई फ़ाइलें भी deleted.\r\n\r\nNOTE कर रहे हैं: MCEBuddy केवल मूल फ़ाइलें फ़ोल्डर मॉनीटर स्थानों में नज़र रखता है और केवल इंजन है, जबकि running.\r\nMCEBuddy इंजन बंद कर दिया है, जबकि उपयोगकर्ता नष्ट कर दिया फ़ाइलों को ट्रैक करने में सक्षम नहीं होगा।
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	आप MCEBuddy जब मूल फ़ाइल हटा दी गई है प्रत्येक कनवर्ट की गई फ़ाइल को हटाना चाहते हैं?
+Confirm sync conversions?	सिंक रूपांतरणों की पुष्टि करें?
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	क्या वाकई आप यह नहीं कर से कनवर्ट की गई वीडियो इश्तेहार निकालने और केवल EDL फ़ाइल रखने के लिए चाहते हैं?
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	ShowAnalyzer प्रतिसाद नहीं दें रहा है। रिबूट सिस्टम कृपया या ShowAnalyzer को पुनर्स्थापित करें।
+ShowAnalyzer Not Responding	ShowAnalyzer प्रतिसाद नहीं दें रहा
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	आप 'प्रारंभ करें' दबाएँ इस विंडो को बंद करने के बाद सुनिश्चित करें, अन्यथा शेड्यूलिंग और जागो नहीं काम करेगा।
+Enabling Scheduling and Wake	समर्थकारी समयबद्धन और जागो
+Passwords do not match	पासवर्ड मेल नहीं खाते हैं
+Password error	पासवर्ड त्रुटि
+Adding subtitles and chapters to file	उपशीर्षक और अध्याय करने के लिए फ़ाइल जोड़ना
+Send eMail if unable to download series information	ईमेल भेजने में अक्षम है यदि श्रृंखला जानकारी डाउनलोड करने के लिए
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	यदि आप इस रूपांतरण कार्य केवल विशिष्ट मॉनिटर locations.\r\nIf अनियंत्रित प्रत्येक रूपांतरण कार्य प्रक्रिया जाएगा (बाद में जोड़ा नए लोगों सहित) सभी मॉनिटर स्थान से फ़ाइलें से फ़ाइलों को संसाधित करने के लिए चाहते हैं इस बॉक्स की जाँच करें।
+Select Monitor Locations	मॉनिटर स्थानों का चयन करें
+Select atleast one Monitor Location name	कम से कम एक मॉनिटर स्थान का नाम का चयन करें
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	आप सभी वर्तमान मॉनीटर आप इस रूपांतरण कार्य के किसी भी नए मॉनिटर भविष्य में जोड़ा स्थानों को स्वत: संसाधित करने के लिए चाहते Locations.\r\nDo का चयन किया है?
+New monitor locations	नए मॉनिटर स्थानों
+Invalid selection	अमान्य चयन
+Channel name match	चैनल नाम मैच
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	पैटर्न (उदा एबीसी * करेगा कि एक चैनल एबीसी के साथ शुरू करने के नाम पर दर्ज की गई सभी फ़ाइलों को परिवर्तित) इस कार्य के लिए चैनल के नाम से मेल करने के लिए दर्ज करें \r\nPrefix पैटर्न के साथ ~ मैच को छोड़ करने के लिए (उदाहरण के लिए *; ~ एबीसी * जाएगा प्रक्रिया सभी चैनलों कि एबीसी के साथ शुरू उन को छोड़कर) \r\nSeparate एकाधिक पैटर्न के साथ; (उदाहरण के लिए एबीसी *;TBS*) या (उदाहरण के लिए एबीसी *;Fox*; ~ Fox4 *) \r\n\r\nYou regex के साथ प्रारंभ करके पैटर्न मिलान करने के लिए नियमित अभिव्यक्तियाँ का उपयोग कर सकते हैं:
+Clear history	इतिहास साफ़ करें
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	है सभी कनवर्ट की गई files.\r\nThis के इतिहास साफ़ करने के लिए इस बटन पर क्लिक करें MCEBuddy पर नजर रखी जा रही सभी फ़ाइलों को रीकनवर्ट करने के लिए कारण है।
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	आप सुनिश्चित करें कि आप सभी रूपांतरणों का इतिहास साफ़ करना चाहते हैं? \r\nThis MCEBuddy नजर रखी जा रही सभी फ़ाइलों को रीकनवर्ट करने के लिए कारण होगा।
+Show history	इतिहास दिखाएँ
+Click this button to show the history of all converted files.	सभी कनवर्ट की गई फ़ाइलों का इतिहास को दिखाने के लिए यह बटन क्लिक करें।
+History of Converted Files	कनवर्ट की गई फ़ाइलों का इतिहास
+Unable to communicate with engine.	इंजन के साथ संवाद करने में असमर्थ।
+Extracting streams	स्ट्रीम निकाल रहा है
+Fallback muxing streams	फ़ॉलबैक muxing धाराओं
+Remuxing TiVO file	Remuxing TiVO फ़ाइल
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	अपने 10 अंक कनवर्ट और TiVO रिकॉर्डिंग प्रक्रिया के लिए TiVO पहुंच कुंजी दर्ज करें
+Invalid TiVO MAK Key	अमान्य TiVO पहुंच कुंजी
+The TiVO MAK key should be 10 digits	TiVO पहुंच कुंजी 10 अंक होना चाहिए
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	संस्करण बेमेल। कृपया सुनिश्चित करें कि MCEBuddy ग्राहक और इंजन एक ही संस्करण चला रहे हैं।
+Error retrieving Event Logs	त्रुटि इवेंट लॉग प्राप्त कर रहा है
+Unable to get Event Log Entries from the MCEBuddy engine.	MCEBuddy इंजन से घटना लॉग प्रविष्टियाँ प्राप्त करने में असमर्थ।
+PAUSED: Check conversion schedule	रोका गया: चेक रूपांतरण अनुसूची
+Logging	लॉगिंग
+Folder Management	फ़ोल्डर प्रबंधन
+Processor Management	प्रोसेसर प्रबंधन
+Expert Settings	विशेषज्ञ सेटिंग्स
+System Settings	सिस्टम सेटिंग्स
+Click here to change additional settings (for experts only)	(केवल विशेषज्ञों) के लिए अतिरिक्त सेटिंग्स परिवर्तित करने के लिए यहाँ क्लिक करें
+Failed folder	असफल फ़ोल्डर
+Location of the folder that hold the original files for failed conversions.	पकड़ो मूल फ़ाइलों के लिए फ़ोल्डर का स्थान रूपांतरणों में विफल रहा।
+Move original file on failure	विफलता को मूल फ़ाइल ले जाएँ
+Check this to move the original file to a separate folder if the conversion fails.	यदि कनवर्ज़न विफल रहता है, तो मूल फ़ाइल एक अलग फ़ोल्डर को ले जाने के लिए इस की जाँच करें।
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	MCEBuddycan use.\r\nEach चेक बॉक्स नीचे एक उपलब्ध तार्किक प्रोसेसर के लिए संगत तार्किक प्रोसेसर की संख्या सीमित करने के लिए इस की जाँच करें।
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	प्रत्येक बॉक्स का प्रतिनिधित्व करता है तार्किक प्रोसेसर 1 से 16 respectively.\r\nChecking एक बॉक्स के लिए MCEBuddy कि प्रोसेसर का उपयोग करने के लिए अनुमति देता है।
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	प्रत्येक बॉक्स का प्रतिनिधित्व करता है तार्किक प्रोसेसर 17 से 32 respectively.\r\nChecking एक बॉक्स के लिए MCEBuddy कि प्रोसेसर का उपयोग करने के लिए अनुमति देता है।
+Select atleast one processor to use	कम से कम एक प्रोसेसर का उपयोग करने के लिए का चयन करें
+Invalid Configuration	अमान्य कॉन्फ़िगरेशन
+Comskip path	Comskip मार्ग
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	यदि आप एक कस्टम संस्करण Comkip (जैसे दानी संस्करण) का उपयोग करना चाहते हैं \r\nthen comskip here.\r\nLeave MCEBuddy के साथ आता है डिफ़ॉल्ट comskip का उपयोग करने के लिए रिक्त स्थापना का पथ दर्ज करें।
+Miscellaneous	विविध
+Ignore copy protection	प्रतिलिपि सुरक्षा पर ध्यान न दें
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	इस पर converting.\r\nNOTE करते हुए वीडियो फ़ाइल प्रतिलिपि सुरक्षा ध्वज को अनदेखा करने की जाँच करें: MCEBuddy एन्क्रिप्शन बायपास नहीं कर सकता, यदि कोई फ़ाइल incorrectly\r\ntagged प्रतिलिपि के रूप में जब यह एन्क्रिप्टेड नहीं है सुरक्षित है यह केवल मदद करता है।
+Use recycle bin	उपयोग रीसायकल बिन
+Check this to use the recycle bin when files are deleted by MCEBuddy	इस MCEBuddy से फ़ाइलें हटाए जाने पर recycle bin का उपयोग करने की जाँच करें
+Poll period	चुनाव की अवधि
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	यह कितनी बार MCEBuddy मॉनिटर कार्य स्थानों स्कैन के लिए नए files.\r\nThe अंतराल सेकंड में निर्दिष्ट किया जाता है।
+Server port	सर्वर पोर्ट
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	यह संवाद करने के लिए दूरस्थ UPnP सक्षम किया गया है, engine.\r\nWhen के साथ MCEBuddy स्वचालित रूप से इस पोर्ट को Windows Firewall\r\nand UPnP इस पोर्ट पर इंटरनेट से पहुँच अनुमति देने के लिए प्रवेश द्वार के लिए जोड़ना होगा MCEBuddy का उपयोग करता है TCP पोर्ट है।
+Hang period	अवधि लटका
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	MCEBuddy the\r\nunderlying अनुप्रयोग से एक प्रतिक्रिया के लिए प्रतीक्षा करेंगे सेकंड की संख्या दर्ज करें इससे पहले कि hung.\r\nEnter 0 के रूप में अनुप्रयोग हैंग डिटेक्शन को अक्षम करने के लिए समाप्त हो जाता है।
+Subtitle commercial cut sync	उपशीर्षक वाणिज्यिक सिंक में कटौती
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	इस पैरामीटर उपयोग किया जाता है जब वाणिज्यिक वीडियो बाहर काट रहा है video.\r\nEach समय के साथ सिंक में उपशीर्षक जाओ उत्तरोत्तर प्रत्येक वाणिज्यिक खंड video.\r\nThis सेटिंग से निकाले जाने के बाद सिंक के उपशीर्षक लाने के लिए प्रयोग किया जाता है वापस, उपशीर्षक समय इस राशि (+ ve या सेकंड में - ve) द्वारा स्थानांतरित कर रहे हैं।
+Invalid poll period	अमान्य पोल अवधि
+Invalid server port	अमान्य सर्वर पोर्ट
+eMail Subject Customization	ईमेल विषय अनुकूलन
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	MCEBuddy द्वारा भेजा ईमेल के विषय को अनुकूलित करने के लिए इस अनुभाग उपयोग विभिन्न घटनाओं के रूपांतरण पर सूचीबद्ध करने के लिए दस्तावेज, कस्टम आदेश परिभाषित उपयोगकर्ता variables.\r\ne.g के लिए below.\r\nRefer. फ़ाइल % मूल फ़ाइल नाम % रूपांतरण के लिए % showname % सफल कार्य % taskname%\r\nNOTE का उपयोग करके दिखाएँ: हमेशा नहीं सभी डेटा कस्टम डिफ़ॉल्ट विषय लाइनों का उपयोग करने के लिए रिक्त commands.\r\nLeave में उपलब्ध हो जाएगा।
+Success	सफलता
+Failed	में विफल रहा
+Cancelled	रद्द कर दिया
+Download fail	डाउनलोड विफल
+Limit processor utilization	सीमा प्रोसेसर उपयोग
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	की जाँच करें यह MCEBuddy कर सकते हैं use.\r\nEach चेक बॉक्स नीचे तार्किक प्रोसेसर की संख्या सीमित करने के लिए एक उपलब्ध तार्किक प्रोसेसर के लिए संगत हो।
+Custom profile	कस्टम प्रोफ़ाइल
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	यदि आप एक कस्टम profiles.conf फ़ाइल है कि आप the\r\none MCEBuddy के साथ आता है कि बजाय का उपयोग करना चाहते हैं, फ़ाइल here.\r\n\r\nNOTE करने के लिए पथ दर्ज करें: MCEBuddy लगातार अपडेट profiles.conf बग प्रदान करने के लिए सुधार, \r\nenhancements और प्रदर्शन में सुधार जो आप out\r\non याद आती होगी यदि आप इस सुविधा का उपयोग करें।
+Invalid custom profiles.conf	अमान्य कस्टम profiles.conf
+Suspend on battery	बैटरी पर निलंबित
+Suspend conversions when the computer switches to battery power	जब कंप्यूटर बैटरी पॉवर से स्विच रूपांतरण को निलंबित
+MCEBuddy added a video conversion to the queue	MCEBuddy एक वीडियो रूपांतरण क्यू को जोड़ा गया
+Queue	कतार
+Refer to documentation on using custom commands in custom eMail subjects	दस्तावेज़ पर कस्टम ईमेल विषयों में कस्टम आदेशों का उपयोग करके देखें
+Could not copy information to Clipboard, please try again.	सका नहीं जानकारी क्लिपबोर्ड पर प्रतिलिपि बनाने, कृपया फिर से प्रयास करें।
+Error copying to Clipboard	त्रुटि क्लिपबोर्ड में प्रतिलिपि बनाना
+Copy to clipboard	क्लिपबोर्ड पर प्रतिलिपि बनाएँ
+Reconvert files	फ़ाइलें रीकनवर्ट करें
+Are you sure you want to reconvert the selected files?	क्या आप चयनित फ़ाइलों को रीकनवर्ट करने के लिए सुनिश्चित हैं?
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	रीकनवर्ट करें और तब इस button.\r\nIf मूल फ़ाइलें अभी भी वे रिकनवर्ज़न के लिए पंक्तिबद्ध हो जाएगा MCEBuddy द्वारा नजर रखी जा रही हैं क्लिक करने के लिए इच्छित फ़ाइल का चयन करें।
+Time taken to convert	कन्वर्ट करने के लिए लिया गया समय
+Network authentication	नेटवर्क प्रमाणीकरण
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	क्लिक करें नेटवर्क शेयर credentials.\r\nThis प्रमाणीकरण में प्रवेश करने के लिए बटन उपयोग किया जाता है जब फ़ाइलें जोड़ें बटन मुख्य window\r\nor पर के माध्यम से जोड़ रहे हैं खींच लिया और मुख्य विंडो पर रूपांतरण स्थिति बॉक्स में एक नेटवर्क साझा से गिरा दिया।
+Skip reconversion	रीकनवर्ज़न को छोड़
+Do not reconvert the video if a converted file already exists in the destination directory.	यदि किसी कनवर्ट की गई फ़ाइल गंतव्य निर्देशिका में पहले से ही मौजूद है वीडियो को रीकनवर्ट नहीं।
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	अपेक्षित फ़ाइल नाम परिवर्तित वीडियो (फ़ाइल नहीं मूल वीडियो नाम) में कनवर्ट की गई फ़ाइल मौजूद है गंतव्य directory.\r\nIf फ़ाइल नामों के साथ तुलना में है के लिए, फ़ाइल नहीं reconverted हो जाएगा और इसे ग्रहण किया जाएगा एक सफल conversion.\r\nThis होने के लिए उपयोगी है अगर एक ही शो/प्रकरण पर एकाधिक बार दर्ज किया जा रहा है और आप them.\r\n\r\nNOTE को रीकनवर्ट करने के लिए नहीं चाहते हैं: इस विकल्प को मैन्युअल रूप से जोड़ें बटन का उपयोग कर या खींचने और छोड़ने में जोड़े गए वीडियो के लिए नजरअंदाज कर दिया है
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	कनवर्ट की गई वीडियो (फ़ाइल नहीं मूल वीडियो नाम) के लिए फ़ाइल नाम इतिहास file.\r\nIf में फ़ाइल नामों के साथ तुलना में है पिछले conversions.\r\nThe की उम्मीद के लिए यदि सक्षम, छोड़ें रीकनवर्ज़न भी इतिहास फ़ाइल जाँच करेगा (पथ सहित) कनवर्ट की गई फ़ाइल का नाम होना करने के लिए पहले से ही कनवर्ट की गई फ़ाइल नामों (पथ सहित) इतिहास फ़ाइल में से किसी से मेल खाता, \r\nthe फ़ाइल नहीं reconverted हो जाएगा और यह एक सफल रूपांतरण किया जा करने के लिए ग्रहण किया हो जाएगा।
+Adding file to the iTunes library	फ़ाइल जोड़ने के लिए iTunes पुस्तकालय
+Add to iTunes	ITunes करने के लिए जोड़ें
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	स्वचालित रूप से कनवर्ट की गई फ़ाइलें iTunes library.\r\nThis करने के लिए जोड़ने के लिए इस बॉक्स (उदाहरण के लिए MP4, M4V, एमपी 3 आदि) समर्थित फ़ाइलें केवल iTunes के साथ काम करता है की जाँच करें
+Adding file to the WMP library	WMP पुस्तकालय करने के लिए फ़ाइल जोड़ना
+Library Management	पुस्तकालय प्रबंधन
+Add to Windows Media Player	विंडोज मीडिया प्लेयर के लिए जोड़ें
+Check this box to automatically add the converted files to the WMP library.	स्वचालित रूप से कनवर्ट की गई फ़ाइलों को WMP पुस्तकालय जोड़ने के लिए इस बॉक्स को चेक करें।
+Renaming and Sorting	नाम बदल कर और छँटाई
+Selection Filters	चयन फिल्टर
+Audio and Video	ऑडियो और वीडियो
+Subtitles and Chapters	उपशीर्षक और अध्याय
+Skip copying original files	मूल फ़ाइलों की प्रतिलिपि करना छोड़ें
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	बनाने के (नकल) मूल फ़ाइल की एक बैकअप को कनवर्ट करते समय छोड़ करने के लिए जाँच करें इस बॉक्स में अपनी खुद RISK.\r\nDO नहीं की जाँच करें इस बॉक्स जब तक कि आप जानते हैं क्या आप हैं DOING.\r\nCheck इस बॉक्स।
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	जब तक तुम जानते हो क्या तुम DOING.\r\nCheck करते हुए converting.\r\nIf (नकल) मूल फ़ाइल की एक बैकअप बना यह को छोड़ करने के लिए इस बॉक्स में चेक है, मूल फ़ाइल के मामले में एक error.\r\nIt संरक्षित नहीं किया जाएगा रहे हैं की जाँच करें इस बॉक्स में अपनी खुद RISK.\r\nDO चेक इस बॉक्स भी यहां तक कि कनवर्ज़न विफलताओं या अन्य अप्रत्याशित रूपांतरण के मुद्दों के लिए नेतृत्व नहीं कर सकते हैं।
+Are you sure you want to do this?	आप सुनिश्चित करें कि आप यह करना चाहते हैं?
+Media Information Management	मीडिया जानकारी प्रबंधन
+Force show type	ताकत दिखाने के प्रकार
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	इस इलाज के वीडियो रिकॉर्डिंग एक चलचित्र के रूप में बाध्य करने के लिए सेट करें या TV Series.\r\nThis रिकॉर्डिंग के बारे में अतिरिक्त जानकारी (मेटाडेटा) - movie\r\nSeries - एक टीवी Series\r\nSports के रूप में रिकॉर्डिंग के इलाज के रूप में रिकॉर्डिंग के इलाज - उपचार internet.\r\nMovie से डाउनलोड किया है जिस तरह रिकॉर्डिंग एक स्पोर्ट्स show\r\nDefault - फिल्म या टीवी श्रृंखला को निर्धारित करने के लिए डिफ़ॉल्ट रिकॉर्डिंग मेटाडेटा में उपलब्ध जानकारी का उपयोग करें के रूप में बदल जाएगा
+Show type	शो प्रकार
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	इस प्रकार converted.\r\n\r\nMovies होने के नाते रिकॉर्डिंग का फ़िल्टर करने के लिए का चयन करें - यदि Movie.\r\nShows शो प्रकार है कनवर्ट करें - यह करने के लिए कनवर्ट करें यदि प्रकार दिखाएँ एक Movie.\r\nSports नहीं है - यह यदि Sports.\r\n\r\nNOTE शो प्रकार है परिवर्तित करने के लिए का चयन करें का चयन करें करने के लिए यह चुनें: दिखाने के प्रकार मेटाडाटा का समर्थन के साथ WTV and\r\nrecordings जैसे शो प्रकार मेटाडेटा फ़ाइलें (रिकॉर्डिंग metadata.\r\nOnly कुछ रिकॉर्डिंग का समर्थन से पढ़ें हैXML/ARG आदि)।
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	यहाँ conversion.\r\nDrag और ड्रॉप फ़ाइलों या प्रेस करने के लिए रूपांतरण की कतार में फ़ाइलें जोड़ने के लिए जोड़ें बटन के लिए कतार में सभी फ़ाइलें इस बॉक्स दिखाता है
+Conversion	रूपांतरण
+Files	फ़ाइलें
+Click this button to open or close the Advanced Settings section	खोलने या उन्नत सेटिंग्स अनुभाग को बंद करने के लिए इस बटन पर क्लिक करें
+Running custom commands	कस्टम आदेश चल रहा
+Trimming video recording	मिंग छाँटो वीडियो रिकॉर्डिंग
+Insert at top of queue	क्यू के शीर्ष पर सम्मिलित करना
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	डिफ़ॉल्ट रूप से, नए रूपांतरण रूपांतरण इस बॉक्स में चेक है, किसी भी नए रूपांतरण द्वारा इस कार्य में जोड़ा रूपांतरण की कतार के the\r\nbeginning (शीर्ष) करने के लिए जोड़ दिया जाएगा queue.\r\nIf के नीचे (अंत में) के लिए जोड़ा जाता है।
+Add subtitles and chapters	उपशीर्षक और अध्यायों में जोड़ें
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	किसी भी निकाले उपशीर्षक जोड़ने के लिए इस विकल्प को सक्षम करें और अध्यायों कनवर्टेड video.\r\nEach अध्याय के लिए एक वाणिज्यिक के अंत के निशान। यह केवल समर्थित स्वरूपों के साथ काम करता है (उदाहरण के लिए MKV, MP4).\r\n\r\nNOTE: एम्बेडेड उपशीर्षक समर्थन नहीं कुछ खिलाड़ियों और बड़े टीवी और chapters.\r\nIf आप प्लेबैक करने के लिए परिवर्तित वीडियो का में असमर्थ रहे, यह विकल्प बंद करने की कोशिश।
+Select best soundtrack	सर्वश्रेष्ठ साउंडट्रैक का चयन करें
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	यदि मूल वीडियो एकाधिक soundtracks, इस विकल्प MCEBuddy बताता है कि सबसे अधिक उपयुक्त और प्राथमिक soundtrack.\r\nIf आप चाहते हैं एक विशिष्ट भाषा साउंडट्रैक का चयन करने के लिए है, तो आप भाषा का नाम दर्ज करें या इस बॉक्स में ऑडियो भाषा box.\r\nCheck कोड यदि यदि आप MCEBuddy संभव है जब कनवर्ट की गई फ़ाइल में मूल वीडियो से सभी म्यूजिक को बनाए रखने के लिए चाहते हैं आप इस बॉक्स गलत soundtrack आपके कनवर्ट किए गए file.\r\n\r\nUncheck में सुनवाई कर रहे हैं सुनिश्चित करें. \r\nNOTE: कुछ प्रोफाइल एकाधिक soundtracks, जो मामले में यह सेटिंग कोई प्रभाव नहीं है समर्थन नहीं करते।
+Enable remote access	दूरस्थ पहुँच सक्षम करें
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	इस में MCEBuddy आवेदन के लिए windows फ़ायरवॉल एक अपवाद बनाती है और port.\r\nThis की आवश्यकता है यदि आप windows फ़ायरवॉल सक्षम है और एक आईपी address.\r\n\r\nNOTE का उपयोग कर इंजन UPnP, दूरस्थ client\r\nor पहुँच का उपयोग करना चाहते हैं: यदि आप एक कस्टम फ़ायरवॉल है, यह काम नहीं हो सकता, आप मैन्युअल रूप से an\r\nexception MCEBuddy सेवा के लिए और बंदरगाह बनाने के लिए की आवश्यकता होगी।
+Unable to communicate with engine. Firewall exception settings have not been updated.	इंजन के साथ संवाद करने में असमर्थ। फ़ायरवॉल अपवाद सेटिंग्स अद्यतन नहीं किया गया है।
+Detect and optimize video quality	का पता लगाने और वीडियो की गुणवत्ता का अनुकूलन
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	जब सक्षम, MCEBuddy वीडियो प्रसंस्करण विकल्प में वीडियो स्रोत type.\r\nThis कर सकते हैं सुधार परिवर्तित वीडियो की गुणवत्ता काफी अगर सही ढंग से पता लगाने की कोशिश कर रहा द्वारा अनुकूलित करेंगे detected.\r\n\r\nNOTE: यह वीडियो स्रोत प्रकार (इंटरलेस्ड, प्रगतिशील या telecine).\r\nIf यह वीडियो स्रोत प्रकार का पता लगाने में सक्षम है का पता लगाने की कोशिश कर रहा द्वारा इस करता है, यह profile.\r\nTurn यदि आप कनवर्ट किए गए वीडियो की गुणवत्ता के साथ मुद्दों का सामना कर रहे हैं या डिफ़ॉल्ट प्रोफ़ाइल पैरामीटर का उपयोग करना चाहते हैं यह बंद विकल्प में संगत पैरामीटर को ओवरराइड करेगा।
+Are you sure you want to delete this task?	आप सुनिश्चित करें कि आप इस कार्य को हटाना चाहते हैं?
+Delete Task	कार्य हटाएँ
+Enter the new task name	नए कार्य का नाम दर्ज करें
+Rename Task	कार्य का नाम बदलें
+MCEBuddy PAUSED	MCEBuddy रुका हुआ
+idle	निष्क्रिय
+PAUSED	रुका हुआ
+Frame rate	फ़्रेम दर
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	यह एक कस्टम framerate (FPS) सेट के लिए कनवर्ट किया गया video.\r\nYou इस उपकरणों जो केवल विशिष्ट framerates.\r\n\r\nE.g। समर्थन के लिए वीडियो प्रारूपों (उदाहरण के लिए PAL NTSC के लिए) \r\nor कनवर्ट करते समय सेट करने के लिए जरूरत हो सकती करने के लिए सक्षम करें: 25\r\nE.g.: 30000/1001
+Skip remuxing files	Remuxing फ़ाइलें छोड़ें
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	की जाँच करें इस बॉक्स में अपनी खुद RISK.\r\nDO नहीं जब तक कि आप DOING.\r\nCheck converting.\r\nIf इस की जाँच की है जबकि एक TS फ़ाइल को मूल फ़ाइल remuxing को छोड़ करने के लिए इस बॉक्स, उपशीर्षक निष्कर्षण या comskip जैसे कुछ कार्यों तुम क्या कर रहे हैं पता नहीं work.\r\nIt कर सकते हैं यह बॉक्स चेक भी यहां तक कि कनवर्ज़न विफलताओं या अन्य अप्रत्याशित रूपांतरण के मुद्दों के लिए नेतृत्व कर सकते हैं।
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	Remuxing मूल फ़ाइल कनवर्ट करते एक TS फ़ाइल को छोड़ें करने के लिए जाँच करें इस बॉक्स में अपनी खुद RISK.\r\nDO नहीं की जाँच करें इस बॉक्स जब तक कि आप जानते हैं क्या आप हैं DOING.\r\nCheck इस बॉक्स।
+Monitor converted videos	परिवर्तित वीडियो निगरानी
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	यदि आप भी परिवर्तित फ़ाइलों मॉनिटर Path.\r\nCAUTION में निगरानी करना चाहते हैं डिफ़ॉल्ट रूप से मॉनिटर स्थानों फ़ाइलें पहले से ही converted.\r\nCheck गया है कि इस बॉक्स उपेक्षा करेंगे: इस परिवर्तित फ़ाइलों की एक अनंत रूपांतरण पाश करने के लिए नेतृत्व कर सकते हैं यदि नहीं कॉन्फ़िगर properly.\r\n\r\nThis हो सकता उपयोगी जब आप एक रूपांतरण task\r\n (कनवर्ट की गई फ़ाइल) का आउटपुट निर्देशिका के रूप में मॉनिटर एक मॉनिटर स्थान का पथ निर्दिष्ट करने और the\r\nMonitor को जोड़ने रहे हैं एक अन्य रूपांतरण कार्य करने के लिए स्थान।
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	यदि आप भी परिवर्तित फ़ाइलों मॉनिटर पथ में निगरानी करना चाहते हैं की जाँच करें इस बॉक्स में अपनी खुद RISK.\r\nDO नहीं की जाँच करें इस बॉक्स जब तक कि आप जानते हैं क्या आप हैं DOING.\r\nBy डिफ़ॉल्ट मॉनीटर स्थानों इस बॉक्स फ़ाइलें है कि पहले से ही converted.\r\nCheck किया गया है की अनदेखी करेंगे।
+Hardware encoding	हार्डवेयर एन्कोडिंग
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	हार्डवेयर उपलब्ध जब videos.\r\nThis में कनवर्ट करने के लिए एन्कोडिंग का उपयोग करने के लिए इस बॉक्स अप रूपांतरण काफी गति और सीपीयू इसे थोड़ा कम गुणवत्ता यह है बॉक्स यदि आप कनवर्ज़न या गुणवत्ता के मुद्दों का सामना कर रहे हैं videos.\r\n\r\nUncheck में परिणाम कर सकते हैं utilization\r\nbut को कम कर सकते हैं की जाँच करें।
+Do not overwrite files	फ़ाइलों को अधिलेखित नहीं
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	जब इस बॉक्स की जाँच की है, अगर यह पहले से ही एक अद्वितीय संख्या के साथ exists.\r\nInstead एक नई फ़ाइल बनाई जाएगी फ़ाइल नाम के अंत में जोड़ा गंतव्य फ़ाइल अधिलेखित हो जाएगा नहीं।
+Re-monitor recorded videos	फिर से रिकॉर्ड वीडियो पर नजर
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	एक बार एक स्रोत फ़ाइल (रिकॉर्डेड वीडियो) में रूपांतरित किया गया है, \r\nthe मॉनिटर इतिहास इतिहास पर ध्यान न दें और सभी फ़ाइलों मॉनिटर और to\r\nthe कनवर्ज़न कतार में उन्हे जोड़ने के लिए इस विकल्प फ़ाइल का नाम और नहीं एक ही फाइल again.\r\n\r\nEnable कतार ट्रैक होगा, भले ही वे पहले से ही किया गया है converted.\r\n\r\nThis कभी कभी उपयोगी हो सकते हैं डिफ़ॉल्ट रूप से,, यदि रिकॉर्डिंग सॉफ्टवेयर a\r\nunique फ़ाइल का नाम प्रत्येक प्रकरण/शो के लिए उत्पन्न नहीं करता है। यह the\r\nDelete मूल फ़ाइल विकल्प में सेटिंग्स पृष्ठ का उपयोग करें जब avoid\r\nan अनंत रूपांतरण पाश करने के लिए इस विकल्प का उपयोग करने के लिए अनुशंसित है।
+Recommendation	सिफारिश
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	एक अनंत रूपांतरण लूप से बचने के लिए, इसे कनवर्ट की गई फ़ाइलें इस मॉनिटर कार्य द्वारा नजर रखी जा रही नहीं कि यह सुनिश्चित करने के लिए अपने मॉनिटर खोज प्रतिमान में एक तरह से इस तरह के रूप में सेटअप करने के लिए सिफारिश की है।
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	यदि आप remonitor और रिकॉर्ड वीडियो को रीकनवर्ट करने के लिए चाहते हैं की जाँच करें इस बॉक्स में अपनी खुद RISK.\r\nDO नहीं की जाँच करें इस बॉक्स जब तक कि आप जानते हैं क्या आप हैं DOING.\r\nBy डिफ़ॉल्ट मॉनीटर स्थानों remonitor नहीं होगा इस बॉक्स processed.\r\nCheck गया है कि वीडियो दर्ज की गई।
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	एक अनंत रूपांतरण लूप से बचने के लिए, यह अनुशंसित है कि आप सेटिंग्स पृष्ठ में मूल फ़ाइल विकल्प हटा सक्षम करें।
+Prioritize air date matching	एयर दिनांक से मेल खाते को प्राथमिकता
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy श्रृंखला information\r\nwhile इंटरनेट खोज से मेल करने के लिए कड़ी का नाम का उपयोग करता है। अगर वह विफल रहता है तब इसे मूल broadcast\r\nair दिनांक metadata.\r\n\r\nCheck से मेल करने के लिए मूल प्रसारण आकाशवाणी तिथि पहले का उपयोग करने के लिए इस बॉक्स का उपयोग करता है और जब एकाधिक सत्रों का same\r\nepisode नाम है तब the\r\nepisode नाम internet.\r\nThis से श्रृंखला जानकारी के लिए मेल करने के लिए कुछ मामलों में उपयोगी हो सकता है। उदाहरण के लिए Americal मूर्ति, ऑडिशन 1\r\n\r\nNOTE: मूल प्रसारण आकाशवाणी की तारीख हमेशा सटीक सेट the\r\nbroadcaster द्वारा नहीं है और कभी कभी incorrect.\r\nUse अगर केवल डिफ़ॉल्ट विकल्प आप के लिए काम नहीं है यह विकल्प इंटरनेट पर जानकारी है।
+Skip eMail body	छोड़ें ईमेल शरीर
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	यदि आपको ईमेल सूचना के लिए एक एसएमएस गेटवे का उपयोग कर रहे हैं उपयोगी हो सकता है सूचना eMail.\r\nThis में एक खाली शरीर का उपयोग करने के लिए इस विकल्प की जाँच करें।
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	चयन डिजिटल अधिकार प्रबंधन (DRM) पर आधारित है available\r\nonly जब कनवर्ट किए बिना नाम बदलें (नाम बदलें और केवल ले जाएँ) विकल्प है - सभी फ़ाइलों के लिए प्रसंस्करण, प्रतिलिपि सुरक्षा status\r\nProtected भले ही चुनता है - selected.\r\n\r\nAll केवल फ़ाइलें का चयन करें जो कॉपी protected\r\nUnprotected हैं - केवल फ़ाइलें प्रतिलिपि सुरक्षा नहीं है जो का चयन करें
+Download cover art	कवर आर्ट को डाउनलोड
+Enable this to download the cover art from the original video and internet if available.	यह कवर कला के मूल वीडियो और इंटरनेट से यदि उपलब्ध है डाउनलोड करने के लिए सक्षम करें।
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	तुम निश्चित रूप से आप एक डोमेन नाम दर्ज करने के लिए चाहते हैं? \r\n\r\nUse इस अपने authentication.\r\nDo नहीं का उपयोग करें यदि आप एक Windows डोमेन नियंत्रक को प्रबंधित करने के लिए उपयोग कर रहे हैं केवल यह यदि आप एक Workgroup.\r\n\r\nIf का हिस्सा हैं आप अनिश्चित क्लिक नहीं. रहे हैं
+Configuration Warning	कॉन्फ़िगरेशन चेतावनी
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	'जहाँ मूल फ़ाइल है located\r\nand इस निर्देशिका में मूल फ़ाइल चालें करने के बाद एक सफल conversion.\r\n\r\nThis फ़ोल्डर का नाम और स्थान नीचे परिवर्तित किया जा MCEBuddyArchive' नामक एक फ़ोल्डर बनाता है।
+Monitoring	निगरानी
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	यदि आप अध्यायों में EDL फ़ाइल कनवर्ट करने के लिए चाहते हैं, तो सुनिश्चित करें कि आप का 'उपशीर्षक जोड़ें और अध्यायों' विकल्प में विशेषज्ञ सेटिंग्स की जाँच करें।
+EDL to Chapters	EDL अध्यायों को

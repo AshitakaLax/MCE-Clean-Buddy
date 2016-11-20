@@ -1,0 +1,573 @@
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information (MCEBuddy with a key icon)	MCEBuddy tsis siv rau cov neeg siv logged tam sim no nyob rau hauv txuas rau network shares no, nws siv nws tus kheej cov nyiaj pab.  Nco ntsoov hais kom meej cov tus zoo neeg siv ntaub ntawv (MCEBuddy muaj ib cov icon nrhav)
+Connection Reminder	Zoo npov
+Description	Ua hauj lwm
+Path	Txoj kev
+is invalid	yog invalid
+Invalid Path	Cov kev invalid
+Please supply a task name	Thov muab tau ib cov npe task
+No name supplied	Tsis muaj lub npe nkag ntawm cov hlab
+Please enter the 3 digit language code of the Audio track or select <Default> or <Original>	Thov sau rau cov ntiv 3 lus code of daim Audio li cas los xaiv <Default>los <Original>
+The 3 digit ISO code for the selected language\r\nMake sure this matches the language code for the audio track in the original recording.\r\nTo get the language code for the audio tracks in the original recorded file, add the file\r\nto the queue and right click on it. A pop up window will open showing the audio details\r\nwhich include the language codes for each audio track.	Tus ntiv 3 ISO code rau lub language\r\nMake xaiv kom matches the code cov lus rau hauv audio li cas nyob hauv cov thawj recording.\r\nTo tau qhov code lus rau hauv audio tracks rau hauv thawj lus uas koj kaw, qhov no ntxiv rau file\r\nto tus queue thiab right nyem rau nws. Muaj ntau ntau li qhov rai yuav qhib uas tau qhia hauv audio details\r\nwhich muaj xws li cov lus codes rau txhua tus audio li cas.
+Invalid Language Code	Invalid Language Code
+No destination directory provided, converted file will be placed in original video directory	Tsis muaj cov directory destination ntsis, converted cov ntaub ntawv yuav tau kawm rau thawj video directory
+A task name or section	Ib tug task npe los sab
+already exists\n\rPlease use another name	twb exists\n\rPlease siv lwm lub npe
+Duplicate Name	Duplicate npe
+Engine	Vig
+Tasks	Pis
+Profile	Profile
+disposing	tseg
+Task name	Task npe
+Give a unique name to this task	Muab ib lub npe haum ua rau qhov hauj lwm no
+Gives a short description for the selection conversion profile	Muab piav qhia me ntsis rau cov xaiv conversion profile
+Click to select destination folder	Nyem los xaiv destination me
+Destination	Destination
+Select the directory where the converted file will be placed.\r\nLeave this blank to keep the converted file in the same directory as the original video.	Xaiv cov directory twg converted ntawv yuav dawb paug no kom converted ntawv nyob rau hauv cov directory tib yam li daim tseem cia nrog video placed.\r\nLeave.
+Max width	Max dav
+This will limit the maximum width (in pixels) of the video for the converted file.\r\nTIP: Does not apply if the original file has a width smaller than this number.\r\nIf you want to keep your original video resolution move the slider all the way to the right.	Qhov no yuav txo qhov ntau dav (in pixels) ntawm daim video rau lub file.\r\nTIP converted: tsis phim yog cov ntaub ntawv yeej muaj ib tug dav me tshaj no number.\r\nIf uas koj xav kom koj thawj cov rooj video txav lub slider tag nrho kev mus rau sab xis.
+Quality	Zoo
+Ad remover	Ad remover
+None	All
+Get series details from Internet	Tau series txhawb ntawm Internet
+Download additional details about the movie or series from the internet	Muab cov ncauj lus ntxiv txog lub Ticket lossis series tawm hauv internet los
+File name match	Cov ntaub ntawv npe match
+Recording title match	Match title txias
+Cancel	Suam
+OK	ua li
+Rename without converting	Rename tsis muaj converting
+Check this option to only rename and copy the original files to the destination folder.\r\nWhen checked, conversion, trimming, audio/video processing and commercial removal will not be available.\r\n\r\nNOTE: Other functions like matching filters, extracting subtitles, saving metadata and commercial detection (saving EDL file)\r\nwill still be available with this option checked.\r\nIf you want to move instead of copy, check the Skip copying original option in Expert Settings on this page or select\r\nDelete original file in the main settings page.	Khij qhov kev xaiv no nkaus xwb rename thiab luam cov ntaub ntawv yuavtsum tau cov lo lus uas peb folder.\r\nWhen xyuas, conversion, trimming, suab los yees duab ua thiab hle coj mus muag yuav tsis available.\r\n\r\nNOTE: lwm functions li txuam cov ntxaij lim dej, extracting subtitles, txuag metadata thiab nrhiav kom coj mus muag (txuag tej ntaub ntawv EDL) \r\nwill nws tseem yuav muaj nrog no checked.\r\nIf koj xav txav tsis tau daim ntawv xaiv, tshawb xyuas cov hla kev luam daim tseem xaiv nyob rau hauv tej chaw kws muaj txuj rau no nplooj los select\r\nDelete yuavtsum nyob hauv qhov chaw tseem ceeb phab.
+Rename and sort by video information	Rename thiab txheeb cov video information
+Renames the converted file and places it in a new directory based on the show/series information when available\r\n(e.g. ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)	Renames converted ntawv thiab muab rau ib tug tshiab directory raws li cov lus qhia tias/series thaum available\r\n (xws li ShowName\\ShowName-SXXEYY-EpisodeName-RecordDate)
+Enter the username and password to access folders that are on a network drive or a different computer	Sau tus username thiab password rau saib cov folders uas muaj rau lub network drive, los sis txawv computer
+Organize by seasons	Miv los caij
+Organize folders by Showname and Season when available (Media Center/XBMC/Plex compatible naming convention)\r\n(e.g. Showname\\Season XX\\SXXEYY-Episode Name)	Miv folders los ntawm Showname thiab Season thaum twg muaj (Media Center/XBMC/Plex tau tshaj naming convention) \r\n (e.g. Showname\\Season XX\\SXXEYY-rov npe)
+Audio language	Audio lus
+Advanced Settings	Txawm nqis
+General Settings	Chaw dav
+Conversion Task	Conversion Task
+Password	Password
+Confirm Password	Paub meej tias Password
+Domain / computer name	Isthawmnev / computer npe
+<Optional> Enter if remote computer or network drive uses a Domain for authentication.\r\nDo NOT enter your workgroup here. Leave this blank if you're using a workgroup.	<Optional>Sau yog tej thaj chaw deb lub computer lossis network tsav siv ib tug sau rau authentication.\r\nDo tsis nkag workgroup no. Qhov no cia dawb paug yog koj nyob nraum siv lub workgroup.
+User name	Neeg siv lub npe
+Enter the username to access the remote computer or network drive	Sau tus username yuav nkag tau rau tej thaj chaw deb computer lossis network drive
+Enter the password to access the remote computer or network drive	Sau tus password kom nkag tau rau tej thaj chaw deb computer lossis network drive
+Network Connection User Credentials	Network zoo neeg siv kev peev xwm
+Password Mismatch	Lo lus zais Mismatch
+Passwords do not match, please reenter the passwords	Passwords tsis phim, reenter cov passwords thov
+Hour	Teev
+Minute	Feeb
+Wake	Tsa
+Start	Pib
+Resume	Xav tau kev
+Pause	Mas
+Stop	Nres
+Language	Lus
+Pause conversion tasks	Kev pab raws qib conversion mas
+Resume conversion tasks	Xav tau kev pab raws qib conversion
+Please enter a valid time	Thov sau ib lub sij hawm li
+Invalid Time	Lub sij hawm uas muaj invalid
+Stop time is after Start time. Assuming the Stop time is during the next day, is that correct?	Nres lub sijhawm yog tom qab lub sij hawm pib. Piv txwv tias yog sij hawm nres yog thaum hnub tom qab, yeej muaj tseeb li?
+Time Check	Lub sij hawm xyuas
+Only select this option if MCEBuddy has been converting your files reliably for an acceptable period of time. Do you wish MCEBuddy to delete each original file once it has been converted?	Tsuas xaiv qhov kev xaiv no yog hais tias MCEBuddy twb tau converting koj cov ntaub ntawv reliably rau ib lub sij hawm xam lub sij hawm. Koj puas xav MCEBuddy kom rho tawm txhua cov ntaub ntawv yeej lawm nws puas tau tug?
+Confirm delete originals?	Paub meej tias tus qauv delete?
+MCEBuddy will monitor these directories for video files to convert automatically	MCEBuddy yuav soj ntsuam cov directories rau cov video los siv tau txais ntaub ntawv
+Conversion tasks	Conversion pis
+Delete original file	Rho tawm cov ntaub ntawv rau thawj
+Deletes the original recording after a successful conversion	Deletes tus thawj txias tas ib vam conversion
+Min age before conversion (hours)	Hnub nyoog min ua ntej conversion (teev)
+Minimum hours to wait before converting each file after the file is added to the queue	Tsawg teev tos ua ntej converting txhua cov ntaub ntawv tom qab cov ntaub ntawv no ntxiv rau cov queue
+Use this to change the language of the text on the screen	Qhov no siv los hloov cov lus ntawm daim ntawv luam ntawm qhov screen
+Concurrent conversions	Txhawb conversions
+Number of simultaneous conversions MCEBuddy can start\r\nNOTE: You need large amounts of free disk space and processor time for more than 2 simultaneous conversions	Number of simultaneous conversions MCEBuddy ua start\r\nNOTE: koj yuav nqi loj dawb disk chaw thiab processor sij hawm kom ntau tshaj 2 simultaneous conversions
+Logging level	Logging tshooj
+Error	Yuam kev
+Warning	Ceeb toom
+Information	Lus
+Debug	Debug
+Log conversion jobs	Hauj lwm conversion cav
+Save a log file for each conversion in the \'logs\' directory where where MCEBuddy is installed\r\n(e.g. C:\\Program Files\\MCEBuddy2x\\logs)	Tseg tau ib cov ntaub ntawv teev rau txhua conversion hauv lub \'logs\' directory qhov twg MCEBuddy qhov twg installed\r\n (e.g. C:\\Program Files\\MCEBuddy2x\\logs)
+Allow sleep	Cia pw
+If unchecked, it prevents the system from entering sleep while converting	Yog tsi kuaj xyuas, nws tsis pub lawv tawm mus pw thaum converting
+Stop at	Tsis txhob nyob
+No new conversions would be started after this time	Yuav tau pib muaj cov conversions tshiab tom qab lub sij hawm no
+minute	feeb
+hour	teev
+If checked MCEBuddy will wake the system from sleep\r\nat the specified Start time and enabled days of the week.	Yog soj ntsuam MCEBuddy yuav tsa lawv los ntawm sleep\r\nat rau cov sij hawm pib daim kev cai tswjhwm thiab enabled hnub ntawm lub limtiam ntawd.
+Start at	Pib ntawm
+MCEBuddy will start new conversions between the Start and Stop time.\r\n\r\nThe Start time will be used for the enabled days of the week, whereas\r\nthe End time will be used either for the same day or\r\nfor the next day if the End time is after the Start time.	MCEBuddy yuav pib tshiab los pauv hloov ntawm qhov pib thiab txhob time.\r\n\r\nThe pib lub sij hawm yuav muab rau cov enabled hnub ntawm lub limtiam ntawd, whereas\r\nthe thaum xaus lub sij hawm yuav siv los ywg rau tib hnub or\r\nfor hnub tom qab yog tas sij hawm tom qab rau lub sij hawm pib.
+Delete	Rho tawm
+Add	Ntau ntxiv
+Change	Pauv
+Archive original file	Archive thawj daim ntawv
+Domain name	Lub npe hauv isthawmnev
+Stops the monitor and conversion tasks and opens a page to configure MCEBuddy	Yuav tsis paub tab saib thiab conversion thiab opens ib phab ua rau configure MCEBuddy
+Creates a folder called \'MCEBuddyArchive\' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed in the System Settings page.	Ib qho kev ib sis hu ua \'MCEBuddyArchive\' daim tseem ntawv qhov twg located\r\nand tsiv orginal ntawv hauv no directory tom qab ib vam meej conversion.\r\n\r\nThis sis lub npe thiab qhov chaw yuav hloov nyob rau hauv qhov System tej chaw phab.
+Debug - detailed logs, helps trace conversion problems\r\nInformation - logs basic information about conversion\r\nWarning - log potential issues or critical failures only\r\nError - log critical failures only	Debug - cav ncauj lus kom ntxaws, pab trace conversion problems\r\nInformation - cav ncauj txog conversion\r\nWarning - ca tej teebmeem lossis tseemceeb failures only\r\nError - ca tseemceeb failures xwb
+Select the conversion profile associated with this task. The conversion profile represents the output format and quality for the converted file.\r\nHigher quality conversions take longer to convert. Reccomended Default: MP4 High Quality or MP4 Normal.\r\n\r\nTIP: Refer to the MCEBuddy Guide for advanced parameters to tweak conversion profiles or to create your own conversion profiles	Xaiv tus conversion profile nrog qhov hauj lwm no. Qhov profile conversion nruab nrab yog cov zis hom thiab cov txheej txheem rau qhov txheej txheem converted file.\r\nHigher conversions coj los siv tau ntev. Reccomended Default: MP4 High Quality los MP4 Normal.\r\n\r\nTIP: Refer rau lub MCEBuddy qhia rau cov parameters txawm yuav tweak conversion profiles los tsim koj tus kheej cov conversion profiles
+Select the program MCEBuddy will use to strip out any commercials while converting the video.\r\nSet to 'None' to leave the commercials in the converted video.\r\n\r\nTIP: To use ShowAnalyzer instead of Comskip, please download and install ShowAnalyzer.\r\nShow Analyzer version 1.0 and greater supported.	Xaiv cov kev pab cuam MCEBuddy yuav siv tawm qhov twg commercials strip thaum uas converting tus video.\r\nSet mus 'All' tawm tus commercials hauv lub video.\r\n\r\nTIP converted: siv ShowAnalyzer siv Comskip, thov download tau thiab nruab ShowAnalyzer.\r\nShow Analyzer version 1.0 tswvyim thiab ntau txaus siab.
+Used to change the video quality of the converted file, normal is 1.\r\nA higher number will improve quality but will take more time for conversion.\r\nA smaller number will reduce the quality but speed up the conversion.	Siv hloov rau cov video zoo ntawm cov converted ntaub, cev xwm puas tau 1.\r\nA tsawg dua yuav txhim kho tau zoo tab sis yuav siv cov sij hawm ntau rau conversion.\r\nA me naj npawb yuav txo tau qhov zoo tiamsis kom tus conversion.
+Enter pattern to match filenames for this task (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Sau tus qauv kom phim filenames rau qhov hauj lwm no (xws li cov *.wtv yuav hloov tag nrho cov ntaub ntawv xaus xi .wtv)\r\nPrefix txawv nrog ~ mus hla mus ntais ntawv (e.g. *. *; ~*.wtv yuav txheej txheem txhua cov ntaub ntawv tshwj cov xi .wtv)\r\nSeparate ntau hom qauv nrog; (piv txwv li *.wtv; ncis *; ~ ncis miami *) yuav txheej txheem txhua yam ntaub ntawv .wtv thiab tag nrho cov ntaub ntawv uas pib nrog ncis, tiam sis tsis cov pib nrog ncis miami\r\n\r\nYou yuav siv kab zauv uas tsis tu ncua kom phim tus qauv uas pib nrog regex:
+Enter pattern to match show/series titles for this task (e.g. Simpson* will convert all files that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *;~Simpson* will process all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Sau tus qauv kom phim ua yeeb yam/series lub npe rau qhov hauj lwm no (xws li Simpson * yuav hloov cov ntaub ntawv uas qhia tau tias title pib nrog Simpson) \r\nPrefix txawv nrog ~ mus hla mus ntais ntawv (e.g. *; ~ txheej Simpson * yuav txheem lub npe lawv ntawm tes tsuas yog cov uas tau nrog Simpson) \r\nSeparate ntau yam cov qauv hais nrog; (piv txwv li Simpson *;House*) los yog (e.g. Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nYou yuav siv kab zauv uas tsis tu ncua kom phim tus qauv uas pib nrog regex:
+This can be used to override the default Audio Language when there are multiple audio languages in a recording.\r\nTo get the list of the Audio Languages in a recording, right click on the file in the queue and select MediaInfo.\r\n\r\n<Default> will try to keep all audio tracks if supported or let the encoder choose the default audio track\r\n<Original>, if available, will use the original [non-dubbed] recording language	Qhov no yuav siv tau los override lub neej ntawd lub hom lus thaum muaj ntau ntau lub lus nyob ib recording.\r\nTo mus rau daim ntawv teev cov lus nyob rau hauv ib cov ntaubntawv povthawj siv, lub txoj nyem rau cov ntaub ntawv hauv tus queue thiab xaiv tau MediaInfo.\r\n\r\n <Default>yuav sim ua kom txhua lub lem yog txaus siab los yog cia cov encoder xav tau lub neej ntawd lub track\r\n <Original>, yog tias muaj, yuav siv cov lus [non-dubbed] cov ntaubntawv povthawj siv thawj
+Enter '[video]' or leave blank to convert all video files\r\nEnter pattern to match filenames for this location (e.g. *.wtv will convert all files ending with .wtv)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~*.wtv will process all files except those ending with .wtv)\r\nSeparate multiple patterns with ; (e.g. *.wtv;ncis*;~ncis miami*) will process all .wtv files and all files starting with ncis but not those starting with ncis miami	Sau: "[video]' los sis tawm mus dawb paug los hloov cov qauv video files\r\nEnter kom me zog-LAIV filenames rau qhov chaw (xws li cov *.wtv yuav hloov tag nrho cov ntaub ntawv xaus xi .wtv)\r\nprefix txawv nrog ~ mus hla mus ntais ntawv (xws li *. *; ~*.wtv yuav txheej txheem txhua cov ntaub ntawv tshwj cov xi .wtv)\r\nseparate ntau hom qauv nrog; (piv txwv li *.wtv; ncis *; ~ ncis miami *) yuav txheej txheem txhua yam ntaub ntawv .wtv thiab tag nrho cov ntaub ntawv pib nrog ncis tiam sis tsis cov pib nrog ncis miami
+MCEBuddy Settings	MCEBuddy nqis
+MCEBuddy does NOT use the currently logged in user to connect to network shares, it uses its own service account.  Be sure to specify the connection user information [MCEBuddy with a key icon]	MCEBuddy tsis siv rau cov neeg siv logged tam sim no nyob rau hauv txuas rau network shares no, nws siv nws tus kheej cov nyiaj pab.  Nco ntsoov hais kom meej cov tus zoo neeg siv ntaub ntawv [MCEBuddy muaj ib cov icon nrhav]
+Please supply a source name	Thov muab tau ib cov npe los
+Please supply a search path name	Thov muab ib lub npe nrhiav txoj kev
+A source name or section	Ib lub npe rau qhov chaw los yog cov seem
+already exists. Please use another name	twb tshwm sim. Thov siv lwm lub npe
+Monitor name	Saib lub npe
+Give this a location a unique name	Muab qhov no ib qhov chaw muaj ntsiab npe
+Monitor path	Saib txoj kev
+Select the directory that MCEBuddy will monitor in the background for new video files to convert automatically	Xaiv cov directory MCEBuddy yuav soj ntsuam hauv qhov background rau ntaub tshiab video ntawv los yeej siv tau
+Click to select the folder to monitor	Nyem mus xaiv rau tus me nyuam yuav soj ntsuam
+Search pattern	Nrhiav tu
+SourceForm	SourceForm
+Monitor Location	Saib qhov chaw
+Normal	Li qub
+MCEBuddy GUI: pipeProxy engine connection error	MCEBuddy GUI: yuam pipeProxy vig zoo kev
+MCEBuddy GUI: Unable to create pipe to MCEBuddy service	MCEBuddy GUI: Tsis tsim yeeb mus rau qhov kev pab cuam MCEBuddy
+The MCEBuddy service is unavailable. Please start from Windows control panel or check engine connection.	Cov kev pab cuam MCEBuddy yog luv. Thov koj pib ntawm cov vaj huam sib qhov rais tswj luag los ib daim tshev cav qhov zoo sib xws.
+Announcement	Co
+New version 	Tshiab version 
+available	muaj
+New BETA version 	Tus kab mob tshiab BETA version 
+Click here to download new version of MCEBuddy	Nyem no mus luam tau cov tshiab version of MCEBuddy
+Click here to open link	Nyem qhov no mus qhib txuas
+Idle	Idle
+Closing	Kaw
+MCEBuddy GUI: Unable to update tasks	MCEBuddy GUI: Tsis muaj hloov tau pis
+MCEBuddy GUI: Unable to start MCEBuddy service	MCEBuddy GUI: Pib MCEBuddy pab tsis tau
+MCEBuddy GUI: Unable to stop MCEBuddy service	MCEBuddy GUI: Tsis txhob MCEBuddy service
+MCEBuddy GUI: Unable to cancel job	MCEBuddy GUI: Suam txoj hauj lwm tsis muaj
+Warning: Networked files will be accessed using the logon credentials of the MCEBuddy Service, not the currently logged on user. You can manually specify the network credentials from the Settings -> Expert Settings page in MCEBuddy.	Ceeb toom: Networked ntaub ntawv yuav tsum accessed siv lub peev xwm logon MCEBuddy pab, neeg tsis tus logged tam sim no rau siv. Koj yuav manually qhia lub peev xwm network los ntawm lub chaw-> cov kws muaj txuj chaw sab hauv MCEBuddy.
+Credential Warning	Xwm txaus ceeb toom
+Status	Leej twg
+MCEBuddy GUI: Unable to add job	MCEBuddy GUI: Tsis taus mus ntxiv txoj hauj lwm
+MCEBuddy GUI: Unable to get pipe active status	MCEBuddy GUI: Tsis tau cov yeeb yam xwm txheej
+The conversions must be stopped to change settings. Stop the conversions?	Cov los pauv hloov yuav tsum nres hloov chaw. Txhob los pauv hloov tau rau?
+Stop Engine	Tsis cav
+MCEBuddy GUI: Unable to stop MCEBuddy service from settings click	MCEBuddy GUI: Tsis txhob MCEBuddy kev pab cuam los ntawm kev nqis nias
+MCEBuddy GUI: Unable to rescan files	MCEBuddy GUI: Rescan tej ntaub ntawv tsis taus
+MCEBuddy GUI: Unable to open link	MCEBuddy GUI: Tsis qhib link
+Close	Txheeb ze
+Close this window, MCEBuddy will keep running in the background	Nyob ze qhov rai no, MCEBuddy yuav cia khiav hauv qhov background
+If you like MCEBuddy, please click here to Donate - THANKS	Yog hais tias koj xav tau MCEBuddy, thov nyem no mus Donate - THANKS
+Click here to like MCEBuddy on facebook	Nyem qhov no mus nyiam MCEBuddy hauv facebook
+Click here to open MCEBuddy website	Nyem no mus qhib lub website hauv MCEBuddy
+Rescan	Rescan
+Forces the MCEBuddy to recheck the Monitor locations for new video files to convert	Rog tus MCEBuddy mus recheck qhov chaw khiav hauj lwm saib rau ntaub tshiab video ntawv yuav siv tau
+Monitor locations	Saib qhov chaw
+Settings	Nqis
+Select the file(s) in the queue to delete	Xaiv tus file(s) hauv lub queue mus rho tawm
+Manually add video file(s) to the queue to convert	Manually ntxiv video file(s) rau lub queue kom siv tau
+Start the MCEBuddy monitor and conversion tasks	Pib qhov MCEBuddy saib thiab conversion pis
+Stop the MCEBuddy monitor and conversion tasks	Tsis txhob muaj qhov MCEBuddy saib thiab conversion pis
+There is a new version!	Muaj mas ib tug tshiab version!
+High	Siab
+Low	Tsawg
+Priority	Qhov muaj feem thib
+High priority - convert faster but may make other running applications unresponsive\r\nLow priority - convert in the background but reduced interference with other running applications	Qhov muaj feem thib siab - siv tau sai, tiam sis yuav kom lwm tus ciav sau qhov muaj feem thib unresponsive\r\nLow - siv tau nyob rau hauv cov background tiam sis txo kev cuam tshuam nrog lwm tus ciav sau
+A task is a conversion template that contains a conversion profile and various other conversion parameters.\r\nEach file added to the queue will be processed and converted by each of these tasks.\r\nRefer to the MCEBuddy Guide for more details on how tasks work.	Ib tug task yog ib yam template conversion uas muaj ib tug conversion profile thiab ntau lwm conversion parameters.\r\nEach daim ntawv ntxiv rau qhov queue yuav tiav thiab tug ntawm txhua cov tasks.\r\nRefer rau lub MCEBuddy qhia kom paub meej ntxiv txog li cas pis haujlwm.
+Getting started	Pib tau
+Click here for MCEBuddy guide	Nyem no yog MCEBuddy qhia
+Logs	Cav
+Click to open log folder	Nyem qhib cav me
+MCEBuddy Status	MCEBuddy leej twg
+add	ntau ntxiv
+delete	rho tawm
+paypal-donate	paypal-pub
+stop	nres
+OUTPUT: ConsoleOuput received NULL data	ZIS: ConsoleOuput txais NULL ntaub ntawv
+hours	teev
+minutes	feeb
+second	ob
+seconds	second
+Starting	Pib
+Comskip advertisement scan - Pass 1	Comskip advertisement scan - tshaj 1
+Comskip advertisement scan - Pass 2	Comskip advertisement scan - tshaj 2
+Cutting commercials from video	Tej commercials los yees duab
+Cutting commercials from video - segment 	Tsuav commercials ntawm cov video - segment 
+Merging commercial free segments into new video	Hauv tej theem dawb paub rau cov video tshiab
+Moving converted file to destination	Tsiv tej ntaub ntawv converted destination
+Checking for disk space	Khij rau disk chaw
+Getting show information and banner from Internet sources	Kom qhia tau tias cov lus qhia thiab banner ntawm Internet chaw
+Copying source file to working directory	Luam koj cov ntaub ntawv los mus ua hauj lwm directory
+Remuxing recording	Cov ntaubntawv povthawj siv Remuxing
+ShowAnalyzer advertisement scan	ShowAnalyzer advertisement scan
+Comskip advertisement scan	Comskip advertisement scan
+Analyzing video information	Cais cov video information
+Converting	Converting
+Removing commercials	Tshem cov commercials
+Writing show information	Sau qhia qhia
+Renaming file using show information	Renaming tej ntaub ntawv uas siv tau cov ntaub ntawv qhia tau tias
+Success - All done!	Kev kawm - ua txhua li cas!
+Muxing streams	Muxing ntws
+Fallback remux	Fallback remux
+Correcting audio delay	Txhim audio qeeb
+Converting video file - Pass 1	Converting video - thov tshaj 1
+Converting video file - Pass 2	Converting video - thov tshaj 2
+Converting video file	Ntaub ntawv converting video
+Audio Track	Audio li cas
+Impaired	Tsis hnov lus
+Channels	Raws
+Codec	Codec
+Video	Video
+Duration	Sij
+Height	Nws
+Width	Dav
+Audio	Audio
+Name	Lub npe
+Subtitle	Subtitle
+Volume	Volume
+Enable custom file renaming	Pab kom cov ntaub ntawv rau kev cai renaming
+Enable this to enter a custom pattern to rename converted files and folders. Enter the custom pattern in the box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%## - %episodename% - %airyear%_%airmonth%_%airday%\r\n\r\nWill produce:\r\nTVShows\CSI\Season 1\CSI - S01E02 - Best of times - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie%<Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill produce (for a movie)\r\n    Recording\Movies\Star Wars-Converted.<ext>\r\nOR (for non movies)\r\n    Recording\TVShows\CSI\Season 1\CSI - S01E02-Converted.<ext>\r\n\r\nRefer to the MCEBuddy advanced documentation for a list of all the pattern commands.	Qhov no yuav tsum tau ntaus tus qauv rau rename folders converted ntaub ntawv thiab cov kev cai pab. Cov qauv kev cai sau nyob rau ntawm lub box below.\r\n\r\nExample:\r\nTVShows\%showname%\Season %season%\%showname% - S % caij % ##E % rov % ##-% episodename % - %airyear%_%airmonth%_%airday%\r\n\r\nWill zaub: \r\nTVShows\CSI\Season 1\CSI - S01E02 - zoo tshaj plaws ntawm lub sij hawm - 2012_01_06.<ext>\r\n\r\nExample:\r\nRecording\%ismovie% < Movie\%showname%,TVShows\%showname%\Season %season%\%showname% - S%season%##E%episode%##>-Converted\r\n\r\nWill zaub (rau ib tug yeeb yam) \r\n Recording\Movies\Star tom Wars. <ext>\r\nOR (rau cov uas tsis yog tsos) \r\n Recording\TVShows\CSI\Season 1\CSI - S01E02-tom.<ext>\r\n\r\nRefer mus rau MCEBuddy lawm cov ntaub ntawv rau ib daim ntawv teev qhia txog tag nrho cov qauv commands.
+ShowAnalyzer not found.\nPlease download and install ShowAnalyzer.	Tsis pom ShowAnalyzer. \nPlease luam tau thiab nruab ShowAnalyzer.
+ShowAnalyzer Missing	ShowAnalyzer tsis muaj
+Invalid language code, reverting to <Default> language	Cov lus invalid code, reverting <Default>lus
+Cut start	Pib muab txiav
+Cut end	Hlais tag
+This specifies the number of seconds to cut from the start of the recording (BEFORE removing the ads)	Cov xis nkoos hlais los pib qhov txias (ua ntej yuav tshem txoj hauj lwm uas qhia) hlauv qhov no
+This specifies the number of seconds to cut from the end of the recording (BEFORE removing the ads)	Cov xis nkoos yuav hlais los xaus rau qhov txias (ua ntej yuav tshem txoj hauj lwm uas qhia) hlauv qhov no
+Send an eMail after each conversion.	Xa ib lub eMail tom qab txhua conversion.
+Send eMail	Xa eMail
+SMTP Server Name	SMTP Server npe
+Enter the outgoing eMail (SMTP) server address here\r\ne.g. smtp.gmail.com	Sau tus outgoing eMail (SMTP) server chaw here\r\ne.g. smtp.gmail.com
+Port	Port
+Enter the SMTP server port	Sau tus SMTP server port
+Use SSL	Siv SSL
+Check this if you SMTP server uses SSL	Kos qhov no yog koj SMTP server siv SSL
+e-Mail Settings	e-Mail nqis
+From <e-Mail>	Ntawm <e-Mail>
+Enter the senders (From) eMail address here	Sau rau hauv senders (ntawm) eMail chaw nyob hauv qab no
+To <e-Mails>	Mus <e-Mails>
+Enter the recipients (To) eMail address here.\r\nSeparate multiple recipients with a semicolon (;)	Sau cov neeg (mus) xa chaw here.\r\nSeparate neeg sib txuam nrog ib tug semicolon (;)
+Send eMail on successful conversion	Xa eMail rau vam conversion
+Send eMail on failed conversion	Xa eMail rau failed conversion
+Send eMail on cancelled conversion	Xa eMail rau haum conversion
+Send eMail on adding a conversion to the queue	Xa eMail rau ntxiv ib conversion rau lub queue
+Please enter a valid server address	Thov sau ib tug mhuv server chaw
+Invalid SMTP Server	Invalid SMTP Server
+Please enter a valid server port	Thov sau ib tug mhuv server port
+Invalid SMTP Port	Invalid SMTP Port
+Please enter a valid From eMail address	Thov sau ib tug mhuv ntawm eMail chaw nyob
+Invalid eMail Address	Invalid eMail Address
+Please enter valid To eMail addresses	Thov sau mhuv yuav xa tau chaw nyob
+Username	Username
+<Optional> Enter the username for the eMail server authentication	<Optional>Sau tus username rau tus eMail server authentication
+<Optional> Enter the password for the eMail server authentication	<Optional>Sau tus password rau tus eMail server authentication
+MCEBuddy unable to download series information	MCEBuddy download tau series qhia tsis tau
+MCEBuddy successfully converted a video	MCEBuddy thiaj tug ib video
+Source Video	Qhov Video
+Converted Video	Converted Video
+Converted At	Tug ntawm
+MCEBuddy failed to converted a video	MCEBuddy tsis tau tejyam rau tug tau ib cov video
+Failed At	Ua tsis tau tejyam rau
+MCEBuddy cancelled a video conversion	MCEBuddy cancelled ib video conversion
+Cancelled At	Cancelled tom
+Working	Ua hauj lwm
+Test	Kuaj
+Testing	Soj ntsuam
+Click this button to test the eMail server settings	Nyem no khawm kuaj tus eMail server nqis
+MCEBuddy will send an eMail to test the server settings.\r\nThis can take upto 60 seconds.\r\nMCEBuddy may be unresponsive during this period.	MCEBuddy yuav xa tuaj rau tus eMail mus kuaj cov settings.\r\nThis server coj upto 60 seconds.\r\nMCEBuddy tej zaum yuav unresponsive thaum lub sijhawm no.
+Test eMail	Kuaj eMail
+MCEBuddy Test eMail	MCEBuddy Test eMail
+MCEBuddy - Have a great day!	MCEBuddy - muaj ib hnub twg kuj zoo kawg thiab!
+Send eMail test successful	Xa eMail xeem vam
+Send eMail test failed! Please check your settings and internet connectivity	Xa eMail kuaj tsis tau tejyam! Thov mus saib koj tus nqis thiab internet connectivity
+Test eMail Success	EMail kuaj kev kawm
+Test eMail Failed	Kuaj eMail Failed
+Send eMail on start of conversion	Xa eMail rau conversion pib
+MCEBuddy started a video conversion	MCEBuddy pib tau ib cov video conversion
+Conversion Started At	Conversion pib ntawm
+Yes (Comskip)	Yog (Comskip)
+Yes (ShowAnalyzer)	Yog (ShowAnalyzer)
+Atleast one Conversion Task must be enabled	Atleast Task Conversion ib tug yuav tsum muab enabled
+Disable	Disable
+Enable	Pab kom
+Rename	Rename
+Move	Khiav tawm
+Up	Pem
+Down	Cia
+Slow Remuxing	Qeeb Remuxing
+Extracting closed captions	Kaw captions extracting
+Validating closed captions	Kaw captions validating
+Extracting subtitles	Extracting subtitles
+Trimming closed captions	Kaw trimming captions
+Extract subtitles and closed captions	Extract subtitles thiab raug kaw captions
+Field	Teb
+Channel	Channel
+Enable this to extract Closed Captions, Subtitles and Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV and other supported files.\r\n\r\nIt is saved as a Subtitle (SRT) file.	Pab no extract kaw Captions, Subtitles thiab Teletext from\r\nWTV, DVR-MS, TS, MP4, MKV, thiab lwm cov txhawb kev files.\r\n\r\nIt yog rua li ib tus neeg ua ntaub ntawv thov Subtitle (SRT).
+Enable this to set advanced options for Closed Captions extraction\r\nField - 1 or 2\r\nChannel - 1 or 2\r\n\r\nDefault: Field 1, Channel 1	Pab no teev txawm xaiv rau kaw Captions extraction\r\nField - 1 los sis 2\r\nChannel - 1 los sis 2\r\n\r\nDefault: teb 1, Channel 1
+Subtitle offset	Subtitle offset
+Enter the number of seconds (+ve / -ve) to adjust the subtitles sync with video	Sau tus nab npawb ntawm second (+ lub / - lub) kom swm taus rau tus subtitles sync nrog cov video
+Re-ReMuxing due to audio error	Re-ReMuxing due to audio yuam kev
+Save the poster and show information (metadata) in a MC/XBMC compatible NFO file (XML format)	Tseg rau daim ntawv loj loj thiab qhia lus (metadata) nyob hauv ib tug MC/XBMC tau tshaj NFO tej ntaub ntawv (hom ntawv XML)
+Check this box to save the show information (metadata) in the converted file.\r\nThis only works for files that support metadata tags like MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck this box if you're facing issues with some devices such as older TV's which have problem reading metadata.	Khij lub thawv no los tseg cov ntaub ntawv qhia tias (metadata) nyob hauv lub file.\r\nThis converted xwb tej hauj lwm rau cov ntaub ntawv uas yuav txhawb tau cov cim npe metadata xav tau MP4, MKV, WTV etc.\r\n\r\nNOTE: Uncheck lub npov no yog koj nyob nraum txojkev teeb meem nrog tej pab kiag li lawm xws li cov TV's uas muaj teeb meem nyeem metadata.
+Atleast one day of the week must be enabled	Atleast ib hnub ntawm lub limtiam ntawd yuav tsum muab enabled
+Invalid Days of Week	Invalid hnub ntawm lub limtiam
+Invalid day of week found in configuration file	Invalid hnub ntawm lub limtiam uas nyob rau hauv cov ntaub ntawv configuration
+Scheduling	Teem dua
+Remuxing to	Remuxing rau
+Part	Ib nrab
+Rest your mouse on any button, box or item to get Instant Help on it.\n\nFor more information on how to use, troubleshoot or get support for MCEBuddy click on the <Getting Started> link on the top right corner.\n\nDonations are always welcome :) Enjoy!\n\n  - Ramit, Derek & Goose	So koj nas khawm, lub thawv los yam kom txais pab Instant rau it.\n\nFor yog xav paub ntxiv yuav ua li cas siv, troubleshoot los yog tau txais nyiaj them yug rau MCEBuddy twg tau nyem rau ntawm tus choj tau pib > txuas rau txoj kev corner.\n\nDonations sab saum toj no yeej txais tos :) Txaus siab rau! \n\n - Ramit, Derek & gus
+Welcome to MCEBuddy	Zoo siab Tostxais MCEBuddy
+Multichannel audio	Multichannel audio
+Check to allow multi-channel audio if the source video supports it.\r\nBy default the audio is limited to 2 channels (stereo).	Kos cia multi-channel suab yog qhov cov yees duab los txhawb it.\r\nBy neej ntawd lub suab yuav yog tsawg 2 raws (tso suab).
+Dynamic Range Compression (DRC)\r\nWhen the source is an AC3 audio, enabling DRC will\r\nreduce the difference between the loud and the soft\r\nsounds making the audio track more even.\r\nIf you have a multi-channel audio recording and you\r\nfeel the volume is too soft, checking this box might help.	Dynamic ntau yam Compression (DRC) \r\nWhen yog qhov yog ib qho AC3 suab, enabling DRC will\r\nreduce qhov txawv ntawm qhov nrov thiab cov soft\r\nsounds ua tus khiav lub ntxiv even.\r\nIf koj muaj ib tug multi-channel lub txias thiab you\r\nfeel lub ntim no mos dhau lawm, khij lub npov no yuav pab tau.
+FPS	FPS
+Logfile age (days)	Logfile hnub nyoog (hnub)
+Maximum number of days to keep the logfiles before deleting them.\r\nSet to 0 to keep the logs forever.	Ntau xov tooj hnub kom cov logfiles ua ntej Hmong them.\r\nSet rau 0 cia hauv lub cav ib si.
+DVRMS Remuxing	DVRMS Remuxing
+Fast Remuxing	Ceev Remuxing
+Byte stream remuxing	Byte kwj remuxing
+Disable cropping	Cropping disable
+Check this to disable cropping the video automatically during conversion.\r\nCropping is used to remove the "black bars" in the video (top, bottom, left or right).\r\nUse this option if the video picture is getting cut on any side or if the final picture is looking stretched or distorted.	Kos lov tes taw cropping cov yees duab yuav nyob conversion.\r\nCropping qhov no yuav muab siv los tshem lub "dub tuav" nyob rau hauv cov yees duab (saum toj, hauv qab, laug los right).\r\nUse qhov kev xaiv no yog tus duab video tsis hlais sab twg los yog cov duab kawg stretched lossis distorted.
+Only detect Ads	Tsuas ntes Ads
+Check this if you want MCEBuddy to detect the ads (commercials) but NOT cut them from the video.\r\nWhen this option is enabled, MCEBuddy will create an EDL file along with the converted file that specifies the locations of ads in the converted video.\r\nAlso, for MP4, M4V and MKV files MCEBuddy will create Chapters to mark the end of commercials.	Kos qhov no yog hais tias koj xav MCEBuddy kom tau ntes cov tawm (commercials), tiam sis tsis txiav lawv ntawm lub video.\r\nWhen qhov kev xaiv no enabled, MCEBuddy yuav tsim ib cov EDL ntaub ntawv nrog rau cov ntaub ntawv converted hlauv qhov chaw khiav hauj lwm rau cov hauj lwm uas qhia hauv lub video.\r\nAlso converted, kev MP4, M4V thiab MKV ntaub ntawv MCEBuddy yuav tsim Chapters khij lub commercials tag.
+Download information	Download tau ntaub ntawv
+Correction	Kho lus
+Click here to correct the Show title and force use of a specific TVDB series id or IMDB movie id\r\nto lookup additional metadata from the internet.	Nyem qhov no mus yog cov qhia tau tias npe thiab yuam kom siv ib hom TVDB series id los yog IMDB movie id\r\nto lookup ntxiv metadata hauv internet.
+Check this to download additional information from the internet about the show like a banner file, episode, season etc	Kos qhov no mus download tau kev qhia ntxiv hauv internet txog cov yeeb yam zoo li ib tug banner ua ntaub ntawv thov, rov, lub caij thiab lwm yam
+Profile Error	Profile yuam kev
+Cannot find selected profile in profiles.conf	Nrhiav tsis tau xaiv profile hauv profiles.conf
+Invalid Profile	Invalid Profile
+Please select a valid profile	Thov xaiv ib tug siv tau profile
+The MCEBuddy Engine has crashed. Please send mcebuddy.log to the developers	Lub MCEBuddy cav muaj poob lawm. Thov xa mcebuddy.log mus rau lub developers
+Comskip INI	Comskip INI
+Select the custom Comskip INI file to use for this conversion task\r\nLeave this blank to use the default Comskip INI file for advertisement removal	Xaiv cov kev cai thov Comskip INI los siv rau qhov kev conversion task\r\nLeave no VOJVOOS siv lub neej ntawd tej ntaub ntawv Comskip INI advertisement kev tshem tawm
+Click to select custom Comskip INI file	Nyem qhov xaiv cov kev cai thov Comskip INI
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nLeave this blank to use the default temp folder in the installation folder.	Xaiv tau daim nplaub tshev rau kev ua hauj lwm nrog cov ntaub ntawv rau ib ntus. Ua kom ntseeg tau tias muaj txaus empty space ntawm tus drive.\r\nLeave no VOJVOOS lub neej ntawd temp sis siv nyob rau hauv installation ceev.
+Select the folder for working with temporary files. Make sure there is enough empty space on the drive.\r\nThis overrides the temp folder specified in the Settings -> Expert Settings page.	Xaiv tau daim nplaub tshev rau kev ua hauj lwm nrog cov ntaub ntawv rau ib ntus. Kom ntseeg tau tias muaj txaus khoob qhov chaw ntawm lub drive.\r\nThis overrides sis temp uas teev nyob hauv cov tsev koom-> cov kws muaj txuj nqis phab.
+Click to select temp working folder	Nyem qhov xaiv temp nplaub tshev ua hauj lwm
+Temp folder	Sis temp
+Space check	Qhov chaw xyuas
+When enabled MCEBuddy will check for enough free space for the conversion (destination and temp).\r\nUncheck this if you have are having trouble with network drives or have extraordinarily large video files.	Thaum enabled MCEBuddy yuav pab xyuas txaus chaw dawb rau conversion (lo lus uas peb thiab temp).\r\nUncheck no yog tias koj muaj cov muaj teeb meem nrog network drives los yog muaj ntaub ntawv ntau extraordinarily video.
+MCEBuddy Windows Event Logs	MCEBuddy qhov rais Event cav
+Events	Txheej xwm
+Click here to open the MCEBuddy Windows Event Logs	Nyem qhov no mus qhib MCEBuddy qhov rais Event cav
+Enable UPnP	Pab UPnP
+Check this to enable UPnP. This allows access to MCEBuddy engine from outside the network.\r\nThis needs to be checked if you're using a mobile/standalone MCEBuddy client to access MCEBuddy.	Ntsuam xyuas qhov no yuav pab kom UPnP. Qhov no pub rau ntaub MCEBuddy cav tawm sab nraum lub network.\r\nThis yuav tsum tau ntsuam xyuas yog hais tias koj nyob nraum siv txawb/standalone MCEBuddy kev rau MCEBuddy.
+Click here to connect to another MCEBuddy engine	Nyem qhov no mus rau lwm cov cav MCEBuddy
+MCEBuddy Remote Engine Connection	Cov kev twb kev MCEBuddy chaw taws teeb cav txuas
+Engine Name	Lub npe cav
+Engine Port	Chaw nres nkoj cav
+Enter the Name or IP Address of the MCEBuddy engine you want to connect to	Sau lub npe los yog tus IP lub cav koj xav kom mus cuag tau MCEBuddy chaw nyob
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to	Ntaus chaw nres nkoj TCP tsawg lub cav koj xav txuas mus rau MCEBuddy
+Enter the TCP Port number of the MCEBuddy Engine you want to connect to (1 to 63355)	Nkag pes tsawg chaw nres nkoj TCP ntawm lub cav koj xav kom coj mus cuag rau cov (1 rau 63355) MCEBuddy
+Invalid Name/Port	/ Chaw nres nkoj invalid lub npe
+Please enter a valid Engine Name and Engine Port Number	Thov sau ib tug siv cav lub npe thiab cov cav nab npawb chaw nres nkoj
+Error Stopping Engine	Yuam kev Stopping cav
+Unable to stop MCEBuddy engine, settings may not be saved. Do you want to continue?	Tsis txhob cav MCEBuddy, tej chaw zaum tsis tau rua. Koj puas xav mus ntxiv?
+Unable to communicate with engine. Settings have NOT been saved.	Tsis tau sib tham nrog cov cav. Chaw muaj tsis tau rua.
+Communication Error	Kev sib txuas lus yuam kev
+Engine not stopped. Settings have NOT been saved.	Cav tsis nres. Chaw muaj tsis tau rua.
+Unable To Save Settings	Tswj tsis tau kom tseg tau chaw
+Unable to communicate with engine. UPnP settings have not been updated	Tsis tau sib tham nrog cov cav. UPnP nqis muaj tsis tau tshiab
+Audio delay	Lub qeeb
+Enter a value in seconds (positive or negative) here to shift the audio relative to the video.\r\nUse this to resync the audio with the video, if they are out of sync after conversion.\r\nA positive value will delay the audio (i.e. video ahead of audio) and a negative value will advanced the audio (i.e. audio ahead of video).\r\nE.g. -1.5	Sau tus nqi nyob hauv vib nas this (zoo los tsis zoo) nov ua hauj lwm ceev cov suab relative to lub video.\r\nUse no resync lub suab nrog tus yees duab, yog lawv tsis ua of sync tom qab conversion.\r\nA zoo tus nqi yuav ncua lub suab (i.e. video ntej suab) thiab ib tus nqi tsis zoo yuav lawm lub suab (xws li lub ntej video).\r\nE.g. -1.5
+Media info	Media info
+Click here to get media properties for selected files	Nyem qhov no mus tau khoom tawm los rau cov ntaub ntawv xaiv
+Save information	Txuag xwm
+Add information	Ntxiv cov lus
+Shows a preview of the custom filename and path	Qhia tau hais tias muaj ib tug saib ua ntej filename kev cai thiab kev
+Invalid Filename Pattern	Invalid Filename txawv
+TVDB Series ID	TVDB Series ID
+IMDB Series ID	IMDB Series ID
+Original title	Thawj lub npe
+Corrected title	Corrected title
+Enter the TVDB Series ID you want to use for downloading show information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Sau tus TVDB Series ID koj yuav siv tau rau cov daus ua yeeb yam, information.\r\nIf lub npe thawj thawv tas, qhov no yuav tsum muaj ntaub ntawv rau tag nrho shows uas xaiv los ntawm kev ua hauj lwm conversion no.
+Enter the IMDB Movie ID you want to use for downloading movie information.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.	Sau tus ID koj xav siv daus movie information.\r\nIf tseem cia nrog cov IMDB Movie title Kem no tas, qhov no yuav tsum muaj ntaub ntawv rau tag nrho shows uas xaiv los ntawm kev ua hauj lwm conversion no.
+Internet Lookup Title and Metadata Correction	Internet Lookup Title thiab tus kho lus Metadata
+Click here to add another row to match and correct titles and series id.\r\nIf you want to use the same corrected title or series id for all shows converted by this conversion task,\r\nleave the original title blank on the first row and you should NOT add a second row.	Nyem qhov no mus ntxiv rau lwm leej tau phim thiab yog lub npe thiab series id.\r\nIf koj yuav tau siv lub npe tib corrected lossis series daim id rau tag nrho cov shows tom ntawm qhov conversion hauj lwm, \r\nleave VOJVOOS title yuavtsum rau ntawm thawj kab thiab koj yuav tsum tsis ntxiv tshais thib ob.
+Enter pattern to match show/series titles for correction (e.g. Simpson* will replace all titles that have a show title starting with Simpson)\r\nPrefix pattern with ~ to skip the match (e.g. *.*;~Simpson* will correct all show titles except those that start with Simpson)\r\nSeparate multiple patterns with ; (e.g. Simpson*;House*) or (e.g. Simpson*;NCIS*;~NCIS Miami*)\r\n\r\nNOTE: Leave this box empty if you want to apply the corrected title or series id to ALL files being processed by this conversion task.\r\nIf leaving blank, you cannot add a second row.\r\n\r\nYou can use a regular expression to match the title by starting with regex:	Sau tus qauv kom phim ua yeeb yam/series lub npe rau qhov kho lus (e.g. Simpson * yuav hloov lub npe tag nrho thiab muaj tus yeeb yam npe pib nrog Simpson) \r\nPrefix txawv nrog ~ mus hla mus ntais ntawv (xws li *. *; ~ Simpson * yuav yog lub npe los tsuas yog cov uas tau nrog Simpson qhia txhua yam) \r\nSeparate ntau yam cov qauv hais nrog; (piv txwv li Simpson *;House*) los yog (e.g. Simpson *;NCIS*; ~ NCIS Miami *) \r\n\r\nNOTE: tawm hauv lub npov no tas yog koj xav thov lub npe corrected lossis series daim id rau tag nrho cov ntaub ntawv tiav los ntawm no task.\r\nIf tawm hauv dawb paug conversion, koj tsis tau ntxiv ib cov thib ob row.\r\n\r\nYou yuav siv ib cov kev qhia kom phim lub npe los pib nrog regex:
+Enter the new/corrected title you want to use for downloading additional information from the internet.\r\nIf the Original title box is empty, this will be applied to all shows selected by this conversion task.\r\n\r\nYou can use a regular expression to correct the title by starting with regex:	Sau tus tshiab/ho npe koj yuav siv tau rau cov daus ntxiv ntawm internet.\r\nIf tseem cia nrog npe lub thawv tas, qhov no yuav tsum muaj ntaub ntawv rau tag nrho cov shows xaiv los ntawm no task.\r\n\r\nYou yuav siv ib cov kev qhia los yog lub npe uas pib nrog regex:
+For each row, please enter the Original title to match the show name AND either a Corrected title or a TVDB/IMDB Series ID	Rau txhua leej, thov sau cov npe kom phim tus yeeb yam npe thiab ib leej Corrected yuavtsum npe los yog ib daim ID TVDB/IMDB Series
+Please enter either a Corrected title or a TVDB/IMDB Series ID	Thov sau ib lub npe Corrected los yog ib daim ID TVDB/IMDB Series
+Enable this if you want MCEBuddy to put the converted file in the source directory\r\nif the destination path is unavailable. (e.g. Network failure or mapping failure)	Pab no yog tias koj xav MCEBuddy rau cov converted ua ntaub ntawv thov rau ntawm qhov chaw directory\r\nif txoj kev lo lus uas peb tsis yog. (e.g. Network tsis ua hauj lwm los yog tsis ua kuas)
+Fallback to source path	Fallback mus rau qhov kev
+Used to increase or decrease the volume of the\r\nrecording while converting.\r\n1 is normal, anything below will reduce it, anything\r\nhigher will increase it.	Siv yuav nce los yog yuav txo qhov ntim ntawm the\r\nrecording hos converting.\r\n1 yog dab tsi, tej yam nram qab no yuav txo nws, anything\r\nhigher yuav nce.
+Archive folder	Archive nplaub tshev
+Change the location of the archive folder.\r\nLeave empty to use the default 'MCEBuddyArchive' folder in the original directory.	Hloov cov chaw hauv cov archive folder.\r\nLeave tas siv lub neej ntawd 'MCEBuddyArchive' sis nyob hauv cov thawj directory.
+Monitor subdirectories	Saib subdirectories
+Check this box to also monitor all directories within the Monitor path	Khij lub thawv no los soj ntsuam tag nrho Wage li saib kev
+Click here to show MCEBuddy status	Nyem qhov no mus qhia rau lawv MCEBuddy
+MCEBuddy service not connected	MCEBuddy pab tsis cob cog rua
+MCEBuddy idle	MCEBuddy dawb
+conversions in progress	los pauv hloov hauv cov kev kawm
+MCEBuddy stopped	Tsis MCEBuddy
+Sync converted files	Cov ntaub ntawv tom sync
+Check this option if you want MCEBuddy to keep the converted files in sync with the original files.\r\ni.e. When the original files are deleted by the user, the corresponding converted files are also deleted.\r\n\r\nNOTE: MCEBuddy only monitors original files in the monitor locations folders and ONLY while the engine is running.\r\nMCEBuddy will not be able to track user deleted files while the engine is stopped.	Kos qhov no yog hais tias koj xav kom MCEBuddy yuav tau khaws cov ntaub ntawv converted hauv sync nrog cov thawj files.\r\ni.e. Thaum cov ntaub ntawv yeej muaj deleted los ntawm tus neeg siv, cov ntaub ntawv converted coj yuav tsum deleted.\r\n\r\nNOTE: MCEBuddy no xwb tsom kwm thawj cov ntaub ntawv nyob ntawm saib qhov chaw folders thiab thaum lub cav no yog running.\r\nMCEBuddy yuav tsis tau los teev cia cov neeg siv deleted ntaub ntawv thaum lub cav ua vig nres.
+Do you wish MCEBuddy to delete each converted file when the original file has been deleted?	Koj puas xav MCEBuddy kom rho tawm txhua yam ntaub ntawv uas converted thaum cov ntaub ntawv yeej muaj deleted lawm?
+Confirm sync conversions?	Paub meej tias nws los pauv hloov tau sync?
+Are you sure you DO NOT want to remove commercials from the converted video and only keep the EDL file?	Koj yog tias koj tsis xav kom tshem commercials tawm tus yees duab converted thiab khaws ntawv EDL xwb?
+ShowAnalyzer is not responding. Please the reboot system or reinstall ShowAnalyzer.	Tsim teb ShowAnalyzer yog tsis raug. Thov reboot lawv los yog reinstall ShowAnalyzer.
+ShowAnalyzer Not Responding	ShowAnalyzer tsis tiv thaiv
+Make sure you press 'Start' after closing this window, otherwise Scheduling and Wake will not work.	Nco ntsoov koj nias 'Tau' tom qab kaw cov qhov rai no, nkawd Scheduling thiab Wake yuav tsis ua hauj lwm.
+Enabling Scheduling and Wake	Enabling teem dua thiab Wake
+Passwords do not match	Passwords tsis phim
+Password error	Kev ua yuam kev lo lus zais
+Adding subtitles and chapters to file	Subtitles ntxiv thiab cov tshooj ntawv
+Send eMail if unable to download series information	Xa eMail yog download tau series qhia tsis tau
+Check this box if you want this conversion task to only process files from specific monitor locations.\r\nIf unchecked each conversion task will process files from all monitor locations (including new ones added later).	Khij lub bov no yog hais tias koj xav tau qhov hauj lwm conversion los tsuas ntaub ntawv cov ntaub ntawv ntawm qhov kev saib locations.\r\nIf tsi kuaj xyuas qhov hauj lwm txhua conversion yuav ntaub ntawv cov ntaub ntawv los ntawm cov saib chaw (xws li tshiab sawv daws yuav ntxiv tom qab).
+Select Monitor Locations	Xaiv cov chaw khiav hauj lwm saib
+Select atleast one Monitor Location name	Xaiv atleast ib saib qhov chaw nyob npe
+You have selected all the current Monitor Locations.\r\nDo you want this conversion task to automatically process any new Monitor Locations added in future?	Koj tau xaiv txhua tus tam sim no saib Locations.\r\nDo koj xav no conversion hauj lwm yuav txais ntaub ntawv yam tshiab saib chaw ntxiv rau yav tom ntej?
+New monitor locations	Saib lwm qhov chaw tshiab
+Invalid selection	Invalid xaiv
+Channel name match	Channel npe match
+Enter pattern to match the channel name for this task (e.g. ABC* will convert all files that recorded on a channel name starting with ABC)\r\nPrefix pattern with ~ to skip the match (e.g. *;~ABC* will process all channels except those that start with ABC)\r\nSeparate multiple patterns with ; (e.g. ABC*;TBS*) or (e.g. ABC*;Fox*;~Fox4*)\r\n\r\nYou can use regular expressions to match the pattern by starting with regex:	Sau tus qauv kom phim lub npe channel rau qhov hauj lwm no (e.g. ABC * yuav hloov cov ntaub ntawv tau kaw rau ib lub npe channel pib nrog ABC) \r\nPrefix txawv nrog ~ mus hla mus ntais ntawv (e.g. *; ~ ntaub ABC * yuav ntawv tag nrho raws tsuas yog cov uas tau nrog ABC) \r\nSeparate ntau yam cov qauv hais nrog; (e.g. ABC *;TBS*) los yog (e.g. ABC *;Fox*; ~ Fox4 *) \r\n\r\nYou yuav siv kab zauv uas tsis tu ncua kom phim tus qauv uas pib nrog regex:
+Clear history	Ntshiab keeb kwm
+Click this button to clear the history of all converted files.\r\nThis is cause MCEBuddy to reconvert all files being monitored.	Nias no khawm kom tshem tau cov keeb kwm tag nrho converted files.\r\nThis yog rau MCEBuddy yuav reconvert tag nrho cov ntaub ntawv nyob rawv.
+Are you sure you want to clear the history of all conversions?\r\nThis will cause MCEBuddy to reconvert all files being monitored.	Koj puas tseeb koj xav kom du dais los pauv hloov tau tag nrho cov keeb kwm? \r\nThis yuav ua MCEBuddy yuav reconvert tag nrho cov ntaub ntawv nyob rawv.
+Show history	Qhia keeb kwm
+Click this button to show the history of all converted files.	Nyem no khawm kom qhia tau cov keeb kwm tag nrho converted ntaub ntawv.
+History of Converted Files	Keeb kwm ntawm Converted ntaub ntawv
+Unable to communicate with engine.	Tsis tau sib txuas lus nrog cov cav.
+Extracting streams	Extracting ntws
+Fallback muxing streams	Fallback muxing ntws
+Remuxing TiVO file	Cov ntaub ntawv Remuxing TiVO
+Enter your 10 digit TiVO MAK key to convert and process TiVO recordings	Sau tiag koj 10 thaum cov MAK TiVO yuam kom hloov thiab cov txheej txheem TiVO recordings
+Invalid TiVO MAK Key	Tus yuam sij invalid TiVO MAK
+The TiVO MAK key should be 10 digits	Lub TiVO MAK yuam yuav tus xaus-npawb 10 tsab
+Version mismatch. Please ensure that the MCEBuddy client and engine are running the same version.	Version mismatch. Thov xyuas tias cov MCEBuddy kev thiab cav yuav khiav tib lub version.
+Error retrieving Event Logs	Retrieving Event cav ua yuam kev
+Unable to get Event Log Entries from the MCEBuddy engine.	Tsis tau Event cav nkag ntawm qhov cov cav MCEBuddy.
+PAUSED: Check conversion schedule	PAUSED: Kos conversion raws sij hawm
+Logging	Txiav
+Folder Management	Nplaub tshev Management
+Processor Management	Processor Management
+Expert Settings	Muaj nqis
+System Settings	Lawv tej chaw
+Click here to change additional settings (for experts only)	Nyem qhov no mus pauv ntxiv nqis (cov uas ua hauj lwm xwb)
+Failed folder	Failed nplaub tshev
+Location of the folder that hold the original files for failed conversions.	Qhov chaw nyob rau hauv daim nplaub tshev uas tuav cov ntaub ntawv yuavtsum tau tejyam los pauv hloov tau.
+Move original file on failure	Txav mus thawj ua ntaub ntawv thov rau tsis ua hauj lwm
+Check this to move the original file to a separate folder if the conversion fails.	Kos txav daim tseem ntawv los ib kem ceev yog cov conversion tsis no.
+Check this to limit the number of logical processors that MCEBuddycan use.\r\nEach check box below corresponds to an available logical processor.	Kos qhov no kom tsis txhob muaj tus nab npawb ntawm cov zajlus kom processors uas yog MCEBuddycan use.\r\nEach kos kem hauv qab no rau ib zajlus kom muaj processor hnov.
+Each box represents logical processors from 1 to 16 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Txhua lub thawv represents zajlus kom processors ntawm 1 mus rau 16 respectively.\r\nChecking ib kem pub rau cov MCEBuddy siv ntawd processor.
+Each box represents logical processors from 17 to 32 respectively.\r\nChecking a box allows MCEBuddy to use that processor.	Txhua lub thawv represents zajlus kom processors ntawm 17 mus rau 32 respectively.\r\nChecking ib kem pub rau cov MCEBuddy siv ntawd processor.
+Select atleast one processor to use	Xaiv atleast ib processor siv
+Invalid Configuration	Invalid Configuration
+Comskip path	Tus kab Comskip
+If you want to use a custom version of Comkip (e.g. donator version)\r\nthen enter the path of the comskip installation here.\r\nLeave blank to use the default comskip that comes with MCEBuddy.	Yog koj xav siv ib tug kev cai version ntawm Comkip (e.g. donator version) \r\nthen sau ib txog kev los ntawm cov comskip installation here.\r\nLeave dawb paug siv lub neej ntawd comskip uas muaj MCEBuddy.
+Miscellaneous	Lwm yam
+Ignore copy protection	Las mees luam protection
+Check this to ignore the copy protection flag on video file while converting.\r\nNOTE: MCEBuddy cannot bypass encryption, this only helps if a file is incorrectly\r\ntagged as copy protected when it is NOT encrypted.	Kos qhov no las mees tiv thaiv daim chij rau video ntaub ntawv thaum uas converting.\r\nNOTE: MCEBuddy tsis tau bypass encryption, qhov no tsuas pab yog ib cov ntaub ntawv yog incorrectly\r\ntagged raws li daim ntawv tiv thaiv ua ntej thaum nws yuav tsis encrypted.
+Use recycle bin	Siv rau hauv recycle
+Check this to use the recycle bin when files are deleted by MCEBuddy	Kos qhov no siv rau cov recycle rau hauv thaum cov ntaub ntawv yog deleted ntawm MCEBuddy
+Poll period	Poll lub sij hawm
+This is how often MCEBuddy scans the Monitor Tasks Locations for new files.\r\nThe interval is specified in seconds.	Qhov no yog li cas feem ntau MCEBuddy scans rau qhov chaw saib kev pab raws qib rau cov tshiab yuav luv files.\r\nThe teev nyob hauv vib nas this.
+Server port	Neeg rau zaub mov cov chaw nres nkoj
+This is the TCP port MCEBuddy uses to communicate with the remote engine.\r\nWhen UPnP is enabled, MCEBuddy will automatically add this port to the Windows Firewall\r\nand UPnP gateway to allow access from the internet on this port.	Qhov no yog cov chaw nres lub TCP nkoj MCEBuddy siv sib txuas lus nrog rau tej thaj chaw deb engine.\r\nWhen UPnP enabled, MCEBuddy yuav tau ntxiv qhov chaw nres nkoj rau lub qhov rais Firewall\r\nand UPnP rooj vag cia mus saib hauv internet rau ntawm qhov chaw nres nkoj.
+Hang period	Dai period
+Enter the number of seconds that MCEBuddy will wait for a response from the\r\nunderlying application before terminates the application as hung.\r\nEnter 0 to disable hang detection.	Sau cov xis nkoos MCEBuddy yuav tos the\r\nunderlying Thov teb tas sij ua ntej hawm daim ntawv thov raws li hung.\r\nEnter 0 lov tes taw nrhiav kom tau hang.
+Subtitle commercial cut sync	Subtitle coj mus muag hlais sync
+This parameter is used when the subtitles go progressively out of sync after each commercial segment is removed from the video.\r\nThis setting is used to bring the subtitles back into sync with the video.\r\nEach time the video commercial is cut out, the subtitles are time shifted by this amount (+ve or -ve in seconds).	No parameter yog siv thaum lub subtitles mus progressively ua of sync tom qab ib nplais ntawd lub coj mus muag rho tawm ntawm tus video.\r\nThis chaw siv mus nqa cov subtitles rov qab rau hauv sync nrog rau lub sij hawm video.\r\nEach tus yees duab coj mus muag hlais tawm, tus subtitles lub sij hawm uas txav los no tus nqi (+ lwm - lwm hauv vib nas this).
+Invalid poll period	Invalid poll lub sij hawm
+Invalid server port	Neeg rau zaub mov rau invalid chaw nres nkoj
+eMail Subject Customization	eMail kawm Customization
+Use this section to customize the subject of eMail sent by MCEBuddy on the various conversion events listed below.\r\nRefer to the documentation, custom commands for user defined variables.\r\ne.g. Show %showname% for file %originalfilename% conversion successful using task %taskname%\r\nNOTE: Not always will all the data be available in the custom commands.\r\nLeave blank to use default subject lines.	Siv seem no customize hais txog tus eMail xa ntawm MCEBuddy lub conversion ntau yam uas teev below.\r\nRefer rau cov ntaub ntawv, kev cai commands rau neeg txhais variables.\r\ne.g. Zoo siv ua hauj lwm % taskname%\r\nNOTE qhia % showname % rau ntaub ntawv % originalfilename % conversion: ib txwm tsis tas nrho cov ntaub ntawv yuav muaj nyob hauv lub commands.\r\nLeave kev cai siv vim kawm kab dawb paug.
+Success	Zoo
+Failed	Ua tsis tau tejyam
+Cancelled	Lawm os
+Download fail	Download tau fail
+Limit processor utilization	Txwv processor siv
+Check this to limit the number of logical processors that MCEBuddy can use.\r\nEach check box below corresponds to an available logical processor.	• Ntsuam no kom tsis txhob muaj tus nab npawb ntawm cov zajlus kom processors MCEBuddy yuav use.\r\nEach kos kem hauv qab no hnov rau ib zajlus kom muaj processor.
+Custom profile	Kev cai profile
+If you have a custom profiles.conf file that you want to use instead of the\r\none that comes with MCEBuddy, enter the path to the file here.\r\n\r\nNOTE: MCEBuddy constantly updates profiles.conf to provide bug fixes,\r\nenhancements and performance improvements which you will miss out\r\non if you use this feature.	Yog hais tias koj muaj ib tus neeg ua ntaub ntawv thov kev cai profiles.conf uas koj yuav siv tsis tau the\r\none uas muaj MCEBuddy, mus yuav sau tag txoj kev rau cov ntaub ntawv here.\r\n\r\nNOTE: MCEBuddy lossi tshiab profiles.conf muab kab fixes, txhim \r\nenhancements thiab kev kawm ntawv kho uas koj yuav nco out\r\non yog tias koj siv no feature.
+Invalid custom profiles.conf	Kev cai profiles.conf invalid
+Suspend on battery	Muab ncua tau tseg rau roj teeb
+Suspend conversions when the computer switches to battery power	Muab ncua tseg los pauv hloov thaum lub computer switches kom muaj roj teeb muaj hwj chim
+MCEBuddy added a video conversion to the queue	MCEBuddy ntxiv ib conversion video rau lub queue
+Queue	Queue
+Refer to documentation on using custom commands in custom eMail subjects	Xa mus rau lwm cov ntaub ntawv rau kev cai commands siv nyob rau hauv kev cai eMail compound
+Could not copy information to Clipboard, please try again.	Yuav tsis luam cov ntaub ntawv yuav ntawv los teev cia, thov sim dua.
+Error copying to Clipboard	Luam rau ntawv los teev cia ua yuam kev
+Copy to clipboard	Luam rau ntawv los teev cia
+Reconvert files	Reconvert ntaub ntawv
+Are you sure you want to reconvert the selected files?	Koj puas paub hais tias koj xav reconvert cov ntaub ntawv xaiv?
+Select the files you want to reconvert and then click this button.\r\nIf the original files are still being monitored by MCEBuddy they will be queued for reconversion.	Xaiv cov ntaub ntawv uas koj xav reconvert thiab ces nyem no button.\r\nIf cov ntaub ntawv yuavtsum yog tseem nyob rawv ntawm lawv yuav tsum tau queued rau reconversion MCEBuddy.
+Time taken to convert	Lub sij hawm los hloov ua lwm yam
+Network authentication	Network authentication
+Click the button to enter the network shares credentials.\r\nThis authentication is used when files are added via the Add button on the main window\r\nor dragged and dropped from a network share into the conversion status box on the main window.	Nias lub khawm uas yuav tsum tau ntaus lub network shares credentials.\r\nThis authentication yog siv rau thaum ntaub ntawv muab ntawm lub khawm Add rau hauv window\r\nor lub ntsiab dragged thiab nqis ntawm network cost share rau lub conversion txheej xwm kem ntawm cov qhov rai uas tseem ceeb.
+Skip reconversion	Hla reconversion
+Do not reconvert the video if a converted file already exists in the destination directory.	Tsis reconvert cov yees duab tias tshwm ib tug converted cov ntaub ntawv twb sim nyob rau hauv cov lo lus uas peb directory.
+The expected filename for the converted video (not the original video filename) is compared with the filenames in the destination directory.\r\nIf the converted file exists, the file will not be reconverted and it will be assumed to be a successful conversion.\r\nThis is useful if the same show/episode is being recorded on multiple times and you don't want to reconvert them.\r\n\r\nNOTE: This option is ignored for videos that are added manually using the add button or dragging and dropping	Cov kev tsim tus filename mus yees cov converted duab (tsis tus thawj video filename) piv nrog rau lub filenames ntawm cov lo lus uas peb directory.\r\nIf tshwm sim converted ntawv, cov ntaub ntawv yuav tsis raug reconverted thiab nws yuav tsum assumed kom tau ib tus zoo conversion.\r\nThis no pab tau yog tus qub cwj/rov yog raug kaw nyob rau ntau lub sij hawm thiab koj tsis xav reconvert them.\r\n\r\nNOTE: Qhov no yog ignored rau cov yeeb yaj duab uas muaj ntxiv manually siv khawm sib ntxiv los yog dragging thiab xa me nyuam rov
+If enabled, skip reconversion will also check the history file for past conversions.\r\nThe expected filename for the converted video (not the original video filename) is compared with the filenames in the history file.\r\nIf the to be converted filename (including path) matches any of the already converted filenames (including paths) in the history file,\r\nthe file will not be reconverted and it will be assumed to be a successful conversion.	Yog enabled, hla reconversion yuav tau kos rau tej ntaub ntawv keeb kwm rau conversions.\r\nThe lawm tau leej twg filename kev yees cov converted duab (tsis tus thawj video filename) piv nrog cov filenames hauv lub keeb kwm file.\r\nIf lub qhov converted filename (xws li kev) yuav tsis khoom ib yam ntawm cov twb converted filenames (xws li paths) nyob rau hauv cov ntaub ntawv keeb kwm, \r\nthe tej ntaub ntawv yuav tsis raug reconverted thiab yuav tsum assumed kom tau ib tus zoo conversion.
+Adding file to the iTunes library	Muab cov ntaub ntawv rau lub tsev qiv ntawv iTunes
+Add to iTunes	Ntxiv rau iTunes
+Check this box to automatically add the converted files to the iTunes library.\r\nThis only works with iTunes supported files (e.g. MP4, M4V, MP3 etc)	Khij lub npov no yuav ntxiv cov ntaub ntawv converted rau lub iTunes library.\r\nThis xwb tsuas nrog iTunes txaus siab cov ntaub ntawv (xws li MP4, M4V, thiab lwm yam kev MP3)
+Adding file to the WMP library	Muab cov ntaub ntawv rau lub tsev qiv ntawv WMP
+Library Management	Qiv Management
+Add to Windows Media Player	Ntxiv rau cov neeg uas ua qhov rais Media ntawv
+Check this box to automatically add the converted files to the WMP library.	Khij lub npov no yuav ntxiv cov ntaub ntawv converted rau lub tsev qiv ntawv hauv WMP.
+Renaming and Sorting	Renaming thiab Sorting
+Selection Filters	Xaiv cov ntxaij lim dej
+Audio and Video	Suab thiab yees duab
+Subtitles and Chapters	Subtitles thiab Chapters
+Skip copying original files	Hla kev luam cov ntaub ntawv yeej
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.	KOS no kem ntawm koj lub RISK.\r\nDO tsis xyuas no BOX tshwj tias koj paub tias koj yog dab tsi DOING.\r\nCheck lub npov no yuav hla mus txiav ib thaub qab ntawm daim tseem ntawv (luam) thaum uas converting.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip making a backup of original file (copying) while converting.\r\nIf this is checked, the original file will not be preserved in case of an error.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	KOS no kem ntawm koj lub RISK.\r\nDO tsis kos rau lub BOV no NTSHE koj paub seb koj lub thawv no los hla mus txiav ib thaub qab ntawm daim tseem ntawv (luam) thaum lub converting.\r\nIf no yog xyuas, cov ntaub ntawv yeej yuav tsis yuav fwm thaum ib tug error.\r\nIt DOING.\r\nCheck kuj txawm taus conversion failures los sis lwm cov teeb meem unforeseen conversion.
+Are you sure you want to do this?	Koj puas paub hais tias koj xav kom ua li no?
+Media Information Management	Media Information Management
+Force show type	Quab yuam qhia hom
+Set this to force treating the video recording as a Movie or TV Series.\r\nThis will change the way additional information (metadata) about the recording is downloaded from the internet.\r\nMovie - Treat the recording as movie\r\nSeries - Treat the recording as a TV Series\r\nSports - Treat the recording as a Sports show\r\nDefault - Use the default information available in the recording metadata to determine Movie or TV Series	Muab qhov no mus yuam kom kho tus yees duab teev li tus yeeb yam los yog TV Series.\r\nThis yuav hloov txoj kev xav paub ntxiv (metadata) hais txog qhov cov ntaubntawv povthawj siv yog downloaded ntawm tus internet.\r\nMovie uas - Treat qhov txias li movie\r\nSeries - Treat qhov txias li ib cov TV Series\r\nSports - Treat qhov txias ua rau ib cov kev ua si show\r\nDefault - siv lub neej ntawd qhia muaj nyob rau hauv cov ntaubntawv povthawj siv metadata saib Movie los sis TV Series
+Show type	Qhia tau tias hom
+Select this to filter the type of recordings being converted.\r\n\r\nMovies - select this to convert if the show type is Movie.\r\nShows - select this to convert if the show type is NOT a Movie.\r\nSports - select this to convert if the show type is Sports.\r\n\r\nNOTE: Show type is read from the recording metadata.\r\nOnly some recordings support show type metadata such as WTV and\r\nrecordings with supporting metadata files (XML/ARG etc).	Xaiv qhov no mus lim hom recordings nyob converted.\r\n\r\nMovies - xaiv no kom hloov tau yog cov qhia tau tias hom Movie.\r\nShows - xaiv no kom hloov yog hom qhia tau tias tsis yog ib tug Movie.\r\nSports - xaiv no kom hloov tau yog cov qhia tau tias hom Sports.\r\n\r\nNOTE: qhia hom yog nyeem cov metadata.\r\nOnly tej recordings txhawb cov ntaubntawv povthawj siv qhia tau tias hom metadata xws li WTV and\r\nrecordings nrog txhawb metadata mus (XML/ARG thiab lwm yam).
+This box shows all the files in queue for conversion.\r\nDrag and drop files here or press the Add button to add files to the conversion queue	Lub npov no qhia tag nrho cov ntaub ntawv hauv queue ntaub conversion.\r\nDrag thiab nco ntawv no lossis xovxwm Add khawm ntxiv cov ntaub ntawv rau tus conversion queue
+Conversion	Conversion
+Files	Ntaub ntawv
+Click this button to open or close the Advanced Settings section	Nyem qhov no khawm qhib los yog kaw cov Advanced chaw seem
+Running custom commands	Khiav kev cai commands
+Trimming video recording	Trimming video txias
+Insert at top of queue	Ntxig rau saum queue
+By default, new conversions are added to the bottom (end) of the conversion queue.\r\nIf this box is checked, any new conversions added by this task will be added to the\r\nbeginning (top) of the conversion queue.	Yog lub neej ntawd, tshiab los pauv hloov yog ntxiv rau lub qab (kawg) ntawm queue.\r\nIf lub npov no yog xyuas, tej los pauv hloov tshiab ntxiv los ntawm koj qhov hauj lwm no yuav muab ntxiv rau qhov the\r\nbeginning (saum) ntawm cov conversion queue conversion.
+Add subtitles and chapters	Ntxiv subtitles thiab chapters
+Enable this option to add any extracted subtitles and chapters to the converted video.\r\nEach chapter marks the end of a commercial. This only works with supported formats (e.g. MKV, MP4).\r\n\r\nNOTE: Some players and older TV's don't support embedded subtitles and chapters.\r\nIf you're unable to playback the converted video's, try turning this option off.	Pab kom tau qhov kev xaiv no ntxiv rau txhua tus extracted subtitles thiab chapters mus rau tom video.\r\nEach Tshooj marks kawg ntawm ib tug coj mus muag. Qhov no tsuas ua haujlwm nrog txhawb kev tawm tswv yim (xws li MKV, MP4).\r\n\r\nNOTE: ib co players thiab TV's laus tsis them nyiaj yug embedded subtitles thiab chapters.\r\nIf koj nyob nraum playback tus yees duab converted lub peev xwm, txhob xa cov kev xaiv no.
+Select best soundtrack	Xaiv cov zoo soundtrack
+If the original video has multiple soundtracks, this option tells MCEBuddy to select the most appropriate and primary soundtrack.\r\nIf you want a specific language soundtrack, make sure you enter the language name or code in the Audio Language box.\r\nCheck this box if you're hearing the wrong soundtrack in your converted file.\r\n\r\nUncheck this box if you want MCEBuddy to retain all the soundtracks from the original video in the converted file when possible.\r\nNOTE:Some profiles do not support multiple soundtracks, in which case this setting has no effect.	Yog tias tus yees duab yuavtsum muaj soundtracks ntau, qhov no twb qhia rau MCEBuddy los xaiv tus tshaj plaws tsim nyog thiab thawj soundtrack.\r\nIf koj xav tau ib tug hais lus soundtrack, xyuas kom koj nkag mus rau ntawm lub npe lus lossis code hauv lub suab lus box.\r\nCheck lub npov no yog koj nyob nraum hnov tus soundtrack lawm nyob rau hauv koj cov file.\r\n\r\nUncheck converted lub npov no yog koj xav MCEBuddy kom khaws tag nrho cov kev soundtracks ntawm lub yeej yees duab rau hauv converted thaum tau. yog muajr\nNOTE: ib co profiles tsis txhawb soundtracks ntau, ua which qhov no chaw twb tsis ntxim.
+Enable remote access	Pab kom tej thaj chaw deb saib
+This creates an exception in the windows firewall for MCEBuddy application and the port.\r\nThis is required if you have windows firewall enabled and want to use UPnP, the remote client\r\nor access the engine using an IP address.\r\n\r\nNOTE: If you have a custom firewall, this may not work, you will need to manually create an\r\nexception for MCEBuddy service and the port.	Qhov no tsim kev zam nyob rau hauv lub qhov rais firewall rau MCEBuddy daim ntawv thov thiab tus port.\r\nThis no yuav tsum yog tias koj muaj qhov rais firewall enabled thiab xav siv UPnP, rau tej thaj chaw deb client\r\nor siv lub cav uas siv ib tus IP address.\r\n\r\nNOTE: yog hais tias koj muaj ib cov kev cai firewall, qhov no yuav tsis ua hauj lwm, koj yuav tau mus manually ua an\r\nexception MCEBuddy kev pab thiab cov chaw nres nkoj.
+Unable to communicate with engine. Firewall exception settings have not been updated.	Tsis tau sib txuas lus nrog cov cav. Firewall kos tej chaw muaj tsis tau tshiab.
+Detect and optimize video quality	Ntes thiab optimize video zoo
+When enabled, MCEBuddy will optimize the video processing options by trying to detect the video source type.\r\nThis can improve the quality of the converted video significantly if correctly detected.\r\n\r\nNOTE: It does this by trying to detect the video source type (interlaced, progressive or telecine).\r\nIf it is able to detect the video source type, it will override the corresponding parameters in the profile.\r\nTurn this option off if you are facing issues with converted video quality or want to use the default profile parameters.	Thaum enabled, MCEBuddy yuav optimize rau cov video ua kev xaiv uas ua tau los xyuas txog cov video los type.\r\nThis tau zoo ntawm cov yees duab converted ho yog looj detected.\r\n\r\nNOTE: nws ua li no uas ua tau los xyuas txog cov video los ntaus (interlaced, progressive los nws tseem tau los xyuas txog cov video los cas telecine).\r\nIf, nws ua tus coj tsis nyob hauv lub profile.\r\nTurn no tawm qhov yog koj muaj teeb meem txog kev converted video zoo txojkev xav siv lub neej ntawd profile tsis yuav override.
+Are you sure you want to delete this task?	Koj puas paub hais tias koj xav rho tawm qhov hauj lwm no?
+Delete Task	Rho tawm cov neeg ua hauj lwm
+Enter the new task name	Sau cov neeg ua hauj lwm npe tshiab
+Rename Task	Rename ua hauj lwm
+MCEBuddy PAUSED	MCEBuddy PAUSED
+idle	dam
+PAUSED	PAUSED
+Frame rate	Ncej npaum li cas
+Enable this to set a custom framerate (FPS) for the converted video.\r\nYou may need to set this while converting video formats (e.g. PAL to NTSC)\r\nor for devices which support only specific framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001	Pab no teev ib tug kev cai framerate (FPS) rau cov converted video.\r\nYou yuav tau muab qhov no thaum uas converting video tawm tswv yim (tej xws li NPAWG rau NTSC) \r\nor rau li uas yuav pab txhawb kev xwb framerates.\r\n\r\nE.g.: 25\r\nE.g.: 30000/1001
+Skip remuxing files	Ntaub ntawv remuxing hla
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.\r\nIf this is checked, some functions like subtitle extraction or comskip may not work.\r\nIt can also even lead to conversion failures or other unforeseen conversion issues.	KOS no kem ntawm koj lub RISK.\r\nDO tsis kos no BOX tshwj tias koj paub seb koj cov DOING.\r\nCheck lub npov no yuav hla mus remuxing yuavtsum ua ntaub ntawv thov rau ib TS thaum lub converting.\r\nIf no soj ntsuam, ib co zog xws li subtitle extraction los yog comskip yuav tsis work.\r\nIt yuav kuj tseem ua tau kom conversion failures los sis lwm cov teeb meem unforeseen conversion.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nCheck this box to skip remuxing the original file to a TS file while converting.	KOS no kem ntawm koj lub RISK.\r\nDO tsis xyuas no BOX tshwj tias koj paub tias koj yog dab tsi DOING.\r\nCheck lub npov no yuav hla mus remuxing daim tseem ntawv rau ib tus neeg ua ntaub ntawv thov TS hos converting.
+Monitor converted videos	Tom saib yeeb yaj duab
+By default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.\r\nCAUTION: This can lead to an infinite conversion loop of converted files if not configured properly.\r\n\r\nThis can be useful when you are specifying the output directory of a conversion task\r\n(converted file) as the Monitor Path of a Monitor Location and linking the\r\nMonitor Location to another conversion task.	Liam ua neej ntawd saib qhov chaw yuav fab cov ntaub ntawv uas twb tau converted.\r\nCheck lub npov no yog tias koj tseem xav mus saib xyuas cov ntaub ntawv converted nyob rau saib Path.\r\nCAUTION: qhov no yuav ua tau kom muaj ib qho infinite conversion voj converted ntaub ntawv yog tsis configured properly.\r\n\r\nThis thiaj yuav pab tau thaum koj yog specifying cov zis directory ib conversion task\r\n (converted thov) raws li txoj kev saib rau ib lub chaw saib thiab linking the\r\nMonitor Qhov chaw rau cov neeg ua hauj lwm conversion lwm.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will ignore files that have already been converted.\r\nCheck this box if you also want to monitor converted files in the Monitor Path.	Liam qhov xyuas no kem ntawm koj lub RISK.\r\nDO tsis kos no BOX tshwj tias koj paub tias koj yog dab tsi DOING.\r\nBy neej ntawd saib chaw yuav fab cov ntaub ntawv uas twb tau converted.\r\nCheck lub npov no yog tias koj tseem xav los soj converted ntaub ntawv rau tus saib kev.
+Hardware encoding	Radon encoding
+Check this box to use hardware encoding when available to convert videos.\r\nThis can speed up the conversion significantly and reduce the CPU utilization\r\nbut it can result in slightly lower quality videos.\r\n\r\nUncheck this box if you're facing conversion or quality issues.	Khij lub thawv no los siv kho vajtse encoding thaum muaj hloov videos.\r\nThis yuav kom tus conversion yig thiab txo ntawm CPU utilization\r\nbut kuj ua rau ib nyuag sab zoo videos.\r\n\r\nUncheck no box yog hais tias koj nyob nraum txojkev conversion los yog muaj teeb meem txog kev tsis zoo.
+Do not overwrite files	Tsis overwrite ntaub ntawv
+When this box is checked, the destination file will not be overwritten if it already exists.\r\nInstead a new file will be created with a unique number added to the end of the filename.	Thaum no khij lub npov no, cov lo lus uas peb cov ntaub ntawv yuav tsis tau overwritten yog hais tias nws twb exists.\r\nInstead ib daim ntawv tshiab yuav tsim muaj ib cov nab npawb cim ntxiv mus xaus rau lub filename.
+Re-monitor recorded videos	Rov saib xyuas kaw tseg cov yeeb yaj duab
+By default, once a source file (Recorded video) has been converted,\r\nthe monitor history will track the filename and not queue the same files again.\r\n\r\nEnable this option to ignore the history and monitor all files and add them to\r\nthe conversion queue, even if they have already been converted.\r\n\r\nThis can be useful sometimes, if the recording software does not generate a\r\nunique filename for each episode/show. It is reccomended to use the\r\nDelete original file option in the Settings page when using this option to avoid\r\nan infinite conversion loop.	Ntawm lub neej ntawd, thaum muaj tau tom ib qhov ntawv (Recorded video), saib \r\nthe keeb kwm yuav taug qab lub filename thiab tsis queue tib yam ntaub ntawv again.\r\n\r\nEnable qhov kev xaiv no yuav las mees keeb kwm thiab saib xyuas txhua yam ntaub ntawv thiab sau ntxiv to\r\nthe conversion queue, txawm yog lawv twb tau converted.\r\n\r\nThis tau pab yuav qee zaus, yog tias qhov txias software tsis ua kom muaj a\r\nunique filename rau txhua rov/yeeb yam. Nws yog reccomended siv the\r\nDelete yuavtsum ua ntaub ntawv thov kev xaiv nyob rau hauv cov tsev koom sab thaum uas siv cov kev xaiv no los avoid\r\nan infinite conversion voj.
+Recommendation	Pom zoo
+To avoid an infinite conversion loop, it is recommended to setup your Monitor search pattern in a way such as to ensure that the converted files are not being monitored by this Monitor task.	Yuav tsum tsis txhob muaj cov voj infinite conversion, nws pom zoo kom mus setup koj saib nrhiav txawv nyob rau hauv ib txoj kev xws li yuav tau xyuas kom meej tias cov ntaub ntawv converted tsis yog yuav tsum muaj los ntawm kev ua hauj lwm saib no.
+CHECK THIS BOX AT YOUR OWN RISK.\r\nDO NOT CHECK THIS BOX UNLESS YOU KNOW WHAT YOU ARE DOING.\r\nBy default Monitor Locations will not remonitor recorded videos that have been processed.\r\nCheck this box if you want to remonitor and reconvert the recorded videos.	KOS no kem ntawm koj tus kheej RISK.\r\nDO tsis xyuas no BOX tshwj tias koj paub tias yog dab tsi koj DOING.\r\nBy neej ntawd saib qhov chaw yuav tsis remonitor kaw yeeb yaj duab uas muaj tau processed.\r\nCheck lub npov no yog koj xav mus remonitor thiab reconvert cov yeeb yaj duab kaw tseg.
+To avoid an infinite conversion loop, it is recommended that you enable Delete original file option in the Settings page.	Yuav tsum tsis txhob muaj cov voj infinite conversion, nws yog pom zoo tias koj pab tau kom rho tawm yuavtsum ua ntaub ntawv thov kev xaiv nyob rau hauv cov tsev koom sab.
+Prioritize air date matching	Prioritize cua hnub txuam
+MCEBuddy uses the episode name to match the series information\r\nwhile searching the internet. If that fails then it uses the original broadcast\r\nair date to match the metadata.\r\n\r\nCheck this box to use the original broadcast air date first and then the\r\nepisode name to match for the series information from the internet.\r\nThis can be useful in some cases when multiple seasons have the same\r\nepisode name. E.g. Americal Idol, Audition 1\r\n\r\nNOTE: Original broadcast air date is not always accurate set by the\r\nbroadcaster and sometimes the information on the internet is incorrect.\r\nUse this option only if the default option is not working for you.	MCEBuddy siv lub lub npe rov phim lub series information\r\nwhile searching hauv internet. Yog tias tsis ces nws siv lub hnub broadcast\r\nair yeej phim lub metadata.\r\n\r\nCheck lub thawv no los siv cov huab cua tshaj tawm hauv xov thawj hnub ua ntej thiab ces the\r\nepisode npe kom phim series qhia los ntawm tus internet.\r\nThis yuav pab tau tej zaum thaum caij ntau muaj tus same\r\nepisode npe. Xws li Americal mlom, Audition 1\r\n\r\nNOTE: thawj hnub uas huab cua tshaj tawm hauv xov no tsis yog ib txwm yog teeb los ntawm the\r\nbroadcaster thiab qee zaum cov ntaub ntawv hauv internet no incorrect.\r\nUse no qhov tsuas yog lub neej ntawd xaiv tsis ua hauj lwm rau koj.
+Skip eMail body	EMail hla lub cev
+Check this option to use an empty body in the notification eMail.\r\nThis can be useful if you're using a SMS gateway for eMail notifications.	Khij qhov kev xaiv no yuav siv ib lub cev uas npliag nyob hauv lub ceeb toom eMail.\r\nThis kuj yuav pab tau yog koj nyob nraum siv ib lub rooj vag SMS xa eMail qhia.
+Selection based on Digital Right Management (DRM) is available\r\nonly when Rename without converting (Rename and move only) option is selected.\r\n\r\nAll - Selects all files for processing, irrespective of copy protection status\r\nProtected - Only select files which are copy protected\r\nUnprotected - Only select files which do not have copy protection	Xaiv nyob rau hauv cov cai tswj (DRM) yog tau available\r\nonly thaum Rename tsis muaj converting (Rename thiab nti xwb) xaiv yog selected.\r\n\r\nAll - twg xaiv tag nrho cov ntaub ntawv rau tus ua, irrespective of luam protection status\r\nProtected - tsuas xaiv mus uas yog daim ntawv protected\r\nUnprotected - tsuas xaiv tau cov ntaub ntawv uas tsis muaj kev tiv thaiv los ntawm daim ntawv
+Download cover art	Download tau hau kos duab
+Enable this to download the cover art from the original video and internet if available.	Pab no mus download tau lub hau nraaj tsis los ntawm tus thawj yees duab thiab internet yog tias muaj.
+Are you sure you want to enter a Domain Name?\r\n\r\nUse this ONLY if you are using a Windows Domain Controller to manage your authentication.\r\nDo NOT use this if you are part of a Workgroup.\r\n\r\nIf you are unsure click NO.	Koj puas paub hais tias koj yuav tau sau ib lub npe sau? \r\n\r\nUse no tsuas yog hais tias koj siv xws li sau qhov rai uas tswj koj authentication.\r\nDo tsis siv no yog hais tias koj yog ib feem ntawm ib tug Workgroup.\r\n\r\nIf koj cov nias xyov NO.
+Configuration Warning	Configuration ceeb toom
+Creates a folder called 'MCEBuddyArchive' where the original file is located\r\nand moves the orginal file in this directory after a successful conversion.\r\n\r\nThis folder name and location be changed below.	Tsim ib sis hu ua 'MCEBuddyArchive' daim tseem ntawv qhov twg located\r\nand tsiv orginal ntawv hauv no directory tom qab ib vam meej conversion.\r\n\r\nThis sis lub npe thiab qhov chaw nyob tau hloov hauv qab no.
+Monitoring	Xyuas
+If you want to convert the EDL file into chapters, make sure you check the 'Add Subtitles and Chapters' option in Expert Settings.	Yog hais tias koj xav hloov ntawv EDL rau hauv chapters, xyuas kom koj nrhiav tau tus 'Subtitles ntxiv thiab Chapters' kev xaiv nyob rau cov tej chaw kws muaj txuj.
+EDL to Chapters	EDL rau Chapters

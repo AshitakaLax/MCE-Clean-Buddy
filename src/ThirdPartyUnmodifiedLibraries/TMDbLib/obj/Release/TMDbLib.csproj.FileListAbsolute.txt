@@ -1,0 +1,7 @@
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\TMDbLib\bin\Release\MCEBuddy.TMDbLib.dll
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\TMDbLib\bin\Release\MCEBuddy.TMDbLib.pdb
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\TMDbLib\bin\Release\MCEBuddy.RestSharp.dll
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\TMDbLib\bin\Release\MCEBuddy.RestSharp.pdb
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\TMDbLib\obj\Release\TMDbLib.csprojResolveAssemblyReference.cache
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\TMDbLib\obj\Release\MCEBuddy.TMDbLib.dll
+C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\TMDbLib\obj\Release\MCEBuddy.TMDbLib.pdb
