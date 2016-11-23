@@ -5,3 +5,6 @@ C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodif
 C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\TMDbLib\bin\Debug\MCEBuddy.RestSharp.pdb
 C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\TMDbLib\obj\Debug\MCEBuddy.TMDbLib.dll
 C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\TMDbLib\obj\Debug\MCEBuddy.TMDbLib.pdb
+C:\Users\lballing\Documents\hobby\MCE-Clean-Buddy\src\ThirdPartyUnmodifiedLibraries\TMDbLib\obj\Debug\TMDbLib.csprojResolveAssemblyReference.cache
+C:\Users\lballing\Documents\hobby\MCE-Clean-Buddy\src\ThirdPartyUnmodifiedLibraries\TMDbLib\obj\Debug\MCEBuddy.TMDbLib.dll
+C:\Users\lballing\Documents\hobby\MCE-Clean-Buddy\src\ThirdPartyUnmodifiedLibraries\TMDbLib\obj\Debug\MCEBuddy.TMDbLib.pdb

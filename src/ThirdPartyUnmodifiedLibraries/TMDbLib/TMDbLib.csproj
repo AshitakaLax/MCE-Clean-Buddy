@@ -43,6 +43,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="RestSharp, Version=105.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\RestSharp.105.2.3\lib\net4-client\RestSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
@@ -165,12 +169,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="MCEBuddy2-HP.pfx" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RestSharp\RestSharp.csproj">
-      <Project>{2ECECFBF-5F3E-40EE-A963-72336DC7ABE2}</Project>
-      <Name>RestSharp</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

@@ -1,5 +1,5 @@
 ﻿using RestSharp;
-using RestSharp.Contrib;
+using RestSharp.Extensions.MonoHttp;
 using TMDbLib.Objects.Find;
 using TMDbLib.Utilities;
 
