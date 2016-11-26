@@ -35,7 +35,8 @@ namespace MCEBuddy.MetaData
             try
             {
                 TMDbClient client = new TMDbClient(MCEBUDDY_TMDB_APIKey);
-                List<SearchMovie> movieSearch = new List<SearchMovie>();
+                // List<SearchMovie> movieSearch = new List<SearchMovie>();
+        SearchContainer<SearchMovie> movieSearch = new SearchContainer<SearchMovie>();
                 Movie movieMatch = null;
 
                 // TODO: Add support for multiple language searches
@@ -46,21 +47,21 @@ namespace MCEBuddy.MetaData
                         // The information is stored on the server using the network timezone
                         // So we assume that the show being converted was recorded locally and is converted locally so the timezones match
                         DateTime dt = videoTags.OriginalBroadcastDateTime.ToLocalTime();
-                        movieSearch = client.SearchMovie(videoTags.Title.Trim().ToLower(), 0, true, dt.Year).Results;
-                    }
+                        movieSearch = client.SearchMovieAsync(videoTags.Title.Trim().ToLower(), 0, true, dt.Year).Result;
+          }
                     else // Title Check
-                        movieSearch = client.SearchMovie(videoTags.Title.Trim().ToLower(), 0, true, 0).Results;
+                        movieSearch = client.SearchMovieAsync(videoTags.Title.Trim().ToLower(), 0, true, 0).Result;
                 }
                 else // Specific ID
                 {
-                    movieMatch = client.GetMovie(videoTags.imdbId); // We have a specific movie to work with
+                    movieMatch = client.GetMovieAsync(videoTags.imdbId).Result; // We have a specific movie to work with
                 }
 
                 if (movieMatch == null) // If we haven't forced a movie match
                 {
-                    foreach (SearchMovie movieResult in movieSearch) // Cycle through all possible combinations
+                    foreach (SearchMovie movieResult in movieSearch.Results) // Cycle through all possible combinations
                     {
-                        Movie movie = client.GetMovie(movieResult.Id);
+                        Movie movie = client.GetMovieAsync(movieResult.Id).Result;
                         List<AlternativeTitle> akaValues = null;
                         if (movie.AlternativeTitles != null)
                             akaValues = movie.AlternativeTitles.Titles;
@@ -146,7 +147,7 @@ namespace MCEBuddy.MetaData
             try
             {
                 TMDbClient client = new TMDbClient(MCEBUDDY_TMDB_APIKey);
-                List<TvShowBase> showSearch = new List<TvShowBase>();
+                List<SearchTv> showSearch = new List<SearchTv>();
 
                 // TODO: Add support for multiple language searches
                 if (String.IsNullOrWhiteSpace(videoTags.tmdbId)) // If dont' have a specific movieId specified, look up the show details
@@ -156,14 +157,14 @@ namespace MCEBuddy.MetaData
                         // The information is stored on the server using the network timezone
                         // So we assume that the show being converted was recorded locally and is converted locally so the timezones match
                         DateTime dt = videoTags.OriginalBroadcastDateTime.ToLocalTime();
-                        showSearch = client.SearchTvShow(videoTags.Title.Trim().ToLower(), 0).Results;
+                        showSearch = client.SearchTvShowAsync(videoTags.Title.Trim().ToLower(), 0).Result.Results;
                     }
                     else // Title Check
-                        showSearch = client.SearchTvShow(videoTags.Title.Trim().ToLower(), 0).Results;
+                        showSearch = client.SearchTvShowAsync(videoTags.Title.Trim().ToLower(), 0).Result.Results;
                 }
                 else // Specific ID
                 {
-                    TvShow showMatch = client.GetTvShow(int.Parse(videoTags.tmdbId)); // We have a specific show to work with
+                    TvShow showMatch = client.GetTvShowAsync(int.Parse(videoTags.tmdbId)).Result; // We have a specific show to work with
 
                     // First match by Episode name and then by Original broadcast date (by default prioritize match date is false)
                     if (!MatchSeriesInformation(client, videoTags, showMatch, prioritizeMatchDate, dontOverwriteTitle, jobLog))
@@ -172,9 +173,9 @@ namespace MCEBuddy.MetaData
                         return true;
                 }
 
-                foreach (TvShowBase showResult in showSearch) // Cycle through all possible combinations
+                foreach (SearchTv showResult in showSearch) // Cycle through all possible combinations
                 {
-                    TvShow show = client.GetTvShow(showResult.Id);
+                    TvShow show = client.GetTvShowAsync(showResult.Id).Result;
                     string title = videoTags.Title;
 
                     // Get and match Show name (check both titles and aka values)
@@ -239,13 +240,13 @@ namespace MCEBuddy.MetaData
             // Cycle through all Seasons and Episodes looking for a match
             for (int sNo = 0; sNo <= tvShow.NumberOfSeasons; sNo++)
             {
-                TvSeason season = client.GetTvSeason(tvShow.Id, sNo);
+                TvSeason season = client.GetTvSeasonAsync(tvShow.Id, sNo).Result;
                 if (season == null || season.Episodes == null)
                     continue;
 
                 for (int eNo = 0; eNo <= season.Episodes.Count; eNo++)
                 {
-                    TvEpisode episode = client.GetTvEpisode(tvShow.Id, sNo, eNo);
+                    TvEpisode episode = client.GetTvEpisodeAsync(tvShow.Id, sNo, eNo).Result;
                     if (episode == null)
                         continue;
 
@@ -253,7 +254,7 @@ namespace MCEBuddy.MetaData
 
                     if (!String.IsNullOrWhiteSpace(episodeName))
                     {
-                        DateTime firstAired = episode.AirDate;
+                        DateTime firstAired = (DateTime)episode.AirDate;
                         if (firstAired == null || firstAired <= GlobalDefs.NO_BROADCAST_TIME)
                             continue;
 
@@ -331,13 +332,13 @@ namespace MCEBuddy.MetaData
             // Cycle through all Seasons and Episodes looking for a match
             for (int sNo = 0; sNo <= tvShow.NumberOfSeasons; sNo++)
             {
-                TvSeason season = client.GetTvSeason(tvShow.Id, sNo);
+                TvSeason season = client.GetTvSeasonAsync(tvShow.Id, sNo).Result;
                 if (season == null || season.Episodes == null)
                     continue;
 
                 for (int eNo = 0; eNo <= season.Episodes.Count; eNo++)
                 {
-                    TvEpisode episode = client.GetTvEpisode(tvShow.Id, sNo, eNo);
+                    TvEpisode episode = client.GetTvEpisodeAsync(tvShow.Id, sNo, eNo).Result;
                     if (episode == null)
                         continue;
 
@@ -359,7 +360,7 @@ namespace MCEBuddy.MetaData
                             if (tvShow.FirstAirDate != null)
                                 premiereDate = (DateTime)tvShow.FirstAirDate;
                             List<string> genres = (tvShow.Genres != null ? tvShow.Genres.Select(s => s.Name).ToList() : new List<string>());
-                            DateTime firstAired = (episode.AirDate != null ? episode.AirDate : GlobalDefs.NO_BROADCAST_TIME);
+                            DateTime firstAired = (DateTime)(episode.AirDate != null ? episode.AirDate : GlobalDefs.NO_BROADCAST_TIME);
                             string mediaCredits = (tvShow.Credits != null ? ((tvShow.Credits.Cast != null) ? String.Join(";", tvShow.Credits.Cast.Select(s => s.Name)) : "") : "");
 
                             client.GetConfig(); // First we need to get the config

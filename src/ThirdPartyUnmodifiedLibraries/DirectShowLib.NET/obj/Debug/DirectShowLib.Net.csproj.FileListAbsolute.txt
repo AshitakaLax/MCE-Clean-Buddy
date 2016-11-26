@@ -4,6 +4,5 @@ C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodif
 C:\Users\lballing\Documents\school\mcebuddy2x-43782\MCEBuddy2x\ThirdPartyUnmodifiedLibraries\DirectShowLib.NET\obj\Debug\MCEBuddy.DirectShowLib.Net.pdb
 C:\Users\lballing\Documents\hobby\MCE-Clean-Buddy\src\ThirdPartyUnmodifiedLibraries\DirectShowLib.NET\bin\Debug\MCEBuddy.DirectShowLib.Net.dll
 C:\Users\lballing\Documents\hobby\MCE-Clean-Buddy\src\ThirdPartyUnmodifiedLibraries\DirectShowLib.NET\bin\Debug\MCEBuddy.DirectShowLib.Net.pdb
-C:\Users\lballing\Documents\hobby\MCE-Clean-Buddy\src\ThirdPartyUnmodifiedLibraries\DirectShowLib.NET\obj\Debug\DirectShowLib.Net.csprojResolveAssemblyReference.cache
 C:\Users\lballing\Documents\hobby\MCE-Clean-Buddy\src\ThirdPartyUnmodifiedLibraries\DirectShowLib.NET\obj\Debug\MCEBuddy.DirectShowLib.Net.dll
 C:\Users\lballing\Documents\hobby\MCE-Clean-Buddy\src\ThirdPartyUnmodifiedLibraries\DirectShowLib.NET\obj\Debug\MCEBuddy.DirectShowLib.Net.pdb
